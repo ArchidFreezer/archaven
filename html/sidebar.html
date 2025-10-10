@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<title>Sidebar</title>
+	<meta charset="utf-8">
+	<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<a href="main.html" class="w3-button" target="i_main">Home</a><br>
+
+<button class="w3-button" onclick="myAccFunc('bsAcc')">Banner Spear <i class="fa fa-caret-down"></i></button><br>
+<div id="bsAcc" class="w3-container w3-hide">
+	<a href="builds/bs-tank.html" class="w3-button" target="i_main">Tank</a>
+</div>
+
+<button class="w3-button" onclick="myAccFunc('boAcc')">Boneshaper<i class="fa fa-caret-down"></i></button><br>
+<div id="boAcc" class="w3-container w3-hide">
+	<a href="builds/bo-swarm.html" class="w3-button" target="i_main">Skeleton Swarm</a>
+</div>
+
+<script>
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+		x.previousElementSibling.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+		x.previousElementSibling.previousElementSibling.className = x.previousElementSibling.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+</script>
+
+</body>

@@ -1,12 +1,24 @@
 <html>
 <head>
-	<title>Frosthaven Build Viewer</title>
-	<meta charset="utf-8">
+  <title>Frosthaven Build Viewer</title>
+  <style>
+		.flex-container {
+			display: flex;
+      height:100%;
+			border: none;
+		}
+		.sidebar {
+			width: 160px;
+		}
+		.main {
+			flex: 1;
+		}
+  </style>
 </head>
 <body>
-<h1><center>Frosthaven Build Viewer</center></h1>
-This site hosts some frosthaven builds that I have either copied from online or created myself. The builds I have created myself will be strongly based on online resources as I am, at best, a decidedly average player.
-<p>
-The images used in this site are taken from the <a href="https://github.com/any2cards/worldhaven">worldhaven git repository</a>
-
+	<div class="flex-container">
+		<iframe class="sidebar" src="sidebar.html" name="i_sidebar"></iframe>
+		<iframe class="main" src="main.html" name="i_main"></iframe>
+	</div>
 </body>
+</html>

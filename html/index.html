@@ -1,26 +1,23 @@
-<html>
-<head>
-  <title>Frosthaven Build Viewer</title>
-  <style>
-		.flex-container {
-			display: flex;
-      height:100%;
-		}
-		.sidebar {
-			width: 160px;
-			border: none;
-		}
-		.main {
-			flex: 1;
-			border: none;
-		}
-  </style>
-</head>
-
+<!DOCTYPE html>
+<title>Frosthaven Build Viewer</title>
+<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-	<div class="flex-container">
-		<iframe class="sidebar" src="sidebar.html" name="i_sidebar"></iframe>
-		<iframe class="main" src="main.html" name="i_main"></iframe>
-	</div>
+<script src="sidebar.js"></script>
+
+<header class="w3-container w3-green">
+	<button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+	<h1><center>Frosthaven Build Viewer</center></h1>
+</header>
+
+<div class="w3-container">
+	This site hosts some Frosthaven builds that I have either copied from online or created myself. The builds I have created myself will be strongly based on online resources as I am, at best, a decidedly average player.
+</div>
+
+<footer class="w3-container w3-teal">
+	The images used in this site are taken from the <a href="https://github.com/any2cards/worldhaven">worldhaven git repository</a>
+</footer>
+
 </body>
 </html>

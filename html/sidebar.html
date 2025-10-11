@@ -10,27 +10,18 @@
 
 <a href="main.html" class="w3-button" target="i_main">Home</a><br>
 
-<button class="w3-button" onclick="myAccFunc('bsAcc')">Banner Spear <i class="fa fa-caret-down"></i></button><br>
-<div id="bsAcc" class="w3-container w3-hide">
-	<a href="builds/bs-tank.html" class="w3-button" target="i_main">Tank</a>
+<div class="w3-dropdown-hover">
+	<button class="w3-button">Banner Spear <i class="fa fa-caret-down"></i></button>
+	<div id="bsDrop" class="w3-dropdown-content w3-bar-block w3-card-4">
+		<a href="builds/bs-tank.html" class="w3-bar-item w3-button" target="i_main">Tank</a>
+	</div>
 </div>
-
-<button class="w3-button" onclick="myAccFunc('boAcc')">Boneshaper<i class="fa fa-caret-down"></i></button><br>
-<div id="boAcc" class="w3-container w3-hide">
-	<a href="builds/bo-swarm.html" class="w3-button" target="i_main">Skeleton Swarm</a>
+	
+<div class="w3-dropdown-hover">
+	<button class="w3-button">Boneshaper <i class="fa fa-caret-down"></i></button>
+	<div id="bsDrop" class="w3-dropdown-content w3-bar-block w3-card-4">
+		<a href="builds/bo-swarm.html" class="w3-bar-item w3-button" target="i_main">Skeleton Swarm</a>
+	</div>
 </div>
-
-<script>
-function myAccFunc(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-		x.previousElementSibling.previousElementSibling.className += " w3-green";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-		x.previousElementSibling.previousElementSibling.className = x.previousElementSibling.previousElementSibling.className.replace(" w3-green", "");
-  }
-}
-</script>
 
 </body>

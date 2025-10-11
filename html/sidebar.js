@@ -27,6 +27,7 @@ function sidebarDropClick(id) {
   <div class="w3-dropdown-click">
     <button class="w3-button" onclick="sidebarDropClick('bsDrop')">Banner Spear <i class="fa fa-caret-down"></i></button>
     <div id="bsDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+      <a href="bs-main.html" class="w3-bar-item w3-button">Overview</a>
       <a href="bs-tank.html" class="w3-bar-item w3-button">Tank</a>
     </div>
   </div>
@@ -34,6 +35,7 @@ function sidebarDropClick(id) {
   <div class="w3-dropdown-click">
     <button class="w3-button" onclick="sidebarDropClick('boDrop')">Boneshaper <i class="fa fa-caret-down"></i></button>
     <div id="boDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+      <a href="bo-main.html" class="w3-bar-item w3-button">Overview</a>
       <a href="bo-swarm.html" class="w3-bar-item w3-button">Skeleton Swarm</a>
     </div>
   </div>

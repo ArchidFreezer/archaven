@@ -1,84 +1,84 @@
 {
 	"characters": [
-	 {
-		 "id": "bb",
-		 "label": "Blinkblade",
-		 "handsize": 10
-	 },
-	 {
-		 "id": "bn",
-		 "label": "Banner Spear",
-		 "handsize": 10
-	 },
-	 {
-		 "id": "bo",
-		 "label": "Boneshaper",
-		 "handsize": 12
-	 },
-	 {
-		 "id": "cr",
-		 "label": "Crashing Tide",
-		 "handsize": 12
-	 },
-	 {
-		 "id": "df",
-		 "label": "Drifter",
-		 "handsize": 12
-	 },
-	 {
-		 "id": "dt",
-		 "label": "Deepwraith",
-		 "handsize": 10
-	 },
-	 {
-		 "id": "ff",
-		 "label": "Frozen Fist",
-		 "handsize": 8
-	 },
-	 {
-		 "id": "ge",
-		 "label": "Geminate",
-		 "handsize": 14
-	 },
-	 {
-		 "id": "hv",
-		 "label": "Hive",
-		 "handsize": 11
-	 },
-	 {
-		 "id": "if",
-		 "label": "Infuser",
-		 "handsize": 11
-	 },
-	 {
-		 "id": "me",
-		 "label": "Metal Mosaic",
-		 "handsize": 9
-	 },
-	 {
-		 "id": "pc",
-		 "label": "Pain Conduit",
-		 "handsize": 10
-	 },
-	 {
-		 "id": "py",
-		 "label": "Pyroclast",
-		 "handsize": 10
-	 },
-	 {
-		 "id": "sd",
-		 "label": "Snowdancer",
-		 "handsize": 11
-	 },
-	 {
-		 "id": "sh",
-		 "label": "Shattersong",
-		 "handsize": 10
-	 },
-	 {
-		 "id": "ta",
-		 "label": "Trapper",
-		 "handsize": 9
-	 }
+		{
+			"id": "bb",
+			"label": "Blinkblade",
+			"handsize": "10"
+		},
+		{
+			"id": "bn",
+			"label": "Banner Spear",
+			"handsize": "10"
+		},
+		{
+			"id": "bo",
+			"label": "Boneshaper",
+			"handsize": "12"
+		},
+		{
+			"id": "cr",
+			"label": "Crashing Tide",
+			"handsize": "12"
+		},
+		{
+			"id": "df",
+			"label": "Drifter",
+			"handsize": "12"
+		},
+		{
+			"id": "dt",
+			"label": "Deepwraith",
+			"handsize": "10"
+		},
+		{
+			"id": "ff",
+			"label": "Frozen Fist",
+			"handsize": "8"
+		},
+		{
+			"id": "ge",
+			"label": "Geminate",
+			"handsize": "14"
+		},
+		{
+			"id": "hv",
+			"label": "Hive",
+			"handsize": "11"
+		},
+		{
+			"id": "if",
+			"label": "Infuser",
+			"handsize": "11"
+		},
+		{
+			"id": "me",
+			"label": "Metal Mosaic",
+			"handsize": "9"
+		},
+		{
+			"id": "pc",
+			"label": "Pain Conduit",
+			"handsize": "10"
+		},
+		{
+			"id": "py",
+			"label": "Pyroclast",
+			"handsize": "10"
+		},
+		{
+			"id": "sd",
+			"label": "Snowdancer",
+			"handsize": "11"
+		},
+		{
+			"id": "sh",
+			"label": "Shattersong",
+			"handsize": "10"
+		},
+		{
+			"id": "ta",
+			"label": "Trapper",
+			"handsize": "9"
+		}
 	]
 }

@@ -91,23 +91,23 @@ def html_lvl1cardchoice(char):
 	choices=jmespath.search("lvl1choices[*].[label,overview]", jbuild)
 	for choice in choices:
 		hf.write(f'''
-			<p><b>{choice[0]}</b>
-			<p>{choice[1]}
-			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			<div class="w3-container">
+				<h3 class="w3-light-grey">{choice[0]}</h3>
+				<p>{choice[1]}
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		''')
 
 		cards = jmespath.search(f"lvl1choices[?label=='{choice[0]}'].cards[].[id,comment]", jbuild)
 		for card in cards:
-			img=jmespath.search(f"cards[?id=='{card[0]}'].[image][]|[0]", jcards)
-			print(img)
 			hf.write(f'''
-				<div class="w3-card-4" style="width:250px">
-					<img class="ability-desc" src="images/frosthaven/{img}"/>
-					<p>{card[1]}
-				</div>
+					<div class="w3-card-4" style="width:250px">
+						<img class="ability-desc" src="{cardimages[card[0]]}"/>
+						<p>{card[1]}
+					</div>
 			''')
 			
 		hf.write('''
+				</div>
 			</div>
 		''')
 	hf.write('''
@@ -123,13 +123,13 @@ def html_levelcardstable(char, level):
 	''')
 	
 	if level == 1:
-		query=f"cards[?character=='{char}' && (level == '1' || level == 'x')].[image, id]"
+		query=f"cards[?character=='{char}' && (level == '1' || level == 'x')].id"
 	else:
-		query=f"cards[?character=='{char}' && level == '{level}'].[image, id]"
+		query=f"cards[?character=='{char}' && level == '{level}'].id"
 
-	carddata = jmespath.search(query, jcards)
-	for data in carddata:
-		builddata=jmespath.search(f"cards[?id=='{data[1]}'].[top, bottom, overall][]", jbuild)
+	ids = jmespath.search(query, jcards)
+	for id in ids:
+		builddata=jmespath.search(f"cards[?id=='{id}'].[top, bottom, overall][]", jbuild)
 		if len(builddata) == 0:
 			builddata.append("The top action discussion.")
 			builddata.append("The bottom action discussion.")
@@ -137,7 +137,7 @@ def html_levelcardstable(char, level):
 
 		hf.write(f'''
 				<tr>
-					<td rowspan="2"><img class="ability-desc" src="images/frosthaven/{data[0]}"/>
+					<td rowspan="2"><img class="ability-desc" src="{cardimages[id]}"/>
 					<td class="w3-container" style="width:60%">{builddata[0]}
 					<td class="w3-container" rowspan="2">{builddata[2]}
 				<tr>
@@ -163,7 +163,13 @@ def html_bottom():
 def get_build_name(id, build):
 	charname = jmespath.search(f"characters[?id=='{id}'].label|[0]", jchars)
 	return  charname + " " + build
-	
+
+def get_card_images(char):
+	cards = jmespath.search(f"cards[?character=='{char}'].[image, id]", jcards)
+	for data in cards:
+		img=f"images/frosthaven/{data[0]}"
+		cardimages.update({data[1]: img})
+
 buildid="bn-tank"
 
 # Read our json card data
@@ -185,6 +191,10 @@ jbuild=jmespath.search(f"builds[?id=='{buildid}']|[0]", jbuilds)
 charid=jmespath.search("character", jbuild)
 build=jmespath.search("build", jbuild)
 buildname=get_build_name(charid, build)
+
+# We reuse card so create a cache of their image path
+cardimages = dict()
+get_card_images(charid)
 
 html_top(buildname)
 html_overview()

@@ -179,19 +179,73 @@
 					"id": "tauntinghowl",
 					"top": "Whilst this is undoubtably a powerful top, the synergy benefits of the bottom are immense when setting up our other cards.",
 					"bottom": "Move + Granted Move is what we generally like more than anything, but the downside is that Combined Effort and Boldening Blow have historically had poor initiatives. Here we get an excellent amount of movement (9 in total!) while also going at a speedy 11 initiative. It's everything you could ever want. Suddenly, setting up the top of Tri-Thrust doesn't seem so difficult. And right now, you're probably saying 'But Gripeaway, you skipped the top!' To which I'll just respond 'Did I?'",
-					"overall": "Taunting Howl is the best bottom action on this class for any build other than Tank (and even there it’s still solid)."
+					"overall": "Taunting Howl is the best bottom action on this class for any build other than Tank (and even there it's still solid)."
 				},
 				{
 					"id": "takenoprisoners",
-					"top": "The tops biggest weakness is going to be enemies with Shield. Sure, Poison is useful against them, but spending a fair amount of setup and your level 9 card just to apply AoE Poison and maybe a tiny bit of damage against them isn’t great. The key here is the number of our modifier cards that will be drawn.",
-					"bottom": "Fortunately, the bottom is excellent against enemies with Shield by virtue of being direct damage. It has huge range and a lot of health so it’s unlikely to die and it’s pretty likely to damage most enemies in most rounds of the scenario. While it might seem like it’s not a big upgrade over Banner of Strength, it’s worth considering the number of enemy turns vs ally turns. Most of the time, there should be two to three times as many enemies as characters. Obviously summoners change the math and yes, once again, Banner of Strength is absurd with the Boneshaper. But otherwise, this is likely to deal around twice the damage of Banner of Strength. And by being at the start of each enemy’s turn, you always get the damage at an effective time rather than relying on character initiative. The downside is that Banner of Strength can focus all of its damage into a single enemy in a round, whereas this is inherently split.",
-					"overall": "It’s hard to look at Take No Prisoners and not just start chuckling in amusement. It’s just pretty absurd. And it would be justifiably difficult to set up if only we hadn’t just taken Taunting Howl."
+					"top": "The tops biggest weakness is going to be enemies with Shield. Sure, Poison is useful against them, but spending a fair amount of setup and your level 9 card just to apply AoE Poison and maybe a tiny bit of damage against them isn't great. The key here is the number of our modifier cards that will be drawn.",
+					"bottom": "Fortunately, the bottom is excellent against enemies with Shield by virtue of being direct damage. It has huge range and a lot of health so it's unlikely to die and it's pretty likely to damage most enemies in most rounds of the scenario. While it might seem like it's not a big upgrade over Banner of Strength, it's worth considering the number of enemy turns vs ally turns. Most of the time, there should be two to three times as many enemies as characters. Obviously summoners change the math and yes, once again, Banner of Strength is absurd with the Boneshaper. But otherwise, this is likely to deal around twice the damage of Banner of Strength. And by being at the start of each enemy's turn, you always get the damage at an effective time rather than relying on character initiative. The downside is that Banner of Strength can focus all of its damage into a single enemy in a round, whereas this is inherently split.",
+					"overall": "It's hard to look at Take No Prisoners and not just start chuckling in amusement. It's just pretty absurd. And it would be justifiably difficult to set up if only we hadn't just taken Taunting Howl."
 				},
 				{
 					"id": "hailofspears",
-					"top": "Even just playing Banner of Strength, this would be a non-loss Attack 11 once each rest cycle with a bit of an upside and downside (moving the Banner forward is helpful for traversal but risky for its survival). Of course, we want to do better than that. We really want to play Hail of Spears with two Banners, which gets us to an absurd non-loss Attack 15-16 per rest cycle. As discussed previously, sufficient offensive tempo like this can absolutely justify the significant reduction in stamina. Furthermore, the reduced stamina is actually a bit of a combo here: by going to very short rest cycles right away, we end up playing this action even more, which helps us to further dominate the scenario. Your second rest cycle will already only be three turns, which means you’re looking at doing an Attack 15-16 every three turns on average for an entire scenario. That’ll usually get the job done.<p>Now what is the best way to set up Hail of Spears? As I mentioned at level 6, the best combo is going to involve Banner of Valor alongside Banner of Courage. You summon Banner of Courage first, which means monsters focus it, which is great because then the Banner of Valor will negate the first attack on it, and it has quite high hp. And then the Shield provided from Banner of Courage will help protect Banner of Valor from multi-target attacks. As we’re going to be putting our Banners in harm’s way, this combination of two excellent defensive Banners is the best choice. You lose out on offense from the lack of Banner of Strength, but obviously that’s easily compensated by now with the top of Hail of Spears. Unfortunately, when levelling up normally and not spending much time at level 9, I don’t recommend taking Barricade at level 6, so you won’t actually have the Banner of Valor. Accordingly, for most builds, you’ll instead just use the Banners of Courage and Strength. Again, I’d generally recommend summoning Courage first just because it’s tankier and if one of them has to die, you’d much rather it be Courage.",
-					"bottom": "And speaking of dying, should both of your Banners somehow die, you can resummon them in the last room for a desperate last couple of rounds with the bottom of Hail of Spears. Of course, given the stamina you already lost from the beginning, this won’t work for long, but obviously it’s better than having the top of Hail of Spears and no Banners.",
+					"top": "Even just playing Banner of Strength, this would be a non-loss Attack 11 once each rest cycle with a bit of an upside and downside (moving the Banner forward is helpful for traversal but risky for its survival). Of course, we want to do better than that. We really want to play Hail of Spears with two Banners, which gets us to an absurd non-loss Attack 15-16 per rest cycle. As discussed previously, sufficient offensive tempo like this can absolutely justify the significant reduction in stamina. Furthermore, the reduced stamina is actually a bit of a combo here: by going to very short rest cycles right away, we end up playing this action even more, which helps us to further dominate the scenario. Your second rest cycle will already only be three turns, which means you're looking at doing an Attack 15-16 every three turns on average for an entire scenario. That'll usually get the job done.<p>Now what is the best way to set up Hail of Spears? As I mentioned at level 6, the best combo is going to involve Banner of Valor alongside Banner of Courage. You summon Banner of Courage first, which means monsters focus it, which is great because then the Banner of Valor will negate the first attack on it, and it has quite high hp. And then the Shield provided from Banner of Courage will help protect Banner of Valor from multi-target attacks. As we're going to be putting our Banners in harm's way, this combination of two excellent defensive Banners is the best choice. You lose out on offense from the lack of Banner of Strength, but obviously that's easily compensated by now with the top of Hail of Spears. Unfortunately, when levelling up normally and not spending much time at level 9, I don't recommend taking Barricade at level 6, so you won't actually have the Banner of Valor. Accordingly, for most builds, you'll instead just use the Banners of Courage and Strength. Again, I'd generally recommend summoning Courage first just because it's tankier and if one of them has to die, you'd much rather it be Courage.",
+					"bottom": "And speaking of dying, should both of your Banners somehow die, you can resummon them in the last room for a desperate last couple of rounds with the bottom of Hail of Spears. Of course, given the stamina you already lost from the beginning, this won't work for long, but obviously it's better than having the top of Hail of Spears and no Banners.",
 					"overall": "Even with the absurdity of Take No Prisoners, Hail of Spears certainly holds its own and then some."
+				}
+			],
+			"lvl1choices": [
+				{
+					"label": "Core",
+					"overview": "These are our most important cards.",
+					"cards": [
+						{
+							"id": "unbreakablewall",
+							"comment": "Unbreakable Wall is our core persistent loss and where most of our tankiness comes from."
+						},
+						{
+							"id": "deflectingmaneuver",
+							"comment": "Deflecting Manoeuvre provides respectable damage coupled with mitigation, all the while requiring no allied help over the course of the two round combo (Javelin into this)."
+						},
+						{
+							"id": "setforthecharge",
+							"comment": "Set for the Charge provides incredible movement with great initiative, and in this build, we'll also sometimes use the top."
+						},
+						{
+							"id": "combinedeffort",
+							"comment": "Combined Effort will actually see more use for the top action in this build than the others as we're not moving a Banner or trying to set up many patterns, so we don't really need the bottom, and the top provides good damage with a very easy setup."
+						},
+						{
+							"id": "rallyingcry",
+							"comment": "Rallying Cry is a bit more difficult to set up (and thus may still need Combined Effort bottom sometimes), but if our goal is to mitigate incoming damage, you can't do better than this. Especially as Shield 1 is good against weaker enemies, this gives us a valuable tool to stop the heavy hitters."
+						},
+						{
+							"id": "javelin",
+							"comment": "Javelin is affected by the reduced range, but as we want to be on the front lines anyway, this will be manageable."
+						},
+						{
+							"id": "regroup",
+							"comment": "Regroup is essential for healing up between fights as we can't tank effectively on low hp."
+						},
+						{
+							"id": "tipofthespear",
+							"comment": "Tip of the Spear is mostly just there for movement."
+						}
+					]
+				},
+				{
+					"label": "The Rest",
+					"overview": "These are our the other cards we will take to make up our deck, but will be the first to be lost.",
+					"cards": [
+						{
+							"id": "atallcosts",
+							"comment": "At All Costs is added in mostly for the bottom action, specifically in combination with Resolved Courage. We'll rarely want to use the top as our hit points are typically going to be the most valuable, but having an easy way to set up Resolved Courage in a single round, followed by Rallying Cry or Combined Effort the next round, and then eventually a free Disarm, is all a pretty solid package. The biggest cost is that we need to move very often as a tank, so non-move bottom actions can be difficult to use regularly."
+						},
+						{
+							"id": "resolvedcourage",
+							"comment": "Resolved Courage is there again just for the two-card combo with At All Costs to deal respectable damage and sometimes a bit of mitigation against ranged enemies through disadvantage."
+						}
+					]
 				}
 			]
 		}

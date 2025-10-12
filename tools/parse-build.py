@@ -69,13 +69,52 @@ def html_builddeck(char):
 		<h2 id="deck">Build Deck</h2>
 	''')
 	
-	for index in range(1,10):
+	# First add the section for the level 1 card discussion
+	html_levelcardstable(char, 1)
+	html_lvl1cardchoice(char)
+	
+	
+	
+	for index in range(2,10):
 		html_levelcardstable(char, index)
 	
 	hf.write('''
 	</div>
 	''')
 
+def html_lvl1cardchoice(char):
+	hf.write(f'''
+		<button id="level-1-choices" onclick="accClick('build-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+		<div id="build-1-choices" class="w3-container w3-hide">
+	''')
+	
+	choices=jmespath.search("lvl1choices[*].[label,overview]", jbuild)
+	for choice in choices:
+		hf.write(f'''
+			<p><b>{choice[0]}</b>
+			<p>{choice[1]}
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		''')
+
+		cards = jmespath.search(f"lvl1choices[?label=='{choice[0]}'].cards[].[id,comment]", jbuild)
+		for card in cards:
+			img=jmespath.search(f"cards[?id=='{card[0]}'].[image][]|[0]", jcards)
+			print(img)
+			hf.write(f'''
+				<div class="w3-card-4" style="width:250px">
+					<img class="ability-desc" src="images/frosthaven/{img}"/>
+					<p>{card[1]}
+				</div>
+			''')
+			
+		hf.write('''
+			</div>
+		''')
+	hf.write('''
+			</table>
+		</div>
+	''')
+	
 def html_levelcardstable(char, level):
 	hf.write(f'''
 		<button id="level-{level}-cards" onclick="accClick('build-cards-{level}')" class="w3-btn w3-block w3-left-align">Level {level} Cards</button>

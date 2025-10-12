@@ -341,16 +341,6 @@
 			"character": "bn"
 		},
 		{
-			"name": "banner of valor",
-			"expansion": "frosthaven",
-			"image": "character-ability-cards/bn/fh-barricade.png",
-			"id": "barricade",
-			"level": "6",
-			"initiative": "16",
-			"cardno": "082",
-			"character": "bn"
-		},
-		{
 			"name": "boldening blow",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/bn/fh-boldening-blow.png",

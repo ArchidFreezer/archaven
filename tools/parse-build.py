@@ -63,7 +63,7 @@ def html_overview():
 	</div>
 	''')
 
-def html_builddeck():
+def html_builddecks():
 	hf.write('''
 	<div class="w3-container">
 		<h2 id="deck">Build Deck</h2>
@@ -161,7 +161,7 @@ def html_bottom():
 	''')
 
 def get_build_name(id, build):
-	classname = jmespath.search(f"characters[?id=='{id}'].label|[0]", jclasses)
+	classname = jmespath.search(f"classes[?id=='{id}'].label|[0]", jclasses)
 	return  classname + " " + build
 
 def get_card_images():
@@ -201,5 +201,5 @@ get_card_images()
 
 html_top(buildname)
 html_overview()
-html_builddeck()
+html_builddecks()
 html_bottom()

@@ -63,26 +63,26 @@ def html_overview():
 	</div>
 	''')
 
-def html_builddeck(char):
+def html_builddeck():
 	hf.write('''
 	<div class="w3-container">
 		<h2 id="deck">Build Deck</h2>
 	''')
 	
 	# First add the section for the level 1 card discussion
-	html_levelcardstable(char, 1)
-	html_lvl1cardchoice(char)
+	html_levelcardstable(1)
+	html_lvl1cardchoice()
 	
 	
 	
 	for index in range(2,10):
-		html_levelcardstable(char, index)
+		html_levelcardstable(index)
 	
 	hf.write('''
 	</div>
 	''')
 
-def html_lvl1cardchoice(char):
+def html_lvl1cardchoice():
 	hf.write(f'''
 		<button id="level-1-choices" onclick="accClick('build-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
 		<div id="build-1-choices" class="w3-container w3-hide">
@@ -115,7 +115,7 @@ def html_lvl1cardchoice(char):
 		</div>
 	''')
 	
-def html_levelcardstable(char, level):
+def html_levelcardstable(level):
 	hf.write(f'''
 		<button id="level-{level}-cards" onclick="accClick('build-cards-{level}')" class="w3-btn w3-block w3-left-align">Level {level} Cards</button>
 		<div id="build-cards-{level}" class="w3-container w3-hide">
@@ -123,11 +123,11 @@ def html_levelcardstable(char, level):
 	''')
 	
 	if level == 1:
-		query=f"cards[?character=='{char}' && (level == '1' || level == 'x')].id"
+		query=f"[?level == '1' || level == 'x'].id"
 	else:
-		query=f"cards[?character=='{char}' && level == '{level}'].id"
+		query=f"[?level == '{level}'].id"
 
-	ids = jmespath.search(query, jcards)
+	ids = jmespath.search(query, jclasscards)
 	for id in ids:
 		builddata=jmespath.search(f"cards[?id=='{id}'].[top, bottom, overall][]", jbuild)
 		if len(builddata) == 0:
@@ -161,11 +161,11 @@ def html_bottom():
 	''')
 
 def get_build_name(id, build):
-	charname = jmespath.search(f"characters[?id=='{id}'].label|[0]", jchars)
-	return  charname + " " + build
+	classname = jmespath.search(f"characters[?id=='{id}'].label|[0]", jclasses)
+	return  classname + " " + build
 
-def get_card_images(char):
-	cards = jmespath.search(f"cards[?character=='{char}'].[image, id]", jcards)
+def get_card_images():
+	cards = jmespath.search("[*].[image, id]", jclasscards)
 	for data in cards:
 		img=f"images/frosthaven/{data[0]}"
 		cardimages.update({data[1]: img})
@@ -176,8 +176,8 @@ buildid="bn-tank"
 with open('../data/card-data.json') as fd:
 	jcards = json.load(fd)
 
-with open('../data/character-data.json') as fd:
-	jchars = json.load(fd)
+with open('../data/class-data.json') as fd:
+	jclasses = json.load(fd)
 
 with open(f'../data/build-data.json') as fd:
 	jbuilds = json.load(fd)
@@ -188,15 +188,18 @@ hf = open(f"../html/{buildid}.html", "w")
 # Get the specific build
 jbuild=jmespath.search(f"builds[?id=='{buildid}']|[0]", jbuilds)
 
-charid=jmespath.search("character", jbuild)
+classid=jmespath.search("classid", jbuild)
 build=jmespath.search("build", jbuild)
-buildname=get_build_name(charid, build)
+buildname=get_build_name(classid, build)
+
+# Get the cards json for only our class
+jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)
 
 # We reuse card so create a cache of their image path
 cardimages = dict()
-get_card_images(charid)
+get_card_images()
 
 html_top(buildname)
 html_overview()
-html_builddeck(charid)
+html_builddeck()
 html_bottom()

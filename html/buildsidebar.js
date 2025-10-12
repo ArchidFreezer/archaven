@@ -29,6 +29,7 @@ function sidebarBuildDropClick(id) {
     <div id="deckDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="#level-1-cards" class="w3-bar-item w3-button">Level 1 Cards</a>
       <a href="#level-1-choices" class="w3-bar-item w3-button">Level 1 Choices</a>
+      <a href="#level-1-deck" class="w3-bar-item w3-button">Level 1 Deck</a>
       <a href="#level-2-cards" class="w3-bar-item w3-button">Level 2 Cards</a>
       <a href="#level-3-cards" class="w3-bar-item w3-button">Level 3 Cards</a>
       <a href="#level-4-cards" class="w3-bar-item w3-button">Level 4 Cards</a>

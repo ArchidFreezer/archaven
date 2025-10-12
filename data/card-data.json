@@ -8,7 +8,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "blurry jab",
@@ -18,7 +18,7 @@
 			"level": "1",
 			"initiative": "20/50",
 			"cardno": "032",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "borrowed time",
@@ -28,7 +28,7 @@
 			"level": "x",
 			"initiative": "02/32",
 			"cardno": "044",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "breakneck speed",
@@ -38,7 +38,7 @@
 			"level": "5",
 			"initiative": "03/33",
 			"cardno": "051",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "cascading reaction",
@@ -48,7 +48,7 @@
 			"level": "1",
 			"initiative": "19/49",
 			"cardno": "040",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "double time",
@@ -58,7 +58,7 @@
 			"level": "3",
 			"initiative": "22/52",
 			"cardno": "048",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "drive recharge",
@@ -68,7 +68,7 @@
 			"level": "1",
 			"initiative": "69/99",
 			"cardno": "039",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "experimental adjustment",
@@ -78,7 +78,7 @@
 			"level": "x",
 			"initiative": "12/42",
 			"cardno": "042",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "fastest alive",
@@ -88,7 +88,7 @@
 			"level": "8",
 			"initiative": "01/31",
 			"cardno": "058",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "flashing flurry",
@@ -98,7 +98,7 @@
 			"level": "5",
 			"initiative": "40/70",
 			"cardno": "052",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "fractured timeline",
@@ -108,7 +108,7 @@
 			"level": "9",
 			"initiative": "55/85",
 			"cardno": "060",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "hit and run",
@@ -118,7 +118,7 @@
 			"level": "1",
 			"initiative": "41/71",
 			"cardno": "038",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "kinetic transfer",
@@ -128,7 +128,7 @@
 			"level": "1",
 			"initiative": "36/66",
 			"cardno": "035",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "make it count",
@@ -138,7 +138,7 @@
 			"level": "3",
 			"initiative": "51/81",
 			"cardno": "047",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "overdrive",
@@ -148,7 +148,7 @@
 			"level": "1",
 			"initiative": "60/90",
 			"cardno": "036",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "phasing blades",
@@ -158,7 +158,7 @@
 			"level": "7",
 			"initiative": "63/93",
 			"cardno": "055",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "potential energy",
@@ -168,7 +168,7 @@
 			"level": "4",
 			"initiative": "32/62",
 			"cardno": "050",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "power leak",
@@ -178,7 +178,7 @@
 			"level": "1",
 			"initiative": "17/47",
 			"cardno": "037",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "precision timing",
@@ -188,7 +188,7 @@
 			"level": "4",
 			"initiative": "15/45",
 			"cardno": "049",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "quantum uncertainty",
@@ -198,7 +198,7 @@
 			"level": "8",
 			"initiative": "35/65",
 			"cardno": "057",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "reckless augmentation",
@@ -208,7 +208,7 @@
 			"level": "2",
 			"initiative": "10/40",
 			"cardno": "046",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "reverse the flow",
@@ -218,7 +218,7 @@
 			"level": "9",
 			"initiative": "58/88",
 			"cardno": "059",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "rushed to the end",
@@ -228,7 +228,7 @@
 			"level": "7",
 			"initiative": "32/62",
 			"cardno": "056",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "sand in the hourglass",
@@ -238,7 +238,7 @@
 			"level": "x",
 			"initiative": "52/82",
 			"cardno": "043",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "sap speed",
@@ -248,7 +248,7 @@
 			"level": "1",
 			"initiative": "45/75",
 			"cardno": "034",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "stab them all",
@@ -258,7 +258,7 @@
 			"level": "6",
 			"initiative": "04/34",
 			"cardno": "053",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "systems reboot",
@@ -268,7 +268,7 @@
 			"level": "2",
 			"initiative": "57/87",
 			"cardno": "045",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "temporal displacement",
@@ -278,7 +278,7 @@
 			"level": "1",
 			"initiative": "44/74",
 			"cardno": "041",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "the knife's edge",
@@ -288,7 +288,7 @@
 			"level": "6",
 			"initiative": "65/95",
 			"cardno": "054",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "twin strike",
@@ -298,7 +298,7 @@
 			"level": "1",
 			"initiative": "24/54",
 			"cardno": "033",
-			"character": "bb"
+			"classid": "bb"
 		},
 		{
 			"name": "bn-back",
@@ -308,7 +308,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "air support",
@@ -318,7 +318,7 @@
 			"level": "4",
 			"initiative": "20",
 			"cardno": "079",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "at all costs",
@@ -328,7 +328,7 @@
 			"level": "1",
 			"initiative": "60",
 			"cardno": "061",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "barricade",
@@ -338,7 +338,7 @@
 			"level": "6",
 			"initiative": "16",
 			"cardno": "082",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "boldening blow",
@@ -348,7 +348,7 @@
 			"level": "4",
 			"initiative": "72",
 			"cardno": "078",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "bolstering shout",
@@ -358,7 +358,7 @@
 			"level": "6",
 			"initiative": "75",
 			"cardno": "083",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "combined effort",
@@ -368,7 +368,7 @@
 			"level": "1",
 			"initiative": "32",
 			"cardno": "067",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "deflecting maneuver",
@@ -378,7 +378,7 @@
 			"level": "1",
 			"initiative": "15",
 			"cardno": "065",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "driving inspiration",
@@ -388,7 +388,7 @@
 			"level": "x",
 			"initiative": "18",
 			"cardno": "073",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "explosive epicenter",
@@ -398,7 +398,7 @@
 			"level": "5",
 			"initiative": "78",
 			"cardno": "080",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "hail of spears",
@@ -408,7 +408,7 @@
 			"level": "9",
 			"initiative": "44",
 			"cardno": "089",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "head of the hammer",
@@ -418,7 +418,7 @@
 			"level": "3",
 			"initiative": "87",
 			"cardno": "077",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "hold the line",
@@ -428,7 +428,7 @@
 			"level": "5",
 			"initiative": "05",
 			"cardno": "081",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "incendiary throw",
@@ -438,7 +438,7 @@
 			"level": "x",
 			"initiative": "22",
 			"cardno": "072",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "javelin",
@@ -448,7 +448,7 @@
 			"level": "1",
 			"initiative": "21",
 			"cardno": "064",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "lead from afar",
@@ -458,7 +458,7 @@
 			"level": "7",
 			"initiative": "80",
 			"cardno": "085",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "let them come",
@@ -468,7 +468,7 @@
 			"level": "3",
 			"initiative": "24",
 			"cardno": "076",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "meat grinder",
@@ -478,7 +478,7 @@
 			"level": "2",
 			"initiative": "62",
 			"cardno": "074",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "pincer movement",
@@ -488,7 +488,7 @@
 			"level": "1",
 			"initiative": "69",
 			"cardno": "069",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "pinning charge",
@@ -498,7 +498,7 @@
 			"level": "2",
 			"initiative": "17",
 			"cardno": "075",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "rallying cry",
@@ -508,7 +508,7 @@
 			"level": "1",
 			"initiative": "71",
 			"cardno": "062",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "regroup",
@@ -518,7 +518,7 @@
 			"level": "1",
 			"initiative": "25",
 			"cardno": "070",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "resolved courage",
@@ -528,7 +528,7 @@
 			"level": "x",
 			"initiative": "10",
 			"cardno": "071",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "set for the charge",
@@ -538,7 +538,7 @@
 			"level": "1",
 			"initiative": "06",
 			"cardno": "068",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "sweeping aid",
@@ -548,7 +548,7 @@
 			"level": "8",
 			"initiative": "73",
 			"cardno": "086",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "take no prisoners",
@@ -558,7 +558,7 @@
 			"level": "9",
 			"initiative": "85",
 			"cardno": "088",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "taunting howl",
@@ -568,7 +568,7 @@
 			"level": "8",
 			"initiative": "11",
 			"cardno": "087",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "tip of the spear",
@@ -578,7 +578,7 @@
 			"level": "1",
 			"initiative": "67",
 			"cardno": "066",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "tri-thrust",
@@ -588,7 +588,7 @@
 			"level": "7",
 			"initiative": "27",
 			"cardno": "084",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "unbreakable wall",
@@ -598,7 +598,7 @@
 			"level": "1",
 			"initiative": "83",
 			"cardno": "063",
-			"character": "bn"
+			"classid": "bn"
 		},
 		{
 			"name": "bo-back",
@@ -608,7 +608,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "angry spirits",
@@ -618,7 +618,7 @@
 			"level": "1",
 			"initiative": "76",
 			"cardno": "126",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "approach oblivion",
@@ -628,7 +628,7 @@
 			"level": "x",
 			"initiative": "53",
 			"cardno": "132",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "behold the shrouded sun",
@@ -638,7 +638,7 @@
 			"level": "9",
 			"initiative": "10",
 			"cardno": "150",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "bone dagger",
@@ -648,7 +648,7 @@
 			"level": "2",
 			"initiative": "29",
 			"cardno": "136",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "command the wretched",
@@ -658,7 +658,7 @@
 			"level": "1",
 			"initiative": "83",
 			"cardno": "129",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "critical failure",
@@ -668,7 +668,7 @@
 			"level": "4",
 			"initiative": "95",
 			"cardno": "139",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "damned horde",
@@ -678,7 +678,7 @@
 			"level": "1",
 			"initiative": "71",
 			"cardno": "122",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "dark tidings",
@@ -688,7 +688,7 @@
 			"level": "1",
 			"initiative": "43",
 			"cardno": "125",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "decaying will",
@@ -698,7 +698,7 @@
 			"level": "1",
 			"initiative": "46",
 			"cardno": "124",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "endless numbers",
@@ -708,7 +708,7 @@
 			"level": "8",
 			"initiative": "86",
 			"cardno": "147",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "eternal torment",
@@ -718,7 +718,7 @@
 			"level": "1",
 			"initiative": "70",
 			"cardno": "130",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "exploding corpse",
@@ -728,7 +728,7 @@
 			"level": "x",
 			"initiative": "21",
 			"cardno": "133",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "fell remedy",
@@ -738,7 +738,7 @@
 			"level": "1",
 			"initiative": "30",
 			"cardno": "127",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "flesh shield",
@@ -748,7 +748,7 @@
 			"level": "4",
 			"initiative": "16",
 			"cardno": "140",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "flow of the black river",
@@ -758,7 +758,7 @@
 			"level": "1",
 			"initiative": "18",
 			"cardno": "128",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "grave digging",
@@ -768,7 +768,7 @@
 			"level": "3",
 			"initiative": "96",
 			"cardno": "137",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "life in death",
@@ -778,7 +778,7 @@
 			"level": "1",
 			"initiative": "91",
 			"cardno": "120",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "malicious conversion",
@@ -788,7 +788,7 @@
 			"level": "1",
 			"initiative": "26",
 			"cardno": "131",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "putrid cloud",
@@ -798,7 +798,7 @@
 			"level": "3",
 			"initiative": "28",
 			"cardno": "138",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "recycled limbs",
@@ -808,7 +808,7 @@
 			"level": "7",
 			"initiative": "52",
 			"cardno": "145",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "returned servant",
@@ -818,7 +818,7 @@
 			"level": "1",
 			"initiative": "81",
 			"cardno": "121",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "rotting multitude",
@@ -828,7 +828,7 @@
 			"level": "6",
 			"initiative": "66",
 			"cardno": "143",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "solid bones",
@@ -838,7 +838,7 @@
 			"level": "5",
 			"initiative": "32",
 			"cardno": "142",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "soul claim",
@@ -848,7 +848,7 @@
 			"level": "7",
 			"initiative": "23",
 			"cardno": "146",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "transfer of essence",
@@ -858,7 +858,7 @@
 			"level": "1",
 			"initiative": "62",
 			"cardno": "123",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "twisted decree",
@@ -868,7 +868,7 @@
 			"level": "6",
 			"initiative": "85",
 			"cardno": "144",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "unearthed horror",
@@ -878,7 +878,7 @@
 			"level": "2",
 			"initiative": "94",
 			"cardno": "135",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "unforgivable methods",
@@ -888,7 +888,7 @@
 			"level": "5",
 			"initiative": "98",
 			"cardno": "141",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "unholy prowess",
@@ -898,7 +898,7 @@
 			"level": "9",
 			"initiative": "97",
 			"cardno": "149",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "wailing from beyond",
@@ -908,7 +908,7 @@
 			"level": "8",
 			"initiative": "73",
 			"cardno": "148",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "wrath of the turned earth",
@@ -918,7 +918,7 @@
 			"level": "x",
 			"initiative": "80",
 			"cardno": "134",
-			"character": "bo"
+			"classid": "bo"
 		},
 		{
 			"name": "cr-back",
@@ -928,7 +928,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "blood in the water",
@@ -938,7 +938,7 @@
 			"level": "2",
 			"initiative": "53",
 			"cardno": "490",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "chaotic refraction",
@@ -948,7 +948,7 @@
 			"level": "4",
 			"initiative": "26",
 			"cardno": "493",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "cleansing swell",
@@ -958,7 +958,7 @@
 			"level": "1",
 			"initiative": "45",
 			"cardno": "481",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "clean sweep",
@@ -968,7 +968,7 @@
 			"level": "4",
 			"initiative": "65",
 			"cardno": "494",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "crashing surge",
@@ -978,7 +978,7 @@
 			"level": "1",
 			"initiative": "34",
 			"cardno": "483",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "cresting force",
@@ -988,7 +988,7 @@
 			"level": "1",
 			"initiative": "87",
 			"cardno": "482",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "crush armor",
@@ -998,7 +998,7 @@
 			"level": "x",
 			"initiative": "42",
 			"cardno": "488",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "death on all sides",
@@ -1008,7 +1008,7 @@
 			"level": "8",
 			"initiative": "73",
 			"cardno": "501",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "down to the depths",
@@ -1018,7 +1018,7 @@
 			"level": "1",
 			"initiative": "74",
 			"cardno": "478",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "drown beneath the waves",
@@ -1028,7 +1028,7 @@
 			"level": "7",
 			"initiative": "09",
 			"cardno": "500",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "dug in",
@@ -1038,7 +1038,7 @@
 			"level": "7",
 			"initiative": "76",
 			"cardno": "499",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "ebb and flow",
@@ -1048,7 +1048,7 @@
 			"level": "8",
 			"initiative": "24",
 			"cardno": "502",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "endless cycle",
@@ -1058,7 +1058,7 @@
 			"level": "3",
 			"initiative": "08",
 			"cardno": "492",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "high tide",
@@ -1068,7 +1068,7 @@
 			"level": "9",
 			"initiative": "90",
 			"cardno": "503",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "low tide",
@@ -1078,7 +1078,7 @@
 			"level": "9",
 			"initiative": "10",
 			"cardno": "504",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "mighty claws",
@@ -1088,7 +1088,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "484",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "overwhelming wave",
@@ -1098,7 +1098,7 @@
 			"level": "1",
 			"initiative": "86",
 			"cardno": "474",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "pool of power",
@@ -1108,7 +1108,7 @@
 			"level": "1",
 			"initiative": "41",
 			"cardno": "479",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "powerful pincer",
@@ -1118,7 +1118,7 @@
 			"level": "6",
 			"initiative": "70",
 			"cardno": "497",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "rancid brine",
@@ -1128,7 +1128,7 @@
 			"level": "1",
 			"initiative": "62",
 			"cardno": "476",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "rising flood",
@@ -1138,7 +1138,7 @@
 			"level": "x",
 			"initiative": "49",
 			"cardno": "486",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "sharp chitin",
@@ -1148,7 +1148,7 @@
 			"level": "1",
 			"initiative": "25",
 			"cardno": "477",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "shuck",
@@ -1158,7 +1158,7 @@
 			"level": "3",
 			"initiative": "55",
 			"cardno": "491",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "skitter",
@@ -1168,7 +1168,7 @@
 			"level": "1",
 			"initiative": "51",
 			"cardno": "480",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "smashing torrent",
@@ -1178,7 +1178,7 @@
 			"level": "2",
 			"initiative": "79",
 			"cardno": "489",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "sodden soil",
@@ -1188,7 +1188,7 @@
 			"level": "5",
 			"initiative": "17",
 			"cardno": "496",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "soft flesh",
@@ -1198,7 +1198,7 @@
 			"level": "1",
 			"initiative": "75",
 			"cardno": "475",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "submerge",
@@ -1208,7 +1208,7 @@
 			"level": "1",
 			"initiative": "68",
 			"cardno": "485",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "tidal blast",
@@ -1218,7 +1218,7 @@
 			"level": "5",
 			"initiative": "71",
 			"cardno": "495",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "twilight grasp",
@@ -1228,7 +1228,7 @@
 			"level": "6",
 			"initiative": "33",
 			"cardno": "498",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "undertow",
@@ -1238,7 +1238,7 @@
 			"level": "x",
 			"initiative": "15",
 			"cardno": "487",
-			"character": "cr"
+			"classid": "cr"
 		},
 		{
 			"name": "df-back",
@@ -1248,7 +1248,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "accurate strikes",
@@ -1258,7 +1258,7 @@
 			"level": "6",
 			"initiative": "56",
 			"cardno": "024",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "against all odds",
@@ -1268,7 +1268,7 @@
 			"level": "8",
 			"initiative": "37",
 			"cardno": "028",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "bloodletting",
@@ -1278,7 +1278,7 @@
 			"level": "1",
 			"initiative": "65",
 			"cardno": "011",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "break through",
@@ -1288,7 +1288,7 @@
 			"level": "5",
 			"initiative": "34",
 			"cardno": "023",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "chunk of flesh",
@@ -1298,7 +1298,7 @@
 			"level": "4",
 			"initiative": "62",
 			"cardno": "020",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "consume stamina",
@@ -1308,7 +1308,7 @@
 			"level": "6",
 			"initiative": "21",
 			"cardno": "025",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "continuous health",
@@ -1318,7 +1318,7 @@
 			"level": "1",
 			"initiative": "61",
 			"cardno": "004",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "crushing weight",
@@ -1328,7 +1328,7 @@
 			"level": "1",
 			"initiative": "71",
 			"cardno": "001",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "deadly shot",
@@ -1338,7 +1338,7 @@
 			"level": "1",
 			"initiative": "32",
 			"cardno": "010",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "destructive fury",
@@ -1348,7 +1348,7 @@
 			"level": "x",
 			"initiative": "19",
 			"cardno": "015",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "draining arrows",
@@ -1358,7 +1358,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "008",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "dual bow",
@@ -1368,7 +1368,7 @@
 			"level": "3",
 			"initiative": "26",
 			"cardno": "019",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "ever forward",
@@ -1378,7 +1378,7 @@
 			"level": "2",
 			"initiative": "67",
 			"cardno": "017",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "everlasting",
@@ -1388,7 +1388,7 @@
 			"level": "9",
 			"initiative": "96",
 			"cardno": "030",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "fierce barrage",
@@ -1398,7 +1398,7 @@
 			"level": "3",
 			"initiative": "32",
 			"cardno": "018",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "fortitude",
@@ -1408,7 +1408,7 @@
 			"level": "x",
 			"initiative": "31",
 			"cardno": "013",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "gift of the prey",
@@ -1418,7 +1418,7 @@
 			"level": "4",
 			"initiative": "40",
 			"cardno": "021",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "inevitable conclusion",
@@ -1428,7 +1428,7 @@
 			"level": "8",
 			"initiative": "29",
 			"cardno": "029",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "like the wind",
@@ -1438,7 +1438,7 @@
 			"level": "7",
 			"initiative": "77",
 			"cardno": "026",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "no remorse",
@@ -1448,7 +1448,7 @@
 			"level": "x",
 			"initiative": "20",
 			"cardno": "014",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "precision aim",
@@ -1458,7 +1458,7 @@
 			"level": "1",
 			"initiative": "66",
 			"cardno": "003",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "prudent preparation",
@@ -1468,7 +1468,7 @@
 			"level": "1",
 			"initiative": "14",
 			"cardno": "009",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "relentless",
@@ -1478,7 +1478,7 @@
 			"level": "1",
 			"initiative": "89",
 			"cardno": "005",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "shockwave",
@@ -1488,7 +1488,7 @@
 			"level": "2",
 			"initiative": "17",
 			"cardno": "016",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "survivalist",
@@ -1498,7 +1498,7 @@
 			"level": "5",
 			"initiative": "91",
 			"cardno": "022",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "sustained momentum",
@@ -1508,7 +1508,7 @@
 			"level": "1",
 			"initiative": "76",
 			"cardno": "002",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "unbreakable",
@@ -1518,7 +1518,7 @@
 			"level": "1",
 			"initiative": "90",
 			"cardno": "006",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "unending fight",
@@ -1528,7 +1528,7 @@
 			"level": "7",
 			"initiative": "25",
 			"cardno": "027",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "use every part",
@@ -1538,7 +1538,7 @@
 			"level": "9",
 			"initiative": "18",
 			"cardno": "031",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "vile assault",
@@ -1548,7 +1548,7 @@
 			"level": "1",
 			"initiative": "27",
 			"cardno": "007",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "violent inheritance",
@@ -1558,7 +1558,7 @@
 			"level": "1",
 			"initiative": "70",
 			"cardno": "012",
-			"character": "df"
+			"classid": "df"
 		},
 		{
 			"name": "dt-back",
@@ -1568,7 +1568,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "black night of the deep",
@@ -1578,7 +1578,7 @@
 			"level": "9",
 			"initiative": "26",
 			"cardno": "472",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "black scythe",
@@ -1588,7 +1588,7 @@
 			"level": "1",
 			"initiative": "45",
 			"cardno": "453",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "claw of doom",
@@ -1598,7 +1598,7 @@
 			"level": "6",
 			"initiative": "30",
 			"cardno": "466",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "consume the helpless",
@@ -1608,7 +1608,7 @@
 			"level": "9",
 			"initiative": "12",
 			"cardno": "473",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "crippling terror",
@@ -1618,7 +1618,7 @@
 			"level": "3",
 			"initiative": "15",
 			"cardno": "460",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "crushing darkness",
@@ -1628,7 +1628,7 @@
 			"level": "4",
 			"initiative": "40",
 			"cardno": "462",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "death spiral",
@@ -1638,7 +1638,7 @@
 			"level": "5",
 			"initiative": "48",
 			"cardno": "465",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "dire frenzy",
@@ -1648,7 +1648,7 @@
 			"level": "7",
 			"initiative": "26",
 			"cardno": "469",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "extra decoration",
@@ -1658,7 +1658,7 @@
 			"level": "5",
 			"initiative": "92",
 			"cardno": "464",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "grim trophies",
@@ -1668,7 +1668,7 @@
 			"level": "4",
 			"initiative": "18",
 			"cardno": "463",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "hasten the end",
@@ -1678,7 +1678,7 @@
 			"level": "7",
 			"initiative": "65",
 			"cardno": "468",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "haunting brutality",
@@ -1688,7 +1688,7 @@
 			"level": "x",
 			"initiative": "23",
 			"cardno": "457",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "hollow aura",
@@ -1698,7 +1698,7 @@
 			"level": "1",
 			"initiative": "88",
 			"cardno": "446",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "ink cloud",
@@ -1708,7 +1708,7 @@
 			"level": "1",
 			"initiative": "28",
 			"cardno": "449",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "lacerating stabs",
@@ -1718,7 +1718,7 @@
 			"level": "1",
 			"initiative": "14",
 			"cardno": "450",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "lie in wait",
@@ -1728,7 +1728,7 @@
 			"level": "2",
 			"initiative": "98",
 			"cardno": "459",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "mantle of dread",
@@ -1738,7 +1738,7 @@
 			"level": "1",
 			"initiative": "96",
 			"cardno": "452",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "morbid camouflage",
@@ -1748,7 +1748,7 @@
 			"level": "x",
 			"initiative": "31",
 			"cardno": "456",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "pinning spines",
@@ -1758,7 +1758,7 @@
 			"level": "3",
 			"initiative": "25",
 			"cardno": "461",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "rip from the bone",
@@ -1768,7 +1768,7 @@
 			"level": "8",
 			"initiative": "11",
 			"cardno": "471",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "skewer the flesh",
@@ -1778,7 +1778,7 @@
 			"level": "1",
 			"initiative": "86",
 			"cardno": "447",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "skull collection",
@@ -1788,7 +1788,7 @@
 			"level": "1",
 			"initiative": "22",
 			"cardno": "445",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "slipping into death",
@@ -1798,7 +1798,7 @@
 			"level": "2",
 			"initiative": "89",
 			"cardno": "458",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "soul hunger",
@@ -1808,7 +1808,7 @@
 			"level": "x",
 			"initiative": "91",
 			"cardno": "455",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "staring into the abyss",
@@ -1818,7 +1818,7 @@
 			"level": "1",
 			"initiative": "63",
 			"cardno": "451",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "succumb to fear",
@@ -1828,7 +1828,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "448",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "the remorseless deep",
@@ -1838,7 +1838,7 @@
 			"level": "6",
 			"initiative": "22",
 			"cardno": "467",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "tumultuous panic",
@@ -1848,7 +1848,7 @@
 			"level": "1",
 			"initiative": "66",
 			"cardno": "454",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "unseen horror",
@@ -1858,7 +1858,7 @@
 			"level": "8",
 			"initiative": "19",
 			"cardno": "470",
-			"character": "dt"
+			"classid": "dt"
 		},
 		{
 			"name": "dw-back",
@@ -1868,7 +1868,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "anger of the dead",
@@ -1878,7 +1878,7 @@
 			"level": "1",
 			"initiative": "14",
 			"cardno": "091",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "black barrage",
@@ -1888,7 +1888,7 @@
 			"level": "1",
 			"initiative": "28",
 			"cardno": "095",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "black lance",
@@ -1898,7 +1898,7 @@
 			"level": "9",
 			"initiative": "16",
 			"cardno": "119",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "call of doom",
@@ -1908,7 +1908,7 @@
 			"level": "1",
 			"initiative": "32",
 			"cardno": "096",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "call to the abyss",
@@ -1918,7 +1918,7 @@
 			"level": "1",
 			"initiative": "82",
 			"cardno": "090",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "dark fog",
@@ -1928,7 +1928,7 @@
 			"level": "1",
 			"initiative": "46",
 			"cardno": "094",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "dead bolt",
@@ -1938,7 +1938,7 @@
 			"level": "3",
 			"initiative": "88",
 			"cardno": "106",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "deepening despair",
@@ -1948,7 +1948,7 @@
 			"level": "2",
 			"initiative": "11",
 			"cardno": "105",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "dominate",
@@ -1958,7 +1958,7 @@
 			"level": "5",
 			"initiative": "29",
 			"cardno": "111",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "eclipse",
@@ -1968,7 +1968,7 @@
 			"level": "1",
 			"initiative": "86",
 			"cardno": "097",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "fleeting dusk",
@@ -1978,7 +1978,7 @@
 			"level": "4",
 			"initiative": "36",
 			"cardno": "108",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "fluid night",
@@ -1988,7 +1988,7 @@
 			"level": "1",
 			"initiative": "24",
 			"cardno": "093",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "forceful spirits",
@@ -1998,7 +1998,7 @@
 			"level": "x",
 			"initiative": "34",
 			"cardno": "102",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "frozen in fear",
@@ -2008,7 +2008,7 @@
 			"level": "8",
 			"initiative": "21",
 			"cardno": "117",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "hungry grasps",
@@ -2018,7 +2018,7 @@
 			"level": "7",
 			"initiative": "25",
 			"cardno": "115",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "lashing tendrils",
@@ -2028,7 +2028,7 @@
 			"level": "8",
 			"initiative": "80",
 			"cardno": "116",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "lingering rot",
@@ -2038,7 +2038,7 @@
 			"level": "1",
 			"initiative": "64",
 			"cardno": "098",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "medium",
@@ -2048,7 +2048,7 @@
 			"level": "5",
 			"initiative": "55",
 			"cardno": "110",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "proliferation of the abyss",
@@ -2058,7 +2058,7 @@
 			"level": "7",
 			"initiative": "38",
 			"cardno": "114",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "pulled across",
@@ -2068,7 +2068,7 @@
 			"level": "4",
 			"initiative": "77",
 			"cardno": "109",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "rest in the shade",
@@ -2078,7 +2078,7 @@
 			"level": "x",
 			"initiative": "26",
 			"cardno": "103",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "restless spirits",
@@ -2088,7 +2088,7 @@
 			"level": "2",
 			"initiative": "20",
 			"cardno": "104",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "ritual sacrifice",
@@ -2098,7 +2098,7 @@
 			"level": "3",
 			"initiative": "13",
 			"cardno": "107",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "shadow step",
@@ -2108,7 +2108,7 @@
 			"level": "1",
 			"initiative": "19",
 			"cardno": "099",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "strength of the abyss",
@@ -2118,7 +2118,7 @@
 			"level": "1",
 			"initiative": "50",
 			"cardno": "100",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "sunless apparition",
@@ -2128,7 +2128,7 @@
 			"level": "1",
 			"initiative": "96",
 			"cardno": "092",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "shadow beast",
@@ -2138,7 +2138,7 @@
 			"level": "1",
 			"initiative": "96",
 			"cardno": "092",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "the night takes shape",
@@ -2148,7 +2148,7 @@
 			"level": "6",
 			"initiative": "94",
 			"cardno": "112",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "vengeful storm",
@@ -2158,7 +2158,7 @@
 			"level": "6",
 			"initiative": "18",
 			"cardno": "113",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "wave of anguish",
@@ -2168,7 +2168,7 @@
 			"level": "x",
 			"initiative": "58",
 			"cardno": "101",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "when your time comes",
@@ -2178,7 +2178,7 @@
 			"level": "9",
 			"initiative": "72",
 			"cardno": "118",
-			"character": "dw"
+			"classid": "dw"
 		},
 		{
 			"name": "ff-back",
@@ -2188,7 +2188,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "bring down the mountain",
@@ -2198,7 +2198,7 @@
 			"level": "9",
 			"initiative": "09",
 			"cardno": "385",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "cold boulder",
@@ -2208,7 +2208,7 @@
 			"level": "1",
 			"initiative": "70",
 			"cardno": "361",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "crushing crystals",
@@ -2218,7 +2218,7 @@
 			"level": "2",
 			"initiative": "67",
 			"cardno": "372",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "draw of the bedrock",
@@ -2228,7 +2228,7 @@
 			"level": "2",
 			"initiative": "10",
 			"cardno": "371",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "draw strength",
@@ -2238,7 +2238,7 @@
 			"level": "8",
 			"initiative": "28",
 			"cardno": "384",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "encased punch",
@@ -2248,7 +2248,7 @@
 			"level": "1",
 			"initiative": "19",
 			"cardno": "364",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "freezing shell",
@@ -2258,7 +2258,7 @@
 			"level": "x",
 			"initiative": "17",
 			"cardno": "370",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "frost eruption",
@@ -2268,7 +2268,7 @@
 			"level": "1",
 			"initiative": "61",
 			"cardno": "362",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "frozen over",
@@ -2278,7 +2278,7 @@
 			"level": "3",
 			"initiative": "20",
 			"cardno": "374",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "frozen spike",
@@ -2288,7 +2288,7 @@
 			"level": "9",
 			"initiative": "33",
 			"cardno": "386",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "fury of the mountain",
@@ -2298,7 +2298,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "363",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "gift of the mountain",
@@ -2308,7 +2308,7 @@
 			"level": "7",
 			"initiative": "73",
 			"cardno": "381",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "glacier slam",
@@ -2318,7 +2318,7 @@
 			"level": "6",
 			"initiative": "84",
 			"cardno": "380",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "ice blast",
@@ -2328,7 +2328,7 @@
 			"level": "1",
 			"initiative": "32",
 			"cardno": "367",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "ice uppercut",
@@ -2338,7 +2338,7 @@
 			"level": "5",
 			"initiative": "15",
 			"cardno": "378",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "lacerating eruption",
@@ -2348,7 +2348,7 @@
 			"level": "3",
 			"initiative": "51",
 			"cardno": "373",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "one with the mountain",
@@ -2358,7 +2358,7 @@
 			"level": "1",
 			"initiative": "83",
 			"cardno": "360",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "packed solid",
@@ -2368,7 +2368,7 @@
 			"level": "4",
 			"initiative": "55",
 			"cardno": "376",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "piercing pummel",
@@ -2378,7 +2378,7 @@
 			"level": "1",
 			"initiative": "30",
 			"cardno": "366",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "preserved fury",
@@ -2388,7 +2388,7 @@
 			"level": "5",
 			"initiative": "49",
 			"cardno": "377",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "primal bellow",
@@ -2398,7 +2398,7 @@
 			"level": "x",
 			"initiative": "84",
 			"cardno": "369",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "seeing stars",
@@ -2408,7 +2408,7 @@
 			"level": "7",
 			"initiative": "29",
 			"cardno": "382",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "shard launch",
@@ -2418,7 +2418,7 @@
 			"level": "x",
 			"initiative": "52",
 			"cardno": "368",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "shattering blow",
@@ -2428,7 +2428,7 @@
 			"level": "8",
 			"initiative": "18",
 			"cardno": "383",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "the mountain's fist",
@@ -2438,7 +2438,7 @@
 			"level": "4",
 			"initiative": "16",
 			"cardno": "375",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "thick frost",
@@ -2448,7 +2448,7 @@
 			"level": "6",
 			"initiative": "21",
 			"cardno": "379",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "voice from below",
@@ -2458,7 +2458,7 @@
 			"level": "1",
 			"initiative": "22",
 			"cardno": "365",
-			"character": "ff"
+			"classid": "ff"
 		},
 		{
 			"name": "ge-back",
@@ -2468,7 +2468,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "accelerated metabolism",
@@ -2478,7 +2478,7 @@
 			"level": "8",
 			"initiative": "85",
 			"cardno": "181",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "alluring pheromones",
@@ -2488,7 +2488,7 @@
 			"level": "7",
 			"initiative": "49",
 			"cardno": "180",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "changeling's boon",
@@ -2498,7 +2498,7 @@
 			"level": "1",
 			"initiative": "40",
 			"cardno": "154",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "chitinous horde",
@@ -2508,7 +2508,7 @@
 			"level": "5",
 			"initiative": "15",
 			"cardno": "176",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "corrosive acids",
@@ -2518,7 +2518,7 @@
 			"level": "6",
 			"initiative": "28",
 			"cardno": "177",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "drag down",
@@ -2528,7 +2528,7 @@
 			"level": "1",
 			"initiative": "34",
 			"cardno": "156",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "dragonfly surge",
@@ -2538,7 +2538,7 @@
 			"level": "3",
 			"initiative": "50",
 			"cardno": "172",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "draining pincers",
@@ -2548,7 +2548,7 @@
 			"level": "1",
 			"initiative": "72",
 			"cardno": "152",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "feeding frenzy",
@@ -2558,7 +2558,7 @@
 			"level": "x",
 			"initiative": "62",
 			"cardno": "159",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "firefly swarm",
@@ -2568,7 +2568,7 @@
 			"level": "1",
 			"initiative": "76",
 			"cardno": "162",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "flailing tendrils",
@@ -2578,7 +2578,7 @@
 			"level": "1",
 			"initiative": "12",
 			"cardno": "155",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "formless grace",
@@ -2588,7 +2588,7 @@
 			"level": "5",
 			"initiative": "75",
 			"cardno": "175",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "hail of thorns",
@@ -2598,7 +2598,7 @@
 			"level": "1",
 			"initiative": "88",
 			"cardno": "166",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "harbinger of ruin",
@@ -2608,7 +2608,7 @@
 			"level": "9",
 			"initiative": "11",
 			"cardno": "183",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "harvest the essence",
@@ -2618,7 +2618,7 @@
 			"level": "1",
 			"initiative": "60",
 			"cardno": "165",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "hirudotherapy",
@@ -2628,7 +2628,7 @@
 			"level": "6",
 			"initiative": "92",
 			"cardno": "178",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "hornbeetle carapace",
@@ -2638,7 +2638,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "157",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "hornet stingers",
@@ -2648,7 +2648,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "153",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "icebound quills",
@@ -2658,7 +2658,7 @@
 			"level": "1",
 			"initiative": "14",
 			"cardno": "151",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "into my embrace",
@@ -2668,7 +2668,7 @@
 			"level": "1",
 			"initiative": "36",
 			"cardno": "161",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "locust host",
@@ -2678,7 +2678,7 @@
 			"level": "2",
 			"initiative": "23",
 			"cardno": "170",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "luminous descent",
@@ -2688,7 +2688,7 @@
 			"level": "4",
 			"initiative": "67",
 			"cardno": "174",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "mandible storm",
@@ -2698,7 +2698,7 @@
 			"level": "3",
 			"initiative": "30",
 			"cardno": "171",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "mind spike",
@@ -2708,7 +2708,7 @@
 			"level": "1",
 			"initiative": "18",
 			"cardno": "164",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "oscillating entity",
@@ -2718,7 +2718,7 @@
 			"level": "8",
 			"initiative": "55",
 			"cardno": "182",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "reckless jab",
@@ -2728,7 +2728,7 @@
 			"level": "x",
 			"initiative": "38",
 			"cardno": "158",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "reshape the guise",
@@ -2738,7 +2738,7 @@
 			"level": "x",
 			"initiative": "38",
 			"cardno": "168",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "scarab flight",
@@ -2748,7 +2748,7 @@
 			"level": "1",
 			"initiative": "30",
 			"cardno": "163",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "selfless offering",
@@ -2758,7 +2758,7 @@
 			"level": "1",
 			"initiative": "27",
 			"cardno": "160",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "smoldering hatred",
@@ -2768,7 +2768,7 @@
 			"level": "x",
 			"initiative": "32",
 			"cardno": "167",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "thresh and flail",
@@ -2778,7 +2778,7 @@
 			"level": "4",
 			"initiative": "43",
 			"cardno": "173",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "two-pronged entrapment",
@@ -2788,7 +2788,7 @@
 			"level": "7",
 			"initiative": "21",
 			"cardno": "179",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "venomous barbs",
@@ -2798,7 +2798,7 @@
 			"level": "2",
 			"initiative": "17",
 			"cardno": "169",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "voice of salvation",
@@ -2808,7 +2808,7 @@
 			"level": "9",
 			"initiative": "39",
 			"cardno": "184",
-			"character": "ge"
+			"classid": "ge"
 		},
 		{
 			"name": "hv-back",
@@ -2818,7 +2818,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "aimed assault",
@@ -2828,7 +2828,7 @@
 			"level": "1",
 			"initiative": "88",
 			"cardno": "391",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "burning slash",
@@ -2838,7 +2838,7 @@
 			"level": "8",
 			"initiative": "29",
 			"cardno": "414",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "code geminate",
@@ -2848,7 +2848,7 @@
 			"level": "5",
 			"initiative": "28",
 			"cardno": "408",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "coiled limbs",
@@ -2858,7 +2858,7 @@
 			"level": "1",
 			"initiative": "82",
 			"cardno": "390",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "disassemble",
@@ -2868,7 +2868,7 @@
 			"level": "9",
 			"initiative": "20",
 			"cardno": "416",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "divergent destruction",
@@ -2878,7 +2878,7 @@
 			"level": "4",
 			"initiative": "22",
 			"cardno": "406",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "faceless entity",
@@ -2888,7 +2888,7 @@
 			"level": "1",
 			"initiative": "12",
 			"cardno": "393",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "force field",
@@ -2898,7 +2898,7 @@
 			"level": "2",
 			"initiative": "78",
 			"cardno": "401",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "heavy metal",
@@ -2908,7 +2908,7 @@
 			"level": "9",
 			"initiative": "76",
 			"cardno": "415",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "high impact projectiles",
@@ -2918,7 +2918,7 @@
 			"level": "1",
 			"initiative": "16",
 			"cardno": "396",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "hijack",
@@ -2928,7 +2928,7 @@
 			"level": "3",
 			"initiative": "40",
 			"cardno": "404",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "hunter-killer",
@@ -2938,7 +2938,7 @@
 			"level": "1",
 			"initiative": "84",
 			"cardno": "389",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "interference",
@@ -2948,7 +2948,7 @@
 			"level": "1",
 			"initiative": "21",
 			"cardno": "397",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "launch pod",
@@ -2958,7 +2958,7 @@
 			"level": "1",
 			"initiative": "77",
 			"cardno": "392",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "long-range missile",
@@ -2968,7 +2968,7 @@
 			"level": "2",
 			"initiative": "19",
 			"cardno": "402",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "mortar shells",
@@ -2978,7 +2978,7 @@
 			"level": "7",
 			"initiative": "85",
 			"cardno": "411",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "net dispersal",
@@ -2988,7 +2988,7 @@
 			"level": "5",
 			"initiative": "94",
 			"cardno": "407",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "plague protocol",
@@ -2998,7 +2998,7 @@
 			"level": "4",
 			"initiative": "98",
 			"cardno": "405",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "plated defense",
@@ -3008,7 +3008,7 @@
 			"level": "1",
 			"initiative": "80",
 			"cardno": "387",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "prepare for deployment",
@@ -3018,7 +3018,7 @@
 			"level": "1",
 			"initiative": "64",
 			"cardno": "394",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "rapid fire",
@@ -3028,7 +3028,7 @@
 			"level": "3",
 			"initiative": "92",
 			"cardno": "403",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "reaper function",
@@ -3038,7 +3038,7 @@
 			"level": "1",
 			"initiative": "32",
 			"cardno": "395",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "reassemble",
@@ -3048,7 +3048,7 @@
 			"level": "x",
 			"initiative": "27",
 			"cardno": "400",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "recall",
@@ -3058,7 +3058,7 @@
 			"level": "7",
 			"initiative": "91",
 			"cardno": "412",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "reconstructive aid",
@@ -3068,7 +3068,7 @@
 			"level": "1",
 			"initiative": "90",
 			"cardno": "388",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "remote control",
@@ -3078,7 +3078,7 @@
 			"level": "x",
 			"initiative": "48",
 			"cardno": "399",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "shocking pulse",
@@ -3088,7 +3088,7 @@
 			"level": "x",
 			"initiative": "86",
 			"cardno": "398",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "spinning blades",
@@ -3098,7 +3098,7 @@
 			"level": "6",
 			"initiative": "79",
 			"cardno": "409",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "swarming bulwark",
@@ -3108,7 +3108,7 @@
 			"level": "8",
 			"initiative": "96",
 			"cardno": "413",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "shield spider",
@@ -3118,7 +3118,7 @@
 			"level": "8",
 			"initiative": "96",
 			"cardno": "413",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "triage program",
@@ -3128,7 +3128,7 @@
 			"level": "6",
 			"initiative": "13",
 			"cardno": "410",
-			"character": "hv"
+			"classid": "hv"
 		},
 		{
 			"name": "if-back",
@@ -3138,7 +3138,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "ancient rites of power",
@@ -3148,7 +3148,7 @@
 			"level": "9",
 			"initiative": "94",
 			"cardno": "213",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "battle prowess",
@@ -3158,7 +3158,7 @@
 			"level": "x",
 			"initiative": "78",
 			"cardno": "197",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "boon of the tempest",
@@ -3168,7 +3168,7 @@
 			"level": "1",
 			"initiative": "28",
 			"cardno": "185",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "bounty of the earth",
@@ -3178,7 +3178,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "186",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "caress of the night",
@@ -3188,7 +3188,7 @@
 			"level": "1",
 			"initiative": "87",
 			"cardno": "187",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "coalescing darkness",
@@ -3198,7 +3198,7 @@
 			"level": "4",
 			"initiative": "85",
 			"cardno": "203",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "crystalline aegis",
@@ -3208,7 +3208,7 @@
 			"level": "x",
 			"initiative": "17",
 			"cardno": "198",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "desperate throw",
@@ -3218,7 +3218,7 @@
 			"level": "4",
 			"initiative": "16",
 			"cardno": "204",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "diamondization",
@@ -3228,7 +3228,7 @@
 			"level": "7",
 			"initiative": "10",
 			"cardno": "209",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "emerald edge",
@@ -3238,7 +3238,7 @@
 			"level": "1",
 			"initiative": "70",
 			"cardno": "189",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "formless bladestorm",
@@ -3248,7 +3248,7 @@
 			"level": "1",
 			"initiative": "33",
 			"cardno": "188",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "gale barrage",
@@ -3258,7 +3258,7 @@
 			"level": "6",
 			"initiative": "44",
 			"cardno": "208",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "gemstone resonance",
@@ -3268,7 +3268,7 @@
 			"level": "5",
 			"initiative": "30",
 			"cardno": "205",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "guide the flow",
@@ -3278,7 +3278,7 @@
 			"level": "3",
 			"initiative": "35",
 			"cardno": "202",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "imbue with life",
@@ -3288,7 +3288,7 @@
 			"level": "x",
 			"initiative": "42",
 			"cardno": "196",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "malachite shockwave",
@@ -3298,7 +3298,7 @@
 			"level": "7",
 			"initiative": "68",
 			"cardno": "210",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "obsidian spear",
@@ -3308,7 +3308,7 @@
 			"level": "5",
 			"initiative": "84",
 			"cardno": "206",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "onyx shards",
@@ -3318,7 +3318,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "191",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "propulsive tailwind",
@@ -3328,7 +3328,7 @@
 			"level": "6",
 			"initiative": "91",
 			"cardno": "207",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "reinforced riposte",
@@ -3338,7 +3338,7 @@
 			"level": "3",
 			"initiative": "18",
 			"cardno": "201",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "remote impact",
@@ -3348,7 +3348,7 @@
 			"level": "2",
 			"initiative": "72",
 			"cardno": "200",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "rising momentum",
@@ -3358,7 +3358,7 @@
 			"level": "1",
 			"initiative": "25",
 			"cardno": "194",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "sky-splitting strike",
@@ -3368,7 +3368,7 @@
 			"level": "9",
 			"initiative": "50",
 			"cardno": "214",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "slashing cyclone",
@@ -3378,7 +3378,7 @@
 			"level": "1",
 			"initiative": "14",
 			"cardno": "193",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "stoic vigilance",
@@ -3388,7 +3388,7 @@
 			"level": "1",
 			"initiative": "12",
 			"cardno": "195",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "swift pivot",
@@ -3398,7 +3398,7 @@
 			"level": "8",
 			"initiative": "08",
 			"cardno": "212",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "torrential cleave",
@@ -3408,7 +3408,7 @@
 			"level": "1",
 			"initiative": "83",
 			"cardno": "190",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "unstoppable impulse",
@@ -3418,7 +3418,7 @@
 			"level": "1",
 			"initiative": "56",
 			"cardno": "192",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "untether the shackles",
@@ -3428,7 +3428,7 @@
 			"level": "8",
 			"initiative": "61",
 			"cardno": "211",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "veil of protection",
@@ -3438,7 +3438,7 @@
 			"level": "2",
 			"initiative": "47",
 			"cardno": "199",
-			"character": "if"
+			"classid": "if"
 		},
 		{
 			"name": "me-back",
@@ -3448,7 +3448,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "ancient drill",
@@ -3458,7 +3458,7 @@
 			"level": "1",
 			"initiative": "90",
 			"cardno": "418",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "beam axe",
@@ -3468,7 +3468,7 @@
 			"level": "1",
 			"initiative": "29",
 			"cardno": "423",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "bronze plating",
@@ -3478,7 +3478,7 @@
 			"level": "2",
 			"initiative": "18",
 			"cardno": "430",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "cryogenic hibernation",
@@ -3488,7 +3488,7 @@
 			"level": "7",
 			"initiative": "19",
 			"cardno": "440",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "curious gear",
@@ -3498,7 +3498,7 @@
 			"level": "x",
 			"initiative": "12",
 			"cardno": "428",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "curious machinery",
@@ -3508,7 +3508,7 @@
 			"level": "8",
 			"initiative": "11",
 			"cardno": "442",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "electrical discharge",
@@ -3518,7 +3518,7 @@
 			"level": "3",
 			"initiative": "26",
 			"cardno": "432",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "energy conversion",
@@ -3528,7 +3528,7 @@
 			"level": "4",
 			"initiative": "23",
 			"cardno": "433",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "heat conduction",
@@ -3538,7 +3538,7 @@
 			"level": "5",
 			"initiative": "11",
 			"cardno": "436",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "heated drill",
@@ -3548,7 +3548,7 @@
 			"level": "7",
 			"initiative": "80",
 			"cardno": "439",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "magnetic field",
@@ -3558,7 +3558,7 @@
 			"level": "4",
 			"initiative": "21",
 			"cardno": "434",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "memory drive",
@@ -3568,7 +3568,7 @@
 			"level": "1",
 			"initiative": "64",
 			"cardno": "424",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "piston barrage",
@@ -3578,7 +3578,7 @@
 			"level": "8",
 			"initiative": "33",
 			"cardno": "441",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "polarity shift",
@@ -3588,7 +3588,7 @@
 			"level": "9",
 			"initiative": "79",
 			"cardno": "443",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "power core",
@@ -3598,7 +3598,7 @@
 			"level": "1",
 			"initiative": "83",
 			"cardno": "420",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "pressure build-up",
@@ -3608,7 +3608,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "422",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "processing",
@@ -3618,7 +3618,7 @@
 			"level": "x",
 			"initiative": "95",
 			"cardno": "426",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "radiation",
@@ -3628,7 +3628,7 @@
 			"level": "5",
 			"initiative": "37",
 			"cardno": "435",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "recursion",
@@ -3638,7 +3638,7 @@
 			"level": "x",
 			"initiative": "50",
 			"cardno": "427",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "release valve",
@@ -3648,7 +3648,7 @@
 			"level": "2",
 			"initiative": "30",
 			"cardno": "429",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "rocket boots",
@@ -3658,7 +3658,7 @@
 			"level": "1",
 			"initiative": "22",
 			"cardno": "419",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "scalding blast",
@@ -3668,7 +3668,7 @@
 			"level": "6",
 			"initiative": "45",
 			"cardno": "437",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "steam armor",
@@ -3678,7 +3678,7 @@
 			"level": "1",
 			"initiative": "17",
 			"cardno": "417",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "steam core",
@@ -3688,7 +3688,7 @@
 			"level": "6",
 			"initiative": "71",
 			"cardno": "438",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "steel piston",
@@ -3698,7 +3698,7 @@
 			"level": "1",
 			"initiative": "40",
 			"cardno": "421",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "stress vents",
@@ -3708,7 +3708,7 @@
 			"level": "3",
 			"initiative": "15",
 			"cardno": "431",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "super heat transfer",
@@ -3718,7 +3718,7 @@
 			"level": "1",
 			"initiative": "25",
 			"cardno": "425",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "unstable core",
@@ -3728,7 +3728,7 @@
 			"level": "9",
 			"initiative": "10",
 			"cardno": "444",
-			"character": "me"
+			"classid": "me"
 		},
 		{
 			"name": "pc-back",
@@ -3738,7 +3738,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "blood ritual",
@@ -3748,7 +3748,7 @@
 			"level": "1",
 			"initiative": "56",
 			"cardno": "306",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "burned at both ends",
@@ -3758,7 +3758,7 @@
 			"level": "3",
 			"initiative": "30",
 			"cardno": "316",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "chained by despair",
@@ -3768,7 +3768,7 @@
 			"level": "5",
 			"initiative": "15",
 			"cardno": "321",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "chained by spite",
@@ -3778,7 +3778,7 @@
 			"level": "5",
 			"initiative": "15",
 			"cardno": "320",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "cleansing fire",
@@ -3788,7 +3788,7 @@
 			"level": "1",
 			"initiative": "64",
 			"cardno": "309",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "delayed malady",
@@ -3798,7 +3798,7 @@
 			"level": "x",
 			"initiative": "90",
 			"cardno": "311",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "down to the dirt",
@@ -3808,7 +3808,7 @@
 			"level": "4",
 			"initiative": "39",
 			"cardno": "319",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "explosive wounds",
@@ -3818,7 +3818,7 @@
 			"level": "1",
 			"initiative": "43",
 			"cardno": "308",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "hopelessness",
@@ -3828,7 +3828,7 @@
 			"level": "6",
 			"initiative": "83",
 			"cardno": "322",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "infection purge",
@@ -3838,7 +3838,7 @@
 			"level": "2",
 			"initiative": "45",
 			"cardno": "315",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "line of transference",
@@ -3848,7 +3848,7 @@
 			"level": "1",
 			"initiative": "25",
 			"cardno": "302",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "mirrored misery",
@@ -3858,7 +3858,7 @@
 			"level": "4",
 			"initiative": "72",
 			"cardno": "318",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "penance",
@@ -3868,7 +3868,7 @@
 			"level": "7",
 			"initiative": "12",
 			"cardno": "325",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "phantom limb",
@@ -3878,7 +3878,7 @@
 			"level": "6",
 			"initiative": "75",
 			"cardno": "323",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "pleasure in pain",
@@ -3888,7 +3888,7 @@
 			"level": "x",
 			"initiative": "47",
 			"cardno": "313",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "redemption",
@@ -3898,7 +3898,7 @@
 			"level": "9",
 			"initiative": "33",
 			"cardno": "328",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "reject the gift",
@@ -3908,7 +3908,7 @@
 			"level": "7",
 			"initiative": "20",
 			"cardno": "324",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "reprisal",
@@ -3918,7 +3918,7 @@
 			"level": "3",
 			"initiative": "70",
 			"cardno": "317",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "reversal of fate",
@@ -3928,7 +3928,7 @@
 			"level": "2",
 			"initiative": "23",
 			"cardno": "314",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "scarred effigy",
@@ -3938,7 +3938,7 @@
 			"level": "1",
 			"initiative": "19",
 			"cardno": "307",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "shared affliction",
@@ -3948,7 +3948,7 @@
 			"level": "1",
 			"initiative": "61",
 			"cardno": "301",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "swift vengeance",
@@ -3958,7 +3958,7 @@
 			"level": "1",
 			"initiative": "21",
 			"cardno": "310",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "the agony of others",
@@ -3968,7 +3968,7 @@
 			"level": "1",
 			"initiative": "78",
 			"cardno": "304",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "the end of everything",
@@ -3978,7 +3978,7 @@
 			"level": "9",
 			"initiative": "99",
 			"cardno": "329",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "transferred injury",
@@ -3988,7 +3988,7 @@
 			"level": "1",
 			"initiative": "74",
 			"cardno": "303",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "unending torment",
@@ -3998,7 +3998,7 @@
 			"level": "1",
 			"initiative": "29",
 			"cardno": "305",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "unstable effigy",
@@ -4008,7 +4008,7 @@
 			"level": "x",
 			"initiative": "18",
 			"cardno": "312",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "wave of anguish",
@@ -4018,7 +4018,7 @@
 			"level": "8",
 			"initiative": "68",
 			"cardno": "326",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "wracked with pain",
@@ -4028,7 +4028,7 @@
 			"level": "8",
 			"initiative": "22",
 			"cardno": "327",
-			"character": "pc"
+			"classid": "pc"
 		},
 		{
 			"name": "py-back",
@@ -4038,7 +4038,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "calamity",
@@ -4048,7 +4048,7 @@
 			"level": "9",
 			"initiative": "35",
 			"cardno": "243",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "cinder lance",
@@ -4058,7 +4058,7 @@
 			"level": "8",
 			"initiative": "90",
 			"cardno": "241",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "cloud of ash",
@@ -4068,7 +4068,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "224",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "cooling",
@@ -4078,7 +4078,7 @@
 			"level": "1",
 			"initiative": "75",
 			"cardno": "215",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "deep fury",
@@ -4088,7 +4088,7 @@
 			"level": "2",
 			"initiative": "38",
 			"cardno": "229",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "erupting rage",
@@ -4098,7 +4098,7 @@
 			"level": "7",
 			"initiative": "70",
 			"cardno": "238",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "eruption",
@@ -4108,7 +4108,7 @@
 			"level": "1",
 			"initiative": "47",
 			"cardno": "218",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "feed the beast",
@@ -4118,7 +4118,7 @@
 			"level": "8",
 			"initiative": "27",
 			"cardno": "240",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "flowing fire",
@@ -4128,7 +4128,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "217",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "force of the earth",
@@ -4138,7 +4138,7 @@
 			"level": "x",
 			"initiative": "15",
 			"cardno": "226",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "hand of flame",
@@ -4148,7 +4148,7 @@
 			"level": "4",
 			"initiative": "29",
 			"cardno": "232",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "hardened spike",
@@ -4158,7 +4158,7 @@
 			"level": "3",
 			"initiative": "80",
 			"cardno": "231",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "heat wave",
@@ -4168,7 +4168,7 @@
 			"level": "4",
 			"initiative": "08",
 			"cardno": "233",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "igneous path",
@@ -4178,7 +4178,7 @@
 			"level": "1",
 			"initiative": "18",
 			"cardno": "220",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "lava bomb",
@@ -4188,7 +4188,7 @@
 			"level": "1",
 			"initiative": "53",
 			"cardno": "219",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "liquid stone",
@@ -4198,7 +4198,7 @@
 			"level": "1",
 			"initiative": "28",
 			"cardno": "223",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "living magma",
@@ -4208,7 +4208,7 @@
 			"level": "3",
 			"initiative": "22",
 			"cardno": "230",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "magma orbs",
@@ -4218,7 +4218,7 @@
 			"level": "5",
 			"initiative": "82",
 			"cardno": "235",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "melted armor",
@@ -4228,7 +4228,7 @@
 			"level": "1",
 			"initiative": "62",
 			"cardno": "222",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "metamorphic rock",
@@ -4238,7 +4238,7 @@
 			"level": "x",
 			"initiative": "68",
 			"cardno": "227",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "obsidian shield",
@@ -4248,7 +4248,7 @@
 			"level": "6",
 			"initiative": "19",
 			"cardno": "237",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "quenched rage",
@@ -4258,7 +4258,7 @@
 			"level": "1",
 			"initiative": "30",
 			"cardno": "216",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "rain of fire",
@@ -4268,7 +4268,7 @@
 			"level": "5",
 			"initiative": "21",
 			"cardno": "234",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "return to the source",
@@ -4278,7 +4278,7 @@
 			"level": "6",
 			"initiative": "14",
 			"cardno": "236",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "searing smoke",
@@ -4288,7 +4288,7 @@
 			"level": "2",
 			"initiative": "45",
 			"cardno": "228",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "stone armor",
@@ -4298,7 +4298,7 @@
 			"level": "9",
 			"initiative": "09",
 			"cardno": "242",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "swelter",
@@ -4308,7 +4308,7 @@
 			"level": "7",
 			"initiative": "32",
 			"cardno": "239",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "under pressure",
@@ -4318,7 +4318,7 @@
 			"level": "1",
 			"initiative": "85",
 			"cardno": "221",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "wildfire",
@@ -4328,7 +4328,7 @@
 			"level": "x",
 			"initiative": "72",
 			"cardno": "225",
-			"character": "py"
+			"classid": "py"
 		},
 		{
 			"name": "sd-back",
@@ -4338,7 +4338,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "birds in a tempest",
@@ -4348,7 +4348,7 @@
 			"level": "2",
 			"initiative": "18",
 			"cardno": "344",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "biting frost",
@@ -4358,7 +4358,7 @@
 			"level": "4",
 			"initiative": "16",
 			"cardno": "349",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "blinding vortex",
@@ -4368,7 +4368,7 @@
 			"level": "x",
 			"initiative": "31",
 			"cardno": "342",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "blizzard",
@@ -4378,7 +4378,7 @@
 			"level": "1",
 			"initiative": "71",
 			"cardno": "330",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "chilling impact",
@@ -4388,7 +4388,7 @@
 			"level": "1",
 			"initiative": "31",
 			"cardno": "332",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "cold snap",
@@ -4398,7 +4398,7 @@
 			"level": "3",
 			"initiative": "86",
 			"cardno": "346",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "cold therapy",
@@ -4408,7 +4408,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "340",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "cross winds",
@@ -4418,7 +4418,7 @@
 			"level": "1",
 			"initiative": "32",
 			"cardno": "338",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "enticing breeze",
@@ -4428,7 +4428,7 @@
 			"level": "1",
 			"initiative": "76",
 			"cardno": "331",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "freezing storm",
@@ -4438,7 +4438,7 @@
 			"level": "7",
 			"initiative": "81",
 			"cardno": "354",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "frigid growth",
@@ -4448,7 +4448,7 @@
 			"level": "1",
 			"initiative": "70",
 			"cardno": "339",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "frozen brand",
@@ -4458,7 +4458,7 @@
 			"level": "6",
 			"initiative": "33",
 			"cardno": "353",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "gathering force",
@@ -4468,7 +4468,7 @@
 			"level": "1",
 			"initiative": "89",
 			"cardno": "333",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "lifting gust",
@@ -4478,7 +4478,7 @@
 			"level": "1",
 			"initiative": "27",
 			"cardno": "335",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "nature's breath",
@@ -4488,7 +4488,7 @@
 			"level": "1",
 			"initiative": "90",
 			"cardno": "334",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "polar vortex",
@@ -4498,7 +4498,7 @@
 			"level": "3",
 			"initiative": "61",
 			"cardno": "347",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "refreshing flurry",
@@ -4508,7 +4508,7 @@
 			"level": "6",
 			"initiative": "95",
 			"cardno": "352",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "shifting snow",
@@ -4518,7 +4518,7 @@
 			"level": "5",
 			"initiative": "17",
 			"cardno": "351",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "snowball",
@@ -4528,7 +4528,7 @@
 			"level": "1",
 			"initiative": "23",
 			"cardno": "336",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "snowblind",
@@ -4538,7 +4538,7 @@
 			"level": "9",
 			"initiative": "83",
 			"cardno": "359",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "storm wall",
@@ -4548,7 +4548,7 @@
 			"level": "7",
 			"initiative": "30",
 			"cardno": "355",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "surging blow",
@@ -4558,7 +4558,7 @@
 			"level": "8",
 			"initiative": "73",
 			"cardno": "356",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "the endless white",
@@ -4568,7 +4568,7 @@
 			"level": "8",
 			"initiative": "05",
 			"cardno": "357",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "the spirit's call",
@@ -4578,7 +4578,7 @@
 			"level": "x",
 			"initiative": "45",
 			"cardno": "343",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "tornado",
@@ -4588,7 +4588,7 @@
 			"level": "2",
 			"initiative": "59",
 			"cardno": "345",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "whipping gale",
@@ -4598,7 +4598,7 @@
 			"level": "5",
 			"initiative": "79",
 			"cardno": "350",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "whiteout",
@@ -4608,7 +4608,7 @@
 			"level": "1",
 			"initiative": "21",
 			"cardno": "337",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "white winds",
@@ -4618,7 +4618,7 @@
 			"level": "x",
 			"initiative": "11",
 			"cardno": "341",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "winds of change",
@@ -4628,7 +4628,7 @@
 			"level": "9",
 			"initiative": "15",
 			"cardno": "358",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "zephyr barrier",
@@ -4638,7 +4638,7 @@
 			"level": "4",
 			"initiative": "40",
 			"cardno": "348",
-			"character": "sd"
+			"classid": "sd"
 		},
 		{
 			"name": "sh-back",
@@ -4648,7 +4648,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "barbaric yawp",
@@ -4658,7 +4658,7 @@
 			"level": "9",
 			"initiative": "66",
 			"cardno": "271",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "befuddling bellow",
@@ -4668,7 +4668,7 @@
 			"level": "2",
 			"initiative": "18",
 			"cardno": "258",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "calamitous yawp",
@@ -4678,7 +4678,7 @@
 			"level": "x",
 			"initiative": "65",
 			"cardno": "254",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "cloaking refraction",
@@ -4688,7 +4688,7 @@
 			"level": "7",
 			"initiative": "11",
 			"cardno": "268",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "concentrated blast",
@@ -4698,7 +4698,7 @@
 			"level": "4",
 			"initiative": "38",
 			"cardno": "261",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "devastating shout",
@@ -4708,7 +4708,7 @@
 			"level": "1",
 			"initiative": "68",
 			"cardno": "253",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "din of battle",
@@ -4718,7 +4718,7 @@
 			"level": "x",
 			"initiative": "14",
 			"cardno": "255",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "elemental pulse",
@@ -4728,7 +4728,7 @@
 			"level": "4",
 			"initiative": "25",
 			"cardno": "262",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "empowering note",
@@ -4738,7 +4738,7 @@
 			"level": "5",
 			"initiative": "45",
 			"cardno": "264",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "empowering pulse",
@@ -4748,7 +4748,7 @@
 			"level": "1",
 			"initiative": "22",
 			"cardno": "252",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "feedback",
@@ -4758,7 +4758,7 @@
 			"level": "8",
 			"initiative": "24",
 			"cardno": "270",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "forceful vibrations",
@@ -4768,7 +4768,7 @@
 			"level": "1",
 			"initiative": "27",
 			"cardno": "247",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "foreboding tremors",
@@ -4778,7 +4778,7 @@
 			"level": "1",
 			"initiative": "21",
 			"cardno": "249",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "future sense",
@@ -4788,7 +4788,7 @@
 			"level": "6",
 			"initiative": "28",
 			"cardno": "266",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "heartening harmony",
@@ -4798,7 +4798,7 @@
 			"level": "1",
 			"initiative": "30",
 			"cardno": "246",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "illuminative tone",
@@ -4808,7 +4808,7 @@
 			"level": "x",
 			"initiative": "72",
 			"cardno": "256",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "lifting voice",
@@ -4818,7 +4818,7 @@
 			"level": "1",
 			"initiative": "29",
 			"cardno": "245",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "precious gems",
@@ -4828,7 +4828,7 @@
 			"level": "1",
 			"initiative": "10",
 			"cardno": "251",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "resonant frequency",
@@ -4838,7 +4838,7 @@
 			"level": "1",
 			"initiative": "88",
 			"cardno": "248",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "shape the path",
@@ -4848,7 +4848,7 @@
 			"level": "3",
 			"initiative": "40",
 			"cardno": "259",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "shrieking chakram",
@@ -4858,7 +4858,7 @@
 			"level": "5",
 			"initiative": "08",
 			"cardno": "263",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "soft spots",
@@ -4868,7 +4868,7 @@
 			"level": "8",
 			"initiative": "47",
 			"cardno": "269",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "sonic shock",
@@ -4878,7 +4878,7 @@
 			"level": "1",
 			"initiative": "58",
 			"cardno": "250",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "sound therapy",
@@ -4888,7 +4888,7 @@
 			"level": "7",
 			"initiative": "73",
 			"cardno": "267",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "stealth vibrations",
@@ -4898,7 +4898,7 @@
 			"level": "3",
 			"initiative": "35",
 			"cardno": "260",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "transparency",
@@ -4908,7 +4908,7 @@
 			"level": "2",
 			"initiative": "13",
 			"cardno": "257",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "unrelenting wail",
@@ -4918,7 +4918,7 @@
 			"level": "1",
 			"initiative": "26",
 			"cardno": "244",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "unsustainable wave",
@@ -4928,7 +4928,7 @@
 			"level": "6",
 			"initiative": "36",
 			"cardno": "265",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "violent vibrations",
@@ -4938,7 +4938,7 @@
 			"level": "9",
 			"initiative": "05",
 			"cardno": "272",
-			"character": "sh"
+			"classid": "sh"
 		},
 		{
 			"name": "ta-back",
@@ -4948,7 +4948,7 @@
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "boar catcher",
@@ -4958,7 +4958,7 @@
 			"level": "1",
 			"initiative": "20",
 			"cardno": "275",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "cage of thorns",
@@ -4968,7 +4968,7 @@
 			"level": "6",
 			"initiative": "55",
 			"cardno": "294",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "caltrops",
@@ -4978,7 +4978,7 @@
 			"level": "1",
 			"initiative": "25",
 			"cardno": "273",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "dangerous cargo",
@@ -4988,7 +4988,7 @@
 			"level": "9",
 			"initiative": "23",
 			"cardno": "299",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "dangerous ground",
@@ -4998,7 +4998,7 @@
 			"level": "4",
 			"initiative": "31",
 			"cardno": "289",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "dismantle",
@@ -5008,7 +5008,7 @@
 			"level": "x",
 			"initiative": "72",
 			"cardno": "282",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "electrified net",
@@ -5018,7 +5018,7 @@
 			"level": "1",
 			"initiative": "53",
 			"cardno": "277",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "enticing bait",
@@ -5028,7 +5028,7 @@
 			"level": "1",
 			"initiative": "30",
 			"cardno": "279",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "exploding decoy",
@@ -5038,7 +5038,7 @@
 			"level": "1",
 			"initiative": "62",
 			"cardno": "280",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "extra teeth",
@@ -5048,7 +5048,7 @@
 			"level": "3",
 			"initiative": "22",
 			"cardno": "287",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "flurry of nails",
@@ -5058,7 +5058,7 @@
 			"level": "1",
 			"initiative": "68",
 			"cardno": "281",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "foxhole",
@@ -5068,7 +5068,7 @@
 			"level": "7",
 			"initiative": "90",
 			"cardno": "296",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "defense grid",
@@ -5078,7 +5078,7 @@
 			"level": "7",
 			"initiative": "90",
 			"cardno": "296",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "furry facade",
@@ -5088,7 +5088,7 @@
 			"level": "1",
 			"initiative": "85",
 			"cardno": "274",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "grasping hazards",
@@ -5098,7 +5098,7 @@
 			"level": "7",
 			"initiative": "08",
 			"cardno": "295",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "honeypot",
@@ -5108,7 +5108,7 @@
 			"level": "1",
 			"initiative": "18",
 			"cardno": "278",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "improvised improvement",
@@ -5118,7 +5118,7 @@
 			"level": "x",
 			"initiative": "58",
 			"cardno": "284",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "lure of the snare",
@@ -5128,7 +5128,7 @@
 			"level": "5",
 			"initiative": "59",
 			"cardno": "291",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "magnetic shards",
@@ -5138,7 +5138,7 @@
 			"level": "8",
 			"initiative": "37",
 			"cardno": "298",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "mother of all traps",
@@ -5148,7 +5148,7 @@
 			"level": "9",
 			"initiative": "86",
 			"cardno": "300",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "path of pain",
@@ -5158,7 +5158,7 @@
 			"level": "2",
 			"initiative": "38",
 			"cardno": "286",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "persistent pitfalls",
@@ -5168,7 +5168,7 @@
 			"level": "6",
 			"initiative": "13",
 			"cardno": "293",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "proficient hunter",
@@ -5178,7 +5178,7 @@
 			"level": "5",
 			"initiative": "26",
 			"cardno": "292",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "pyrotechnics",
@@ -5188,7 +5188,7 @@
 			"level": "3",
 			"initiative": "80",
 			"cardno": "288",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "spike pit",
@@ -5198,7 +5198,7 @@
 			"level": "1",
 			"initiative": "47",
 			"cardno": "276",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "spike strip",
@@ -5208,7 +5208,7 @@
 			"level": "8",
 			"initiative": "67",
 			"cardno": "297",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "spring-loaded",
@@ -5218,7 +5218,7 @@
 			"level": "x",
 			"initiative": "15",
 			"cardno": "283",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "stalker's spoils",
@@ -5228,7 +5228,7 @@
 			"level": "4",
 			"initiative": "10",
 			"cardno": "290",
-			"character": "ta"
+			"classid": "ta"
 		},
 		{
 			"name": "unavoidable outcome",
@@ -5238,7 +5238,7 @@
 			"level": "2",
 			"initiative": "45",
 			"cardno": "285",
-			"character": "ta"
+			"classid": "ta"
 		}
 	]
 }

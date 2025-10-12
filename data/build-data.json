@@ -2,7 +2,7 @@
 	"builds": [
 		{
 			"id": "bn-tank",
-			"character": "bn",
+			"classid": "bn",
 			"build": "Tank",
 			"overview": { 
 				"body": [
@@ -244,6 +244,130 @@
 						{
 							"id": "resolvedcourage",
 							"comment": "Resolved Courage is there again just for the two-card combo with At All Costs to deal respectable damage and sometimes a bit of mitigation against ranged enemies through disadvantage."
+						}
+					]
+				}
+			],
+			"levels": [
+				{
+					"level": "1",
+					"hand": [
+						{
+							"card": "javelin",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Pull</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "resolvedcourage",
+							"top": {
+								"text":"AoE attack, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack support",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "regroup",
+							"top": {
+								"text":"Ranged heal, <i>Regen</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move allies",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "tipofthespear",
+							"top": {
+								"text":"AoE anti-shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "atallcosts",
+							"top": {
+								"text":"Heal party",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Summon for AoE attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"id": "",
+							"replace": "",
+							"condition": ""
 						}
 					]
 				}

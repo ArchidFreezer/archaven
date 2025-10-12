@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banner Spear Tank</title>
+	<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+	<button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+	<h1 class="w3-display-middle">Banner Spear Tank</h1>		
+	<button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+	<div class="w3-container">
+		<h2 id="overview">Overview</h2>
+		<p>The Tank build is more of a sub-build of a Spear build than a completely independent build, given the Banner Spear doesn’t have that many dedicated tanking cards. But more than anything, choosing to play this build represents a slightly different focus, which is based on protecting the party as much as possible rather than maximizing your damage output.</p>
+		
+		<p>So why would you play a Tank Build? This will mostly come down to party composition:</p>
+		<ul>
+			<li>Your group is mostly fragile and cannot afford to take many hits. In that case, your party will typically have plenty of damage output, but survivability will be a concern. Accordingly, rather than focusing on your output, your focus will be keeping everyone alive.</li>
+			<li>You lack melee allies who can consistently help you out in setting up formations. While you will still play some formation attacks, you’ll mostly stick to the easier ones, and you’ll still play less of them.</li>
+		</ul>
+		
+		<p>The tank build loves the following:</p>
+		<ul>
+			<li>Boneshaper. A Boneshaper appreciates having a tank to keep her summons alive longer, allowing them to deal more damage. And while you care less about formations than a Spear build, you do still use some of them, which Skeletons help you to more easily set up.</li>
+			<li>Damage-dealers and a bit of support. Obviously every tank would like a bit of support for healing, and as you’re going to be more focused on mitigating incoming damage to the party, you do need allies whose primary aim is killing enemies.</li>
+			<li>An example of an ideal four-character party for a Tank build would be something like: Ranged+Healing Drifter, Skeleton Swarm Boneshaper, Ranged Deathwalker, and Banner Spear.</li>
+		</ul>
+	</div>
+
+	<div class="w3-container">
+		<h2 id="deck">Build Deck</h2>
+		<button id="level-1-cards" onclick="accClick('build-cards-1')" class="w3-btn w3-block w3-left-align">Level 1 Cards</button>
+		<div id="build-cards-1" class="w3-container w3-hide">
+			<table>
+				<tr>
+					<td rowspan="2"><img class="ability-desc" src="images/frosthaven/character-ability-cards/bn/fh-at-all-costs.png"/>
+					<td style="width:60%">The top action allows you to heal your entire party at a cost. For this action to be worth playing, you really need to heal at least two allies, at which point it’s already very good with a net of positive four hit points, on top of dealing with a variety of negative conditions that are removed by healing (also note that you don’t suffer any damage when you remove Poison from an ally). Additionally, a ranged/support Banner Spear will likely not take many hits but has a large pool of hit points to draw from, meaning the cost here is often insignificant, making this even better.
+					<td rowspan="2">At All Costs is an excellent card for a Banner Spear in almost any party.<p>This card also gives XP on both sides so you will want to play one action each rest cycle.</p>
+				<tr>
+					<td>The bottom action is also incredibly useful. At the very least, it’s pretty much always going to be a pre-castable Disarm, which as a non-loss bottom is great. But obviously the real value here is having an ally whose movement you control precisely who acts immediately before your turn each round, moving into position to help you set up your AoE patterns. At lower player counts or in parties without melee allies, if you’re playing for a melee focus, you should consider that keeping this summon active is mandatory. And even when you have allies who can, in theory, help you, they may not always be willing to. Accordingly, look to play this bottom action as early as you can and resummon it when necessary if it dies.
+				<tr>
+					<td rowspan="2"><img class="ability-desc" src="images/frosthaven/character-ability-cards/bn/fh-at-all-costs.png"/>
+					<td>This is the top comment
+					<td rowspan="2">This is the card comment
+				<tr>
+					<td>This is the bottom comment
+			</table>
+			<p>This is some text</p>
+		</div>
+
+		<button id="level-2-cards" onclick="accClick('build-cards-2')" class="w3-btn w3-block w3-left-align">Level 2 Cards</button>
+		<div id="build-cards-2" class="w3-container w3-hide">
+			<table>
+				<tr>
+					<td rowspan="2"><img class="ability-desc" src="images/frosthaven/character-ability-cards/bn/fh-at-all-costs.png"/>
+					<td style="width:60%">The top action allows you to heal your entire party at a cost. For this action to be worth playing, you really need to heal at least two allies, at which point it’s already very good with a net of positive four hit points, on top of dealing with a variety of negative conditions that are removed by healing (also note that you don’t suffer any damage when you remove Poison from an ally). Additionally, a ranged/support Banner Spear will likely not take many hits but has a large pool of hit points to draw from, meaning the cost here is often insignificant, making this even better.
+					<td rowspan="2">At All Costs is an excellent card for a Banner Spear in almost any party.<p>This card also gives XP on both sides so you will want to play one action each rest cycle.</p>
+				<tr>
+					<td>The bottom action is also incredibly useful. At the very least, it’s pretty much always going to be a pre-castable Disarm, which as a non-loss bottom is great. But obviously the real value here is having an ally whose movement you control precisely who acts immediately before your turn each round, moving into position to help you set up your AoE patterns. At lower player counts or in parties without melee allies, if you’re playing for a melee focus, you should consider that keeping this summon active is mandatory. And even when you have allies who can, in theory, help you, they may not always be willing to. Accordingly, look to play this bottom action as early as you can and resummon it when necessary if it dies.
+				<tr>
+					<td rowspan="2"><img class="ability-desc" src="images/frosthaven/character-ability-cards/bn/fh-at-all-costs.png"/>
+					<td>This is the top comment
+					<td rowspan="2">This is the card comment
+				<tr>
+					<td>This is the bottom comment
+			</table>
+			<p>This is some text</p>
+		</div>
+
+	</div>
+</div>
+
+<footer class="w3-container w3-teal">
+	Tank build by Gripeaway
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,5254 @@
+{
+	"cards": [
+		{
+			"name": "bb-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-bb-back.png",
+			"xws": "bbback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "bb"
+		},
+		{
+			"name": "blurry jab",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-blurry-jab.png",
+			"xws": "blurryjab",
+			"level": "1",
+			"initiative": "20/50",
+			"cardno": "032",
+			"character": "bb"
+		},
+		{
+			"name": "borrowed time",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-borrowed-time.png",
+			"xws": "borrowedtime",
+			"level": "x",
+			"initiative": "02/32",
+			"cardno": "044",
+			"character": "bb"
+		},
+		{
+			"name": "breakneck speed",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-breakneck-speed.png",
+			"xws": "breakneckspeed",
+			"level": "5",
+			"initiative": "03/33",
+			"cardno": "051",
+			"character": "bb"
+		},
+		{
+			"name": "cascading reaction",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-cascading-reaction.png",
+			"xws": "cascadingreaction",
+			"level": "1",
+			"initiative": "19/49",
+			"cardno": "040",
+			"character": "bb"
+		},
+		{
+			"name": "double time",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-double-time.png",
+			"xws": "doubletime",
+			"level": "3",
+			"initiative": "22/52",
+			"cardno": "048",
+			"character": "bb"
+		},
+		{
+			"name": "drive recharge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-drive-recharge.png",
+			"xws": "driverecharge",
+			"level": "1",
+			"initiative": "69/99",
+			"cardno": "039",
+			"character": "bb"
+		},
+		{
+			"name": "experimental adjustment",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-experimental-adjustment.png",
+			"xws": "experimentaladjustment",
+			"level": "x",
+			"initiative": "12/42",
+			"cardno": "042",
+			"character": "bb"
+		},
+		{
+			"name": "fastest alive",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-fastest-alive.png",
+			"xws": "fastestalive",
+			"level": "8",
+			"initiative": "01/31",
+			"cardno": "058",
+			"character": "bb"
+		},
+		{
+			"name": "flashing flurry",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-flashing-flurry.png",
+			"xws": "flashingflurry",
+			"level": "5",
+			"initiative": "40/70",
+			"cardno": "052",
+			"character": "bb"
+		},
+		{
+			"name": "fractured timeline",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-fractured-timeline.png",
+			"xws": "fracturedtimeline",
+			"level": "9",
+			"initiative": "55/85",
+			"cardno": "060",
+			"character": "bb"
+		},
+		{
+			"name": "hit and run",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-hit-and-run.png",
+			"xws": "hitandrun",
+			"level": "1",
+			"initiative": "41/71",
+			"cardno": "038",
+			"character": "bb"
+		},
+		{
+			"name": "kinetic transfer",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-kinetic-transfer.png",
+			"xws": "kinetictransfer",
+			"level": "1",
+			"initiative": "36/66",
+			"cardno": "035",
+			"character": "bb"
+		},
+		{
+			"name": "make it count",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-make-it-count.png",
+			"xws": "makeitcount",
+			"level": "3",
+			"initiative": "51/81",
+			"cardno": "047",
+			"character": "bb"
+		},
+		{
+			"name": "overdrive",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-overdrive.png",
+			"xws": "overdrive",
+			"level": "1",
+			"initiative": "60/90",
+			"cardno": "036",
+			"character": "bb"
+		},
+		{
+			"name": "phasing blades",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-phasing-blades.png",
+			"xws": "phasingblades",
+			"level": "7",
+			"initiative": "63/93",
+			"cardno": "055",
+			"character": "bb"
+		},
+		{
+			"name": "potential energy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-potential-energy.png",
+			"xws": "potentialenergy",
+			"level": "4",
+			"initiative": "32/62",
+			"cardno": "050",
+			"character": "bb"
+		},
+		{
+			"name": "power leak",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-power-leak.png",
+			"xws": "powerleak",
+			"level": "1",
+			"initiative": "17/47",
+			"cardno": "037",
+			"character": "bb"
+		},
+		{
+			"name": "precision timing",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-precision-timing.png",
+			"xws": "precisiontiming",
+			"level": "4",
+			"initiative": "15/45",
+			"cardno": "049",
+			"character": "bb"
+		},
+		{
+			"name": "quantum uncertainty",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-quantum-uncertainty.png",
+			"xws": "quantumuncertainty",
+			"level": "8",
+			"initiative": "35/65",
+			"cardno": "057",
+			"character": "bb"
+		},
+		{
+			"name": "reckless augmentation",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-reckless-augmentation.png",
+			"xws": "recklessaugmentation",
+			"level": "2",
+			"initiative": "10/40",
+			"cardno": "046",
+			"character": "bb"
+		},
+		{
+			"name": "reverse the flow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-reverse-the-flow.png",
+			"xws": "reversetheflow",
+			"level": "9",
+			"initiative": "58/88",
+			"cardno": "059",
+			"character": "bb"
+		},
+		{
+			"name": "rushed to the end",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-rushed-to-the-end.png",
+			"xws": "rushedtotheend",
+			"level": "7",
+			"initiative": "32/62",
+			"cardno": "056",
+			"character": "bb"
+		},
+		{
+			"name": "sand in the hourglass",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-sand-in-the-hourglass.png",
+			"xws": "sandinthehourglass",
+			"level": "x",
+			"initiative": "52/82",
+			"cardno": "043",
+			"character": "bb"
+		},
+		{
+			"name": "sap speed",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-sap-speed.png",
+			"xws": "sapspeed",
+			"level": "1",
+			"initiative": "45/75",
+			"cardno": "034",
+			"character": "bb"
+		},
+		{
+			"name": "stab them all",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-stab-them-all.png",
+			"xws": "stabthemall",
+			"level": "6",
+			"initiative": "04/34",
+			"cardno": "053",
+			"character": "bb"
+		},
+		{
+			"name": "systems reboot",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-systems-reboot.png",
+			"xws": "systemsreboot",
+			"level": "2",
+			"initiative": "57/87",
+			"cardno": "045",
+			"character": "bb"
+		},
+		{
+			"name": "temporal displacement",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-temporal-displacement.png",
+			"xws": "temporaldisplacement",
+			"level": "1",
+			"initiative": "44/74",
+			"cardno": "041",
+			"character": "bb"
+		},
+		{
+			"name": "the knife's edge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-the-knifes-edge.png",
+			"xws": "theknifesedge",
+			"level": "6",
+			"initiative": "65/95",
+			"cardno": "054",
+			"character": "bb"
+		},
+		{
+			"name": "twin strike",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bb/fh-twin-strike.png",
+			"xws": "twinstrike",
+			"level": "1",
+			"initiative": "24/54",
+			"cardno": "033",
+			"character": "bb"
+		},
+		{
+			"name": "bn-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-bn-back.png",
+			"xws": "bnback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "bn"
+		},
+		{
+			"name": "air support",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-air-support.png",
+			"xws": "airsupport",
+			"level": "4",
+			"initiative": "20",
+			"cardno": "079",
+			"character": "bn"
+		},
+		{
+			"name": "at all costs",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-at-all-costs.png",
+			"xws": "atallcosts",
+			"level": "1",
+			"initiative": "60",
+			"cardno": "061",
+			"character": "bn"
+		},
+		{
+			"name": "barricade",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-barricade.png",
+			"xws": "barricade",
+			"level": "6",
+			"initiative": "16",
+			"cardno": "082",
+			"character": "bn"
+		},
+		{
+			"name": "banner of valor",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-barricade.png",
+			"xws": "barricade",
+			"level": "6",
+			"initiative": "16",
+			"cardno": "082",
+			"character": "bn"
+		},
+		{
+			"name": "boldening blow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-boldening-blow.png",
+			"xws": "boldeningblow",
+			"level": "4",
+			"initiative": "72",
+			"cardno": "078",
+			"character": "bn"
+		},
+		{
+			"name": "bolstering shout",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-bolstering-shout.png",
+			"xws": "blsteringshout",
+			"level": "6",
+			"initiative": "75",
+			"cardno": "083",
+			"character": "bn"
+		},
+		{
+			"name": "combined effort",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-combined-effort.png",
+			"xws": "combinedeffort",
+			"level": "1",
+			"initiative": "32",
+			"cardno": "067",
+			"character": "bn"
+		},
+		{
+			"name": "deflecting maneuver",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-deflecting-maneuver.png",
+			"xws": "deflectingmaneuver",
+			"level": "1",
+			"initiative": "15",
+			"cardno": "065",
+			"character": "bn"
+		},
+		{
+			"name": "driving inspiration",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-driving-inspiration.png",
+			"xws": "drivinginspiration",
+			"level": "x",
+			"initiative": "18",
+			"cardno": "073",
+			"character": "bn"
+		},
+		{
+			"name": "explosive epicenter",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-explosive-epicenter.png",
+			"xws": "explosiveepicenter",
+			"level": "5",
+			"initiative": "78",
+			"cardno": "080",
+			"character": "bn"
+		},
+		{
+			"name": "hail of spears",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-hail-of-spears.png",
+			"xws": "hailofspears",
+			"level": "9",
+			"initiative": "44",
+			"cardno": "089",
+			"character": "bn"
+		},
+		{
+			"name": "head of the hammer",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-head-of-the-hammer.png",
+			"xws": "headofthehammer",
+			"level": "3",
+			"initiative": "87",
+			"cardno": "077",
+			"character": "bn"
+		},
+		{
+			"name": "hold the line",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-hold-the-line.png",
+			"xws": "holdtheline",
+			"level": "5",
+			"initiative": "05",
+			"cardno": "081",
+			"character": "bn"
+		},
+		{
+			"name": "incendiary throw",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-incendiary-throw.png",
+			"xws": "incendiarythrow",
+			"level": "x",
+			"initiative": "22",
+			"cardno": "072",
+			"character": "bn"
+		},
+		{
+			"name": "javelin",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-javelin.png",
+			"xws": "javelin",
+			"level": "1",
+			"initiative": "21",
+			"cardno": "064",
+			"character": "bn"
+		},
+		{
+			"name": "lead from afar",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-lead-from-afar.png",
+			"xws": "leadfromafar",
+			"level": "7",
+			"initiative": "80",
+			"cardno": "085",
+			"character": "bn"
+		},
+		{
+			"name": "let them come",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-let-them-come.png",
+			"xws": "letthemcome",
+			"level": "3",
+			"initiative": "24",
+			"cardno": "076",
+			"character": "bn"
+		},
+		{
+			"name": "meat grinder",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-meat-grinder.png",
+			"xws": "meatgrinder",
+			"level": "2",
+			"initiative": "62",
+			"cardno": "074",
+			"character": "bn"
+		},
+		{
+			"name": "pincer movement",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-pincer-movement.png",
+			"xws": "pincermovement",
+			"level": "1",
+			"initiative": "69",
+			"cardno": "069",
+			"character": "bn"
+		},
+		{
+			"name": "pinning charge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-pinning-charge.png",
+			"xws": "pinningcharge",
+			"level": "2",
+			"initiative": "17",
+			"cardno": "075",
+			"character": "bn"
+		},
+		{
+			"name": "rallying cry",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-rallying-cry.png",
+			"xws": "rallyingcry",
+			"level": "1",
+			"initiative": "71",
+			"cardno": "062",
+			"character": "bn"
+		},
+		{
+			"name": "regroup",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-regroup.png",
+			"xws": "regroup",
+			"level": "1",
+			"initiative": "25",
+			"cardno": "070",
+			"character": "bn"
+		},
+		{
+			"name": "resolved courage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-resolved-courage.png",
+			"xws": "resolvedcourage",
+			"level": "x",
+			"initiative": "10",
+			"cardno": "071",
+			"character": "bn"
+		},
+		{
+			"name": "set for the charge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-set-for-the-charge.png",
+			"xws": "setforthecharge",
+			"level": "1",
+			"initiative": "06",
+			"cardno": "068",
+			"character": "bn"
+		},
+		{
+			"name": "sweeping aid",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-sweeping-aid.png",
+			"xws": "sweepingaid",
+			"level": "8",
+			"initiative": "73",
+			"cardno": "086",
+			"character": "bn"
+		},
+		{
+			"name": "take no prisoners",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-take-no-prisoners.png",
+			"xws": "takenoprisoners",
+			"level": "9",
+			"initiative": "85",
+			"cardno": "088",
+			"character": "bn"
+		},
+		{
+			"name": "taunting howl",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-taunting-howl.png",
+			"xws": "tauntinghowl",
+			"level": "8",
+			"initiative": "11",
+			"cardno": "087",
+			"character": "bn"
+		},
+		{
+			"name": "tip of the spear",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-tip-of-the-spear.png",
+			"xws": "tipofthespear",
+			"level": "1",
+			"initiative": "67",
+			"cardno": "066",
+			"character": "bn"
+		},
+		{
+			"name": "tri-thrust",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-tri-thrust.png",
+			"xws": "trithrust",
+			"level": "7",
+			"initiative": "27",
+			"cardno": "084",
+			"character": "bn"
+		},
+		{
+			"name": "unbreakable wall",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bn/fh-unbreakable-wall.png",
+			"xws": "unbreakablewall",
+			"level": "1",
+			"initiative": "83",
+			"cardno": "063",
+			"character": "bn"
+		},
+		{
+			"name": "bo-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-bo-back.png",
+			"xws": "anback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "bo"
+		},
+		{
+			"name": "angry spirits",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-angry-spirits.png",
+			"xws": "angryspirits",
+			"level": "1",
+			"initiative": "76",
+			"cardno": "126",
+			"character": "bo"
+		},
+		{
+			"name": "approach oblivion",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-approach-oblivion.png",
+			"xws": "approachoblivion",
+			"level": "x",
+			"initiative": "53",
+			"cardno": "132",
+			"character": "bo"
+		},
+		{
+			"name": "behold the shrouded sun",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-behold-the-shrouded-sun.png",
+			"xws": "beholdtheshroudedsun",
+			"level": "9",
+			"initiative": "10",
+			"cardno": "150",
+			"character": "bo"
+		},
+		{
+			"name": "bone dagger",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-bone-dagger.png",
+			"xws": "bonedagger",
+			"level": "2",
+			"initiative": "29",
+			"cardno": "136",
+			"character": "bo"
+		},
+		{
+			"name": "command the wretched",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-command-the-wretched.png",
+			"xws": "commandthewretched",
+			"level": "1",
+			"initiative": "83",
+			"cardno": "129",
+			"character": "bo"
+		},
+		{
+			"name": "critical failure",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-critical-failure.png",
+			"xws": "criticalfailure",
+			"level": "4",
+			"initiative": "95",
+			"cardno": "139",
+			"character": "bo"
+		},
+		{
+			"name": "damned horde",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-damned-horde.png",
+			"xws": "damnedhorde",
+			"level": "1",
+			"initiative": "71",
+			"cardno": "122",
+			"character": "bo"
+		},
+		{
+			"name": "dark tidings",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-dark-tidings.png",
+			"xws": "darktidings",
+			"level": "1",
+			"initiative": "43",
+			"cardno": "125",
+			"character": "bo"
+		},
+		{
+			"name": "decaying will",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-decaying-will.png",
+			"xws": "decayingwill",
+			"level": "1",
+			"initiative": "46",
+			"cardno": "124",
+			"character": "bo"
+		},
+		{
+			"name": "endless numbers",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-endless-numbers.png",
+			"xws": "endlessnumbers",
+			"level": "8",
+			"initiative": "86",
+			"cardno": "147",
+			"character": "bo"
+		},
+		{
+			"name": "eternal torment",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-eternal-torment.png",
+			"xws": "eternaltorment",
+			"level": "1",
+			"initiative": "70",
+			"cardno": "130",
+			"character": "bo"
+		},
+		{
+			"name": "exploding corpse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-exploding-corpse.png",
+			"xws": "explodingcorpse",
+			"level": "x",
+			"initiative": "21",
+			"cardno": "133",
+			"character": "bo"
+		},
+		{
+			"name": "fell remedy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-fell-remedy.png",
+			"xws": "fellremedy",
+			"level": "1",
+			"initiative": "30",
+			"cardno": "127",
+			"character": "bo"
+		},
+		{
+			"name": "flesh shield",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-flesh-shield.png",
+			"xws": "fleshshield",
+			"level": "4",
+			"initiative": "16",
+			"cardno": "140",
+			"character": "bo"
+		},
+		{
+			"name": "flow of the black river",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-flow-of-the-black-river.png",
+			"xws": "flowoftheblackriver",
+			"level": "1",
+			"initiative": "18",
+			"cardno": "128",
+			"character": "bo"
+		},
+		{
+			"name": "grave digging",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-grave-digging.png",
+			"xws": "gravedigging",
+			"level": "3",
+			"initiative": "96",
+			"cardno": "137",
+			"character": "bo"
+		},
+		{
+			"name": "life in death",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-life-in-death.png",
+			"xws": "lifeindeath",
+			"level": "1",
+			"initiative": "91",
+			"cardno": "120",
+			"character": "bo"
+		},
+		{
+			"name": "malicious conversion",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-malicious-conversion.png",
+			"xws": "maliciousconversion",
+			"level": "1",
+			"initiative": "26",
+			"cardno": "131",
+			"character": "bo"
+		},
+		{
+			"name": "putrid cloud",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-putrid-cloud.png",
+			"xws": "putridcloud",
+			"level": "3",
+			"initiative": "28",
+			"cardno": "138",
+			"character": "bo"
+		},
+		{
+			"name": "recycled limbs",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-recycled-limbs.png",
+			"xws": "recycledlimbs",
+			"level": "7",
+			"initiative": "52",
+			"cardno": "145",
+			"character": "bo"
+		},
+		{
+			"name": "returned servant",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-returned-servant.png",
+			"xws": "returnedservant",
+			"level": "1",
+			"initiative": "81",
+			"cardno": "121",
+			"character": "bo"
+		},
+		{
+			"name": "rotting multitude",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-rotting-multitude.png",
+			"xws": "rottingmultitude",
+			"level": "6",
+			"initiative": "66",
+			"cardno": "143",
+			"character": "bo"
+		},
+		{
+			"name": "solid bones",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-solid-bones.png",
+			"xws": "solidbones",
+			"level": "5",
+			"initiative": "32",
+			"cardno": "142",
+			"character": "bo"
+		},
+		{
+			"name": "soul claim",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-soul-claim.png",
+			"xws": "soulclaim",
+			"level": "7",
+			"initiative": "23",
+			"cardno": "146",
+			"character": "bo"
+		},
+		{
+			"name": "transfer of essence",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-transfer-of-essence.png",
+			"xws": "transferofessence",
+			"level": "1",
+			"initiative": "62",
+			"cardno": "123",
+			"character": "bo"
+		},
+		{
+			"name": "twisted decree",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-twisted-decree.png",
+			"xws": "twisteddecree",
+			"level": "6",
+			"initiative": "85",
+			"cardno": "144",
+			"character": "bo"
+		},
+		{
+			"name": "unearthed horror",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-unearthed-horror.png",
+			"xws": "unearthedhorror",
+			"level": "2",
+			"initiative": "94",
+			"cardno": "135",
+			"character": "bo"
+		},
+		{
+			"name": "unforgivable methods",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-unforgivable-methods.png",
+			"xws": "unforgivablemethods",
+			"level": "5",
+			"initiative": "98",
+			"cardno": "141",
+			"character": "bo"
+		},
+		{
+			"name": "unholy prowess",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-unholy-prowess.png",
+			"xws": "unholyprowess",
+			"level": "9",
+			"initiative": "97",
+			"cardno": "149",
+			"character": "bo"
+		},
+		{
+			"name": "wailing from beyond",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-wailing-from-beyond.png",
+			"xws": "wailingfrombeyond",
+			"level": "8",
+			"initiative": "73",
+			"cardno": "148",
+			"character": "bo"
+		},
+		{
+			"name": "wrath of the turned earth",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/bo/fh-wrath-of-the-turned-earth.png",
+			"xws": "wrathoftheturnedearth",
+			"level": "x",
+			"initiative": "80",
+			"cardno": "134",
+			"character": "bo"
+		},
+		{
+			"name": "cr-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-cr-back.png",
+			"xws": "crback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "cr"
+		},
+		{
+			"name": "blood in the water",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-blood-in-the-water.png",
+			"xws": "bloodinthewater",
+			"level": "2",
+			"initiative": "53",
+			"cardno": "490",
+			"character": "cr"
+		},
+		{
+			"name": "chaotic refraction",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-chaotic-refraction.png",
+			"xws": "chaoticrefraction",
+			"level": "4",
+			"initiative": "26",
+			"cardno": "493",
+			"character": "cr"
+		},
+		{
+			"name": "cleansing swell",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-cleansing-swell.png",
+			"xws": "cleansingswell",
+			"level": "1",
+			"initiative": "45",
+			"cardno": "481",
+			"character": "cr"
+		},
+		{
+			"name": "clean sweep",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-clean-sweep.png",
+			"xws": "cleansweep",
+			"level": "4",
+			"initiative": "65",
+			"cardno": "494",
+			"character": "cr"
+		},
+		{
+			"name": "crashing surge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-crashing-surge.png",
+			"xws": "crashingsurge",
+			"level": "1",
+			"initiative": "34",
+			"cardno": "483",
+			"character": "cr"
+		},
+		{
+			"name": "cresting force",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-cresting-force.png",
+			"xws": "crestingforce",
+			"level": "1",
+			"initiative": "87",
+			"cardno": "482",
+			"character": "cr"
+		},
+		{
+			"name": "crush armor",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-crush-armor.png",
+			"xws": "crusharmor",
+			"level": "x",
+			"initiative": "42",
+			"cardno": "488",
+			"character": "cr"
+		},
+		{
+			"name": "death on all sides",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-death-on-all-sides.png",
+			"xws": "deathonallsides",
+			"level": "8",
+			"initiative": "73",
+			"cardno": "501",
+			"character": "cr"
+		},
+		{
+			"name": "down to the depths",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-down-to-the-depths.png",
+			"xws": "downtothedepths",
+			"level": "1",
+			"initiative": "74",
+			"cardno": "478",
+			"character": "cr"
+		},
+		{
+			"name": "drown beneath the waves",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-drown-beneath-the-waves.png",
+			"xws": "drownbeneaththewaves",
+			"level": "7",
+			"initiative": "09",
+			"cardno": "500",
+			"character": "cr"
+		},
+		{
+			"name": "dug in",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-dug-in.png",
+			"xws": "dugin",
+			"level": "7",
+			"initiative": "76",
+			"cardno": "499",
+			"character": "cr"
+		},
+		{
+			"name": "ebb and flow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-ebb-and-flow.png",
+			"xws": "ebbandflow",
+			"level": "8",
+			"initiative": "24",
+			"cardno": "502",
+			"character": "cr"
+		},
+		{
+			"name": "endless cycle",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-endless-cycle.png",
+			"xws": "endlesscycle",
+			"level": "3",
+			"initiative": "08",
+			"cardno": "492",
+			"character": "cr"
+		},
+		{
+			"name": "high tide",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-high-tide.png",
+			"xws": "hightide",
+			"level": "9",
+			"initiative": "90",
+			"cardno": "503",
+			"character": "cr"
+		},
+		{
+			"name": "low tide",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-low-tide.png",
+			"xws": "lowtide",
+			"level": "9",
+			"initiative": "10",
+			"cardno": "504",
+			"character": "cr"
+		},
+		{
+			"name": "mighty claws",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-mighty-claws.png",
+			"xws": "mightyclaws",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "484",
+			"character": "cr"
+		},
+		{
+			"name": "overwhelming wave",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-overwhelming-wave.png",
+			"xws": "overwhelmingwave",
+			"level": "1",
+			"initiative": "86",
+			"cardno": "474",
+			"character": "cr"
+		},
+		{
+			"name": "pool of power",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-pool-of-power.png",
+			"xws": "poolofpower",
+			"level": "1",
+			"initiative": "41",
+			"cardno": "479",
+			"character": "cr"
+		},
+		{
+			"name": "powerful pincer",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-powerful-pincer.png",
+			"xws": "powerfulpincer",
+			"level": "6",
+			"initiative": "70",
+			"cardno": "497",
+			"character": "cr"
+		},
+		{
+			"name": "rancid brine",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-rancid-brine.png",
+			"xws": "rancidbrine",
+			"level": "1",
+			"initiative": "62",
+			"cardno": "476",
+			"character": "cr"
+		},
+		{
+			"name": "rising flood",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-rising-flood.png",
+			"xws": "risingflood",
+			"level": "x",
+			"initiative": "49",
+			"cardno": "486",
+			"character": "cr"
+		},
+		{
+			"name": "sharp chitin",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-sharp-chitin.png",
+			"xws": "sharpchitin",
+			"level": "1",
+			"initiative": "25",
+			"cardno": "477",
+			"character": "cr"
+		},
+		{
+			"name": "shuck",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-shuck.png",
+			"xws": "shuck",
+			"level": "3",
+			"initiative": "55",
+			"cardno": "491",
+			"character": "cr"
+		},
+		{
+			"name": "skitter",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-skitter.png",
+			"xws": "skitter",
+			"level": "1",
+			"initiative": "51",
+			"cardno": "480",
+			"character": "cr"
+		},
+		{
+			"name": "smashing torrent",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-smashing-torrent.png",
+			"xws": "smashingtorrent",
+			"level": "2",
+			"initiative": "79",
+			"cardno": "489",
+			"character": "cr"
+		},
+		{
+			"name": "sodden soil",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-sodden-soil.png",
+			"xws": "soddensoil",
+			"level": "5",
+			"initiative": "17",
+			"cardno": "496",
+			"character": "cr"
+		},
+		{
+			"name": "soft flesh",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-soft-flesh.png",
+			"xws": "softflesh",
+			"level": "1",
+			"initiative": "75",
+			"cardno": "475",
+			"character": "cr"
+		},
+		{
+			"name": "submerge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-submerge.png",
+			"xws": "submerge",
+			"level": "1",
+			"initiative": "68",
+			"cardno": "485",
+			"character": "cr"
+		},
+		{
+			"name": "tidal blast",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-tidal-blast.png",
+			"xws": "tidalblast",
+			"level": "5",
+			"initiative": "71",
+			"cardno": "495",
+			"character": "cr"
+		},
+		{
+			"name": "twilight grasp",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-twilight-grasp.png",
+			"xws": "twilightgrasp",
+			"level": "6",
+			"initiative": "33",
+			"cardno": "498",
+			"character": "cr"
+		},
+		{
+			"name": "undertow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/cr/fh-undertow.png",
+			"xws": "undertow",
+			"level": "x",
+			"initiative": "15",
+			"cardno": "487",
+			"character": "cr"
+		},
+		{
+			"name": "df-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-df-back.png",
+			"xws": "dfback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "df"
+		},
+		{
+			"name": "accurate strikes",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-accurate-strikes.png",
+			"xws": "accuratestrikes",
+			"level": "6",
+			"initiative": "56",
+			"cardno": "024",
+			"character": "df"
+		},
+		{
+			"name": "against all odds",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-against-all-odds.png",
+			"xws": "againstallodds",
+			"level": "8",
+			"initiative": "37",
+			"cardno": "028",
+			"character": "df"
+		},
+		{
+			"name": "bloodletting",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-bloodletting.png",
+			"xws": "bloodletting",
+			"level": "1",
+			"initiative": "65",
+			"cardno": "011",
+			"character": "df"
+		},
+		{
+			"name": "break through",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-break-through.png",
+			"xws": "breakthrough",
+			"level": "5",
+			"initiative": "34",
+			"cardno": "023",
+			"character": "df"
+		},
+		{
+			"name": "chunk of flesh",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-chunk-of-flesh.png",
+			"xws": "chunkofflesh",
+			"level": "4",
+			"initiative": "62",
+			"cardno": "020",
+			"character": "df"
+		},
+		{
+			"name": "consume stamina",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-consume-stamina.png",
+			"xws": "consumestamina",
+			"level": "6",
+			"initiative": "21",
+			"cardno": "025",
+			"character": "df"
+		},
+		{
+			"name": "continuous health",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-continuous-health.png",
+			"xws": "continuoushealth",
+			"level": "1",
+			"initiative": "61",
+			"cardno": "004",
+			"character": "df"
+		},
+		{
+			"name": "crushing weight",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-crushing-weight.png",
+			"xws": "crushingweight",
+			"level": "1",
+			"initiative": "71",
+			"cardno": "001",
+			"character": "df"
+		},
+		{
+			"name": "deadly shot",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-deadly-shot.png",
+			"xws": "deadlyshot",
+			"level": "1",
+			"initiative": "32",
+			"cardno": "010",
+			"character": "df"
+		},
+		{
+			"name": "destructive fury",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-destructive-fury.png",
+			"xws": "destructivefury",
+			"level": "x",
+			"initiative": "19",
+			"cardno": "015",
+			"character": "df"
+		},
+		{
+			"name": "draining arrows",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-draining-arrows.png",
+			"xws": "drainingarrows",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "008",
+			"character": "df"
+		},
+		{
+			"name": "dual bow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-dual-bow.png",
+			"xws": "dualbow",
+			"level": "3",
+			"initiative": "26",
+			"cardno": "019",
+			"character": "df"
+		},
+		{
+			"name": "ever forward",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-ever-forward.png",
+			"xws": "everforward",
+			"level": "2",
+			"initiative": "67",
+			"cardno": "017",
+			"character": "df"
+		},
+		{
+			"name": "everlasting",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-everlasting.png",
+			"xws": "everlasting",
+			"level": "9",
+			"initiative": "96",
+			"cardno": "030",
+			"character": "df"
+		},
+		{
+			"name": "fierce barrage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-fierce-barrage.png",
+			"xws": "fiercebarrage",
+			"level": "3",
+			"initiative": "32",
+			"cardno": "018",
+			"character": "df"
+		},
+		{
+			"name": "fortitude",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-fortitude.png",
+			"xws": "fortitude",
+			"level": "x",
+			"initiative": "31",
+			"cardno": "013",
+			"character": "df"
+		},
+		{
+			"name": "gift of the prey",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-gift-of-the-prey.png",
+			"xws": "giftoftheprey",
+			"level": "4",
+			"initiative": "40",
+			"cardno": "021",
+			"character": "df"
+		},
+		{
+			"name": "inevitable conclusion",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-inevitable-conclusion.png",
+			"xws": "inevitableconclusion",
+			"level": "8",
+			"initiative": "29",
+			"cardno": "029",
+			"character": "df"
+		},
+		{
+			"name": "like the wind",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-like-the-wind.png",
+			"xws": "likethewind",
+			"level": "7",
+			"initiative": "77",
+			"cardno": "026",
+			"character": "df"
+		},
+		{
+			"name": "no remorse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-no-remorse.png",
+			"xws": "noremorse",
+			"level": "x",
+			"initiative": "20",
+			"cardno": "014",
+			"character": "df"
+		},
+		{
+			"name": "precision aim",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-precision-aim.png",
+			"xws": "precisionaim",
+			"level": "1",
+			"initiative": "66",
+			"cardno": "003",
+			"character": "df"
+		},
+		{
+			"name": "prudent preparation",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-prudent-preparation.png",
+			"xws": "prudentpreparation",
+			"level": "1",
+			"initiative": "14",
+			"cardno": "009",
+			"character": "df"
+		},
+		{
+			"name": "relentless",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-relentless.png",
+			"xws": "relentless",
+			"level": "1",
+			"initiative": "89",
+			"cardno": "005",
+			"character": "df"
+		},
+		{
+			"name": "shockwave",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-shockwave.png",
+			"xws": "shockwave",
+			"level": "2",
+			"initiative": "17",
+			"cardno": "016",
+			"character": "df"
+		},
+		{
+			"name": "survivalist",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-survivalist.png",
+			"xws": "survivalist",
+			"level": "5",
+			"initiative": "91",
+			"cardno": "022",
+			"character": "df"
+		},
+		{
+			"name": "sustained momentum",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-sustained-momentum.png",
+			"xws": "sustainedmomentum",
+			"level": "1",
+			"initiative": "76",
+			"cardno": "002",
+			"character": "df"
+		},
+		{
+			"name": "unbreakable",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-unbreakable.png",
+			"xws": "unbreakable",
+			"level": "1",
+			"initiative": "90",
+			"cardno": "006",
+			"character": "df"
+		},
+		{
+			"name": "unending fight",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-unending-fight.png",
+			"xws": "unendingfight",
+			"level": "7",
+			"initiative": "25",
+			"cardno": "027",
+			"character": "df"
+		},
+		{
+			"name": "use every part",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-use-every-part.png",
+			"xws": "useeverypart",
+			"level": "9",
+			"initiative": "18",
+			"cardno": "031",
+			"character": "df"
+		},
+		{
+			"name": "vile assault",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-vile-assault.png",
+			"xws": "vileassault",
+			"level": "1",
+			"initiative": "27",
+			"cardno": "007",
+			"character": "df"
+		},
+		{
+			"name": "violent inheritance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/df/fh-violent-inheritance.png",
+			"xws": "violentinheritance",
+			"level": "1",
+			"initiative": "70",
+			"cardno": "012",
+			"character": "df"
+		},
+		{
+			"name": "dt-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-dt-back.png",
+			"xws": "dtback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "dt"
+		},
+		{
+			"name": "black night of the deep",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-black-night-of-the-deep.png",
+			"xws": "blacknightofthedeep",
+			"level": "9",
+			"initiative": "26",
+			"cardno": "472",
+			"character": "dt"
+		},
+		{
+			"name": "black scythe",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-black-scythe.png",
+			"xws": "blackscythe",
+			"level": "1",
+			"initiative": "45",
+			"cardno": "453",
+			"character": "dt"
+		},
+		{
+			"name": "claw of doom",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-claw-of-doom.png",
+			"xws": "clawofdoom",
+			"level": "6",
+			"initiative": "30",
+			"cardno": "466",
+			"character": "dt"
+		},
+		{
+			"name": "consume the helpless",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-consume-the-helpless.png",
+			"xws": "consumethehelpless",
+			"level": "9",
+			"initiative": "12",
+			"cardno": "473",
+			"character": "dt"
+		},
+		{
+			"name": "crippling terror",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-crippling-terror.png",
+			"xws": "cripplingterror",
+			"level": "3",
+			"initiative": "15",
+			"cardno": "460",
+			"character": "dt"
+		},
+		{
+			"name": "crushing darkness",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-crushing-darkness.png",
+			"xws": "crushingdarkness",
+			"level": "4",
+			"initiative": "40",
+			"cardno": "462",
+			"character": "dt"
+		},
+		{
+			"name": "death spiral",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-death-spiral.png",
+			"xws": "deathspiral",
+			"level": "5",
+			"initiative": "48",
+			"cardno": "465",
+			"character": "dt"
+		},
+		{
+			"name": "dire frenzy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-dire-frenzy.png",
+			"xws": "direfrenzy",
+			"level": "7",
+			"initiative": "26",
+			"cardno": "469",
+			"character": "dt"
+		},
+		{
+			"name": "extra decoration",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-extra-decoration.png",
+			"xws": "extradecoration",
+			"level": "5",
+			"initiative": "92",
+			"cardno": "464",
+			"character": "dt"
+		},
+		{
+			"name": "grim trophies",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-grim-trophies.png",
+			"xws": "grimtrophies",
+			"level": "4",
+			"initiative": "18",
+			"cardno": "463",
+			"character": "dt"
+		},
+		{
+			"name": "hasten the end",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-hasten-the-end.png",
+			"xws": "hastentheend",
+			"level": "7",
+			"initiative": "65",
+			"cardno": "468",
+			"character": "dt"
+		},
+		{
+			"name": "haunting brutality",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-haunting-brutality.png",
+			"xws": "hauntingbrutality",
+			"level": "x",
+			"initiative": "23",
+			"cardno": "457",
+			"character": "dt"
+		},
+		{
+			"name": "hollow aura",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-hollow-aura.png",
+			"xws": "hollowaura",
+			"level": "1",
+			"initiative": "88",
+			"cardno": "446",
+			"character": "dt"
+		},
+		{
+			"name": "ink cloud",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-ink-cloud.png",
+			"xws": "inkcloud",
+			"level": "1",
+			"initiative": "28",
+			"cardno": "449",
+			"character": "dt"
+		},
+		{
+			"name": "lacerating stabs",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-lacerating-stabs.png",
+			"xws": "laceratingstabs",
+			"level": "1",
+			"initiative": "14",
+			"cardno": "450",
+			"character": "dt"
+		},
+		{
+			"name": "lie in wait",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-lie-in-wait.png",
+			"xws": "lieinwait",
+			"level": "2",
+			"initiative": "98",
+			"cardno": "459",
+			"character": "dt"
+		},
+		{
+			"name": "mantle of dread",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-mantle-of-dread.png",
+			"xws": "mantleofdread",
+			"level": "1",
+			"initiative": "96",
+			"cardno": "452",
+			"character": "dt"
+		},
+		{
+			"name": "morbid camouflage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-morbid-camouflage.png",
+			"xws": "morbidcamouflage",
+			"level": "x",
+			"initiative": "31",
+			"cardno": "456",
+			"character": "dt"
+		},
+		{
+			"name": "pinning spines",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-pinning-spines.png",
+			"xws": "pinningspines",
+			"level": "3",
+			"initiative": "25",
+			"cardno": "461",
+			"character": "dt"
+		},
+		{
+			"name": "rip from the bone",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-rip-from-the-bone.png",
+			"xws": "ripfromthebone",
+			"level": "8",
+			"initiative": "11",
+			"cardno": "471",
+			"character": "dt"
+		},
+		{
+			"name": "skewer the flesh",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-skewer-the-flesh.png",
+			"xws": "skewertheflesh",
+			"level": "1",
+			"initiative": "86",
+			"cardno": "447",
+			"character": "dt"
+		},
+		{
+			"name": "skull collection",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-skull-collection.png",
+			"xws": "skullcollection",
+			"level": "1",
+			"initiative": "22",
+			"cardno": "445",
+			"character": "dt"
+		},
+		{
+			"name": "slipping into death",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-slipping-into-death.png",
+			"xws": "slippingintodeath",
+			"level": "2",
+			"initiative": "89",
+			"cardno": "458",
+			"character": "dt"
+		},
+		{
+			"name": "soul hunger",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-soul-hunger.png",
+			"xws": "soulhunger",
+			"level": "x",
+			"initiative": "91",
+			"cardno": "455",
+			"character": "dt"
+		},
+		{
+			"name": "staring into the abyss",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-staring-into-the-abyss.png",
+			"xws": "staringintotheabyss",
+			"level": "1",
+			"initiative": "63",
+			"cardno": "451",
+			"character": "dt"
+		},
+		{
+			"name": "succumb to fear",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-succumb-to-fear.png",
+			"xws": "succumbtofear",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "448",
+			"character": "dt"
+		},
+		{
+			"name": "the remorseless deep",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-the-remorseless-deep.png",
+			"xws": "theremorselessdeep",
+			"level": "6",
+			"initiative": "22",
+			"cardno": "467",
+			"character": "dt"
+		},
+		{
+			"name": "tumultuous panic",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-tumultuous-panic.png",
+			"xws": "tumultuouspanic",
+			"level": "1",
+			"initiative": "66",
+			"cardno": "454",
+			"character": "dt"
+		},
+		{
+			"name": "unseen horror",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dt/fh-unseen-horror.png",
+			"xws": "unseenhorror",
+			"level": "8",
+			"initiative": "19",
+			"cardno": "470",
+			"character": "dt"
+		},
+		{
+			"name": "dw-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-dw-back.png",
+			"xws": "dwback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "dw"
+		},
+		{
+			"name": "anger of the dead",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-anger-of-the-dead.png",
+			"xws": "angerofthedead",
+			"level": "1",
+			"initiative": "14",
+			"cardno": "091",
+			"character": "dw"
+		},
+		{
+			"name": "black barrage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-black-barrage.png",
+			"xws": "blackbarrage",
+			"level": "1",
+			"initiative": "28",
+			"cardno": "095",
+			"character": "dw"
+		},
+		{
+			"name": "black lance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-black-lance.png",
+			"xws": "blacklance",
+			"level": "9",
+			"initiative": "16",
+			"cardno": "119",
+			"character": "dw"
+		},
+		{
+			"name": "call of doom",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-call-of-doom.png",
+			"xws": "callofdoom",
+			"level": "1",
+			"initiative": "32",
+			"cardno": "096",
+			"character": "dw"
+		},
+		{
+			"name": "call to the abyss",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-call-to-the-abyss.png",
+			"xws": "calltotheabyss",
+			"level": "1",
+			"initiative": "82",
+			"cardno": "090",
+			"character": "dw"
+		},
+		{
+			"name": "dark fog",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-dark-fog.png",
+			"xws": "darkfog",
+			"level": "1",
+			"initiative": "46",
+			"cardno": "094",
+			"character": "dw"
+		},
+		{
+			"name": "dead bolt",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-dead-bolt.png",
+			"xws": "deadbolt",
+			"level": "3",
+			"initiative": "88",
+			"cardno": "106",
+			"character": "dw"
+		},
+		{
+			"name": "deepening despair",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-deepening-despair.png",
+			"xws": "deepeningdespair",
+			"level": "2",
+			"initiative": "11",
+			"cardno": "105",
+			"character": "dw"
+		},
+		{
+			"name": "dominate",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-dominate.png",
+			"xws": "dominate",
+			"level": "5",
+			"initiative": "29",
+			"cardno": "111",
+			"character": "dw"
+		},
+		{
+			"name": "eclipse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-eclipse.png",
+			"xws": "eclipse",
+			"level": "1",
+			"initiative": "86",
+			"cardno": "097",
+			"character": "dw"
+		},
+		{
+			"name": "fleeting dusk",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-fleeting-dusk.png",
+			"xws": "fleetingdusk",
+			"level": "4",
+			"initiative": "36",
+			"cardno": "108",
+			"character": "dw"
+		},
+		{
+			"name": "fluid night",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-fluid-night.png",
+			"xws": "fluidnight",
+			"level": "1",
+			"initiative": "24",
+			"cardno": "093",
+			"character": "dw"
+		},
+		{
+			"name": "forceful spirits",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-forceful-spirits.png",
+			"xws": "forcefulspirits",
+			"level": "x",
+			"initiative": "34",
+			"cardno": "102",
+			"character": "dw"
+		},
+		{
+			"name": "frozen in fear",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-frozen-in-fear.png",
+			"xws": "frozeninfear",
+			"level": "8",
+			"initiative": "21",
+			"cardno": "117",
+			"character": "dw"
+		},
+		{
+			"name": "hungry grasps",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-hungry-grasps.png",
+			"xws": "hungrygrasps",
+			"level": "7",
+			"initiative": "25",
+			"cardno": "115",
+			"character": "dw"
+		},
+		{
+			"name": "lashing tendrils",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-lashing-tendrils.png",
+			"xws": "lashingtendrils",
+			"level": "8",
+			"initiative": "80",
+			"cardno": "116",
+			"character": "dw"
+		},
+		{
+			"name": "lingering rot",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-lingering-rot.png",
+			"xws": "lingeringrot",
+			"level": "1",
+			"initiative": "64",
+			"cardno": "098",
+			"character": "dw"
+		},
+		{
+			"name": "medium",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-medium.png",
+			"xws": "medium",
+			"level": "5",
+			"initiative": "55",
+			"cardno": "110",
+			"character": "dw"
+		},
+		{
+			"name": "proliferation of the abyss",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-proliferation-of-the-abyss.png",
+			"xws": "proliferationoftheabyss",
+			"level": "7",
+			"initiative": "38",
+			"cardno": "114",
+			"character": "dw"
+		},
+		{
+			"name": "pulled across",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-pulled-across.png",
+			"xws": "pulledacross",
+			"level": "4",
+			"initiative": "77",
+			"cardno": "109",
+			"character": "dw"
+		},
+		{
+			"name": "rest in the shade",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-rest-in-the-shade.png",
+			"xws": "restintheshade",
+			"level": "x",
+			"initiative": "26",
+			"cardno": "103",
+			"character": "dw"
+		},
+		{
+			"name": "restless spirits",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-restless-spirits.png",
+			"xws": "restlessspirits",
+			"level": "2",
+			"initiative": "20",
+			"cardno": "104",
+			"character": "dw"
+		},
+		{
+			"name": "ritual sacrifice",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-ritual-sacrifice.png",
+			"xws": "ritualsacrifice",
+			"level": "3",
+			"initiative": "13",
+			"cardno": "107",
+			"character": "dw"
+		},
+		{
+			"name": "shadow step",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-shadow-step.png",
+			"xws": "shadowstep",
+			"level": "1",
+			"initiative": "19",
+			"cardno": "099",
+			"character": "dw"
+		},
+		{
+			"name": "strength of the abyss",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-strength-of-the-abyss.png",
+			"xws": "strengthoftheabyss",
+			"level": "1",
+			"initiative": "50",
+			"cardno": "100",
+			"character": "dw"
+		},
+		{
+			"name": "sunless apparition",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-sunless-apparition.png",
+			"xws": "sunlessapparition",
+			"level": "1",
+			"initiative": "96",
+			"cardno": "092",
+			"character": "dw"
+		},
+		{
+			"name": "shadow beast",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-sunless-apparition.png",
+			"xws": "sunlessapparition",
+			"level": "1",
+			"initiative": "96",
+			"cardno": "092",
+			"character": "dw"
+		},
+		{
+			"name": "the night takes shape",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-the-night-takes-shape.png",
+			"xws": "thenighttakesshape",
+			"level": "6",
+			"initiative": "94",
+			"cardno": "112",
+			"character": "dw"
+		},
+		{
+			"name": "vengeful storm",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-vengeful-storm.png",
+			"xws": "vengefulstorm",
+			"level": "6",
+			"initiative": "18",
+			"cardno": "113",
+			"character": "dw"
+		},
+		{
+			"name": "wave of anguish",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-wave-of-anguish.png",
+			"xws": "waveofanguish",
+			"level": "x",
+			"initiative": "58",
+			"cardno": "101",
+			"character": "dw"
+		},
+		{
+			"name": "when your time comes",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/dw/fh-when-your-time-comes.png",
+			"xws": "whenyourtimecomes",
+			"level": "9",
+			"initiative": "72",
+			"cardno": "118",
+			"character": "dw"
+		},
+		{
+			"name": "ff-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-ff-back.png",
+			"xws": "ffback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "ff"
+		},
+		{
+			"name": "bring down the mountain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-bring-down-the-mountain.png",
+			"xws": "bringdownthemountain",
+			"level": "9",
+			"initiative": "09",
+			"cardno": "385",
+			"character": "ff"
+		},
+		{
+			"name": "cold boulder",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-cold-boulder.png",
+			"xws": "coldboulder",
+			"level": "1",
+			"initiative": "70",
+			"cardno": "361",
+			"character": "ff"
+		},
+		{
+			"name": "crushing crystals",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-crushing-crystals.png",
+			"xws": "crushingcrystals",
+			"level": "2",
+			"initiative": "67",
+			"cardno": "372",
+			"character": "ff"
+		},
+		{
+			"name": "draw of the bedrock",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-draw-of-the-bedrock.png",
+			"xws": "drawofthebedrock",
+			"level": "2",
+			"initiative": "10",
+			"cardno": "371",
+			"character": "ff"
+		},
+		{
+			"name": "draw strength",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-draw-strength.png",
+			"xws": "drawstrength",
+			"level": "8",
+			"initiative": "28",
+			"cardno": "384",
+			"character": "ff"
+		},
+		{
+			"name": "encased punch",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-encased-punch.png",
+			"xws": "encasedpunch",
+			"level": "1",
+			"initiative": "19",
+			"cardno": "364",
+			"character": "ff"
+		},
+		{
+			"name": "freezing shell",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-freezing-shell.png",
+			"xws": "freezingshell",
+			"level": "x",
+			"initiative": "17",
+			"cardno": "370",
+			"character": "ff"
+		},
+		{
+			"name": "frost eruption",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-frost-eruption.png",
+			"xws": "frosteruption",
+			"level": "1",
+			"initiative": "61",
+			"cardno": "362",
+			"character": "ff"
+		},
+		{
+			"name": "frozen over",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-frozen-over.png",
+			"xws": "frozenover",
+			"level": "3",
+			"initiative": "20",
+			"cardno": "374",
+			"character": "ff"
+		},
+		{
+			"name": "frozen spike",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-frozen-spike.png",
+			"xws": "frozenspike",
+			"level": "9",
+			"initiative": "33",
+			"cardno": "386",
+			"character": "ff"
+		},
+		{
+			"name": "fury of the mountain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-fury-of-the-mountain.png",
+			"xws": "furyofthemountain",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "363",
+			"character": "ff"
+		},
+		{
+			"name": "gift of the mountain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-gift-of-the-mountain.png",
+			"xws": "giftofthemountain",
+			"level": "7",
+			"initiative": "73",
+			"cardno": "381",
+			"character": "ff"
+		},
+		{
+			"name": "glacier slam",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-glacier-slam.png",
+			"xws": "glacierslam",
+			"level": "6",
+			"initiative": "84",
+			"cardno": "380",
+			"character": "ff"
+		},
+		{
+			"name": "ice blast",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-ice-blast.png",
+			"xws": "iceblast",
+			"level": "1",
+			"initiative": "32",
+			"cardno": "367",
+			"character": "ff"
+		},
+		{
+			"name": "ice uppercut",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-ice-uppercut.png",
+			"xws": "iceuppercut",
+			"level": "5",
+			"initiative": "15",
+			"cardno": "378",
+			"character": "ff"
+		},
+		{
+			"name": "lacerating eruption",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-lacerating-eruption.png",
+			"xws": "laceratingeruption",
+			"level": "3",
+			"initiative": "51",
+			"cardno": "373",
+			"character": "ff"
+		},
+		{
+			"name": "one with the mountain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-one-with-the-mountain.png",
+			"xws": "onewiththemountain",
+			"level": "1",
+			"initiative": "83",
+			"cardno": "360",
+			"character": "ff"
+		},
+		{
+			"name": "packed solid",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-packed-solid.png",
+			"xws": "packedsolid",
+			"level": "4",
+			"initiative": "55",
+			"cardno": "376",
+			"character": "ff"
+		},
+		{
+			"name": "piercing pummel",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-piercing-pummel.png",
+			"xws": "piercingpummel",
+			"level": "1",
+			"initiative": "30",
+			"cardno": "366",
+			"character": "ff"
+		},
+		{
+			"name": "preserved fury",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-preserved-fury.png",
+			"xws": "preservedfury",
+			"level": "5",
+			"initiative": "49",
+			"cardno": "377",
+			"character": "ff"
+		},
+		{
+			"name": "primal bellow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-primal-bellow.png",
+			"xws": "primalbellow",
+			"level": "x",
+			"initiative": "84",
+			"cardno": "369",
+			"character": "ff"
+		},
+		{
+			"name": "seeing stars",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-seeing-stars.png",
+			"xws": "seeingstars",
+			"level": "7",
+			"initiative": "29",
+			"cardno": "382",
+			"character": "ff"
+		},
+		{
+			"name": "shard launch",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-shard-launch.png",
+			"xws": "shardlaunch",
+			"level": "x",
+			"initiative": "52",
+			"cardno": "368",
+			"character": "ff"
+		},
+		{
+			"name": "shattering blow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-shattering-blow.png",
+			"xws": "shatteringblow",
+			"level": "8",
+			"initiative": "18",
+			"cardno": "383",
+			"character": "ff"
+		},
+		{
+			"name": "the mountain's fist",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-the-mountains-fist.png",
+			"xws": "themountainsfist",
+			"level": "4",
+			"initiative": "16",
+			"cardno": "375",
+			"character": "ff"
+		},
+		{
+			"name": "thick frost",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-thick-frost.png",
+			"xws": "thickfrost",
+			"level": "6",
+			"initiative": "21",
+			"cardno": "379",
+			"character": "ff"
+		},
+		{
+			"name": "voice from below",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ff/fh-voice-from-below.png",
+			"xws": "voicefrombelow",
+			"level": "1",
+			"initiative": "22",
+			"cardno": "365",
+			"character": "ff"
+		},
+		{
+			"name": "ge-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-ge-back.png",
+			"xws": "geback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "ge"
+		},
+		{
+			"name": "accelerated metabolism",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-accelerated-metabolism.png",
+			"xws": "acceleratedmetabolism",
+			"level": "8",
+			"initiative": "85",
+			"cardno": "181",
+			"character": "ge"
+		},
+		{
+			"name": "alluring pheromones",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-alluring-pheromones.png",
+			"xws": "alluringpheromones",
+			"level": "7",
+			"initiative": "49",
+			"cardno": "180",
+			"character": "ge"
+		},
+		{
+			"name": "changeling's boon",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-changelings-boon.png",
+			"xws": "changelingsboon",
+			"level": "1",
+			"initiative": "40",
+			"cardno": "154",
+			"character": "ge"
+		},
+		{
+			"name": "chitinous horde",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-chitinous-horde.png",
+			"xws": "chitinoushorde",
+			"level": "5",
+			"initiative": "15",
+			"cardno": "176",
+			"character": "ge"
+		},
+		{
+			"name": "corrosive acids",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-corrosive-acids.png",
+			"xws": "corrosiveacids",
+			"level": "6",
+			"initiative": "28",
+			"cardno": "177",
+			"character": "ge"
+		},
+		{
+			"name": "drag down",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-drag-down.png",
+			"xws": "dragdown",
+			"level": "1",
+			"initiative": "34",
+			"cardno": "156",
+			"character": "ge"
+		},
+		{
+			"name": "dragonfly surge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-dragonfly-surge.png",
+			"xws": "dragonflysurge",
+			"level": "3",
+			"initiative": "50",
+			"cardno": "172",
+			"character": "ge"
+		},
+		{
+			"name": "draining pincers",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-draining-pincers.png",
+			"xws": "drainingpincers",
+			"level": "1",
+			"initiative": "72",
+			"cardno": "152",
+			"character": "ge"
+		},
+		{
+			"name": "feeding frenzy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-feeding-frenzy.png",
+			"xws": "feedingfrenzy",
+			"level": "x",
+			"initiative": "62",
+			"cardno": "159",
+			"character": "ge"
+		},
+		{
+			"name": "firefly swarm",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-firefly-swarm.png",
+			"xws": "fireflyswarm",
+			"level": "1",
+			"initiative": "76",
+			"cardno": "162",
+			"character": "ge"
+		},
+		{
+			"name": "flailing tendrils",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-flailing-tendrils.png",
+			"xws": "flailingtendrils",
+			"level": "1",
+			"initiative": "12",
+			"cardno": "155",
+			"character": "ge"
+		},
+		{
+			"name": "formless grace",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-formless-grace.png",
+			"xws": "formlessgrace",
+			"level": "5",
+			"initiative": "75",
+			"cardno": "175",
+			"character": "ge"
+		},
+		{
+			"name": "hail of thorns",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-hail-of-thorns.png",
+			"xws": "hailofthorns",
+			"level": "1",
+			"initiative": "88",
+			"cardno": "166",
+			"character": "ge"
+		},
+		{
+			"name": "harbinger of ruin",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-harbinger-of-ruin.png",
+			"xws": "harbingerofruin",
+			"level": "9",
+			"initiative": "11",
+			"cardno": "183",
+			"character": "ge"
+		},
+		{
+			"name": "harvest the essence",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-harvest-the-essence.png",
+			"xws": "harvesttheessence",
+			"level": "1",
+			"initiative": "60",
+			"cardno": "165",
+			"character": "ge"
+		},
+		{
+			"name": "hirudotherapy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-hirudotherapy.png",
+			"xws": "hirudotherapy",
+			"level": "6",
+			"initiative": "92",
+			"cardno": "178",
+			"character": "ge"
+		},
+		{
+			"name": "hornbeetle carapace",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-hornbeetle-carapace.png",
+			"xws": "hornbeetlecarapace",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "157",
+			"character": "ge"
+		},
+		{
+			"name": "hornet stingers",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-hornet-stingers.png",
+			"xws": "hornetstingers",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "153",
+			"character": "ge"
+		},
+		{
+			"name": "icebound quills",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-icebound-quills.png",
+			"xws": "iceboundquills",
+			"level": "1",
+			"initiative": "14",
+			"cardno": "151",
+			"character": "ge"
+		},
+		{
+			"name": "into my embrace",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-into-my-embrace.png",
+			"xws": "intomyembrace",
+			"level": "1",
+			"initiative": "36",
+			"cardno": "161",
+			"character": "ge"
+		},
+		{
+			"name": "locust host",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-locust-host.png",
+			"xws": "locusthost",
+			"level": "2",
+			"initiative": "23",
+			"cardno": "170",
+			"character": "ge"
+		},
+		{
+			"name": "luminous descent",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-luminous-descent.png",
+			"xws": "luminousdescent",
+			"level": "4",
+			"initiative": "67",
+			"cardno": "174",
+			"character": "ge"
+		},
+		{
+			"name": "mandible storm",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-mandible-storm.png",
+			"xws": "mandiblestorm",
+			"level": "3",
+			"initiative": "30",
+			"cardno": "171",
+			"character": "ge"
+		},
+		{
+			"name": "mind spike",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-mind-spike.png",
+			"xws": "mindspike",
+			"level": "1",
+			"initiative": "18",
+			"cardno": "164",
+			"character": "ge"
+		},
+		{
+			"name": "oscillating entity",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-oscillating-entity.png",
+			"xws": "oscillatingentity",
+			"level": "8",
+			"initiative": "55",
+			"cardno": "182",
+			"character": "ge"
+		},
+		{
+			"name": "reckless jab",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-reckless-jab.png",
+			"xws": "recklessjab",
+			"level": "x",
+			"initiative": "38",
+			"cardno": "158",
+			"character": "ge"
+		},
+		{
+			"name": "reshape the guise",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-reshape-the-guise.png",
+			"xws": "reshapetheguise",
+			"level": "x",
+			"initiative": "38",
+			"cardno": "168",
+			"character": "ge"
+		},
+		{
+			"name": "scarab flight",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-scarab-flight.png",
+			"xws": "scarabflight",
+			"level": "1",
+			"initiative": "30",
+			"cardno": "163",
+			"character": "ge"
+		},
+		{
+			"name": "selfless offering",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-selfless-offering.png",
+			"xws": "selflessoffering",
+			"level": "1",
+			"initiative": "27",
+			"cardno": "160",
+			"character": "ge"
+		},
+		{
+			"name": "smoldering hatred",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-smoldering-hatred.png",
+			"xws": "smolderinghatred",
+			"level": "x",
+			"initiative": "32",
+			"cardno": "167",
+			"character": "ge"
+		},
+		{
+			"name": "thresh and flail",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-thresh-and-flail.png",
+			"xws": "threshandflail",
+			"level": "4",
+			"initiative": "43",
+			"cardno": "173",
+			"character": "ge"
+		},
+		{
+			"name": "two-pronged entrapment",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-two-pronged-entrapment.png",
+			"xws": "twoprongedentrapment",
+			"level": "7",
+			"initiative": "21",
+			"cardno": "179",
+			"character": "ge"
+		},
+		{
+			"name": "venomous barbs",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-venomous-barbs.png",
+			"xws": "venomousbarbs",
+			"level": "2",
+			"initiative": "17",
+			"cardno": "169",
+			"character": "ge"
+		},
+		{
+			"name": "voice of salvation",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ge/fh-voice-of-salvation.png",
+			"xws": "voiceofsalvation",
+			"level": "9",
+			"initiative": "39",
+			"cardno": "184",
+			"character": "ge"
+		},
+		{
+			"name": "hv-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-hv-back.png",
+			"xws": "hvback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "hv"
+		},
+		{
+			"name": "aimed assault",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-aimed-assault.png",
+			"xws": "aimedassault",
+			"level": "1",
+			"initiative": "88",
+			"cardno": "391",
+			"character": "hv"
+		},
+		{
+			"name": "burning slash",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-burning-slash.png",
+			"xws": "burningslash",
+			"level": "8",
+			"initiative": "29",
+			"cardno": "414",
+			"character": "hv"
+		},
+		{
+			"name": "code geminate",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-code-geminate.png",
+			"xws": "codegeminate",
+			"level": "5",
+			"initiative": "28",
+			"cardno": "408",
+			"character": "hv"
+		},
+		{
+			"name": "coiled limbs",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-coiled-limbs.png",
+			"xws": "coiledlimbs",
+			"level": "1",
+			"initiative": "82",
+			"cardno": "390",
+			"character": "hv"
+		},
+		{
+			"name": "disassemble",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-disassemble.png",
+			"xws": "disassemble",
+			"level": "9",
+			"initiative": "20",
+			"cardno": "416",
+			"character": "hv"
+		},
+		{
+			"name": "divergent destruction",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-divergent-destruction.png",
+			"xws": "divergentdestruction",
+			"level": "4",
+			"initiative": "22",
+			"cardno": "406",
+			"character": "hv"
+		},
+		{
+			"name": "faceless entity",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-faceless-entity.png",
+			"xws": "facelessentity",
+			"level": "1",
+			"initiative": "12",
+			"cardno": "393",
+			"character": "hv"
+		},
+		{
+			"name": "force field",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-force-field.png",
+			"xws": "forcefield",
+			"level": "2",
+			"initiative": "78",
+			"cardno": "401",
+			"character": "hv"
+		},
+		{
+			"name": "heavy metal",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-heavy-metal.png",
+			"xws": "heavymetal",
+			"level": "9",
+			"initiative": "76",
+			"cardno": "415",
+			"character": "hv"
+		},
+		{
+			"name": "high impact projectiles",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-high-impact-projectiles.png",
+			"xws": "highimpactprojectiles",
+			"level": "1",
+			"initiative": "16",
+			"cardno": "396",
+			"character": "hv"
+		},
+		{
+			"name": "hijack",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-hijack.png",
+			"xws": "hijack",
+			"level": "3",
+			"initiative": "40",
+			"cardno": "404",
+			"character": "hv"
+		},
+		{
+			"name": "hunter-killer",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-hunter-killer.png",
+			"xws": "hunterkiller",
+			"level": "1",
+			"initiative": "84",
+			"cardno": "389",
+			"character": "hv"
+		},
+		{
+			"name": "interference",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-interference.png",
+			"xws": "interference",
+			"level": "1",
+			"initiative": "21",
+			"cardno": "397",
+			"character": "hv"
+		},
+		{
+			"name": "launch pod",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-launch-pod.png",
+			"xws": "launchpod",
+			"level": "1",
+			"initiative": "77",
+			"cardno": "392",
+			"character": "hv"
+		},
+		{
+			"name": "long-range missile",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-long-range-missile.png",
+			"xws": "longrangemissile",
+			"level": "2",
+			"initiative": "19",
+			"cardno": "402",
+			"character": "hv"
+		},
+		{
+			"name": "mortar shells",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-mortar-shells.png",
+			"xws": "mortarshells",
+			"level": "7",
+			"initiative": "85",
+			"cardno": "411",
+			"character": "hv"
+		},
+		{
+			"name": "net dispersal",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-net-dispersal.png",
+			"xws": "netdispersal",
+			"level": "5",
+			"initiative": "94",
+			"cardno": "407",
+			"character": "hv"
+		},
+		{
+			"name": "plague protocol",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-plague-protocol.png",
+			"xws": "plagueprotocol",
+			"level": "4",
+			"initiative": "98",
+			"cardno": "405",
+			"character": "hv"
+		},
+		{
+			"name": "plated defense",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-plated-defense.png",
+			"xws": "plateddefense",
+			"level": "1",
+			"initiative": "80",
+			"cardno": "387",
+			"character": "hv"
+		},
+		{
+			"name": "prepare for deployment",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-prepare-for-deployment.png",
+			"xws": "preparefordeployment",
+			"level": "1",
+			"initiative": "64",
+			"cardno": "394",
+			"character": "hv"
+		},
+		{
+			"name": "rapid fire",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-rapid-fire.png",
+			"xws": "rapidfire",
+			"level": "3",
+			"initiative": "92",
+			"cardno": "403",
+			"character": "hv"
+		},
+		{
+			"name": "reaper function",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-reaper-function.png",
+			"xws": "reaperfunction",
+			"level": "1",
+			"initiative": "32",
+			"cardno": "395",
+			"character": "hv"
+		},
+		{
+			"name": "reassemble",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-reassemble.png",
+			"xws": "reassemble",
+			"level": "x",
+			"initiative": "27",
+			"cardno": "400",
+			"character": "hv"
+		},
+		{
+			"name": "recall",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-recall.png",
+			"xws": "recall",
+			"level": "7",
+			"initiative": "91",
+			"cardno": "412",
+			"character": "hv"
+		},
+		{
+			"name": "reconstructive aid",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-reconstructive-aid.png",
+			"xws": "reconstructiveaid",
+			"level": "1",
+			"initiative": "90",
+			"cardno": "388",
+			"character": "hv"
+		},
+		{
+			"name": "remote control",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-remote-control.png",
+			"xws": "remotecontrol",
+			"level": "x",
+			"initiative": "48",
+			"cardno": "399",
+			"character": "hv"
+		},
+		{
+			"name": "shocking pulse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-shocking-pulse.png",
+			"xws": "shockingpulse",
+			"level": "x",
+			"initiative": "86",
+			"cardno": "398",
+			"character": "hv"
+		},
+		{
+			"name": "spinning blades",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-spinning-blades.png",
+			"xws": "spinningblades",
+			"level": "6",
+			"initiative": "79",
+			"cardno": "409",
+			"character": "hv"
+		},
+		{
+			"name": "swarming bulwark",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-swarming-bulwark.png",
+			"xws": "swarmingbulwark",
+			"level": "8",
+			"initiative": "96",
+			"cardno": "413",
+			"character": "hv"
+		},
+		{
+			"name": "shield spider",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-swarming-bulwark.png",
+			"xws": "swarmingbulwark",
+			"level": "8",
+			"initiative": "96",
+			"cardno": "413",
+			"character": "hv"
+		},
+		{
+			"name": "triage program",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/hv/fh-triage-program.png",
+			"xws": "triageprogram",
+			"level": "6",
+			"initiative": "13",
+			"cardno": "410",
+			"character": "hv"
+		},
+		{
+			"name": "if-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-if-back.png",
+			"xws": "ifback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "if"
+		},
+		{
+			"name": "ancient rites of power",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-ancient-rites-of-power.png",
+			"xws": "ancientritesofpower",
+			"level": "9",
+			"initiative": "94",
+			"cardno": "213",
+			"character": "if"
+		},
+		{
+			"name": "battle prowess",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-battle-prowess.png",
+			"xws": "battleprowess",
+			"level": "x",
+			"initiative": "78",
+			"cardno": "197",
+			"character": "if"
+		},
+		{
+			"name": "boon of the tempest",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-boon-of-the-tempest.png",
+			"xws": "boonofthetempest",
+			"level": "1",
+			"initiative": "28",
+			"cardno": "185",
+			"character": "if"
+		},
+		{
+			"name": "bounty of the earth",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-bounty-of-the-earth.png",
+			"xws": "bountyoftheearth",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "186",
+			"character": "if"
+		},
+		{
+			"name": "caress of the night",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-caress-of-the-night.png",
+			"xws": "caressofthenight",
+			"level": "1",
+			"initiative": "87",
+			"cardno": "187",
+			"character": "if"
+		},
+		{
+			"name": "coalescing darkness",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-coalescing-darkness.png",
+			"xws": "coalescingdarkness",
+			"level": "4",
+			"initiative": "85",
+			"cardno": "203",
+			"character": "if"
+		},
+		{
+			"name": "crystalline aegis",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-crystalline-aegis.png",
+			"xws": "crystallineaegis",
+			"level": "x",
+			"initiative": "17",
+			"cardno": "198",
+			"character": "if"
+		},
+		{
+			"name": "desperate throw",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-desperate-throw.png",
+			"xws": "desperatethrow",
+			"level": "4",
+			"initiative": "16",
+			"cardno": "204",
+			"character": "if"
+		},
+		{
+			"name": "diamondization",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-diamondization.png",
+			"xws": "diamondization",
+			"level": "7",
+			"initiative": "10",
+			"cardno": "209",
+			"character": "if"
+		},
+		{
+			"name": "emerald edge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-emerald-edge.png",
+			"xws": "emeraldedge",
+			"level": "1",
+			"initiative": "70",
+			"cardno": "189",
+			"character": "if"
+		},
+		{
+			"name": "formless bladestorm",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-formless-bladestorm.png",
+			"xws": "formlessbladestorm",
+			"level": "1",
+			"initiative": "33",
+			"cardno": "188",
+			"character": "if"
+		},
+		{
+			"name": "gale barrage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-gale-barrage.png",
+			"xws": "galebarrage",
+			"level": "6",
+			"initiative": "44",
+			"cardno": "208",
+			"character": "if"
+		},
+		{
+			"name": "gemstone resonance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-gemstone-resonance.png",
+			"xws": "gemstoneresonance",
+			"level": "5",
+			"initiative": "30",
+			"cardno": "205",
+			"character": "if"
+		},
+		{
+			"name": "guide the flow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-guide-the-flow.png",
+			"xws": "guidetheflow",
+			"level": "3",
+			"initiative": "35",
+			"cardno": "202",
+			"character": "if"
+		},
+		{
+			"name": "imbue with life",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-imbue-with-life.png",
+			"xws": "imbuewithlife",
+			"level": "x",
+			"initiative": "42",
+			"cardno": "196",
+			"character": "if"
+		},
+		{
+			"name": "malachite shockwave",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-malachite-shockwave.png",
+			"xws": "malachiteshockwave",
+			"level": "7",
+			"initiative": "68",
+			"cardno": "210",
+			"character": "if"
+		},
+		{
+			"name": "obsidian spear",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-obsidian-spear.png",
+			"xws": "obsidianspear",
+			"level": "5",
+			"initiative": "84",
+			"cardno": "206",
+			"character": "if"
+		},
+		{
+			"name": "onyx shards",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-onyx-shards.png",
+			"xws": "onyxshards",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "191",
+			"character": "if"
+		},
+		{
+			"name": "propulsive tailwind",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-propulsive-tailwind.png",
+			"xws": "propulsivetailwind",
+			"level": "6",
+			"initiative": "91",
+			"cardno": "207",
+			"character": "if"
+		},
+		{
+			"name": "reinforced riposte",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-reinforced-riposte.png",
+			"xws": "reinforcedriposte",
+			"level": "3",
+			"initiative": "18",
+			"cardno": "201",
+			"character": "if"
+		},
+		{
+			"name": "remote impact",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-remote-impact.png",
+			"xws": "remoteimpact",
+			"level": "2",
+			"initiative": "72",
+			"cardno": "200",
+			"character": "if"
+		},
+		{
+			"name": "rising momentum",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-rising-momentum.png",
+			"xws": "risingmomentum",
+			"level": "1",
+			"initiative": "25",
+			"cardno": "194",
+			"character": "if"
+		},
+		{
+			"name": "sky-splitting strike",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-sky-splitting-strike.png",
+			"xws": "skysplittingstrike",
+			"level": "9",
+			"initiative": "50",
+			"cardno": "214",
+			"character": "if"
+		},
+		{
+			"name": "slashing cyclone",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-slashing-cyclone.png",
+			"xws": "slashingcyclone",
+			"level": "1",
+			"initiative": "14",
+			"cardno": "193",
+			"character": "if"
+		},
+		{
+			"name": "stoic vigilance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-stoic-vigilance.png",
+			"xws": "stoicvigilance",
+			"level": "1",
+			"initiative": "12",
+			"cardno": "195",
+			"character": "if"
+		},
+		{
+			"name": "swift pivot",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-swift-pivot.png",
+			"xws": "swiftpivot",
+			"level": "8",
+			"initiative": "08",
+			"cardno": "212",
+			"character": "if"
+		},
+		{
+			"name": "torrential cleave",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-torrential-cleave.png",
+			"xws": "torrentialcleave",
+			"level": "1",
+			"initiative": "83",
+			"cardno": "190",
+			"character": "if"
+		},
+		{
+			"name": "unstoppable impulse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-unstoppable-impulse.png",
+			"xws": "unstoppableimpulse",
+			"level": "1",
+			"initiative": "56",
+			"cardno": "192",
+			"character": "if"
+		},
+		{
+			"name": "untether the shackles",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-untether-the-shackles.png",
+			"xws": "untethertheshackles",
+			"level": "8",
+			"initiative": "61",
+			"cardno": "211",
+			"character": "if"
+		},
+		{
+			"name": "veil of protection",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/if/fh-veil-of-protection.png",
+			"xws": "veilofprotection",
+			"level": "2",
+			"initiative": "47",
+			"cardno": "199",
+			"character": "if"
+		},
+		{
+			"name": "me-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-me-back.png",
+			"xws": "meback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "me"
+		},
+		{
+			"name": "ancient drill",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-ancient-drill.png",
+			"xws": "ancientdrill",
+			"level": "1",
+			"initiative": "90",
+			"cardno": "418",
+			"character": "me"
+		},
+		{
+			"name": "beam axe",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-beam-axe.png",
+			"xws": "beamaxe",
+			"level": "1",
+			"initiative": "29",
+			"cardno": "423",
+			"character": "me"
+		},
+		{
+			"name": "bronze plating",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-bronze-plating.png",
+			"xws": "bronzeplating",
+			"level": "2",
+			"initiative": "18",
+			"cardno": "430",
+			"character": "me"
+		},
+		{
+			"name": "cryogenic hibernation",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-cryogenic-hibernation.png",
+			"xws": "cryogenichibernation",
+			"level": "7",
+			"initiative": "19",
+			"cardno": "440",
+			"character": "me"
+		},
+		{
+			"name": "curious gear",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-curious-gear.png",
+			"xws": "curiousgear",
+			"level": "x",
+			"initiative": "12",
+			"cardno": "428",
+			"character": "me"
+		},
+		{
+			"name": "curious machinery",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-curious-machinery.png",
+			"xws": "curiousmachinery",
+			"level": "8",
+			"initiative": "11",
+			"cardno": "442",
+			"character": "me"
+		},
+		{
+			"name": "electrical discharge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-electrical-discharge.png",
+			"xws": "electricaldischarge",
+			"level": "3",
+			"initiative": "26",
+			"cardno": "432",
+			"character": "me"
+		},
+		{
+			"name": "energy conversion",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-energy-conversion.png",
+			"xws": "energyconversion",
+			"level": "4",
+			"initiative": "23",
+			"cardno": "433",
+			"character": "me"
+		},
+		{
+			"name": "heat conduction",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-heat-conduction.png",
+			"xws": "heatconduction",
+			"level": "5",
+			"initiative": "11",
+			"cardno": "436",
+			"character": "me"
+		},
+		{
+			"name": "heated drill",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-heated-drill.png",
+			"xws": "heateddrill",
+			"level": "7",
+			"initiative": "80",
+			"cardno": "439",
+			"character": "me"
+		},
+		{
+			"name": "magnetic field",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-magnetic-field.png",
+			"xws": "magneticfield",
+			"level": "4",
+			"initiative": "21",
+			"cardno": "434",
+			"character": "me"
+		},
+		{
+			"name": "memory drive",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-memory-drive.png",
+			"xws": "memorydrive",
+			"level": "1",
+			"initiative": "64",
+			"cardno": "424",
+			"character": "me"
+		},
+		{
+			"name": "piston barrage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-piston-barrage.png",
+			"xws": "pistonbarrage",
+			"level": "8",
+			"initiative": "33",
+			"cardno": "441",
+			"character": "me"
+		},
+		{
+			"name": "polarity shift",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-polarity-shift.png",
+			"xws": "polarityshift",
+			"level": "9",
+			"initiative": "79",
+			"cardno": "443",
+			"character": "me"
+		},
+		{
+			"name": "power core",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-power-core.png",
+			"xws": "powercore",
+			"level": "1",
+			"initiative": "83",
+			"cardno": "420",
+			"character": "me"
+		},
+		{
+			"name": "pressure build-up",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-pressure-build-up.png",
+			"xws": "pressurebuildup",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "422",
+			"character": "me"
+		},
+		{
+			"name": "processing",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-processing.png",
+			"xws": "processing",
+			"level": "x",
+			"initiative": "95",
+			"cardno": "426",
+			"character": "me"
+		},
+		{
+			"name": "radiation",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-radiation.png",
+			"xws": "radiation",
+			"level": "5",
+			"initiative": "37",
+			"cardno": "435",
+			"character": "me"
+		},
+		{
+			"name": "recursion",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-recursion.png",
+			"xws": "recursion",
+			"level": "x",
+			"initiative": "50",
+			"cardno": "427",
+			"character": "me"
+		},
+		{
+			"name": "release valve",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-release-valve.png",
+			"xws": "releasevalve",
+			"level": "2",
+			"initiative": "30",
+			"cardno": "429",
+			"character": "me"
+		},
+		{
+			"name": "rocket boots",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-rocket-boots.png",
+			"xws": "rocketboots",
+			"level": "1",
+			"initiative": "22",
+			"cardno": "419",
+			"character": "me"
+		},
+		{
+			"name": "scalding blast",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-scalding-blast.png",
+			"xws": "scaldingblast",
+			"level": "6",
+			"initiative": "45",
+			"cardno": "437",
+			"character": "me"
+		},
+		{
+			"name": "steam armor",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-steam-armor.png",
+			"xws": "steamarmor",
+			"level": "1",
+			"initiative": "17",
+			"cardno": "417",
+			"character": "me"
+		},
+		{
+			"name": "steam core",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-steam-core.png",
+			"xws": "steamcore",
+			"level": "6",
+			"initiative": "71",
+			"cardno": "438",
+			"character": "me"
+		},
+		{
+			"name": "steel piston",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-steel-piston.png",
+			"xws": "steelpiston",
+			"level": "1",
+			"initiative": "40",
+			"cardno": "421",
+			"character": "me"
+		},
+		{
+			"name": "stress vents",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-stress-vents.png",
+			"xws": "stressvents",
+			"level": "3",
+			"initiative": "15",
+			"cardno": "431",
+			"character": "me"
+		},
+		{
+			"name": "super heat transfer",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-super-heat-transfer.png",
+			"xws": "superheattransfer",
+			"level": "1",
+			"initiative": "25",
+			"cardno": "425",
+			"character": "me"
+		},
+		{
+			"name": "unstable core",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/me/fh-unstable-core.png",
+			"xws": "unstablecore",
+			"level": "9",
+			"initiative": "10",
+			"cardno": "444",
+			"character": "me"
+		},
+		{
+			"name": "pc-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-pc-back.png",
+			"xws": "pcback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "pc"
+		},
+		{
+			"name": "blood ritual",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-blood-ritual.png",
+			"xws": "bloodritual",
+			"level": "1",
+			"initiative": "56",
+			"cardno": "306",
+			"character": "pc"
+		},
+		{
+			"name": "burned at both ends",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-burned-at-both-ends.png",
+			"xws": "burnedatbothends",
+			"level": "3",
+			"initiative": "30",
+			"cardno": "316",
+			"character": "pc"
+		},
+		{
+			"name": "chained by despair",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-chained-by-despair.png",
+			"xws": "chainedbydespair",
+			"level": "5",
+			"initiative": "15",
+			"cardno": "321",
+			"character": "pc"
+		},
+		{
+			"name": "chained by spite",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-chained-by-spite.png",
+			"xws": "chainedbyspite",
+			"level": "5",
+			"initiative": "15",
+			"cardno": "320",
+			"character": "pc"
+		},
+		{
+			"name": "cleansing fire",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-cleansing-fire.png",
+			"xws": "cleansingfire",
+			"level": "1",
+			"initiative": "64",
+			"cardno": "309",
+			"character": "pc"
+		},
+		{
+			"name": "delayed malady",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-delayed-malady.png",
+			"xws": "delayedmalady",
+			"level": "x",
+			"initiative": "90",
+			"cardno": "311",
+			"character": "pc"
+		},
+		{
+			"name": "down to the dirt",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-down-to-the-dirt.png",
+			"xws": "downtothedirt",
+			"level": "4",
+			"initiative": "39",
+			"cardno": "319",
+			"character": "pc"
+		},
+		{
+			"name": "explosive wounds",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-explosive-wounds.png",
+			"xws": "explosivewounds",
+			"level": "1",
+			"initiative": "43",
+			"cardno": "308",
+			"character": "pc"
+		},
+		{
+			"name": "hopelessness",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-hopelessness.png",
+			"xws": "hopelessness",
+			"level": "6",
+			"initiative": "83",
+			"cardno": "322",
+			"character": "pc"
+		},
+		{
+			"name": "infection purge",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-infection-purge.png",
+			"xws": "infectionpurge",
+			"level": "2",
+			"initiative": "45",
+			"cardno": "315",
+			"character": "pc"
+		},
+		{
+			"name": "line of transference",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-line-of-transference.png",
+			"xws": "lineoftransference",
+			"level": "1",
+			"initiative": "25",
+			"cardno": "302",
+			"character": "pc"
+		},
+		{
+			"name": "mirrored misery",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-mirrored-misery.png",
+			"xws": "mirroredmisery",
+			"level": "4",
+			"initiative": "72",
+			"cardno": "318",
+			"character": "pc"
+		},
+		{
+			"name": "penance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-penance.png",
+			"xws": "penance",
+			"level": "7",
+			"initiative": "12",
+			"cardno": "325",
+			"character": "pc"
+		},
+		{
+			"name": "phantom limb",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-phantom-limb.png",
+			"xws": "phantomlimb",
+			"level": "6",
+			"initiative": "75",
+			"cardno": "323",
+			"character": "pc"
+		},
+		{
+			"name": "pleasure in pain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-pleasure-in-pain.png",
+			"xws": "pleasureinpain",
+			"level": "x",
+			"initiative": "47",
+			"cardno": "313",
+			"character": "pc"
+		},
+		{
+			"name": "redemption",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-redemption.png",
+			"xws": "redemption",
+			"level": "9",
+			"initiative": "33",
+			"cardno": "328",
+			"character": "pc"
+		},
+		{
+			"name": "reject the gift",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-reject-the-gift.png",
+			"xws": "rejectthegift",
+			"level": "7",
+			"initiative": "20",
+			"cardno": "324",
+			"character": "pc"
+		},
+		{
+			"name": "reprisal",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-reprisal.png",
+			"xws": "reprisal",
+			"level": "3",
+			"initiative": "70",
+			"cardno": "317",
+			"character": "pc"
+		},
+		{
+			"name": "reversal of fate",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-reversal-of-fate.png",
+			"xws": "reversaloffate",
+			"level": "2",
+			"initiative": "23",
+			"cardno": "314",
+			"character": "pc"
+		},
+		{
+			"name": "scarred effigy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-scarred-effigy.png",
+			"xws": "scarredeffigy",
+			"level": "1",
+			"initiative": "19",
+			"cardno": "307",
+			"character": "pc"
+		},
+		{
+			"name": "shared affliction",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-shared-affliction.png",
+			"xws": "sharedaffliction",
+			"level": "1",
+			"initiative": "61",
+			"cardno": "301",
+			"character": "pc"
+		},
+		{
+			"name": "swift vengeance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-swift-vengeance.png",
+			"xws": "swiftvengeance",
+			"level": "1",
+			"initiative": "21",
+			"cardno": "310",
+			"character": "pc"
+		},
+		{
+			"name": "the agony of others",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-the-agony-of-others.png",
+			"xws": "theagonyofothers",
+			"level": "1",
+			"initiative": "78",
+			"cardno": "304",
+			"character": "pc"
+		},
+		{
+			"name": "the end of everything",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-the-end-of-everything.png",
+			"xws": "theendofeverything",
+			"level": "9",
+			"initiative": "99",
+			"cardno": "329",
+			"character": "pc"
+		},
+		{
+			"name": "transferred injury",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-transferred-injury.png",
+			"xws": "transferredinjury",
+			"level": "1",
+			"initiative": "74",
+			"cardno": "303",
+			"character": "pc"
+		},
+		{
+			"name": "unending torment",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-unending-torment.png",
+			"xws": "unendingtorment",
+			"level": "1",
+			"initiative": "29",
+			"cardno": "305",
+			"character": "pc"
+		},
+		{
+			"name": "unstable effigy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-unstable-effigy.png",
+			"xws": "unstableeffigy",
+			"level": "x",
+			"initiative": "18",
+			"cardno": "312",
+			"character": "pc"
+		},
+		{
+			"name": "wave of anguish",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-wave-of-anguish.png",
+			"xws": "waveofanguish",
+			"level": "8",
+			"initiative": "68",
+			"cardno": "326",
+			"character": "pc"
+		},
+		{
+			"name": "wracked with pain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/pc/fh-wracked-with-pain.png",
+			"xws": "wrackedwithpain",
+			"level": "8",
+			"initiative": "22",
+			"cardno": "327",
+			"character": "pc"
+		},
+		{
+			"name": "py-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-py-back.png",
+			"xws": "pyback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "py"
+		},
+		{
+			"name": "calamity",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-calamity.png",
+			"xws": "calamity",
+			"level": "9",
+			"initiative": "35",
+			"cardno": "243",
+			"character": "py"
+		},
+		{
+			"name": "cinder lance",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-cinder-lance.png",
+			"xws": "cinderlance",
+			"level": "8",
+			"initiative": "90",
+			"cardno": "241",
+			"character": "py"
+		},
+		{
+			"name": "cloud of ash",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-cloud-of-ash.png",
+			"xws": "cloudofash",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "224",
+			"character": "py"
+		},
+		{
+			"name": "cooling",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-cooling.png",
+			"xws": "cooling",
+			"level": "1",
+			"initiative": "75",
+			"cardno": "215",
+			"character": "py"
+		},
+		{
+			"name": "deep fury",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-deep-fury.png",
+			"xws": "deepfury",
+			"level": "2",
+			"initiative": "38",
+			"cardno": "229",
+			"character": "py"
+		},
+		{
+			"name": "erupting rage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-erupting-rage.png",
+			"xws": "eruptingrage",
+			"level": "7",
+			"initiative": "70",
+			"cardno": "238",
+			"character": "py"
+		},
+		{
+			"name": "eruption",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-eruption.png",
+			"xws": "eruption",
+			"level": "1",
+			"initiative": "47",
+			"cardno": "218",
+			"character": "py"
+		},
+		{
+			"name": "feed the beast",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-feed-the-beast.png",
+			"xws": "feedthebeast",
+			"level": "8",
+			"initiative": "27",
+			"cardno": "240",
+			"character": "py"
+		},
+		{
+			"name": "flowing fire",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-flowing-fire.png",
+			"xws": "flowingfire",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "217",
+			"character": "py"
+		},
+		{
+			"name": "force of the earth",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-force-of-the-earth.png",
+			"xws": "forceoftheearth",
+			"level": "x",
+			"initiative": "15",
+			"cardno": "226",
+			"character": "py"
+		},
+		{
+			"name": "hand of flame",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-hand-of-flame.png",
+			"xws": "handofflame",
+			"level": "4",
+			"initiative": "29",
+			"cardno": "232",
+			"character": "py"
+		},
+		{
+			"name": "hardened spike",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-hardened-spike.png",
+			"xws": "hardenedspike",
+			"level": "3",
+			"initiative": "80",
+			"cardno": "231",
+			"character": "py"
+		},
+		{
+			"name": "heat wave",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-heat-wave.png",
+			"xws": "heatwave",
+			"level": "4",
+			"initiative": "08",
+			"cardno": "233",
+			"character": "py"
+		},
+		{
+			"name": "igneous path",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-igneous-path.png",
+			"xws": "igneouspath",
+			"level": "1",
+			"initiative": "18",
+			"cardno": "220",
+			"character": "py"
+		},
+		{
+			"name": "lava bomb",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-lava-bomb.png",
+			"xws": "lavabomb",
+			"level": "1",
+			"initiative": "53",
+			"cardno": "219",
+			"character": "py"
+		},
+		{
+			"name": "liquid stone",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-liquid-stone.png",
+			"xws": "liquidstone",
+			"level": "1",
+			"initiative": "28",
+			"cardno": "223",
+			"character": "py"
+		},
+		{
+			"name": "living magma",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-living-magma.png",
+			"xws": "livingmagma",
+			"level": "3",
+			"initiative": "22",
+			"cardno": "230",
+			"character": "py"
+		},
+		{
+			"name": "magma orbs",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-magma-orbs.png",
+			"xws": "magmaorbs",
+			"level": "5",
+			"initiative": "82",
+			"cardno": "235",
+			"character": "py"
+		},
+		{
+			"name": "melted armor",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-melted-armor.png",
+			"xws": "meltedarmor",
+			"level": "1",
+			"initiative": "62",
+			"cardno": "222",
+			"character": "py"
+		},
+		{
+			"name": "metamorphic rock",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-metamorphic-rock.png",
+			"xws": "metamorphicrock",
+			"level": "x",
+			"initiative": "68",
+			"cardno": "227",
+			"character": "py"
+		},
+		{
+			"name": "obsidian shield",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-obsidian-shield.png",
+			"xws": "obsidianshield",
+			"level": "6",
+			"initiative": "19",
+			"cardno": "237",
+			"character": "py"
+		},
+		{
+			"name": "quenched rage",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-quenched-rage.png",
+			"xws": "quenchedrage",
+			"level": "1",
+			"initiative": "30",
+			"cardno": "216",
+			"character": "py"
+		},
+		{
+			"name": "rain of fire",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-rain-of-fire.png",
+			"xws": "rainoffire",
+			"level": "5",
+			"initiative": "21",
+			"cardno": "234",
+			"character": "py"
+		},
+		{
+			"name": "return to the source",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-return-to-the-source.png",
+			"xws": "returntothesource",
+			"level": "6",
+			"initiative": "14",
+			"cardno": "236",
+			"character": "py"
+		},
+		{
+			"name": "searing smoke",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-searing-smoke.png",
+			"xws": "searingsmoke",
+			"level": "2",
+			"initiative": "45",
+			"cardno": "228",
+			"character": "py"
+		},
+		{
+			"name": "stone armor",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-stone-armor.png",
+			"xws": "stonearmor",
+			"level": "9",
+			"initiative": "09",
+			"cardno": "242",
+			"character": "py"
+		},
+		{
+			"name": "swelter",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-swelter.png",
+			"xws": "swelter",
+			"level": "7",
+			"initiative": "32",
+			"cardno": "239",
+			"character": "py"
+		},
+		{
+			"name": "under pressure",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-under-pressure.png",
+			"xws": "underpressure",
+			"level": "1",
+			"initiative": "85",
+			"cardno": "221",
+			"character": "py"
+		},
+		{
+			"name": "wildfire",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/py/fh-wildfire.png",
+			"xws": "wildfire",
+			"level": "x",
+			"initiative": "72",
+			"cardno": "225",
+			"character": "py"
+		},
+		{
+			"name": "sd-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-sd-back.png",
+			"xws": "sdback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "sd"
+		},
+		{
+			"name": "birds in a tempest",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-birds-in-a-tempest.png",
+			"xws": "birdsinatempest",
+			"level": "2",
+			"initiative": "18",
+			"cardno": "344",
+			"character": "sd"
+		},
+		{
+			"name": "biting frost",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-biting-frost.png",
+			"xws": "bitingfrost",
+			"level": "4",
+			"initiative": "16",
+			"cardno": "349",
+			"character": "sd"
+		},
+		{
+			"name": "blinding vortex",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-blinding-vortex.png",
+			"xws": "blindingvortex",
+			"level": "x",
+			"initiative": "31",
+			"cardno": "342",
+			"character": "sd"
+		},
+		{
+			"name": "blizzard",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-blizzard.png",
+			"xws": "blizzard",
+			"level": "1",
+			"initiative": "71",
+			"cardno": "330",
+			"character": "sd"
+		},
+		{
+			"name": "chilling impact",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-chilling-impact.png",
+			"xws": "chillingimpact",
+			"level": "1",
+			"initiative": "31",
+			"cardno": "332",
+			"character": "sd"
+		},
+		{
+			"name": "cold snap",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-cold-snap.png",
+			"xws": "coldsnap",
+			"level": "3",
+			"initiative": "86",
+			"cardno": "346",
+			"character": "sd"
+		},
+		{
+			"name": "cold therapy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-cold-therapy.png",
+			"xws": "coldtherapy",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "340",
+			"character": "sd"
+		},
+		{
+			"name": "cross winds",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-cross-winds.png",
+			"xws": "crosswinds",
+			"level": "1",
+			"initiative": "32",
+			"cardno": "338",
+			"character": "sd"
+		},
+		{
+			"name": "enticing breeze",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-enticing-breeze.png",
+			"xws": "enticingbreeze",
+			"level": "1",
+			"initiative": "76",
+			"cardno": "331",
+			"character": "sd"
+		},
+		{
+			"name": "freezing storm",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-freezing-storm.png",
+			"xws": "freezingstorm",
+			"level": "7",
+			"initiative": "81",
+			"cardno": "354",
+			"character": "sd"
+		},
+		{
+			"name": "frigid growth",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-frigid-growth.png",
+			"xws": "frigidgrowth",
+			"level": "1",
+			"initiative": "70",
+			"cardno": "339",
+			"character": "sd"
+		},
+		{
+			"name": "frozen brand",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-frozen-brand.png",
+			"xws": "frozenbrand",
+			"level": "6",
+			"initiative": "33",
+			"cardno": "353",
+			"character": "sd"
+		},
+		{
+			"name": "gathering force",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-gathering-force.png",
+			"xws": "gatheringforce",
+			"level": "1",
+			"initiative": "89",
+			"cardno": "333",
+			"character": "sd"
+		},
+		{
+			"name": "lifting gust",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-lifting-gust.png",
+			"xws": "liftinggust",
+			"level": "1",
+			"initiative": "27",
+			"cardno": "335",
+			"character": "sd"
+		},
+		{
+			"name": "nature's breath",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-natures-breath.png",
+			"xws": "naturesbreath",
+			"level": "1",
+			"initiative": "90",
+			"cardno": "334",
+			"character": "sd"
+		},
+		{
+			"name": "polar vortex",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-polar-vortex.png",
+			"xws": "polarvortex",
+			"level": "3",
+			"initiative": "61",
+			"cardno": "347",
+			"character": "sd"
+		},
+		{
+			"name": "refreshing flurry",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-refreshing-flurry.png",
+			"xws": "refreshingflurry",
+			"level": "6",
+			"initiative": "95",
+			"cardno": "352",
+			"character": "sd"
+		},
+		{
+			"name": "shifting snow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-shifting-snow.png",
+			"xws": "shiftingsnow",
+			"level": "5",
+			"initiative": "17",
+			"cardno": "351",
+			"character": "sd"
+		},
+		{
+			"name": "snowball",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-snowball.png",
+			"xws": "snowball",
+			"level": "1",
+			"initiative": "23",
+			"cardno": "336",
+			"character": "sd"
+		},
+		{
+			"name": "snowblind",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-snowblind.png",
+			"xws": "snowblind",
+			"level": "9",
+			"initiative": "83",
+			"cardno": "359",
+			"character": "sd"
+		},
+		{
+			"name": "storm wall",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-storm-wall.png",
+			"xws": "stormwall",
+			"level": "7",
+			"initiative": "30",
+			"cardno": "355",
+			"character": "sd"
+		},
+		{
+			"name": "surging blow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-surging-blow.png",
+			"xws": "surgingblow",
+			"level": "8",
+			"initiative": "73",
+			"cardno": "356",
+			"character": "sd"
+		},
+		{
+			"name": "the endless white",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-the-endless-white.png",
+			"xws": "theendlesswhite",
+			"level": "8",
+			"initiative": "05",
+			"cardno": "357",
+			"character": "sd"
+		},
+		{
+			"name": "the spirit's call",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-the-spirits-call.png",
+			"xws": "thespiritscall",
+			"level": "x",
+			"initiative": "45",
+			"cardno": "343",
+			"character": "sd"
+		},
+		{
+			"name": "tornado",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-tornado.png",
+			"xws": "tornado",
+			"level": "2",
+			"initiative": "59",
+			"cardno": "345",
+			"character": "sd"
+		},
+		{
+			"name": "whipping gale",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-whipping-gale.png",
+			"xws": "whippinggale",
+			"level": "5",
+			"initiative": "79",
+			"cardno": "350",
+			"character": "sd"
+		},
+		{
+			"name": "whiteout",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-whiteout.png",
+			"xws": "whiteout",
+			"level": "1",
+			"initiative": "21",
+			"cardno": "337",
+			"character": "sd"
+		},
+		{
+			"name": "white winds",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-white-winds.png",
+			"xws": "whitewinds",
+			"level": "x",
+			"initiative": "11",
+			"cardno": "341",
+			"character": "sd"
+		},
+		{
+			"name": "winds of change",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-winds-of-change.png",
+			"xws": "windsofchange",
+			"level": "9",
+			"initiative": "15",
+			"cardno": "358",
+			"character": "sd"
+		},
+		{
+			"name": "zephyr barrier",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sd/fh-zephyr-barrier.png",
+			"xws": "zephyrbarrier",
+			"level": "4",
+			"initiative": "40",
+			"cardno": "348",
+			"character": "sd"
+		},
+		{
+			"name": "sh-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-sh-back.png",
+			"xws": "shback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "sh"
+		},
+		{
+			"name": "barbaric yawp",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-barbaric-yawp.png",
+			"xws": "barbaricyawp",
+			"level": "9",
+			"initiative": "66",
+			"cardno": "271",
+			"character": "sh"
+		},
+		{
+			"name": "befuddling bellow",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-befuddling-bellow.png",
+			"xws": "befuddlingbellow",
+			"level": "2",
+			"initiative": "18",
+			"cardno": "258",
+			"character": "sh"
+		},
+		{
+			"name": "calamitous yawp",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-calamitous-yawp.png",
+			"xws": "calamitousyawp",
+			"level": "x",
+			"initiative": "65",
+			"cardno": "254",
+			"character": "sh"
+		},
+		{
+			"name": "cloaking refraction",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-cloaking-refraction.png",
+			"xws": "cloakingrefraction",
+			"level": "7",
+			"initiative": "11",
+			"cardno": "268",
+			"character": "sh"
+		},
+		{
+			"name": "concentrated blast",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-concentrated-blast.png",
+			"xws": "concentratedblast",
+			"level": "4",
+			"initiative": "38",
+			"cardno": "261",
+			"character": "sh"
+		},
+		{
+			"name": "devastating shout",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-devastating-shout.png",
+			"xws": "devastatingshout",
+			"level": "1",
+			"initiative": "68",
+			"cardno": "253",
+			"character": "sh"
+		},
+		{
+			"name": "din of battle",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-din-of-battle.png",
+			"xws": "dinofbattle",
+			"level": "x",
+			"initiative": "14",
+			"cardno": "255",
+			"character": "sh"
+		},
+		{
+			"name": "elemental pulse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-elemental-pulse.png",
+			"xws": "elementalpulse",
+			"level": "4",
+			"initiative": "25",
+			"cardno": "262",
+			"character": "sh"
+		},
+		{
+			"name": "empowering note",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-empowering-note.png",
+			"xws": "empoweringnote",
+			"level": "5",
+			"initiative": "45",
+			"cardno": "264",
+			"character": "sh"
+		},
+		{
+			"name": "empowering pulse",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-empowering-pulse.png",
+			"xws": "empoweringpulse",
+			"level": "1",
+			"initiative": "22",
+			"cardno": "252",
+			"character": "sh"
+		},
+		{
+			"name": "feedback",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-feedback.png",
+			"xws": "feedback",
+			"level": "8",
+			"initiative": "24",
+			"cardno": "270",
+			"character": "sh"
+		},
+		{
+			"name": "forceful vibrations",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-forceful-vibrations.png",
+			"xws": "forcefulvibrations",
+			"level": "1",
+			"initiative": "27",
+			"cardno": "247",
+			"character": "sh"
+		},
+		{
+			"name": "foreboding tremors",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-foreboding-tremors.png",
+			"xws": "forebodingtremors",
+			"level": "1",
+			"initiative": "21",
+			"cardno": "249",
+			"character": "sh"
+		},
+		{
+			"name": "future sense",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-future-sense.png",
+			"xws": "futuresense",
+			"level": "6",
+			"initiative": "28",
+			"cardno": "266",
+			"character": "sh"
+		},
+		{
+			"name": "heartening harmony",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-heartening-harmony.png",
+			"xws": "hearteningharmony",
+			"level": "1",
+			"initiative": "30",
+			"cardno": "246",
+			"character": "sh"
+		},
+		{
+			"name": "illuminative tone",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-illuminative-tone.png",
+			"xws": "illuminativetone",
+			"level": "x",
+			"initiative": "72",
+			"cardno": "256",
+			"character": "sh"
+		},
+		{
+			"name": "lifting voice",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-lifting-voice.png",
+			"xws": "liftingvoice",
+			"level": "1",
+			"initiative": "29",
+			"cardno": "245",
+			"character": "sh"
+		},
+		{
+			"name": "precious gems",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-precious-gems.png",
+			"xws": "preciousgems",
+			"level": "1",
+			"initiative": "10",
+			"cardno": "251",
+			"character": "sh"
+		},
+		{
+			"name": "resonant frequency",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-resonant-frequency.png",
+			"xws": "resonantfrequency",
+			"level": "1",
+			"initiative": "88",
+			"cardno": "248",
+			"character": "sh"
+		},
+		{
+			"name": "shape the path",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-shape-the-path.png",
+			"xws": "shapethepath",
+			"level": "3",
+			"initiative": "40",
+			"cardno": "259",
+			"character": "sh"
+		},
+		{
+			"name": "shrieking chakram",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-shrieking-chakram.png",
+			"xws": "shriekingchakram",
+			"level": "5",
+			"initiative": "08",
+			"cardno": "263",
+			"character": "sh"
+		},
+		{
+			"name": "soft spots",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-soft-spots.png",
+			"xws": "softspots",
+			"level": "8",
+			"initiative": "47",
+			"cardno": "269",
+			"character": "sh"
+		},
+		{
+			"name": "sonic shock",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-sonic-shock.png",
+			"xws": "sonicshock",
+			"level": "1",
+			"initiative": "58",
+			"cardno": "250",
+			"character": "sh"
+		},
+		{
+			"name": "sound therapy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-sound-therapy.png",
+			"xws": "soundtherapy",
+			"level": "7",
+			"initiative": "73",
+			"cardno": "267",
+			"character": "sh"
+		},
+		{
+			"name": "stealth vibrations",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-stealth-vibrations.png",
+			"xws": "stealthvibrations",
+			"level": "3",
+			"initiative": "35",
+			"cardno": "260",
+			"character": "sh"
+		},
+		{
+			"name": "transparency",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-transparency.png",
+			"xws": "transparency",
+			"level": "2",
+			"initiative": "13",
+			"cardno": "257",
+			"character": "sh"
+		},
+		{
+			"name": "unrelenting wail",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-unrelenting-wail.png",
+			"xws": "unrelentingwail",
+			"level": "1",
+			"initiative": "26",
+			"cardno": "244",
+			"character": "sh"
+		},
+		{
+			"name": "unsustainable wave",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-unsustainable-wave.png",
+			"xws": "unsustainablewave",
+			"level": "6",
+			"initiative": "36",
+			"cardno": "265",
+			"character": "sh"
+		},
+		{
+			"name": "violent vibrations",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/sh/fh-violent-vibrations.png",
+			"xws": "violentvibrations",
+			"level": "9",
+			"initiative": "05",
+			"cardno": "272",
+			"character": "sh"
+		},
+		{
+			"name": "ta-back",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-ta-back.png",
+			"xws": "taback",
+			"level": "-",
+			"initiative": "-",
+			"cardno": "-",
+			"character": "ta"
+		},
+		{
+			"name": "boar catcher",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-boar-catcher.png",
+			"xws": "boarcatcher",
+			"level": "1",
+			"initiative": "20",
+			"cardno": "275",
+			"character": "ta"
+		},
+		{
+			"name": "cage of thorns",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-cage-of-thorns.png",
+			"xws": "cageofthorns",
+			"level": "6",
+			"initiative": "55",
+			"cardno": "294",
+			"character": "ta"
+		},
+		{
+			"name": "caltrops",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-caltrops.png",
+			"xws": "caltrops",
+			"level": "1",
+			"initiative": "25",
+			"cardno": "273",
+			"character": "ta"
+		},
+		{
+			"name": "dangerous cargo",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-dangerous-cargo.png",
+			"xws": "dangerouscargo",
+			"level": "9",
+			"initiative": "23",
+			"cardno": "299",
+			"character": "ta"
+		},
+		{
+			"name": "dangerous ground",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-dangerous-ground.png",
+			"xws": "dangerousground",
+			"level": "4",
+			"initiative": "31",
+			"cardno": "289",
+			"character": "ta"
+		},
+		{
+			"name": "dismantle",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-dismantle.png",
+			"xws": "dismantle",
+			"level": "x",
+			"initiative": "72",
+			"cardno": "282",
+			"character": "ta"
+		},
+		{
+			"name": "electrified net",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-electrified-net.png",
+			"xws": "electrifiednet",
+			"level": "1",
+			"initiative": "53",
+			"cardno": "277",
+			"character": "ta"
+		},
+		{
+			"name": "enticing bait",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-enticing-bait.png",
+			"xws": "enticingbait",
+			"level": "1",
+			"initiative": "30",
+			"cardno": "279",
+			"character": "ta"
+		},
+		{
+			"name": "exploding decoy",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-exploding-decoy.png",
+			"xws": "explodingdecoy",
+			"level": "1",
+			"initiative": "62",
+			"cardno": "280",
+			"character": "ta"
+		},
+		{
+			"name": "extra teeth",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-extra-teeth.png",
+			"xws": "extrateeth",
+			"level": "3",
+			"initiative": "22",
+			"cardno": "287",
+			"character": "ta"
+		},
+		{
+			"name": "flurry of nails",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-flurry-of-nails.png",
+			"xws": "flurryofnails",
+			"level": "1",
+			"initiative": "68",
+			"cardno": "281",
+			"character": "ta"
+		},
+		{
+			"name": "foxhole",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-foxhole.png",
+			"xws": "foxhole",
+			"level": "7",
+			"initiative": "90",
+			"cardno": "296",
+			"character": "ta"
+		},
+		{
+			"name": "defense grid",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-foxhole.png",
+			"xws": "foxhole",
+			"level": "7",
+			"initiative": "90",
+			"cardno": "296",
+			"character": "ta"
+		},
+		{
+			"name": "furry facade",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-furry-facade.png",
+			"xws": "furryfacade",
+			"level": "1",
+			"initiative": "85",
+			"cardno": "274",
+			"character": "ta"
+		},
+		{
+			"name": "grasping hazards",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-grasping-hazards.png",
+			"xws": "graspinghazards",
+			"level": "7",
+			"initiative": "08",
+			"cardno": "295",
+			"character": "ta"
+		},
+		{
+			"name": "honeypot",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-honeypot.png",
+			"xws": "honeypot",
+			"level": "1",
+			"initiative": "18",
+			"cardno": "278",
+			"character": "ta"
+		},
+		{
+			"name": "improvised improvement",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-improvised-improvement.png",
+			"xws": "improvisedimprovement",
+			"level": "x",
+			"initiative": "58",
+			"cardno": "284",
+			"character": "ta"
+		},
+		{
+			"name": "lure of the snare",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-lure-of-the-snare.png",
+			"xws": "lureofthesnare",
+			"level": "5",
+			"initiative": "59",
+			"cardno": "291",
+			"character": "ta"
+		},
+		{
+			"name": "magnetic shards",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-magnetic-shards.png",
+			"xws": "magneticshards",
+			"level": "8",
+			"initiative": "37",
+			"cardno": "298",
+			"character": "ta"
+		},
+		{
+			"name": "mother of all traps",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-mother-of-all-traps.png",
+			"xws": "motherofalltraps",
+			"level": "9",
+			"initiative": "86",
+			"cardno": "300",
+			"character": "ta"
+		},
+		{
+			"name": "path of pain",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-path-of-pain.png",
+			"xws": "pathofpain",
+			"level": "2",
+			"initiative": "38",
+			"cardno": "286",
+			"character": "ta"
+		},
+		{
+			"name": "persistent pitfalls",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-persistent-pitfalls.png",
+			"xws": "persistentpitfalls",
+			"level": "6",
+			"initiative": "13",
+			"cardno": "293",
+			"character": "ta"
+		},
+		{
+			"name": "proficient hunter",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-proficient-hunter.png",
+			"xws": "proficienthunter",
+			"level": "5",
+			"initiative": "26",
+			"cardno": "292",
+			"character": "ta"
+		},
+		{
+			"name": "pyrotechnics",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-pyrotechnics.png",
+			"xws": "pyrotechnics",
+			"level": "3",
+			"initiative": "80",
+			"cardno": "288",
+			"character": "ta"
+		},
+		{
+			"name": "spike pit",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-spike-pit.png",
+			"xws": "spikepit",
+			"level": "1",
+			"initiative": "47",
+			"cardno": "276",
+			"character": "ta"
+		},
+		{
+			"name": "spike strip",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-spike-strip.png",
+			"xws": "spikestrip",
+			"level": "8",
+			"initiative": "67",
+			"cardno": "297",
+			"character": "ta"
+		},
+		{
+			"name": "spring-loaded",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-spring-loaded.png",
+			"xws": "springloaded",
+			"level": "x",
+			"initiative": "15",
+			"cardno": "283",
+			"character": "ta"
+		},
+		{
+			"name": "stalker's spoils",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-stalkers-spoils.png",
+			"xws": "stalkersspoils",
+			"level": "4",
+			"initiative": "10",
+			"cardno": "290",
+			"character": "ta"
+		},
+		{
+			"name": "unavoidable outcome",
+			"expansion": "frosthaven",
+			"image": "character-ability-cards/frosthaven/ta/fh-unavoidable-outcome.png",
+			"xws": "unavoidableoutcome",
+			"level": "2",
+			"initiative": "45",
+			"cardno": "285",
+			"character": "ta"
+		}
+	]
+}

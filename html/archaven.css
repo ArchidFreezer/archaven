@@ -1,0 +1,3 @@
+html { scroll-padding-top: 75px; }
+table, th, td { border: 1px solid black;  border-collapse: collapse; }
+img.ability-desc { width: 250px; }

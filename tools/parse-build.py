@@ -134,7 +134,7 @@ with open('../data/card-data.json') as fd:
 with open('../data/character-data.json') as fd:
 	jchars = json.load(fd)
 
-with open(f'../data/{buildid}.json') as fd:
+with open(f'../data/build-data.json') as fd:
 	jbuilds = json.load(fd)
 
 # Open the output html file

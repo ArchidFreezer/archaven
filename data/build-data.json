@@ -23,7 +23,7 @@
 			"openers": [
 				{
 					"label": "Typical",
-					"level": "1",
+					"level": 1,
 					"overview": "On round 4, try to use the Reinforcement and/or an ally to set up either Combined Effort or Rallying Cry top, depending on which is more relevant at the time (and whether you need to use Combined Effort).<p>If possible, if the fighting is wrapping up by round 5 (which should often be the case in an average first room), start your healing process by using Regroup top on yourself. Getting the Regenerate up before you rest will lead to this typically healing around 4 total hit points, which is a big deal for a tank (with that plus a long rest you may very well get back to full, which is important to continuing to tank effectively).",
 					"rounds": [
 						{
@@ -222,7 +222,7 @@
 			],
 			"levels": [
 				{
-					"level": "1",
+					"level": 1,
 					"choices": [
 						{
 							"label": "Core",

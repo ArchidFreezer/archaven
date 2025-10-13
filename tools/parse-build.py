@@ -88,7 +88,7 @@ def html_build_decks():
 	''')
 
 def html_openers(level):
-	openers=jmespath.search(f"openers[?level=='{level}']", jbuild)
+	openers=jmespath.search(f"openers[?level==`{level}`]", jbuild)
 	if len(openers) > 0:
 		hf.write(f'''
 			<button id="level-openers" onclick="accClick('acc-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
@@ -133,7 +133,7 @@ def html_opener_card(jopener):
 	return card
 	
 def html_hand(level):
-	jhand=jmespath.search(f"levels[?level=='{level}'].hand[]", jbuild)
+	jhand=jmespath.search(f"levels[?level==`{level}`].hand[]", jbuild)
 	if len(jhand) > 0:
 		hf.write(f'''
 			<button id="level-{level}-hand" onclick="accClick('acc-{level}-hand')" class="w3-btn w3-block w3-left-align">Level {level} Hand</button>
@@ -151,7 +151,7 @@ def html_hand(level):
 				</div> <!-- default container -->
 		''')
 	
-	jsideboard=jmespath.search(f"levels[?level=='{level}'].sideboard[]", jbuild)
+	jsideboard=jmespath.search(f"levels[?level==`{level}`].sideboard[]", jbuild)
 	if len(jsideboard) > 0:
 		hf.write('''
 				<div class="w3-container">
@@ -252,14 +252,14 @@ def html_new_card(id, data):
 	return card
 
 def html_choices(level):
-	choices=jmespath.search(f"levels[?level == '{level}'].choices[].[label,overview]", jbuild)
+	choices=jmespath.search(f"levels[?level == `{level}`].choices[].[label,overview]", jbuild)
 	if len(choices) > 0:
 		hf.write(f'''
 			<button id="level-{level}-choices" onclick="accClick('acc-{level}-choices')" class="w3-btn w3-block w3-left-align">Level {level} Choices</button>
 			<div id="acc-{level}-choices" class="w3-container w3-hide">
 		''')
 	
-		choices=jmespath.search(f"levels[?level == '{level}'].choices[].[label,overview]", jbuild)
+		choices=jmespath.search(f"levels[?level == `{level}`].choices[].[label,overview]", jbuild)
 		for choice in choices:
 			hf.write(f'''
 				<div class="w3-container">
@@ -268,7 +268,7 @@ def html_choices(level):
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 			''')
 
-			cards = jmespath.search(f"levels[?level == '{level}'] | [0].choices[?label=='{choice[0]}'].cards[].[id,comment]", jbuild)
+			cards = jmespath.search(f"levels[?level == `{level}`] | [0].choices[?label=='{choice[0]}'].cards[].[id,comment]", jbuild)
 			for card in cards:
 				hf.write(f'''
 						<div class="w3-card-4" style="width:250px">

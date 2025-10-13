@@ -239,12 +239,20 @@ def html_choices(level):
 			</div>
 		''')
 
-def html_bottom():
-	hf.write('''
+def html_footer():
+	txt=jmespath.search("build", jbuild)
+	author=jmespath.search("orig_author", jbuild)
+	if len(author) > 0:
+		txt+=f" based on {author} build"
+	url=jmespath.search("orig_url", jbuild)
+	if len(url) > 0:
+		txt+=f''' (<a href="{url}">{url}</a>)'''
+		
+	hf.write(f'''
 </div>
 
 <footer class="w3-container w3-teal">
-	Tank build by Gripeaway
+	<div style="font-size:0.8rem">{txt}</div>
 </footer>
 
 </body>
@@ -293,4 +301,4 @@ get_card_images()
 html_top(buildname)
 html_overview()
 html_builddecks()
-html_bottom()
+html_footer()

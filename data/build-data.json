@@ -374,8 +374,8 @@
 								"text": "Move 2",
 								"style": "w3-pale-green"
 							},
-							"replace": "",
-							"condition": ""
+							"replace": "atallcosts",
+							"condition": "on this condition"
 						}
 					]
 				}

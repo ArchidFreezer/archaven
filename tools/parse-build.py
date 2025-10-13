@@ -63,7 +63,7 @@ def html_overview():
 	</div>
 	''')
 
-def html_builddecks():
+def html_build_decks():
 	hf.write('''
 	<div class="w3-container">
 		<h2 id="deck">Build Deck</h2>
@@ -77,6 +77,7 @@ def html_builddecks():
 		html_new_cards(level)
 		html_choices(level)
 		html_hand(level)
+		html_openers(level)
 		
 		hf.write(f'''
 		</div>
@@ -86,6 +87,51 @@ def html_builddecks():
 	</div>
 	''')
 
+def html_openers(level):
+	openers=jmespath.search(f"openers[?level=='{level}']", jbuild)
+	if len(openers) > 0:
+		hf.write(f'''
+			<button id="level-openers" onclick="accClick('acc-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+			<div id="acc-openers" class="w3-container w3-hide">
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		''')
+		
+		for jopener in openers:
+			hf.write(html_opener_card(jopener))
+
+		hf.write('''
+				</div>
+			</div> <!-- openers container -->
+		''')
+
+def html_opener_card(jopener):
+	basic=jmespath.search("[label, overview]", jopener)
+	card=(f'''
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>{basic[0]}</p></header>
+	''')
+				
+	rounds=jmespath.search("rounds", jopener)
+	for jround in rounds:
+		round=jmespath.search("[top,bottom,strategy]", jround)
+		card+=(f'''
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="{cardimages[round[0]]}"/>
+								<p>
+								<img class="card-small" src="{cardimages[round[1]]}"/>
+								<p>{round[2]}
+							</div>
+		''')
+
+	card+=(f'''
+							<footer class="w3-light-grey"><p>{basic[1]}</p></footer>
+						</div>
+					</div>
+	''')
+	
+	return card
+	
 def html_hand(level):
 	jhand=jmespath.search(f"levels[?level=='{level}'].hand[]", jbuild)
 	if len(jhand) > 0:
@@ -300,5 +346,5 @@ get_card_images()
 
 html_top(buildname)
 html_overview()
-html_builddecks()
+html_build_decks()
 html_footer()

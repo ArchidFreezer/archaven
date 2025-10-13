@@ -4,6 +4,8 @@
 			"id": "bn-tank",
 			"classid": "bn",
 			"build": "Tank",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://www.reddit.com/r/Gloomhaven/comments/1d417ti/banner_spear_class_guide/",
 			"overview": { 
 				"body": [
 					"The Tank build is more of a sub-build of a Spear build than a completely independent build, given the Banner Spear doesn't have that many dedicated tanking cards. But more than anything, choosing to play this build represents a slightly different focus, which is based on protecting the party as much as possible rather than maximizing your damage output."
@@ -18,6 +20,30 @@
 					"An example of an ideal four-character party for a Tank build would be something like: Ranged+Healing Drifter, Skeleton Swarm Boneshaper, Ranged Deathwalker, and Banner Spear."
 				]
 			},
+			"openers": [
+				{
+					"label": "Typical",
+					"level": "1",
+					"overview": "On round 4, try to use the Reinforcement and/or an ally to set up either Combined Effort or Rallying Cry top, depending on which is more relevant at the time (and whether you need to use Combined Effort).<p>If possible, if the fighting is wrapping up by round 5 (which should often be the case in an average first room), start your healing process by using Regroup top on yourself. Getting the Regenerate up before you rest will lead to this typically healing around 4 total hit points, which is a big deal for a tank (with that plus a long rest you may very well get back to full, which is important to continuing to tank effectively).",
+					"rounds": [
+						{
+							"top": "javelin",
+							"bottom": "unbreakablewall",
+							"strategy": "You'll typically play Javelin top with Unbreakable Wall bottom. Normally, it's best to avoid unnecessary hits, even as a tank, so if you and your party can position such that most of the enemies won't reach you on round 1, then you're better off going at 83, letting the enemies approach, and then attacking. If the enemies will reach your party no matter what on round 1, then it's better to get the Shield up before they hit. If Javelin won't have enough range in that case or might not be fast enough (when facing very fast enemies), you can substitute Set for the Charge on top here."
+						},
+												{
+							"top": "deflectingmaneuver",
+							"bottom": "tipofthespear",
+							"strategy": "On Round 2, you'll run up and use the Air you created with Javelin to make an effective attack that also provides welcome mitigation. Try to position yourself effectively for your round 3 play, although avoid putting yourself in the way of completely avoidable attacks, unless they're very small."
+						},
+						{
+							"top": "resolvedcourage",
+							"bottom": "atallcosts",
+							"strategy": "Round 3, you can summon the Reinforcements behind you and attack with Resolved Courage for some effective AoE damage. If the enemies you approached the previous round were ranged, remember that they won't move away to lose disadvantage if you played Deflecting Manoeuvre top (because they can't lose disadvantage so they just won't move). Accordingly, the Immobilize from Resolved Courage may help you apply an additional round of disadvantage to any ranged enemies who survive your onslaught."
+						}
+					]
+				}
+			],
 			"cards": [
 				{
 					"id": "atallcosts",

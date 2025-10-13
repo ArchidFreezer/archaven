@@ -289,8 +289,8 @@ def html_perks():
 	perks=jmespath.search(f"sort_by(perks, &order)[*][name,effect]", jbuild)
 	if len(perks) > 0:
 		hf.write('''
-	<div class="w3-container">
-		<h2 id="perks">Perks</h2>
+	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+	<div id="acc-perks" class="w3-container w3-hide">
 		<table class="w3-table w3-striped w3-border">
 	''')
 
@@ -304,6 +304,44 @@ def html_perks():
 	</div>
 		''')
 
+def html_items():
+	jitemdata=jmespath.search("items", jbuild)
+	if len(jitemdata) > 0:
+		hf.write(f'''
+	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+	<div id="acc-items" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey">{jmespath.search("description", jitemdata)}</div>
+	''')
+		
+		levels=jmespath.search("levels", jitemdata)
+		for jlevel in levels:
+			level=jmespath.search("level", jlevel)
+			levelid=level.lower().replace(" ","")
+			hf.write(f'''
+		<button id="items-{levelid}" onclick="accClick('acc-items-{levelid}')" class="w3-btn w3-block w3-left-align"><h4>{level}</h4></button>
+		<div id="acc-items-{levelid}" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			''')
+			picks=jmespath.search("picks", jlevel)
+			for jpick in picks:
+				data=jmespath.search("[id,comment]", jpick)
+				hf.write(f'''
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="{itemimages[data[0]]}"/>
+					<p class="w3-container">{data[1]}
+				</div>
+				''')
+				
+			hf.write('''
+			</div>
+		</div>
+			''')
+	
+		hf.write('''
+	</div>
+		''')
+	
 def html_footer():
 	txt=jmespath.search("build", jbuild)
 	author=jmespath.search("orig_author", jbuild)
@@ -334,11 +372,20 @@ def get_card_images():
 		img=f"images/frosthaven/{data[0]}"
 		cardimages.update({data[1]: img})
 
+def get_item_images():
+	items = jmespath.search("items[*].[image, id]", jitems)
+	for data in items:
+		img=f"images/frosthaven/{data[0]}"
+		itemimages.update({data[1]: img})
+
 buildid="bn-tank"
 
 # Read our json card data
 with open('../data/card-data.json') as fd:
 	jcards = json.load(fd)
+
+with open(f'../data/item-data.json') as fd:
+	jitems = json.load(fd)
 
 with open('../data/class-data.json') as fd:
 	jclasses = json.load(fd)
@@ -363,8 +410,12 @@ jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)
 cardimages = dict()
 get_card_images()
 
+itemimages = dict()
+get_item_images()
+
 html_top(buildname)
 html_overview()
 html_build_decks()
 html_perks()
+html_items()
 html_footer()

@@ -787,8 +787,8 @@
 		
 	</div>
 	
-	<div class="w3-container">
-		<h2 id="perks">Perks</h2>
+	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+	<div id="acc-perks" class="w3-container w3-hide">
 		<table class="w3-table w3-striped w3-border">
 	
 			<tr><td>Gifted</td><td>Ignore negative item effect<br>Remove -1</td></tr>
@@ -812,6 +812,243 @@
 			<tr><td>Overwhelm</td><td>Replace +0 with +1<br>Add +1 for each ally adjacent to the target</td></tr>
 			
 		</table>
+	</div>
+		
+	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+	<div id="acc-items" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey">The items recommendations are broken up into sections based on Craftsman levels.</div>
+	
+		<button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+		<div id="acc-items-starting" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>The recommended starting items are fine choices.<br>Amulet of Life could be tempting but there are other valuable defensive helmets for a tank and your heals tend to be small with added Regen, making the condition-cleansing less important.</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-128-heater-shield.png"/>
+					<p class="w3-container">This is a welcome addition to mitigate some damage.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+			</div>
+		</div>
+			
+		<button id="items-craftsman1" onclick="accClick('acc-items-craftsman1')" class="w3-btn w3-block w3-left-align"><h4>Craftsman 1</h4></button>
+		<div id="acc-items-craftsman1" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>Add a Crude Helmet and Crude Shield<br>You could craft the Crude Hide Armor, but it's pretty expensive when you have a better option waiting at Craftsman 2. I'd recommend pushing for your party to upgrade the Craftsman sooner rather than later and hold off on filling out your chest slot until then.</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-002-crude-helmet.png"/>
+					<p class="w3-container">This is cheap and effective. While +1 isn't great, it still has a decent chance of saving you from needing to pitch a card.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-010-crude-shield.png"/>
+					<p class="w3-container">Crude Shield is, like its Crude headwear cousin, cheap and effective. Most scenarios spent tanking will involve at least one useful condition to block and sometimes the swing can be huge.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-128-heater-shield.png"/>
+					<p class="w3-container">This is a welcome addition to mitigate some damage.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+			</div>
+		</div>
+			
+		<button id="items-craftsman2" onclick="accClick('acc-items-craftsman2')" class="w3-btn w3-block w3-left-align"><h4>Craftsman 2</h4></button>
+		<div id="acc-items-craftsman2" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>Add Crude Chain Armour and upgrade your Crude Shield into a Reinforced Shield</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-002-crude-helmet.png"/>
+					<p class="w3-container">This is cheap and effective. While a +1 isn't great, it still has a decent chance of saving you from needing to pitch a card.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-012-crude-chain-armor.png"/>
+					<p class="w3-container">This is decent tanking armour.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-128-heater-shield.png"/>
+					<p class="w3-container">This is a welcome addition to mitigate some damage.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-015-reinforced-shield.png"/>
+					<p class="w3-container">Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+			</div>
+		</div>
+			
+		<button id="items-craftsman3" onclick="accClick('acc-items-craftsman3')" class="w3-btn w3-block w3-left-align"><h4>Craftsman 3</h4></button>
+		<div id="acc-items-craftsman3" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>No changes this level</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-002-crude-helmet.png"/>
+					<p class="w3-container">This is cheap and effective. While a +1 isn't great, it still has a decent chance of saving you from needing to pitch a card.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-012-crude-chain-armor.png"/>
+					<p class="w3-container">This is decent tanking armour.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-128-heater-shield.png"/>
+					<p class="w3-container">This is a welcome addition to mitigate some damage.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-015-reinforced-shield.png"/>
+					<p class="w3-container">Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+			</div>
+		</div>
+			
+		<button id="items-craftsman4" onclick="accClick('acc-items-craftsman4')" class="w3-btn w3-block w3-left-align"><h4>Craftsman 4</h4></button>
+		<div id="acc-items-craftsman4" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>The choice of whether or not to take Sturdy Greaves is going to come down to resource availability and how soon you'll retire. They're definitely a worthwhile upgrade to Winged Shoes in most scenarios, and you can keep the Winged Shoes around when you see a scenario where you think the Jump will be better. As with Chain Hood, any form of Shield stacking alongside your persistent loss is very, very powerful. And Sturdy Greaves are much easier to use as well. You can even pair them with the door-opening perk to barely miss a step, although you may not want to take that risk if you're facing a number of enemy types who are prone to not attacking.</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-021-chain-hood.png"/>
+					<p class="w3-container">I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-022-heavy-chain-armor.png"/>
+					<p class="w3-container">A nice minor upgrade.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-128-heater-shield.png"/>
+					<p class="w3-container">This is a welcome addition to mitigate some damage.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-015-reinforced-shield.png"/>
+					<p class="w3-container">Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-023-sturdy-greaves.png"/>
+					<p class="w3-container">Having an additional shield for a round if we are standing and tanking is a powerfuil effect.
+				</div>
+				
+			</div>
+		</div>
+			
+		<button id="items-craftsman5" onclick="accClick('acc-items-craftsman5')" class="w3-btn w3-block w3-left-align"><h4>Craftsman 5</h4></button>
+		<div id="acc-items-craftsman5" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>We add the Parrying Gauntlet as another option for our hands. You'll typically be in a position such that it's easy to trigger and it can often deal respectable damage while even avoiding an attack. It's also cheap enough to craft that there should be no hesitation. At this point, I would bring Parrying Gauntlet all of the time, Reinforced Shield when you're facing enemies that have conditions, and Heater Shield when you're not</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-021-chain-hood.png"/>
+					<p class="w3-container">I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-022-heavy-chain-armor.png"/>
+					<p class="w3-container">A nice minor upgrade.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-128-heater-shield.png"/>
+					<p class="w3-container">This is a welcome addition to mitigate some damage.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-030-parrying-gauntlet.png"/>
+					<p class="w3-container">This is an excellent addition ans something you will want to be using on most quests.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-015-reinforced-shield.png"/>
+					<p class="w3-container">Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-023-sturdy-greaves.png"/>
+					<p class="w3-container">Having an additional shield for a round if we are standing and tanking is a powerfuil effect.
+				</div>
+				
+			</div>
+		</div>
+			
+		<button id="items-craftsman6" onclick="accClick('acc-items-craftsman6')" class="w3-btn w3-block w3-left-align"><h4>Craftsman 6</h4></button>
+		<div id="acc-items-craftsman6" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>We add the Kite Shield replacing both the Heater and Reinforced Shields.</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-021-chain-hood.png"/>
+					<p class="w3-container">I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-022-heavy-chain-armor.png"/>
+					<p class="w3-container">A nice minor upgrade.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-035-kite-shield.png"/>
+					<p class="w3-container">The Kite Shield is a strict upgrade compared to Heater Shield, always giving you the damage mitigation and sometimes also giving bonus condition prevention. This and Parrying Gauntlet would now be my primary two hand items.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-030-parrying-gauntlet.png"/>
+					<p class="w3-container">This is an excellent addition ans something you will want to be using on most quests.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-124-winged-shoes.png"/>
+					<p class="w3-container">As we never get access to Jump natively these are a great choice.
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-023-sturdy-greaves.png"/>
+					<p class="w3-container">Having an additional shield for a round if we are standing and tanking is a powerfuil effect.
+				</div>
+				
+			</div>
+		</div>
+			
 	</div>
 		
 </div>

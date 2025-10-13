@@ -457,7 +457,334 @@
 					"name": "Overwhelm",
 					"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
 				}
-			]
+			],
+			"items": {
+				"description": "The item recommendations are broken up into sections based on Craftsman levels.",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "The recommended starting items are fine choices.<br>Amulet of Life could be tempting but there are other valuable defensive helmets for a tank and your heals tend to be small with added Regen, making the condition-cleansing less important.",
+						"picks": [
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 1",
+						"comments": "Add a Crude Helmet and Crude Shield<br>You could craft the Crude Hide Armor, but it's pretty expensive when you have a better option waiting at Craftsman 2. I'd recommend pushing for your party to upgrade the Craftsman sooner rather than later and hold off on filling out your chest slot until then.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "002",
+								"item": "Crude Helmet",
+								"description": "When you are attacked, treat a 2x as a +1",
+								"type": "permanent",
+								"comment": "This is cheap and effective. While +1 isn't great, it still has a decent chance of saving you from needing to pitch a card."
+							},
+							{
+								"location": "hands",
+								"id": "010",
+								"item": "Crude Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "burnt",
+								"comment": "Crude Shield is, like its Crude headwear cousin, cheap and effective. Most scenarios spent tanking will involve at least one useful condition to block and sometimes the swing can be huge."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 2",
+						"comments": "Add Crude Chain Armour and upgrade your Crude Shield into a Reinforced Shield",
+						"picks": [
+							{
+								"location": "head",
+								"id": "002",
+								"item": "Crude Helmet",
+								"description": "When you are attacked, treat a 2x as a +1",
+								"type": "permanent",
+								"comment": "This is cheap and effective. While a +1 isn't great, it still has a decent chance of saving you from needing to pitch a card."
+							},
+							{
+								"location": "chest",
+								"id": "012",
+								"item": "Crude Chain Armour",
+								"description": "When you suffer damage from an attack, gain +2 Shield",
+								"type": "spent",
+								"comment": "This is decent tanking armour."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 3",
+						"comments": "No changes this level",
+						"picks": [
+							{
+								"location": "head",
+								"id": "002",
+								"item": "Crude Helmet",
+								"description": "When you are attacked, treat a 2x as a +1",
+								"type": "permanent",
+								"comment": "This is cheap and effective. While a +1 isn't great, it still has a decent chance of saving you from needing to pitch a card."
+							},
+							{
+								"location": "chest",
+								"id": "012",
+								"item": "Crude Chain Armour",
+								"description": "When you suffer damage from an attack, gain +2 Shield",
+								"type": "spent",
+								"comment": "This is decent tanking armour."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							}
+						]
+					},		
+					{
+						"level": "Craftsman 4",
+						"comments": "The choice of whether or not to take Sturdy Greaves is going to come down to resource availability and how soon you'll retire. They're definitely a worthwhile upgrade to Winged Shoes in most scenarios, and you can keep the Winged Shoes around when you see a scenario where you think the Jump will be better. As with Chain Hood, any form of Shield stacking alongside your persistent loss is very, very powerful. And Sturdy Greaves are much easier to use as well. You can even pair them with the door-opening perk to barely miss a step, although you may not want to take that risk if you're facing a number of enemy types who are prone to not attacking.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "021",
+								"item": "Chain Hood",
+								"description": "When you are adjacent to 3 or more enemies, gain +1 Shield",
+								"type": "permanent",
+								"comment": "I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this."
+							},
+							{
+								"location": "chest",
+								"id": "022",
+								"item": "Heavy Chain Armour",
+								"description": "When you suffer damage from an attack, gain +3 Shield",
+								"type": "spent",
+								"comment": "A nice minor upgrade."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							},
+							{
+								"location": "feet",
+								"id": "023",
+								"item": "Sturdy Greaves",
+								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
+								"type": "spent",
+								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 5",
+						"comments": "We add the Parrying Gauntlet as another option for our hands. You'll typically be in a position such that it's easy to trigger and it can often deal respectable damage while even avoiding an attack. It's also cheap enough to craft that there should be no hesitation. At this point, I would bring Parrying Gauntlet all of the time, Reinforced Shield when you're facing enemies that have conditions, and Heater Shield when you're not",
+						"picks": [
+							{
+								"location": "head",
+								"id": "021",
+								"item": "Chain Hood",
+								"description": "When you are adjacent to 3 or more enemies, gain +1 Shield",
+								"type": "permanent",
+								"comment": "I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this."
+							},
+							{
+								"location": "chest",
+								"id": "022",
+								"item": "Heavy Chain Armour",
+								"description": "When you suffer damage from an attack, gain +3 Shield",
+								"type": "spent",
+								"comment": "A nice minor upgrade."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "030",
+								"item": "Parrying Gauntlet",
+								"description": "Immediately after an enemy ends its move abiliuty adjacent to you, perform Attack 3 on it.",
+								"type": "consumed",
+								"comment": "This is an excellent addition ans something you will want to be using on most quests."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							},
+							{
+								"location": "feet",
+								"id": "023",
+								"item": "Sturdy Greaves",
+								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
+								"type": "spent",
+								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 6",
+						"comments": "We add the Kite Shield replacing both the Heater and Reinforced Shields.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "021",
+								"item": "Chain Hood",
+								"description": "When you are adjacent to 3 or more enemies, gain +1 Shield",
+								"type": "permanent",
+								"comment": "I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this."
+							},
+							{
+								"location": "chest",
+								"id": "022",
+								"item": "Heavy Chain Armour",
+								"description": "When you suffer damage from an attack, gain +3 Shield",
+								"type": "spent",
+								"comment": "A nice minor upgrade."
+							},
+							{
+								"location": "hands",
+								"id": "035",
+								"item": "Kite Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield and prevent any negative conditions from the attack.",
+								"type": "spent",
+								"comment": "The Kite Shield is a strict upgrade compared to Heater Shield, always giving you the damage mitigation and sometimes also giving bonus condition prevention. This and Parrying Gauntlet would now be my primary two hand items."
+							},
+							{
+								"location": "hands",
+								"id": "030",
+								"item": "Parrying Gauntlet",
+								"description": "Immediately after an enemy ends its move abiliuty adjacent to you, perform Attack 3 on it.",
+								"type": "consumed",
+								"comment": "This is an excellent addition ans something you will want to be using on most quests."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "As we never get access to Jump natively these are a great choice."
+							},
+							{
+								"location": "feet",
+								"id": "023",
+								"item": "Sturdy Greaves",
+								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
+								"type": "spent",
+								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

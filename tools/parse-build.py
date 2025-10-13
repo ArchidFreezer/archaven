@@ -73,12 +73,12 @@ def html_builddecks():
 		hf.write(f'''
 			<button id="level-{level}" onclick="accClick('acc-lvl-{level}')" class="w3-btn w3-block w3-left-align">Level {level}</button>
 			<div id="acc-lvl-{level}" class="w3-container w3-hide">
-				<div class-"w3-flex" style="gap:4px;flex-direction:column">
 		''')
 		html_new_cards(level)
 		html_choices(level)
+		html_hand(level)
+		
 		hf.write(f'''
-				</div>
 			</div>
 		''')
 	
@@ -86,7 +86,7 @@ def html_builddecks():
 	</div>
 	''')
 
-def html_buildhand(level):
+def html_hand(level):
 	hf.write(f'''
 		<button id="level-1-hand" onclick="accClick('build-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
 		<div id="build-1-hand" class="w3-container w3-hide">
@@ -95,22 +95,33 @@ def html_buildhand(level):
 				<p>This is the default hand to use at this level, however it should be modified based on the quest.
 				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 	''')
-	
 	jhand=jmespath.search(f"levels[?level=='{level}'].hand[]", jbuild)
 	for jcard in jhand:
-		data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style]", jcard)
+		html_hand_card(jcard)
 		
 	hf.write('''
 				</div> <!-- default deck -->
 			</div>
 		</div>
 	''')
-	
+
+def html_hand_card(jcard):
+	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style]", jcard)
+	hf.write(f'''
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="ability-desc" src="{cardimages[data[0]]}"/>
+							<p class="{data[2]}">{data[1]}
+							<p class="{data[4]}">{data[3]}
+						</div>
+					</div>
+	''')
+
 def html_new_cards(level):
 	hf.write(f'''
 			<button id="level-{level}-new" onclick="accClick('acc-{level}-new')" class="w3-btn w3-block w3-left-align">New Level {level} Cards</button>
 			<div id="acc-{level}-new" class="w3-container w3-hide">
-				<div class-"w3-flex" style="gap:4px;flex-direction:column">
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
 	''')
 	
 	if level == 1:
@@ -130,6 +141,7 @@ def html_new_cards(level):
 
 	hf.write('''
 				</div>
+				<p>
 			</div>
 	''')
 

@@ -365,7 +365,15 @@
 					],
 					"sideboard": [
 						{
-							"id": "",
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							},
 							"replace": "",
 							"condition": ""
 						}

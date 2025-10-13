@@ -1,0 +1,1606 @@
+{
+	"items": [
+		{
+			"number": "001",
+			"name": "spyglass",
+			"image": "items/fh-001-spyglass.png",
+			"id": "spyglass"
+		},
+		{
+			"number": "002",
+			"name": "crude helmet",
+			"image": "items/fh-002-crude-helmet.png",
+			"id": "crudehelmet"
+		},
+		{
+			"number": "003",
+			"name": "traveling cloak",
+			"image": "items/fh-003-traveling-cloak.png",
+			"id": "travelingcloak"
+		},
+		{
+			"number": "004",
+			"name": "crude hide armor",
+			"image": "items/fh-004-crude-hide-armor.png",
+			"id": "crudehidearmor"
+		},
+		{
+			"number": "005",
+			"name": "crude boots",
+			"image": "items/fh-005-crude-boots.png",
+			"id": "crudeboots"
+		},
+		{
+			"number": "006",
+			"name": "flexible slippers",
+			"image": "items/fh-006-flexible-slippers.png",
+			"id": "flexibleslippers"
+		},
+		{
+			"number": "007",
+			"name": "crude bow",
+			"image": "items/fh-007-crude-bow.png",
+			"id": "crudebow"
+		},
+		{
+			"number": "008",
+			"name": "crude spear",
+			"image": "items/fh-008-crude-spear.png",
+			"id": "crudespear"
+		},
+		{
+			"number": "009",
+			"name": "protective scepter",
+			"image": "items/fh-009-protective-scepter.png",
+			"id": "protectivescepter"
+		},
+		{
+			"number": "010",
+			"name": "crude shield",
+			"image": "items/fh-010-crude-shield.png",
+			"id": "crudeshield"
+		},
+		{
+			"number": "011",
+			"name": "simple charm",
+			"image": "items/fh-011-simple-charm.png",
+			"id": "simplecharm"
+		},
+		{
+			"number": "012",
+			"name": "crude chain armor",
+			"image": "items/fh-012-crude-chain-armor.png",
+			"id": "crudechainarmor"
+		},
+		{
+			"number": "013",
+			"name": "dancing slippers",
+			"image": "items/fh-013-dancing-slippers.png",
+			"id": "dancingslippers"
+		},
+		{
+			"number": "014",
+			"name": "heavy sword",
+			"image": "items/fh-014-heavy-sword.png",
+			"id": "heavysword"
+		},
+		{
+			"number": "015",
+			"name": "reinforced shield",
+			"image": "items/fh-015-reinforced-shield.png",
+			"id": "reinforcedshield"
+		},
+		{
+			"number": "016",
+			"name": "inspiring helmet",
+			"image": "items/fh-016-inspiring-helmet.png",
+			"id": "inspiringhelmet"
+		},
+		{
+			"number": "017",
+			"name": "cured leather armor",
+			"image": "items/fh-017-cured-leather-armor.png",
+			"id": "curedleatherarmor"
+		},
+		{
+			"number": "018",
+			"name": "rough boots",
+			"image": "items/fh-018-rough-boots.png",
+			"id": "roughboots"
+		},
+		{
+			"number": "019",
+			"name": "ringing hammer",
+			"image": "items/fh-019-ringing-hammer.png",
+			"id": "ringinghammer"
+		},
+		{
+			"number": "020",
+			"name": "well-strung bow",
+			"image": "items/fh-020-well-strung-bow.png",
+			"id": "wellstrungbow"
+		},
+		{
+			"number": "021",
+			"name": "chain hood",
+			"image": "items/fh-021-chain-hood.png",
+			"id": "chainhood"
+		},
+		{
+			"number": "022",
+			"name": "heavy chain armor",
+			"image": "items/fh-022-heavy-chain-armor.png",
+			"id": "heavychainarmor"
+		},
+		{
+			"number": "023",
+			"name": "sturdy greaves",
+			"image": "items/fh-023-sturdy-greaves.png",
+			"id": "sturdygreaves"
+		},
+		{
+			"number": "024",
+			"name": "corrupted blade",
+			"image": "items/fh-024-corrupted-blade.png",
+			"id": "corruptedblade"
+		},
+		{
+			"number": "025",
+			"name": "soothing scepter",
+			"image": "items/fh-025-soothing-scepter.png",
+			"id": "soothingscepter"
+		},
+		{
+			"number": "026",
+			"name": "truesight lenses",
+			"image": "items/fh-026-truesight-lenses.png",
+			"id": "truesightlenses"
+		},
+		{
+			"number": "027",
+			"name": "cloak of warding",
+			"image": "items/fh-027-cloak-of-warding.png",
+			"id": "cloakofwarding"
+		},
+		{
+			"number": "028",
+			"name": "sturdy boots",
+			"image": "items/fh-028-sturdy-boots.png",
+			"id": "sturdyboots"
+		},
+		{
+			"number": "029",
+			"name": "cleaving axe",
+			"image": "items/fh-029-cleaving-axe.png",
+			"id": "cleavingaxe"
+		},
+		{
+			"number": "030",
+			"name": "parrying gauntlet",
+			"image": "items/fh-030-parrying-gauntlet.png",
+			"id": "parryinggauntlet"
+		},
+		{
+			"number": "031",
+			"name": "deathproof charm",
+			"image": "items/fh-031-deathproof-charm.png",
+			"id": "deathproofcharm"
+		},
+		{
+			"number": "032",
+			"name": "shell armor",
+			"image": "items/fh-032-shell-armor.png",
+			"id": "shellarmor"
+		},
+		{
+			"number": "033",
+			"name": "volatile boots",
+			"image": "items/fh-033-volatile-boots.png",
+			"id": "volatileboots"
+		},
+		{
+			"number": "034",
+			"name": "shrapnel bomb",
+			"image": "items/fh-034-shrapnel-bomb.png",
+			"id": "shrapnelbomb"
+		},
+		{
+			"number": "035",
+			"name": "kite shield",
+			"image": "items/fh-035-kite-shield.png",
+			"id": "kiteshield"
+		},
+		{
+			"number": "036",
+			"name": "plumed helmet",
+			"image": "items/fh-036-plumed-helmet.png",
+			"id": "plumedhelmet"
+		},
+		{
+			"number": "037",
+			"name": "ghost cloak",
+			"image": "items/fh-037-ghost-cloak.png",
+			"id": "ghostcloak"
+		},
+		{
+			"number": "038",
+			"name": "duelist's shoes",
+			"image": "items/fh-038-duelists-shoes.png",
+			"id": "duelistsshoes"
+		},
+		{
+			"number": "039",
+			"name": "abyss axe",
+			"image": "items/fh-039-abyss-axe.png",
+			"id": "abyssaxe"
+		},
+		{
+			"number": "040",
+			"name": "heartstrike bow",
+			"image": "items/fh-040-heartstrike-bow.png",
+			"id": "heartstrikebow"
+		},
+		{
+			"number": "041",
+			"name": "intricate charm",
+			"image": "items/fh-041-intricate-charm.png",
+			"id": "intricatecharm"
+		},
+		{
+			"number": "042",
+			"name": "ornate armor",
+			"image": "items/fh-042-ornate-armor.png",
+			"id": "ornatearmor"
+		},
+		{
+			"number": "043",
+			"name": "kicking boots",
+			"image": "items/fh-043-kicking-boots.png",
+			"id": "kickingboots"
+		},
+		{
+			"number": "044",
+			"name": "sword of absolution",
+			"image": "items/fh-044-sword-of-absolution.png",
+			"id": "swordofabsolution"
+		},
+		{
+			"number": "045",
+			"name": "master scepter",
+			"image": "items/fh-045-master-scepter.png",
+			"id": "masterscepter"
+		},
+		{
+			"number": "046",
+			"name": "double-lens goggles",
+			"image": "items/fh-046-double-lens-goggles.png",
+			"id": "doublelensgoggles"
+		},
+		{
+			"number": "047",
+			"name": "robes of doom",
+			"image": "items/fh-047-robes-of-doom.png",
+			"id": "robesofdoom"
+		},
+		{
+			"number": "048",
+			"name": "living shoes",
+			"image": "items/fh-048-living-shoes.png",
+			"id": "livingshoes"
+		},
+		{
+			"number": "049",
+			"name": "cruel dagger",
+			"image": "items/fh-049-cruel-dagger.png",
+			"id": "crueldagger"
+		},
+		{
+			"number": "050",
+			"name": "shield of reciprocity",
+			"image": "items/fh-050-shield-of-reciprocity.png",
+			"id": "shieldofreciprocity"
+		},
+		{
+			"number": "051",
+			"name": "spiked collar",
+			"image": "items/fh-051-spiked-collar.png",
+			"id": "spikedcollar"
+		},
+		{
+			"number": "052",
+			"name": "laser lens",
+			"image": "items/fh-052-laser-lens.png",
+			"id": "laserlens"
+		},
+		{
+			"number": "053",
+			"name": "hobnail boots",
+			"image": "items/fh-053-hobnail-boots.png",
+			"id": "hobnailboots"
+		},
+		{
+			"number": "054",
+			"name": "restful slippers",
+			"image": "items/fh-054-restful-slippers.png",
+			"id": "restfulslippers"
+		},
+		{
+			"number": "055",
+			"name": "biting gauntlet",
+			"image": "items/fh-055-biting-gauntlet.png",
+			"id": "bitinggauntlet"
+		},
+		{
+			"number": "056",
+			"name": "scavenger's magnet",
+			"image": "items/fh-056-scavengers-magnet.png",
+			"id": "scavengersmagnet"
+		},
+		{
+			"number": "057",
+			"name": "shovel",
+			"image": "items/fh-057-shovel.png",
+			"id": "shovel"
+		},
+		{
+			"number": "058",
+			"name": "slippery sword",
+			"image": "items/fh-058-slippery-sword.png",
+			"id": "slipperysword"
+		},
+		{
+			"number": "059",
+			"name": "charm of expertise",
+			"image": "items/fh-059-charm-of-expertise.png",
+			"id": "charmofexpertise"
+		},
+		{
+			"number": "060",
+			"name": "cloak of many pockets",
+			"image": "items/fh-060-cloak-of-many-pockets.png",
+			"id": "cloakofmanypockets"
+		},
+		{
+			"number": "061",
+			"name": "spiked shell",
+			"image": "items/fh-061-spiked-shell.png",
+			"id": "spikedshell"
+		},
+		{
+			"number": "062",
+			"name": "everlasting boots",
+			"image": "items/fh-062-everlasting-boots.png",
+			"id": "everlastingboots"
+		},
+		{
+			"number": "063",
+			"name": "shadow stompers",
+			"image": "items/fh-063-shadow-stompers.png",
+			"id": "shadowstompers"
+		},
+		{
+			"number": "064",
+			"name": "detonator",
+			"image": "items/fh-064-detonator.png",
+			"id": "detonator"
+		},
+		{
+			"number": "065",
+			"name": "rust powder",
+			"image": "items/fh-065-rust-powder.png",
+			"id": "rustpowder"
+		},
+		{
+			"number": "066",
+			"name": "amulet of eternal life",
+			"image": "items/fh-066-amulet-of-eternal-life.png",
+			"id": "amuletofeternallife"
+		},
+		{
+			"number": "067",
+			"name": "converging lenses",
+			"image": "items/fh-067-converging-lenses.png",
+			"id": "converginglenses"
+		},
+		{
+			"number": "068",
+			"name": "scaled armor",
+			"image": "items/fh-068-scaled-armor.png",
+			"id": "scaledarmor"
+		},
+		{
+			"number": "069",
+			"name": "feathered cloak",
+			"image": "items/fh-069-feathered-cloak.png",
+			"id": "featheredcloak"
+		},
+		{
+			"number": "070",
+			"name": "aesther robe",
+			"image": "items/fh-070-aesther-robe.png",
+			"id": "aestherrobe"
+		},
+		{
+			"number": "071",
+			"name": "bone boots",
+			"image": "items/fh-071-bone-boots.png",
+			"id": "boneboots"
+		},
+		{
+			"number": "072",
+			"name": "oak staff",
+			"image": "items/fh-072-oak-staff.png",
+			"id": "oakstaff"
+		},
+		{
+			"number": "073",
+			"name": "energizing baton",
+			"image": "items/fh-073-energizing-baton.png",
+			"id": "energizingbaton"
+		},
+		{
+			"number": "074",
+			"name": "shock grenades",
+			"image": "items/fh-074-shock-grenades.png",
+			"id": "shockgrenades"
+		},
+		{
+			"number": "075",
+			"name": "rose gauntlet",
+			"image": "items/fh-075-rose-gauntlet.png",
+			"id": "rosegauntlet"
+		},
+		{
+			"number": "076",
+			"name": "horn of command",
+			"image": "items/fh-076-horn-of-command.png",
+			"id": "hornofcommand"
+		},
+		{
+			"number": "077",
+			"name": "chaos cannon",
+			"image": "items/fh-077-chaos-cannon.png",
+			"id": "chaoscannon"
+		},
+		{
+			"number": "078",
+			"name": "balanced scales",
+			"image": "items/fh-078-balanced-scales.png",
+			"id": "balancedscales"
+		},
+		{
+			"number": "079",
+			"name": "roasted fowl",
+			"image": "items/fh-079-roasted-fowl.png",
+			"id": "roastedfowl"
+		},
+		{
+			"number": "080",
+			"name": "living stone",
+			"image": "items/fh-080-living-stone.png",
+			"id": "livingstone"
+		},
+		{
+			"number": "081",
+			"name": "pain simulacrum",
+			"image": "items/fh-081-pain-simulacrum.png",
+			"id": "painsimulacrum"
+		},
+		{
+			"number": "082",
+			"name": "mechanical cube",
+			"image": "items/fh-082-mechanical-cube.png",
+			"id": "mechanicalcube"
+		},
+		{
+			"number": "083",
+			"name": "healing potion",
+			"image": "items/fh-083-healing-potion.png",
+			"id": "healingpotion"
+		},
+		{
+			"number": "084",
+			"name": "stamina potion",
+			"image": "items/fh-084-stamina-potion.png",
+			"id": "staminapotion"
+		},
+		{
+			"number": "085",
+			"name": "power potion",
+			"image": "items/fh-085-power-potion.png",
+			"id": "powerpotion"
+		},
+		{
+			"number": "086",
+			"name": "element potion",
+			"image": "items/fh-086-element-potion.png",
+			"id": "elementpotion"
+		},
+		{
+			"number": "087",
+			"name": "cure potion",
+			"image": "items/fh-087-cure-potion.png",
+			"id": "curepotion"
+		},
+		{
+			"number": "088",
+			"name": "fireshield potion",
+			"image": "items/fh-088-fireshield-potion.png",
+			"id": "fireshieldpotion"
+		},
+		{
+			"number": "089",
+			"name": "stoneskin potion",
+			"image": "items/fh-089-stoneskin-potion.png",
+			"id": "stoneskinpotion"
+		},
+		{
+			"number": "090",
+			"name": "muscle potion",
+			"image": "items/fh-090-muscle-potion.png",
+			"id": "musclepotion"
+		},
+		{
+			"number": "091",
+			"name": "holy water",
+			"image": "items/fh-091-holy-water.png",
+			"id": "holywater"
+		},
+		{
+			"number": "092",
+			"name": "renewing potion",
+			"image": "items/fh-092-renewing-potion.png",
+			"id": "renewingpotion"
+		},
+		{
+			"number": "093",
+			"name": "glancing potion",
+			"image": "items/fh-093-glancing-potion.png",
+			"id": "glancingpotion"
+		},
+		{
+			"number": "094",
+			"name": "frenzy potion",
+			"image": "items/fh-094-frenzy-potion.png",
+			"id": "frenzypotion"
+		},
+		{
+			"number": "095",
+			"name": "poison vial",
+			"image": "items/fh-095-poison-vial.png",
+			"id": "poisonvial"
+		},
+		{
+			"number": "096",
+			"name": "flame vial",
+			"image": "items/fh-096-flame-vial.png",
+			"id": "flamevial"
+		},
+		{
+			"number": "097",
+			"name": "explosive vial",
+			"image": "items/fh-097-explosive-vial.png",
+			"id": "explosivevial"
+		},
+		{
+			"number": "098",
+			"name": "unhealthy mixture",
+			"image": "items/fh-098-unhealthy-mixture.png",
+			"id": "unhealthymixture"
+		},
+		{
+			"number": "099",
+			"name": "major healing potion",
+			"image": "items/fh-099-major-healing-potion.png",
+			"id": "majorhealingpotion"
+		},
+		{
+			"number": "100",
+			"name": "major stamina potion",
+			"image": "items/fh-100-major-stamina-potion.png",
+			"id": "majorstaminapotion"
+		},
+		{
+			"number": "101",
+			"name": "major power potion",
+			"image": "items/fh-101-major-power-potion.png",
+			"id": "majorpowerpotion"
+		},
+		{
+			"number": "102",
+			"name": "major element potion",
+			"image": "items/fh-102-major-element-potion.png",
+			"id": "majorelementpotion"
+		},
+		{
+			"number": "103",
+			"name": "major cure potion",
+			"image": "items/fh-103-major-cure-potion.png",
+			"id": "majorcurepotion"
+		},
+		{
+			"number": "104",
+			"name": "swiftness potion",
+			"image": "items/fh-104-swiftness-potion.png",
+			"id": "swiftnesspotion"
+		},
+		{
+			"number": "105",
+			"name": "major fireshield potion",
+			"image": "items/fh-105-major-fireshield-potion.png",
+			"id": "majorfireshieldpotion"
+		},
+		{
+			"number": "106",
+			"name": "stonewall potion",
+			"image": "items/fh-106-stonewall-potion.png",
+			"id": "stonewallpotion"
+		},
+		{
+			"number": "107",
+			"name": "vigor potion",
+			"image": "items/fh-107-vigor-potion.png",
+			"id": "vigorpotion"
+		},
+		{
+			"number": "108",
+			"name": "holy rain",
+			"image": "items/fh-108-holy-rain.png",
+			"id": "holyrain"
+		},
+		{
+			"number": "109",
+			"name": "major renewing potion",
+			"image": "items/fh-109-major-renewing-potion.png",
+			"id": "majorrenewingpotion"
+		},
+		{
+			"number": "110",
+			"name": "precision potion",
+			"image": "items/fh-110-precision-potion.png",
+			"id": "precisionpotion"
+		},
+		{
+			"number": "111",
+			"name": "major frenzy potion",
+			"image": "items/fh-111-major-frenzy-potion.png",
+			"id": "majorfrenzypotion"
+		},
+		{
+			"number": "112",
+			"name": "hammer potion",
+			"image": "items/fh-112-hammer-potion.png",
+			"id": "hammerpotion"
+		},
+		{
+			"number": "113",
+			"name": "expertise potion",
+			"image": "items/fh-113-expertise-potion.png",
+			"id": "expertisepotion"
+		},
+		{
+			"number": "114",
+			"name": "foresight potion",
+			"image": "items/fh-114-foresight-potion.png",
+			"id": "foresightpotion"
+		},
+		{
+			"number": "115",
+			"name": "infusion potion",
+			"image": "items/fh-115-infusion-potion.png",
+			"id": "infusionpotion"
+		},
+		{
+			"number": "116",
+			"name": "plague flask",
+			"image": "items/fh-116-plague-flask.png",
+			"id": "plagueflask"
+		},
+		{
+			"number": "117",
+			"name": "inferno flask",
+			"image": "items/fh-117-inferno-flask.png",
+			"id": "infernoflask"
+		},
+		{
+			"number": "118",
+			"name": "fulminant flask",
+			"image": "items/fh-118-fulminant-flask.png",
+			"id": "fulminantflask"
+		},
+		{
+			"number": "119",
+			"name": "deadly mixture",
+			"image": "items/fh-119-deadly-mixture.png",
+			"id": "deadlymixture"
+		},
+		{
+			"number": "120",
+			"name": "amulet of life",
+			"image": "items/fh-120-amulet-of-life.png",
+			"id": "amuletoflife"
+		},
+		{
+			"number": "121",
+			"name": "circlet of elements",
+			"image": "items/fh-121-circlet-of-elements.png",
+			"id": "circletofelements"
+		},
+		{
+			"number": "122",
+			"name": "warden's robes",
+			"image": "items/fh-122-wardens-robes.png",
+			"id": "wardensrobes"
+		},
+		{
+			"number": "123",
+			"name": "leather armor",
+			"image": "items/fh-123-leather-armor.png",
+			"id": "leatherarmor"
+		},
+		{
+			"number": "124",
+			"name": "winged shoes",
+			"image": "items/fh-124-winged-shoes.png",
+			"id": "wingedshoes"
+		},
+		{
+			"number": "125",
+			"name": "boots of speed",
+			"image": "items/fh-125-boots-of-speed.png",
+			"id": "bootsofspeed"
+		},
+		{
+			"number": "126",
+			"name": "weighted net",
+			"image": "items/fh-126-weighted-net.png",
+			"id": "weightednet"
+		},
+		{
+			"number": "127",
+			"name": "poison dagger",
+			"image": "items/fh-127-poison-dagger.png",
+			"id": "poisondagger"
+		},
+		{
+			"number": "128",
+			"name": "heater shield",
+			"image": "items/fh-128-heater-shield.png",
+			"id": "heatershield"
+		},
+		{
+			"number": "129",
+			"name": "eagle-eye goggles",
+			"image": "items/fh-129-eagle-eye-goggles.png",
+			"id": "eagleeyegoggles"
+		},
+		{
+			"number": "130",
+			"name": "iron helmet",
+			"image": "items/fh-130-iron-helmet.png",
+			"id": "ironhelmet"
+		},
+		{
+			"number": "131",
+			"name": "chainmail",
+			"image": "items/fh-131-chainmail.png",
+			"id": "chainmail"
+		},
+		{
+			"number": "132",
+			"name": "cloak of pockets",
+			"image": "items/fh-132-cloak-of-pockets.png",
+			"id": "cloakofpockets"
+		},
+		{
+			"number": "133",
+			"name": "nimble legguards",
+			"image": "items/fh-133-nimble-legguards.png",
+			"id": "nimblelegguards"
+		},
+		{
+			"number": "134",
+			"name": "comfortable shoes",
+			"image": "items/fh-134-comfortable-shoes.png",
+			"id": "comfortableshoes"
+		},
+		{
+			"number": "135",
+			"name": "armorbane bow",
+			"image": "items/fh-135-armorbane-bow.png",
+			"id": "armorbanebow"
+		},
+		{
+			"number": "136",
+			"name": "battle axe",
+			"image": "items/fh-136-battle-axe.png",
+			"id": "battleaxe"
+		},
+		{
+			"number": "137",
+			"name": "tower shield",
+			"image": "items/fh-137-tower-shield.png",
+			"id": "towershield"
+		},
+		{
+			"number": "138",
+			"name": "heavy basinet",
+			"image": "items/fh-138-heavy-basinet.png",
+			"id": "heavybasinet"
+		},
+		{
+			"number": "139",
+			"name": "horned helm",
+			"image": "items/fh-139-horned-helm.png",
+			"id": "hornedhelm"
+		},
+		{
+			"number": "140",
+			"name": "mantle of summoning",
+			"image": "items/fh-140-mantle-of-summoning.png",
+			"id": "mantleofsummoning"
+		},
+		{
+			"number": "141",
+			"name": "studded leather",
+			"image": "items/fh-141-studded-leather.png",
+			"id": "studdedleather"
+		},
+		{
+			"number": "142",
+			"name": "boots of quickness",
+			"image": "items/fh-142-boots-of-quickness.png",
+			"id": "bootsofquickness"
+		},
+		{
+			"number": "143",
+			"name": "endurance footwraps",
+			"image": "items/fh-143-endurance-footwraps.png",
+			"id": "endurancefootwraps"
+		},
+		{
+			"number": "144",
+			"name": "staff of eminence",
+			"image": "items/fh-144-staff-of-eminence.png",
+			"id": "staffofeminence"
+		},
+		{
+			"number": "145",
+			"name": "versatile dagger",
+			"image": "items/fh-145-versatile-dagger.png",
+			"id": "versatiledagger"
+		},
+		{
+			"number": "146",
+			"name": "hooked chain",
+			"image": "items/fh-146-hooked-chain.png",
+			"id": "hookedchain"
+		},
+		{
+			"number": "147",
+			"name": "mask of terror",
+			"image": "items/fh-147-mask-of-terror.png",
+			"id": "maskofterror"
+		},
+		{
+			"number": "148",
+			"name": "circlet of sanctity",
+			"image": "items/fh-148-circlet-of-sanctity.png",
+			"id": "circletofsanctity"
+		},
+		{
+			"number": "149",
+			"name": "platemail",
+			"image": "items/fh-149-platemail.png",
+			"id": "platemail"
+		},
+		{
+			"number": "150",
+			"name": "robes of the oak",
+			"image": "items/fh-150-robes-of-the-oak.png",
+			"id": "robesoftheoak"
+		},
+		{
+			"number": "151",
+			"name": "serene sandals",
+			"image": "items/fh-151-serene-sandals.png",
+			"id": "serenesandals"
+		},
+		{
+			"number": "152",
+			"name": "steel sabatons",
+			"image": "items/fh-152-steel-sabatons.png",
+			"id": "steelsabatons"
+		},
+		{
+			"number": "153",
+			"name": "long spear",
+			"image": "items/fh-153-long-spear.png",
+			"id": "longspear"
+		},
+		{
+			"number": "154",
+			"name": "volatile bomb",
+			"image": "items/fh-154-volatile-bomb.png",
+			"id": "volatilebomb"
+		},
+		{
+			"number": "155",
+			"name": "wall shield",
+			"image": "items/fh-155-wall-shield.png",
+			"id": "wallshield"
+		},
+		{
+			"number": "156",
+			"name": "moon earring",
+			"image": "items/fh-156-moon-earring.png",
+			"id": "moonearring"
+		},
+		{
+			"number": "157",
+			"name": "steel ring",
+			"image": "items/fh-157-steel-ring.png",
+			"id": "steelring"
+		},
+		{
+			"number": "158",
+			"name": "deep earth brooch",
+			"image": "items/fh-158-deep-earth-brooch.png",
+			"id": "deepearthbrooch"
+		},
+		{
+			"number": "159",
+			"name": "glorious bracelet",
+			"image": "items/fh-159-glorious-bracelet.png",
+			"id": "gloriousbracelet"
+		},
+		{
+			"number": "160",
+			"name": "sun earring",
+			"image": "items/fh-160-sun-earring.png",
+			"id": "sunearring"
+		},
+		{
+			"number": "161",
+			"name": "strategist's ring",
+			"image": "items/fh-161-strategists-ring.png",
+			"id": "strategistsring"
+		},
+		{
+			"number": "162",
+			"name": "howling ice brooch",
+			"image": "items/fh-162-howling-ice-brooch.png",
+			"id": "howlingicebrooch"
+		},
+		{
+			"number": "163",
+			"name": "stunning bracelet",
+			"image": "items/fh-163-stunning-bracelet.png",
+			"id": "stunningbracelet"
+		},
+		{
+			"number": "164",
+			"name": "star earring",
+			"image": "items/fh-164-star-earring.png",
+			"id": "starearring"
+		},
+		{
+			"number": "165",
+			"name": "ring of haste",
+			"image": "items/fh-165-ring-of-haste.png",
+			"id": "ringofhaste"
+		},
+		{
+			"number": "166",
+			"name": "blazing sun brooch",
+			"image": "items/fh-166-blazing-sun-brooch.png",
+			"id": "blazingsunbrooch"
+		},
+		{
+			"number": "167",
+			"name": "attractive bracelet",
+			"image": "items/fh-167-attractive-bracelet.png",
+			"id": "attractivebracelet"
+		},
+		{
+			"number": "168",
+			"name": "circlet of eyes",
+			"image": "items/fh-168-circlet-of-eyes.png",
+			"id": "circletofeyes"
+		},
+		{
+			"number": "169",
+			"name": "fateful charm",
+			"image": "items/fh-169-fateful-charm.png",
+			"id": "fatefulcharm"
+		},
+		{
+			"number": "170",
+			"name": "eye of truth",
+			"image": "items/fh-170-eye-of-truth.png",
+			"id": "eyeoftruth"
+		},
+		{
+			"number": "171",
+			"name": "rejuvenating charm",
+			"image": "items/fh-171-rejuvenating-charm.png",
+			"id": "rejuvenatingcharm"
+		},
+		{
+			"number": "172",
+			"name": "cap of premonition",
+			"image": "items/fh-172-cap-of-premonition.png",
+			"id": "capofpremonition"
+		},
+		{
+			"number": "173",
+			"name": "multi-colored cloak",
+			"image": "items/fh-173-multi-colored-cloak.png",
+			"id": "multicoloredcloak"
+		},
+		{
+			"number": "174",
+			"name": "magnetic cape",
+			"image": "items/fh-174-magnetic-cape.png",
+			"id": "magneticcape"
+		},
+		{
+			"number": "175",
+			"name": "mirrored armor",
+			"image": "items/fh-175-mirrored-armor.png",
+			"id": "mirroredarmor"
+		},
+		{
+			"number": "176",
+			"name": "blinking cape",
+			"image": "items/fh-176-blinking-cape.png",
+			"id": "blinkingcape"
+		},
+		{
+			"number": "177",
+			"name": "boots of transference",
+			"image": "items/fh-177-boots-of-transference.png",
+			"id": "bootsoftransference"
+		},
+		{
+			"number": "178",
+			"name": "tranquil shoes",
+			"image": "items/fh-178-tranquil-shoes.png",
+			"id": "tranquilshoes"
+		},
+		{
+			"number": "179",
+			"name": "burst boots",
+			"image": "items/fh-179-burst-boots.png",
+			"id": "burstboots"
+		},
+		{
+			"number": "180",
+			"name": "boots of greed",
+			"image": "items/fh-180-boots-of-greed.png",
+			"id": "bootsofgreed"
+		},
+		{
+			"number": "181",
+			"name": "translocation rod",
+			"image": "items/fh-181-translocation-rod.png",
+			"id": "translocationrod"
+		},
+		{
+			"number": "182",
+			"name": "wing clippers",
+			"image": "items/fh-182-wing-clippers.png",
+			"id": "wingclippers"
+		},
+		{
+			"number": "183",
+			"name": "decanter of mists",
+			"image": "items/fh-183-decanter-of-mists.png",
+			"id": "decanterofmists"
+		},
+		{
+			"number": "184",
+			"name": "flashing axe",
+			"image": "items/fh-184-flashing-axe.png",
+			"id": "flashingaxe"
+		},
+		{
+			"number": "185",
+			"name": "mirrored knife",
+			"image": "items/fh-185-mirrored-knife.png",
+			"id": "mirroredknife"
+		},
+		{
+			"number": "186",
+			"name": "wild growth seeds",
+			"image": "items/fh-186-wild-growth-seeds.png",
+			"id": "wildgrowthseeds"
+		},
+		{
+			"number": "187",
+			"name": "dangerous gear",
+			"image": "items/fh-187-dangerous-gear.png",
+			"id": "dangerousgear"
+		},
+		{
+			"number": "188",
+			"name": "freezing crystal",
+			"image": "items/fh-188-freezing-crystal.png",
+			"id": "freezingcrystal"
+		},
+		{
+			"number": "189",
+			"name": "ring of the night",
+			"image": "items/fh-189-ring-of-the-night.png",
+			"id": "ringofthenight"
+		},
+		{
+			"number": "190",
+			"name": "white card",
+			"image": "items/fh-190-white-card.png",
+			"id": "whitecard"
+		},
+		{
+			"number": "191",
+			"name": "corrupted scroll",
+			"image": "items/fh-191-corrupted-scroll.png",
+			"id": "corruptedscroll"
+		},
+		{
+			"number": "192",
+			"name": "enticing bell",
+			"image": "items/fh-192-enticing-bell.png",
+			"id": "enticingbell"
+		},
+		{
+			"number": "193",
+			"name": "mind-thieving helmet",
+			"image": "items/fh-193-mind-thieving-helmet.png",
+			"id": "mindthievinghelmet"
+		},
+		{
+			"number": "194",
+			"name": "temporal amulet",
+			"image": "items/fh-194-temporal-amulet.png",
+			"id": "temporalamulet"
+		},
+		{
+			"number": "195",
+			"name": "tri-corner hat",
+			"image": "items/fh-195-tri-corner-hat.png",
+			"id": "tricornerhat"
+		},
+		{
+			"number": "196",
+			"name": "choker of sacrifice",
+			"image": "items/fh-196-choker-of-sacrifice.png",
+			"id": "chokerofsacrifice"
+		},
+		{
+			"number": "197",
+			"name": "aesther diadem",
+			"image": "items/fh-197-aesther-diadem.png",
+			"id": "aestherdiadem"
+		},
+		{
+			"number": "198",
+			"name": "hunter's necklace",
+			"image": "items/fh-198-hunters-necklace.png",
+			"id": "huntersnecklace"
+		},
+		{
+			"number": "199",
+			"name": "opulent shoes",
+			"image": "items/fh-199-opulent-shoes.png",
+			"id": "opulentshoes"
+		},
+		{
+			"number": "200",
+			"name": "eventide scepter",
+			"image": "items/fh-200-eventide-scepter.png",
+			"id": "eventidescepter"
+		},
+		{
+			"number": "201",
+			"name": "wave blade",
+			"image": "items/fh-201-wave-blade.png",
+			"id": "waveblade"
+		},
+		{
+			"number": "202",
+			"name": "giant piranha pig spine",
+			"image": "items/fh-202-giant-piranha-pig-spine.png",
+			"id": "giantpiranhapigspine"
+		},
+		{
+			"number": "203",
+			"name": "scepter of control",
+			"image": "items/fh-203-scepter-of-control.png",
+			"id": "scepterofcontrol"
+		},
+		{
+			"number": "204",
+			"name": "severed claw",
+			"image": "items/fh-204-severed-claw.png",
+			"id": "severedclaw"
+		},
+		{
+			"number": "205",
+			"name": "harpoon",
+			"image": "items/fh-205-harpoon.png",
+			"id": "harpoon"
+		},
+		{
+			"number": "206",
+			"name": "giant sword",
+			"image": "items/fh-206-giant-sword.png",
+			"id": "giantsword"
+		},
+		{
+			"number": "207",
+			"name": "fishhook",
+			"image": "items/fh-207-fishhook.png",
+			"id": "fishhook"
+		},
+		{
+			"number": "208",
+			"name": "titan nail",
+			"image": "items/fh-208-titan-nail.png",
+			"id": "titannail"
+		},
+		{
+			"number": "209",
+			"name": "sword of mastery",
+			"image": "items/fh-209-sword-of-mastery.png",
+			"id": "swordofmastery"
+		},
+		{
+			"number": "210",
+			"name": "tanjo",
+			"image": "items/fh-210-tanjo.png",
+			"id": "tanjo"
+		},
+		{
+			"number": "211",
+			"name": "boom barrel",
+			"image": "items/fh-211-boom-barrel.png",
+			"id": "boombarrel"
+		},
+		{
+			"number": "212",
+			"name": "elemental stone",
+			"image": "items/fh-212-elemental-stone.png",
+			"id": "elementalstone"
+		},
+		{
+			"number": "213",
+			"name": "key of seasons",
+			"image": "items/fh-213-key-of-seasons.png",
+			"id": "keyofseasons"
+		},
+		{
+			"number": "214",
+			"name": "cup of ventillion",
+			"image": "items/fh-214-cup-of-ventillion.png",
+			"id": "cupofventillion"
+		},
+		{
+			"number": "215",
+			"name": "befuddling mug",
+			"image": "items/fh-215-befuddling-mug.png",
+			"id": "befuddlingmug"
+		},
+		{
+			"number": "216",
+			"name": "tome of elements",
+			"image": "items/fh-216-tome-of-elements.png",
+			"id": "tomeofelements"
+		},
+		{
+			"number": "217",
+			"name": "tome of time",
+			"image": "items/fh-217-tome-of-time.png",
+			"id": "tomeoftime"
+		},
+		{
+			"number": "218",
+			"name": "tome of life",
+			"image": "items/fh-218-tome-of-life.png",
+			"id": "tomeoflife"
+		},
+		{
+			"number": "219",
+			"name": "tome of conflict",
+			"image": "items/fh-219-tome-of-conflict.png",
+			"id": "tomeofconflict"
+		},
+		{
+			"number": "220",
+			"name": "belara's quill",
+			"image": "items/fh-220-belaras-quill.png",
+			"id": "belarasquill"
+		},
+		{
+			"number": "221",
+			"name": "ice shiv",
+			"image": "items/fh-221-ice-shiv.png",
+			"id": "iceshiv"
+		},
+		{
+			"number": "222",
+			"name": "black box",
+			"image": "items/fh-222-black-box.png",
+			"id": "blackbox"
+		},
+		{
+			"number": "223",
+			"name": "lightning rod",
+			"image": "items/fh-223-lightning-rod.png",
+			"id": "lightningrod"
+		},
+		{
+			"number": "224",
+			"name": "armor of empathy",
+			"image": "items/fh-224-armor-of-empathy.png",
+			"id": "armorofempathy"
+		},
+		{
+			"number": "225",
+			"name": "algox carving",
+			"image": "items/fh-225-algox-carving.png",
+			"id": "algoxcarving"
+		},
+		{
+			"number": "226",
+			"name": "unfettered arm",
+			"image": "items/fh-226-unfettered-arm.png",
+			"id": "unfetteredarm"
+		},
+		{
+			"number": "227",
+			"name": "data drive",
+			"image": "items/fh-227-data-drive.png",
+			"id": "datadrive"
+		},
+		{
+			"number": "228",
+			"name": "extendable pole",
+			"image": "items/fh-228-extendable-pole.png",
+			"id": "extendablepole"
+		},
+		{
+			"number": "229",
+			"name": "exquisite map",
+			"image": "items/fh-229-exquisite-map.png",
+			"id": "exquisitemap"
+		},
+		{
+			"number": "230",
+			"name": "examination glass",
+			"image": "items/fh-230-examination-glass.png",
+			"id": "examinationglass"
+		},
+		{
+			"number": "231",
+			"name": "skinning knife",
+			"image": "items/fh-231-skinning-knife.png",
+			"id": "skinningknife"
+		},
+		{
+			"number": "232",
+			"name": "orchid wand",
+			"image": "items/fh-232-orchid-wand.png",
+			"id": "orchidwand"
+		},
+		{
+			"number": "233",
+			"name": "dead raven",
+			"image": "items/fh-233-dead-raven.png",
+			"id": "deadraven"
+		},
+		{
+			"number": "234",
+			"name": "ooze vial",
+			"image": "items/fh-234-ooze-vial.png",
+			"id": "oozevial"
+		},
+		{
+			"number": "235",
+			"name": "small rat",
+			"image": "items/fh-235-small-rat.png",
+			"id": "smallrat"
+		},
+		{
+			"number": "236",
+			"name": "cracked mirror",
+			"image": "items/fh-236-cracked-mirror.png",
+			"id": "crackedmirror"
+		},
+		{
+			"number": "237",
+			"name": "mesmerizing seashell",
+			"image": "items/fh-237-mesmerizing-seashell.png",
+			"id": "mesmerizingseashell"
+		},
+		{
+			"number": "238",
+			"name": "cracked idol",
+			"image": "items/fh-238-cracked-idol.png",
+			"id": "crackedidol"
+		},
+		{
+			"number": "239",
+			"name": "eye of the storm",
+			"image": "items/fh-239-eye-of-the-storm.png",
+			"id": "eyeofthestorm"
+		},
+		{
+			"number": "240",
+			"name": "demon's gem",
+			"image": "items/fh-240-demons-gem.png",
+			"id": "demonsgem"
+		},
+		{
+			"number": "241",
+			"name": "shimmering powder",
+			"image": "items/fh-241-shimmering-powder.png",
+			"id": "shimmeringpowder"
+		},
+		{
+			"number": "242",
+			"name": "lucky dice",
+			"image": "items/fh-242-lucky-dice.png",
+			"id": "luckydice"
+		},
+		{
+			"number": "243",
+			"name": "cursed rock",
+			"image": "items/fh-243-cursed-rock.png",
+			"id": "cursedrock"
+		},
+		{
+			"number": "244",
+			"name": "ember energy source",
+			"image": "items/fh-244-ember-energy-source.png",
+			"id": "emberenergysource"
+		},
+		{
+			"number": "245a",
+			"name": "ancient coin",
+			"image": "items/fh-245a-ancient-coin.png",
+			"id": "ancientcoin"
+		},
+		{
+			"number": "245b",
+			"name": "ancient coin",
+			"image": "items/fh-245b-ancient-coin.png",
+			"id": "ancientcoin"
+		},
+		{
+			"number": "245c",
+			"name": "ancient coin",
+			"image": "items/fh-245c-ancient-coin.png",
+			"id": "ancientcoin"
+		},
+		{
+			"number": "245d",
+			"name": "ancient coin",
+			"image": "items/fh-245d-ancient-coin.png",
+			"id": "ancientcoin"
+		},
+		{
+			"number": "246",
+			"name": "key card",
+			"image": "items/fh-246-key-card.png",
+			"id": "keycard"
+		},
+		{
+			"number": "247",
+			"name": "trainer's net",
+			"image": "items/fh-247-trainers-net.png",
+			"id": "trainersnet"
+		},
+		{
+			"number": "248",
+			"name": "wanderer's club",
+			"image": "items/fh-248-wanderers-club.png",
+			"id": "wanderersclub"
+		},
+		{
+			"number": "249",
+			"name": "recalibration trigger",
+			"image": "items/fh-249-recalibration-trigger.png",
+			"id": "recalibrationtrigger"
+		},
+		{
+			"number": "250",
+			"name": "spear of justice",
+			"image": "items/fh-250-spear-of-justice.png",
+			"id": "spearofjustice"
+		},
+		{
+			"number": "251",
+			"name": "soul urn",
+			"image": "items/fh-251-soul-urn.png",
+			"id": "soulurn"
+		},
+		{
+			"number": "252",
+			"name": "black earth codex",
+			"image": "items/fh-252-black-earth-codex.png",
+			"id": "blackearthcodex"
+		},
+		{
+			"number": "253",
+			"name": "mask of duality",
+			"image": "items/fh-253-mask-of-duality.png",
+			"id": "maskofduality"
+		},
+		{
+			"number": "254",
+			"name": "ancestral blade",
+			"image": "items/fh-254-ancestral-blade.png",
+			"id": "ancestralblade"
+		},
+		{
+			"number": "255",
+			"name": "mountain's heart",
+			"image": "items/fh-255-mountains-heart.png",
+			"id": "mountainsheart"
+		},
+		{
+			"number": "256",
+			"name": "sonorous shard",
+			"image": "items/fh-256-sonorous-shard.png",
+			"id": "sonorousshard"
+		},
+		{
+			"number": "257",
+			"name": "sly camouflage",
+			"image": "items/fh-257-sly-camouflage.png",
+			"id": "slycamouflage"
+		},
+		{
+			"number": "258",
+			"name": "skull of agony",
+			"image": "items/fh-258-skull-of-agony.png",
+			"id": "skullofagony"
+		},
+		{
+			"number": "259",
+			"name": "storm carving",
+			"image": "items/fh-259-storm-carving.png",
+			"id": "stormcarving"
+		},
+		{
+			"number": "260",
+			"name": "freezing orb",
+			"image": "items/fh-260-freezing-orb.png",
+			"id": "freezingorb"
+		},
+		{
+			"number": "261",
+			"name": "energized module",
+			"image": "items/fh-261-energized-module.png",
+			"id": "energizedmodule"
+		},
+		{
+			"number": "262",
+			"name": "exhaust boots",
+			"image": "items/fh-262-exhaust-boots.png",
+			"id": "exhaustboots"
+		},
+		{
+			"number": "263",
+			"name": "warlord's skull",
+			"image": "items/fh-263-warlords-skull.png",
+			"id": "warlordsskull"
+		},
+		{
+			"number": "264",
+			"name": "spiraled medallion",
+			"image": "items/fh-264-spiraled-medallion.png",
+			"id": "spiraledmedallion"
+		}
+	]
+}

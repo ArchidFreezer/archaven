@@ -27,17 +27,15 @@ function sidebarBuildDropClick(id) {
   <div class="w3-dropdown-click">
     <button class="w3-button" onclick="sidebarBuildDropClick('deckDrop')">Deck <i class="fa fa-caret-down"></i></button>
     <div id="deckDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
-      <a href="#level-1-cards" class="w3-bar-item w3-button">Level 1 Cards</a>
-      <a href="#level-1-choices" class="w3-bar-item w3-button">Level 1 Choices</a>
-      <a href="#level-1-deck" class="w3-bar-item w3-button">Level 1 Deck</a>
-      <a href="#level-2-cards" class="w3-bar-item w3-button">Level 2 Cards</a>
-      <a href="#level-3-cards" class="w3-bar-item w3-button">Level 3 Cards</a>
-      <a href="#level-4-cards" class="w3-bar-item w3-button">Level 4 Cards</a>
-      <a href="#level-5-cards" class="w3-bar-item w3-button">Level 5 Cards</a>
-      <a href="#level-6-cards" class="w3-bar-item w3-button">Level 6 Cards</a>
-      <a href="#level-7-cards" class="w3-bar-item w3-button">Level 7 Cards</a>
-      <a href="#level-8-cards" class="w3-bar-item w3-button">Level 8 Cards</a>
-      <a href="#level-9-cards" class="w3-bar-item w3-button">Level 9 Cards</a>
+      <a href="#level-1" class="w3-bar-item w3-button">Level 1</a>
+      <a href="#level-2" class="w3-bar-item w3-button">Level 2</a>
+      <a href="#level-3" class="w3-bar-item w3-button">Level 3</a>
+      <a href="#level-4" class="w3-bar-item w3-button">Level 4</a>
+      <a href="#level-5" class="w3-bar-item w3-button">Level 5</a>
+      <a href="#level-6" class="w3-bar-item w3-button">Level 6</a>
+      <a href="#level-7" class="w3-bar-item w3-button">Level 7</a>
+      <a href="#level-8" class="w3-bar-item w3-button">Level 8</a>
+      <a href="#level-9" class="w3-bar-item w3-button">Level 9</a>
     </div>
   </div>
 

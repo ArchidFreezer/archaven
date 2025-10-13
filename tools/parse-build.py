@@ -69,57 +69,48 @@ def html_builddecks():
 		<h2 id="deck">Build Deck</h2>
 	''')
 	
-	# First add the section for the level 1 card discussion
-	html_levelcardstable(1)
-	html_lvl1cardchoice()
-	
-	
-	
-	for index in range(2,10):
-		html_levelcardstable(index)
+	for level in range(1,10):
+		hf.write(f'''
+			<button id="level-{level}" onclick="accClick('acc-lvl-{level}')" class="w3-btn w3-block w3-left-align">Level {level}</button>
+			<div id="acc-lvl-{level}" class="w3-container w3-hide">
+				<div class-"w3-flex" style="gap:4px;flex-direction:column">
+		''')
+		html_new_cards(level)
+		html_choices(level)
+		hf.write(f'''
+				</div>
+			</div>
+		''')
 	
 	hf.write('''
 	</div>
 	''')
 
-def html_lvl1cardchoice():
+def html_buildhand(level):
 	hf.write(f'''
-		<button id="level-1-choices" onclick="accClick('build-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
-		<div id="build-1-choices" class="w3-container w3-hide">
+		<button id="level-1-hand" onclick="accClick('build-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+		<div id="build-1-hand" class="w3-container w3-hide">
+			<div class="w3-container">
+				<h3 class="w3-light-grey">Standard Hand</h3>
+				<p>This is the default hand to use at this level, however it should be modified based on the quest.
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 	''')
 	
-	choices=jmespath.search("lvl1choices[*].[label,overview]", jbuild)
-	for choice in choices:
-		hf.write(f'''
-			<div class="w3-container">
-				<h3 class="w3-light-grey">{choice[0]}</h3>
-				<p>{choice[1]}
-				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-		''')
-
-		cards = jmespath.search(f"lvl1choices[?label=='{choice[0]}'].cards[].[id,comment]", jbuild)
-		for card in cards:
-			hf.write(f'''
-					<div class="w3-card-4" style="width:250px">
-						<img class="ability-desc" src="{cardimages[card[0]]}"/>
-						<p>{card[1]}
-					</div>
-			''')
-			
-		hf.write('''
-				</div>
-			</div>
-		''')
+	jhand=jmespath.search(f"levels[?level=='{level}'].hand[]", jbuild)
+	for jcard in jhand:
+		data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style]", jcard)
+		
 	hf.write('''
-			</table>
+				</div> <!-- default deck -->
+			</div>
 		</div>
 	''')
 	
-def html_levelcardstable(level):
+def html_new_cards(level):
 	hf.write(f'''
-		<button id="level-{level}-cards" onclick="accClick('build-cards-{level}')" class="w3-btn w3-block w3-left-align">Level {level} Cards</button>
-		<div id="build-cards-{level}" class="w3-container w3-hide">
-			<table>
+			<button id="level-{level}-new" onclick="accClick('acc-{level}-new')" class="w3-btn w3-block w3-left-align">New Level {level} Cards</button>
+			<div id="acc-{level}-new" class="w3-container w3-hide">
+				<div class-"w3-flex" style="gap:4px;flex-direction:column">
 	''')
 	
 	if level == 1:
@@ -135,13 +126,58 @@ def html_levelcardstable(level):
 			builddata.append("The bottom action discussion.")
 			builddata.append("The overall card discussion.")
 
+		hf.write(html_new_card(id, builddata))
+
+	hf.write('''
+				</div>
+			</div>
+	''')
+
+def html_new_card(id, data):
+	card=f'''
+				<div class="w3-card-4">
+					<div class="w3-container w3-cell">
+						<img class="ability-desc" src="{cardimages[id]}"/>
+					</div>
+					<div class="w3-container w3-cell w3-cell-middle">
+						<p>{data[0]}
+						<hr>
+						<p>{data[1]}
+					</div>
+					<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+						<p>{data[2]}
+					</div>
+				</div>
+	'''
+	return card
+
+def html_choices(level):
+	hf.write(f'''
+		<button id="level-{level}-choices" onclick="accClick('acc-{level}-choices')" class="w3-btn w3-block w3-left-align">Level {level} Choices</button>
+		<div id="acc-{level}-choices" class="w3-container w3-hide">
+	''')
+	
+	choices=jmespath.search(f"levels[?level == '{level}'].choices[].[label,overview]", jbuild)
+	for choice in choices:
 		hf.write(f'''
-				<tr>
-					<td rowspan="2"><img class="ability-desc" src="{cardimages[id]}"/>
-					<td class="w3-container" style="width:60%">{builddata[0]}
-					<td class="w3-container" rowspan="2">{builddata[2]}
-				<tr>
-					<td class="w3-container">{builddata[1]}
+			<div class="w3-container">
+				<h3 class="w3-light-grey">{choice[0]}</h3>
+				<p>{choice[1]}
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		''')
+
+		cards = jmespath.search(f"levels[?level == '{level}'] | [0].choices[?label=='{choice[0]}'].cards[].[id,comment]", jbuild)
+		for card in cards:
+			hf.write(f'''
+					<div class="w3-card-4" style="width:250px">
+						<img class="ability-desc" src="{cardimages[card[0]]}"/>
+						<p class="w3-container">{card[1]}
+					</div>
+			''')
+			
+		hf.write('''
+				</div>
+			</div>
 		''')
 	hf.write('''
 			</table>
@@ -162,7 +198,7 @@ def html_bottom():
 
 def get_build_name(id, build):
 	classname = jmespath.search(f"classes[?id=='{id}'].label|[0]", jclasses)
-	return  classname + " " + build
+	return classname + " " + build
 
 def get_card_images():
 	cards = jmespath.search("[*].[image, id]", jclasscards)

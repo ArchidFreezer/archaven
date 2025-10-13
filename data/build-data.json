@@ -194,63 +194,63 @@
 					"overall": "Even with the absurdity of Take No Prisoners, Hail of Spears certainly holds its own and then some."
 				}
 			],
-			"lvl1choices": [
-				{
-					"label": "Core",
-					"overview": "These are our most important cards.",
-					"cards": [
-						{
-							"id": "unbreakablewall",
-							"comment": "Unbreakable Wall is our core persistent loss and where most of our tankiness comes from."
-						},
-						{
-							"id": "deflectingmaneuver",
-							"comment": "Deflecting Manoeuvre provides respectable damage coupled with mitigation, all the while requiring no allied help over the course of the two round combo (Javelin into this)."
-						},
-						{
-							"id": "setforthecharge",
-							"comment": "Set for the Charge provides incredible movement with great initiative, and in this build, we'll also sometimes use the top."
-						},
-						{
-							"id": "combinedeffort",
-							"comment": "Combined Effort will actually see more use for the top action in this build than the others as we're not moving a Banner or trying to set up many patterns, so we don't really need the bottom, and the top provides good damage with a very easy setup."
-						},
-						{
-							"id": "rallyingcry",
-							"comment": "Rallying Cry is a bit more difficult to set up (and thus may still need Combined Effort bottom sometimes), but if our goal is to mitigate incoming damage, you can't do better than this. Especially as Shield 1 is good against weaker enemies, this gives us a valuable tool to stop the heavy hitters."
-						},
-						{
-							"id": "javelin",
-							"comment": "Javelin is affected by the reduced range, but as we want to be on the front lines anyway, this will be manageable."
-						},
-						{
-							"id": "regroup",
-							"comment": "Regroup is essential for healing up between fights as we can't tank effectively on low hp."
-						},
-						{
-							"id": "tipofthespear",
-							"comment": "Tip of the Spear is mostly just there for movement."
-						}
-					]
-				},
-				{
-					"label": "The Rest",
-					"overview": "These are our the other cards we will take to make up our deck, but will be the first to be lost.",
-					"cards": [
-						{
-							"id": "atallcosts",
-							"comment": "At All Costs is added in mostly for the bottom action, specifically in combination with Resolved Courage. We'll rarely want to use the top as our hit points are typically going to be the most valuable, but having an easy way to set up Resolved Courage in a single round, followed by Rallying Cry or Combined Effort the next round, and then eventually a free Disarm, is all a pretty solid package. The biggest cost is that we need to move very often as a tank, so non-move bottom actions can be difficult to use regularly."
-						},
-						{
-							"id": "resolvedcourage",
-							"comment": "Resolved Courage is there again just for the two-card combo with At All Costs to deal respectable damage and sometimes a bit of mitigation against ranged enemies through disadvantage."
-						}
-					]
-				}
-			],
 			"levels": [
 				{
 					"level": "1",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These are our most important cards.",
+							"cards": [
+								{
+									"id": "unbreakablewall",
+									"comment": "Unbreakable Wall is our core persistent loss and where most of our tankiness comes from."
+								},
+								{
+									"id": "deflectingmaneuver",
+									"comment": "Deflecting Manoeuvre provides respectable damage coupled with mitigation, all the while requiring no allied help over the course of the two round combo (Javelin into this)."
+								},
+								{
+									"id": "setforthecharge",
+									"comment": "Set for the Charge provides incredible movement with great initiative, and in this build, we'll also sometimes use the top."
+								},
+								{
+									"id": "combinedeffort",
+									"comment": "Combined Effort will actually see more use for the top action in this build than the others as we're not moving a Banner or trying to set up many patterns, so we don't really need the bottom, and the top provides good damage with a very easy setup."
+								},
+								{
+									"id": "rallyingcry",
+									"comment": "Rallying Cry is a bit more difficult to set up (and thus may still need Combined Effort bottom sometimes), but if our goal is to mitigate incoming damage, you can't do better than this. Especially as Shield 1 is good against weaker enemies, this gives us a valuable tool to stop the heavy hitters."
+								},
+								{
+									"id": "javelin",
+									"comment": "Javelin is affected by the reduced range, but as we want to be on the front lines anyway, this will be manageable."
+								},
+								{
+									"id": "regroup",
+									"comment": "Regroup is essential for healing up between fights as we can't tank effectively on low hp."
+								},
+								{
+									"id": "tipofthespear",
+									"comment": "Tip of the Spear is mostly just there for movement."
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "These are our the other cards we will take to make up our deck, but will be the first to be lost.",
+							"cards": [
+								{
+									"id": "atallcosts",
+									"comment": "At All Costs is added in mostly for the bottom action, specifically in combination with Resolved Courage. We'll rarely want to use the top as our hit points are typically going to be the most valuable, but having an easy way to set up Resolved Courage in a single round, followed by Rallying Cry or Combined Effort the next round, and then eventually a free Disarm, is all a pretty solid package. The biggest cost is that we need to move very often as a tank, so non-move bottom actions can be difficult to use regularly."
+								},
+								{
+									"id": "resolvedcourage",
+									"comment": "Resolved Courage is there again just for the two-card combo with At All Costs to deal respectable damage and sometimes a bit of mitigation against ranged enemies through disadvantage."
+								}
+							]
+						}
+					],
 					"hand": [
 						{
 							"card": "javelin",

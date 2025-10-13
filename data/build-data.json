@@ -405,6 +405,58 @@
 						}
 					]
 				}
+			],
+			"perks": [
+				{
+					"order": 1,
+					"name": "Gifted",
+					"effect": "Ignore negative item effect<br>Remove -1"
+				},
+				{
+					"order": 2,
+					"name": "Iron Will",
+					"effect": "Once per scenarion gain +2 Shield"
+				},
+				{
+					"order": 3,
+					"name": "Into the Breach",
+					"effect": "When you open a door gain +3 Move"
+				},
+				{
+					"order": 4,
+					"name": "Bruiser",
+					"effect": "Replace -1 with rolling +1 Shield"
+				},
+				{
+					"order": 5,
+					"name": "Subdue",
+					"effect": "Add +1 Disarm"
+				},
+				{
+					"order": 6,
+					"name": "Recover",
+					"effect": "Add rolling +1 Health"
+				},
+				{
+					"order": 7,
+					"name": "Tireless Leadership",
+					"effect": "After long rest range 3 ally gains +2 Move"
+				},
+				{
+					"order": 8,
+					"name": "Technique",
+					"effect": "Add rolling +1"
+				},
+				{
+					"order": 9,
+					"name": "Shove",
+					"effect": "Add +2, Push 1"
+				},
+				{
+					"order": 10,
+					"name": "Overwhelm",
+					"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+				}
 			]
 		}
 	]

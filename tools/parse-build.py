@@ -285,6 +285,25 @@ def html_choices(level):
 			</div>
 		''')
 
+def html_perks():
+	perks=jmespath.search(f"sort_by(perks, &order)[*][name,effect]", jbuild)
+	if len(perks) > 0:
+		hf.write('''
+	<div class="w3-container">
+		<h2 id="perks">Perks</h2>
+		<table class="w3-table w3-striped w3-border">
+	''')
+
+		for perk in perks:
+			hf.write(f'''
+			<tr><td>{perk[0]}</td><td>{perk[1]}</td></tr>
+			''')
+	
+		hf.write('''
+		</table>
+	</div>
+		''')
+
 def html_footer():
 	txt=jmespath.search("build", jbuild)
 	author=jmespath.search("orig_author", jbuild)
@@ -347,4 +366,5 @@ get_card_images()
 html_top(buildname)
 html_overview()
 html_build_decks()
+html_perks()
 html_footer()

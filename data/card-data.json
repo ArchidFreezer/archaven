@@ -354,7 +354,7 @@
 			"name": "bolstering shout",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/bn/fh-bolstering-shout.png",
-			"id": "blsteringshout",
+			"id": "bolsteringshout",
 			"level": "6",
 			"initiative": "75",
 			"cardno": "083",

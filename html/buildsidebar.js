@@ -40,6 +40,8 @@ function sidebarBuildDropClick(id) {
   </div>
 
 	<a href="#perks" class="w3-bar-item w3-button">Perks</a>
+	<a href="#items" class="w3-bar-item w3-button">Items</a>
+	<a href="#potions" class="w3-bar-item w3-button">Potions</a>
 
 </div>
 `);

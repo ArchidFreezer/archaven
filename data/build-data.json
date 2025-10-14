@@ -459,7 +459,7 @@
 				}
 			],
 			"items": {
-				"description": "The item recommendations are broken up into sections based on Craftsman levels.",
+				"comments": "The item recommendations are broken up into sections based on Craftsman levels.",
 				"levels": [
 					{
 						"level": "Starting",
@@ -780,6 +780,67 @@
 								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
 								"type": "spent",
 								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					}
+				]
+			},
+			"potions": {
+				"comments": "In general, your highest priority will be to get any potions that provide healing or defensive effects, followed by card or item recovery, and then lastly offensive effects.",
+				"levels": [
+					{
+						"numherbs": "2",
+						"comments": "The Muscle Potion is certainly the strongest 2-herb potion in the abstract, but given that tanking builds should really only be played in larger parties with other damage-dealers, it's a pretty safe assumption that you have two allies who can make significantly better use of it than you.",
+						"picks": [
+							{
+								"id": "083",
+								"comment": "The best choice for any tank is generall healing."
+							},
+							{
+								"id": "092",
+								"comment": "Refreshing armour and shield should give a similar amount of healing as the Healing Potion, with the added flexibility of getting extra Jump instead, at the cost of not removing conditions."
+							},
+							{
+								"id": "097",
+								"comment": "The Explosive Vial can finish off damaged enemies and/or deal with pesky shielded enemies. And you'll regularly be on the front lines in a position to use it in a timely and convenient manner."
+							},
+							{
+								"id": "084",
+								"comment": "The Stamina Potion isn't anything exceptional but it will always provide an extra turn each scenario by using it when you have an odd hand size and let you repeat one of your more powerful level 1 cards, which is an acceptable impact."
+							},
+							{
+								"id": "093",
+								"comment": "This might be a bit of personal bias, but even for a tank, I'm always happy to have the Glancing Potion to ensure one of my rarer attacks doesn't whiff on a key target."
+							},
+							{
+								"id": "089",
+								"comment": "If you're really trying to go all-in on defence, the Stoneskin Potion (089) is acceptable. Ward has negative synergy with your persistent Shield, meaning this will likely represent more like two hits points than three regularly. Of course, being able to use this when you most need it against one of the many heavy-hitting enemies in Frosthaven can help keep your life total high, which is important for a tank to remain effective."
+							}
+						]
+					},
+					{
+						"numherbs": "3",
+						"comment": "Beyond these, a couple of your 2-herb potions can still be worth keeping around if you already have them and are short on herbs, namely the Renewing Potion, which scales very well with item upgrades, and the Healing Potion, because more healing is always welcome and it's another source of condition-cleansing.",
+						"picks": [
+							{
+								"id": "099",
+								"comment": "Much like its smaller cousin, the Major Healing Potion is going to be your best 3-herb potion."
+							},
+							{
+								"id": "118",
+								"comment": "The Fulminant Flask is just so good. The jump from two to four damage between the Explosive Vial and this has a profound effect and you'll always be well-placed to use this."
+							},
+							{
+								"id": "100",
+								"comment": "Abuse it. Nerf it. The Major Stamina Potion arrives all the same. It's still very good and especially being able to repeat Hold the Line is a really big deal. Do note that you can't recover Hold the Line the round in which you play it (unlike normal Stamina Potion shenanigans) for obvious reasons, so the turn sequence is more like Hold the Line on turns 1 and 3 of a room."
+							},
+							{
+								"id": "106",
+								"comment": "While the Stoneskin Potion was a bit unimpressive, the Stonewall Potion is much, much better. As a tank, your job is keeping your party alive. It's not realistic to think every attack will be on you, and having an extra layer of protection on your allies (or better yet, their summons) for when they do get attacked is great. This will pretty much represent the same amount of effective hit points gained as the Major Healing Potion, only spread across three figures (which is generally a bit of a downside) but with added safety (assurance against a damage spike leading to a pitched card - which is obvious upside)."
+							},
+							{
+								"id": "105",
+								"comment": "The Fireshield Potion wasn’t even worth mentioning, but the jump from Retaliate 1 to Retaliate 2 is a really big deal, making the Major Fireshield Potion absolutely worthwhile if you’d like to add some offensive power to your tanking. The choice between this and Stonewall is really going to come down to whether your party needs more protection or damage."
 							}
 						]
 					}

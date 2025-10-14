@@ -38,28 +38,35 @@ def html_overview():
 	for para in paras:
 		hf.write(f'''	<p>{para}''')
 	
-	hf.write(f'''
+	paras=jmespath.search("overview.benefits[]", jbuild)
+	if len(paras) > 0:
+		hf.write(f'''
 		<p>So why would you play a {build} Build?
 		<ul>
-	''')
+		''')
 
-	paras=jmespath.search("overview.benefits[]", jbuild)
-	for para in paras:
-		hf.write(f'''		<li>{para}''')
+		for para in paras:
+			hf.write(f'''		<li>{para}''')
 
-	hf.write(f'''
+		hf.write(f'''
 		</ul>
+		''')
 		
+	paras=jmespath.search("overview.preferences[]", jbuild)
+	if len(paras) > 0:
+		hf.write(f'''
 		<p>The tank build loves the following:
 		<ul>
-	''')
+		''')
 	
-	paras=jmespath.search("overview.preferences[]", jbuild)
-	for para in paras:
-		hf.write(f'''		<li>{para}''')
+		for para in paras:
+			hf.write(f'''		<li>{para}''')
+	
+		hf.write('''
+		</ul>
+		''')
 	
 	hf.write('''
-		</ul>
 	</div>
 	''')
 
@@ -305,21 +312,58 @@ def html_perks():
 		''')
 
 def html_items():
-	jitemdata=jmespath.search("items", jbuild)
-	if len(jitemdata) > 0:
+	jitems=jmespath.search("items", jbuild)
+	if len(jitems) > 0:
 		hf.write(f'''
 	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
 	<div id="acc-items" class="w3-container w3-hide">
-		<div class="w3-container w3-light-grey">{jmespath.search("description", jitemdata)}</div>
+		<div class="w3-container w3-light-grey">{jmespath.search("comments", jitems)}</div>
 	''')
 		
-		levels=jmespath.search("levels", jitemdata)
+		levels=jmespath.search("levels", jitems)
 		for jlevel in levels:
 			level=jmespath.search("level", jlevel)
 			levelid=level.lower().replace(" ","")
 			hf.write(f'''
 		<button id="items-{levelid}" onclick="accClick('acc-items-{levelid}')" class="w3-btn w3-block w3-left-align"><h4>{level}</h4></button>
 		<div id="acc-items-{levelid}" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			''')
+			picks=jmespath.search("picks", jlevel)
+			for jpick in picks:
+				data=jmespath.search("[id,comment]", jpick)
+				hf.write(f'''
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="{itemimages[data[0]]}"/>
+					<p class="w3-container">{data[1]}
+				</div>
+				''')
+				
+			hf.write('''
+			</div>
+		</div>
+			''')
+	
+		hf.write('''
+	</div>
+		''')
+
+def html_potions():
+	jpotions=jmespath.search("potions", jbuild)
+	if len(jpotions) > 0:
+		hf.write(f'''
+	<button id="potions" onclick="accClick('acc-potions')" class="w3-btn w3-block w3-left-align"><h2>Potions</h2></button>
+	<div id="acc-potions" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey">{jmespath.search("comments", jpotions)}</div>
+	''')
+		
+		levels=jmespath.search("levels", jpotions)
+		for jlevel in levels:
+			numherbs=jmespath.search("numherbs", jlevel)
+			hf.write(f'''
+		<button id="items-{numherbs}" onclick="accClick('acc-items-{numherbs}')" class="w3-btn w3-block w3-left-align"><h4>{numherbs} Herb</h4></button>
+		<div id="acc-items-{numherbs}" class="w3-container w3-hide">
 			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</div>
 			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 			''')
@@ -418,4 +462,5 @@ html_overview()
 html_build_decks()
 html_perks()
 html_items()
+html_potions()
 html_footer()

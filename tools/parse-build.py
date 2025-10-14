@@ -451,9 +451,15 @@ parser = argparse.ArgumentParser(
                     prog='parse-build',
                     description='Reads a json file containing Frosthaven character build data and produces a static html page from it.',
                     epilog='This needs to be used with the archaven github repository file structure.')
-parser.add_argument('buildid')           # positional argument
+parser.add_argument('buildid', help='build id to parse')           # positional argument
+parser.add_argument('-b', help='valid build json file to parse')
 args = parser.parse_args()
 
+if (args.b):
+	buildfile=args.b
+else:
+	buildfile='mybuild-data.json'
+	
 # Read our json data files
 with open('../data/card-data.json') as fd:
 	jcards = json.load(fd)
@@ -464,7 +470,7 @@ with open(f'../data/item-data.json') as fd:
 with open('../data/class-data.json') as fd:
 	jclasses = json.load(fd)
 
-with open(f'../data/build-data.json') as fd:
+with open(buildfile) as fd:
 	jbuilds = json.load(fd)
 
 # Open the output html file

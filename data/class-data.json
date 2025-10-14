@@ -3,81 +3,142 @@
 		{
 			"id": "bb",
 			"label": "Blinkblade",
+			"description": [
+				"Quatryls typically don't like being underestimated. They are smaller than the other peoples they encounter, yes, but that doesn't mean they are worth any less. If anything, they will go out of their way to show they are worth more. Their scientific institutions on the eastern continent have developed a myriad of technological advancements--bionics and prosthetics used to enhance their own capabilities. There are even vague records that long ago, the Quatryls' scientific research led them to the north to hunt for its secrets, but those facilities have long since fallen to ruin.",
+				"The fact of the matter is that the cold is not a forgiving climate for one so small. If a Blinkblade were to travel north, it may be because they have nowhere else to go, or because there is some quarry to be found. Blinkblades are assassins, after all. Equipped with experimental temporal drives, they can alter the flow of time, moving faster than the eye can see and striking harder than a creature ten times their size. Such actions can only be performed in short bursts, however, and there is always a cost to such great power."
+			],
 			"handsize": "10"
 		},
 		{
 			"id": "bn",
 			"label": "Banner Spear",
+			"description": [
+				"The Banner Spear can fill a variety of different roles depending on the party: she can be a tank, a ranged support/damage-dealer, or a melee fighter specialized in dealing damage in an area. Her unique mechanic is that she has some Area of Effect (AoE) abilities with blue hexes in the targetter - these blue hexes require an ally in order for her to perform the ability."
+			],
 			"handsize": "10"
 		},
 		{
 			"id": "bo",
 			"label": "Boneshaper",
+			"description": [
+				"The Boneshaper is a low-health summoner/support class. She has access to a variety of different summons but notably non-loss summons. Playing around non-loss summons allows her to protect herself from the biggest issue with summoner classes - when something goes wrong, you become useless afterwards. As with any summoner class, she still requires a reasonable familiarity with monster AI.",
+				"The Boneshaper can fit well into any party because her variety of summon-based builds allow her to function as a sort of tank, damage-dealer, or support. She has natural synergy with any effects that affect all allies (like a Bannerspear's Banner of Strength). But beyond that, playing an effective Boneshaper in your party will just involve needing to understand your party's strengths, weaknesses, and natural play patterns."
+			],
 			"handsize": "12"
 		},
 		{
 			"id": "cr",
 			"label": "Crashing Tide",
+			"description": [
+				""
+			],
 			"handsize": "12"
 		},
 		{
 			"id": "df",
 			"label": "Drifter",
+			"description": [
+				"The Inox clans of the Great Grove value their strength and self-reliance, but they could not bury internal quarrels in time to repel the human empire's expansion into their lands. They paid dearly. Some Inox have retreated deeper into the most defensible areas of the forest. Others venture into other civilizations, employing their great size, woodcraft, and performative traditions in a variety of occupations.",
+				"In fact, it is common practice among many clans to send their young warriors off into the larger world for a year so they can find themselves and discover their passion. Some of them never return, lured away by city life or, in rarer cases, discovering that their passion is the wilderness itself. These Inox revel in surviving off the land without allegiance or responsibility. They are the Drifters, and there is no better place to test their skills than the north."
+			],
 			"handsize": "12"
 		},
 		{
 			"id": "dt",
 			"label": "Deepwraith",
+			"description": [
+				""
+			],
+			"handsize": "10"
+		},
+		{
+			"id": "dw",
+			"label": "Deathwalker",
+			"description": [
+				"No group is quite so ill-suited for the icy northern climates as the Valrath, who make their homes far to the south around the Red Desert. There was once a great war in that region between the Valraths and the humans, both equally interested in conquering the Stormbrew Plains for themselves. The two nations have since made peace, and the Valrath government in particular has made concerted efforts to forsake its aggressive past. In more recent times, they have focused on economic strength over the physical.",
+				"There is a saying among the Valrath: 'In order to survive the ice, one must have an icy soul.' This is apt for a Deathwalker, a nomad bent on atoning for the Valrath nation's past sins by ensuring the souls of the dead find rest. Wherever great tragedy falls, a Deathwalker is usually not far behind, and Frosthaven has seen plenty of tragedy."
+			],
 			"handsize": "10"
 		},
 		{
 			"id": "ff",
 			"label": "Frozen Fist",
+			"description": [
+				""
+			],
 			"handsize": "8"
 		},
 		{
 			"id": "ge",
 			"label": "Geminate",
+			"description": [
+				"A Harrower is not one single life form but, rather, a swarm of thousands of insects gathered to form a hive mind intelligence. Their existence, in fact, predates all other sentient life, going back to the volatile early ages of the world. They have always maintained their distance from the operations of humans and other species, concerning themselves with their own disparate machinations. When Harrowers do interact with others, they shape their swarms into a form vaguely similar to the other party, so as to minimize their discomfort.",
+				"Not all Harrowers, however, act as a single unit. Rarely, a swarm develops in such a way that they cannot come to a single mind. Instead, they settle into a stable equilibrium of two wills, which compete to exert influence over their collective form. The Geminate, as the phenomenon is called, will work in harmony to shift between two wildly different configurations, each with their own abilities and desires."
+			],
 			"handsize": "14"
 		},
 		{
 			"id": "hv",
 			"label": "Hive",
+			"description": [
+				""
+			],
 			"handsize": "11"
 		},
 		{
 			"id": "if",
 			"label": "Infuser",
+			"description": [
+				""
+			],
 			"handsize": "11"
 		},
 		{
 			"id": "me",
 			"label": "Metal Mosaic",
+			"description": [
+				""
+			],
 			"handsize": "9"
 		},
 		{
 			"id": "pc",
 			"label": "Pain Conduit",
+			"description": [
+				""
+			],
 			"handsize": "10"
 		},
 		{
 			"id": "py",
 			"label": "Pyroclast",
+			"description": [
+				""
+			],
 			"handsize": "10"
 		},
 		{
 			"id": "sd",
 			"label": "Snowdancer",
+			"description": [
+				""
+			],
 			"handsize": "11"
 		},
 		{
 			"id": "sh",
 			"label": "Shattersong",
+			"description": [
+				""
+			],
 			"handsize": "10"
 		},
 		{
 			"id": "ta",
 			"label": "Trapper",
+			"description": [
+				""
+			],
 			"handsize": "9"
 		}
 	]

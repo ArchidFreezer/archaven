@@ -661,8 +661,48 @@
 								"style": "w3-pale-green"
 							}
 						}
+					]
+				},
+				{
+					"level": 4,
+					"picks": [
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							},
+							"replace": "tipofthespear",
+							"comment": "Tip of the Spear was mostly just there for movement and you picked up the excellent Head of the Hammer bottom action for movement, making Tip less necessary. We are swamped with Air currently, which we have limited use for, but overall it's still just most important to use the actions that are best and most flexible for us, rather than worry about spending every element we create."
+						}
 					],
-					"sideboard": [
+					"hand": [
+						{
+							"card": "javelin",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Pull</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
 						{
 							"card": "rallyingcry",
 							"top": {
@@ -672,9 +712,749 @@
 							"bottom": {
 								"text": "Move 2",
 								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
 							},
-							"replace": "atallcosts",
-							"comment": "on this condition"
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "regroup",
+							"top": {
+								"text":"Ranged heal, <i>Regen</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move allies",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"picks": [
+						{
+							"card": "holdtheline",
+							"top": {
+								"text":"Tanking Shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Shield, Retal. loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "javelin",
+							"comment": "Hold the Line is what we have been waiting for, a proper tanking card.<p>Javelin was certainly long in the tooth by now and was directly upgraded already with Air Support. We're happy to have the chance to finally cut it. Regroup is still hanging around just because of how valuable between-room healing is for a tank.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "holdtheline",
+							"top": {
+								"text":"Tanking Shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Shield, Retal. loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "regroup",
+							"top": {
+								"text":"Ranged heal, <i>Regen</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move allies",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"picks": [
+						{
+							"card": "bolsteringshout",
+							"top": {
+								"text":"Heal, Regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Pull",
+								"style": "w3-pale-red"
+							},
+							"replace": "regroup",
+							"comment": "Bolstering Shout gives us a very easy direct replacement to Regroup that lets us finally cut it.<p>Healing is valuable to a tank and this is just some really solid healing with some occasional bonus utility on bottom.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "holdtheline",
+							"top": {
+								"text":"Tanking Shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Shield, Retal. loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bolsteringshout",
+							"top": {
+								"text":"Heal, Regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Pull",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"picks": [
+						{
+							"card": "trithrust",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "rallyingcry",
+							"comment": "The free damage and modifier flips from the bottom are excellent and we can eventually potentially consider using the top once we reach level 8.<p>Tri-Thrust replaces Rallying Cry. Rallying Cry is still good but it and Combined Effort are our least important cards. Cutting Combined Effort first would make it much harder to even use Rallying Cry, so it makes sense to cut Rallying Cry first.</p><p>Tri-Thrust should absolutely only be viewed as a bottom action at this point - and it is an excellent bottom action. There are a number of excellent attack modifiers you're happy to try to draw out as a tank, most significantly the Shield, Heal, and Disarm. Getting to flip this many modifiers for free on a bottom action is amazing value.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "holdtheline",
+							"top": {
+								"text":"Tanking Shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Shield, Retal. loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bolsteringshout",
+							"top": {
+								"text":"Heal, Regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Pull",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "trithrust",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"picks": [
+						{
+							"card": "tauntinghowl",
+							"top": {
+								"text":"Pull, Shield, Loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Move allies",
+								"style": "w3-pale-green"
+							},
+							"replace": "combinedeffort",
+							"comment": "We take Taunting Howl. Sweeping Aid's healing would be nice but Taunting Howl is just too good. Sure, we're not overly focused on patterns, but this still does let us Tri-Thrust top against singular strong enemies. Our allies will always appreciate free movement. And it's important to set up our eventual level 9 card.<p>Taunting Howl provides a substantially better bottom action with much better initiative, and now we can even start looking at using the top of Tri-Thrust as well.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "holdtheline",
+							"top": {
+								"text":"Tanking Shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Shield, Retal. loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "trithrust",
+							"top": {
+								"text":"Attack 7, Stun",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bolsteringshout",
+							"top": {
+								"text":"Heal, Regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Pull",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tauntinghowl",
+							"top": {
+								"text":"Pull, Shield, Loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Move allies",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"picks": [
+						{
+							"card": "takenoprisoners",
+							"top": {
+								"text":"AoE Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Summon Banner",
+								"style": "w3-pale-red"
+							},
+							"replace": "deflectingmaneuver",
+							"comment": "We take Take No Prisoners for the top. While we haven't been heavily focused on setting up patterns, obviously the power level of Take No Prisoners justifies itself pretty easily. And AoE damage and Poison have solid synergy with a tank build as we naturally want to extend fights, which means the lower damage AoE and Poison will generate substantial value. And the pattern doesn't need to be much of a challenge for us again thanks to the wonderful Taunting Howl."
+						}
+					],
+					"hand": [
+						{
+							"card": "holdtheline",
+							"top": {
+								"text":"Tanking Shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Shield, Retal. loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "takenoprisoners",
+							"top": {
+								"text":"AoE Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Summon Banner",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "trithrust",
+							"top": {
+								"text":"Attack 7, Stun",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "airsupport",
+							"top": {
+								"text":"AoE shield killer",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Flying summon",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bolsteringshout",
+							"top": {
+								"text":"Heal, Regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Pull",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tauntinghowl",
+							"top": {
+								"text":"Pull, Shield, Loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Move allies",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							},
+							"replace": "meatgrinder",
+							"comment": "Deflecting Manoeuvre can be brought back in scenarios with a lot of ranged attackers, replacing Meat Grinder."
 						}
 					]
 				}
@@ -1113,7 +1893,7 @@
 							},
 							{
 								"id": "105",
-								"comment": "The Fireshield Potion wasn’t even worth mentioning, but the jump from Retaliate 1 to Retaliate 2 is a really big deal, making the Major Fireshield Potion absolutely worthwhile if you’d like to add some offensive power to your tanking. The choice between this and Stonewall is really going to come down to whether your party needs more protection or damage."
+								"comment": "The Fireshield Potion wasn't even worth mentioning, but the jump from Retaliate 1 to Retaliate 2 is a really big deal, making the Major Fireshield Potion absolutely worthwhile if you'd like to add some offensive power to your tanking. The choice between this and Stonewall is really going to come down to whether your party needs more protection or damage."
 							}
 						]
 					}

@@ -1,9 +1,10 @@
 #!/home/archid/python/.archaven/bin/python
 
+import argparse
 import json
 import jmespath
 
-def html_top(build):
+def html_header(build):
 	hf.write(f'''<!DOCTYPE html>
 <html>
 <head>
@@ -25,28 +26,30 @@ def html_top(build):
 	<button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
 </header>
 
+<!-- Body -->
 <div class="w3-container" style="margin-top:60px;z-index:-1;">
 	''')
 
 def html_overview():
 	hf.write('''
-	<div class="w3-container">
-		<h2 id="overview">Overview</h2>
+	<!-- Overview -->
+	<button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+	<div id="acc-overview" class="w3-container w3-hide">
 	''')
 
 	paras=jmespath.search("overview.body[]", jbuild)
 	for para in paras:
-		hf.write(f'''	<p>{para}''')
+		hf.write(f'''	<p>{para}</p>''')
 	
 	paras=jmespath.search("overview.benefits[]", jbuild)
 	if len(paras) > 0:
 		hf.write(f'''
-		<p>So why would you play a {build} Build?
-		<ul>
-		''')
+		<p>So why would you play a {build} Build?</p>
+		<ul>''')
 
 		for para in paras:
-			hf.write(f'''		<li>{para}''')
+			hf.write(f'''
+			<li>{para}</li>''')
 
 		hf.write(f'''
 		</ul>
@@ -55,23 +58,24 @@ def html_overview():
 	paras=jmespath.search("overview.preferences[]", jbuild)
 	if len(paras) > 0:
 		hf.write(f'''
-		<p>The tank build loves the following:
-		<ul>
-		''')
+		<p>The tank build loves the following:</p>
+		<ul>''')
 	
 		for para in paras:
-			hf.write(f'''		<li>{para}''')
+			hf.write(f'''
+			<li>{para}</li>''')
 	
 		hf.write('''
 		</ul>
 		''')
 	
 	hf.write('''
-	</div>
+	</div> <!-- overview -->
 	''')
 
 def html_build_decks():
 	hf.write('''
+	<!-- Build Decks -->
 	<div class="w3-container">
 		<h2 id="deck">Build Deck</h2>
 	''')
@@ -87,11 +91,11 @@ def html_build_decks():
 		html_openers(level)
 		
 		hf.write(f'''
-		</div>
+		</div> <!-- level {level} -->
 		''')
 	
 	hf.write('''
-	</div>
+	</div> <!-- build deck -->
 	''')
 
 def html_openers(level):
@@ -108,8 +112,7 @@ def html_openers(level):
 
 		hf.write('''
 				</div>
-			</div> <!-- openers container -->
-		''')
+			</div> <!-- openers -->''')
 
 def html_opener_card(jopener):
 	basic=jmespath.search("[label, overview]", jopener)
@@ -125,9 +128,9 @@ def html_opener_card(jopener):
 		card+=(f'''
 							<div class="w3-container w3-cell">
 								<img class="card-small" src="{cardimages[round[0]]}"/>
-								<p>
+								<p></p>
 								<img class="card-small" src="{cardimages[round[1]]}"/>
-								<p>{round[2]}
+								<p>{round[2]}</p>
 							</div>
 		''')
 
@@ -147,15 +150,15 @@ def html_hand(level):
 			<div id="acc-{level}-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.
+					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		''')
 		for jcard in jhand:
 			hf.write(html_hand_card(jcard))
 			
-		hf.write('''
+		hf.write(f'''
 					</div>
-				</div> <!-- default container -->
+				</div> <!-- default level {level} cards -->
 		''')
 	
 	jsideboard=jmespath.search(f"levels[?level==`{level}`].sideboard[]", jbuild)
@@ -163,17 +166,17 @@ def html_hand(level):
 		hf.write('''
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Sideboard Cards</h3>
-					<p>These are cards that may be swapped in based on quest requirements
+					<p>These are cards that may be swapped in based on quest requirements</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		''')
 
 		for jcard in jsideboard:
 			hf.write(html_sideboard_card(jcard))
 
-		hf.write('''
+		hf.write(f'''
 					</div>
-				</div> <!-- sideboard container -->
-			</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level {level} hand -->
 		''')
 
 def html_sideboard_card(jcard):
@@ -182,18 +185,18 @@ def html_sideboard_card(jcard):
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="{cardimages[data[0]]}"/>
-								<p class="{data[2]}">{data[1]}
-								<p class="{data[4]}">{data[3]}
+								<img class="card-small" src="{cardimages[data[0]]}">
+								<p class="{data[2]}">{data[1]}</p>
+								<p class="{data[4]}">{data[3]}</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="{cardimages[data[5]]}"/>
-								<p class="w3-light-grey">-
-								<p class="w3-light-grey">-
+								<img class="card-small" src="{cardimages[data[5]]}">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>{data[6]}
+								<p>{data[6]}</p>
 							</div>
 						</div>
 	'''
@@ -204,9 +207,9 @@ def html_hand_card(jcard):
 	card=f'''
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="{cardimages[data[0]]}"/>
-								<p class="{data[2]}">{data[1]}
-								<p class="{data[4]}">{data[3]}
+								<img class="card-med" src="{cardimages[data[0]]}">
+								<p class="{data[2]}">{data[1]}</p>
+								<p class="{data[4]}">{data[3]}</p>
 							</div>
 						</div>
 	'''
@@ -234,25 +237,25 @@ def html_new_cards(level):
 
 		hf.write(html_new_card(id, builddata))
 
-	hf.write('''
+	hf.write(f'''
 				</div>
-				<p>
-			</div>
+				<p></p>
+			</div> <!-- new level {level} cards -->
 	''')
 
 def html_new_card(id, data):
 	card=f'''
 					<div class="w3-card-4">
 						<div class="w3-container w3-cell">
-							<img class="card-med" src="{cardimages[id]}"/>
+							<img class="card-med" src="{cardimages[id]}">
 						</div>
 						<div class="w3-container w3-cell w3-cell-middle">
-							<p>{data[0]}
+							<p>{data[0]}</p>
 							<hr>
-							<p>{data[1]}
+							<p>{data[1]}</p>
 						</div>
 						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-							<p>{data[2]}
+							<p>{data[2]}</p>
 						</div>
 					</div>
 	'''
@@ -271,7 +274,7 @@ def html_choices(level):
 			hf.write(f'''
 				<div class="w3-container">
 					<h3 class="w3-light-grey">{choice[0]}</h3>
-					<p>{choice[1]}
+					<p>{choice[1]}</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 			''')
 
@@ -279,42 +282,41 @@ def html_choices(level):
 			for card in cards:
 				hf.write(f'''
 						<div class="w3-card-4" style="width:250px">
-							<img class="card-med" src="{cardimages[card[0]]}"/>
-							<p class="w3-container">{card[1]}
+							<img class="card-med" src="{cardimages[card[0]]}">
+							<p class="w3-container">{card[1]}</p>
 						</div>
 				''')
 				
 			hf.write('''
 					</div>
-				</div>
-			''')
+				</div>''')
 		hf.write('''
-			</div>
+			</div> <!-- choices -->
 		''')
 
 def html_perks():
 	perks=jmespath.search(f"sort_by(perks, &order)[*][name,effect]", jbuild)
 	if len(perks) > 0:
 		hf.write('''
+	<!-- Perks -->
 	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
 	<div id="acc-perks" class="w3-container w3-hide">
-		<table class="w3-table w3-striped w3-border">
-	''')
+		<table class="w3-table w3-striped w3-border">''')
 
 		for perk in perks:
 			hf.write(f'''
-			<tr><td>{perk[0]}</td><td>{perk[1]}</td></tr>
-			''')
+			<tr><td>{perk[0]}</td><td>{perk[1]}</td></tr>''')
 	
 		hf.write('''
 		</table>
-	</div>
-		''')
+	</div> <!-- perks -->
+	''')
 
 def html_items():
 	jitems=jmespath.search("items", jbuild)
 	if len(jitems) > 0:
 		hf.write(f'''
+	<!-- Items -->
 	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
 	<div id="acc-items" class="w3-container w3-hide">
 		<div class="w3-container w3-light-grey">{jmespath.search("comments", jitems)}</div>
@@ -327,7 +329,7 @@ def html_items():
 			hf.write(f'''
 		<button id="items-{levelid}" onclick="accClick('acc-items-{levelid}')" class="w3-btn w3-block w3-left-align"><h4>{level}</h4></button>
 		<div id="acc-items-{levelid}" class="w3-container w3-hide">
-			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</div>
+			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</p></div>
 			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 			''')
 			picks=jmespath.search("picks", jlevel)
@@ -335,24 +337,24 @@ def html_items():
 				data=jmespath.search("[id,comment]", jpick)
 				hf.write(f'''
 				<div class="w3-card-4" style="width:250px">
-					<img class="card-med" src="{itemimages[data[0]]}"/>
-					<p class="w3-container">{data[1]}
+					<img class="card-med" src="{itemimages[data[0]]}">
+					<p class="w3-container">{data[1]}</p>
 				</div>
 				''')
 				
 			hf.write('''
 			</div>
-		</div>
-			''')
+		</div>''')
 	
 		hf.write('''
-	</div>
+	</div> <!-- items -->
 		''')
 
 def html_potions():
 	jpotions=jmespath.search("potions", jbuild)
 	if len(jpotions) > 0:
 		hf.write(f'''
+	<!-- Potions -->
 	<button id="potions" onclick="accClick('acc-potions')" class="w3-btn w3-block w3-left-align"><h2>Potions</h2></button>
 	<div id="acc-potions" class="w3-container w3-hide">
 		<div class="w3-container w3-light-grey">{jmespath.search("comments", jpotions)}</div>
@@ -364,7 +366,7 @@ def html_potions():
 			hf.write(f'''
 		<button id="items-{numherbs}" onclick="accClick('acc-items-{numherbs}')" class="w3-btn w3-block w3-left-align"><h4>{numherbs} Herb</h4></button>
 		<div id="acc-items-{numherbs}" class="w3-container w3-hide">
-			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</div>
+			<div class="w3-container w3-light-grey"><p>{jmespath.search("comments", jlevel)}</p></div>
 			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 			''')
 			picks=jmespath.search("picks", jlevel)
@@ -372,18 +374,17 @@ def html_potions():
 				data=jmespath.search("[id,comment]", jpick)
 				hf.write(f'''
 				<div class="w3-card-4" style="width:250px">
-					<img class="card-med" src="{itemimages[data[0]]}"/>
-					<p class="w3-container">{data[1]}
+					<img class="card-med" src="{itemimages[data[0]]}">
+					<p class="w3-container">{data[1]}</p>
 				</div>
 				''')
 				
 			hf.write('''
 			</div>
-		</div>
-			''')
+		</div>''')
 	
 		hf.write('''
-	</div>
+	</div> <!-- potions -->
 		''')
 	
 def html_footer():
@@ -396,7 +397,7 @@ def html_footer():
 		txt+=f''' (<a href="{url}">{url}</a>)'''
 		
 	hf.write(f'''
-</div>
+</div> <!-- body -->
 
 <footer class="w3-container w3-teal">
 	<div style="font-size:0.8rem">{txt}</div>
@@ -410,21 +411,26 @@ def get_build_name(id, build):
 	classname = jmespath.search(f"classes[?id=='{id}'].label|[0]", jclasses)
 	return classname + " " + build
 
-def get_card_images():
+def cache_card_images():
 	cards = jmespath.search("[*].[image, id]", jclasscards)
 	for data in cards:
 		img=f"images/frosthaven/{data[0]}"
 		cardimages.update({data[1]: img})
 
-def get_item_images():
+def cache_item_images():
 	items = jmespath.search("items[*].[image, id]", jitems)
 	for data in items:
 		img=f"images/frosthaven/{data[0]}"
 		itemimages.update({data[1]: img})
 
-buildid="bn-tank"
+parser = argparse.ArgumentParser(
+                    prog='parse-build',
+                    description='Reads a json file containing Frosthaven character build data and produces a static html page from it.',
+                    epilog='This needs to be used with the archaven github repository file structure.')
+parser.add_argument('buildid')           # positional argument
+args = parser.parse_args()
 
-# Read our json card data
+# Read our json data files
 with open('../data/card-data.json') as fd:
 	jcards = json.load(fd)
 
@@ -438,10 +444,10 @@ with open(f'../data/build-data.json') as fd:
 	jbuilds = json.load(fd)
 
 # Open the output html file
-hf = open(f"../html/{buildid}.html", "w")
+hf = open(f"../html/{args.buildid}.html", "w")
 
 # Get the specific build
-jbuild=jmespath.search(f"builds[?id=='{buildid}']|[0]", jbuilds)
+jbuild=jmespath.search(f"builds[?id=='{args.buildid}']|[0]", jbuilds)
 
 classid=jmespath.search("classid", jbuild)
 build=jmespath.search("build", jbuild)
@@ -450,14 +456,14 @@ buildname=get_build_name(classid, build)
 # Get the cards json for only our class
 jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)
 
-# We reuse card so create a cache of their image path
+# We reuse cards and items so create a cache of their image paths
 cardimages = dict()
-get_card_images()
+cache_card_images()
 
 itemimages = dict()
-get_item_images()
+cache_item_images()
 
-html_top(buildname)
+html_header(buildname)
 html_overview()
 html_build_decks()
 html_perks()

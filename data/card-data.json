@@ -3111,16 +3111,6 @@
 			"classid": "hv"
 		},
 		{
-			"name": "shield spider",
-			"expansion": "frosthaven",
-			"image": "character-ability-cards/hv/fh-swarming-bulwark.png",
-			"id": "swarmingbulwark",
-			"level": "8",
-			"initiative": "96",
-			"cardno": "413",
-			"classid": "hv"
-		},
-		{
 			"name": "triage program",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/hv/fh-triage-program.png",
@@ -5062,16 +5052,6 @@
 		},
 		{
 			"name": "foxhole",
-			"expansion": "frosthaven",
-			"image": "character-ability-cards/ta/fh-foxhole.png",
-			"id": "foxhole",
-			"level": "7",
-			"initiative": "90",
-			"cardno": "296",
-			"classid": "ta"
-		},
-		{
-			"name": "defense grid",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/ta/fh-foxhole.png",
 			"id": "foxhole",

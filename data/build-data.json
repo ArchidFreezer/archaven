@@ -277,6 +277,21 @@
 							]
 						}
 					],
+					"picks": [
+						{
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "atallcosts",
+							"comment": "this is a better card"
+						}
+					],
 					"hand": [
 						{
 							"card": "javelin",
@@ -401,7 +416,7 @@
 								"style": "w3-pale-green"
 							},
 							"replace": "atallcosts",
-							"condition": "on this condition"
+							"comment": "on this condition"
 						}
 					]
 				}

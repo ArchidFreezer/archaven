@@ -171,7 +171,7 @@ def html_hand(level):
 		''')
 
 		for jcard in jsideboard:
-			hf.write(html_sideboard_card(jcard))
+			hf.write(html_hand_replacement_card(jcard))
 
 		hf.write(f'''
 					</div>
@@ -179,8 +179,8 @@ def html_hand(level):
 			</div> <!-- level {level} hand -->
 		''')
 
-def html_sideboard_card(jcard):
-	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style, replace, condition]", jcard)
+def html_hand_replacement_card(jcard):
+	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style, replace, comment]", jcard)
 	card=f'''
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
@@ -219,6 +219,7 @@ def html_new_cards(level):
 	hf.write(f'''
 			<button id="level-{level}-new" onclick="accClick('acc-{level}-new')" class="w3-btn w3-block w3-left-align">New Level {level} Cards</button>
 			<div id="acc-{level}-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
 				<div class="w3-flex" style="gap:4px;flex-direction:column">
 	''')
 	
@@ -238,7 +239,24 @@ def html_new_cards(level):
 		hf.write(html_new_card(id, builddata))
 
 	hf.write(f'''
-				</div>
+				</div> <!-- new cards -->''')
+
+	jpicks=jmespath.search(f"levels[?level==`{level}`].picks[]", jbuild)
+	if len(jpicks) > 0:
+		hf.write('''
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		''')
+
+		for jcard in jpicks:
+			hf.write(html_hand_replacement_card(jcard))
+
+		hf.write('''
+					</div>
+				</div> <!-- new picks -->''')
+				
+	hf.write(f'''
 				<p></p>
 			</div> <!-- new level {level} cards -->
 	''')
@@ -269,7 +287,6 @@ def html_choices(level):
 			<div id="acc-{level}-choices" class="w3-container w3-hide">
 		''')
 	
-		choices=jmespath.search(f"levels[?level == `{level}`].choices[].[label,overview]", jbuild)
 		for choice in choices:
 			hf.write(f'''
 				<div class="w3-container">

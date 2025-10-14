@@ -277,21 +277,6 @@
 							]
 						}
 					],
-					"picks": [
-						{
-							"card": "rallyingcry",
-							"top": {
-								"text":"AoE attack",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Move 2",
-								"style": "w3-pale-green"
-							},
-							"replace": "atallcosts",
-							"comment": "this is a better card"
-						}
-					],
 					"hand": [
 						{
 							"card": "javelin",
@@ -400,6 +385,279 @@
 							},
 							"bottom": {
 								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"picks": [
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "atallcosts",
+							"comment": "Tank builds take Meat Grinder mostly just for the bottom action. As a tank, any amount of additional free healing will be welcome.<p>At All Costs is our least useful card as we are not here for damage so don't need the ally placement for AoE attacks.</p>"
+						},
+						{
+							"card": "pincermovement",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move and Loot",
+								"style": "w3-pale-green"
+							},
+							"replace": "resolvedcourage",
+							"comment": "Without the Reinforcement summon, Resolved Courage is much less realistic to use. And overall these were just your two least essential cards. Pincer Movement is here pretty much entirely for the loot."
+						}
+					],
+					"hand": [
+						{
+							"card": "javelin",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Pull</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "regroup",
+							"top": {
+								"text":"Ranged heal, <i>Regen</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move allies",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "tipofthespear",
+							"top": {
+								"text":"AoE anti-shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pincermovement",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move and Loot",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"picks": [
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							},
+							"replace": "pincermovement",
+							"comment": "Tank builds take Head of the Hammer for that very valuable bottom action, replaciong Pincer Movement as our least useful card, short lived though it was."
+						}
+					],
+					"hand": [
+						{
+							"card": "javelin",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Pull</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "deflectingmaneuver",
+							"top": {
+								"text":"Attack 2 (adv.)",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged defence",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rallyingcry",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "combinedeffort",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "regroup",
+							"top": {
+								"text":"Ranged heal, <i>Regen</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move allies",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "unbreakablewall",
+							"top": {
+								"text":"Attack, <i>Push</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent Shield 1",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "headofthehammer",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4 + Muddle",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "setforthecharge",
+							"top": {
+								"text": "Persistent adj. damage",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, Fast",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "meatgrinder",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tipofthespear",
+							"top": {
+								"text":"AoE anti-shield",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
 								"style": "w3-pale-green"
 							}
 						}

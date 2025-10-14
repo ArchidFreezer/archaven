@@ -158,26 +158,28 @@ def html_hand(level):
 			
 		hf.write(f'''
 					</div>
-				</div> <!-- default level {level} cards -->
+				</div> <!-- standard level {level} cards -->
 		''')
 	
-	jsideboard=jmespath.search(f"levels[?level==`{level}`].sideboard[]", jbuild)
-	if len(jsideboard) > 0:
-		hf.write('''
+		jsideboard=jmespath.search(f"levels[?level==`{level}`].sideboard[]", jbuild)
+		if len(jsideboard) > 0:
+			hf.write('''
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Sideboard Cards</h3>
 					<p>These are cards that may be swapped in based on quest requirements</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-		''')
+			''')
 
-		for jcard in jsideboard:
-			hf.write(html_hand_replacement_card(jcard))
+			for jcard in jsideboard:
+				hf.write(html_hand_replacement_card(jcard))
 
-		hf.write(f'''
+			hf.write(f'''
 					</div>
-				</div> <!-- sideboard cards -->
+				</div> <!-- sideboard cards -->''')
+				
+		hf.write(f'''
 			</div> <!-- level {level} hand -->
-		''')
+			''')
 
 def html_hand_replacement_card(jcard):
 	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style, replace, comment]", jcard)

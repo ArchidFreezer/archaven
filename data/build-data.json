@@ -1055,6 +1055,7 @@
 				},
 				{
 					"level": 7,
+					"handcomment": "You now have three Air spenders with only two Air generators, but this shouldn't be an issue. Sometimes you'll have three adjacent enemies for Tri-Thrust, some amount of the time an ally won't need to be healed with Bolstering Shout, and sometimes you'll use the bottom of Deflecting Manoeuvre instead of the top. Just prioritize the Air on what's most important at the time.",
 					"picks": [
 						{
 							"card": "trithrust",
@@ -1185,6 +1186,7 @@
 				},
 				{
 					"level": 8,
+					"handcomment": "We can now use Tri-Thrust top when combined with Taunting Howl bottom which means we are back to potentially having an equal number of Air generators/consumers. We just need to make sure we set up the rounds correctly to proc the ones we want.",
 					"picks": [
 						{
 							"card": "tauntinghowl",

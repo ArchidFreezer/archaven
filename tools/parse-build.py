@@ -145,12 +145,17 @@ def html_opener_card(jopener):
 def html_hand(level):
 	jhand=jmespath.search(f"levels[?level==`{level}`].hand[]", jbuild)
 	if len(jhand) > 0:
+		jhandcomment=jmespath.search(f"levels[?level==`{level}`].handcomment", jbuild)
+		if len(jhandcomment) == 0:
+			comment="This is the default hand to use at this level, however it should be modified based on the quest."
+		else:
+			comment=jhandcomment[0]
 		hf.write(f'''
 			<button id="level-{level}-hand" onclick="accClick('acc-{level}-hand')" class="w3-btn w3-block w3-left-align">Level {level} Hand</button>
 			<div id="acc-{level}-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
+					<p>{comment}</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		''')
 		for jcard in jhand:

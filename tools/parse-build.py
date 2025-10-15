@@ -318,6 +318,24 @@ def html_choices(level):
 			</div> <!-- choices -->
 		''')
 
+def html_enhancements():
+	enhancements=jmespath.search(f"enhancements[].[card,position,enhancement,comment]", jbuild)
+	if not enhancements is None:
+		hf.write('''
+	<!-- Enhancements -->
+	<button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+	<div id="acc-enhancements" class="w3-container w3-hide">
+		<table class="w3-table w3-striped w3-border">''')
+
+		for enhancement in enhancements:
+			hf.write(f'''
+			<tr><td><img class="card-small" src="{cardimages[enhancement[0]]}"></td><td>{enhancement[1]}</td><td>{enhancement[2]}</td><td>{enhancement[3]}</td></tr>''')
+	
+		hf.write('''
+		</table>
+	</div> <!-- enhancements -->
+	''')
+	
 def html_perks():
 	perks=jmespath.search(f"sort_by(perks, &order)[*][name,effect]", jbuild)
 	if len(perks) > 0:
@@ -496,6 +514,7 @@ cache_item_images()
 html_header(buildname)
 html_overview()
 html_build_decks()
+html_enhancements()
 html_perks()
 html_items()
 html_potions()

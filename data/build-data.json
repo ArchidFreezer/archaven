@@ -1463,54 +1463,59 @@
 			],
 			"perks": [
 				{
-					"order": 1,
-					"name": "Gifted",
-					"effect": "Ignore negative item effect<br>Remove -1"
-				},
-				{
-					"order": 2,
-					"name": "Iron Will",
-					"effect": "Once per scenarion gain +2 Shield"
-				},
-				{
-					"order": 3,
-					"name": "Into the Breach",
-					"effect": "When you open a door gain +3 Move"
-				},
-				{
-					"order": 4,
-					"name": "Bruiser",
-					"effect": "Replace -1 with rolling +1 Shield"
-				},
-				{
-					"order": 5,
-					"name": "Subdue",
-					"effect": "Add +1 Disarm"
-				},
-				{
-					"order": 6,
-					"name": "Recover",
-					"effect": "Add rolling +1 Health"
-				},
-				{
-					"order": 7,
-					"name": "Tireless Leadership",
-					"effect": "After long rest range 3 ally gains +2 Move"
-				},
-				{
-					"order": 8,
-					"name": "Technique",
-					"effect": "Add rolling +1"
-				},
-				{
-					"order": 9,
-					"name": "Shove",
-					"effect": "Add +2, Push 1"
-				},
-				{
-					"order": 10,
-					"name": "Overwhelm",
-					"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+					"comment": "The Tanking perks are slightly different than standard and we start by enabling the heavy armour.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Gifted",
+							"effect": "Ignore negative item effect<br>Remove -1"
+						},
+						{
+							"order": 2,
+							"name": "Iron Will",
+							"effect": "Once per scenarion gain +2 Shield"
+						},
+						{
+							"order": 3,
+							"name": "Into the Breach",
+							"effect": "When you open a door gain +3 Move"
+						},
+						{
+							"order": 4,
+							"name": "Bruiser",
+							"effect": "Replace -1 with rolling +1 Shield"
+						},
+						{
+							"order": 5,
+							"name": "Subdue",
+							"effect": "Add +1 Disarm"
+						},
+						{
+							"order": 6,
+							"name": "Recover",
+							"effect": "Add rolling +1 Health"
+						},
+						{
+							"order": 7,
+							"name": "Tireless Leadership",
+							"effect": "After long rest range 3 ally gains +2 Move"
+						},
+						{
+							"order": 8,
+							"name": "Technique",
+							"effect": "Add rolling +1"
+						},
+						{
+							"order": 9,
+							"name": "Shove",
+							"effect": "Add +2, Push 1"
+						},
+						{
+							"order": 10,
+							"name": "Overwhelm",
+							"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+						}
+					]
 				}
 			],
 			"items": {
@@ -3766,54 +3771,84 @@
 			],
 			"perks": [
 				{
-					"order": 1,
-					"name": "Inoculation",
-					"effect": "Ignore negative scenario effects<p>2x +1</p>"
+					"comment": "The first perk I’ll always take on the Boneshaper is the Aesther perk as it is just such good value on a class that’s going to have a large attack modifier deck and make a lot of low-value summon attacks.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Inoculation",
+							"effect": "Ignore negative scenario effects<p>2x +1</p>"
+						}
+					]
 				},
 				{
-					"order": 2,
-					"name": "Intensify",
-					"effect": "Replace -2 with +0"
+					"comment": "Now I’m just interested in removing as many negatives as possible from my attack modifier deck, as pretty much any class. I’ll replace the -2 first just to give some more predictability (knowing I can only hit a -1 or higher) and because when performing a bunch of Attack 2’s, a -2 is typically a miss. Then I’ll do the -1 curse replacement perks followed by the -1 poison replacement perks. Poison is great for us but accordingly we may already be attacking poisoned enemies and poison doesn’t stack, whereas we can always use more curses.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Intensify",
+							"effect": "Replace -2 with +0"
+						},
+						{
+							"order": 2,
+							"name": "Malediction",
+							"effect": "Replace -1 with +0 <i>Curse</i>"
+						},
+						{
+							"order": 3,
+							"name": "Rankle",
+							"effect": "Replace -1 with +0 <i>Poison</i>"
+						}
+					]
 				},
 				{
-					"order": 3,
-					"name": "Malediction",
-					"effect": "Replace -1 with +0 <i>Curse</i>"
+					"comment": "The other perk I’ve been considering this whole time is the starting free summon perk. Generally, for a 2-mark perk like this, I want to try to time it such that I can just get the full perk at once by getting to three checks from battle goals at the same time as I level up (thus gaining two marks at once). The first time that happens for me, I’ll take this perk. If that hasn’t happened for me by the time I’ve replaced all of the negatives in my deck that I can, I’ll just start taking this perk now.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Death on Arrival",
+							"effect": "Start of the scenario perform summon"
+						}
+					]
 				},
 				{
-					"order": 4,
-					"name": "Rankle",
-					"effect": "Replace -1 with +0 <i>Poison</i>"
+					"comment": "The next perks I’m interested in are the rolling Boneshaper heal perks. In truth, I want to make sure I have both of these perks taken before I get to level 6 and get Rotting Multitude. I will take these before the negative replacement if I’m getting close to 6 and haven’t already finished the negative replacement perks.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Animate",
+							"effect": "3x Heal 1, target Boneshaper"
+						}
+					]
 				},
 				{
-					"order": 5,
-					"name": "Death on Arrival",
-					"effect": "Start of the scenario perform summon"
+					"comment": "I don’t have a strong personal preference for whether I like to take the 'blesses for killing summons' perk before or after the +0 into +1-4 replacement perks but I’ll take all of those perks now in whichever order.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Reclaimed Essence",
+							"effect": "Immediately before rest kill summons for a <i>Bless</i>"
+						},
+						{
+							"order": 2,
+							"name": "Tribute",
+							"effect": "Replace +0 with +1, kill attacking summons to add +4 instead"
+						}
+					]
 				},
 				{
-					"order": 6,
-					"name": "Animate",
-					"effect": "3x Heal 1, target Boneshaper"
-				},
-				{
-					"order": 7,
-					"name": "Reclaimed Essence",
-					"effect": "Immediately before rest kill summons for a <i>Bless</i>"
-				},
-				{
-					"order": 8,
-					"name": "Tribute",
-					"effect": "Replace +0 with +1, kill attacking summons to add +4 instead"
-				},
-				{
-					"order": 9,
-					"name": "Inhumation",
-					"effect": "Add +2 Earth/Dark"
-				},
-				{
-					"order": 10,
-					"name": "Soul Pact",
-					"effect": "Ally saving"
+					"comment": "Lastly I’ll take the +2 mixed element perks (and the ally-saving perk, in whichever order), taking them last not because they’re bad, but simply because I just always felt like there was somewhere else I wanted to spend my perk marks. In general, Boneshaper is extremely hungry for perk marks, having excellent non-AMD perks while also benefiting heavily from AMD perks by virtue of the amount of attacks we make.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Inhumation",
+							"effect": "Add +2 Earth/Dark"
+						},
+						{
+							"order": 2,
+							"name": "Soul Pact",
+							"effect": "Ally saving"
+						}
+					]
 				}
 			],
 			"items": {

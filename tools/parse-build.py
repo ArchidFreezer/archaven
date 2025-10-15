@@ -102,8 +102,8 @@ def html_openers(level):
 	openers=jmespath.search(f"openers[?level==`{level}`]", jbuild)
 	if len(openers) > 0:
 		hf.write(f'''
-			<button id="level-openers" onclick="accClick('acc-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
-			<div id="acc-openers" class="w3-container w3-hide">
+			<button id="level-openers" onclick="accClick('acc-{level}-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+			<div id="acc-{level}-openers" class="w3-container w3-hide">
 				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		''')
 		
@@ -519,6 +519,7 @@ for buildid in buildids:
 	classid=jmespath.search("classid", jbuild)
 	build=jmespath.search("build", jbuild)
 	buildname=get_build_name(classid, build)
+	print("Processing: " + buildname)
 
 	# Get the cards json for only our class
 	jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)

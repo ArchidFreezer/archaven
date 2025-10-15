@@ -57,7 +57,7 @@ hf.write('''{
 					"bottom": "",
 					"overall": ""
 				}
-			]
+			],
 			"levels": [
 				{
 					"level": 1,
@@ -131,7 +131,7 @@ hf.write('''{
 							"comment": "on this condition"
 						}
 					]
-				}
+				},
 				{
 					"level": x,
 					"handcomment": "",

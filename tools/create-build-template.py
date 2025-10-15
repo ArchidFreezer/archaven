@@ -130,6 +130,8 @@ hf.write('''{
 							"replace": "cardid",
 							"comment": "on this condition"
 						}
+					]
+				}
 				{
 					"level": x,
 					"handcomment": "",
@@ -200,6 +202,20 @@ hf.write('''{
 							"comment": "on this condition"
 						}
 					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "cardid",
+					"position": "top/bottom",
+					"enhancement": "",
+					"comment": ""
+				},
+				{
+					"card": "cardid",
+					"position": "top/bottom",
+					"enhancement": "",
+					"comment": ""
 				}
 			],
 			"perks": [

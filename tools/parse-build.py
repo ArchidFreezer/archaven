@@ -347,18 +347,16 @@ def html_perks():
 	
 		for jperk in jperks:
 			hf.write(f'''
-		<div class="w3-container">
-			<p class="w3-light-grey">{jmespath.search("comment", jperk)}</p>
-			<table class="w3-table w3-border">''')
+		<div class="w3-light-grey">{jmespath.search("comment", jperk)}</div>
+		<table class="w3-table w3-border">''')
 			
 			picks=jmespath.search(f"sort_by(picks, &order)[*][name,effect]", jperk)
 			for pick in picks:
 				hf.write(f'''
-				<tr><td>{pick[0]}</td><td>{pick[1]}</td></tr>''')
+			<tr><td width="250px">{pick[0]}</td><td>{pick[1]}</td></tr>''')
 		
 			hf.write('''
-			</table>
-		</div>
+		</table><br>
 ''')
 
 		hf.write('''

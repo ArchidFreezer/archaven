@@ -338,7 +338,7 @@ def html_perks():
 
 def html_items():
 	jitems=jmespath.search("items", jbuild)
-	if len(jitems) > 0:
+	if not jitems is None:
 		hf.write(f'''
 	<!-- Items -->
 	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
@@ -376,7 +376,7 @@ def html_items():
 
 def html_potions():
 	jpotions=jmespath.search("potions", jbuild)
-	if len(jpotions) > 0:
+	if not jpotions is None:
 		hf.write(f'''
 	<!-- Potions -->
 	<button id="potions" onclick="accClick('acc-potions')" class="w3-btn w3-block w3-left-align"><h2>Potions</h2></button>
@@ -452,13 +452,13 @@ parser = argparse.ArgumentParser(
                     description='Reads a json file containing Frosthaven character build data and produces a static html page from it.',
                     epilog='This needs to be used with the archaven github repository file structure.')
 parser.add_argument('buildid', help='build id to parse')           # positional argument
-parser.add_argument('-b', help='valid build json file to parse')
+parser.add_argument('-b', help='json file containing the build details')
 args = parser.parse_args()
 
 if (args.b):
 	buildfile=args.b
 else:
-	buildfile='mybuild-data.json'
+	buildfile='../data/build-data.json'
 	
 # Read our json data files
 with open('../data/card-data.json') as fd:

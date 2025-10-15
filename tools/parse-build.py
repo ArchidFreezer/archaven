@@ -126,11 +126,11 @@ def html_opener_card(jopener):
 	for jround in rounds:
 		round=jmespath.search("[top,bottom,strategy]", jround)
 		card+=(f'''
-							<div class="w3-container w3-cell">
+							<div class="w3-container w3-cell w3-center">
 								<img class="card-small" src="{cardimages[round[0]]}"/>
 								<p></p>
 								<img class="card-small" src="{cardimages[round[1]]}"/>
-								<p>{round[2]}</p>
+								<p style="width: 250px">{round[2]}</p>
 							</div>
 		''')
 

@@ -3756,6 +3756,14 @@
 					]
 				}
 			],
+			"enhancements": [
+				{
+					"card": "damnedhorde",
+					"position": "bottom",
+					"enhancement": "+1 Range",
+					"comment": "This is pretty filthy on this bottom action (as it's so much easier to get two enemies within range 3) and goes a long way towards empowering the Curse build for this class"
+				}
+			],
 			"perks": [
 				{
 					"order": 1,

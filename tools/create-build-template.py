@@ -60,7 +60,8 @@ hf.write('''{
 			]
 			"levels": [
 				{
-					"level": x,
+					"level": 1,
+					"handcomment": "",
 					"choices": [
 						{
 							"label": "Core",
@@ -91,6 +92,47 @@ hf.write('''{
 							]
 						}
 					],
+					"hand": [
+						{
+							"card": "cardid",
+							"top": {
+								"text":"",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cardid",
+							"top": {
+								"text":"",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "",
+								"style": "w3-pale-blue"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "cardid",
+							"top": {
+								"text":"",
+								"style": ""
+							},
+							"bottom": {
+								"text": "",
+								"style": ""
+							},
+							"replace": "cardid",
+							"comment": "on this condition"
+						}
+				{
+					"level": x,
+					"handcomment": "",
 					"picks": [
 						{
 							"card": "cardid",

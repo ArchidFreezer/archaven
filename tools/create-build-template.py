@@ -301,7 +301,7 @@ hf.write('''{
 						]
 					},
 					{
-						"numherbs": "",
+						"numherbs": "3",
 						"comments": "",
 						"picks": [
 							{

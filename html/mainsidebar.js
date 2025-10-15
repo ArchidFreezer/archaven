@@ -34,6 +34,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('bnDrop')">Banner Spear <i class="fa fa-caret-down"></i></button>
     <div id="bnDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="bn-main.html" class="w3-bar-item w3-button">Overview</a>
+			<a href="bn-banner.html" class="w3-bar-item w3-button">Banner</a>
 			<a href="bn-tank.html" class="w3-bar-item w3-button">Tank</a>
     </div>
   </div>

@@ -337,22 +337,33 @@ def html_enhancements():
 	''')
 	
 def html_perks():
-	perks=jmespath.search(f"sort_by(perks, &order)[*][name,effect]", jbuild)
-	if len(perks) > 0:
+	jperks=jmespath.search(f"perks[]", jbuild)
+	if len(jperks) > 0:
 		hf.write('''
 	<!-- Perks -->
 	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
 	<div id="acc-perks" class="w3-container w3-hide">
-		<table class="w3-table w3-striped w3-border">''')
-
-		for perk in perks:
-			hf.write(f'''
-			<tr><td>{perk[0]}</td><td>{perk[1]}</td></tr>''')
+''')	
 	
+		for jperk in jperks:
+			hf.write(f'''
+		<div class="w3-container">
+			<p class="w3-light-grey">{jmespath.search("comment", jperk)}</p>
+			<table class="w3-table w3-border">''')
+			
+			picks=jmespath.search(f"sort_by(picks, &order)[*][name,effect]", jperk)
+			for pick in picks:
+				hf.write(f'''
+				<tr><td>{pick[0]}</td><td>{pick[1]}</td></tr>''')
+		
+			hf.write('''
+			</table>
+		</div>
+''')
+
 		hf.write('''
-		</table>
 	</div> <!-- perks -->
-	''')
+''')
 
 def html_items():
 	jitems=jmespath.search("items", jbuild)

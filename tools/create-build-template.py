@@ -220,54 +220,34 @@ hf.write('''{
 			],
 			"perks": [
 				{
-					"order": 1,
-					"name": "",
-					"effect": ""
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "",
+							"effect": ""
+						},
+						{
+							"order": 2,
+							"name": "",
+							"effect": ""
+						}
+					]
 				},
 				{
-					"order": 2,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 3,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 4,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 5,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 6,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 7,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 8,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 9,
-					"name": "",
-					"effect": ""
-				},
-				{
-					"order": 10,
-					"name": "",
-					"effect": ""
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "",
+							"effect": ""
+						},
+						{
+							"order": 2,
+							"name": "",
+							"effect": ""
+						}
+					]
 				}
 			],
 			"items": {

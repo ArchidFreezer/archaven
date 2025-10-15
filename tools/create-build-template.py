@@ -36,7 +36,7 @@ hf.write('''{
 							"bottom": "cardid",
 							"strategy": ""
 						},
-												{
+						{
 							"top": "cardid",
 							"bottom": "cardid",
 							"strategy": ""

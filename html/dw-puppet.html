@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deathwalker Puppetmaster</title>
+	<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+	<button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+	<h1 class="w3-display-middle">Deathwalker Puppetmaster</h1>		
+	<button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+	
+	<!-- Overview -->
+	<button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+	<div id="acc-overview" class="w3-container w3-hide">
+		<p>The Puppetmaster build focuses on the Deathwalker's ability to attack from afar, and consume shadows in bulk for additional, powerful effects. This build has a higher emphasis on dark consumption, lower focus on keeping our shadow count high, and puts us in much less physical danger.</p>
+		<p>So why would you play a Puppetmaster Build?</p>
+		<ul>
+			<li>You don't enjoy getting in close with your low health pool. This build will take far fewer hits overall than the other build, so you aren't risking losing cards due to your low health pool. If you're doing your job right, you shouldn't really take any hits that you don't want to.</li>
+			<li>You like resource management. This build has to determine when and how to spend their shadows, and makes liberal use of dark with their abilities. You'll need to manage both pools of resources in order to maximize your impact.</li>
+			<li>You like big, bursty turns. A few times each scenario, you'll be able to spend a huge chunk of shadows for value that would otherwise be lost.</li>
+		</ul>
+		
+		<p>The tank build loves the following:</p>
+		<ul>
+			<li>A crowded frontline. Your shadows will weave around the enemies, but they don't block movement, so you'll never be in the way. Melee classes and summon classes in high player count parties will like that you can stand very far back.</li>
+			<li>Low damage and high crowd control. You deal a ton of damage but don't really have good ways to lock enemies down, so if others can hold them still you'll be able to take them out.</li>
+			<li>Additional payoff for curse. This build does a lot of damage, but in smaller, more spaced out instances, so it's more likely that you'll be able to apply curse here. If you have a party that benefits from this, such as a Critical Failure Boneshaper, then this is the way you can help them the most.</li>
+		</ul>
+		
+	</div> <!-- overview -->
+	
+	<!-- Build Decks -->
+	<div class="w3-container">
+		<h2 id="deck">Build Deck</h2>
+	
+		<button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+		<div id="acc-1" class="w3-container w3-hide">
+		
+			<button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+			<div id="acc-1-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>We can consume a number of shadows to increase our attack. Each shadow on its own provides low value, or moderate value if the enemy has shield. If we think of Fluid Night as +3 damage and increased ranged over the standard attack two, then it takes three shadows here to catch up.  If the shadows have alternate uses, or if you know you'll be able to get them to the next room at low cost, I would only use this against shielded enemies. Against those, each shadow gives +2 damage, which is a fairly decent use. Otherwise, I wouldn't bother.</p>
+							<hr>
+							<p>Adds wound to an enemy starting in or moving through a shadow, It's better if they start in the shadow as then it will tick immediately, but that isn't always possible.<p>In a narrow corridor this can be a great action, and can be paired with Eclipse to start a scenario.</p></p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a staple damage card with two good halves and great initiative.<p>There is one very significant reason we love this card: XP. More often than not, you will be leaving behind at least a few shadows in a room. When progressing to the next room, we can spend tons of actions getting them in half-decent position. Alternatively, we can use this top to blow up an enemy, gain up to five XP, and then be early to the next room and start marking enemies to make shadows immediately.</p><p>At worst this card is a fast move 2.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Black Barrage on top gives our first attack that doesn't care at all about shadows, but does care quite a bit about dark. This attack is very low risk, low reward. An attack 3 at very long range doesn't do a ton of damage, but it marks a key target at good (but not great) initiative and lets you perform the ability from a safe distance.</p>
+							<hr>
+							<p>The bottom is a happy medium between Wave of Anguish and Dark Fog in terms of shadow movement. We'll get to move all of our shadows, and we'll get to move them a moderate amount.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Another decent card.<p>The top is a fine attack to open the scenario with at lower levels, letting you mark a target that is likely to die and set up shadows for future rounds.</p><p>Just like the top, the bottom isn't flashy but it's solid and we're rarely upset to use this action.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>With a precisely placed shadow, you can hit a lot of things for free. This is similar to the loss from Lingering Rot, but it's much weaker, and muddles (with dark) Instead of poisons. I wouldn't bother emphasizing the dark on this action, as muddle isn't an amazing condition and it doesn't even get you an XP. Still, if lots of enemies are low, then you can use this to potentially pick up several shadows with lucky flips. Furthermore, some of your modifiers have great conditions, so this is a good way to dig for those.</p>
+							<hr>
+							<p>The bottom action is a core action that's not fancy, but gets the job done. We're about to see a few attacks that need darkness to function, unlike the top of this card, which can do without.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Being able to make the darkness while moving a decent bit, at a fine initiative, is a staple for elemental classes.<p>Most builds will prioritize the bottom of this card until they find more powerful ways to reliably make this element.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top action allows you to mark any enemy attacked by you or one of your summons. When a marked enemy dies, you may create a shadow in the figure's hex or in an adjacent hex. It is important to note that you do not have to be the one to land the killing blow; it is enough to mark an enemy, then have an ally, trap, wound, or other source of damage finish them off. You can only have one enemy marked at once, so when you attack a different enemy, you must choose (before pulling your modifier) whether to move the mark or leave it on the previous target. Remember that when performing multi-target attacks, you can choose the order of targets; whenever practical, you should choose to first attack targets that have a chance of dying, so that you can generate shadows from the kills and leave the last enemy marked. This will be the first or second action you play in nearly every scenario in every level of every build path. Through this action, you can consistently generate somewhere in the range of 3-5 shadows in a longer rest cycle, depending on how much health the enemies have.</p>
+							<hr>
+							<p>The bottom action reliably makes exactly one shadow per rest cycle. In some scenarios where the first room is extremely dangerous and your team needs you to act immediately, you can get away with using this on your first turn and doing something with shadows right away. In general, we would like to avoid using this, not because the action is bad, but because of the opportunity cost of not being able to use the top. Not having the top for an entire rest cycle will feel very bad, as you will make one shadow on bottom but lose at least two or three from the top.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Call to the Abyss is a 100% mandatory card for any Deathwalker. This is your only way to repeatedly make shadows at lower levels, and without shadows, your power is greatly diminished.<p>We would love to play both halves, and if you had an item or ally that can recover a card for you, you could open with the bottom of this card on the first round, recover the card, and play the top on turn two or three.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>A very straightforward loss. Hit three things in a triangle, curse the ones that live, make our core element, get an XP. This could have been in the Tinkerer's kit and we wouldn't have batted an eye. The only catch is that we're not always sure when we want to get the curses and when we want to get kills for more shadows. If we kill several targets in quick succession, we get multiple shadows; if the targets live, we get multiple curses. The flexibility between curses and shadows make this a highly potent action. Just be careful: it is tempting to use this every time we see a triangle, but between this, Call to the Abyss, and Eclipse, our stamina is precious. Try not to use this the first instant it comes up, or we won't be able to make it to the final room.</p>
+							<hr>
+							<p>Rather than moving all of our shadows a little, we move one shadow a lot. This will certainly get the shadow into proper position for actions like Fluid Night and Shadow Step, and will actually allow us to move at least one of our shadows to the next room, hopefully to teleport to.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>A powerful loss and a useful spammable bottom makes another good card, let down by a poor initiative.<p>For any build that relies on teleporting or frequent and precise shadow positioning, we're going to need this card.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This provides 3 shadows right away and you get some of your element as a nice kicker.<p>Of course, Call to the Abyss will generate more shadows over the course of a scenario. However, there are a few big reasons we might play Eclipse. First, Eclipse makes the shadows instantly. If there aren't low HP enemies that are likely to die in the first two rounds, you are going to be struggling without shadows at the start of the scenario. Eclipse can help you come online a bit faster. Because this isn't on the same card as Call to the Abyss, we can even do both!</p></p>
+							<hr>
+							<p>he bottom is actually very significant for us, as we don't have a large number of high movement actions. If your plan is to traverse the map by teleporting, then this probably won't make a very large difference. If, however, you need to walk from place to place, or need to traverse a room but not the whole map, then this action is fantastic. As a result, we're more than happy to lug this around in scenarios where we don't need it in the first room, and drop it in the last room. It will cost us a loss, but it will save us many turns of repositioning the shadows from room one into room three, and that's a win.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a core offering an additional method for making shadows if we need high tempo or a spammable move on the bottom.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>An attack 5 at any range that creates Dark, what's not to like.</p>
+							<hr>
+							<p>Spending a shadow to negate a hit is a very reasonable safety net. Ideally you won't be getting hit much when you don't want to, but if you do accidentally take one very large hit, you can use this to save your bacon. Unless you've shoved a shadow forwards in the midst of fighting, the teleport will probably not gain you much tempo in terms of positioning. However, since we can choose to skip this on small sources of damage and save it for big ones, this action is a fantastic use of a bottom action for whenever we have the spare time and don't need the top.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card is a high baseline for shadow consumption and every build that that is hoping to regularly consume them will love this card.<p>It also has a solid initiative.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Our last dark consumption was low risk low reward; here, we get the opposite. We have to get in close to get the damage off here. More often than I can count, I moved in to line up this double hit and lost a card or two for my troubles. If you can avoid the punishment, though, then this is insane value. Non-loss attack six is on par with our strongest actions, and the ability to split it on two targets means we'll very frequently be able to kill the first enemy and either mark or kill the second, for a total gain of two shadows.</p>
+							<hr>
+							<p>The bottom action is our second non-loss teleport at low levels. The extra benefit here is that we can choose to be adjacent to the shadow. It's not a huge gain, but that might amount to one extra movement point, which often lets us perform a melee attack that we otherwise couldn't. Also, if someone is taking up our desired shadow, we can still make progress.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>I typically try to initiative weave with this one, pairing it with a very fast or slow initiative to ensure that I don't end up being punished for the aggressive positioning that the top action requires.<p>The bottom is only let down by the fact that it prevents us using the top.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-lingering-rot.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top action is fantastic; this could theoretically be an attack on up to seven enemies if they clump up properly. Attack three and poison is very high value for an action with this many targets, so if we can hit at least 4 or 5 enemies, we're happy to run this loss. Since the enemies do need to clump first, we'll typically try to run this as the second card after opening a room, so that the enemies can walk up a bit first.</p>
+							<hr>
+							<p>Move 3 is fine, and the ability to make poison is fantastic. If our goal is to run melee attacks, we're going to love this card for our entire lifespan. If our goal is to deal our damage from a distance, we won't want to do this, both because it puts us in too much danger and because we need our bottom actions to position shadows for us.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The last shadow removal attack comes with a terrible initiative.<p>The card has a power loss on top and a spammable bottom though some builds do not use much movement via actions.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-rest-in-the-shade.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Our last action is our most situational. The top lets us heal everyone who is in a shadow. This requires a lot of coordination to heal more than two targets. In scenarios with lots of negative conditions, it might be worth posturing around, but most of the time it's just not efficient. Our shadows will be near the enemies, not near our allies, and moving them properly means we'll need to move them back to attack with in the future. It's a lot of work for a very situational effect, and we're usually better off preventing damage by killing things than by healing it after the fact.</p>
+							<hr>
+							<p>The bottom is again situational. Moving all shadows six is absolutely powerful, as it lets us keep our momentum from the first room moving into the third room. However, in some cases we won't have enough shadows to bother, or the walk will be too long to be worth it, or else too short to require this loss.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>There is definitely a support deathwalker build that you can attempt, but it's so dependent on who your allies are that I won't expand fully on it here. For that build, you will love this action. For damage-focused builds, it's underwhelming at best.<p>If the top was spammable, we'd be fine to bring this around, but unfortunately this card just doesn't make the cut.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-shadow-step.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Top movement is fantastic, especially when it comes with an attached attack. Unfortunately for us, we don't actually have any bottom attacks early, so this isn't really an extra attack so much as it is our only attack. Still, we can either combine this with a move to rapidly traverse the map towards an enemy, or combine it with some shadow movement to properly line up the hit. This isn't our strongest attack, but the movement is good enough that we're happy to have it.</p>
+							<hr>
+							<p>The bottom loss can be ok. An emergency shadow drop in your own space can help smooth down an awkward situation if you weren't able to get your marked target to die and really need a shadow to get anything done. The large movement and fast initiative will get you wherever you need to be before your targets move, so in a pinch this can work great. Most of the time, we won't plan to use this, but it will save our bacon in numerous occasions.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>So now that we have a reason to leave our shadows around, we need to know what to do with them. Shadow Step is a nice example of a card that cares about shadow positioning.<p>It has the great combination a spammable top and an emergency button loss on the bottom with great initiative.</p><p>Overall this is more a utility card with the possibility of an attack, but we will be happy to bring it along.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-strength-of-the-abyss.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top of this card justifies a world where we don't aim to consume shadows, but instead prefer to leave them on the map. If we have all of our shadows out, this will be an attack six as a non-loss action. That's incredibly strong. It'll definitely take a few turns to get there, especially if we don't run the loss on eclipse, but once we've got them, it'll be pretty easy for us to keep them up. Unless we're running something like Anger of the Dead that consumes multiple shadows at once, we typically expect our shadow gain to be net positive, so it's still going to be worth it to spend a shadow here or there for some extra value, but the bar for that value is that much higher now that the shadow will also cost us one damage on this attack if we don't replace it.</p>
+							<hr>
+							<p>The bottom is decent. We saw with our shadow consumption that adding +2 is fairly average in terms of what we can expect from consuming a shadow. Getting the ability to do that on every action is a very strong power. The unfortunate reality is that putting up this card as a loss just doesn't fit that well into what we're trying to accomplish. If we want to consume shadows for value as part of our build, then we don't want to spend shadows for the moderate value, we want them to produce insane value, like with Fluid Night. Conversely, if we are trying to gain value by virtue of shadows being present, then we want the top of this card instead. Even if we could play both, we can't really afford the stamina hit if we're trying to also play Call to the Abyss, Eclipse, and perhaps lose a card for a bursty turn. Finally, the movement typically won't find value as we can teleport whenever we really need a large step.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card has a strong top for the right build, but the bottom loss is difficult to justify and the initiative is awful.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Sunless Apparition lets us turn a shadow into a non-loss summon. Boneshaper spends health to make their skeletons; here, we spent a shadow to make our own friend. This summon has fantastic movement and damage, though it will die if a light breeze knocks it over. Expect to summon this late, have it run in and hit once, then die to an attack next round. Still, even in this worst case, this is effectively turning a shadow into an attack 3, disarm that also marks the target. If the summon happens to hit two or more times, this is insane value. We actually love the slow initiative here, because we want to summon late and then go quick next turn. If the summon dies before we get to hit, we're not very happy with it, so try to avoid that.</p>
+							<hr>
+							<p>The bottom is our first teleport, and it comes with a loot. The loot being before the movement means you'll need to move into position the previous turn, which is awkward if we're just teleporting away immediately, so don't expect this loot to get a lot of value if movement is at a premium. Still, being able to teleport across the map means you don't need to bring much movement for yourself if you're spending time moving your shadows anyway.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Another good card for us no matter our build.<p>With the summon we should play this action late and then use a fast initiative the following round to allow the summon to get its attack in.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-wave-of-anguish.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Another reward for keeping shadows on the map: an attack three stemming from each one. This requires the shadows to be precisely positioned to reach full value, but if you can make this an attack 15 at level 1, this loss can't be beat. The fact that you can use multiple shadows to hit the same target means it is easier than it looks to get massive value here. I wouldn't use this for three or fewer attacks, but 4 or 5 are absolutely worth your time.</p>
+							<hr>
+							<p>The bottom action gives us our first opportunity to manipulate shadow position. Move ourself two, then move each shadow a single hex. This isn't a ton of shadow movement, but it's good enough to position shadows already on the battlefield into slightly more advantageous positions. The main benefit here is that it lets us move as well, so for actions such as Shadow Step, where we need to be in a shadow, this is a nice way to line up the action. It's not really enough movement to move shadows from room to room, so we will either need to abandon our shadows or bring some additional options.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Our first shadow movement card. It's not a huge movement but can be useful.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<p></p>
+			</div> <!-- new level 1 cards -->
+	
+			<button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+			<div id="acc-1-choices" class="w3-container w3-hide">
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Shadow Management</h3>
+					<p>In order for anything we do to make sense, we're going to need shadows and the ability to manipulate them. We don't care much about moving ourself, so we rely on Dark Fog and Black Barrage to move our shadows around. Dark Fog is more important early, as it's difficult for us to move our shadows from room to room and we don't really need more than one or two in position at once anyway. As a result, we can use Black Barrage as an attack when necessary.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+							<p class="w3-container">Every build will generate shadows using Call to the Abyss, and most will rely on the top action in order to regularly generate shadows. We will want to play this on our first turn in most scenarios, although if the opening is particularly high pressure we can delay it until the second cycle.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+							<p class="w3-container">Can be run early for a high tempo start or to move ourselves around, htough we would prefer to use shadows for that later on.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+							<p class="w3-container">Used for the bottom shadow manipulation.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+							<p class="w3-container">Both the top attack and shadow manipulation bottom are useful for us.</p>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Attacks</h3>
+					<p>Fluid Night and Forceful Spirits are our best attacks by a wide margin. We shouldn't ever be in danger, so we won't need the bottom of Fluid Night. Forceful Spirits does require us to get reasonably close to the fight but we should be able to coordinate so either our tank secures our safety, or else we kill the enemies in question. Anger of the Dead serves as our way to convert excess shadows into value before we have the cards to move them to the next room, as well as a great source of XP. When used on a shielded enemy, we're getting good value for our shadows.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+							<p class="w3-container">Powerful shadow consuming attack.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+							<p class="w3-container">Ranged attack.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+							<p class="w3-container">Typically a ranged attack consuming shadows but the bottom can be used in our high-tempo opener.</p>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Movement and Utility</h3>
+					<p>We'll bring Call of Doom as dark generation, which we need more badly as we level up, but is still strong for Forceful Spirits now. Sunless Apparition is essential to teleport us ahead, and we're very happy to create the summon if we know we won't be moving to the next room before we rest.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+							<p class="w3-container">Dark generation with movement.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+							<p class="w3-container">Teleportation.</p>
+						</div>
+				
+					</div>
+				</div>
+			</div> <!-- choices -->
+		
+			<button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+			<div id="acc-1-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>Remember to leave no shadow behind. At the end of a room, you have two choices: try to move all of your shadows to the next room, or consume them all to avoid losing value (both damage and experience). Moving them all is slow for us now as we can only move one shadow more than 3 hexes for the entire rest cycle, so unless they're already near the doorway I'd go the other route until we're higher level. We can consume all of our shadows with Anger of the Dead for a huge chunk of XP, potentially summoning as well with Sunless Apparition if we have the time and the right hand size. It's often worth leaving behind one shadow, pushing it forwards with Dark Fog, and then either using it for Fluid Night or teleporting to it when you need to advance.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Teleport</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-lingering-rot.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move, <i>Poison</i></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+								<p class="w3-pale-blue">High tempo opener</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-wave-of-anguish.png">
+								<p class="w3-pale-red">S.Attack AoE</p>
+								<p class="w3-pale-green">Move + S. move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-pale-blue">Summon</p>
+								<p class="w3-pale-green">Loot, Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 1 cards -->
+		
+			</div> <!-- level 1 hand -->
+			
+			<button id="level-openers" onclick="accClick('acc-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+			<div id="acc-openers" class="w3-container w3-hide">
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Standard</p></header>
+	
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png"/>
+								<p>Go late, set up our persistent and then create Dark, we aren't worried about our positioning too much, just keep out of melee range.</p>
+							</div>
+		
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-lingering-rot.png"/>
+								<p>Go fairly late hopefully killing one target and marking another.</p>
+							</div>
+		
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png"/>
+								<p>Hopefully we have some shadows out so go early, use these and then move on.</p>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This would be our opener in most sceanrios.</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>High Tempo</p></header>
+	
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png"/>
+								<p>Quickly drop three shadows under enemies and activate Anger of the Dead, hopefully in such a way that additional enemies will run through these shadows and you'll get off 4-5 wounds, 3 of which tick instantly.</p>
+							</div>
+		
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png"/>
+								<p>Move a shadow to set up Fluid Night.</p>
+							</div>
+		
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-lingering-rot.png"/>
+								<p>Move to set up Forceful Spirits, typically going late in the hope of gaining shadows</p>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This isn't the ideal opener, but if our team needs us to have some impact immediately, this is the way we can provide some. We absolutely cannot skip setting up Call to the Abyss on our first cycle; we consume shadows too rapidly to wait. However, we can get away with dropping Eclipse first and having 1-2 turns of value before setting it up on the back half of cycle one.<p>If you have time after the first 2 rounds, set up Call to the Abyss here and use Call of Doom to make darkness, and delay the attack for another round.</p></p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Bosses</p></header>
+	
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png"/>
+								<p>Go late and drop four shadows, getting as many upder enemies as possible.</p>
+							</div>
+		
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png"/>
+								<p>Move a shadow to set up Fluid Night.</p>
+							</div>
+		
+							<div class="w3-container w3-cell">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-lingering-rot.png"/>
+								<p>Move to set up Forceful Spirits, typically going late in the hope of gaining shadows</p>
+							</div>
+		
+							<footer class="w3-light-grey"><p>If we are going to come up against bosses where there are few or no additional enemies then the top of Call to the Abyss will not help us. In these rooms we are also likely to want shadows up quickly so the usual High Tempo opener changes slightly.<p>If the boss is susceptible to <i>Wound</i> then you can substitute Anger of the Dead bottom into round 2 if you managed to get a shadow under the boss or expect them to move over one.</p></p></footer>
+						</div>
+					</div>
+	
+				</div>
+			</div> <!-- openers -->
+		</div> <!-- level 1 -->
+		
+		<button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+		<div id="acc-2" class="w3-container w3-hide">
+		
+			<button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+			<div id="acc-2-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Attack 4 that requires some precise shadow positioning, but it hits for a respectable amount, creates our desired element, and doesn't consume the shadows.</p>
+							<hr>
+							<p>The bottom is highly situational but can singlehandedly win entire scenarios, letting your party traverse vast distances just like you can.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Deepening Despair is a great non-loss attack at our best initiative to date.<p>If you're going to be moving shadows anyway, this is a solid card that you're happy to have.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-restless-spirits.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>We can do a decent attack with a curse, and we can eat the shadow to turn it into a huge attack. An attack six will frequently kill the target, so when you're eating the shadow, expect that you might not actually get the curse. Best case scenario puts the target low enough that your team can finish them off, so that you mark them and get the best of both worlds.</p>
+							<hr>
+							<p>The bottom action gives you a decent shadow move, with the option to trade the shadow for some direct damage. This is our first bottom damage option, and against shielded enemies it's absolutely phenomenal. Even if we don't want to line up the bonus damage, we're perfectly fine to have an additional long range shadow movement option.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Restless Spirits lets us get up close and personal.<p>The top is great for melee builds, whilst the bottom can be used as a bottom attack by any build.</p></p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-wave-of-anguish.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Both options are solid choices.<p>Deepening Despair provides another attack that we're very happy to use. It isn't as powerful as our other attacks, but it doesn't eat shadows and doesn't put us in danger, and it has an absurdly fast initiative. We'll cut Wave of Anguish, as we rarely need to move ourself and our shadows at the same time, and relegate Black Barrage to near-permanent shadow management.</p><p>I'd typically lean towards Deepening Despair as we're lacking attacks early, but if you're starting this build at level 4+ I think Restless Spirits might be better to give us an instance of bottom damage.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 2 cards -->
+	
+			<button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+			<div id="acc-2-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Teleport</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-lingering-rot.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move, <i>Poison</i></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+								<p class="w3-pale-blue">High tempo opener</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-pale-blue">Summon</p>
+								<p class="w3-pale-green">Loot, Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 2 cards -->
+		
+			</div> <!-- level 2 hand -->
+			
+		</div> <!-- level 2 -->
+		
+		<button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+		<div id="acc-3" class="w3-container w3-hide">
+		
+			<button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+			<div id="acc-3-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top is an attack three at decent range that we should be able to frequently pump up to curse. This isn't large enough that we'll often be killing here, so the curse should actually make its way out.</p>
+							<hr>
+							<p>The bottom is enough shadow movement that we might actually be able to move our entire shadow squad from one room to another, by using this late in the cycle, resting, then using it again early.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Dead Bolt is a very basic, very solid card.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-ritual-sacrifice.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Ritual Sacrifice is not likely to do more than Strength of the Abyss much of the time. It has a base of two more damage, but requires the shadows to be precisely positioned. We need three shadows to tie the level one card, and four to beat it. Still, that card was borderline busted at level 1, so even if we're just picking up a second copy with a bit of variability (and a much stronger initiative), we're content. Pair this with the bottom of Wave of Anguish for maximal positioning.</p>
+							<hr>
+							<p>The bottom will frequently just be a move two that creates dark, which, much like the top was a spinoff of Strength of the Abyss, is often a second copy of Call of Doom with a slightly weaker action and a much stronger initiative. The bonus to add some shield is cute. We don't really want to use this on ourself, and it's difficult to predict the turns where you will want a large shield, so the use cases for this are rare. Still, you can use this to create a supertank for a turn, especially if someone has retaliate up, and you can hoover up shadows you know you won't be able to rescue for some free XP.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>A more situational card, the good initiative and XP hoovering are a bonus though.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-wave-of-anguish.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>It's always Dead Bolt here. Dead Bolt is a fine attack (with darkness) and our best Shadow movement option. With it, we actually have a chance to move our shadows between rooms, especially if we can use it, rest, and then use it again. Now that we won't be leaving as many shadows behind, dropping Eclipse in the second room is less exciting for us. Still, we never really want to be next to enemies, so we'll prefer it over Lingering Rot as a generic movement option that we can drop as a loss if absolutely necessary.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 3 cards -->
+	
+			<button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+			<div id="acc-3-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Teleport</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+								<p class="w3-pale-blue">High tempo opener</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-pale-blue">Summon</p>
+								<p class="w3-pale-green">Loot, Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 3 cards -->
+		
+			</div> <!-- level 3 hand -->
+			
+		</div> <!-- level 3 -->
+		
+		<button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+		<div id="acc-4" class="w3-container w3-hide">
+		
+			<button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+			<div id="acc-4-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Well, the top action looks much like that of Lingering Rot. Wound is often a little better than poison, and we don't lose the shadow, so this action is a bit better, but not by three levels, so we wouldn't take it for the top alone even if we did rely on losses.</p>
+							<hr>
+							<p>To make this worth our time, we want a spammable bottom; and boy, do we get one. We can now make an extra shadow for free once per rest cycle. We could have done this instead of playing the loss on Call to the Abyss, but now we can do both. This is huge. Whenever we don't need to reposition shadows or ourself, we should use this ability. The fact that we get an extra shadow here or there means that we're happier to spend shadows a bit more liberally for weaker abilities.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>A great card allowing us to use shadows a bit more liberally.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-pulled-across.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top is a delayed loss for ten direct damage. It's always a bit scary to use this as the enemies might heal before this pops them, so use it sparingly. The best use case is against a high shield, moderate health enemy that doesn't have any self-healing. Realistically, you probably won't use this until the scenario is almost over, because the bottom is so essential that it's typically not worth giving it up.</p>
+							<hr>
+							<p>Yet another instance of movement and dark. This one turns us invisible; pair this with a fast initiative, and you'll be able to move into much riskier positions. Any Deathwalker who is getting up close and personal will love this ability.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>A core card for a melee build where we can get free Invisibility plus dark.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>As we aren't getting up close and can't use invisibility well, Fleeting Dusk is the clear pick here, giving us an extra shadow per rest cycle that we can consume.<p>This is by far our biggest power spike yet; being able to create shadows on the fly will revolutionize our scenario openers and give us something great to do when we don't need to move ourself or our shadows. We're basically never playing Eclipse's top action anymore, but it's still something we can drop in the last room for some free XP with Anger of the Dead, and our best movement option when we don't need to teleport. As a result, I'd typically cut Black Barrage here; however, if you know you won't be walking very much, then you can instead cut Eclipse, shift Black Barrage to an attack, and play Forceful Spirits as a teleport. Forceful Spirits is really the only reason we're bothering to position ourself anymore, so if you aren't using that then two teleports a cycle should be more than enough. The main reason we haven't made this choice already is that teleporting instead of moving means we'll be very loot poor, so walking around every now and again will find us the resources we need.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 4 cards -->
+	
+			<button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+			<div id="acc-4-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Teleport</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+								<p class="w3-pale-blue">High tempo opener</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-pale-blue">Summon</p>
+								<p class="w3-pale-green">Loot, Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 4 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-black-barrage.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-red">Shadow move</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you know you won't be walking very much, replace Eclipse, shift Black Barrage to an attack, and play Forceful Spirits as a teleport. Forceful Spirits is really the only reason we're bothering to position ourself anymore, so if you aren't using that then two teleports a cycle should be more than enough.</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 4 hand -->
+			
+		</div> <!-- level 4 -->
+		
+		<button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+		<div id="acc-5" class="w3-container w3-hide">
+		
+			<button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+			<div id="acc-5-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Just as Ritual Sacrifice was to Strength of the Abyss, so too is Dominate to Fluid Night. It is almost strictly better, with plus one damage and a chance to disarm, but not a huge amount better, and costs a dark instead of making one. 6 damage will kill often enough that we can frequently discount the disarm, and one extra damage isn't a major improvement. However, remember that Fluid Night is busted at level one, so we're beyond happy to just get a second copy that trades dark for damage. And if you are attacking some very tanky enemies, this disarm will do some fantastic work.</p>
+							<hr>
+							<p>The bottom is yet another instance of move and darkness, this one being a bit longer range. It's easy to discount the power here, but this is our only other move 4 so far besides Eclipse. That's not insignificant.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card has a powerful top attack, a spammable bottom and good initiative. What's not to like!</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-medium.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>An attack 3, boosted to 5 with dark, that generates a bonus shadow if it kills. That'll make two shadows with Call to the Abyss, so this is a very efficient use of our time. The fact that we require the kill means you will want the dark to try and guarantee it, and if you have an ability to get advantage you'll want to use it here.</p>
+							<hr>
+							<p>Meanwhile, the bottom action is amazing. If you were only ever moving one shadow at once, this lets you do it for free. This won't get your shadows from room to room, this won't line up your shadows into precise patterns, but if you just need one shadow in a certain place each round, this does it for you. This is absolutely an action worth losing a card for.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Medium gives us our first non-loss way to make shadows with a top action.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+								<p class="w3-pale-blue">High-tempo opener</p>
+								<p class="w3-pale-green">Move 4, Dark</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-eclipse.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>We would love Medium's bottom action, but Dominate is just too good to pass up. A powerful attack, a better way to make dark, and a powerful CC option make this the better choice.<p>Dominate is an easy replacement for Eclipse. The top is much stronger, the bottom makes us dark, and since we aren't frequently putting ourself in danger, we'd rather have another kinda-fast initiative than a very slow one.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 5 cards -->
+	
+			<button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+			<div id="acc-5-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>Level 5 is where we really start to take off.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Teleport</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+								<p class="w3-pale-blue">High-tempo opener</p>
+								<p class="w3-pale-green">Move 4, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-pale-blue">Summon</p>
+								<p class="w3-pale-green">Loot, Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 5 cards -->
+		
+			</div> <!-- level 5 hand -->
+			
+		</div> <!-- level 5 -->
+		
+		<button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+		<div id="acc-6" class="w3-container w3-hide">
+		
+			<button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+			<div id="acc-6-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-the-night-takes-shape.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>I'm a sucker for summons, so I love the top of The Night Takes Shape. This summon will probably live through two hits due to its disadvantage and decent health, and if you have your other summon, they both get the bonus. However, this summon doesn't hit harder or move further than your level one summon, and the cost of a second shadow does hurt. This is a great way to translate your shadows in a room into power in the next room (assuming you will be at an odd hand size if you pulled this card back), but not something that I would prioritize unless the shadows are going to waste anyway.</p>
+							<hr>
+							<p>The bottom action, which is fantastic. We have seen some bottom sources of damage, but this is our first and only bottom attack, which also moves both us and a shadow. You don't need to use the teleport if you're already in the right spot, so this only costs a shadow if you need that part. Of course, if you are standing still, you'll need to hit hard enough that the enemy will reliably die, and you'll need to do it quickly.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-vengeful-storm.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Vengeful Storm is a clean upgrade to Anger of the Dead. Attack three is an above average use for shadow consumption, and the tempo gained by this action is huge. Besides, you should be able to line up enough kills with this that you won't actually lose as many shadows as you spend; as with our other multitarget options, be sure to target the potential kills first for maximum shadows. You can't consume a shadow that you create to add additional targets, as you need to consume all targets before the start of the action, but six attack threes is an absolutely phenomenal use of your time.</p>
+							<hr>
+							<p>Stun things in a large AOE and wound them, all but guaranteeing at least two direct damage each. The top is good enough that we don't want to give this up unless we're getting insane value, but if we can stun five or more enemies we're happy to pivot.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a great card, with a powerful spammable to action, a situational bottom coupled with a fast initiaive.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-vengeful-storm.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-green">AoE, Stun/Wound</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Vengeful Storm is our biggest power spike at any level. Our baseline for shadow consumption is now three attack, and we should never settle for less.<p>Vengeful Storm is an easy replacement for Anger of the Dead; this was really only ever for XP and occasionally shielded enemies, and if we really need to deal with shields we have several large attacks that will decently get the job done. That being said, if you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options on a per-scenario basis.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 6 cards -->
+	
+			<button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+			<div id="acc-6-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Teleport</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-vengeful-storm.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-green">AoE, Stun/Wound</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+								<p class="w3-pale-blue">High-tempo opener</p>
+								<p class="w3-pale-green">Move 4, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-pale-blue">Summon</p>
+								<p class="w3-pale-green">Loot, Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 6 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If movement requirements are not heavy then Call of Doom can be replaced.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we aren;t using the teleport then drop Sunless Apparition.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we need the movement Fleeting Dusk can be replaced, though we are losing a shadow generator.</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 6 hand -->
+			
+		</div> <!-- level 6 -->
+		
+		<button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+		<div id="acc-7" class="w3-container w3-hide">
+		
+			<button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+			<div id="acc-7-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-hungry-grasps.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top is a simple, effective action. It's a similar power level to Fluid Night, but it hits two targets instead of one and doesn't cost us a shadow. The pull can be nice to get things into position for actions like Deepening Despair, and if you're lucky, the first action kills a target, netting you two shadows.</p>
+							<hr>
+							<p>The bottom action is definitely not something you build around, but if you can get off five heals and five blesses on characters that need them, this action does great work. I wouldn't use it unless you can get all five and remove a few conditions, as the stamina cost is definitely significant.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>A solid top action with a very situational loss on the bottom, it's an ok card, but the top attack isn't hugely better that our existing attacks.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-proliferation-of-the-abyss.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Proliferation of the Abyss' top action is a slight upgrade to Fluid Night. We can use it to protect an ally (near a shadow) instead of ourself, which makes this action great for a support build. And if you have dark, you get a spare shadow. It doesn't feel like enough of an upgrade to justify putting a level 1 action on the top of a level 7 card. Still, setting this up between rooms is a fine use of our time.</p>
+							<hr>
+							<p>The bottom action is a strong upgrade to Wave of Anguish, allowing us to reposition ourself and our shadows all at once. It's a shame we don't get XP for this darkness, but it's likely we'll be able to get value without the extra movement enough of the time.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is also a slightly disappointing top that is for a support build. The bottom however is nice.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-hungry-grasps.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-red">AoE Heal</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-sunless-apparition.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Hungry Grasps is usually the best option. However, this isn't much better than our existing attacks, and we do actually have enough of them now that if we aren't getting value out of the pulls this is a mediocre choice.<p>You could go back to levels 5 or 6 and take The Night Takes Shape if you really like summons, or Medium if you feel like you want to prioritize your bottom actions for things that aren't shadow movement (such as looting). In particular, I would recommend taking Medium if you took Restless Spirits back at level two, since that's something more to do on bottom.</p><p>Hungry Grasps does exactly the same thing as Forceful Spirits, except it doesn't require us to position ourself or to consume dark. Still, Forceful Spirits is a powerful attack and our best teleport, so we'll cut Sunless Apparition instead. Now that we have Vengeful Storm, we don't really need the summon to find high value from our shadows; it is slightly better than one extra attack three, but not enough extra to cost us a whole extra turn.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 7 cards -->
+	
+			<button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+			<div id="acc-7-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-vengeful-storm.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-green">AoE, Stun/Wound</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-hungry-grasps.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-red">AoE Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+								<p class="w3-pale-blue">High-tempo opener</p>
+								<p class="w3-pale-green">Move 4, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-green">Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 7 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If movement requirements are not heavy then Call of Doom can be replaced.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we aren;t using the teleport then drop Sunless Apparition.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we need the movement Fleeting Dusk can be replaced, though we are losing a shadow generator.</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 7 hand -->
+			
+		</div> <!-- level 7 -->
+		
+		<button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+		<div id="acc-8" class="w3-container w3-hide">
+		
+			<button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+			<div id="acc-8-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-frozen-in-fear.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This top provides an absurd amount of crowd control. You can very quickly immobilize a huge group of monsters. The monsters then suffer one or two direct damage. Note that this targets all immobilized enemies, not just those you immobilized with this ability. Don't stress too much about the dark; you get the XP one way or the other, and the immobilize is typically more important than the damage here.</p>
+							<hr>
+							<p>The bottom action lets us create and reposition shadows. At this point, we should be able to make enough shadows using our attacks, Call to the Abyss, and non-loss shadow generation, but if we need a very high tempo opening to a scenario or to a new room, this card perfectly fits the bill. I'd recommend using this action in scenarios with lots of ranged enemies, so that giving up the immobilize isn't a huge cost.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Two good actions that you will be happy to in different situations.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-lashing-tendrils.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top of Lashing Tendrils is not a card you bring for yourself. If you have a strong, dedicated tank, such as a Drifter or Bannerspear, then this action can represent a huge amount of damage.</p>
+							<hr>
+							<p>The bottom is a strong, spammable action. Reposition your shadows, and get three or five damage as a bottom action. We typically want the shadows close to enemies anyway, so we're often killing two birds with one stone here. Just be careful: since the damage is not an attack, it does not mark enemies to make shadows, so we usually want to use this on something we've already marked or something that won't die straightaway.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The top is for the support build where if you have  you have a dedicated tank, you can build around this and other support cards (such as Proliferation of the Abyss, Ritual Sacrifice, and Rest in the Shade).<p>Bottom with both shadow movement and direct damage is a nice option</p></p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-lashing-tendrils.png">
+								<p class="w3-pale-red">Conditional ally retaliate</p>
+								<p class="w3-pale-green">Shadow move, attack</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Lashing Tendrils is perfect, giving us something doubly productive to do on bottom.<p>Most of the time this is a pretty clear replacement for Dark Fog; the loss is a bit less exciting now that we have Vengeful Storm, and we have enough ways to keep our shadows moving that we aren't as excited to just move one at a time.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 8 cards -->
+	
+			<button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+			<div id="acc-8-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-vengeful-storm.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-green">AoE, Stun/Wound</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-hungry-grasps.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-red">AoE Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-lashing-tendrils.png">
+								<p class="w3-pale-red">Conditional ally retaliate</p>
+								<p class="w3-pale-green">Shadow move, attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+								<p class="w3-pale-blue">High-tempo opener</p>
+								<p class="w3-pale-green">Move 4, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-green">Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 8 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If movement requirements are not heavy then Call of Doom can be replaced.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we aren;t using the teleport then drop Sunless Apparition.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we need the movement Fleeting Dusk can be replaced, though we are losing a shadow generator.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-dark-fog.png">
+								<p class="w3-pale-red">Ranged AoE loss</p>
+								<p class="w3-pale-green">Shadow big move</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If the scenario has a huge distance to traverse, cut Call of Doom instead so that you can shove one shadow as far forwards as possible.</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 8 hand -->
+			
+		</div> <!-- level 8 -->
+		
+		<button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+		<div id="acc-9" class="w3-container w3-hide">
+		
+			<button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+			<div id="acc-9-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-black-lance.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top represents an epic reward for careful shadow positioning. Theoretically, this represents attack 19, which is of course unparalleled for a non-loss action. Of course, this requires lining up five shadows, spending them all, and increasing the range of your movement with powerful boots not available early in the game. More realistically, this will be an attack ten or thirteen, which is still plenty! Three damage per shadow meets the same threshold as Vengeful Storm at level six, but piling it all into one attack makes us better at taking out bosses and tanky, shielded enemies.</p>
+							<hr>
+							<p>When surrounded by a multitude of weak enemies, the top will probably be overkill, at which point we can use the bottom. Lining up 3-4 curses is extraordinarily powerful, and the fast initiative means you can ensure you get in there before the enemies de-clump.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card is a fantastic capstone for Deathwalkers that want to get up close and personal.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-when-your-time-comes.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top represents a fairly weak attack, followed by a huge amount of damage when the target dies. If you manage to kill the target, you get an immediate shadow from Call to the Abyss, and you get the damage splash in what is hopefully an optimal location. If you don't kill the target (a much more likely outcome), you get a curse, which is not a small consolation.</p>
+							<hr>
+							<p>On bottom, you get Call to the Abyss jr. It's hard to say whether this is better or worse on average. You don't need to attack to get these shadows, but you do need darkness, which is something we could use for other effects. </p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>For those that like to stay back, When Your Time Comes is excellent.<p>A support Deathwalker could use only this bottom action and channel all of their dark into shadows.</p><p>Realistically, a Deathwalker that is attacking should be able to make enough shadows without this bottom, and will prefer the top of this card or one of the actions on Black Lance in order to use the shadows they're already making with greater efficiency. Still, between Vengeful Storm and Anger of the Dead, we could run a build where we run this loss and Call to the Abyss, and consume our shadows with absurd frequency.</p></p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-when-your-time-comes.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>We'll take When Your Time Comes. The top and the bottom are both great choices for us, so you can't really go wrong with which action you prioritize. I would probably choose on a per-scenario basis which one to prioritize.<p>What to cut here depends very much on whether you want to use the top or the bottom of When Your Time Comes. The top is a decent attack in an AOE, which is what Call of Doom does, so we can make the upgrade. A move three that makes dark is starting to be mediocre, so we'll let it go.</p></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 9 cards -->
+	
+			<button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+			<div id="acc-9-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-call-to-the-abyss.png">
+								<p class="w3-pale-yellow">Shadow generation</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png">
+								<p class="w3-pale-green">S.Attack, Dark</p>
+								<p class="w3-pale-red">Damage avoidance</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-deepening-despair.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-vengeful-storm.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-green">AoE, Stun/Wound</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-hungry-grasps.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-red">AoE Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-when-your-time-comes.png">
+								<p class="w3-pale-green">Ranged attack+</p>
+								<p class="w3-pale-blue">Shadow generation</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-lashing-tendrils.png">
+								<p class="w3-pale-red">Conditional ally retaliate</p>
+								<p class="w3-pale-green">Shadow move, attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dominate.png">
+								<p class="w3-pale-blue">High-tempo opener</p>
+								<p class="w3-pale-green">Move 4, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-dead-bolt.png">
+								<p class="w3-pale-blue">Ranged attack</p>
+								<p class="w3-pale-green">Shadow move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-green">Teleport</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 9 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If movement requirements are not heavy then Call of Doom can be replaced.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-forceful-spirits.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we aren;t using the teleport then drop Sunless Apparition.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-anger-of-the-dead.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Wound via shadow</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If you encounter a scenario with enemies that have 3+ innate shield, Anger of the Dead is still worth swapping back in for one of your other utility options, on a per-scenario basis. If we need the movement Fleeting Dusk can be replaced, though we are losing a shadow generator.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png">
+								<p class="w3-pale-red">Melee attack</p>
+								<p class="w3-pale-green">Move 3, Dark</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fleeting-dusk.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>If we are going to use the bottom of When Your Time Comes then we don't need this shadow generator.</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 9 hand -->
+			
+		</div> <!-- level 9 -->
+		
+	</div> <!-- build deck -->
+	
+	<!-- Enhancements -->
+	<button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+	<div id="acc-enhancements" class="w3-container w3-hide">
+		<table class="w3-table w3-striped w3-border">
+			<tr><td><img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-call-of-doom.png"></td><td>top</td><td>+1 Attack</td><td>This is a fantastic candidate for an expensive enhancement; for 100 gold, doubling the damage goes a long way towards guaranteeing a kill or two.</td></tr>
+			<tr><td><img class="card-small" src="images/frosthaven/character-ability-cards/dw/fh-fluid-night.png"></td><td>top</td><td>+1 Attack</td><td>We will be keeping this card right through to level 9, so this is expensive but we will get our value out of it.</td></tr>
+		</table>
+	</div> <!-- enhancements -->
+	
+	<!-- Perks -->
+	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+	<div id="acc-perks" class="w3-container w3-hide">
+
+		<div class="w3-light-grey">The most important thing for us by far is consistency. We need to guarantee that we kill whenever we can, so we need to get rid of all of our negatives. The order isn't hugely significant, but I prefer to first remove my (-1)s, then replace the (-2), and then replace the remaining (-1)s.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+			<tr><td width="250px">Intensify</td><td>Replace -2 with 0</td></tr>
+			<tr><td width="250px">Focus</td><td>Replace -1 with +1</td></tr>
+		</table><br>
+
+		<div class="w3-light-grey">Moving a shadow on long rest is a very large benefit for us, so we'll pick that one up next. It's very frequent that this saves a shadow from becoming completely worthless. The curse and dark modifiers both do things that we like. Ideally we'll be getting kills, but we make enough little attacks that this isn't guaranteed, so the order of these two is up for personal preference. I prefer the dark modifiers first, but it's a very close call.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Restless Night</td><td>Long rest move shadow</td></tr>
+			<tr><td width="250px">Penumbra</td><td>Add +2 Dark</td></tr>
+			<tr><td width="250px">Doom</td><td>Replace +0 with +1 <i>Curse</i></td></tr>
+		</table><br>
+
+		<div class="w3-light-grey">Everything from this point is much less important. If your party needs healing or is bad at dealing with poison/wound/etc, I would grab the heals next. If they lack CC, you can snag the disarm and muddle. If you find yourself short resting frequently, snag the short rest perk. If none of these apply, ignore scenario effects.<p>The disadvantage perk isn't bad, but the odds that we'll be taking a hit is very slim, so we take this one last.</p></div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Greater Revive</td><td>Add 2x rolling Heal</td></tr>
+			<tr><td width="250px">Pacify</td><td>Add 1 rolling <i>Disarm</i> and 1 rolling <i>Muddle</i></td></tr>
+			<tr><td width="250px">Haunting Dreams</td><td>When you short rest consume Dark to <i>Curse</i> and <i>Muddle</i>.</td></tr>
+			<tr><td width="250px">Lesser Inoculation</td><td>Ignore negative scenario effects</td></tr>
+			<tr><td width="250px">Cloak of Shadow</td><td>On shadow hex, all attacks targeting you gain Disadvantage</td></tr>
+		</table><br>
+
+	</div> <!-- perks -->
+
+	<!-- Items -->
+	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+	<div id="acc-items" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey"></div>
+	
+		<button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+		<div id="acc-items-starting" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>The recommended starting item is a good choice.</p></div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-125-boots-of-speed.png">
+					<p class="w3-container">We like to initiative weave at times so these are a good option for our initial gold.</p>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- items -->
+		
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+	<div style="font-size:0.8rem">Puppetmaster based on SamForestBH build (<a href="https://www.reddit.com/r/Gloomhaven/comments/12yn5ch/written_deathwalker_guide/">https://www.reddit.com/r/Gloomhaven/comments/12yn5ch/written_deathwalker_guide/</a>)</div>
+</footer>
+
+</body>
+</html>
+	

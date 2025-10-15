@@ -2131,16 +2131,6 @@
 			"classid": "dw"
 		},
 		{
-			"name": "shadow beast",
-			"expansion": "frosthaven",
-			"image": "character-ability-cards/dw/fh-sunless-apparition.png",
-			"id": "sunlessapparition",
-			"level": "1",
-			"initiative": "96",
-			"cardno": "092",
-			"classid": "dw"
-		},
-		{
 			"name": "the night takes shape",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/dw/fh-the-night-takes-shape.png",
@@ -4004,7 +3994,7 @@
 			"name": "wave of anguish",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/pc/fh-wave-of-anguish.png",
-			"id": "waveofanguish",
+			"id": "waveofanguishpc",
 			"level": "8",
 			"initiative": "68",
 			"cardno": "326",

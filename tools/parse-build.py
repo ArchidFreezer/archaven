@@ -478,15 +478,16 @@ parser = argparse.ArgumentParser(
                     prog='parse-build',
                     description='Reads a json file containing Frosthaven character build data and produces a static html page from it.',
                     epilog='This needs to be used with the archaven github repository file structure.')
-parser.add_argument('buildid', help='build id to parse')           # positional argument
-parser.add_argument('-b', help='json file containing the build details')
+parser.add_argument('-b', help='build id to parse')
+parser.add_argument('-d', help='json file containing the build details')
 args = parser.parse_args()
 
-if (args.b):
-	buildfile=args.b
+if (args.d):
+	buildfile=args.d
 else:
 	buildfile='../data/build-data.json'
-	
+
+
 # Read our json data files
 with open('../data/card-data.json') as fd:
 	jcards = json.load(fd)
@@ -500,31 +501,35 @@ with open('../data/class-data.json') as fd:
 with open(buildfile) as fd:
 	jbuilds = json.load(fd)
 
-# Open the output html file
-hf = open(f"../html/{args.buildid}.html", "w")
-
-# Get the specific build
-jbuild=jmespath.search(f"builds[?id=='{args.buildid}']|[0]", jbuilds)
-
-classid=jmespath.search("classid", jbuild)
-build=jmespath.search("build", jbuild)
-buildname=get_build_name(classid, build)
-
-# Get the cards json for only our class
-jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)
-
-# We reuse cards and items so create a cache of their image paths
-cardimages = dict()
-cache_card_images()
+if (args.b):
+	buildids=[args.b]
+else:
+	buildids=jmespath.search("builds[*].id", jbuilds)
 
 itemimages = dict()
 cache_item_images()
 
-html_header(buildname)
-html_overview()
-html_build_decks()
-html_enhancements()
-html_perks()
-html_items()
-html_potions()
-html_footer()
+for buildid in buildids:
+	# Open the output html file
+	hf = open(f"../html/{buildid}.html", "w")
+	
+	# Get the specific build
+	jbuild=jmespath.search(f"builds[?id=='{buildid}']|[0]", jbuilds)
+
+	classid=jmespath.search("classid", jbuild)
+	build=jmespath.search("build", jbuild)
+	buildname=get_build_name(classid, build)
+
+	# Get the cards json for only our class
+	jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)
+	cardimages = dict()
+	cache_card_images()
+	
+	html_header(buildname)
+	html_overview()
+	html_build_decks()
+	html_enhancements()
+	html_perks()
+	html_items()
+	html_potions()
+	html_footer()

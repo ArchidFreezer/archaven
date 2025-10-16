@@ -604,7 +604,7 @@
 			"name": "bo-back",
 			"expansion": "frosthaven",
 			"image": "character-ability-cards/bo/fh-bo-back.png",
-			"id": "anback",
+			"id": "boback",
 			"level": "-",
 			"initiative": "-",
 			"cardno": "-",

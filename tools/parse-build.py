@@ -130,7 +130,7 @@ def html_opener_card(jopener):
 								<img class="card-small" src="{cardimages[round[0]]}"/>
 								<p></p>
 								<img class="card-small" src="{cardimages[round[1]]}"/>
-								<div style="width: 250px">{round[2]}</div>
+								<div class="w3-container" style="width: 250px">{round[2]}</div>
 							</div>
 		''')
 

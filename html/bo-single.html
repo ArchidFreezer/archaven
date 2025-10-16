@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Boneshaper Skeleton Swarm</title>
+	<title>Boneshaper Single-Summon</title>
 	<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +15,7 @@
 
 <header class="w3-top w3-display-container w3-green" style="height:60px">
 	<button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
-	<h1 class="w3-display-middle">Boneshaper Skeleton Swarm</h1>		
+	<h1 class="w3-display-middle">Boneshaper Single-Summon</h1>		
 	<button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
 </header>
 
@@ -25,19 +25,19 @@
 	<!-- Overview -->
 	<button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
 	<div id="acc-overview" class="w3-container w3-hide">
-		<p>The Skeleton Swarm build is probably the most emblematic of Boneshaper builds. The concept is simple: spend your hit points to summon a number of disposable Skeleton summons (usually looking to have 2-3 on the board at a time), and deal damage through the Skeletons' innate attacks and by commanding them to attack.</p>
-		<p>So why would you play a Skeleton Swarm Build?</p>
+		<p>The single-summon build for the Boneshaper is probably the most traditional-Gloomhaven of the Boneshaper's builds, focused around getting out a strong loss melee summon and keeping it alive all scenario to deal damage. To keep it alive we'll need to use commanded movement, defensive tools to block damage (ability cards like Flesh Shield [level 4] or items like our starting item the Warden's Robes), and we'll even occasionally use Skeletons as decoys/buffers to draw enemy attacks such that our prized summon doesn't die.</p>
+		<p>So why would you play a Single-Summon Build?</p>
 		<ul>
-			<li>You have plenty of melee space on the board in your party but still another front-line class, whether a full tank or just a tanky pal. This will typically be because you have few melee allies, which can be from being in a smaller party or just having a lot of ranged allies. With enough melee space but also a bit of protection to set up, you'll offer similar damage to the best damage-dealing build on this class, with the upside of being protected from catastrophe by virtue of your summons being resummonable.</li>
-			<li>You want to be flexible and risk-averse. The Skeleton Swarm build can adapt to the situation to effectively deal damage or take some hits, whereas the other builds are generally better at their respective specialities (dealing damage for single-summon and tanking for Bone Wall).</li>
+			<li>Your party typically lacks space in melee range of enemies. If you're playing in a larger party where your allies are mostly melee, you may find that it's difficult to have enough space next to enemies to deal damage with Skeletons. It will typically take two Skeletons to deal the damage of one loss melee summon so if you don't have that space, you'll be more effective focusing your attention on one, more effective, summon. It's worth noting that there are two types of melee allies. Some melee allies, like a Blinkblade, can kind of move all over the place and target any enemies. Allies like this don't really pose a problem because they can just fight the back line while you fight the front. On the other hand, melee Drifters or Bannerspears, for example, typically fight 'front-to-back,' which means that they kill what's directly in front of them until there's nothing else in front of them. You naturally also fight like this with your summons, so these are the types of allies who compete with you for space.</li>
+			<li>Your party just really needs more damage. Single-summon will be the best, consistent damage-dealer of the Boneshaper builds.</li>
 		</ul>
 		
 		<p>The tank build loves the following:</p>
 		<ul>
-			<li>Bannerspear. Bannerspear + Boneshaper is known as the BS combo for a reason and they have excellent synergy in both directions on so many levels.</li>
-			<li>Allies who are happy to heal you. More heals for you means more Skeletons and thus overall more effectiveness</li>
-			<li>Balanced ranged/melee parties or smaller party sizes. There are plenty of narrow corridors and small spaces in Frosthaven and having too many allies trying to get into melee range of the enemies will lead to not having space for your Skeletons. At the same time, having one tanky melee ally can buy you time and space to get set up, so that's also welcome.</li>
-			<li>An example of an ideal four-character party for a Skeleton Swarm Boneshaper would be something like: melee and/or tanky Banner Spear, Ranged Deathwalker, Ranged+Healing Drifter, Boneshaper</li>
+			<li>Bannerspear. Bannerspear + Boneshaper is known as the BS combo for a reason and they have excellent synergy in both directions on so many levels</li>
+			<li>Having at least one tanky ally. You do want a dedicated tank who can absorb hits to keep your loss summon alive.</li>
+			<li>A crowd of melee allies. The more melee allies you have, within reason, the less likely your summon will randomly die.</li>
+			<li>An example of an ideal party for a single-summon Boneshaper would be something like: a melee and/or tanky Bannerspear, melee and/or tanky Drifter, Geminate/Blinkblade/ranged Deathwalker, and Boneshaper</li>
 		</ul>
 		
 	</div> <!-- overview -->
@@ -597,18 +597,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-exploding-corpse.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>Exploding Corpse was fine but was there mostly for the initiative. We also need to be careful about having too many non-move bottom actions and not enough movement (even though we can afford non-move bottom actions more than most), which is why we keep Malicious Conversion.</p>
+								<p>Our hand is rebuilt to switch to the single-summon build.</p>
 							</div>
 						</div>
 	
@@ -617,42 +617,135 @@
 				<p></p>
 			</div> <!-- new level 2 cards -->
 	
+			<button id="level-2-choices" onclick="accClick('acc-2-choices')" class="w3-btn w3-block w3-left-align">Level 2 Choices</button>
+			<div id="acc-2-choices" class="w3-container w3-hide">
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Skeleton Summons</h3>
+					<p>We switch to using a single summon now.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+							<p class="w3-container">This is our core skeleton that we want to keep alive</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
+							<p class="w3-container">Brought in for the wraith.</p>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Skeleton Attacks</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+							<p class="w3-container">Skeleton manipulation</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
+							<p class="w3-container">Skeleton attack or Loot</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+							<p class="w3-container">Skeleton attack</p>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Skeleton Manipulation</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flow-of-the-black-river.png">
+							<p class="w3-container">Move self and skeleton</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+							<p class="w3-container">Skeleton movement</p>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Utility</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+							<p class="w3-container">Move self</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+							<p class="w3-container">Ranged attack or retaliate negation</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
+							<p class="w3-container">Move self</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+							<p class="w3-container">Heal self/ally</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+							<p class="w3-container">Heal ally</p>
+						</div>
+				
+					</div>
+				</div>
+			</div> <!-- choices -->
+		
 			<button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
 			<div id="acc-2-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
+					<p>We rebuild our hand at this level for a single-summon focused Boneshaper build. In this build, we bring more summon command actions and less Skeleton summoning actions as we want to keep our strong loss summon alive and hitting for as much time as possible.</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Damage prevention</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Ranged Curse</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
+								<p class="w3-pale-green">Curse, S Attack</p>
+								<p class="w3-pale-green">Summon Loot</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-blue">Heal ally, take damage, Dark</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
 							</div>
 						</div>
 	
@@ -674,25 +767,17 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-pale-blue">Ally assist</p>
+								<p class="w3-pale-green">Transfer health to ally, Dark</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
-								<p class="w3-pale-green">Curse, S Attack</p>
-								<p class="w3-pale-green">Summon Loot</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
-								<p class="w3-pale-blue">Heal allies</p>
-								<p class="w3-pale-green">Self-heal</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
 							</div>
 						</div>
 	
@@ -707,16 +792,24 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
-								<p class="w3-pale-blue">Big loss attack (1st room)</p>
+								<p class="w3-pale-red">Big loss attack</p>
 								<p class="w3-pale-green">Move 3</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<p class="w3-pale-green">Heal allies</p>
+								<p class="w3-pale-blue">Self-heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
 							</div>
 						</div>
 	
@@ -731,18 +824,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-dark-tidings.png">
-								<p class="w3-pale-red">Lossy attack</p>
-								<p class="w3-pale-green">Move 4</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-green">Ranged Curse</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>Movement heavy quest.</p>
+								<p>If there are too many enemies with Shield bring in Damned Horde summon and use Returned Servant for the Move 4</p>
 							</div>
 						</div>
 	
@@ -750,6 +843,127 @@
 				</div> <!-- sideboard cards -->
 			</div> <!-- level 2 hand -->
 			
+			<button id="level-openers" onclick="accClick('acc-2-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+			<div id="acc-2-openers" class="w3-container w3-hide">
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>No Retaliate</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png"/>
+								<div style="width: 250px">Go late dropping down our Skeleton summon and healing any allies that have taken damage so far.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png"/>
+								<div style="width: 250px">Move our skeleton in place and use Earth in the attack.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-flow-of-the-black-river.png"/>
+								<div style="width: 250px">Quickly move our summon into place and attack.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png"/>
+								<div style="width: 250px">Use your quicker initiatve, get another attack in and heal yourself of the damage you took in round 1.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This opener is for scenarios where enemies do not have retaliate</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Retaliate</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png"/>
+								<div style="width: 250px">Go late dropping down our Skeleton summon and using the bottom of Decaying Wioll for the retaliate protection.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png"/>
+								<div style="width: 250px">Move our skeleton in place and use Earth in the attack.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-flow-of-the-black-river.png"/>
+								<div style="width: 250px">Quickly move our summon into place and attack.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png"/>
+								<div style="width: 250px">Use your quicker initiatve, get another attack in and move yourself onto some loot.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This opener is for scenarios where enemies have retaliate</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Slow</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png"/>
+								<div style="width: 250px">Go late dropping down our Skeleton summon and healing any allies that have taken damage so far.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png"/>
+								<div style="width: 250px">Get out a second summon and heal ourselves of the damage we took in round 1.<p>We could also use Returned Servant here which isn't a loss so is less risky, but that would mean we lose out on the bottom move.</p></div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png"/>
+								<div style="width: 250px">Move our skeleton in place late and attack. We won't have the earth in this attack, but the damage from the wraith should make up for this, especially over a couple of rounds.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-flow-of-the-black-river.png"/>
+								<div style="width: 250px">Quickly move our summon into place and attack.</p></div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png"/>
+								<div style="width: 250px">Use your quicker initiatve, get another attack in and move yourself onto some loot.</p></div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This opener gets a second summon our in round 2, but you have ot be very sure you can afford the reduction in tempo.</p></footer>
+						</div>
+					</div>
+	
+				</div>
+			</div> <!-- openers -->
 		</div> <!-- level 2 -->
 		
 		<button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
@@ -798,16 +1012,16 @@
 								<header class="w3-light-grey"><p>Take</p></header>
 								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
 								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>We take Grave Digging for the improved skeleton summoning.<p>Life in Death was our Skeleton summon card with the worst bottom so is the easiest to replace. For this build I don't feel that we need more than three Skeleton summon cards. I won't cover what you should do through each level if you took Putrid Cloud for the top (not for the Bone Wall build, which is a separate thing), but at this point you should replace Transfer of Essence with Putrid Cloud and not replace a Skeleton summon (aiming to remain at three).</p></p>
+								<p>Grave Digging replaces Malicious Conversion. We lose the movement from Malicious Conversion but we can just use the bottom of Returned Servant most of the time now anyway as we have a better top Skeleton summon in Grave Digging and we don't often want more than one Skeleton summon in this build.</p>
 							</div>
 						</div>
 	
@@ -820,62 +1034,22 @@
 			<div id="acc-3-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>For this build we shouldn't need more than 3 summon cards and we want to keep that many in our deck, in addition to the wraith.</p>
+					<p></p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Ranged Curse</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-blue">Heal ally, take damage, Dark</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
-								<p class="w3-pale-green">Ranged summon loss</p>
-								<p class="w3-pale-blue">Direct damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
@@ -889,9 +1063,41 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
-								<p class="w3-pale-blue">Heal allies</p>
-								<p class="w3-pale-green">Self-heal</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Retaliate protection</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-pale-blue">Ally assist</p>
+								<p class="w3-pale-green">Transfer health to ally, Dark</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
 							</div>
 						</div>
 	
@@ -905,17 +1111,25 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
-								<p class="w3-pale-blue">Big loss attack (1st room)</p>
-								<p class="w3-pale-green">Move 3</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
+								<p class="w3-pale-green">Ranged summon loss</p>
+								<p class="w3-pale-blue">Direct damage</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<p class="w3-pale-green">Heal allies</p>
+								<p class="w3-pale-green">Self-heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
 							</div>
 						</div>
 	
@@ -930,18 +1144,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-dark-tidings.png">
-								<p class="w3-pale-red">Lossy attack</p>
-								<p class="w3-pale-green">Move 4</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
+								<p class="w3-pale-red">Big loss attack</p>
+								<p class="w3-pale-green">Move 3</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>Movement heavy quest.</p>
+								<p>If there are too many enemies with Shield bring back Malicious Conversion.</p>
 							</div>
 						</div>
 	
@@ -996,17 +1210,17 @@
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
 								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>I would typically take Flesh Shield for the initiative more than anything. This swap should be pretty telegraphed as their tops and bottoms both have a lot of similarities and it makes a lot of sense to replace one with the other.</p>
+								<p>Flesh Shield replaces Angry Spirits. The Wraith was just less crucial in this build and we have less of a focus on poisoning enemies (or those who get poisoned are already taking 4-7 damage that round), making it just deal less damage than it does in other builds.</p>
 							</div>
 						</div>
 	
@@ -1019,62 +1233,22 @@
 			<div id="acc-4-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This leaves us with just one non-loss Dark per rest cycle so you'll have to choose carefully between Bone Dagger and Command the Wretched.</p>
+					<p>We drop the ranged summon, but it was a loss card and we are happy to use Grave Digging for additional summons when required.<p>Flesh Shield has a hugely valuable bottom action, but don't be afraid to use it purely as a fast initiative</p></p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Ranged Curse</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
-								<p class="w3-pale-green">Ranged summon loss</p>
-								<p class="w3-pale-blue">Direct damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
@@ -1088,9 +1262,41 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
-								<p class="w3-pale-blue">Heal allies</p>
-								<p class="w3-pale-green">Self-heal</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Retaliate protection</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 						</div>
 	
@@ -1104,48 +1310,31 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
-								<p class="w3-pale-blue">Big loss attack (1st room)</p>
-								<p class="w3-pale-green">Move 3</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-pale-blue">Ally assist</p>
+								<p class="w3-pale-green">Transfer health to ally, Dark</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<p class="w3-pale-green">Heal allies</p>
+								<p class="w3-pale-green">Self-heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
 							</div>
 						</div>
 	
 					</div>
 				</div> <!-- standard level 4 cards -->
 		
-				<div class="w3-container">
-					<h3 class="w3-light-grey">Sideboard Cards</h3>
-					<p>These are cards that may be swapped in based on quest requirements</p>
-					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-			
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-dark-tidings.png">
-								<p class="w3-pale-red">Lossy attack</p>
-								<p class="w3-pale-green">Move 4</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle">
-								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-light-grey">-</p>
-								<p class="w3-light-grey">-</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>Movement heavy quest.</p>
-							</div>
-						</div>
-	
-					</div>
-				</div> <!-- sideboard cards -->
 			</div> <!-- level 4 hand -->
 			
 		</div> <!-- level 4 -->
@@ -1194,18 +1383,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-solid-bones.png">
-								<p class="w3-pale-green">Summon booster</p>
-								<p class="w3-pale-green">Move 4</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Ally Heal</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-angry-spirits.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>Solid Bones replaces Angry Spirits. The Wraith can still be decent but there's a limit to how many top setup cards we can play and Solid Bones makes summoning Skeletons even more appealing comparatively. The bottom was still fine as well but two damage hasn't scaled very well by level 5 and at the end of the day something has to go. Fell Remedy and Malicious Conversion continue to get by through providing us things we need: more movement, decent initiatives, seal-healing, and an out-of-combat top action for when moving from room to room (Flow can do this as well but then we lose the initiative for combat).</p>
+								<p>Unforgivable Methods replaces Unearthed Horror. I'm sure this is going to be a bit controversial to cut a level 2 card at level 5, but the summon replaces the summon. We can run both summons and I still will on short scenarios or boss fights, but the single-summon build's greatest strength is giving us a powerful-attacking summon to use our command actions on, and we only need one of those, this one being strictly better than the last.</p>
 							</div>
 						</div>
 	
@@ -1218,62 +1407,22 @@
 			<div id="acc-5-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
+					<p></p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Ally Heal</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Ranged Curse</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-solid-bones.png">
-								<p class="w3-pale-green">Summon booster</p>
-								<p class="w3-pale-green">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
@@ -1287,9 +1436,41 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
-								<p class="w3-pale-blue">Heal allies</p>
-								<p class="w3-pale-green">Self-heal</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Retaliate protection</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 						</div>
 	
@@ -1303,23 +1484,74 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
-								<p class="w3-pale-blue">Big loss attack (1st room)</p>
-								<p class="w3-pale-green">Move 3</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-pale-blue">Ally assist</p>
+								<p class="w3-pale-green">Transfer health to ally, Dark</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<p class="w3-pale-green">Heal allies</p>
+								<p class="w3-pale-green">Self-heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
 							</div>
 						</div>
 	
 					</div>
 				</div> <!-- standard level 5 cards -->
 		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-green">Extra summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>This is for short scenarios or boss fights where we need the extra tempo and stamina is less of an issue</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-green">Extra summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Short scenarios or boss fights with retaliate enemies where we need the extra tempo and stamina is less of an issue</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
 			</div> <!-- level 5 hand -->
 			
 		</div> <!-- level 5 -->
@@ -1368,18 +1600,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
-								<p class="w3-pale-green">2x Skeleton Summon</p>
-								<p class="w3-pale-blue">Summon Move 4</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-twisted-decree.png">
+								<p class="w3-pale-green">Summon move/attack</p>
+								<p class="w3-pale-red">Melee attack</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>Rotting Multitude alongside Solid Bones has really taken this build to new heights, so long as we have the hit points to pay.<p>Rotting Multitude replaces Damned Horde. I've found three Skeleton summons to remain the sweet spot for this build (as you do want to spend a reasonable amount of turns attacking with the Skeletons already out, ideally). Multitude does give us two Skeletons at once, but worst-case that just means we can use the Move 4 on the bottom of Returned Servant more often.</p></p>
+								<p>Twisted Decree replaces Transfer of Essence. Transfer of Essence's bottom has remained quite good for us but is definitely the most replaceable effect we have. I would continue to cut Decaying Will on scenarios without retaliate, in favor of Transfer or Unearthed Horror.</p>
 							</div>
 						</div>
 	
@@ -1392,62 +1624,22 @@
 			<div id="acc-6-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
+					<p></p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Ally Heal</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
-								<p class="w3-pale-green">2x Skeleton Summon</p>
-								<p class="w3-pale-blue">Summon Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-solid-bones.png">
-								<p class="w3-pale-green">Summon booster</p>
-								<p class="w3-pale-green">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
@@ -1461,9 +1653,41 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
-								<p class="w3-pale-blue">Heal allies</p>
-								<p class="w3-pale-green">Self-heal</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-pale-green">Ranged attack</p>
+								<p class="w3-pale-blue">Retaliate protection</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-twisted-decree.png">
+								<p class="w3-pale-green">Summon move/attack</p>
+								<p class="w3-pale-red">Melee attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 						</div>
 	
@@ -1477,17 +1701,25 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
-								<p class="w3-pale-blue">Big loss attack (1st room)</p>
-								<p class="w3-pale-green">Move 3</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<p class="w3-pale-green">Heal allies</p>
+								<p class="w3-pale-green">Self-heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
 							</div>
 						</div>
 	
@@ -1502,18 +1734,54 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-pale-blue">Ally assist</p>
+								<p class="w3-pale-green">Transfer health to ally, Dark</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p> If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.</p>
+								<p>Scenarios without retaliate enemies</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-green">Extra summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>This is for short scenarios or boss fights where we need the extra tempo and stamina is less of an issue</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-green">Extra summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-transfer-of-essence.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Short scenarios or boss fights with retaliate enemies where we need the extra tempo and stamina is less of an issue</p>
 							</div>
 						</div>
 	
@@ -1567,18 +1835,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-recycled-limbs.png">
-								<p class="w3-pale-blue">Summon and manipulate</p>
-								<p class="w3-pale-green">Heal ally</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
+								<p class="w3-pale-blue">Summon 2 skeletons</p>
+								<p class="w3-pale-green">Summon move</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>We'll take Recycled Limbs for the combined package it provides.<p>With the bottom action of Recycled Limbs, we need the top of Remedy's allied healing a lot less. Obviously we do lose the initiative and the self-healing but that just means Flow will now have to pick up more of the slack (which it's kind of already had to do since Rotting Multitude arrived anyway). And something had to go.</p></p>
+								<p>Rotting Multitude replaces Decaying Will.</p>
 							</div>
 						</div>
 	
@@ -1591,62 +1859,22 @@
 			<div id="acc-7-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
+					<p>Rotting Multitude is just too powerful to pass up and most significantly it will help us achieve our final form so we go back to level 6 and grab it.</p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-pale-yellow">Core summon</p>
+								<p class="w3-pale-red">Ally Heal</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
-								<p class="w3-pale-green">2x Skeleton Summon</p>
-								<p class="w3-pale-blue">Summon Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-solid-bones.png">
-								<p class="w3-pale-green">Summon booster</p>
-								<p class="w3-pale-green">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
@@ -1660,9 +1888,41 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-recycled-limbs.png">
-								<p class="w3-pale-blue">Summon and manipulate</p>
-								<p class="w3-pale-green">Heal ally</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-twisted-decree.png">
+								<p class="w3-pale-green">Summon move/attack</p>
+								<p class="w3-pale-red">Melee attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 						</div>
 	
@@ -1676,17 +1936,25 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
-								<p class="w3-pale-blue">Big loss attack (1st room)</p>
-								<p class="w3-pale-green">Move 3</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
+								<p class="w3-pale-blue">Summon 2 skeletons</p>
+								<p class="w3-pale-green">Summon move</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
+								<p class="w3-pale-green">Heal allies</p>
+								<p class="w3-pale-green">Self-heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
 							</div>
 						</div>
 	
@@ -1701,36 +1969,36 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-pale-red">Ranged attack</p>
+								<p class="w3-pale-green">Retaliate protection</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.<p>In scenarios without retaliate.</p></p>
+								<p>Scenarios with retaliate enemies</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unearthed-horror.png">
+								<p class="w3-pale-green">Extra summon</p>
+								<p class="w3-pale-red">Summon poison attack</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.<p>In scenarios with retaliate.</p></p>
+								<p>This is for short scenarios or boss fights where we need the extra tempo and stamina is less of an issue</p>
 							</div>
 						</div>
 	
@@ -1753,12 +2021,12 @@
 							<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-endless-numbers.png">
 						</div>
 						<div class="w3-container w3-cell w3-cell-middle">
-							<p>The top action discussion.</p>
+							<p>So Endless Numbers top action may be the coolest action ever designed in the Gloomhaven universe. It's truly awesome. What's even more awesome is that it's not only an awesome design but it's also really, really good. It does demand a lot of work though: you need to keep it safe and sufficiently fed, which requires a ton of summon command movement both to keep it in a good spot and to get stray Skeletons to join the Horde. But once you reach a comfortable stack of tokens on this, it just destroys enemies while also being pretty well-protected from disaster. The biggest catch is that you just need time and space to set up.</p>
 							<hr>
-							<p>The bottom action discussion.</p>
+							<p>I'm not even sure this card has a bottom action. In truth, it's okay-ish for a single-summon build if for some reason you don't feel that you can summon the top right away, but the Bone Ball waits for no man (or aesther).</p>
 						</div>
 						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-							<p>The overall card discussion.</p>
+							<p>BONE BALL!<p>Bone Ball note: Skeletons will essentially treat the hex occupied by the Bone Ball as an unoccupied hex and if their movement, following normal focus rules, ends in that hex then they will be eaten. You may get them into the Bone Ball by this route or by directly using commanded move abilities to put them there.</p></p>
 						</div>
 					</div>
 	
@@ -1784,18 +2052,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wailing-from-beyond.png">
-								<p class="w3-pale-green">Ranged attack, Curse</p>
-								<p class="w3-pale-green">Move 3, Heal ally ally</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-endless-numbers.png">
+								<p class="w3-pale-green">BONE BALL!</p>
+								<p class="w3-pale-red">Summon move</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-malicious-conversion.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-fell-remedy.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>We'll take Wailing from Beyond just for its pure power level. We should have a reasonable number of Skeletons on the board, so we'll jump at the chance to pick up something that's often six attack and three curses.<p>Wailing from Beyond replaces Malicious Conversion. If we need the Move 3 that badly, we now have a much better one. Our initiatives have certainly suffered but we still have the 16 and 18 for when we really need to go fast and then the acceptable 29.</p></p>
+								<p>Rotting Multitude replaces Decaying Will.<p>The bottom of Unforgivable Methods will now serve as a self-heal to recover the hit points we lose feeding the Bone Ball as the Bone Ball is our new number one summon.</p></p>
 							</div>
 						</div>
 	
@@ -1808,14 +2076,14 @@
 			<div id="acc-8-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>This is the default hand to use at this level, however it should be modified based on the quest.</p>
+					<p>The Bone Horde is the ultimate single-summon and while it does use a number of Skeletons, it combines them into a single hex to bypass the issue we had with space that led us to single-summon in the first place.<p>Our initiative definitely takes a hit, which hurts, but we'll fix that next level and I find all of the tools we have to be important. Prior to filling up the Bone Ball, you want all of the Skeleton summoning and summon movement you can get. Once the Bone Ball is satisfied, you want all of the summon command attacks you can get. So it's a difficult balance to strike.</p></p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wailing-from-beyond.png">
-								<p class="w3-pale-green">Ranged attack, Curse</p>
-								<p class="w3-pale-green">Move 3, Heal ally ally</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-endless-numbers.png">
+								<p class="w3-pale-green">BONE BALL!</p>
+								<p class="w3-pale-red">Summon move</p>
 							</div>
 						</div>
 	
@@ -1823,47 +2091,23 @@
 							<div class="w3-container w3-cell">
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
 								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
-								<p class="w3-pale-green">2x Skeleton Summon</p>
-								<p class="w3-pale-blue">Summon Move 4</p>
+								<p class="w3-pale-green">Summon 2 skeletons</p>
+								<p class="w3-pale-green">Summon move</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-solid-bones.png">
-								<p class="w3-pale-green">Summon booster</p>
-								<p class="w3-pale-green">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
-								<p class="w3-pale-green">Summon command</p>
-								<p class="w3-pale-red">Ally attack</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 						</div>
 	
@@ -1877,9 +2121,49 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-recycled-limbs.png">
-								<p class="w3-pale-blue">Summon and manipulate</p>
-								<p class="w3-pale-green">Heal ally</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-command-the-wretched.png">
+								<p class="w3-pale-green">Summon command</p>
+								<p class="w3-pale-red">Ally attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-twisted-decree.png">
+								<p class="w3-pale-green">Summon move/attack</p>
+								<p class="w3-pale-red">Melee attack</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Ally Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 						</div>
 	
@@ -1888,22 +2172,6 @@
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flow-of-the-black-river.png">
 								<p class="w3-pale-blue">Heal self</p>
 								<p class="w3-pale-green">Move + Summon Move</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
 							</div>
 						</div>
 	
@@ -1918,36 +2186,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle">
-								<header class="w3-light-grey"><p>Replace</p></header>
 								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-light-grey">-</p>
-								<p class="w3-light-grey">-</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.<p>In scenarios without retaliate.</p></p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
+								<p class="w3-pale-red">Ranged attack</p>
+								<p class="w3-pale-green">Retaliate protection</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.<p>In scenarios with retaliate.</p></p>
+								<p>Scenarios with retaliate enemies</p>
 							</div>
 						</div>
 	
@@ -2001,18 +2251,18 @@
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unholy-prowess.png">
-								<p class="w3-pale-green">Ranged Summon</p>
-								<p class="w3-pale-red">Ignore self-damage cards</p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-behold-the-shrouded-sun.png">
+								<p class="w3-pale-green">True damage</p>
+								<p class="w3-pale-green">Ranged true damage</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>We take Unholy Prowess for the top action. The bottom action would obviously also be good for us, but just not as good as the top.<p>Unholy Prowess replaces Eternal Torment. Being able to command the Sorcerer consistently is obviously typically going to be better than just a Skeleton. And with the Sorcerer's element generation, you may even get the poison added effect often enough.</p></p>
+								<p>We can play either the top or the bottom of Behold, using a sacraficial summon for the top, but it is the initiative that is best about this card for some very powerful turns.</p>
 							</div>
 						</div>
 	
@@ -2025,14 +2275,14 @@
 			<div id="acc-9-hand" class="w3-container w3-hide">
 				<div class="w3-container">
 					<h3 class="w3-light-grey">Standard Hand</h3>
-					<p>One of the biggest reasons to not have gone into Bone Ball on a Skeleton Swarm build is honestly the top summon on Unholy Prowess and now we're there. It's pretty cool that our two finals forms for this build were either a single giant ball of Skeletons or an army of buffed-up Skeletons.</p>
+					<p></p>
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 		
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unholy-prowess.png">
-								<p class="w3-pale-green">Ranged Summon</p>
-								<p class="w3-pale-red">Ignore self-damage cards</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-endless-numbers.png">
+								<p class="w3-pale-green">BONE BALL!</p>
+								<p class="w3-pale-red">Summon move</p>
 							</div>
 						</div>
 	
@@ -2040,39 +2290,31 @@
 							<div class="w3-container w3-cell">
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-grave-digging.png">
 								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-red">Summon from discard</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-rotting-multitude.png">
-								<p class="w3-pale-green">2x Skeleton Summon</p>
-								<p class="w3-pale-blue">Summon Move 4</p>
+								<p class="w3-pale-green">Summon 2 skeletons</p>
+								<p class="w3-pale-green">Summon move</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
-								<p class="w3-pale-green">Ally assist</p>
-								<p class="w3-pale-red">Negate ally damage</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-behold-the-shrouded-sun.png">
+								<p class="w3-pale-green">True damage</p>
+								<p class="w3-pale-green">Ranged true damage</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-solid-bones.png">
-								<p class="w3-pale-green">Summon booster</p>
-								<p class="w3-pale-green">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-wailing-from-beyond.png">
-								<p class="w3-pale-green">Ranged attack, Curse</p>
-								<p class="w3-pale-green">Move 3, Heal ally ally</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-eternal-torment.png">
+								<p class="w3-pale-green">Curse, S Attack</p>
+								<p class="w3-pale-green">Summon Loot</p>
 							</div>
 						</div>
 	
@@ -2086,17 +2328,41 @@
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-pale-green">Ranged attack</p>
-								<p class="w3-pale-blue">Retaliate protection</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-twisted-decree.png">
+								<p class="w3-pale-green">Summon move/attack</p>
+								<p class="w3-pale-red">Melee attack</p>
 							</div>
 						</div>
 	
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-recycled-limbs.png">
-								<p class="w3-pale-blue">Summon and manipulate</p>
-								<p class="w3-pale-green">Heal ally</p>
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
+								<p class="w3-pale-green">Skeleton summon</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-pale-red">Skeleton summon</p>
+								<p class="w3-pale-green">Ally Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-approach-oblivion.png">
+								<p class="w3-pale-red">Ally health transfer</p>
+								<p class="w3-pale-green">Summon Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flesh-shield.png">
+								<p class="w3-pale-blue">Ally protection</p>
+								<p class="w3-pale-green">Ally damage prevention</p>
 							</div>
 						</div>
 	
@@ -2105,22 +2371,6 @@
 								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-flow-of-the-black-river.png">
 								<p class="w3-pale-blue">Heal self</p>
 								<p class="w3-pale-green">Move + Summon Move</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-returned-servant.png">
-								<p class="w3-pale-green">Skeleton summon</p>
-								<p class="w3-pale-blue">Move 4</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<img class="card-med" src="images/frosthaven/character-ability-cards/bo/fh-bone-dagger.png">
-								<p class="w3-pale-blue">Skeleton sacrifice</p>
-								<p class="w3-pale-green">Free summon</p>
 							</div>
 						</div>
 	
@@ -2136,44 +2386,8 @@
 							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Take</p></header>
 								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-wrath-of-the-turned-earth.png">
-								<p class="w3-pale-green">Summon attack</p>
-								<p class="w3-pale-red">Negate summon damage</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle">
-								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-light-grey">-</p>
-								<p class="w3-light-grey">-</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>In scenarios without problematic retaliate, we play Wrath of the Turned Earth. Wrath sneaks in out of nowhere over Eternal Torment because it can command the Skeleton Sorcerer to attack, whereas Eternal Torment requires the commanded summon to be adjacent to its target - something that doesn't work with the Sorcerer.</p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle">
-								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
-								<p class="w3-light-grey">-</p>
-								<p class="w3-light-grey">-</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.<p>In scenarios without retaliate.</p></p>
-							</div>
-						</div>
-	
-						<div class="w3-card-4">
-							<div class="w3-container w3-cell">
-								<header class="w3-light-grey"><p>Take</p></header>
-								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-life-in-death.png">
-								<p class="w3-pale-red">Skeleton Summon</p>
-								<p class="w3-pale-green">Negate damage</p>
+								<p class="w3-pale-green">S Attack</p>
+								<p class="w3-pale-blue">Summon damage mitigation</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
 								<header class="w3-light-grey"><p>Replace</p></header>
@@ -2182,7 +2396,25 @@
 								<p class="w3-light-grey">-</p>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
-								<p>If you don't have access to enough items to heal yourself or enough allied heals bring back Life In Death for its bottom.<p>In scenarios with retaliate.</p></p>
+								<p>Enamies are being one-shot by the ball so the curse is doing nothing and the +1 attack might.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-decaying-will.png">
+								<p class="w3-pale-red">Ranged attack</p>
+								<p class="w3-pale-green">Retaliate protection</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-unforgivable-methods.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+								<p>Scenarios with retaliate enemies</p>
 							</div>
 						</div>
 	
@@ -2194,14 +2426,6 @@
 		
 	</div> <!-- build deck -->
 	
-	<!-- Enhancements -->
-	<button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
-	<div id="acc-enhancements" class="w3-container w3-hide">
-		<table class="w3-table w3-striped w3-border">
-			<tr><td><img class="card-small" src="images/frosthaven/character-ability-cards/bo/fh-damned-horde.png"></td><td>bottom</td><td>+1 Range</td><td>This is pretty filthy on this bottom action (as it's so much easier to get two enemies within range 3) and goes a long way towards empowering the Curse build for this class</td></tr>
-		</table>
-	</div> <!-- enhancements -->
-	
 	<!-- Perks -->
 	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
 	<div id="acc-perks" class="w3-container w3-hide">
@@ -2211,6 +2435,11 @@
 			<tr><td width="250px">Inoculation</td><td>Ignore negative scenario effects<br>2x +1</td></tr>
 		</table><br>
 
+		<div class="w3-light-grey">The next perk I consider is the ally-saving one. The cost is low enough that this can easily be worth taking this early and it can make a huge difference to certain allies. It might seem like this perk is good on tanks but tanks will get hit so many times that if something goes wrong, this usually won't really make the difference you want. Where this perk is excellent is on squishy melee allies who might take a stray unexpected hit this can save them from. So Blinkblade or melee Deathwalker are the best examples, but even a Geminate can be fine. If I have those in my party, I'll pretty much always take this perk second. Otherwise, I'll take it later.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Soul Pact</td><td>Ally saving</td></tr>
+		</table><br>
+
 		<div class="w3-light-grey">Now I'm just interested in removing as many negatives as possible from my attack modifier deck, as pretty much any class. I'll replace the -2 first just to give some more predictability (knowing I can only hit a -1 or higher) and because when performing a bunch of Attack 2's, a -2 is typically a miss. Then I'll do the -1 curse replacement perks followed by the -1 poison replacement perks. Poison is great for us but accordingly we may already be attacking poisoned enemies and poison doesn't stack, whereas we can always use more curses.</div>
 		<table class="w3-table w3-border">
 			<tr><td width="250px">Intensify</td><td>Replace -2 with +0</td></tr>
@@ -2218,26 +2447,21 @@
 			<tr><td width="250px">Rankle</td><td>Replace -1 with +0 <i>Poison</i></td></tr>
 		</table><br>
 
-		<div class="w3-light-grey">The other perk I've been considering this whole time is the starting free summon perk. Generally, for a 2-mark perk like this, I want to try to time it such that I can just get the full perk at once by getting to three checks from battle goals at the same time as I level up (thus gaining two marks at once). The first time that happens for me, I'll take this perk. If that hasn't happened for me by the time I've replaced all of the negatives in my deck that I can, I'll just start taking this perk now.</div>
+		<div class="w3-light-grey">The next perk I quite like on this build is the 'sacrifice summons for Bless' perk. It's common enough that I'll want to replay my Skeleton summon and unlike the Skeleton Swarm build, which primarily makes Attack 2-3's, we make a lot of Attack 3-5's, so Bless is quite good for us.</div>
 		<table class="w3-table w3-border">
+			<tr><td width="250px">Reclaimed Essence</td><td>Immediately before rest kill summons for a <i>Bless</i></td></tr>
+		</table><br>
+
+		<div class="w3-light-grey">From here, my priorities are adding the +2 mixed element perks and the 'free summon at the start of the scenario' perk, although if I didn't take the ally-saving perk above, I'll take it here first. +2's are fine for us and we do have a number of uses for elements, so they won't be wasted that often. The free summon isn't amazing for us but it is some welcome free tempo and I'll be happy to have it eventually. I'll typically try to pick up the free summon when I level-up and get to three battle goal checks at the same time, letting me immediately get the full perk.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Inhumation</td><td>Add +2 Earth/Dark</td></tr>
 			<tr><td width="250px">Death on Arrival</td><td>Start of the scenario perform summon</td></tr>
 		</table><br>
 
-		<div class="w3-light-grey">The next perks I'm interested in are the rolling Boneshaper heal perks. In truth, I want to make sure I have both of these perks taken before I get to level 6 and get Rotting Multitude. I will take these before the negative replacement if I'm getting close to 6 and haven't already finished the negative replacement perks.</div>
+		<div class="w3-light-grey">After that I'll take the Boneshaper-healing perks and finally the Skeleton sacrifice-on-attack perks. We don't particularly need either of these things for our build but especially not making Skeletons blow up when they attack.</div>
 		<table class="w3-table w3-border">
 			<tr><td width="250px">Animate</td><td>3x Heal 1, target Boneshaper</td></tr>
-		</table><br>
-
-		<div class="w3-light-grey">I don't have a strong personal preference for whether I like to take the 'blesses for killing summons' perk before or after the +0 into +1-4 replacement perks but I'll take all of those perks now in whichever order.</div>
-		<table class="w3-table w3-border">
-			<tr><td width="250px">Reclaimed Essence</td><td>Immediately before rest kill summons for a <i>Bless</i></td></tr>
 			<tr><td width="250px">Tribute</td><td>Replace +0 with +1, kill attacking summons to add +4 instead</td></tr>
-		</table><br>
-
-		<div class="w3-light-grey">Lastly I'll take the +2 mixed element perks (and the ally-saving perk, in whichever order), taking them last not because they're bad, but simply because I just always felt like there was somewhere else I wanted to spend my perk marks. In general, Boneshaper is extremely hungry for perk marks, having excellent non-AMD perks while also benefiting heavily from AMD perks by virtue of the amount of attacks we make.</div>
-		<table class="w3-table w3-border">
-			<tr><td width="250px">Inhumation</td><td>Add +2 Earth/Dark</td></tr>
-			<tr><td width="250px">Soul Pact</td><td>Ally saving</td></tr>
 		</table><br>
 
 	</div> <!-- perks -->
@@ -2264,7 +2488,7 @@
 </div> <!-- body -->
 
 <footer class="w3-container w3-teal">
-	<div style="font-size:0.8rem">Skeleton Swarm based on Gripeaway build (<a href="https://www.reddit.com/r/Gloomhaven/comments/u84ev0/boneshaper_class_guide/">https://www.reddit.com/r/Gloomhaven/comments/u84ev0/boneshaper_class_guide/</a>)</div>
+	<div style="font-size:0.8rem">Single-Summon based on Gripeaway build (<a href="https://www.reddit.com/r/Gloomhaven/comments/u84ev0/boneshaper_class_guide/">https://www.reddit.com/r/Gloomhaven/comments/u84ev0/boneshaper_class_guide/</a>)</div>
 </footer>
 
 </body>

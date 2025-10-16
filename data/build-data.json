@@ -2220,8 +2220,8 @@
 									"comment": "Self-healing following summoning, or group heal between rooms."
 								},
 								{
-									"id": "flowoftheblackriver",
-									"comment": "Fast initiative plus movement for yourself and a summon."
+									"id": "transferofessence",
+									"comment": "Assist allies between rooms."
 								},
 								{
 									"id": "maliciousconversion",

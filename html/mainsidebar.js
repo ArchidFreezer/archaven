@@ -43,6 +43,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('boDrop')">Boneshaper <i class="fa fa-caret-down"></i></button>
     <div id="boDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="bo-main.html" class="w3-bar-item w3-button">Overview</a>
+			<a href="bo-bone.html" class="w3-bar-item w3-button">Bone Wall</a>
 			<a href="bo-single.html" class="w3-bar-item w3-button">Single-Summon</a>
 			<a href="bo-skel.html" class="w3-bar-item w3-button">Skeleton Swarm</a>
     </div>

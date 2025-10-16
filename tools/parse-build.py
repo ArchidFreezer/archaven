@@ -176,7 +176,7 @@ def html_hand(level):
 			''')
 
 			for jcard in jsideboard:
-				hf.write(html_hand_replacement_card(jcard))
+				hf.write(html_hand_replacement_card(jcard, "false"))
 
 			hf.write(f'''
 					</div>
@@ -186,8 +186,13 @@ def html_hand(level):
 			</div> <!-- level {level} hand -->
 			''')
 
-def html_hand_replacement_card(jcard):
+def html_hand_replacement_card(jcard, wide="true"):
 	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style, replace, comment]", jcard)
+	if wide == "true":
+		width = ""
+	else:
+		width = "card-med"
+		
 	card=f'''
 						<div class="w3-card-4">
 							<div class="w3-container w3-cell card-med">
@@ -196,13 +201,13 @@ def html_hand_replacement_card(jcard):
 								<p class="{data[2]}">{data[1]}</p>
 								<p class="{data[4]}">{data[3]}</p>
 							</div>
-							<div class="w3-container w3-cell w3-cell-middle">
+							<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Replace</p></header>
 								<img class="card-small" src="{cardimages[data[5]]}">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
 							</div>
-							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">{data[6]}</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey {width}">{data[6]}</div>
 						</div>
 	'''
 	return card

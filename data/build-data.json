@@ -3776,7 +3776,7 @@
 						{
 							"order": 1,
 							"name": "Inoculation",
-							"effect": "Ignore negative scenario effects<p>2x +1</p>"
+							"effect": "Ignore negative scenario effects<br>2x +1"
 						}
 					]
 				},

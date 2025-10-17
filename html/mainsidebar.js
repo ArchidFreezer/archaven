@@ -58,6 +58,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('dfDrop')">Drifter <i class="fa fa-caret-down"></i></button>
     <div id="dfDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="df-main.html" class="w3-bar-item w3-button">Overview</a>
+			<a href="df-melee.html" class="w3-bar-item w3-button">Melee/Tank</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

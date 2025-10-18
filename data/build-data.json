@@ -13691,9 +13691,9 @@
 			}
 		},
 		{
-			"id": "df-melee",
+			"id": "df-bruiser",
 			"classid": "df",
-			"build": "Melee/Tank",
+			"build": "Bruiser",
 			"orig_author": "Magatis",
 			"orig_url": "https://imgur.com/a/frosthaven-drifter-class-review-GnR7oFb",
 			"overview": { 

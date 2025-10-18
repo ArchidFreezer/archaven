@@ -14961,21 +14961,6 @@
 								"style": "w3-pale-green"
 							}
 						}
-					],
-					"sideboard": [
-						{
-							"card": "continuoushealth",
-							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token Heal",
-								"style": "w3-pale-green"
-							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
-						}
 					]
 				},
 				{
@@ -15131,19 +15116,6 @@
 						}
 					],
 					"sideboard": [
-						{
-							"card": "continuoushealth",
-							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token Heal",
-								"style": "w3-pale-green"
-							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
-						},
 						{
 							"card": "sustainedmomentum",
 							"top": {
@@ -15312,19 +15284,6 @@
 						}
 					],
 					"sideboard": [
-						{
-							"card": "continuoushealth",
-							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token Heal",
-								"style": "w3-pale-green"
-							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
-						},
 						{
 							"card": "sustainedmomentum",
 							"top": {
@@ -15506,19 +15465,6 @@
 						}
 					],
 					"sideboard": [
-						{
-							"card": "continuoushealth",
-							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token Heal",
-								"style": "w3-pale-green"
-							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
-						},
 						{
 							"card": "againstallodds",
 							"top": {

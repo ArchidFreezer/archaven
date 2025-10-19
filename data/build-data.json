@@ -15820,6 +15820,1855 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "df-ranger-heal",
+			"classid": "df",
+			"build": "Ranged/Healer",
+			"orig_author": "Quadris",
+			"orig_url": "https://www.reddit.com/r/Gloomhaven/comments/16xvthh/support_drifter_guide/",
+			"overview": { 
+				"body": [
+					"This build is for a ranger drifter with healing providing healing and support. It is assumed that there is a party of at 4 for this build as below that the focus on support will mean the character does not contribute as much given the support function."
+				],
+				"benefits": [
+					"Direct healing",
+					"Effective at early levels so can be used from the start",
+					"High Ward uptime, if wanted",
+					"Good damage whilst supporting",
+					"Great mobility, especially late game"
+				],
+				"preferences": [
+					"Party of 4 to give targets for our support abilities",
+					"Melee character who can be the focus of enemy attacks"
+				]
+			},
+			"cards": [
+				{
+					"id": "bloodletting",
+					"top": "An attack 3 at level 1 is par though not something we will be aiming for. Having the chance to regain a token is always nice.",
+					"bottom": "Bottom attack 3, <i>Wound</i> is another great action for a melee build and most are looking for the occasional one. The initiative isn't great as we tend to hope to move in late, go early for the attack and kill the enemy.",
+					"overall": "Two melee actions with a poor initiative is not something we are looking for, however we will betaking it at the start as it has some function for us and is better than some of the other cards available at the start."
+				},
+				{
+					"id": "continuoushealth",
+					"top": "A ranged attack 3 moving a token back is great and we will be happy to take this in the early levels.",
+					"bottom": "The bottom action adding to our healing may actually be better on a melee tanking build than a support one in some ways. The best kind of Healing is in short sporadic bursts, not one giant Heal. Smaller heals get around the all too common Poison condition without huge penalty, and many classes have small incidental healing that makes a giant Heal 5 or 6 excessive and unneeded.<p>This bottom action works with anything that gives you a Heal action, such as Long Resting (4hp baby!), Amulet of Life, <i>Regen</i> or even a Healing Potion.</p>",
+					"overall": "This card has two halves that are fine for us, but we are more likely to be using the top for token manipulation.<p>Like our other persistent losses the middle initiative is poor.</p>"
+				},
+				{
+					"id": "crushingweight",
+					"top": "Crushing Weight boasts a powerful top persistent loss that turns every basic melee attack into an Attack 4. Note that while small rapid attacks are very efficient with this Loss in play, they will also make your tracker tick down much faster!",
+					"bottom": "A bottom Heal action that moves a token back is great value, allowing you to still attack or bulk up with your top action while ensuring that your tokens never get too close to the precarious final slot. Range 2 will be awkward at times as this is a bottom action, so you do need to be in position.",
+					"overall": "For our build the top of this card is a wash, but we like the bottom for its short ranged heal with token management.<p>The initiative, in line with our other persistent losses, is awful, but not something we are too concerned about given the way the card will be used.</p>"
+				},
+				{
+					"id": "deadlyshot",
+					"top": "Long range <i>Poison</i> is never a bad thing and we can add a status effect with that enhancement diamond.",
+					"bottom": "Move 4, every hand should have one of these somewhere, so unless you have the bonus +2 token slot card this is likely to be a standard pick.",
+					"overall": "Both top and bottom of this card are useful for us, though we would prefer to be using the top if we can.<p>The 32 initiative is eminently forgettable.</p>"
+				},
+				{
+					"id": "destructivefury",
+					"top": "Attack 3 AoE loss. Even for a melee build with CW you are unlikely to get the enemies to line up nicely so you can expect maybe 3 at best and more probably 2, making this an attack 10 loss, which is reasonable but not great for a last room loss.",
+					"bottom": "This is the only bottom ranged attack we have and with Precision Aim becomes Attack 4, Range 3 and we can maybe hope to target 2 enemies.",
+					"overall": "This is the latest in a long line of double loss cards and these need to have something compelling abut them to make the cut. In this case that would be the Initiative which at 14 is our best and beats some of the enemies we will encounter.<p>We will use this as an early Move 2 for most scenarios, but that is good enough at level 1.</p>"
+				},
+				{
+					"id": "drainingarrows",
+					"top": "Even with Precision Aim up this is only an attack 2 and will burn through tokens. The enhancement slot does not allow status conditions either so we can't even use that to improve the action. Locking down ranged enemies with the <i>Muddle</i> is about all this is likely to be good for, but that can be a powerful play.",
+					"bottom": "Move 3 on its own is a fairly good action, and we should be able to find an enemy to gain the token manipulation and this becomes an action we will want to use every cycle.",
+					"overall": "The top has some use against ranged enemies to lock them down, but outside those it is very weak even if enhanced and will burn tokens.<p>We take this card for the good bottom action and the initiative, which is fine for us.</p>"
+				},
+				{
+					"id": "fortitude",
+					"top": "Attack 3, <i>Pierce</i> is a great top that a melee build would be happy to play every cycle, but we aren't one, though this is our strongest attack in case we end up in melee range.",
+					"bottom": "The bottom is much more situational, but that's fine with combined with a great top action. This is the kind of ability I love to have access to but loathe to actually play, as it means that the scenario is probably falling by the wayside. I don't think spending 2-3 turns on setting this up and your Persistent Losses is going to be a recipe for success unless you can afford to take a couple turns off, and then you are going down to an 8 or 9 card hand. In short burst style missions this has some merit, but I don't foresee this being a staple, turn 1 Loss kind of action.",
+					"overall": "This isn't a great card for our build as we are not melee, but it is the best top in case we end up in melee range at the start of a scenario.<p>The bottom is very situational, but when you need it you will be glad it's there.</p>"
+				},
+				{
+					"id": "noremorse",
+					"top": "This top is our only base Heal 3 at level 1, which does mean it has the potential to be our beefiest heal if you are leaning into Continuous Health's Persistent Loss ability. Two, Initiative 20 is also a great boon, being one of our fastest actions at level 1, and something you generally want to do early. Despite this however, I suspect this is probably the most 'cut-able' level 1 Heal, as the other 2 are bottom heals and one of them moves a token back a space.",
+					"bottom": "The bottom action is unfortunately a little overkill on the movement side of things, especially if you have Sustained Momentum active for a casual total of Move 9. While it's obviously good value with the right Losses active, it falls into a standard problem where the Drifter simply cannot afford to play too many regular Burns. Again, this could be a good final room play to move, kill a monster, and move again and grab a chest or some loot.",
+					"overall": "This is one of our staple heals, giving out a decent amount of Health at a good range. It is also a good initiative for us so we can hopefully get it out to an ally before they take any more damage."
+				},
+				{
+					"id": "precisionaim",
+					"top": "This is the core ranged attack persistent, adding both range and damage. There is only a single extra damage, but the additional range will quite often be the difference between having a target and not.",
+					"bottom": "The bottom action is simply great, every character wants to move, and every Drifter wants to move tokens back.<p>Note the enhancement pip there for an extra movement.</p>",
+					"overall": "This is a core persistent for any ranged build.<p>As expected, another duff initiative on a persistent loss card.</p>"
+				},
+				{
+					"id": "prudentpreparation",
+					"top": "Shield 1, retaliate 1 isn't something we are looking to play as a ranged build.<p>There are a couple of pips here so we could beef this up to double both effects if we have the money. Unless you find you are taking a lot of the tanking strain there are probably better enhancements you could make.</p>",
+					"bottom": "Heal 2, range 3 is a great bottom action, especially at this initiative as we can heal up a character who took a beating last round and then do some damage ourselves.",
+					"overall": "This is our best initiative so we will be taking it for that alone, regardless of the text on the actions and with our token cards we can make this into a Move 4.<p>The numbers on either half are not great, but the flexibility this card gives us means it is likely to make the cut for level 1 hands.</p>"
+				},
+				{
+					"id": "relentless",
+					"top": "Move a token on two abilities backwards. Note it stipulates two abilities so can't be used to move a token back 2 spaces on one ability.",
+					"bottom": "Ranged retaliate persistent loss. Retaliate is not a great effect outside of some specific high shield, low health enemies and in may scenarios this would chew through your tokens in a couple of rounds. However, when facing Flame Demons and the like dishing out 12 pure damage for a loss seems like a price worth paying, if only you could keep them within range 2. The late initiative is also an issue as you need to set this up the round before and then try and move into range of the demons hoping they won't move away.",
+					"overall": "The top is something that is useful for getting your Mastery or if you are having issues with running out of tokens. We are not a melee build so the bottom is of little use for us.<p>At least we know where we are with the initiative and should be able to ensure we go after monsters.</p>"
+				},
+				{
+					"id": "sustainedmomentum",
+					"top": "Melee attack, that should be +4 with Crushing Weight, moving a token back. There is also a diamond enhancement pip here so we can add any negative status here if we want.",
+					"bottom": "Another sustained persistent loss, this time for movement. This is a very situational action and for longer scenarios or escort missions it might be very useful, but in an Alamo it adds no value. A basic move 4 is a joy to play with.",
+					"overall": "A melee attack 2 is not something we are interested in, but in specific scenarios we may want to play the bottom persistent. The problem is that the bottom fires on every movement so will chew through tokens over the course of a scenario.<p>The initiative, in line with our other persistent losses, sucks!</p>"
+				},
+				{
+					"id": "unbreakable",
+					"top": "Move a token on two abilities backwards. Note it stipulates two abilities so can't be used to move a token back 2 spaces on one ability.",
+					"bottom": "A sustained persistent loss giving Shield. Note that is states sources of damage and not attacks so it will only trigger if the attack hits and the damage is not prevented via other sources allowing you some control over when this is activated.",
+					"overall": "Another card that is more for a melee build. We can still use the top in the same way as Relentless and the initiative better in that if we want to go late this is later … by 1."
+				},
+				{
+					"id": "vileassault",
+					"top": "Without Crushing Weight this is a very poor loss, especially against shielded enemies which we will be coming across regularly.",
+					"bottom": "Move with heal is great basic action for any build and we will be happy to play this all day long. It also has an enhancement pip for us to use.",
+					"overall": "This bottom is a decent card for the Drifter, but isn't great for the ranged archetype as we shouldn't be taking too much damage.<p>The initiative is also great for the Drifter.</p>"
+				},
+				{
+					"id": "violentinheritance",
+					"top": "Attack 3, Loot as a top action is a recipe for a solid action, especially at level 1 and the requirement that Frosthaven puts on looting to build up the town. We are not going to be using the attack much, but a top loot is always nice between rooms.",
+					"bottom": "The bottom is pretty much what I would expect out of a 'last room' kind of Burn, where you trade longevity for immediate contribution/effort. Opening the door, spiking something at range for 3 or 4 damage, and still getting to do your top action is great, but Drifter is a class that isn't going to want to play a dearth of non-persistent Burns, due to going down to 9 or 10 cards with his Persistent Loss cards he will have in play at this point.",
+					"overall": "This card is the right structure for us with a nice top we are happy to use every cycle and a powerful bottom for use in the last room."
+				},
+				{
+					"id": "everforward",
+					"top": "A decent ranged attack, with the bonus of Regen.",
+					"bottom": "This can clear our party of conditions which is great for an optional bottom action. We could combine it with Continuous Health for some serious healing, but that would chew through tokens.<p>In order to use the bottom we would really need to pair this with a faster initiative to get the heals in at the start of a round.</p>",
+					"overall": "This has two reasonable halves with both attacking and healing options and is only let down by the poor initiative."
+				},
+				{
+					"id": "shockwave",
+					"top": "This is an interesting persistent as it gives us a mechanism to deal with high shield enemies via direct damage, though it does have a condition attached.",
+					"bottom": "This is a nice action with decent movement with a bonus.",
+					"overall": "This is a nice card with good initiative, a spammable bottom and a conditional top, unfortunately it is designed for the melee build and that's not us."
+				},
+				{
+					"id": "dualbow",
+					"top": "Multi-target ranged attack, what's not to like for our build.",
+					"bottom": "This loss gives us a huge token boost for two tracks as four positions on each certainly adds longevity. The way to look at this is whether we have two important tracks that are going to fall off and is it worth burning a card to keep them.",
+					"overall": "This is a decent card with a situational loss paired with a spammable top, plus a fairly good initiative for this class."
+				},
+				{
+					"id": "fiercebarrage",
+					"top": "This an awkward action ever for a melee build as it assumes that Crushing Weight is in play otherwise it is well below par for a level 3 cards. We are not a melee build anyway so it doesn't really matter anyway.",
+					"bottom": "The bottom is a persistent that adds a target to all our ranged attacks. This is a big boost to our damage, but can consume tokens at a frightening rate so we won't want it up all the time until we have better token management.",
+					"overall": "The bottom is all we are interested in here for a ranged build and it is a significant action. For our level 1 actions it is probably not worth running this as it would eat too many tokens and we wouldn't be able to afford it along with Precision aim on our existing multi-target attacks.<p>It will be more useful later on when we have more powerful attacks and better token management options.</p>"
+				},
+				{
+					"id": "giftoftheprey",
+					"top": "Precision Aim bumps this up to a Range 4 Attack 4, which should all but ensure you get the free token assuming you pick the right target (and don't draw a Null). This is a fantastic staple action that is a good payoff for being a Ranged Drifter, which is an archetype that will definitely burn through tokens, especially if you use both Aim and Barrage from Level 3.",
+					"bottom": "The bottom is also amazing, being a Move 4 with upside. It does not seem difficult to kill something and move forwards afterwards to get your token back and probably grab the loot that dropped.",
+					"overall": "Gift of the Prey is everything we could want, and 'activates' Barrage if we are running that persistent. We want both halves of this card, which is always a good sign for its power level. Even pure Support Drifters probably take this card to contribute to the fight and have a nice simple move 4, as we have only had a single one of those at this point, and you probably use that for its top a good portion of the time (Deadly Shot)."
+				},
+				{
+					"id": "chunkofflesh",
+					"top": "For a melee build this is a sweet action providing multiple things we would like, attack, healing plus a token.",
+					"bottom": "This bottom is the upgrade of Unbreakable; we didn't take that at level 1 and this is not better for us at level 4, we don't expect to be the target of too many attacks so it isn't worth using as a loss for us.",
+					"overall": "Both sides of this card are for the melee build so is of no interest to us."
+				},
+				{
+					"id": "breakthrough",
+					"top": "Attack 4 with Pierce is great against shielded targets and the optional Wound for a token means that this can also be useful against Retaliate targets if we don't kill then first time around.",
+					"bottom": "Move 4 plus a situational token management. For a melee build it is not going to be difficult to proc this.",
+					"overall": "For the melee build this is a card with two useful halves that we will be happy to play.<p>The top is situational, but strong when it fits coupled with a bottom that we will be happy to play at any time.</p>"
+				},
+				{
+					"id": "survivalist",
+					"top": "Adding Ward to heals is a nice bonus and this is probably the easiest ability in the game to add it repeatedly.<p>Ever Forward bottom is suddenly a Heal 1/3 on 3 targets plus Ward all of them. You can combine Survivalist with Prudent Preparation on the same turn for a Heal 2 and Ward at initiative 14 without prior setup. It fits our kit incredibly well. Notice the built-in safety in the writing: if we heal someone that already has Ward we do not spend a use slot.</p>",
+					"bottom": "Movement with a Loot plus a Heal is a nice combination that we will be happy to take. The late initiative means we should be able to pick up loot from any enemies killed by our damage dealers.",
+					"overall": "Another card with 2 good halves, a situational top and a spammable bottom.<p>Ward is not an insane buff that makes the game easy mode. Sometimes it only prevents 1 or 2 damage, and that is okay. If you look at it as overhealing, suddenly the party member you healed 2 to their 14 max HP now has at least an extra 1-2 HP (and that is just the floor).</p>"
+				},
+				{
+					"id": "accuratestrikes",
+					"top": "Shield busting persistent loss. This is another action that shines in the right situation, such as against Flame Demons. There is a safety valve in that it only triggers on shielded enemies. Note that the attacks don't need to be melee attacks.",
+					"bottom": "A move with Advantage is something we can always use in scenarios where the top is not suitable. The problem is the poor initiative that means we need to pair this with another card to get the advantaged attack in before we are targeted.",
+					"overall": "This card has two good halves in the right situation, but is let down by a poor initiative."
+				},
+				{
+					"id": "consumestamina",
+					"top": "A Ranged attack plus heal, both at range 4 is a great action when coupled with our tokens. The range is incredible so we should be able to hit a decent target  in both cases.",
+					"bottom": "Move and Retaliate is not something we really need, though it may find some against low HP, high shield enemies. The token management is not something we should be relying on. The low initiative means we have a decent chance of getting into place prior to the enemy attacking.",
+					"overall": "Another card that has two useful actions, one for ranged builds and one for melee. The 21 initiative is also one of our lowest."
+				},
+				{
+					"id": "likethewind",
+					"top": "This action fixes the biggest issue with heals: more often than not they are bottom actions which means we get to either move or heal. This adds a useful Move 3, Jump to all your heals. It is always afterwards so cannot be used to reposition before healing an ally.",
+					"bottom": "This is a decent way of regaining slots and can be useful where we need to bring other persistent actions and cannot afford Like the Wind top. Note that with Sustained Momentum it can represent a lot of slots regained, but we are going to be dropping that this round!",
+					"overall": "This is a decent card that provides movement on both top and bottom for scenarios that need it. The Jump on the top should not be ignored as this allows us to reposition more easily."
+				},
+				{
+					"id": "unendingfight",
+					"top": "Attack, move, attack is a strong top action but even with your tokens it is not flashy and attack 2/3 is weak against the shielded enemies that you are likely meeting at this level. It can be useful to finish off on enemy and move to the next, drawing AMD cards.",
+					"bottom": "3 Token manipulation slots is strong, but you shouldn't need to use a loss.",
+					"overall": "This is not a great card with two reasonable at best actions, though the 25 initiative is welcome."
+				},
+				{
+					"id": "againstallodds",
+					"top": "Well, if you thought Like the Wind's bottom could move tokens back, it has gotten usurped pretty quickly. This is the kind of action that looks super gimmicky and for a ranged build these are free tokens as it is considered a melee attack therefore we won't be using any Precision Aim tokens. It's even pretty reasonable on other builds who are okay wading in close to enemies, simply to flip modifiers and move back a bunch of tokens.",
+					"bottom": "The bottom is a nice situational Persistent Loss that could definitely put in a lot of work, although my primary concern is the best enemies to do True Damage to in base Gloomhaven were all squishy, high shielded ranged enemies, who typically have no reason to enter a hex adjacent to you. Not a bad thing to have available with how spammable the top action is, however.",
+					"overall": "For a ranged drifter this top is not going to see the same token gain as a melee build as we are not expecting to be close to the front line, but it is possible to get some use out of it. The bottom is not something we will be playing."
+				},
+				{
+					"id": "inevitableconsequences",
+					"top": "This is definitely a pretty spicy top action, and I like that moving the token forwards to gain Immobilize will often be an easy choice, as it's usually easy to visualize whether or not Immobilize will actually impact the enemies this turn. This is definitely a build-dependant Loss, as you need to be able to move your Use Tokens back quickly after this kind of effect, but something like an Attack 5 Range 3 (with Precision Aim) Immobilize 4-5 targets is obviously great. What will ultimately determine this cards usability is how generally useful the bottom action is.",
+					"bottom": "Well, as good as this bottom action is, it remains to be seen how often the (presumably) Ranged Drifter who wants the top action will be able to start their turn adjacent to a monster to perform an Attack 3 Poison. This, again, feels like a split card (much like Fierce Barrage at level 3), where the top action favours one build and the bottom favours the typically opposite build. This is a huge knock against the card when the other level 8 is so universally useful.",
+					"overall": "Whilst the top looks great neither the bottom or the initiative mean it is worth lugging around this card for a scenario just to use a Loss in a specific situation (probably the last room)."
+				},
+				{
+					"id": "everlasting",
+					"top": "The top action is definitely neat and has some obviously cool synergy with Shield actions, however in practice by Level 9 I feel like you get hit a lot more for 5+ than 1-4 damage, so it is pretty specialized in that sense. It's also awkward that it doesn't save you from the actions you are most likely to have to lose a card to, especially unexpected 2x's drawn by a monster or an untimely Brittle.",
+					"bottom": "Adding an extra target to a Heal 3 Range 3 Regenerate Strengthen is pretty incredible value, and any action that can Self Strengthen repeatedly (especially when tied to other effects) is going to have my attention. This isn't the strongest action for a level 9 in the world, but it's likely going to be a workhorse.",
+					"overall": "This card is a bit underwhelming for a level 9 the top is short duration with only 4 slots, though the effect can be powerful on a tank who has other damage mitigation sources so it may not proc that often.<p>The bottom is a good support action, let down by the very late initiative which means that the ally will have gone before this action is played.</p>"
+				},
+				{
+					"id": "useeverypart",
+					"top": "Use Every Part's top action is pretty absurd with the right coordination and positioning from your teammates, and it's hard to find fault with such an efficient action. it's good for nearly any archetype of Drifter, although obviously some are going to be more excited about it than others. Healing potentially multiple allies for 4 while dealing a pretty good amount of damage, and is another action that pairs well with Fierce Barrage's bottom.",
+					"bottom": "The bottom action definitely has a combo-sort of feel to it, as just like Just the Wind before it, this is the kind of action where you want to dump everything into movi'double dip' on the Move and Attack values both being modified by many of Drifters persistent abilities.",
+					"overall": "One of the best things about this card is the 18 initiative, it is the fastest we can get and that counts for a lot. Having another ranged attack with the added bonus of healing is a powerful combination."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Core Persistent Losses",
+							"overview": "We take 3 persistent losses tha we can use, though not all are likely to be in play in the early levels except in short scenarios.",
+							"cards": [
+								{
+									"id": "precisionaim",
+									"comment": "This is our core attack boost and should be set up in the first round."
+								},
+								{
+									"id": "sustainedmomentum",
+									"comment": "Persistent movement card, we want to be using our bottom actions for healing so having a boost to movement is important to allow us to get around."
+								},
+								{
+									"id": "continuoushealth",
+									"comment": "This is our persistent heal and should only be activeted if required."
+								}
+							]
+						},
+						{
+							"label": "Damage",
+							"overview": "We have a couple of ranged attacks  with one being the top of Continuous Health which we prefer over the bottom if we can.",
+							"cards": [
+								{
+									"id": "deadlyshot",
+									"comment": "Our only dedicated ranged attack with <i>Poison</i>."
+								},
+								{
+									"id": "bloodletting",
+									"comment": "Melee attack with conditional token."
+								},
+								{
+									"id": "violentinheritance",
+									"comment": "Small melee attack with loot."
+								}
+							]
+						},
+						{
+							"label": "Utility",
+							"overview": "The remainder of our cards are either healing or movement.",
+							"cards": [
+								{
+									"id": "noremorse",
+									"comment": "Our only top heal"
+								},
+								{
+									"id": "crushingweight",
+									"comment": "Bottom heal with token"
+								},
+								{
+									"id": "prudentpreparation",
+									"comment": "Ranged heal"
+								},
+								{
+									"id": "vileassault",
+									"comment": "Move with self-heal"
+								},
+								{
+									"id": "drainingarrows",
+									"comment": "Move 3 with token"
+								},
+								{
+									"id": "destructivefury",
+									"comment": "Early move"
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 3, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 1, <i>Wound</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "violentinheritance",
+							"top": {
+								"text":"Melee attack, loot",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, ranged attack loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Multi-attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, self-heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 3, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-blue"
+							},
+							"replace": "bloodletting",
+							"comment": "Scenario has shielded enemies.<p>We are not expecting to get into melee range, but if we do then the <i>Pierce</i> on Fortitude gives us a better chance to do some damage.</p>"
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							},
+							"replace": "bloodletting",
+							"comment": "We replace Bloodletting as it does not fit our build and has a worse initiative than Destructive Fury."
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "violentinheritance",
+							"top": {
+								"text":"Melee attack, loot",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, ranged attack loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Multi-attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, self-heal",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-blue"
+							},
+							"replace": "fiercebarrage",
+							"comment": "We take Fierce Barrage, replacing Draining Arrows which is one of our token management cards, but we are not looking to move next to enemies and the top would drain tokens on +1 attacks, which is not something we want now.<p>If we find we are managing our tokens sufficiently then running the additional persistent loss would certainly give our damage output a boost, and we could stop running Sustained Momentum for shorter scenarios.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "violentinheritance",
+							"top": {
+								"text":"Melee attack, loot",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, ranged attack loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Multi-attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, self-heal",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							},
+							"replace": "destructivefury",
+							"comment": "Gift of the Prey is a no-brainer at level 4. Remember that Fierce Barrage and Precision Aim should be active, so that is an Attack 4 at 4 range with 2 targets, and if either of the enemies dies you get a use slot back (we only regain one though, regardless of kill count)<p>We drop Destructive Fury from the deck. While the bottom is nice, Gift of the Prey does pretty much the same as a non-loss (though obviously as a top action, but we should be using bottom actions to heal). If we don't need the extra movement we can drop Sustained Momentum as a persistent if we are struggling with tokens and use Deadly Shot for the movement instead.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "violentinheritance",
+							"top": {
+								"text":"Melee attack, loot",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, ranged attack loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Multi-attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, self-heal",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "survivalist",
+							"top": {
+								"text": "Persistent token Ward",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, loot, Heal",
+								"style": "w3-pale-green"
+							},
+							"replace": "violentinheritance",
+							"comment": "We take Survivalist as a replacement loot card with the situational top when it fits.<p>We are saying goodbye to Violent Inheritance. Survivalist can fill the looting role during the first cycle and we have enough non-loss ranged attacks to justify the bottom. It still goes into our toolbox for scenarios that require a lot of movement or looting.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "survivalist",
+							"top": {
+								"text": "Persistent token Ward",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, loot, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Multi-attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, self-heal",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "consumestamina",
+							"top": {
+								"text": "Ranged attack, ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2, retaliate",
+								"style": "w3-pale-red"
+							},
+							"replace": "noremorse",
+							"comment": "We take Consume Stamina and have one more reason to run with Fierce Barrage, as the heal counts the total damage dealt and not just one target. Hopefully by this point our modifier deck has improved enough that a Heal 4 is a very reasonable expectation.<p>The top of Consume Stamina is an upgrade as with Fierce Barrage we should be hitting for more than 3 damage.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "consumestamina",
+							"top": {
+								"text": "Ranged attack, ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2, retaliate",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "survivalist",
+							"top": {
+								"text": "Persistent token Ward",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, loot, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Multi-attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, self-heal",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "likethewind",
+							"top": {
+								"text": "Persistent token jump after heal",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, tokens",
+								"style": "w3-pale-green"
+							},
+							"replace": "vileassault",
+							"comment": "We take Like the Wind but there is a case for going back and talking Accurate Strikes from level 6 for the anti-shield top. Up to now we should have been fine for movement so we could do without Like the Wind, however the bottom slot management tips the balance slightly in its favour.<p>Vile Assault small heal is now not sufficient to justify retaining this card against a much more powerful bottom of Like the Wind.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "consumestamina",
+							"top": {
+								"text": "Ranged attack, ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2, retaliate",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "survivalist",
+							"top": {
+								"text": "Persistent token Ward",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, loot, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "likethewind",
+							"top": {
+								"text": "Persistent token jump after heal",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, tokens",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "This is a bit of a dead level for the ranged drifter as neither card adds any impact to our hand.",
+					"picks": [
+						{
+							"card": "againstallodds",
+							"top": {
+								"text": "Melee AoE, tokens",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token pure damage",
+								"style": "w3-pale-green"
+							},
+							"replace": "dfback",
+							"comment": "We take Against All Odds, but not with any great enthusiasm, though the bottom can find a use against some enemies.<p>We don't actually play Against All Odds by default, only bringing it in for those scenarios with low health, high shield enemies.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "consumestamina",
+							"top": {
+								"text": "Ranged attack, ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2, retaliate",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "survivalist",
+							"top": {
+								"text": "Persistent token Ward",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, loot, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persisatent token melee",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged heal, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "likethewind",
+							"top": {
+								"text": "Persistent token jump after heal",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, tokens",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "againstallodds",
+							"top": {
+								"text": "Melee AoE, tokens",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token pure damage",
+								"style": "w3-pale-green"
+							},
+							"replace": "crushingweight",
+							"comment": "High shield, retaliate enemies where we want the bottom persistent direct damage that doesn't invoke retaliate."
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "useeverypart",
+							"top": {
+								"text": "Ranged attack, heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee attack",
+								"style": "w3-pale-red"
+							},
+							"replace": "crushingweight",
+							"comment": "We take Use Every Part for its great initiative and the top ranged attack. We have plenty of usable bottom actions a so a good top helps balance our hand as well.<p>We drop Crushing Weight as we have added a good amount of healing  on the way and the range 2 makes it the weakest link, despite the utility of the slot regain. We then move Deadly Shot down for the bottom move as the top at this level is really only useful for spreading <i>Poison</i>, which is a good play but feels weak.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent token ranged strength",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 2 , token",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "everforward",
+							"top": {
+								"text": "Ranged attack, self-regen",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Party heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giftoftheprey",
+							"top": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "consumestamina",
+							"top": {
+								"text": "Ranged attack, ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2, retaliate",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack, token",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Presistent token heal",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "useeverypart",
+							"top": {
+								"text": "Ranged attack, heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, melee attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text": "AoE melee attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged target",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Melee attack, token",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "survivalist",
+							"top": {
+								"text": "Persistent token Ward",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, loot, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Ranged attack, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>Ranged heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "likethewind",
+							"top": {
+								"text": "Persistent token jump after heal",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, tokens",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "againstallodds",
+							"top": {
+								"text": "Melee AoE, tokens",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent token pure damage",
+								"style": "w3-pale-green"
+							},
+							"replace": "continuoushealth",
+							"comment": "High shield, retaliate enemies where we want the bottom persistent direct damage that doesn't invoke retaliate."
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "deadlyshot",
+					"position": "top",
+					"enhancement": "Immobilize",
+					"comment": "This gives us an opener when combined with Fierce Barrage that immobilizes and poisons 2 targets, and can potentially be repeated if we have a way to get discarded level 1 cards back."
+				},
+				{
+					"card": "noremorse",
+					"position": "top",
+					"enhancement": "Strengthen or Bless",
+					"comment": "We will be keeping this card right through to level 9 and either of these add significant benefit."
+				}
+			],
+			"perks": [
+				{
+					"comment": "Our first pick is always going to be the token management and then we want to thin our deck out to make these more likely so we get rid of base modifiers and replace them with rolling ones.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Retrace",
+							"effect": "Replace +1 with 2x +0 move token back"
+						},
+						{
+							"order": 2,
+							"name": "Puncture",
+							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+						},
+						{
+							"order": 3,
+							"name": "Barge",
+							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+						}
+					]
+				},
+				{
+					"comment": "We have no more picks to streamline our deck so now we move onto improving it. Removing the minuses is a numerical advantage and swapping the order of the first two picks here is an option to remove the worst damage modifier.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Focus",
+							"effect": "Replace -1 with +1"
+						},
+						{
+							"order": 2,
+							"name": "Intensify",
+							"effect": "Replace -2 with +0"
+						},
+						{
+							"order": 3,
+							"name": "Ample Inoculation",
+							"effect": " Ignore scenario effects"
+						},
+						{
+							"order": 4,
+							"name": "Persistence",
+							"effect": "[Double] On long rest move token"
+						},
+						{
+							"order": 5,
+							"name": "Expanded Arsenal",
+							"effect": "Bring additional hand item to scenario"
+						},
+						{
+							"order": 6,
+							"name": "Recover",
+							"effect": "Add 2x rolling +1 Heal"
+						}
+					]
+				},
+				{
+					"comment": "The loot swap can be a decent pick if you find that you have an excess of one resource in your outpost but the other cards that thicken your deck should be ignored as these reduce the chance of getting token modifiers",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Scavenger",
+							"effect": "Extra Loot"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "",
+						"picks": [
+							{
+								"id": "124",
+								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							}
+						]
+					}
+				]
+			},
+			"potions": {
+				"comments": "",
+				"levels": [
+					{
+						"numherbs": "2",
+						"comments": "",
+						"picks": [
+							{
+								"id": "090",
+								"comment": "The Muscle Potion is the strongest 2-herb potion in the game and is amazing on you. You attack every turn and often multi-target, making this a perfect fit."
+							},
+							{
+								"id": "083",
+								"comment": "You're going to be on the front lines taking damage while killing enemies, meaning a Healing Potion is always welcome. Being able to heal up without spending an action during the fight lets you safely maintain offensive tempo, which is a big deal."
+							},
+							{
+								"id": "092",
+								"comment": "My next choice would be the Renewing Potion. This potion provides reasonable power and flexibility, allowing you to gain additional offense, defense, or mobility. A great package."
+							},
+							{
+								"id": "097",
+								"comment": "The Explosive Vial can finish off damaged enemies left around after one of your AoEs and/or deal with pesky shielded enemies. And you'll regularly be on the front lines in a position to use it in a timely and convenient manner."
+							},
+							{
+								"id": "084",
+								"comment": "The Stamina Potion isn't anything exceptional but it will always provide an extra turn each scenario by using it when you have an odd hand size and let you repeat one of your more powerful level 1 cards, which is an acceptable impact."
+							},
+							{
+								"id": "093",
+								"comment": "This might seem like overkill given you should already have the Muscle Potion, but you can never be too sure, ya know? Glancing Potion, my beloved, hop in our pack!"
+							}
+						]
+					},
+					{
+						"numherbs": "3",
+						"comments": "",
+						"picks": [
+							{
+								"id": "090",
+								"comment": "Keep the Muscle Potion! Sure, it's not actually the best at this point, but you should already have it and never get rid of it. It's too good and too cost-effective."
+							},
+							{
+								"id": "099",
+								"comment": "Next up is the Major Healing Potion, for the same reasons as its smaller cousin, this is just so welcome when consistently fighting on the front lines."
+							},
+							{
+								"id": "118",
+								"comment": "The Fulminant Flask is just so good. The jump from two to four damage between the Explosive Vial and this has a profound effect and you'll always be well-placed to use this."
+							},
+							{
+								"id": "101",
+								"comment": "I'll put this in the 4th potion slot because your 4th small slot should open up by the time you're level 7. At that point, you'll have access to Tri-Thrust, which makes the Major Power Potion now exceptional for you, being able to use it on a turn where you play this bottom and an AoE top for 8-12 bonus damage. And then it obviously gets even better at level 9."
+							},
+							{
+								"id": "107",
+								"comment": "Alright, I suppose we'll take a second Muscle Potion with the Vigor Potion. It's basically just overpaying for another Muscle Potion and you really shouldn't worry about getting bonus targets, just focus on using it at the right moment. But even an overpriced Muscle Potion is still very good."
+							},
+							{
+								"id": "100",
+								"comment": "In case you can't get one of the above potions, the Major Stamina Potion is a very reasonable filler potion."
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

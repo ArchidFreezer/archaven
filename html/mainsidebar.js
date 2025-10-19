@@ -59,6 +59,7 @@ function sidebarMainDropClick(id) {
     <div id="dfDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="df-main.html" class="w3-bar-item w3-button">Overview</a>
 			<a href="df-bruiser.html" class="w3-bar-item w3-button">Bruiser</a>
+			<a href="df-ranger-heal.html" class="w3-bar-item w3-button">Ranged/Healer</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

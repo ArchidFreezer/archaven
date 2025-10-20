@@ -100,7 +100,7 @@ def html_build_decks():
 
 def html_openers(level):
 	openers=jmespath.search(f"openers[?level==`{level}`]", jbuild)
-	if not openers is None:
+	if not openers is None and len(openers) > 0:
 		hf.write(f'''
 			<button id="level-openers" onclick="accClick('acc-{level}-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
 			<div id="acc-{level}-openers" class="w3-container w3-hide">

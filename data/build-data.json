@@ -15483,7 +15483,32 @@
 			],
 			"perks": [
 				{
-					"comment": "Our first pick is always going to be the token management and then we want to thin our deck out to make these more likely so we get rid of base modifiers and replace them with rolling ones.",
+					"comment": "As a melee Drifter our first pick is always going to be ignore negative item effects",
+					"picks": [
+						{
+							"order": 1,
+							"name": "???",
+							"effect": "Ignore negative item effect, add +1"
+						}
+					]
+				},
+				{
+					"comment": "Now we are going to increase our damage by getting rid of our negative AMD cards.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Focus",
+							"effect": "Replace -1 with +1"
+						},
+						{
+							"order": 2,
+							"name": "Intensify",
+							"effect": "Replace -2 with +0"
+						}
+					]
+				},
+				{
+					"comment": "Next we look at token management and thinning our deck  to make these more likely so we get rid of base modifiers and replace them with rolling ones.",
 					"picks": [
 						{
 							"order": 1,
@@ -15503,35 +15528,30 @@
 					]
 				},
 				{
-					"comment": "We have no more picks to streamline our deck so now we move onto improving it. Removing the minuses is a numerical advantage and swapping the order of the first two picks here is an option to remove the worst damage modifier.",
+					"comment": "We have no more picks to streamline our deck so now we move onto improving it again",
 					"picks": [
 						{
 							"order": 1,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "???",
+							"effect": "Add +3"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
-						},
-						{
-							"order": 3,
 							"name": "Ample Inoculation",
 							"effect": " Ignore scenario effects"
 						},
 						{
-							"order": 4,
+							"order": 3,
 							"name": "Persistence",
 							"effect": "[Double] On long rest move token"
 						},
 						{
-							"order": 5,
+							"order": 4,
 							"name": "Expanded Arsenal",
 							"effect": "Bring additional hand item to scenario"
 						},
 						{
-							"order": 6,
+							"order": 5,
 							"name": "Recover",
 							"effect": "Add 2x rolling +1 Heal"
 						}
@@ -21644,7 +21664,32 @@
 			],
 			"perks": [
 				{
-					"comment": "Our first pick is always going to be the token management and then we want to thin our deck out to make these more likely so we get rid of base modifiers and replace them with rolling ones.",
+					"comment": "As a melee Drifter our first pick is always going to be ignore negative item effects",
+					"picks": [
+						{
+							"order": 1,
+							"name": "???",
+							"effect": "Ignore negative item effect, add +1"
+						}
+					]
+				},
+				{
+					"comment": "Now we are going to increase our damage by getting rid of our negative AMD cards.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Focus",
+							"effect": "Replace -1 with +1"
+						},
+						{
+							"order": 2,
+							"name": "Intensify",
+							"effect": "Replace -2 with +0"
+						}
+					]
+				},
+				{
+					"comment": "Next we look at token management and thinning our deck  to make these more likely so we get rid of base modifiers and replace them with rolling ones.",
 					"picks": [
 						{
 							"order": 1,
@@ -21664,35 +21709,30 @@
 					]
 				},
 				{
-					"comment": "We have no more picks to streamline our deck so now we move onto improving it. Removing the minuses is a numerical advantage and swapping the order of the first two picks here is an option to remove the worst damage modifier.",
+					"comment": "We have no more picks to streamline our deck so now we move onto improving it again",
 					"picks": [
 						{
 							"order": 1,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "???",
+							"effect": "Add +3"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
-						},
-						{
-							"order": 3,
 							"name": "Ample Inoculation",
 							"effect": " Ignore scenario effects"
 						},
 						{
-							"order": 4,
+							"order": 3,
 							"name": "Persistence",
 							"effect": "[Double] On long rest move token"
 						},
 						{
-							"order": 5,
+							"order": 4,
 							"name": "Expanded Arsenal",
 							"effect": "Bring additional hand item to scenario"
 						},
 						{
-							"order": 6,
+							"order": 5,
 							"name": "Recover",
 							"effect": "Add 2x rolling +1 Heal"
 						}

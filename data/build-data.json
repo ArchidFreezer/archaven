@@ -19661,6 +19661,2326 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "df-melee",
+			"classid": "df",
+			"build": "Melee Striker",
+			"orig_author": "RageBadger",
+			"orig_url": "https://www.youtube.com/watch?v=wg_xySosrjU",
+			"overview": { 
+				"body": [
+					"This is a build where the focus is on melee damage with some utility to allow it to adapt to different scenarios.",
+					"There are some minor deviations from the RageBadger build, but it is essentially the same."
+				],
+				"preferences": [
+					"This build doesn't have much in the way of healing so some support on that front would be welcome.",
+					"A main tank is also useful to try and draw some of the enemy aggro away",
+					"Ranged characters so that the rooms are not cloged upo and allow for movement"
+				]
+			},
+			"cards": [
+				{
+					"id": "bloodletting",
+					"top": "Attack 5, plus pip, that has token manipulation. This is a great card for us and we will want to be using it every cycle.",
+					"bottom": "Bottom attack 3, <i>Wound</i> is another great action for a melee build and most melee builds are looking for the occasional one. The initiative isn't great as we tend to hope to move in late, go early for the attack and kill the enemy.",
+					"overall": "Two great actions let down by poor initiative, meaning we likely will want to pair it with something else, especially if we are trying to get use out of the bottom action."
+				},
+				{
+					"id": "continuoushealth",
+					"top": "A ranged attack moving a token back sounds great, but without assistance the actual attack is fairly weak. The token manipulation is great though.",
+					"bottom": "The bottom action adding to our healing may actually be better on a melee tanking build than a support one in some ways. The best kind of Healing is in short sporadic bursts, not one giant Heal. Smaller heals get around the all too common Poison condition without huge penalty, and many classes have small incidental healing that makes a giant Heal 5 or 6 excessive and unneeded.<p>This bottom action works with anything that gives you a Heal action, such as Long Resting (4hp baby!), Amulet of Life, <i>Regen</i> or even a Healing Potion.</p>",
+					"overall": "This card has two halves that are fine for us, but not something we want to be building our character around.<p>Many times this will be used for a basic top attack.</p><p>Like our other persistent losses the middle initiative is poor.</p>"
+				},
+				{
+					"id": "crushingweight",
+					"top": "Crushing Weight boasts a powerful top persistent loss that turns every basic melee attack into an Attack 4. Note that while small rapid attacks are very efficient with this Loss in play, they will also make your tracker tick down much faster!",
+					"bottom": "A bottom Heal action that moves a token back is great value, allowing you to still attack or bulk up with your top action while ensuring that your tokens never get too close to the precarious final slot. Range 2 will be awkward at times as this is a bottom action, so you do need to be in position.",
+					"overall": "For a melee build this is a core card. We will want the top to be up as soon as possible and need to manage the tokens to ensure it does not drop off.<p>The initiative, in line with our other persistent losses, is awful, but not something we are too concerned about given the way the card will be used.</p>"
+				},
+				{
+					"id": "deadlyshot",
+					"top": "Long range <i>Poison</i> is never a bad thing, but as a melee build we would rather leave that type of action to someone else.",
+					"bottom": "Move 4, every hand should have one of these somewhere, so unless you have the bonus +2 token slot card this is likely to be a standard pick.",
+					"overall": "This bottom is either going to be a must bring or fairly useless depending on whether we are using the bottom of Sustained Momentum or not. If we have that persistent loss running then every card turns into a Move 4, making this redundant. If we do not plan on running the slot then we will take this card for the bottom.<p>I do not expect to be running SM on many scenarios so this does become a standard pick.</p><p>The 32 initiative eminently forgettable.</p>"
+				},
+				{
+					"id": "destructivefury",
+					"top": "Attack 5 AoE loss. You are unlikely to get the enemies to line up nicely so you can expect maybe 3 at best and more probably 2, making this an attack 10 loss, which is reasonable but not great for a last room loss.",
+					"bottom": "The bottom is a ranged attack 3, though fairly short ranged and for a melee build not something we are interested in.",
+					"overall": "This is the latest in a long line of double loss cards and these need to have something compelling abut them to make the cut. In this case that would be the Initiative which at 19 is fairly good and beats some of the enemies we will encounter.<p>The decision on whehter to take this card or not comes down to whether we feel we need the initiative over the alternatives.</p>"
+				},
+				{
+					"id": "drainingarrows",
+					"top": "A ranged attack that, without being boosted, is weak and is not much use for a melee build.",
+					"bottom": "Move 3 on its own is a fairly good action, and we should be able to find an enemy to gain the token manipulation and this becomes an action we will want to use every cycle.",
+					"overall": "We take this card for the good bottom action and the initiative, which though not great is fine for us."
+				},
+				{
+					"id": "fortitude",
+					"top": "Attack 5, <i>Pierce</i> is a great top that we will be happy to play every cycle. As a melee build we can generally ignore the text in the bubble outside some very specific use cases for enemies with high retaliate, but then it drops down to an attack 3 so we don't really want to be going there if we can avoid it.",
+					"bottom": "The bottom is much more situational, but that's fine with combined with a great top action. This is the kind of ability I love to have access to but loathe to actually play, as it means that the scenario is probably falling by the wayside. I don't think spending 2-3 turns on setting this up and your Persistent Losses is going to be a recipe for success unless you can afford to take a couple turns off, and then you are going down to an 8 or 9 card hand. In short burst style missions this has some merit, but I don't foresee this being a staple, turn 1 Loss kind of action.",
+					"overall": "This is a great combo of spammable top combined with a situation loss.<p>Even for enemies without shield the top is an attack 5 so it's always going to be useful and against shielded enemies it is an attack 7 which is immense!</p><p>The bottom is very situational, but when you need it you will be glad it's there.</p>"
+				},
+				{
+					"id": "noremorse",
+					"top": "This top is our only base Heal 3 at level 1, which does mean it has the potential to be our beefiest heal if you are leaning into Continuous Health's Persistent Loss ability. Two, Initiative 20 is also a great boon, being one of our fastest actions at level 1, and something you generally want to do early. Despite this however, I suspect this is probably the most 'cut-able' level 1 Heal, as the other 2 are bottom heals and one of them moves a token back a space.",
+					"bottom": "The bottom action is unfortunately a little overkill on the movement side of things, especially if you have Sustained Momentum active for a casual total of Move 9. While it's obviously good value with the right Losses active, it falls into a standard problem where the Drifter simply cannot afford to play too many regular Burns. Again, this could be a good final room play to move, kill a monster, and move again and grab a chest or some loot.",
+					"overall": "For the melee build it is not our job to be handing out group heals and though the initiative is one we will be sad to leave behind the card just does not do  enough for us to be taken over our others."
+				},
+				{
+					"id": "precisionaim",
+					"top": "This is Crushing Weight for your ranged attacks, adding both range and damage. There is only a single extra damage, but the additional range will quite often be the difference between having a target and not.",
+					"bottom": "The bottom action is simply great, I don't think this card will get cut early at all due to the simple fact that every character wants to move, and every Drifter wants to move tokens back.<p>Note the enhancement pip there for an extra movement.</p>",
+					"overall": "This is a core token manipulation card for the melee build, allowing us to hit an enemy and then get our CW token back.<p>There may be times when we want to use the top, but those will be few and far between.</p><p>As expected, another duff initiative on a persistent loss card.</p>"
+				},
+				{
+					"id": "prudentpreparation",
+					"top": "Shield 1, retaliate 1 isn't something we are looking to play as a bruiser. But with CW we can turn this into attack 4, which suddenly sounds much better.<p>There are a couple of pips here so we could beef this up to double both effects if we have the money. Unless you find you are taking a lot of the tanking strain there are probably better enhancements you could make.</p>",
+					"bottom": "Heal 2, range 3 is a great bottom action, especially at this initiative as we can heal up a character who took a beating last round and then do some damage ourselves.",
+					"overall": "This is our best initiative so we will be taking it for that alone, regardless of the text on the actions and with our token cards we can make this into an attack 4 or move 4.<p>The numbers on either half are not great, but the flexibility this card gives us means it is likely to make the cut for level 1 hands.</p>"
+				},
+				{
+					"id": "relentless",
+					"top": "Move a token on two abilities backwards. Note it stipulates two abilities so can't be used to move a token back 2 spaces on one ability.",
+					"bottom": "Ranged retaliate persistent loss. Retaliate is not a great effect outside of some specific high shield, low health enemies and in may scenarios this would chew through your tokens in a couple of rounds. However, when facing Flame Demons and the like dishing out 12 pure damage for a loss seems like a price worth paying, if only you could keep them within range 2.",
+					"overall": "The top is one of those between-rooms actions that come in handy, but we want to see those paired with a spammable action on the other half and we don't have that here.<p>For specific scenarios this bottom has it's uses but would need to be taken at the right time as we want it to target specific enemies making this more a sideboard card.</p><p>If you struggle with token management, especially at early levels, you may want to take this for the top, but more likely you are looking for the bottom loss.</p><p>Well, at least the Initiative is late enough that you can all but guarantee going last.</p>"
+				},
+				{
+					"id": "sustainedmomentum",
+					"top": "Melee attack, that should be +4 with Crushing Weight, moving a token back. There is also a diamond enhancement pip here so we can add any negative status here if we want.",
+					"bottom": "Another sustained persistent loss, this time for movement. This is a very situational action and for longer scenarios or escort missions it might be very useful, but in an Alamo it adds no value. A basic move 4 is a joy to play with.",
+					"overall": "An attack 4  at level 1 is a great return for any action and with the added token movement this top is going to be core for this build.<p>In specific scenarios we may want to play the bottom persistent, but that would mean losing the top so there has to be a good reason.</p><p>The initiative, in line with our other persistent losses, sucks!</p>"
+				},
+				{
+					"id": "unbreakable",
+					"top": "Move a token on two abilities backwards. Note it stipulates two abilities so can't be used to move a token back 2 spaces on one ability.",
+					"bottom": "A sustained persistent loss giving Shield. Note that is states sources of damage and not attacks so it will only trigger if the attack hits and the damage is not prevented via other sources allowing you some control over when this is activated.",
+					"overall": "For a tanking/bruiser build the persistent bottom here is good value as you are gaining 6 damage mitigation and 3 xp for a loss if the card drops off and potentially more. Your 12 card hand allows for 3 persistent losses to be running and you should have at minimum 2 so this and Crushing Weight are likely to be your first 2 choices."
+				},
+				{
+					"id": "vileassault",
+					"top": "With CW this is an attack 9, <i>Wound</i> what's not to like. For bosses and in the final room this is something we will be happy to play.",
+					"bottom": "Move with heal is great basic action for a bruiser build and we will be happy to play this all day long. It also has an enhancement pip for us to use.",
+					"overall": "This is a staple card for the melee Drifter and has that great combo of a powerful loss combined with a spammable.<p>The initiative is also great for the Drifter.</p>"
+				},
+				{
+					"id": "violentinheritance",
+					"top": "Attack 3, Loot as a top action is a recipe for a solid action, especially at level 1 and the requirement that Frosthaven puts on looting to build up the town.",
+					"bottom": "The bottom is pretty much what I would expect out of a 'last room' kind of Burn, where you trade longevity for immediate contribution/effort. Opening the door, spiking something at range for 3 or 4 damage, and still getting to do your top action is great, but Drifter is a class that isn't going to want to play a dearth of non-persistent Burns, due to going down to 9 or 10 cards with his Persistent Loss cards he will have in play at this point.",
+					"overall": "This card is primarily for it's top, as the bottom and Initiative 70 are nothing special.<p>If your group is good about getting Loot or the scenario simply will not give you the time to trade stronger actions for Loots, feel free to cut this card, but it is something to consider so it becomes a sideboard card that may see some decent usage.</p>"
+				},
+				{
+					"id": "shockwave",
+					"top": "The top is carefully worded to ensure it doesn't trigger when it has no targets, and splash True Damage is a great way to finish off low health enemies nearby or pesky high Shield enemies like Living Spirits or the much-hated Flame Demons. Obviously it's pretty conditional: You need to make a melee attack, and the monster needs to have another monster adjacent to it. But, I still think this is going to be strong provided you are primarily doing melee attacks. Which makes it pretty obvious which build this is meant for as well.",
+					"bottom": "A reasonable move action tied to a Shield has historically been a very solid play (Brute, for example, loved this kind of action). This one can also be enhanced up to 2 Shields, for those who really want to be the Tank for their party. 17 Initiative is early, but not quite early enough to guarantee going before the monsters.",
+					"overall": "For a melee build we have two usable halves, though the top is very situational and difficult to set up reliably.<p>The bottom on the other hand is a spammable move with benefits at a fast initiative.</p>"
+				},
+				{
+					"id": "everforward",
+					"top": "Ever Forward introduces Regenerate which is a nice status to have for a melee build especially if they aren't going to take damage the next round either to get a double heal from it. This is a sort of general value action that Ranged Drifters in particular will love, and the Regenerate has that same diamond-and-cross pip allowing for a status effect to be added.",
+					"bottom": "The bottom of this card is a pretty sweet Heal action, and the kind of Heal I've alluded to earlier as being the style I prefer. It has a +1 enhancement pip as well to double its effectiveness, and doling out a little Heal to 3 party members within Range 3 (and can also target yourself) means that all the annoying conditions that can be 'cleansed' by Heals will not be a problem for your party.",
+					"overall": "The worst part of this card is it's Initiative. 67 is very similar to many that Drifter already has in its arsenal, which just exacerbates the problem."
+				},
+				{
+					"id": "fiercebarrage",
+					"top": "This is a great example of the Devs and testers being very aware of just how strong Crushing Weight is on a Melee Build, as this turns from an Attack 4 to an Attack 8 in that build, but is basically unplayable otherwise. It does have the diamond pip which should allow for most if not all enhancements, which is nice, but that will be pricey as this has multiple targets.",
+					"bottom": "The bottom continues with the awkwardness of this card, as it is a great Persistent Loss for the exact opposite build. This is actually an ability that scales hard in the higher levels of Drifter, as adding a target to the majority of your level 1 actions (or even Ever Forward from level 2), is not exciting at all. Early on, this only really pairs well with Continuous Health Top, Deadly Shot Top, and Fortitude top if you move the token forwards. It's also something you actively don't want to use with an ability like Draining Arrows, as adding Attack 1 Muddle is not worth a full charge.",
+					"overall": "In the end this is a fairly mediocre card with nothing great about either action and a middling initiative."
+				},
+				{
+					"id": "dualbow",
+					"top": "This a fine bread and butter action but again, just like Barrage, isn't particularly exciting at Level 3. I think using this top action is going to be very medium unless you run it with Precision Aim, which will eat up 2 charges each time, but provided you manage your tokens well an Attack 3 Range 4 Target 2 is good value.",
+					"bottom": "The bottom of this card is where things get spicy. This is definitely a fantastic option to have available to you, especially when things go awry in the middle-late part of a scenario. The reality is that using this loss may 'save' you your two key losses from falling off mid scenario, and I imagine a Drifter that loses all of their Persistent effect is definitely going to be a bit of a lame duck as far as combat prowess is concerned. If that does happen, your options are to try and turn on another one of your Persistent actions (if they are around) and try and swap builds mid-scenario, which sounds really dicey.",
+					"overall": "Another fairly mediocre card for any build and for the bruiser a washout.<p>The initiative of 26 is a decent improvement on 32 as it is getting towards that mark where you beat several monsters, but nothing to take a card for.</p>"
+				},
+				{
+					"id": "giftoftheprey",
+					"top": "Prey's top action is reminiscent of the conditional move token actions we got at Level 1 on the Drifter, although those were Move and Melee attacks, which means that Prey is definitely an eye catcher for Ranged Drifters. Precision Aim bumps this up to a Range 4 Attack 4, which should all but ensure you get the free token assuming you pick the right target (and don't draw a Null). This is a fantastic staple action that is a good payoff for being a Ranged Drifter, which is an archetype that will definitely burn through tokens, especially if you use both Aim and Barrage from Level 3.",
+					"bottom": "The bottom is also amazing, being a Move 4 with upside, which from the starters in Frosthaven, seems like it will be a rarity until very high levels (minus Blinkblade). It does not seem difficult to kill something and move forwards afterwards to get your token back and probably grab the loot that dropped.",
+					"overall": "The top has no place in a melee build, but we can certainly use the bottom move and  conditional token.<p>This is direct upgrade to Deadly Shot, albeit with a worse initiative, which at 40 is definitely not great, but at least it's not in the 60-70 range again.</p>"
+				},
+				{
+					"id": "chunkofflesh",
+					"top": "Chunk of Flesh has a sweet top action that kind of plays both sides of the fence, being a Melee Attack that can heal self or other adjacent allies, and obviously scales well with their respective Persistent Losses. Attack 4 Heal 2 is just going to be a good action for Melee Drifters, either topping up their own health or potentially helping out someone nearby with a nasty condition.  The token regain is unconditional as well so a solid action for us.",
+					"bottom": "Although, if you are the frontliner, you will probably take this card for the bottom ability instead.... Sorry, Unbreakable, you had your time in the sun, but it's about time you left. Doubling your sources of shield on a card while having a better top action means that aside from the most dedicated of Tank Drifters, this card becomes an easy replacement for Unbreakable. I don't know if I can even recommend running both Shield Losses at once when there are so many fun and powerful Losses to play on this class, as having 2 shields instead of 3 but actually contributing to the fight is going to be more effective anyways.",
+					"overall": "There are two great actions for a melee build and I would be nice to have them both, but ultimately the bottom is going to win out.<p>Initiative 62 sucks, but if you are using this card for its bottom, you are only seeing the number once or twice at least.</p>"
+				},
+				{
+					"id": "survivalist",
+					"top": "Survivalist's top introduces Ward, a new condition that I suspect will end up being an absolute staple of any sort of Support or Tank's arsenal. Ward is also a mechanic that scales with the level and difficulty you are playing at nicely, being somewhere in the range of 2-5 damage mitigation unless you are playing at something like +2 difficulty and a big enemy crits. This action is a lot of incremental value, and if it keeps your party alive so they aren't burning cards to damage, then it's a strong option.",
+					"bottom": "The bottom is super flavourful for a Drifter (as they are wandering nomads who salvage and re-appropriate for a living), but isn't a particularly exciting action by level 5. It's definitely a good value action with the right kind of Losses in play, and is never going to be bad per se, but I don't think many players will take Survivalist purely for this effect.",
+					"overall": "For a bruiser build the top looks great, but we ultimately want to be killing things to prevent damage.<p>I love the bottom of this card as it does so many things we like, but ultimately the question is how much does it add to our deck.</p><p>The 91 initiative is actually very good as it should ensure we go after enemies to hoover up any loot after our allies have killed them for us.</p>"
+				},
+				{
+					"id": "breakthrough",
+					"top": "Break Through is an absolute house numerically, especially for a Melee Drifter. By level 5, assuming you are playing somewhere in the range of 0 to +2 difficulty, many enemies will have shields, and the ones that do so (esp. elites) may have multiple. An attack 4/6 Pierce 2 with the option to add a Wound can end up being something like an effective Attack 9 (if you count the wound as an extra damage, it will often be better than that). That's pretty absurd for a non-burn that is easily repeatable, and makes this level up kind of a nonchoice if you are Melee.",
+					"bottom": "This is before even writing about the bottom, too. Again, Move 4's with upside. This one's a little harder to trigger in my opinion than the bottom of Prey that we saw earlier, unless you are moving into the thick of battle. Regardless, it's extra text on top of an already solid action, so you'll take it. ",
+					"overall": "I don't think there is a world where you don't take Break Through with this build, no matter how much fun that Loot Heal action from Survivalist looks. <p>Initiative 34 is fine, although Drifter's will definitely have problems depending on card choice where the lion's share of your actions fall into the 30-70 range.</p>"
+				},
+				{
+					"id": "accuratestrikes",
+					"top": "A persistent pierce that seems particularly suited for a Ranged Drifter who has essentially no Pierce available minus some melee actions, although this doesn't preclude Melee Drifters from using this Loss as well. Because the top is pretty situational and definitely isn't something you will want in every scenario, let's look at the bottom action.",
+					"bottom": "The bottom is reasonable enough, but is definitely a far cry from the Strengthen actions we've seen in the past. However, this is again something that both Melee and Ranged Drifters focused on damage probably want in their arsenal, as so far Drifter has had no access to Strengthen-style effects (Enhancement pips notwithstanding).",
+					"overall": "This is isn't great for the melee build as we already have pierce on our attacks.<p>The Initiative on this card does it no favours, unfortunately, meaning if you plan to use this action for its bottom primarily, you will need to pair it with another card that either goes fast or slow. Overall, this is very medium for a Level 6 card.</p>"
+				},
+				{
+					"id": "consumestamina",
+					"top": "The top action definitely wants damage buffs such as Precision Aim active (and good modifier flips!) to really become valuable, and obviously fares particularly poorly versus Shields. This is a pretty cool action to pair with the bottom of Fierce Barrage, as getting an extra target also means a bigger heal for the target of your Heal action. An attack 2 is definitely weak by this point, so this is pretty specialized for Ranged Drifters and/or Support Drifters who also attack at range.",
+					"bottom": "The bottom is a pretty sweet action when the situation lines up well, however moving the tokens back is definitely not always going to happen. The Initiative being 21 means you have a good shot at it though, as the wording means that as long as you've gone before your other allies, and a target adjacent to you dies, you get to move the token back. I feel the Retaliate is definitely extra help towards this goal, but ultimately most people will try and play this is as a move 2 that can potentially move back multiple tokens. Which is still good value when you can make it work consistently, of course.",
+					"overall": "Consume Stamina kind of ends up being the polar opposite of Strikes above, where it focused on support and defence instead of damage.<p>The top is nothing that the melee build is interested in but we can certainly use a quick move with retaliate and a potential token management.</p>"
+				},
+				{
+					"id": "likethewind",
+					"top": "Like the Wind has a top action I want to like, but I'm unsure how to fit it into a Drifter build in practice. It is dedicated for Support Drifters who probably have less use for the jump than a melee build. Given that support builds tend to throw heals out there on a regular basis this would mean that they are trying to manage two token tracks when this functionality is probably not required every time.",
+					"bottom": "The bottom action is what gets me really excited for this card, and wanting to dredge up our friend from Level 1, the bottom of Sustained Momentum. Anything that turns this Move 3 into a Move 5, (even something like Boots of Striding) is going to be invaluable, as getting multiple tokens moved back on a staple move action is going to feel really good. This is the kind of ability that often makes a class 'tick' at higher levels, when you can start going nuts and using your cool stuff in a far less measured, conservative manner. Note that this says ally, which does include what will be more common NPC allies and Summons.",
+					"overall": "The top is for a specific build and not that great even for that. The bottom is more likely to be used by a melee build that has some allies close by that can be used by this.<p>The initiative is very poor.</p>"
+				},
+				{
+					"id": "unendingfight",
+					"top": "Unending Fight would look super mediocre on pretty much any other class, but reading the card as Attack 4 Move 3 Attack 4 it is going to be good a large portion of the time. Versatility and Flexibility is the name of the game here, and this is a fantastic option for any Melee Drifter running Crushing Weight. It's an easier to set up Fierce Barrage Top that can target the same enemy twice, and also gives you a move action in between if you end up killing your primary target.",
+					"bottom": "The bottom action here is pretty filler for a Level 7 Loss, as you do need to have 3 different persistent abilities active all with at least 3 Use Slots filled in. I don't find this to be an overwhelming upgrade from Dual Bow's bottom at level 3, so I think this is again the kind of action that is nice to have, but if you took Dual Bow at Level 3 this becomes far less attractive.",
+					"overall": "This card seems pretty good for Melee Drifters in particular, which on average I suspect will have skipped Dual Bow. Unending Fight also has a pretty nice Initiative, which is a good thing to have access to."
+				},
+				{
+					"id": "againstallodds",
+					"top": "Well, if you thought Like the Wind's bottom could move tokens back, it has gotten usurped pretty quickly. This is the kind of action that looks super gimmicky, but is obviously ridiculous for Melee Drifters, provided they hit 5 or less targets (as you move the tokens back AFTER the attacks resolve, assuming you still have Crushing Weight in play), they can essentially chain this as a massive Attack 3 AoE whenever they want it. It's important to note here that you can decline to hit enemies in the radius if you have too many where your Loss will fall off before the attacks all resolve. It's even pretty reasonable on other builds who are okay wading in close to enemies, simply to flip modifiers and move back a bunch of tokens.",
+					"bottom": "The bottom is a nice situational Persistent Loss that could definitely put in a lot of work, although my primary concern is the best enemies to do True Damage to were all squishy, high shielded ranged enemies, who typically have no reason to enter a hex adjacent to you. Not a bad thing to have available with how spammable the top action is, however.The top of this is a great token management top that can flip our modifier deck.<p>The bottom is a situational for use against those high shield, low health enemies and we can move next to them to apply the damage.</p>",
+					"overall": ""
+				},
+				{
+					"id": "inevitableconclusion",
+					"top": "This is definitely a pretty spicy top action, and I like that moving the token forwards to gain Immobilize will often be an easy choice, as it's usually easy to visualize whether or not Immobilize will actually impact the enemies this turn. This is definitely a build-dependant Loss, as you need to be able to move your Use Tokens back quickly after this kind of effect, but something like an Attack 5 Range 3 (with Precision Aim) Immobilize 4-5 targets is obviously great. What will ultimately determine this cards usability is how generally useful the bottom action is.",
+					"bottom": "Our first bottom attack since level 1 is something a melee character can use and we have good movement now and even a top move so we should be able to drop out a movement for this if we want.",
+					"overall": "Whilst this has a bottom attack that we can use the top is a ranged attack that is of no use to a melee build."
+				},
+				{
+					"id": "everlasting",
+					"top": "The top action is definitely neat and has some obviously cool synergy with Shield actions, however in practice by Level 9 I feel like you get hit a lot more for 5+ than 1-4 damage, so it is pretty specialized in that sense. It's also awkward that it doesn't save you from the actions you are most likely to have to lose a card to, especially unexpected 2x's drawn by a monster or an untimely Brittle.",
+					"bottom": "Adding an extra target to a Heal 3 Range 3 Regenerate Strengthen is pretty incredible value, and any action that can Self Strengthen repeatedly (especially when tied to other effects) is going to have my attention. This isn't the strongest action for a level 9 in the world, but it's likely going to be a workhorse.",
+					"overall": "For a melee build this doesn't really add anything to our build. If the top would work with larger damage it may be of use then it may have some use for us.<p>Initiative 96 is good for doing one thing exactly, which is ensuring you go last.</p>"
+				},
+				{
+					"id": "useeverypart",
+					"top": "Use Every Part's top action is pretty absurd with the right coordination and positioning from your teammates, and it's hard to find fault with such an efficient action. it's good for nearly any archetype of Drifter, although obviously some are going to be more excited about it than others. Healing potentially multiple allies for 4 while dealing a pretty good amount of damage, and is another action that pairs well with Fierce Barrage's bottom.",
+					"bottom": "The bottom action definitely has a combo-sort of feel to it, as just like Just the Wind before it, this is the kind of action where you want to dump everything into moving absurdly quickly and then bashing something for like 7+ damage as a <em>bottom</em> action. It's not even difficult to envision this being more than an Attack 7, as you get to 'double dip' on the Move and Attack values both being modified by many of Drifters persistent abilities.",
+					"overall": "Whilst the top action is not use to a melee Drifter we can lean into the bottom for some pretty hefty attacks."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Persistent",
+							"overview": "There are 3 cards we would typically play as persistent losses in this build with the scenario defining which we want to play from the start and which we would consider bringing in partway through.",
+							"cards": [
+								{
+									"id": "continuoushealth",
+									"comment": "This will be a card we use fairly frequently, but not necessarily on our first turn."
+								},
+								{
+									"id": "crushingweight",
+									"comment": "This is the only persistent loss that we know we will be bringing to every scenario."
+								},
+								{
+									"id": "relentless",
+									"comment": "This is great when dealing with shielded or ranged enemies adding some passive damage."
+								}
+							]
+						},
+						{
+							"label": "Primary Attacks",
+							"overview": "These cards are the ones we expect to be attacking with",
+							"cards": [
+								{
+									"id": "bloodletting",
+									"comment": "This card can be used as both a top and bottom attack, though we would expect to be using the top more for the token management."
+								},
+								{
+									"id": "fortitude",
+									"comment": "This is our shield-breaker attack, but is still great for others."
+								},
+								{
+									"id": "sustainedmomentum",
+									"comment": "Another attack with token management. In scenarios with high movement requirements or at the end of scenarios we may play the bottom persistent loss, but we prefer not to if possible."
+								},
+								{
+									"id": "violentinheritance",
+									"comment": "Top attack with loot."
+								}
+							]
+						},
+						{
+							"label": "Utility",
+							"overview": "These cards are generally the bottom heals and movement, with Crushing Weight any card may be used as an attack 4 so we don't mind being a bit bottom heavy.",
+							"cards": [
+								{
+									"id": "deadlyshot",
+									"comment": "Move 4 card; every build needs one big move card and this is ours."
+								},
+								{
+									"id": "prudentpreparation",
+									"comment": "This will be used as a quick Move 2, but with the possibility of a bottom heal if we really need it."
+								},
+								{
+									"id": "drainingarrows",
+									"comment": "Move 3 with token management."
+								},
+								{
+									"id": "precisionaim",
+									"comment": "Move 2 with token management."
+								},
+								{
+									"id": "vileassault",
+									"comment": "Move 2 with self-healing."
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "violentinheritance",
+							"top": {
+								"text":"Attack 3, Loot",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Ranged attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, Retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>ranged Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Big attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							},
+							"replace": "vileassault",
+							"comment": "We would like to drop Prudent Preparation, but we need that early initiative."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "violentinheritance",
+							"top": {
+								"text":"Attack 3, Loot",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, Ranged attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, Retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>ranged Heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							},
+							"replace": "violentinheritance",
+							"comment": "We take the melee AoE attack over the ranged one and swap out our smallest attack card."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, Retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>ranged Heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-blue"
+							},
+							"replace": "relentless",
+							"comment": "This card does so much for us, a good attack, healing plus a token. The bottom is also very useable if we are up against heavy hitters.,br>We replace Relentless, but this card will come back for some scenarios."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, Retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>ranged Heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "continuoushealth",
+							"comment": "Against some heavy hitters the bottom of Chunk of Flesh is better than the persistent heal, and for these the bottom of Relentless is typically also a good card givingh us the <i>Spiky Ball</i> formation."
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "breakthrough",
+							"top": {
+								"text":"Attack 6, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							},
+							"replace": "fortitude",
+							"comment": "Break Through is a fairly straight upgrade to Fortitude, which we will bring back in for scenarios with lots of shileded enemies."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "breakthrough",
+							"top": {
+								"text":"Attack 6, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "prudentpreparation",
+							"top": {
+								"text":"Shield, Retaliate",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 or<br>ranged Heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "sustainedmomentum",
+							"comment": "Scenarios with lots of shielded enemies. If we need the movement would swap Bloodletting instead."
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "continuoushealth",
+							"comment": "Against some heavy hitters the bottom of Chunk of Flesh is better than the persistent heal, and for these the bottom of Relentless is typically also a good card givingh us the <i>Spiky Ball</i> formation."
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "accuratestrikes",
+							"top": {
+								"text":"Persistent <i>Pierce</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, advantage",
+								"style": "w3-pale-green"
+							},
+							"replace": "prudentpreparation",
+							"comment": "We take this card for the utility of both top and bottom. The top is perfect for shield heavy scenarios, but for normal use a move with advantage is great for us. We swap out Prudent Preparation, we will miss the initiative but something has to go and we want the token manipulation on our other moves."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "breakthrough",
+							"top": {
+								"text":"Attack 6, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "accuratestrikes",
+							"top": {
+								"text":"Persistent <i>Pierce</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, advantage",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "continuoushealth",
+							"comment": "Against some heavy hitters the bottom of Chunk of Flesh is better than the persistent heal, and for these the bottom of Relentless is typically also a good card givingh us the <i>Spiky Ball</i> formation."
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "unendingfight",
+							"top": {
+								"text":"Attack 4, Move 3, Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Tokens on 3 tracks",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "This is an easy choice for a striker and we swap out Fierce Barrage as it is a more restrictive top with no other utility."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "breakthrough",
+							"top": {
+								"text":"Attack 6, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unendingfight",
+							"top": {
+								"text":"Attack 4, Move 3, Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Tokens on 3 tracks",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "accuratestrikes",
+							"top": {
+								"text":"Persistent <i>Pierce</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, advantage",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "continuoushealth",
+							"comment": "Against some heavy hitters the bottom of Chunk of Flesh is better than the persistent heal, and for these the bottom of Relentless is typically also a good card givingh us the <i>Spiky Ball</i> formation."
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "We are finally dropping out all our healing, beefing our shields instead which should be a nett gain, especially in larger parties.",
+					"picks": [
+						{
+							"card": "againstallodds",
+							"top": {
+								"text":"AoE attack 3, tokens",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent direct damage",
+								"style": "w3-pale-blue"
+							},
+							"replace": "continuoushealth",
+							"comment": "We are taking this card for the top with its significant token management and we replace Chunk of Flesh top, which we use the bottom for now in place of Continuous Health."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "breakthrough",
+							"top": {
+								"text":"Attack 6, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "againstallodds",
+							"top": {
+								"text":"AoE attack 3 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent direct damage",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unendingfight",
+							"top": {
+								"text":"Attack 4, Move 3, Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Tokens on 3 tracks",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "accuratestrikes",
+							"top": {
+								"text":"Persistent <i>Pierce</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, advantage",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "continuoushealth",
+							"comment": "Against some heavy hitters the bottom of Chunk of Flesh is better than the persistent heal, and for these the bottom of Relentless is typically also a good card givingh us the <i>Spiky Ball</i> formation."
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "useeverypart",
+							"top": {
+								"text":"Ranged Attack, Heal",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "deadlyshot",
+							"comment": "We are taking this card for its utility. We are primarily looking to the bottom as a striker for the damage, but can use the top for an emergency heal if we need to. We drop Deadly Shot in the expectation that we will use Sustained Momentum if we need the big movement."
+						}
+					],
+					"hand": [
+						{
+							"card": "crushingweight",
+							"top": {
+								"text":"Persistent melee",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Bottom ranged heal",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "breakthrough",
+							"top": {
+								"text":"Attack 6, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, token",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "againstallodds",
+							"top": {
+								"text":"AoE attack 3 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent direct damage",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unendingfight",
+							"top": {
+								"text":"Attack 4, Move 3, Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Tokens on 3 tracks",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "chunkofflesh",
+							"top": {
+								"text":"Attack 4, Heal [T]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent shield 2",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "shockwave",
+							"top": {
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Shield",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "useeverypart",
+							"top": {
+								"text":"Ranged Attack, Heal",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "accuratestrikes",
+							"top": {
+								"text":"Persistent <i>Pierce</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, advantage",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precisionaim",
+							"top": {
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 [T]",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "prudentpreparation",
+							"comment": "For a scenario where you know you will be overwhelmed with large numbers of enemies."
+						},
+						{
+							"card": "destructivefury",
+							"top": {
+								"text":"Melee AoE loss",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "deadlyshot",
+							"comment": "Alamo scenarios where we are not going to be moving much."
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "continuoushealth",
+							"comment": "Against some heavy hitters the bottom of Chunk of Flesh is better than the persistent heal, and for these the bottom of Relentless is typically also a good card givingh us the <i>Spiky Ball</i> formation."
+						}
+					]
+				}
+			],
+			"perks": [
+				{
+					"comment": "Our first pick is always going to be the token management and then we want to thin our deck out to make these more likely so we get rid of base modifiers and replace them with rolling ones.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Retrace",
+							"effect": "Replace +1 with 2x +0 move token back"
+						},
+						{
+							"order": 2,
+							"name": "Puncture",
+							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+						},
+						{
+							"order": 3,
+							"name": "Barge",
+							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+						}
+					]
+				},
+				{
+					"comment": "We have no more picks to streamline our deck so now we move onto improving it. Removing the minuses is a numerical advantage and swapping the order of the first two picks here is an option to remove the worst damage modifier.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Focus",
+							"effect": "Replace -1 with +1"
+						},
+						{
+							"order": 2,
+							"name": "Intensify",
+							"effect": "Replace -2 with +0"
+						},
+						{
+							"order": 3,
+							"name": "Ample Inoculation",
+							"effect": " Ignore scenario effects"
+						},
+						{
+							"order": 4,
+							"name": "Persistence",
+							"effect": "[Double] On long rest move token"
+						},
+						{
+							"order": 5,
+							"name": "Expanded Arsenal",
+							"effect": "Bring additional hand item to scenario"
+						},
+						{
+							"order": 6,
+							"name": "Recover",
+							"effect": "Add 2x rolling +1 Heal"
+						}
+					]
+				},
+				{
+					"comment": "The loot swap can be a decent pick if you find that you have an excess of one resource in your outpost but the other cards that thicken your deck should be ignored as these reduce the chance of getting token modifiers",
+					"picks": [
+						{
+							"order": 1,
+							"name": "Scavenger",
+							"effect": "Extra Loot"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "",
+						"picks": [
+							{
+								"id": "128",
+								"comment": "Heater Shield is perfectly acceptable if not very exciting. How long this will remain worth it will really depend on your party's outpost-building path. There's a much better choice than this for you at Craftsman 3, but many parties will not get there quickly. So if you suspect you'll remain with Craftsman 1 or 2 for a while, this is a good starting item."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 1",
+						"comments": "You could buy the Crude Hide Armor, but it's pretty expensive when you have a better option waiting at Craftsman 2. I'd recommend pushing for your party to upgrade the Craftsman sooner rather than later and hold off on filling out your chest slot until then.",
+						"picks": [
+							{
+								"id": "001",
+								"comment": "Spyglass is always going to be worth it. The cost is so small that even if it's not exceptional for us (it's better on classes who perform a smaller number of larger attacks), it's certainly worth crafting. The only exception would be if you have two allies who are better-suited to use it, in which case I'd just leave the head slot empty for now."
+							},
+							{
+								"id": "128",
+								"comment": "Heater Shield is perfectly acceptable if not very exciting. How long this will remain worth it will really depend on your party's outpost-building path. There's a much better choice than this for you at Craftsman 3, but many parties will not get there quickly. So if you suspect you'll remain with Craftsman 1 or 2 for a while, this is a good starting item."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 2",
+						"comments": "",
+						"picks": [
+							{
+								"id": "001",
+								"comment": "Spyglass is always going to be worth it. The cost is so small that even if it's not exceptional for us (it's better on classes who perform a smaller number of larger attacks), it's certainly worth crafting. The only exception would be if you have two allies who are better-suited to use it, in which case I'd just leave the head slot empty for now."
+							},
+							{
+								"id": "011",
+								"comment": "Simple Charm is perfectly fine. Honestly I think this vs the Spyglass is pretty much a toss-up for you, even accounting for price. So if you already have a Spyglass, don't bother replacing it with this. If you didn't get a Spyglass, then get this now."
+							},
+							{
+								"id": "012",
+								"comment": "You can now craft the Crude Chain Armor, which is great armor for a while and extremely cost-effective."
+							},
+							{
+								"id": "128",
+								"comment": "Heater Shield is perfectly acceptable if not very exciting. How long this will remain worth it will really depend on your party's outpost-building path. There's a much better choice than this for you at Craftsman 3, but many parties will not get there quickly. So if you suspect you'll remain with Craftsman 1 or 2 for a while, this is a good starting item."
+							},
+							{
+								"id": "014",
+								"comment": "Heavy Sword is a simple, effective, and efficient item for you. Being able to add an extra damage to one target of your AoE will regularly let you secure kills you wouldn't otherwise, and beyond that is just bonus free damage."
+							},
+							{
+								"id": "015",
+								"comment": "If you've an abundance of resources, you can also consider crafting the Reinforced Shield and swapping between it and the Heater Shield depending on the enemy types in the scenario."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 3",
+						"comments": "",
+						"picks": [
+							{
+								"id": "016",
+								"comment": "Inspiring Helmet is really nice for you. Once each scenario, this will let you set up an effective AoE pattern that you would not otherwise, which represents a significant impact. Whether this is worth it for you compared to the two previous head slots is going to depend a lot on your party composition. If you have other melee allies or allies with melee summons, I would certainly switch to this now - you won't regret it. If your party is entirely ranged, then it will be a lot more difficult to use and you'd be better off skipping it."
+							},
+							{
+								"id": "012",
+								"comment": "You can now craft the Crude Chain Armor, which is great armor for a while and extremely cost-effective."
+							},
+							{
+								"id": "019",
+								"comment": "Ringing Hammer is pretty much made for you. You should have no difficulty getting Muddle on two enemies with this, at which point it's already representing 50% more damage blocked per use than the Heater Shield, not to mention the added safety of avoiding a 2x as well as synergy with any allies' Curses. At this point I would just sell the Heater Shield and again you can swap in the Reinforced Shield for this or the Heavy Sword depending on the enemy types and whether you need more offense or defense."
+							},
+							{
+								"id": "014",
+								"comment": "Heavy Sword is a simple, effective, and efficient item for you. Being able to add an extra damage to one target of your AoE will regularly let you secure kills you wouldn't otherwise, and beyond that is just bonus free damage."
+							},
+							{
+								"id": "015",
+								"comment": "If you've an abundance of resources, you can also consider crafting the Reinforced Shield and swapping between it and the Heater Shield depending on the enemy types in the scenario."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							},
+							{
+								"id": "018",
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 4",
+						"comments": "",
+						"picks": [
+							{
+								"id": "016",
+								"comment": "Inspiring Helmet is really nice for you. Once each scenario, this will let you set up an effective AoE pattern that you would not otherwise, which represents a significant impact. Whether this is worth it for you compared to the two previous head slots is going to depend a lot on your party composition. If you have other melee allies or allies with melee summons, I would certainly switch to this now - you won't regret it. If your party is entirely ranged, then it will be a lot more difficult to use and you'd be better off skipping it."
+							},
+							{
+								"id": "022",
+								"comment": "Heavy Chain Armor is obviously just a nice minor upgrade to Crude Chain Armor."
+							},
+							{
+								"id": "019",
+								"comment": "Ringing Hammer is pretty much made for you. You should have no difficulty getting Muddle on two enemies with this, at which point it's already representing 50% more damage blocked per use than the Heater Shield, not to mention the added safety of avoiding a 2x as well as synergy with any allies' Curses. At this point I would just sell the Heater Shield and again you can swap in the Reinforced Shield for this or the Heavy Sword depending on the enemy types and whether you need more offense or defense."
+							},
+							{
+								"id": "014",
+								"comment": "Heavy Sword is a simple, effective, and efficient item for you. Being able to add an extra damage to one target of your AoE will regularly let you secure kills you wouldn't otherwise, and beyond that is just bonus free damage."
+							},
+							{
+								"id": "015",
+								"comment": "If you've an abundance of resources, you can also consider crafting the Reinforced Shield and swapping between it and the Heater Shield depending on the enemy types in the scenario."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							},
+							{
+								"id": "018",
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 5",
+						"comments": "",
+						"picks": [
+							{
+								"id": "016",
+								"comment": "Inspiring Helmet is really nice for you. Once each scenario, this will let you set up an effective AoE pattern that you would not otherwise, which represents a significant impact. Whether this is worth it for you compared to the two previous head slots is going to depend a lot on your party composition. If you have other melee allies or allies with melee summons, I would certainly switch to this now - you won't regret it. If your party is entirely ranged, then it will be a lot more difficult to use and you'd be better off skipping it."
+							},
+							{
+								"id": "022",
+								"comment": "Heavy Chain Armor is obviously just a nice minor upgrade to Crude Chain Armor."
+							},
+							{
+								"id": "019",
+								"comment": "Ringing Hammer is pretty much made for you. You should have no difficulty getting Muddle on two enemies with this, at which point it's already representing 50% more damage blocked per use than the Heater Shield, not to mention the added safety of avoiding a 2x as well as synergy with any allies' Curses. At this point I would just sell the Heater Shield and again you can swap in the Reinforced Shield for this or the Parrying Gauntlet depending on the enemy types and whether you need more offense or defense."
+							},
+							{
+								"id": "030",
+								"comment": "Parrying Gauntlet is a welcome upgrade to the Heavy Sword. With an average of two long rests per scenario (which is a bit high of an estimate even given that there are many high tempo scenarios in Frosthaven where you may have one or zero long rests), these will deal the same amount of damage. But the Parrying Gauntlet has the added upside of being able to kill off an enemy reactive to prevent an attack, as well as just being better in short scenarios. And it's so cheap to craft that it's an obvious pick-up."
+							},
+							{
+								"id": "015",
+								"comment": "If you've an abundance of resources, you can also consider crafting the Reinforced Shield and swapping between it and the Heater Shield depending on the enemy types in the scenario."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							},
+							{
+								"id": "018",
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 6",
+						"comments": "Kite Shield is an interesting proposition, but I don't find it worth the resources to craft at this point. It's less consistent at preventing negative conditions than the Reinforced Shield you'd already have and it prevents less damage than the Ringing Hammer on average. Obviously there are plenty of enemy types where it will be worth having, but I don't think it's worth the resource investment at this point.",
+						"picks": [
+							{
+								"id": "016",
+								"comment": "Inspiring Helmet is really nice for you. Once each scenario, this will let you set up an effective AoE pattern that you would not otherwise, which represents a significant impact. Whether this is worth it for you compared to the two previous head slots is going to depend a lot on your party composition. If you have other melee allies or allies with melee summons, I would certainly switch to this now - you won't regret it. If your party is entirely ranged, then it will be a lot more difficult to use and you'd be better off skipping it."
+							},
+							{
+								"id": "022",
+								"comment": "Heavy Chain Armor is obviously just a nice minor upgrade to Crude Chain Armor."
+							},
+							{
+								"id": "019",
+								"comment": "Ringing Hammer is pretty much made for you. You should have no difficulty getting Muddle on two enemies with this, at which point it's already representing 50% more damage blocked per use than the Heater Shield, not to mention the added safety of avoiding a 2x as well as synergy with any allies' Curses. At this point I would just sell the Heater Shield and again you can swap in the Reinforced Shield for this or the Parrying Gauntlet depending on the enemy types and whether you need more offense or defense."
+							},
+							{
+								"id": "030",
+								"comment": "Parrying Gauntlet is a welcome upgrade to the Heavy Sword. With an average of two long rests per scenario (which is a bit high of an estimate even given that there are many high tempo scenarios in Frosthaven where you may have one or zero long rests), these will deal the same amount of damage. But the Parrying Gauntlet has the added upside of being able to kill off an enemy reactive to prevent an attack, as well as just being better in short scenarios. And it's so cheap to craft that it's an obvious pick-up."
+							},
+							{
+								"id": "015",
+								"comment": "If you've an abundance of resources, you can also consider crafting the Reinforced Shield and swapping between it and the Heater Shield depending on the enemy types in the scenario."
+							},
+							{
+								"id": "124",
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+							},
+							{
+								"id": "018",
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+							}
+						]
+					}
+				]
+			},
+			"potions": {
+				"comments": "",
+				"levels": [
+					{
+						"numherbs": "2",
+						"comments": "",
+						"picks": [
+							{
+								"id": "090",
+								"comment": "The Muscle Potion is the strongest 2-herb potion in the game and is amazing on you. You attack every turn and often multi-target, making this a perfect fit."
+							},
+							{
+								"id": "083",
+								"comment": "You're going to be on the front lines taking damage while killing enemies, meaning a Healing Potion is always welcome. Being able to heal up without spending an action during the fight lets you safely maintain offensive tempo, which is a big deal."
+							},
+							{
+								"id": "092",
+								"comment": "My next choice would be the Renewing Potion. This potion provides reasonable power and flexibility, allowing you to gain additional offense, defense, or mobility. A great package."
+							},
+							{
+								"id": "097",
+								"comment": "The Explosive Vial can finish off damaged enemies left around after one of your AoEs and/or deal with pesky shielded enemies. And you'll regularly be on the front lines in a position to use it in a timely and convenient manner."
+							},
+							{
+								"id": "084",
+								"comment": "The Stamina Potion isn't anything exceptional but it will always provide an extra turn each scenario by using it when you have an odd hand size and let you repeat one of your more powerful level 1 cards, which is an acceptable impact."
+							},
+							{
+								"id": "093",
+								"comment": "This might seem like overkill given you should already have the Muscle Potion, but you can never be too sure, ya know? Glancing Potion, my beloved, hop in our pack!"
+							}
+						]
+					},
+					{
+						"numherbs": "3",
+						"comments": "",
+						"picks": [
+							{
+								"id": "090",
+								"comment": "Keep the Muscle Potion! Sure, it's not actually the best at this point, but you should already have it and never get rid of it. It's too good and too cost-effective."
+							},
+							{
+								"id": "099",
+								"comment": "Next up is the Major Healing Potion, for the same reasons as its smaller cousin, this is just so welcome when consistently fighting on the front lines."
+							},
+							{
+								"id": "118",
+								"comment": "The Fulminant Flask is just so good. The jump from two to four damage between the Explosive Vial and this has a profound effect and you'll always be well-placed to use this."
+							},
+							{
+								"id": "101",
+								"comment": "I'll put this in the 4th potion slot because your 4th small slot should open up by the time you're level 7. At that point, you'll have access to Tri-Thrust, which makes the Major Power Potion now exceptional for you, being able to use it on a turn where you play this bottom and an AoE top for 8-12 bonus damage. And then it obviously gets even better at level 9."
+							},
+							{
+								"id": "107",
+								"comment": "Alright, I suppose we'll take a second Muscle Potion with the Vigor Potion. It's basically just overpaying for another Muscle Potion and you really shouldn't worry about getting bonus targets, just focus on using it at the right moment. But even an overpriced Muscle Potion is still very good."
+							},
+							{
+								"id": "100",
+								"comment": "In case you can't get one of the above potions, the Major Stamina Potion is a very reasonable filler potion."
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

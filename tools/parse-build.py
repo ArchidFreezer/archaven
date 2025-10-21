@@ -42,7 +42,7 @@ def html_overview():
 		hf.write(f'''	<p>{para}</p>''')
 	
 	paras=jmespath.search("overview.benefits[]", jbuild)
-	if len(paras) > 0:
+	if not paras is None and len(paras) > 0:
 		hf.write(f'''
 		<p>So why would you play a {build} Build?</p>
 		<ul>''')
@@ -56,7 +56,7 @@ def html_overview():
 		''')
 		
 	paras=jmespath.search("overview.preferences[]", jbuild)
-	if len(paras) > 0:
+	if not paras is None and len(paras) > 0:
 		hf.write(f'''
 		<p>The tank build loves the following:</p>
 		<ul>''')

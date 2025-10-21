@@ -341,7 +341,7 @@ def html_enhancements():
 	
 def html_perks():
 	jperks=jmespath.search(f"perks[]", jbuild)
-	if len(jperks) > 0:
+	if not jperks is None:
 		hf.write('''
 	<!-- Perks -->
 	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>

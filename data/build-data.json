@@ -15953,7 +15953,7 @@
 			}
 		},
 		{
-			"id": "df-ranger-heal",
+			"id": "df-ranged-heal",
 			"classid": "df",
 			"build": "Ranged/Healer",
 			"orig_author": "Quadris",

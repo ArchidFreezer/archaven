@@ -13694,19 +13694,19 @@
 			"id": "df-bruiser",
 			"classid": "df",
 			"build": "Bruiser",
-			"orig_author": "Magatis",
-			"orig_url": "https://imgur.com/a/frosthaven-drifter-class-review-GnR7oFb",
+			"orig_author": "RageBadger",
+			"orig_url": "https://www.youtube.com/watch?v=wg_xySosrjU",
 			"overview": { 
 				"body": [
-					"This build has both damage and durability abilities allowing the Drifter to act on the front line. This is not a pure tank build so assistance is needed from other characters, but can take absorb some damage before they need to retreat to regroup.",
+					"This build has both damage and some healing abilities allowing the Drifter to act on the front line. This is not a pure tank build so assistance is needed from other characters, but can take absorb some damage before they need to retreat to regroup.",
 					"It is important to understand that it is fine to let our tokens reach 4 and 5 on the persistent tracks as long as we do not let them drop off after 6 uses. We do not need to keep pushing the token back after every use."
 				],
 				"benefits": [
-					"The Drifter is a class with few mechanics to manage and even though the build is Melee/Tank based it also has some support abilities.",
+					"The Drifter is a class with few mechanics to manage and even though the build is front line based it also has some support abilities.",
 					"The Melee Drifter can fit into most parties fairly readily."
 				],
 				"preferences": [
-					"Support in the way of healing plus some front line support, either in the way of summons that draw heat away from them at times or another off-tank."
+					"The bruiser build likes an ally to share some of the heat such as another off-tank or summons."
 				]
 			},
 			"cards": [
@@ -13903,74 +13903,68 @@
 					"handcomment": "",
 					"choices": [
 						{
-							"label": "Persistent tokens",
-							"overview": "At level 1, before we get to improve our AMD via perks it is probably best to stick to 2 token persistents and there are two obvious choices for a bruiser build",
-							"cards": [
-								{
-									"id": "crushingweight",
-									"comment": "This is our core damage action"
-								},
-								{
-									"id": "unbreakable",
-									"comment": "This is our core defensive action"
-								}
-							]
-						},
-						{
-							"label": "Attack cards",
-							"overview": "",
-							"cards": [
-								{
-									"id": "bloodletting",
-									"comment": "Attack 5 plus token management"
-								},
-								{
-									"id": "fortitude",
-									"comment": "Attack with <i>Pierce</i>. <br.There is also a token track that we may use if we are struggling with token management, btu that shouldn't be the case at early levels"
-								},
-								{
-									"id": "sustainedmomentum",
-									"comment": "Decent attack with bonus token management"
-								}
-							]
-						},
-						{
-							"label": "Utility Cards",
-							"overview": "",
-							"cards": [
-								{
-									"id": "deadlyshot",
-									"comment": "This our only big move at this level"
-								},
-								{
-									"id": "prudentpreparation",
-									"comment": "This is our fastest card"
-								},
-								{
-									"id": "drainingarrows",
-									"comment": "Decent movement and token management"
-								},
-								{
-									"id": "precisionaim",
-									"comment": "Move plus token management"
-								},
-								{
-									"id": "violentinheritance",
-									"comment": "This is a top loot with a bonus attack that should be boosted by Crushing Weight"
-								}
-							]
-						},
-						{
-							"label": "The Rest",
-							"overview": "At level 1, before we get to improve our AMD via perks it is probably best to stick to 2 token persistents and there are two obvious choices for a bruiser build",
+							"label": "Persistent",
+							"overview": "There are 3 cards we would typically play as persistent losses in this build with the scenario defining which we want to play from the start and which we would consider bringing in partway through.",
 							"cards": [
 								{
 									"id": "continuoushealth",
-									"comment": "Basic attack"
+									"comment": "This will be a card we use fairly frequently, but not necessarily on our first turn."
+								},
+								{
+									"id": "crushingweight",
+									"comment": "This is the only persistent loss that we know we will be bringing to every scenario."
+								},
+								{
+									"id": "relentless",
+									"comment": "This is great when dealing with shielded or ranged enemies adding some passive damage."
+								}
+							]
+						},
+						{
+							"label": "Primary Attacks",
+							"overview": "These cards are the ones we expect to be attacking with",
+							"cards": [
+								{
+									"id": "bloodletting",
+									"comment": "This card can be used as both a top and bottom attack, though we would expect to be using the top more for the token management."
+								},
+								{
+									"id": "fortitude",
+									"comment": "This is our shield-breaker attack, but is still great for others."
+								},
+								{
+									"id": "sustainedmomentum",
+									"comment": "Another attack with token management. In scenarios with high movement requirements or at the end of scenarios we may play the bottom persistent loss, but we prefer not to if possible."
+								}
+							]
+						},
+						{
+							"label": "Utility",
+							"overview": "These cards are generally the bottom heals and movement, with Crushing Weight any card may be used as an attack 4 so we don't mind being a bit bottom heavy.",
+							"cards": [
+								{
+									"id": "deadlyshot",
+									"comment": "Move 4 card; every build needs one big move card and this is ours."
+								},
+								{
+									"id": "drainingarrows",
+									"comment": "Move 3 with token management."
+								},
+								{
+									"id": "noremorse",
+									"comment": "This is a top ranged heal that will allow us to assist either ourselves or an ally."
+								},
+								{
+									"id": "precisionaim",
+									"comment": "Move 2 with token management."
+								},
+								{
+									"id": "prudentpreparation",
+									"comment": "This will be used as a quick Move 2, but with the possibility of a bottom heal if we really need it."
 								},
 								{
 									"id": "vileassault",
-									"comment": "Gives us a basic heal when moving which is a great combination"
+									"comment": "Move 2 with self-healing."
 								}
 							]
 						}
@@ -13979,7 +13973,7 @@
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
@@ -13988,9 +13982,20 @@
 							}
 						},
 						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
 							"card": "bloodletting",
 							"top": {
-								"text":"Attack 5, token",
+								"text":"Attack 5 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
@@ -14006,61 +14011,50 @@
 							},
 							"bottom": {
 								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
 								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move plus attack loss",
+								"style": "w3-pale-red"
 							}
 						},
 						{
 							"card": "continuoushealth",
 							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token Heal",
+								"text":"Ranged attack [T]",
 								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "sustainedmomentum",
-							"top": {
-								"text":"Attack 4, token",
-								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "violentinheritance",
-							"top": {
-								"text":"Attack 3, Loot",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Move, Ranged attack",
-								"style": "w3-pale-red"
-							}
-						},
-						{
-							"card": "unbreakable",
-							"top": {
-								"text":"Token management",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "vileassault",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
+								"text":"Big attack loss",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -14076,52 +14070,37 @@
 							}
 						},
 						{
-							"card": "vileassault",
+							"card": "precisionaim",
 							"top": {
-								"text":"Multi-attack loss",
+								"text":"Persistent ranged",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, Heal",
+								"text": "Move 2 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
 							"card": "drainingarrows",
 							"top": {
-								"text":"Ranged Attack",
+								"text":"Ranged attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, token",
+							"text": "Move 3 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
-							"card": "precisionaim",
+							"card": "deadlyshot",
 							"top": {
-								"text":"Persistent token ranged strength",
+								"text":"Range attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, token",
+								"text": "Move 4",
 								"style": "w3-pale-green"
 							}
-						}
-					],
-					"sideboard": [
-						{
-							"card": "destructivefury",
-							"top": {
-								"text":"Melee AoE loss",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Ranged AoE loss",
-								"style": "w3-pale-red"
-							},
-							"replace": "violentinheritance",
-							"comment": "For multi-enemy boss fights where we can justify carrying a card for the final room."
 						}
 					]
 				},
@@ -14132,22 +14111,22 @@
 						{
 							"card": "shockwave",
 							"top": {
-								"text":"Persistent token splash",
+								"text":"Persistent splash damage",
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
 								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							},
-							"replace": "vileassault",
-							"comment": "We would like to drop Prudent Preparation, but we need that early initiative."
+							"replace": "deadlyshot",
+							"comment": "We take the move with shield to limit the damage we have to take and swap out Deadly Shot. We can bring back Deadly Shot for scenarios with high movement requirements"
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
@@ -14156,9 +14135,20 @@
 							}
 						},
 						{
+							"card": "sustainedmomentum",
+							"top": {
+								"text":"Attack 4 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent Move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
 							"card": "bloodletting",
 							"top": {
-								"text":"Attack 5, token",
+								"text":"Attack 5 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
@@ -14174,61 +14164,50 @@
 							},
 							"bottom": {
 								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "relentless",
+							"top": {
+								"text":"Attack 4",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent ranged retaliate",
 								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move plus attack loss",
+								"style": "w3-pale-red"
 							}
 						},
 						{
 							"card": "continuoushealth",
 							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token Heal",
+								"text":"Ranged attack [T]",
 								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "sustainedmomentum",
-							"top": {
-								"text":"Attack 4, token",
-								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "violentinheritance",
-							"top": {
-								"text":"Attack 3, Loot",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Move, Ranged attack",
-								"style": "w3-pale-red"
-							}
-						},
-						{
-							"card": "unbreakable",
-							"top": {
-								"text":"Token management",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -14244,52 +14223,52 @@
 							}
 						},
 						{
-							"card": "shockwave",
+							"card": "precisionaim",
 							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, Shield",
+								"text": "Move 2 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
 							"card": "drainingarrows",
 							"top": {
-								"text":"Ranged Attack",
+								"text":"Ranged attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, token",
+							"text": "Move 3 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
-							"card": "precisionaim",
+							"card": "vileassault",
 							"top": {
-								"text":"Persistent token ranged strength",
+								"text":"Big attack loss",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, token",
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
 					],
 					"sideboard": [
 						{
-							"card": "destructivefury",
+							"card": "deadlyshot",
 							"top": {
-								"text":"Melee AoE loss",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Ranged AoE loss",
+								"text":"Range attack",
 								"style": "w3-pale-red"
 							},
-							"replace": "violentinheritance",
-							"comment": "For multi-enemy boss fights where we can justify carrying a card for the final room."
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							},
+							"replace": "vileassault",
+							"comment": "We bring in the bigger move for scenarios with high movement requirements."
 						}
 					]
 				},
@@ -14300,22 +14279,22 @@
 						{
 							"card": "fiercebarrage",
 							"top": {
-								"text":"AoE attack 4",
+								"text":"AoE attack 4/8",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
 								"text": "Persistent token extra ranged",
 								"style": "w3-pale-red"
 							},
-							"replace": "continuoushealth",
-							"comment": "We are dropping a ranged attack for melee at a better initiative. If you really need the health token slot then it may be swapped in for Violent Inheritance."
+							"replace": "relentless",
+							"comment": "We take the small AoE, which can be 8 damage for us, in place of Relentless which was there as a top in case we had token issues."
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
@@ -14324,9 +14303,20 @@
 							}
 						},
 						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4/8",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
 							"card": "bloodletting",
 							"top": {
-								"text":"Attack 5, token",
+								"text":"Attack 5 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
@@ -14342,61 +14332,50 @@
 							},
 							"bottom": {
 								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
 								"style": "w3-pale-red"
 							}
 						},
 						{
 							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
+								"text": "Persistent Move",
 								"style": "w3-pale-blue"
 							}
 						},
 						{
-							"card": "violentinheritance",
+							"card": "noremorse",
 							"top": {
-								"text":"Attack 3, Loot",
+								"text":"Ranged heal",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Move, Ranged attack",
+								"text": "Move plus attack loss",
 								"style": "w3-pale-red"
 							}
 						},
 						{
-							"card": "unbreakable",
+							"card": "continuoushealth",
 							"top": {
-								"text":"Token management",
-								"style": "w3-pale-red"
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -14412,65 +14391,52 @@
 							}
 						},
 						{
-							"card": "shockwave",
+							"card": "precisionaim",
 							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, Shield",
+								"text": "Move 2 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
 							"card": "drainingarrows",
 							"top": {
-								"text":"Ranged Attack",
+								"text":"Ranged attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, token",
+							"text": "Move 3 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
-							"card": "precisionaim",
+							"card": "vileassault",
 							"top": {
-								"text":"Persistent token ranged strength",
+								"text":"Big attack loss",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, token",
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
 					],
 					"sideboard": [
 						{
-							"card": "destructivefury",
+							"card": "deadlyshot",
 							"top": {
-								"text":"Melee AoE loss",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Ranged AoE loss",
-								"style": "w3-pale-red"
-							},
-							"replace": "violentinheritance",
-							"comment": "For multi-enemy boss fights where we can justify carrying a card for the final room."
-						},
-						{
-							"card": "continuoushealth",
-							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
+								"text":"Range attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Persistent token Heal",
+								"text": "Move 4",
 								"style": "w3-pale-green"
 							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
+							"replace": "vileassault",
+							"comment": "We bring in the bigger move for scenarios with high movement requirements."
 						}
 					]
 				},
@@ -14488,15 +14454,15 @@
 								"text": "Persistent token shield 2",
 								"style": "w3-pale-blue"
 							},
-							"replace": "violentinheritance",
-							"comment": "This is our least valuable card. We keep Unbreakable as our shield card for now and use Chunk of Flesh for its top, but the two can be swapped based on the scenario where we would use Unbreakable top as an attack 4 or token management."
+							"replace": "noremorse",
+							"comment": "This is just a great card, giving us an attack, healing plus a token. We lose the ranged healing of No Remorse but we are not a support character.<br>The bottom is also useful and can be swapped in for Continuous Health, bringing back No Remorse if we want."
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
@@ -14505,9 +14471,20 @@
 							}
 						},
 						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4/8",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
 							"card": "bloodletting",
 							"top": {
-								"text":"Attack 5, token",
+								"text":"Attack 5 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
@@ -14523,28 +14500,17 @@
 							},
 							"bottom": {
 								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
 								"style": "w3-pale-red"
 							}
 						},
 						{
 							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
+								"text": "Persistent Move",
 								"style": "w3-pale-blue"
 							}
 						},
@@ -14560,24 +14526,24 @@
 							}
 						},
 						{
-							"card": "unbreakable",
+							"card": "continuoushealth",
 							"top": {
-								"text":"Token management",
-								"style": "w3-pale-red"
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -14593,52 +14559,65 @@
 							}
 						},
 						{
-							"card": "shockwave",
+							"card": "precisionaim",
 							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, Shield",
+								"text": "Move 2 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
 							"card": "drainingarrows",
 							"top": {
-								"text":"Ranged Attack",
+								"text":"Ranged attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, token",
+							"text": "Move 3 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
-							"card": "precisionaim",
+							"card": "vileassault",
 							"top": {
-								"text":"Persistent token ranged strength",
+								"text":"Big attack loss",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, token",
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
 					],
 					"sideboard": [
 						{
-							"card": "continuoushealth",
+							"card": "deadlyshot",
 							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
+								"text":"Range attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Persistent token Heal",
+								"text": "Move 4",
 								"style": "w3-pale-green"
 							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
+							"replace": "vileassault",
+							"comment": "We bring in the bigger move for scenarios with high movement requirements."
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move plus attack loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "If we want the support healing of No Remorse we can swap it for Fierce Barrage, but we are reducing our damage output bu a lot."
 						}
 					]
 				},
@@ -14656,20 +14635,42 @@
 								"text": "Move 4, token",
 								"style": "w3-pale-blue"
 							},
-							"replace": "bloodletting",
-							"comment": "Even though Break Through is an upgrade to Fortitude we are going to keep that card for the occasional 'oh shit' bottom use and will drop Bloodletting instead. We are losing a bottom attack with <i>Wound</i>, but we are adding <i>Wound</i> back if we want it."
+							"replace": "fortitude",
+							"comment": "Another card for dealing with shielded enemies, which are likely to be more prevalent now. We swap out Fortitude as this is a direct upgrade with a much better top, but we can bring it back in shield heavy scenarios."
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
 								"text": "Bottom ranged heal",
 								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4/8",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -14684,35 +14685,13 @@
 							}
 						},
 						{
-							"card": "fortitude",
-							"top": {
-								"text":"Attack 5, <i>Pierce</i>",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
-								"style": "w3-pale-red"
-							}
-						},
-						{
 							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
+								"text": "Persistent Move",
 								"style": "w3-pale-blue"
 							}
 						},
@@ -14728,24 +14707,24 @@
 							}
 						},
 						{
-							"card": "unbreakable",
+							"card": "continuoushealth",
 							"top": {
-								"text":"Token management",
-								"style": "w3-pale-red"
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -14761,52 +14740,78 @@
 							}
 						},
 						{
-							"card": "shockwave",
+							"card": "precisionaim",
 							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
+								"text":"Persistent ranged",
+								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, Shield",
+								"text": "Move 2 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
 							"card": "drainingarrows",
 							"top": {
-								"text":"Ranged Attack",
+								"text":"Ranged attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 3, token",
+							"text": "Move 3 [T]",
 								"style": "w3-pale-green"
 							}
 						},
 						{
-							"card": "precisionaim",
+							"card": "vileassault",
 							"top": {
-								"text":"Persistent token ranged strength",
+								"text":"Big attack loss",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, token",
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
 					],
 					"sideboard": [
 						{
-							"card": "continuoushealth",
+							"card": "deadlyshot",
 							"top": {
-								"text":"Ranged Attack 2, token<br> Attack 4",
+								"text":"Range attack",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Persistent token Heal",
+								"text": "Move 4",
 								"style": "w3-pale-green"
 							},
-							"replace": "precisionaim",
-							"comment": "If we need persistent healing.<p>We are losing a top action and don't want to be too bottom heavy so we swap out Precision Aim as our least valuable bottom</p>"
+							"replace": "vileassault",
+							"comment": "We bring in the bigger move for scenarios with high movement requirements."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "In scenarios with lots of shielded enemies we bring Fortitude back."
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move plus attack loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "If we want the support healing of No Remorse we can swap it for Fierce Barrage, but we are reducing our damage output bu a lot."
 						}
 					]
 				},
@@ -14821,23 +14826,45 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, Retaliate, token",
+								"text": "Move 2, Retaliate [T]",
 								"style": "w3-pale-green"
 							},
 							"replace": "precisionaim",
-							"comment": "We are swapping out for an improved bottom in both functionality and initiative. Chunk of Flesh also switches place with Unbreakable as by level 6 we will be getting enemies that are hitting harder and the heal on Chunk will not make up for the damage mitigation the extra shield provides."
+							"comment": "We are swapping out for an improved bottom in both functionality and initiative."
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
 								"text": "Bottom ranged heal",
 								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4/8",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -14852,46 +14879,13 @@
 							}
 						},
 						{
-							"card": "fortitude",
-							"top": {
-								"text":"Attack 5, <i>Pierce</i>",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
-								"style": "w3-pale-red"
-							}
-						},
-						{
 							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "unbreakable",
-							"top": {
-								"text":"Attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent Move",
 								"style": "w3-pale-blue"
 							}
 						},
@@ -14899,21 +14893,32 @@
 							"card": "chunkofflesh",
 							"top": {
 								"text":"Attack 4, Heal , token",
-								"style": "w3-pale-red"
+								"style": "w3-pale-green"
 							},
 							"bottom": {
 								"text": "Persistent token shield 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "continuoushealth",
+							"top": {
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -14929,37 +14934,78 @@
 							}
 						},
 						{
-							"card": "shockwave",
-							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
-							},
-							"bottom": {
-								"text": "Move 3, Shield",
-								"style": "w3-pale-green"
-							}
-						},
-						{
-							"card": "drainingarrows",
-							"top": {
-								"text":"Ranged Attack",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Move 3, token",
-								"style": "w3-pale-green"
-							}
-						},
-						{
 							"card": "consumestamina",
 							"top": {
 								"text":"Ranged attack, Heal",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, Retaliate, token",
+								"text": "Move 2, Retaliate [T]",
 								"style": "w3-pale-green"
 							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Big attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "deadlyshot",
+							"top": {
+								"text":"Range attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							},
+							"replace": "vileassault",
+							"comment": "We bring in the bigger move for scenarios with high movement requirements."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "In scenarios with lots of shielded enemies we bring Fortitude back."
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move plus attack loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "If we want the support healing of No Remorse we can swap it for Fierce Barrage, but we are reducing our damage output bu a lot."
 						}
 					]
 				},
@@ -14985,12 +15031,34 @@
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
 								"text": "Bottom ranged heal",
 								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fiercebarrage",
+							"top": {
+								"text":"AoE attack 4/8",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token extra ranged",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -15005,28 +15073,6 @@
 							}
 						},
 						{
-							"card": "fortitude",
-							"top": {
-								"text":"Attack 5, <i>Pierce</i>",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
-								"style": "w3-pale-red"
-							}
-						},
-						{
 							"card": "unendingfight",
 							"top": {
 								"text":"Attack 4, Move, Attack 4",
@@ -15038,35 +15084,35 @@
 							}
 						},
 						{
-							"card": "unbreakable",
+							"card": "chunkofflesh",
 							"top": {
-								"text":"Attack 4",
+								"text":"Attack 4, Heal , token",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent token shield",
+								"text": "Persistent token shield 2",
 								"style": "w3-pale-blue"
 							}
 						},
 						{
-							"card": "chunkofflesh",
+							"card": "continuoushealth",
 							"top": {
-								"text":"Attack 4, Heal , token",
-								"style": "w3-pale-red"
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Persistent token shield 2",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -15082,35 +15128,35 @@
 							}
 						},
 						{
-							"card": "shockwave",
-							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
-							},
-							"bottom": {
-								"text": "Move 3, Shield",
-								"style": "w3-pale-green"
-							}
-						},
-						{
-							"card": "drainingarrows",
-							"top": {
-								"text":"Ranged Attack",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Move 3, token",
-								"style": "w3-pale-green"
-							}
-						},
-						{
 							"card": "consumestamina",
 							"top": {
 								"text":"Ranged attack, Heal",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, Retaliate, token",
+								"text": "Move 2, Retaliate [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Big attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
@@ -15119,15 +15165,41 @@
 						{
 							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
+								"text": "Persistent Move",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "vileassault",
+							"comment": "We bring back Sustained Momentum for the persistent Move."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
 								"style": "w3-pale-green"
 							},
-							"replace": "deadlyshot",
-							"comment": "If we need persistent movement.<p>For those scenarios where we need the extra movement we can drop Deadly Shot as all moves would be a Move 4</p>"
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "In scenarios with lots of shielded enemies we bring Fortitude back."
+						},
+						{
+							"card": "noremorse",
+							"top": {
+								"text":"Ranged heal",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move plus attack loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "fiercebarrage",
+							"comment": "If we want the support healing of No Remorse we can swap it for Fierce Barrage, but we are reducing our damage output bu a lot."
 						}
 					]
 				},
@@ -15138,27 +15210,49 @@
 						{
 							"card": "againstallodds",
 							"top": {
-								"text":"AoE attack 3, tokens",
+								"text":"AoE attack 3 [T]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
 								"text": "Persistent direct damage",
 								"style": "w3-pale-blue"
 							},
-							"replace": "unbreakable",
-							"comment": "We are swapping an AoE token machine for our weakest attack."
+							"replace": "fiercebarrage",
+							"comment": "We are swapping out for a much better AoE top."
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
 								"text": "Bottom ranged heal",
 								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "againstallodds",
+							"top": {
+								"text":"AoE attack 3 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent direct damage",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -15173,28 +15267,6 @@
 							}
 						},
 						{
-							"card": "fortitude",
-							"top": {
-								"text":"Attack 5, <i>Pierce</i>",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
-								"style": "w3-pale-red"
-							}
-						},
-						{
 							"card": "unendingfight",
 							"top": {
 								"text":"Attack 4, Move, Attack 4",
@@ -15206,35 +15278,35 @@
 							}
 						},
 						{
-							"card": "againstallodds",
+							"card": "chunkofflesh",
 							"top": {
-								"text":"AoE attack 3, tokens",
+								"text":"Attack 4, Heal , token",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent direct damage",
+								"text": "Persistent token shield 2",
 								"style": "w3-pale-blue"
 							}
 						},
 						{
-							"card": "chunkofflesh",
+							"card": "continuoushealth",
 							"top": {
-								"text":"Attack 4, Heal , token",
-								"style": "w3-pale-red"
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Persistent token shield 2",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
 							}
 						},
 						{
-							"card": "deadlyshot",
+							"card": "shockwave",
 							"top": {
-								"text":"Ranged attack, <i>Poison</i>",
-								"style": "w3-pale-red"
+								"text":"Persistent splash damage",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 4",
+								"text": "Move 3, Shield",
 								"style": "w3-pale-green"
 							}
 						},
@@ -15250,35 +15322,35 @@
 							}
 						},
 						{
-							"card": "shockwave",
-							"top": {
-								"text":"Persistent token splash",
-								"style": "w3-pale-blue"
-							},
-							"bottom": {
-								"text": "Move 3, Shield",
-								"style": "w3-pale-green"
-							}
-						},
-						{
-							"card": "drainingarrows",
-							"top": {
-								"text":"Ranged Attack",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Move 3, token",
-								"style": "w3-pale-green"
-							}
-						},
-						{
 							"card": "consumestamina",
 							"top": {
 								"text":"Ranged attack, Heal",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, Retaliate, token",
+								"text": "Move 2, Retaliate [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Big attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
@@ -15287,28 +15359,41 @@
 						{
 							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
-								"style": "w3-pale-green"
+								"text": "Persistent Move",
+								"style": "w3-pale-yellow"
 							},
-							"replace": "deadlyshot",
-							"comment": "If we need persistent movement.<p>For those scenarios where we need the extra movement we can drop Deadly Shot as all moves would be a Move 4</p>"
+							"replace": "vileassault",
+							"comment": "We bring back Sustained Momentum for the persistent Move."
 						},
 						{
-							"card": "sustainedmomentum",
+							"card": "fortitude",
 							"top": {
-								"text":"Attack 4, token",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token Move",
+								"text":"Attack 5, <i>Pierce</i>",
 								"style": "w3-pale-green"
 							},
-							"replace": "drainingarrows",
-							"comment": "If we want direct damage.<p>We swap Against All Odds to the bottom, replacing Draining Arrows and bring Sustained Momentum back to the top</p>"
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "bloodletting",
+							"comment": "In scenarios with lots of shielded enemies we bring Fortitude back."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "vileassault",
+							"comment": "In scenarios with lots of shielded enemies and retaliate we bring Fortitude back, with Against All Odds bottom being used to replace Vile Assault or Continuous Health."
 						}
 					]
 				},
@@ -15320,26 +15405,48 @@
 							"card": "useeverypart",
 							"top": {
 								"text":"Ranged Attack, Heal",
-								"style": "w3-pale-red"
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
 								"text": "Move 3, attack",
 								"style": "w3-pale-green"
 							},
 							"replace": "prudentpreparation",
-							"comment": "We are swapping out one quick move for a much better one. We also now switch out Deadly Shot for Sustained Momentum to increase the attack value. We have several token regain abilities now so we shouldn't have a problem maintaining three."
+							"comment": "We are swapping out one quick move for a much better one."
 						}
 					],
 					"hand": [
 						{
 							"card": "crushingweight",
 							"top": {
-								"text":"Persistent token melee",
+								"text":"Persistent melee",
 								"style": "w3-pale-yellow"
 							},
 							"bottom": {
 								"text": "Bottom ranged heal",
 								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "againstallodds",
+							"top": {
+								"text":"AoE attack 3 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent direct damage",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodletting",
+							"top": {
+								"text":"Attack 5 [T]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3, Wound",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -15354,28 +15461,6 @@
 							}
 						},
 						{
-							"card": "fortitude",
-							"top": {
-								"text":"Attack 5, <i>Pierce</i>",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token on kill",
-								"style": "w3-pale-blue"
-							}
-						},
-						{
-							"card": "fiercebarrage",
-							"top": {
-								"text":"AoE attack 4",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Persistent token extra ranged",
-								"style": "w3-pale-red"
-							}
-						},
-						{
 							"card": "unendingfight",
 							"top": {
 								"text":"Attack 4, Move, Attack 4",
@@ -15387,53 +15472,31 @@
 							}
 						},
 						{
-							"card": "againstallodds",
+							"card": "chunkofflesh",
 							"top": {
-								"text":"AoE attack 3, tokens",
+								"text":"Attack 4, Heal , token",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Persistent direct damage",
+								"text": "Persistent token shield 2",
 								"style": "w3-pale-blue"
 							}
 						},
 						{
-							"card": "chunkofflesh",
+							"card": "continuoushealth",
 							"top": {
-								"text":"Attack 4, Heal , token",
-								"style": "w3-pale-red"
+								"text":"Ranged attack [T]",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Persistent token shield 2",
+								"text": "Persistent health",
 								"style": "w3-pale-yellow"
-							}
-						},
-						{
-							"card": "sustainedmomentum",
-							"top": {
-								"text":"Attack 4, token",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Persistent token Move",
-								"style": "w3-pale-yellow"
-							}
-						},
-						{
-							"card": "useeverypart",
-							"top": {
-								"text":"Ranged Attack, Heal",
-								"style": "w3-pale-red"
-							},
-							"bottom": {
-								"text": "Move 3, attack",
-								"style": "w3-pale-green"
 							}
 						},
 						{
 							"card": "shockwave",
 							"top": {
-								"text":"Persistent token splash",
+								"text":"Persistent splash damage",
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
@@ -15442,13 +15505,13 @@
 							}
 						},
 						{
-							"card": "drainingarrows",
+							"card": "useeverypart",
 							"top": {
-								"text":"Ranged Attack",
-								"style": "w3-pale-red"
+								"text":"Ranged Attack, Heal",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Move 3, token",
+								"text": "Move 3, attack",
 								"style": "w3-pale-green"
 							}
 						},
@@ -15459,24 +15522,72 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2, Retaliate, token",
+								"text": "Move 2, Retaliate [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "drainingarrows",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+							"text": "Move 3 [T]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vileassault",
+							"top": {
+								"text":"Big attack loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
 								"style": "w3-pale-green"
 							}
 						}
 					],
 					"sideboard": [
 						{
-							"card": "againstallodds",
+							"card": "sustainedmomentum",
 							"top": {
-								"text":"Attack 4, token",
+								"text":"Attack 4 [T]",
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Persistent token Move",
+								"text": "Persistent Move",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "vileassault",
+							"comment": "We bring back Sustained Momentum for the persistent Move."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
 								"style": "w3-pale-green"
 							},
-							"replace": "sustainedmomentum",
-							"comment": "If we want direct damage.<p>We swap the positions of these two cards that we already have in our hand</p>"
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "bloodletting",
+							"comment": "In scenarios with lots of shielded enemies we bring Fortitude back."
+						},
+						{
+							"card": "fortitude",
+							"top": {
+								"text":"Attack 5, <i>Pierce</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent token on kill",
+								"style": "w3-pale-red"
+							},
+							"replace": "vileassault",
+							"comment": "In scenarios with lots of shielded enemies and retaliate we bring Fortitude back, with Against All Odds bottom being used to replace Vile Assault or Continuous Health."
 						}
 					]
 				}
@@ -15663,11 +15774,11 @@
 							},
 							{
 								"id": "124",
-								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
 							},
 							{
 								"id": "018",
-								"comment": "Once you get Explosive Epicenter, you could consider picking up the Rough Boots to use for bonus move on that ability plus your move for the turn, and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
 							}
 						]
 					},
@@ -15697,11 +15808,11 @@
 							},
 							{
 								"id": "124",
-								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
 							},
 							{
 								"id": "018",
-								"comment": "Once you get Explosive Epicenter, you could consider picking up the Rough Boots to use for bonus move on that ability plus your move for the turn, and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
 							}
 						]
 					},
@@ -15731,11 +15842,11 @@
 							},
 							{
 								"id": "124",
-								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
 							},
 							{
 								"id": "018",
-								"comment": "Once you get Explosive Epicenter, you could consider picking up the Rough Boots to use for bonus move on that ability plus your move for the turn, and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
 							}
 						]
 					},
@@ -15765,11 +15876,11 @@
 							},
 							{
 								"id": "124",
-								"comment": "Winged Shoes are the only must-take, as their added flexibility for movement is incredibly welcome on this playstyle and you'll never have innate Jump."
+								"comment": "Winged Shoes for their added flexibility as movement is incredibly welcome on this playstyle and you'll never have innate Jump."
 							},
 							{
 								"id": "018",
-								"comment": "Once you get Explosive Epicenter, you could consider picking up the Rough Boots to use for bonus move on that ability plus your move for the turn, and just swap back-and-forth between them and the Winged Shoes based on scenarios."
+								"comment": "You should consider the Rough Boots, and better, for their movement and just swap back-and-forth between them and the Winged Shoes based on scenarios."
 							}
 						]
 					}

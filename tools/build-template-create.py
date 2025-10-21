@@ -202,7 +202,7 @@ hf.write('''{
 							"comment": "on this condition"
 						}
 					]
-				}
+				},
 			],
 			"enhancements": [
 				{

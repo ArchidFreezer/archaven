@@ -63,6 +63,7 @@ function sidebarMainDropClick(id) {
 			<a href="df-melee.html" class="w3-bar-item w3-button">Melee Striker</a>
 			<a href="df-ranged-heal.html" class="w3-bar-item w3-button">Ranged/Healer</a>
 			<a href="df-ranged-striker.html" class="w3-bar-item w3-button">Ranged Striker</a>
+			<a href="df-tank.html" class="w3-bar-item w3-button">Spiky Ball</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

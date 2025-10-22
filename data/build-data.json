@@ -15598,7 +15598,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "???",
+							"name": "Blessed",
 							"effect": "Ignore negative item effect, add +1"
 						}
 					]
@@ -15643,7 +15643,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "???",
+							"name": "Outburst",
 							"effect": "Add +3"
 						},
 						{
@@ -18400,7 +18400,7 @@
 				},
 				{
 					"level": 2,
-					"handcomment": "This level introduces a key card to teh SlowBlade arsenal with System Reboot giving you 'Fast' bonuses on a 'Slow' turn.<br>This build puts us in position to take turns near the end of rounds, which means sometimes standing near enemies while we do so. We will sometimes take extra damage as a result - this build offtanks more than the others, and self-damages less.<p>Some unique things to take advantage of with Systems Reboot: we can clear self-inflicted Immobilize, Poison, or Muddle without even using an extra Time Token. This means that pairing ‘Fast’ Power Leak and Systems Reboot while adjacent to enemies will allow us to make the double Attack 4 while immediately removing the Poison. We can also ‘Slow’ Power Leak plus Temporal Displacement into ‘Slow’ Twin Strike + Systems Reboot to play two 'Slow' turns with the full power level of typical ‘Fast’ turns (Attack 4->Attack 5 no downside).</p>",
+					"handcomment": "This level introduces a key card to the SlowBlade arsenal with System Reboot giving you 'Fast' bonuses on a 'Slow' turn.<br>This build puts us in position to take turns near the end of rounds, which means sometimes standing near enemies while we do so. We will sometimes take extra damage as a result - this build offtanks more than the others, and self-damages less.<p>Some unique things to take advantage of with Systems Reboot: we can clear self-inflicted Immobilize, Poison, or Muddle without even using an extra Time Token. This means that pairing ‘Fast’ Power Leak and Systems Reboot while adjacent to enemies will allow us to make the double Attack 4 while immediately removing the Poison. We can also ‘Slow’ Power Leak plus Temporal Displacement into ‘Slow’ Twin Strike + Systems Reboot to play two 'Slow' turns with the full power level of typical ‘Fast’ turns (Attack 4->Attack 5 no downside).</p>",
 					"picks": [
 						{
 							"card": "systemsreboot",
@@ -19716,7 +19716,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "zzz",
+							"name": "Harmony",
 							"effect": "Remove a -2"
 						}
 					]
@@ -19726,17 +19726,17 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "zzz",
+							"name": "Head Start",
 							"effect": "Start of scenario Move 3"
 						},
 						{
 							"order": 2,
-							"name": "zzz",
+							"name": "Entropy Transfer",
 							"effect": "On short rest spend one item to unspend another."
 						},
 						{
 							"order": 3,
-							"name": "zzz",
+							"name": "Perpetual Motion",
 							"effect": "Immunity to <i>Immobilize</i>"
 						}
 					]
@@ -19746,32 +19746,32 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "zzz",
+							"name": "Bolster",
 							"effect": "Replace +0 with rolling +2"
 						},
 						{
 							"order": 2,
-							"name": "zzz",
+							"name": "Focus",
 							"effect": "Replace -1 with +1"
 						},
 						{
 							"order": 3,
-							"name": "zzz",
+							"name": "Revitalize",
 							"effect": "Add rolling +2 Regen"
 						},
 						{
 							"order": 4,
-							"name": "zzz",
+							"name": "Gouge",
 							"effect": "Replace -1 with +0 </i>Wound</i>"
 						},
 						{
 							"order": 5,
-							"name": "zzz",
+							"name": "Meditate",
 							"effect": "Replace +1 with +2"
 						},
 						{
 							"order": 6,
-							"name": "zzz",
+							"name": "Refrain",
 							"effect": "Replace +0 with +1 <i>Immobilize</i>"
 						}
 					]
@@ -21779,7 +21779,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "???",
+							"name": "Blessed",
 							"effect": "Ignore negative item effect, add +1"
 						}
 					]
@@ -21824,7 +21824,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "???",
+							"name": "Outburst",
 							"effect": "Add +3"
 						},
 						{
@@ -23840,7 +23840,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "???",
+							"name": "Blessed",
 							"effect": "Ignore negative item effect, add +1"
 						}
 					]
@@ -23880,21 +23880,26 @@
 						},
 						{
 							"order": 3,
-							"name": "Ample Inoculation",
-							"effect": " Ignore scenario effects"
+							"name": "Outburst",
+							"effect": "+3"
 						},
 						{
 							"order": 4,
+							"name": "Ample Inoculation",
+							"effect": "Ignore scenario effects"
+						},
+						{
+							"order": 5,
 							"name": "Persistence",
 							"effect": "[Double] On long rest move token"
 						},
 						{
-							"order": 5,
+							"order": 6,
 							"name": "Expanded Arsenal",
 							"effect": "Bring additional hand item to scenario"
 						},
 						{
-							"order": 6,
+							"order": 7,
 							"name": "Recover",
 							"effect": "Add 2x rolling +1 Heal"
 						}
@@ -25861,7 +25866,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "???",
+							"name": "Blessed",
 							"effect": "Ignore negative item effect, add +1"
 						}
 					]

@@ -338,6 +338,10 @@ def html_enhancements():
 		</table>
 	</div> <!-- enhancements -->
 	''')
+
+def get_perk_data(id):
+	data=jmespath.search(f"perks[?id=='{id[0]}'].[name,effect]|[0]", jclass)
+	return data
 	
 def html_perks():
 	jperks=jmespath.search(f"perks[]", jbuild)
@@ -353,8 +357,9 @@ def html_perks():
 		<div class="w3-light-grey">{jmespath.search("comment", jperk)}</div>
 		<table class="w3-table w3-border">''')
 			
-			picks=jmespath.search(f"sort_by(picks, &order)[*][name,effect]", jperk)
-			for pick in picks:
+			picks=jmespath.search(f"sort_by(picks, &order)[*].[name]", jperk)
+			for id in picks:
+				pick=get_perk_data(id)
 				hf.write(f'''
 			<tr><td width="250px">{pick[0]}</td><td>{pick[1]}</td></tr>''')
 		
@@ -462,7 +467,7 @@ def html_footer():
 	''')
 
 def get_build_name(id, build):
-	classname = jmespath.search(f"classes[?id=='{id}'].label|[0]", jclasses)
+	classname = jmespath.search("label", jclass)
 	return classname + " " + build
 
 def cache_card_images():
@@ -520,6 +525,8 @@ for buildid in buildids:
 	jbuild=jmespath.search(f"builds[?id=='{buildid}']|[0]", jbuilds)
 
 	classid=jmespath.search("classid", jbuild)
+	jclass=jmespath.search(f"classes[?id=='{classid}']|[0]", jclasses)
+
 	build=jmespath.search("build", jbuild)
 	buildname=get_build_name(classid, build)
 	print("Processing: " + buildname)

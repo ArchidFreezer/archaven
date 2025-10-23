@@ -1467,53 +1467,43 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Gifted",
-							"effect": "Ignore negative item effect<br>Remove -1"
+							"name": "gifted"
 						},
 						{
 							"order": 2,
-							"name": "Iron Will",
-							"effect": "Once per scenarion gain +2 Shield"
+							"name": "ironwill"
 						},
 						{
 							"order": 3,
-							"name": "Into the Breach",
-							"effect": "When you open a door gain +3 Move"
+							"name": "intothebreach"
 						},
 						{
 							"order": 4,
-							"name": "Bruiser",
-							"effect": "Replace -1 with rolling +1 Shield"
+							"name": "bruiser"
 						},
 						{
 							"order": 5,
-							"name": "Subdue",
-							"effect": "Add +1 Disarm"
+							"name": "subdue"
 						},
 						{
 							"order": 6,
-							"name": "Recover",
-							"effect": "Add rolling +1 Health"
+							"name": "recover"
 						},
 						{
 							"order": 7,
-							"name": "Tireless Leadership",
-							"effect": "After long rest range 3 ally gains +2 Move"
+							"name": "tirelessleadership"
 						},
 						{
 							"order": 8,
-							"name": "Technique",
-							"effect": "Add rolling +1"
+							"name": "technique"
 						},
 						{
 							"order": 9,
-							"name": "Shove",
-							"effect": "Add +2, Push 1"
+							"name": "shove"
 						},
 						{
 							"order": 10,
-							"name": "Overwhelm",
-							"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+							"name": "overwhelm"
 						}
 					]
 				}
@@ -3775,8 +3765,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Inoculation",
-							"effect": "Ignore negative scenario effects<br>2x +1"
+							"name": "inoculation"
 						}
 					]
 				},
@@ -3785,18 +3774,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						},
 						{
 							"order": 2,
-							"name": "Malediction",
-							"effect": "Replace -1 with +0 <i>Curse</i>"
+							"name": "malediction"
 						},
 						{
 							"order": 3,
-							"name": "Rankle",
-							"effect": "Replace -1 with +0 <i>Poison</i>"
+							"name": "rankle"
 						}
 					]
 				},
@@ -3805,8 +3791,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Death on Arrival",
-							"effect": "Start of the scenario perform summon"
+							"name": "deathonarrival"
 						}
 					]
 				},
@@ -3815,8 +3800,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Animate",
-							"effect": "3x Heal 1, target Boneshaper"
+							"name": "animate"
 						}
 					]
 				},
@@ -3825,13 +3809,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Reclaimed Essence",
-							"effect": "Immediately before rest kill summons for a <i>Bless</i>"
+							"name": "reclaimedessence"
 						},
 						{
 							"order": 2,
-							"name": "Tribute",
-							"effect": "Replace +0 with +1, kill attacking summons to add +4 instead"
+							"name": "tribute"
 						}
 					]
 				},
@@ -3840,13 +3822,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Inhumation",
-							"effect": "Add +2 Earth/Dark"
+							"name": "inhumation"
 						},
 						{
 							"order": 2,
-							"name": "Soul Pact",
-							"effect": "Ally saving"
+							"name": "soulpact"
 						}
 					]
 				}
@@ -5684,18 +5664,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Consistency",
-							"effect": "Remove 2x -1"
+							"name": "consistency"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with 0"
+							"name": "intensify"
 						},
 						{
 							"order": 3,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						}
 					]
 				},
@@ -5704,18 +5681,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Restless Night",
-							"effect": "Long rest move shadow"
+							"name": "restlessnight"
 						},
 						{
 							"order": 2,
-							"name": "Penumbra",
-							"effect": "Add +2 Dark"
+							"name": "penumbra"
 						},
 						{
 							"order": 3,
-							"name": "Doom",
-							"effect": "Replace +0 with +1 <i>Curse</i>"
+							"name": "doom"
 						}
 					]
 				},
@@ -5724,28 +5698,23 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Greater Revive",
-							"effect": "Add 2x rolling Heal"
+							"name": "greaterrevive"
 						},
 						{
 							"order": 2,
-							"name": "Pacify",
-							"effect": "Add 1 rolling <i>Disarm</i> and 1 rolling <i>Muddle</i>"
+							"name": "pacify"
 						},
 						{
 							"order": 3,
-							"name": "Haunting Dreams",
-							"effect": "When you short rest consume Dark to <i>Curse</i> and <i>Muddle</i>."
+							"name": "hauntingdreams"
 						},
 						{
 							"order": 4,
-							"name": "Lesser Inoculation",
-							"effect": "Ignore negative scenario effects"
+							"name": "lesserinoculation"
 						},
 						{
 							"order": 5,
-							"name": "Cloak of Shadow",
-							"effect": "On shadow hex, all attacks targeting you gain Disadvantage"
+							"name": "cloakofshadow"
 						}
 					]
 				}
@@ -7348,18 +7317,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Tireless Leadership",
-							"effect": "After long rest range 3 ally gains +2 Move"
+							"name": "tirelessleadership"
 						},
 						{
 							"order": 2,
-							"name": "Subdue",
-							"effect": "Add +1 Disarm<"
+							"name": "subdue"
 						},
 						{
 							"order": 3,
-							"name": "Technique",
-							"effect": "Add rolling +1"
+							"name": "technique"
 						}
 					]
 				},
@@ -7368,13 +7334,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Bruiser",
-							"effect": "Replace -1 with rolling +1 Shield"
+							"name": "bruiser"
 						},
 						{
 							"order": 2,
-							"name": "Gifted",
-							"effect": "Ignore negative item effect<br>Remove -1"
+							"name": "gifted"
 						}
 					]
 				},
@@ -7383,13 +7347,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Overwhelm",
-							"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+							"name": "overwhelm"
 						},
 						{
 							"order": 2,
-							"name": "Shove",
-							"effect": "Add +2, Push 1"
+							"name": "shove"
 						}
 					]
 				},
@@ -7398,18 +7360,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Recover",
-							"effect": "Add rolling +1 Health"
+							"name": "recover"
 						},
 						{
 							"order": 2,
-							"name": "Into the Breach",
-							"effect": "When you open a door gain +3 Move"
+							"name": "intothebreach"
 						},
 						{
 							"order": 3,
-							"name": "Iron Will",
-							"effect": "Once per scenarion gain +2 Shield"
+							"name": "ironwill"
 						}
 					]
 				}
@@ -9241,23 +9200,19 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Gifted",
-							"effect": "Ignore negative item effect<br>Remove -1"
+							"name": "gifted"
 						},
 						{
 							"order": 2,
-							"name": "Bruiser",
-							"effect": "Replace -1 with rolling +1 Shield"
+							"name": "bruiser"
 						},
 						{
 							"order": 3,
-							"name": "Overwhelm",
-							"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+							"name": "overwhelm"
 						},
 						{
 							"order": 4,
-							"name": "Subdue",
-							"effect": "Add +1 Disarm"
+							"name": "subdue"
 						}
 					]
 				},
@@ -9266,23 +9221,19 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Into the Breach",
-							"effect": "When you open a door gain +3 Move"
+							"name": "intothebreach"
 						},
 						{
 							"order": 2,
-							"name": "Recover",
-							"effect": "Add rolling +1 Health"
+							"name": "recover"
 						},
 						{
 							"order": 3,
-							"name": "Tireless Leadership",
-							"effect": "After long rest range 3 ally gains +2 Move"
+							"name": "tirelessleadership"
 						},
 						{
 							"order": 4,
-							"name": "Technique",
-							"effect": "Add rolling +1"
+							"name": "technique"
 						}
 					]
 				},
@@ -9291,13 +9242,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Shove",
-							"effect": "Add +2, Push 1"
+							"name": "shove"
 						},
 						{
 							"order": 2,
-							"name": "Iron Will",
-							"effect": "Once per scenarion gain +2 Shield"
+							"name": "ironwill"
 						}
 					]
 				}
@@ -11613,8 +11562,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Inoculation",
-							"effect": "Ignore negative scenario effects<br>2x +1"
+							"name": "inoculation"
 						}
 					]
 				},
@@ -11623,8 +11571,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Soul Pact",
-							"effect": "Ally saving"
+							"name": "soulpact"
 						}
 					]
 				},
@@ -11633,18 +11580,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						},
 						{
 							"order": 2,
-							"name": "Malediction",
-							"effect": "Replace -1 with +0 <i>Curse</i>"
+							"name": "malediction"
 						},
 						{
 							"order": 3,
-							"name": "Rankle",
-							"effect": "Replace -1 with +0 <i>Poison</i>"
+							"name": "rankle"
 						}
 					]
 				},
@@ -11653,8 +11597,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Reclaimed Essence",
-							"effect": "Immediately before rest kill summons for a <i>Bless</i>"
+							"name": "reclaimedessence"
 						}
 					]
 				},
@@ -11663,13 +11606,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Inhumation",
-							"effect": "Add +2 Earth/Dark"
+							"name": "inhumation"
 						},
 						{
 							"order": 2,
-							"name": "Death on Arrival",
-							"effect": "Start of the scenario perform summon"
+							"name": "deathonarrival"
 						}
 					]
 				},
@@ -11678,13 +11619,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Animate",
-							"effect": "3x Heal 1, target Boneshaper"
+							"name": "animate"
 						},
 						{
 							"order": 2,
-							"name": "Tribute",
-							"effect": "Replace +0 with +1, kill attacking summons to add +4 instead"
+							"name": "tribute"
 						}
 					]
 				}
@@ -13598,8 +13537,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Death on Arrival",
-							"effect": "Start of the scenario perform summon"
+							"name": "deathonarrival"
 						}
 					]
 				},
@@ -13608,8 +13546,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Inoculation",
-							"effect": "Ignore negative scenario effects<br>2x +1"
+							"name": "inoculation"
 						}
 					]
 				},
@@ -13618,8 +13555,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Animate",
-							"effect": "3x Heal 1, target Boneshaper"
+							"name": "animate"
 						}
 					]
 				},
@@ -13628,18 +13564,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						},
 						{
 							"order": 2,
-							"name": "Malediction",
-							"effect": "Replace -1 with +0 <i>Curse</i>"
+							"name": "malediction"
 						},
 						{
 							"order": 3,
-							"name": "Rankle",
-							"effect": "Replace -1 with +0 <i>Poison</i>"
+							"name": "rankle"
 						}
 					]
 				},
@@ -13648,13 +13581,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Inhumation",
-							"effect": "Add +2 Earth/Dark"
+							"name": "inhumation"
 						},
 						{
 							"order": 2,
-							"name": "Soul Pact",
-							"effect": "Ally saving"
+							"name": "soulpact"
 						}
 					]
 				},
@@ -13663,13 +13594,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Tribute",
-							"effect": "Replace +0 with +1, kill attacking summons to add +4 instead"
+							"name": "tribute"
 						},
 						{
 							"order": 2,
-							"name": "Reclaimed Essence",
-							"effect": "Immediately before rest kill summons for a <i>Bless</i>"
+							"name": "reclaimedessence"
 						}
 					]
 				}
@@ -15598,8 +15527,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Blessed",
-							"effect": "Ignore negative item effect, add +1"
+							"name": "blessed"
 						}
 					]
 				},
@@ -15608,13 +15536,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						}
 					]
 				},
@@ -15623,18 +15549,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Retrace",
-							"effect": "Replace +1 with 2x +0 move token back"
+							"name": "retrace"
 						},
 						{
 							"order": 2,
-							"name": "Puncture",
-							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+							"name": "puncture"
 						},
 						{
 							"order": 3,
-							"name": "Barge",
-							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+							"name": "barge"
 						}
 					]
 				},
@@ -15643,28 +15566,23 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Outburst",
-							"effect": "Add +3"
+							"name": "outburst"
 						},
 						{
 							"order": 2,
-							"name": "Ample Inoculation",
-							"effect": " Ignore scenario effects"
+							"name": "ampleinoculation"
 						},
 						{
 							"order": 3,
-							"name": "Persistence",
-							"effect": "[Double] On long rest move token"
+							"name": "persistence"
 						},
 						{
 							"order": 4,
-							"name": "Expanded Arsenal",
-							"effect": "Bring additional hand item to scenario"
+							"name": "expandedarsenal"
 						},
 						{
 							"order": 5,
-							"name": "Recover",
-							"effect": "Add 2x rolling +1 Heal"
+							"name": "recover"
 						}
 					]
 				},
@@ -15673,8 +15591,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Scavenger",
-							"effect": "Extra Loot"
+							"name": "scavenger"
 						}
 					]
 				}
@@ -17659,18 +17576,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Retrace",
-							"effect": "Replace +1 with 2x +0 move token back"
+							"name": "retrace"
 						},
 						{
 							"order": 2,
-							"name": "Puncture",
-							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+							"name": "puncture"
 						},
 						{
 							"order": 3,
-							"name": "Barge",
-							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+							"name": "barge"
 						}
 					]
 				},
@@ -17679,33 +17593,27 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						},
 						{
 							"order": 3,
-							"name": "Ample Inoculation",
-							"effect": " Ignore scenario effects"
+							"name": "ampleinoculation"
 						},
 						{
 							"order": 4,
-							"name": "Persistence",
-							"effect": "[Double] On long rest move token"
+							"name": "persistence"
 						},
 						{
 							"order": 5,
-							"name": "Expanded Arsenal",
-							"effect": "Bring additional hand item to scenario"
+							"name": "expandedarsenal"
 						},
 						{
 							"order": 6,
-							"name": "Recover",
-							"effect": "Add 2x rolling +1 Heal"
+							"name": "recover"
 						}
 					]
 				},
@@ -17714,8 +17622,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Scavenger",
-							"effect": "Extra Loot"
+							"name": "scavenger"
 						}
 					]
 				}
@@ -19712,12 +19619,11 @@
 			],
 			"perks": [
 				{
-					"comment": "Start thinning our deck and make sure our attacks do whate we want",
+					"comment": "Start thinning our deck and make sure our attacks do what we want",
 					"picks": [
 						{
 							"order": 1,
-							"name": "Harmony",
-							"effect": "Remove a -2"
+							"name": "harmony"
 						}
 					]
 				},
@@ -19726,18 +19632,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Head Start",
-							"effect": "Start of scenario Move 3"
+							"name": "headstart"
 						},
 						{
 							"order": 2,
-							"name": "Perpetual Motion",
-							"effect": "Immunity to <i>Immobilize</i>"
+							"name": "perpetualmotion"
 						},
 						{
 							"order": 3,
-							"name": "Entropy Transfer",
-							"effect": "On short rest spend one item to unspend another."
+							"name": "entropytransfer"
 						}
 					]
 				},
@@ -19746,33 +19649,27 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Bolster",
-							"effect": "Replace +0 with rolling +2"
+							"name": "bolster"
 						},
 						{
 							"order": 2,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						},
 						{
 							"order": 3,
-							"name": "Revitalize",
-							"effect": "Add rolling +2 Regen"
+							"name": "revitalize"
 						},
 						{
 							"order": 4,
-							"name": "Gouge",
-							"effect": "Replace -1 with +0 </i>Wound</i>"
+							"name": "gouge"
 						},
 						{
 							"order": 5,
-							"name": "Meditate",
-							"effect": "Replace +1 with +2"
+							"name": "meditate"
 						},
 						{
 							"order": 6,
-							"name": "Refrain",
-							"effect": "Replace +0 with +1 <i>Immobilize</i>"
+							"name": "refrain"
 						}
 					]
 				}
@@ -21779,8 +21676,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Blessed",
-							"effect": "Ignore negative item effect, add +1"
+							"name": "blessed"
 						}
 					]
 				},
@@ -21789,13 +21685,11 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						}
 					]
 				},
@@ -21804,18 +21698,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Retrace",
-							"effect": "Replace +1 with 2x +0 move token back"
+							"name": "retrace"
 						},
 						{
 							"order": 2,
-							"name": "Puncture",
-							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+							"name": "puncture"
 						},
 						{
 							"order": 3,
-							"name": "Barge",
-							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+							"name": "barge"
 						}
 					]
 				},
@@ -21824,28 +21715,23 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Outburst",
-							"effect": "Add +3"
+							"name": "outburst"
 						},
 						{
 							"order": 2,
-							"name": "Ample Inoculation",
-							"effect": " Ignore scenario effects"
+							"name": "ampleinoculation"
 						},
 						{
 							"order": 3,
-							"name": "Persistence",
-							"effect": "[Double] On long rest move token"
+							"name": "persistence"
 						},
 						{
 							"order": 4,
-							"name": "Expanded Arsenal",
-							"effect": "Bring additional hand item to scenario"
+							"name": "expandedarsenal"
 						},
 						{
 							"order": 5,
-							"name": "Recover",
-							"effect": "Add 2x rolling +1 Heal"
+							"name": "recover"
 						}
 					]
 				},
@@ -21854,8 +21740,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Scavenger",
-							"effect": "Extra Loot"
+							"name": "scavenger"
 						}
 					]
 				}
@@ -23840,8 +23725,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Blessed",
-							"effect": "Ignore negative item effect, add +1"
+							"name": "blessed"
 						}
 					]
 				},
@@ -23850,18 +23734,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Retrace",
-							"effect": "Replace +1 with 2x +0 move token back"
+							"name": "retrace"
 						},
 						{
 							"order": 2,
-							"name": "Puncture",
-							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+							"name": "puncture"
 						},
 						{
 							"order": 3,
-							"name": "Barge",
-							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+							"name": "barge"
 						}
 					]
 				},
@@ -23870,38 +23751,31 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						},
 						{
 							"order": 2,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						},
 						{
 							"order": 3,
-							"name": "Outburst",
-							"effect": "+3"
+							"name": "outburst"
 						},
 						{
 							"order": 4,
-							"name": "Ample Inoculation",
-							"effect": "Ignore scenario effects"
+							"name": "ampleinoculation"
 						},
 						{
 							"order": 5,
-							"name": "Persistence",
-							"effect": "[Double] On long rest move token"
+							"name": "persistence"
 						},
 						{
 							"order": 6,
-							"name": "Expanded Arsenal",
-							"effect": "Bring additional hand item to scenario"
+							"name": "expandedarsenal"
 						},
 						{
 							"order": 7,
-							"name": "Recover",
-							"effect": "Add 2x rolling +1 Heal"
+							"name": "recover"
 						}
 					]
 				},
@@ -23910,8 +23784,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Scavenger",
-							"effect": "Extra Loot"
+							"name": "scavenger"
 						}
 					]
 				}
@@ -25866,8 +25739,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Blessed",
-							"effect": "Ignore negative item effect, add +1"
+							"name": "blessed"
 						}
 					]
 				},
@@ -25876,18 +25748,15 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Retrace",
-							"effect": "Replace +1 with 2x +0 move token back"
+							"name": "retrace"
 						},
 						{
 							"order": 2,
-							"name": "Puncture",
-							"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+							"name": "puncture"
 						},
 						{
 							"order": 3,
-							"name": "Barge",
-							"effect": "Replace 2x +0 with 2x rolling <i>Push</i> 2"
+							"name": "barge"
 						}
 					]
 				},
@@ -25896,33 +25765,27 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Intensify",
-							"effect": "Replace -2 with +0"
+							"name": "intensify"
 						},
 						{
 							"order": 2,
-							"name": "Recover",
-							"effect": "Add 2x rolling +1 Heal"
+							"name": "recover"
 						},
 						{
 							"order": 3,
-							"name": "Persistence",
-							"effect": "[Double] On long rest move token"
+							"name": "persistence"
 						},
 						{
 							"order": 4,
-							"name": "Focus",
-							"effect": "Replace -1 with +1"
+							"name": "focus"
 						},
 						{
 							"order": 5,
-							"name": "Ample Inoculation",
-							"effect": " Ignore scenario effects"
+							"name": "ampleinoculation"
 						},
 						{
 							"order": 6,
-							"name": "Expanded Arsenal",
-							"effect": "Bring additional hand item to scenario"
+							"name": "expandedarsenal"
 						}
 					]
 				},
@@ -25931,8 +25794,7 @@
 					"picks": [
 						{
 							"order": 1,
-							"name": "Scavenger",
-							"effect": "Extra Loot"
+							"name": "scavenger"
 						}
 					]
 				}

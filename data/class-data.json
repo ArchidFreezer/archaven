@@ -8,7 +8,64 @@
 				"Central to the Blinkblade experience is that you need to fit ‘Slow’ turns in among your powerful ‘Fast’ turns. Use only the initiative and associated ‘Fast’ or ‘Slow’ bonuses on the cards for ‘Fast’ or ‘Slow’ (unless prompted otherwise). (‘Fast’ is left/green, ‘Slow’ is right/yellow).  Unless your ability cards or Attack Modifier Deck (your attack cards with +2, -2, etc) grant you a Time Token, you must perform a ‘Slow’ turn to generate a time counter for every ‘Fast’ turn you want to play. Because your ‘Slow’ turns tend to have worse bonuses, maximizing Blinkblade’s output is about figuring out how to get the most out of your ‘Slow’ turns while also putting yourself in position to “turn it up to 11” and go all-out when you can take your 'Fast' turns.",
 				"The Blinkblade’s primary role in a party is to focus down and eliminate the right enemies at the right times, using their superior movement and initiative weaving to engage the most effective enemies each round. It’s also important to be sure your superior movement keeps you out of harm’s way, carefully selecting exactly how many hits you take during 'Fast' turns so that you aren’t in too much danger when you’re stuck taking 'Slow' turns or your self-sustain and Regenerate options can keep your health in fighting shape."
 			],
-			"handsize": "10"
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "harmony",
+					"name": "Harmony",
+					"effect": "Remove one -2 card"
+				},
+				{
+					"id": "bolster",
+					"name": "Bolster",
+					"effect": "Replace +0 with rolling +2 next attack"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "gouge",
+					"name": "Gouge",
+					"effect": "Replace -1 with +0 <i>Wound</i>"
+				},
+				{
+					"id": "meditate",
+					"name": "Meditate",
+					"effect": "Replace 2x +1 with 2x +2"
+				},
+				{
+					"id": "refrain",
+					"name": "Refrain",
+					"effect": "Replace +0 with +1 <i>Immobilize</i>"
+				},
+				{
+					"id": "hasten",
+					"name": "Hasten",
+					"effect": "Add -1 'Gain 1 time token' card"
+				},
+				{
+					"id": "revitalize",
+					"name": "Revitalize",
+					"effect": "Add rolling +2 Regenerate"
+				},
+				{
+					"id": "entropytransfer",
+					"name": "Entropy Transfer",
+					"effect": "On short rest spend one item to unspend another"
+				},
+				{
+					"id": "headstart",
+					"name": "Head Start",
+					"effect": "Start of scenario gain Move 3"
+				},
+				{
+					"id": "perpetualmotion",
+					"name": "Perpetual Motion",
+					"effect": "Immune to <i>Immobilize</i>"
+				}
+			]
 		},
 		{
 			"id": "bn",
@@ -16,7 +73,59 @@
 			"description": [
 				"The Banner Spear can fill a variety of different roles depending on the party: she can be a tank, a ranged support/damage-dealer, or a melee fighter specialized in dealing damage in an area. Her unique mechanic is that she has some Area of Effect (AoE) abilities with blue hexes in the targetter - these blue hexes require an ally in order for her to perform the ability."
 			],
-			"handsize": "10"
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "bruiser",
+					"name": "Bruiser",
+					"effect": "Replace -1 with rolling +1 Shield"
+				},
+				{
+					"id": "overwhelm",
+					"name": "Overwhelm",
+					"effect": "Replace +0 with +1<br>Add +1 for each ally adjacent to the target"
+				},
+				{
+					"id": "gifted",
+					"name": "Gifted",
+					"effect": "Ignore negative item effect<br>Remove -1"
+				},
+				{
+					"id": "intothebreach",
+					"name": "Into the Breach",
+					"effect": "When you open a door gain +3 Move"
+				},
+				{
+					"id": "ironwill",
+					"name": "Iron Will",
+					"effect": "Once per scenarion gain +2 Shield"
+				},
+				{
+					"id": "recover",
+					"name": "Recover",
+					"effect": "Add 2x rolling +1 Health"
+				},
+				{
+					"id": "shove",
+					"name": "Shove",
+					"effect": "Add +2, Push 1"
+				},
+				{
+					"id": "subdue",
+					"name": "Subdue",
+					"effect": "Add +1 <i>Disarm</i>"
+				},
+				{
+					"id": "technique",
+					"name": "Technique",
+					"effect": "Add 2x rolling +1"
+				},
+				{
+					"id": "tirelessleadership",
+					"name": "Tireless Leadership",
+					"effect": "At end of long rest range 3 ally gains +2 Move"
+				}
+			]
 		},
 		{
 			"id": "bo",
@@ -25,7 +134,59 @@
 				"The Boneshaper is a low-health summoner/support class. She has access to a variety of different summons but notably non-loss summons. Playing around non-loss summons allows her to protect herself from the biggest issue with summoner classes - when something goes wrong, you become useless afterwards. As with any summoner class, she still requires a reasonable familiarity with monster AI.",
 				"The Boneshaper can fit well into any party because her variety of summon-based builds allow her to function as a sort of tank, damage-dealer, or support. She has natural synergy with any effects that affect all allies (like a Bannerspear's Banner of Strength). But beyond that, playing an effective Boneshaper in your party will just involve needing to understand your party's strengths, weaknesses, and natural play patterns."
 			],
-			"handsize": "12"
+			"handsize": "12",
+			"perks": [
+				{
+					"id": "inoculation",
+					"name": "Inoculation",
+					"effect": "Ignore negative scenario effects<br>2x +1"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "malediction",
+					"name": "Malediction",
+					"effect": "Replace -1 with +0 <i>Curse</i>"
+				},
+				{
+					"id": "rankle",
+					"name": "Rankle",
+					"effect": "Replace -1 with +0 <i>Poison</i>"
+				},
+				{
+					"id": "deathonarrival",
+					"name": "Death on Arrival",
+					"effect": "Start of the scenario perform summon"
+				},
+				{
+					"id": "animate",
+					"name": "Animate",
+					"effect": "3x Heal 1, target Boneshaper"
+				},
+				{
+					"id": "reclaimedessence",
+					"name": "Reclaimed Essence",
+					"effect": "Immediately before rest kill summons for a <i>Bless</i>"
+				},
+				{
+					"id": "tribute",
+					"name": "Tribute",
+					"effect": "Replace +0 with +1, kill attacking summons to add +4 instead"
+				},
+				{
+					"id": "inhumation",
+					"name": "Inhumation",
+					"effect": "Add +2 Earth/Dark"
+				},
+				{
+					"id": "soulpact",
+					"name": "Soul Pact",
+					"effect": "Ally saving"
+				}
+			]
 		},
 		{
 			"id": "cr",
@@ -42,7 +203,74 @@
 				"The Drifter has a 12 card hand and a high (10hp at level 1) health pool, which allows the player to spend some of their resources without worrying about shortening their stamina or effective 'lifespan' too much.  The Drifter is based around the concept of versatility, sporting a single main mechanic and utilizing no elements whatsoever.",
 				"The Drifter's only mechanic is the 'use slots', or persistent abilities. The best part is that all of the core cards to change playstyles are found at Level 1/X, which means that you are flexible even between scenarios. Given the hand size you can expect to be able to two at a minimum of often 3 of these cards."
 			],
-			"handsize": "12"
+			"handsize": "12",
+			"perks": [
+				{
+					"id": "barge",
+					"name": "Barge",
+					"effect": "Replace 2x +0 with 2x rolling Push 2"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "puncture",
+					"name": "Puncture",
+					"effect": "Replace 2x +0 with 2x rolling <i>Pierce</i> 3"
+				},
+				{
+					"id": "retrace",
+					"name": "Retrace",
+					"effect": "Replace +1 with 2x +0 move token back"
+				},
+				{
+					"id": "ampleinoculation",
+					"name": "Ample Inoculation",
+					"effect": "Ignore scenario effects"
+				},
+				{
+					"id": "blessed",
+					"name": "Blessed",
+					"effect": "Ignore negative item effect, add +1"
+				},
+				{
+					"id": "cripple",
+					"name": "Cripple",
+					"effect": "Add +2 <i>Immobilize</i>"
+				},
+				{
+					"id": "expandedarsenal",
+					"name": "Expanded Arsenal",
+					"effect": "Bring additional hand item to scenario"
+				},
+				{
+					"id": "outburst",
+					"name": "Outburst",
+					"effect": "Add +3"
+				},
+				{
+					"id": "persistence",
+					"name": "Persistence",
+					"effect": "[Double] On long rest move token"
+				},
+				{
+					"id": "recover",
+					"name": "Recover",
+					"effect": "Add 2x rolling +1 Heal"
+				},
+				{
+					"id": "scavenger",
+					"name": "Scavenger",
+					"effect": "At the end of the scenario draw an extra loot card"
+				}
+			]
 		},
 		{
 			"id": "dt",
@@ -59,7 +287,64 @@
 				"No group is quite so ill-suited for the icy northern climates as the Valrath, who make their homes far to the south around the Red Desert. There was once a great war in that region between the Valraths and the humans, both equally interested in conquering the Stormbrew Plains for themselves. The two nations have since made peace, and the Valrath government in particular has made concerted efforts to forsake its aggressive past. In more recent times, they have focused on economic strength over the physical.",
 				"There is a saying among the Valrath: 'In order to survive the ice, one must have an icy soul.' This is apt for a Deathwalker, a nomad bent on atoning for the Valrath nation's past sins by ensuring the souls of the dead find rest. Wherever great tragedy falls, a Deathwalker is usually not far behind, and Frosthaven has seen plenty of tragedy."
 			],
-			"handsize": "10"
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "doom",
+					"name": "Doom",
+					"effect": "Replace +0 with +1 <i>Curse</i>"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "cloakofshadow",
+					"name": "Cloak of Shadow",
+					"effect": "On shadow hex, all attacks targeting you gain Disadvantage"
+				},
+				{
+					"id": "greaterrevive",
+					"name": "Greater Revive",
+					"effect": "Add 2x rolling +1 Heal on adjacent ally"
+				},
+				{
+					"id": "hauntingdreams",
+					"name": "Haunting Dreams",
+					"effect": "When you short rest consume Dark to <i>Curse</i> and <i>Muddle</i>."
+				},
+				{
+					"id": "lesserinoculation",
+					"name": "Lesser Inoculation",
+					"effect": "Ignore quest effects"
+				},
+				{
+					"id": "pacify",
+					"name": "Pacify",
+					"effect": "Add <i>Disarm</i> and <i>Muddle</i>"
+				},
+				{
+					"id": "penumbra",
+					"name": "Penumbra",
+					"effect": "Add +2, Dark"
+				},
+				{
+					"id": "restlessnight",
+					"name": "Restless Night",
+					"effect": "On long rest move 1 Shadow 3 hexes"
+				}
+			]
 		},
 		{
 			"id": "ff",

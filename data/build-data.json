@@ -19731,13 +19731,13 @@
 						},
 						{
 							"order": 2,
-							"name": "Entropy Transfer",
-							"effect": "On short rest spend one item to unspend another."
+							"name": "Perpetual Motion",
+							"effect": "Immunity to <i>Immobilize</i>"
 						},
 						{
 							"order": 3,
-							"name": "Perpetual Motion",
-							"effect": "Immunity to <i>Immobilize</i>"
+							"name": "Entropy Transfer",
+							"effect": "On short rest spend one item to unspend another."
 						}
 					]
 				},

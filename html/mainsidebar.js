@@ -29,6 +29,7 @@ function sidebarMainDropClick(id) {
     <div id="bbDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="bb-main.html" class="w3-bar-item w3-button">Overview</a>
 			<a href="bb-slowblade.html" class="w3-bar-item w3-button">SlowBlade</a>
+			<a href="bb-tactician.html" class="w3-bar-item w3-button">Tactician</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

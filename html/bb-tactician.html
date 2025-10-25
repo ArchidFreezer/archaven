@@ -1,0 +1,2447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blinkblade Tactician</title>
+	<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+	<button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+	<h1 class="w3-display-middle">Blinkblade Tactician</h1>		
+	<button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+	
+	<!-- Overview -->
+	<button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+	<div id="acc-overview" class="w3-container w3-hide">
+		<p>The Tactician build's core mission is to extract maximum value from the Blinkblade's core Time Token mechanic: you want powerful explosive 'Fast' turns and effective 'Slow' turns that minimize 'Slow' downsides.</p>	<p>The Tactician focuses on three things to maximize value:<ul><li>Hit as many targets as safely possible with multi-target effects (and ensure you can take 'Fast' turns at a good time to do so)</li><li>Using Wounds and inflicted damage to eliminate targets that your attacks are ineffective against due to effects like Shield and Retaliate.</li><li>Plan your 'Slow' cards in advance to ensure you minimize the cost of those turns.</li></p>
+		<p>So why would you play a Tactician Build?</p>
+		<ul>
+			<li>Tactician has the most freedom in its choices - you can tailor your exact Tactician build freely to your party composition and the type of enemies you expect to fight during your current story arcs.</li>
+			<li>Tactician isn't focused around any particular loss synergy, so will have the highest effective stamina among the builds and the most freedom to play loss cards in each scenario to fit their situation. </li>
+			<li>Tactician will reward careful players who enjoy planning and adaptive tactical thinking the most of the builds - it's the most suited to players who want to treat Frosthaven combat coupled with the class mechanics as a puzzle and try to solve it.</li>
+			<li>Tactician is effective at adapting to enemies that Blinkblade generally struggles with. If a scenario is about Shields, you can tailor your hand to battle against Shields. Same for Retaliate, Wound immunity, or any other wrench the scenario may throw into your plans.</li>
+		</ul>
+		
+		<p>The tank build loves the following:</p>
+		<ul>
+			<li>Are Drifters: Drifter is also excellent at adapting to varied situations, and a strategically minded Drifter + Tactician Blinkblade party will find themselves able to tailor their plans to effectively combat absolutely anything the scenario throws at them.</li>
+			<li>Are happy to Heal or take hits for you. The more your allies can take pressure off of you, the more focus you can have on maximizing damage output.</li>
+			<li>Wound or Poison enemies - especially if they do so efficiently or to many enemies at once.</li>
+			<li>Benefit from random unused elements or Push effects.</li>
+			<li>Strengthen or Regenerate us at key times when we move into combat or out of it.</li>
+		</ul>
+		
+	</div> <!-- overview -->
+	
+	<!-- Build Decks -->
+	<div class="w3-container">
+		<h2 id="deck">Build Deck</h2>
+	
+		<button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+		<div id="acc-1" class="w3-container w3-hide">
+		
+			<button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+			<div id="acc-1-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Powerful, core card. Wound is especially good for us, since we will often need to step away from enemies to Heal up for 'Slow' turns, allowing the Wound to keep doing its work even if we need to be elsewhere. It's also a great combo with Sand in the Hourglass.<br>The Move 5 is the weaker half of the card, but is still valuable if you need to quickly traverse. The top being so strong means you should try to use other cards to traverse if possible.</p>
+							<hr>
+							<p><b>Slow: </b>Top Attack 2 Muddle or bot Move 2 'deal 1 damage'. The 'Slow' Attack is  weak and shouldn't be used, but the 'Move 2 + 1 damage' has some tactical uses against certain types of enemies. That said, the 'Fast' side of this card is very good, so unless the 1 damage will get you a kill or is hitting an enemy with Shield and/or Retaliate, you should avoid trying to use this during 'Slow' turns and prioritize your hand so you don't have to. Against an enemy with both high Shield and Retaliate, though, this 'Slow' move is the best part of the card.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Use this for its 'Fast' Attack 4 Wound when possible. Use the Move 5 if you absolutely need the movement. Play it early in a rest cycle or after entering a new room to maximize the Wound's value, especially against low hp Shielded enemies. Expect to keep this card in your hand for a long time. Try to avoid using this for 'Slow' turns unless the 1 dmg will hurt a heavily Shielded enemy and/or avoid a nasty Retaliate, even for a SlowBlade.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>First - let's summarize the text: “Every 'Slow' non-long-rest turn, unless you skip or can't perform your top or bottom action, consume two charges and immobilize two enemies in range 3. Ignore all 'Slow' penalties and bonuses.” A typical good use case for this loss is “for your next three 'Slow' turns, add +1 attack to one attack, +1 move to one move and immobilize 1-2 enemies”. Even then, you need to carefully select your cards, since many 'Slow' effects are actually net positive or neutral if you ignore the bonuses and penalties. In other words, the majority of the value you get is tied to the Immobilize. If the party and enemy composition allows you to benefit from 4+ Immobilizes across 3 turns by preventing enemies from doing anything 4-6 times, it's reasonably strong. Less than that and it's starting to be a questionable choice vs your other loss options. It's a ton of work, for example, to get a Cascading Reaction's loss (Attack 3 Wound, Move 3, Attack 3 Wound) worth of value from this.</p>
+							<hr>
+							<p><b>Fast: </b>In a large party, this is an absolutely absurd card, granting 6+ movement (often higher if anyone has summons or the scenario gives you an ally). Its initiative is perfect for weaving or going earlier than the quickest enemies, and it can give you options no other card can. However, PLEASE work with your group to make sure this is actually net upside.Choose your spot wisely.<br><i>Note:</i> If you can't effectively use the big move, this card is still great as an 'initiative 02 Move 2', which allows you to safely take higher risk play lines. For example, it allows you to self-poison or create an element and be guaranteed to be the first to move next round to take advantage of your setup or get to safety.<p><b>Slow: </b>This is more or less a basic move or basic at initiative 32 except in exceptionally rare circumstances. If your allies will heavily benefit from the effect and are all able to safely go after initiative 32, it can be a fun boost… but it's rare to have a spot and even then takes party synergy for the printed text on the 'Slow' bot action to be better than a basic action. With that said, this is also the quickest 'Slow' action in our kit for a long time so 'initiative 32 basic action' can be an important option to have for 'Slow' turns!</p></p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This top action is narrow and generally shouldn't be used except with very specific party compositions and against specific types of enemies (i.e. two high hp elite enemies with low movement in a party that fights from range). The playable core of this card is two things: an incredibly quick 02 initiative Move 6+ (in many parties) or even basic action and a 'Slow' basic action that's quick enough to still go before most enemies. It will be a core card because of how important it is to Blinkblade to initiative weave with complete confidence in high-risk situations. Having your card be an 02 instead of a 12 or a 10 can matter enormously when it matters. (GH players can imagine a Hound, Shaman or Night Demon grouping and the ways those encounters can go wrong if you get beaten on initiative and how nice it is be guarantee you can't be beat)<p>Despite the bonuses this card gets at 3p and 4p, for the initiative on it alone it is still a core recommendation at all levels. In lower party counts if you're confident the enemies are not quick enough for the difference between 02 and 10 or 12 to matter much, it's fine to leave it on the sidelines, but in higher party counts you'll typically want to bring it for quite a long time, and even sometimes bring it back to your hand at higher levels in scenarios where having a big movement can help a lot. Keep it in mind at the start of every scenario, and plan accordingly. Just remember that you need at least half (ideally more) of your cards to have a good non-loss Attack or you'll have trouble, so don't swap this card in for a good Attack in levels where you don't have many.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>This is a solid movement bottom option whose value improves in certain party compositions (particularly alongside Bannerspear or Boneshaper). The loss attacks are decently strong, but not so much better than simply applying Power Leak well. The loss has its place (mainly for stacking wounds prior to Sand in the Hourglass), but often is overshadowed by your other powerful non-loss options. The initiative is solid at 19.</p>
+							<hr>
+							<p><b>Slow: </b>This bottom action is a 'Slow' Move 3, which is fine but not outstanding. The initiative on the 'Slow' action and the loss option are both somewhat weak, even in builds built to maximize those effects, so I generally don't recommend using this card.for the 'Slow' loss unless it winds up being perfect for a situation and you have spare stamina.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card is about its initiative and its 'Fast' move action. In a very Wound heavy/synergistic party, the top becomes more playable, but it's generally something you'd want to avoid running as a loss prior to the last room. How good the card is revolves around how good the Move 4 at initiative 19 which buffs allied Moves is in your party. In general, we won't take this card to most scenarios and prefer Borrowed Time as our goto lvl 1 'early init move card with narrow top'.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>At early levels or if trying to accomplish your mastery, this can be a good tool to build tempo up for the final room of a scenario once you're sure you can afford the loss. It's not the kind of card you should run in the first few rests without a specific plan, tho'. </p>
+							<hr>
+							<p><b>Fast: </b>This is one of the rare cards where playing it 'Fast' is all downside. Poor initiative, no bonus. If you must take a 'Fast' action and you need healing, you can do this thing… You should try not to unless you're in a situation where the Regen won't matter and somehow have a better 'Slow' turn you want to take.<p><b>Slow: </b>Great initiative weaving card with a solid effect whose power level improves the longer you can keep playing initiative/tactics games to avoid enemy attacks. The lack of a move is the only strike against it, but one of the primary play modes of this card is 'Move 2, Initiative 99' - don't be shy to play it as a basic if needed instead of a self-Heal.</p></p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Use this bottom to help recover between rooms or to initiative weave and Heal/reposition, ideally while avoiding attacks because of your higher initiative. Try to avoid using it 'Fast' without a good reason. Use the top for the last/most challenging room if it'll give you a good tempo burst. This is a core card because of the Regen-Heal and 99 initiative and will stay in your hand for the first handful of levels unless your party is healing or tanking heavy.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Early round 12 initiative Invisibility is a powerful option to have, but don't under-rate the value of the 'all enemies suffer 1 damage' part. On many 3 or 4 player boards - particularly against Retaliating enemies, this can be one of your highest damage dealing cards. Every part of this card's 'Fast' action top is good - just be sure to keep enough hit points to use it. The hit point cost for this card is one of the reasons it's important to avoid unnecessary damage - it's an amazing 'get out of jail free' card, but only if you stay at 3 or more hp. The move-loot is fine if you need it, but it's one of the most comparatively weak options on the card and you should not prioritize it unless you've got reason to. This is also the rare 'Fast' card that sets you up very well for subsequent safe 'Slow' turns by granting you Invisibility.</p>
+							<hr>
+							<p><b>Slow: </b>This is your best 'Slow' move until very high levels, paired with an extremely awkward to use top action that you'd generally be better off pretending doesn't exist (until lvl 8). It's also quick enough during a 'Slow' turn that you can reliably go earlier than many of the enemies, especially the more dangerous '-Move +Attack' enemy ability cards. You can pick up the 'Immobilize immunity' perk to maximize this card, but it's outstanding even if you don't do so (though you need to be a bit more careful and not immobilize yourself near enemies that will survive to hit you). Before the immunity perk, one of the best usages of the card is when you've burned through your good 'Fast' actions and need to run two 'Slow' turns in a row. This 'Slow' move can get you out of harm's way and set you up to long rest or Drive Recharge Heal+Regen next turn where the Immobilize has no downside. </p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card has two modes that are some of your most powerful options with (relatively) good initiative: Top Invisibility + enemy damage aoe when 'Fast', and bottom Move 4 when 'Slow'. Both of these are outstandingly strong and you should pick one of the two and use it every rest cycle that you're in a good spot for it. This is an X card, but it's holding two very good actions and often will stay in your hand for a long time. A good rule with this card is: if there's a lot of enemies, use the 'Fast' Invisibility option to set yourself up for a good 'Slow' turn while distributing a pile of damage. If there's only a few enemies with later average initiatives or the scenario has a long distance to traverse, lean into utilizing the Move 4 to help maximize your distance traveled during 'Slow' turns and set yourself up for long rests.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-hit-and-run.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>A respectable top action with a less respectable initiative. While it's not knock-your-socks off strong, it gives you a built-in CC and escape and generates exp. Because of the awkwardness of the initiative, most of our builds will not include this card. It can be good with certain parties, though, so feel free to take it if your party composition works well with it. If you have people to take hits for you while you go 'Slow' adjacent to enemies, this has a great 'Fast' combo with Temporal Displacement bot, but the initiatives combine poorly.<p><b>Slow: </b>Good for initiative weaving and a solid 'Slow' attack if the CC is valuable. If you're going to be able to reach the enemies on your 'Slow' turn, you can use this to ensure they can't chase you next round when you go 'Fast' to Power Leak and step away (or similar). If the Immobilize is good for your party, this is often the best mode on the card.</p></p>
+							<hr>
+							<p><b>Bottom Loss: </b>You'll only want this if a scenario asks for insane amounts of Move. You normally won't. Blinkblade has a lot of powerful movement options and this is just plain overkill </p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card generally doesn't even make our hand, since it amplifies things Blinkblade is already good at without being good at raw damage. It will work out in some party compositions or scenarios if you're light on other melee allies or need to just run from enemies. At lower level, keep an eye on the times you'd want to bring it this based on the kinds of play patterns your group falls into or the specifics of the scenario and the enemies.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>This card does a lot of good things. Its value, though, depends on your party and the scenario. The top is Move 2, Atk 2 push 3, Fire, which is good for traversal / element generation and whenever you can push an enemy through traps or hazardous terrain. The bottom is a very good 'Fast' Move 4 that even throws AoE damage at our enemies (and any hapless adjacent allies! Be careful!) and has a Push option. It is a great card for much of our Blinkblade career. The initiative is poor, so you need to work around that. Keep in mind the bottom's Push option when you have spare time counters, especially if it can deny the enemies some attacks, position them well for your allies, or deal significant trap / haz damage.</p>
+							<hr>
+							<p><b>Slow: </b>This is one of the best 'Slow' all-rounders in our pile at level 1, being a Move 1, Attack 2 Range 2, Frost top action or a Move 3, (xTime: push 3 all adjacent enemies) bottom action. Having a Move top during a 'Slow' turn is rare, and this can be very good for 'Slow' turn positioning while giving an element to an ally (or yourself, if needed). The Move 1 Frost is good for traversing, so keep that option in mind. The bottom is a solid move for 'Slow' turns, especially if the push will generate value. This is one of our better 'Slow' cards.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This 'Fast' top should be used in party compositions or scenarios where the elements or the push matter. The 'Slow' top and bottom are very good Move actions and are the best part of the card for 'average' usage. This doesn't excel for any specific build, but is fine for all three. It's absolutely rock solid and will stay in our hand for most of our career for all builds. Keep this card.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>I am not a believer in this loss. I want my 'Slow' actions to be initiative weaving 80-90's. I don't want to risk letting enemies hit me while I go late and just... hope it all works out. In some specific weird party comps or against swarms of low attack enemies it might give you what you need, but I advise only playing this top if you really badly need the Jump.</p>
+							<hr>
+							<p><b>Fast: </b>This is a sideboard card (one you only bring along for specific scenarios). If the enemies have piles of Retaliate, it's a necessary evil to allow you to play cards like Twin Strike without ripping yourself to shreds. Look at the scenario's enemy list before you choose cards and talk to your group. If many non-Shielded enemies have Retaliate, bring this.<p><b>Slow: </b>This is pretty much an initiative weaving basic action with some minor upside in rare situations where you don't need to move and can afford to sit in one place until initiative 90 near enemies while 'Slow' without dying and don't have a better action.</p></p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>If you really want to make 'TankBlade' a thing, go, have fun, do your thing! Otherwise, use this against Retaliating enemies without Shield in the scenarios you need it, or for repeated Jump if you just don't have another way to get Jump and the Scenario demands it.<p>I get it. I get that Shield 1 is good, but I don't advise taking during a 'Slow' turn vs difficult enemies while trying to tank and hope for the best. If you do, bad flips can absolutely wreck BB.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>The Notorious L.E.A.K. This card absolutely wrecked during the FH TTS demo 2 years ago. Since then, the card received a very important restriction preventing it from being spammed or doubled up in most situations (you don't get the Target 2 if you're Poisoned). It's still an excellent card and is good at 17 for initiative weaving. The bottom Move 7 loss is not a thing we should do under most circumstances - only play this for exp or if you MUST Move 7.</p>
+							<hr>
+							<p><b>Slow: </b>This is your strongest 'Slow' attack at level 1. It's also a pretty big downside to Muddle yourself unless you're about to do a non-Attack turn, and missing out on a 'Fast' Attack 8 is a big cost. You should prioritize the 'Fast' action attack unless you can't find a safe spot to fire it off. If you are in serious danger or aren't going to be able to hit 2 targets for a while, find a good spot for the 'Slow' side of this. The bot loss exists, but is really not an effective use of a lost card except in very narrow circumstances.<br><i>Note:</i> 'Muddle self' comes after the Attack. </p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Plan ahead to use the 'Fast' side of this card to Attack 4 two targets while having a plan to avoid hits or Heal so you don't get wrecked by the Poison. If you can't use the 'Fast' side safely, instead time the 'Slow' Attack 4, Muddle self to minimize the Muddle's downside. Either way, do your best to safely fit an Attack from this card in your rest cycles. It's powerful. This Attack is so good it's worth asking your allies to help you remove the Poison downside or looking for ways to easily deal with self-Poison on your own.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>This card is much better than it reads at first glance. Against certain types of enemies (high Shield, esp with high Retal, esp low hp) or alongside allies who Wound, it can be our best damage card at lvl 1(!). If you can get 5+ damage out of this card during most rest cycles (by having a Wounded enemy), it's amazing – particularly against Shielded enemies. Just the baseline 'Wound + 2 guaranteed damage' version is actually quite good! The bottom action is interesting, and it can give us a lot of healing - but only if our party helps us line it up. It's a bit clunky at 52 initiative. The Time Token consumption here is not worth it, so don't do it unless you've got a huge pile of Time Tokens.</p>
+							<hr>
+							<p><b>Slow: </b>The top of this card needs you or your party to be doing the wound thing. It's a great card if there's 2+ wounded enemies: it's damage that ignores Range, Retaliate, Shields and line-of-sight. The initiative is ideal for initiative weaving at 82 and against a wounded target, you can pile damage into them from a safe distance. The bottom of the card wants your party to walk to you to receive a Heal. If the party needs the Heal and doesn't mind coming to you, it's strong. However, it can be awkward to set up except in melee-heavy parties.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is the kind of card that shines in some scenarios and party compositions and is not as good in other party compositions or scenarios. It is, however, often better than it looks and only needs one previous wound to pull its top action's weight. We keep it a while because it gives a Heal and a good option against enemies we struggle with.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sap-speed.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>This is a situational card, and depending on the scenario and party size you usually opt not to bring it. In a typical 4p scenario at level 1, it can perform well, but often not at other player counts - and it's a narrow card even so, with only good mode ('Fast', top) out of the four possibilities. The Attack 3 advantage is obviously great if it hits 2 enemies, and you should try hard to line that up, since it's just ok if it hits one. Because of its awkwardly late 45 'Fast' initiative, it wants to be paired  with quicker move-heavy cards - start a turn adjacent to two enemies, deliver a strong hit, and get out of the way. The 'Fast' bottom is too narrow: you can work for it to be cc, but the payoff is generally not worth it under most conditions.</p>
+							<hr>
+							<p><b>Slow: </b>This top attack is just ok against two targets, though at least the initiative is good for weaving. It's generally not recommended as a 'Slow' card. Though SlowBlade gets some value here, it's too narrow for their hand at lvl 4+. The bottom has an interesting effect, but requires us to play an initiative 75 card to ignore 'Slow' penalties (but not get 'Fast' bonuses), greatly improving a card like Twin Strike, but only if we can sit toe-to-toe with the enemy. I don't like trying to do this because it carries a lot of risks for the reward, unless you're in a group that can easily tank for you and let you stand next to enemies with impunity.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>A lot of words that amount to: the 'Fast' attack on this is good at lvl 1 if you can line it up, and with higher player counts can try to do so. The 'Slow' applications are more cute than good (even for SlowBlade), and you are generally better off working on other synergies.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Top Move 2 Loot 1 or bottom Atk 3, Range 3. The Move+Loot helps clean up unlooted coins during traversal, or can validate your greed-driven bad-idea mid-combat looting (“I had to move into range! It's just a coincidence!”). The bottom is a powerful ranged Attack (for a bottom action) but it takes some planning and is often harder than expected to find a good spot for because it doesn't play well with your level 1 Attack+Move top actions' initiatives. It would work alongside a top-moving Hit and Run / Kinetic Transfer type card (which also have poor initiative)… But at 44, this should be played with a quicker card or if our allies can tank for us. Safer level 1 combos are with Experimental Adjustment (to go Invisible early), Blurry Jab (to put out so much damage it kills the enemies so you can safely stand in one place), or Twin Strike (when you Poison with the first attack and/or move away).</p>
+							<hr>
+							<p><b>Slow: </b>This is all about eeking value out of 'Slow' turns. During traversal it can help clean coins up and mid-combat it can even honestly be more efficient for the party to loot than basic Attack if your hand doesn't have a better 'Slow' top. Loot 1 no other text is actually a fairly efficient 'Slow' turn top action if looting is warranted, and it's good for initiative weaving at 74. The bottom action is also a good way to get extra value in a 'Slow' turn where you're near enemies. That said,  It's dangerous if you don't have someone else to tank for you, and taking chances like going at 74 while adjacent to an enemy without an ally to take the hit is a recipe for disaster should your luck turn poor.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The card's initiative and spacing requirements make the attack difficult to execute safely at level 1 unless your party supports you. As a result, the loot on this can be an actively good card during traversal. Don't feel compelled to run the bottom attack unless you can do so relatively safely. This isn't a Core Card at level 1 for this reason (but is a high tier Supplementary option). Higher levels breathe new life into the card by giving you more good cards to pair it with, like Double Time at 3 (similar to Twin Strike, but Moves after both Attacks) or Reckless Augmentation - where, like with Blurry Jab, you're dealing so much damage at such an early initiative that you often don't need to move. The really important thing about this card's bot-attack is: Pick Your Spot. Playing a careful Blinkblade that doesn't take extra hits and keeps themselves tactically positioned is often better for maximizing damage output than brawling at point blank range by running top attack + bottom attack. At melee range, the bottom attack 'Slow' is almost as good as the top attack (better, even, once you have rolling modifiers), so it's one of the best 'Slow' options when you have someone tanking for you (esp for SlowBlade). Don't stand idly near multiple dangerous enemies taking 74 initiative turns without someone else taking the hits for you and hope it all works out. Have a plan to avoid unnecessary damage. </p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Another core card. Atk 2, Move 2, Atk 3 with 1 exp or Move 3 Wind that adds Pierce 2 for the round. Reasonable initiative, but not our quickest. This card will stay in your hand for your entire career for all builds. This is a highly tactical card and the value of its modes heavily depends on enemy types. We'll review those situations in Summary, below. This is a bread and butter attack against Poisoned enemies and gains a big benefit from the suggested Poison Dagger in the Blinkblade's starting kit. Making this Attack 2 Poison + Attack 4 will set up un-Shielded enemies to take heavy damage and is a primary play pattern for the card.</p>
+							<hr>
+							<p><b>Slow: </b>The top of this card is at its best for SlowBlades, and is only an ok 'Slow' top aside from that. (but if you need a 'Slow' attack, it's an acceptable choice). It gives an Attack 1 and Attack 2 with a poor initiative. If the target is un-Shielded and Poisoned (often by your Poison Dagger as mentioned above), it can do decent work - emulating its standard 'Fast' action self, but using it this way misses out on the other powerful options for the card. The 'Slow' bottom, on the other hand, is great for recovery during 'Slow' turns and gives us a unique effect with both Move and Heal. If you're using this while 'Slow' and not a SlowBlade, you're best off using the bottom action. It may even generate a useful Earth for your party or you (at lvl 5+).</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Every part of this card is great.You should bring this card basically all the time, even at high levels. The situations its modes shine are all quite varied: you should try hard to slot this card into the right situation for it to perform at its best for the enemies you face and your group/current hp. Choosing the most effective place to use this card in each rest cycle is going to be an ongoing struggle for your entire Blinkblade career.:<ul><li><i>Mid-high hp un-Shielded enemies</i>: Be sure to use the top attack, especially alongside Poison. The move is often not what you need, but sometimes can let you get where you need to go or traverse rooms quicker if it's still in your hand… but other cards do the traversal job better if available. At low levels, if you don't have a better 'Slow' Attack, the 'Slow' side of this can actually be a fine way to fill out our rest cycle and keep our momentum going until we have better 'Slow' Attacks at higher levels. (just be sure to Poison the thing first)</li><li><i>Shielded enemies, esp w/ allies who like Wind</i>: try to make this your 'Fast' turn Move to set up a big Attack by ignoring Shields at an important time. With Blurry Jab against a Shield 2 enemy, this combo lets you basically Attack 7 + upside non-loss at level 1. Use it in the right spot, profit.</li><li><i>High-damage enemies / low healing group / no frontline</i>: you need to manage your hit points very carefully in some groups. If you're taking too much damage, this is an outstanding Heal for a 'Slow' turn to help you recover and be able to brawl. Especially if your allies care about Earth. Despite how good this is for 'Fast' turns, if you're getting beat up and your allies can't save you, you really need this Heal and you should focus on finding a place to play it on a 'Slow' turn..</li><li>SlowBlade: the top loses its 'Slow' downside alongside Precision Timing, and can even be actively great if you combo it with System Reboot to make it Attack 7 net. SlowBlades actually want the top of this card on 'Slow' turns more than its other modes, unless they need the Heal.</li><li>With Flashing Flurry: this is one of the primary setup cards once you get Flashing Flurry, so builds that take that card will want to be careful to utilize it to ensure they have elements ready to use - especially if they don't have allies who can make elements for them when needed.</li></ul></p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<p></p>
+			</div> <!-- new level 1 cards -->
+	
+			<button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+			<div id="acc-1-choices" class="w3-container w3-hide">
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Core</h3>
+					<p>The Blinkblade doesn't really have any dead cards at level 1 as each is used in different circumstances, however these  9 we would bring to every scenario. This core of 9 cards are valuable in a large variety of situations and (with two exceptions) have at least two strong actions between the combinations of 'Fast', “Slow', top and bottom.<p>While you can make cuts from these core cards as needed, they are all highly recommended. This is a very balanced hand that will have options for almost any situation you face.</p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+							<p class="w3-container">This primarily for it's 'Fast' attck 4 <i>Wound</i>.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+							<p class="w3-container">This card can be used in so many ways and it is one we will be keeping even at highr levels.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+							<p class="w3-container">This has movement on top and both movement and 'Fast' damage on the bottom.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+							<p class="w3-container">Attack mulitple tagrgets and gain xp.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+							<p class="w3-container">We bring this for the health recovery on the bottom.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+							<p class="w3-container">A top loot and bottom attack make this useful in several combinations</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+							<p class="w3-container">Direct damage attack when 'Fast' and Move 4 when 'Slow' providing good utility</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+							<p class="w3-container">Direct damage top and heal on the bottom.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+							<p class="w3-container">Used for the incredible 'Fast' initiative.</p>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Supplementary</h3>
+					<p>Four cards remain which we've identified as falling outside of our ideal 'Core' cards. At level 1, we get to bring one of these. At higher levels, we'll still bring them sometimes if the scenario looks correct for them or our party composition heavily supports them.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sap-speed.png">
+							<p class="w3-container">Sap Speed is a powerful, but narrow 'Fast' Attack with a very hard bottom action to use and a poor initiative for most uses. This will be our level 1 default in higher player counts, if no other card is a good fit for a scenario, or otherwise against swarms of non-retaliating enemies.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-hit-and-run.png">
+							<p class="w3-container">Hit and Run is another powerful, but narrow 'Fast' Attack with a poor initiative, though its 'Slow' action is also decent if our party can benefit. If your party can easily avoid an Immobilized target's attacks, this will usually outperform Sap Speed. In parties that tank for you, it combos well with Temporal Displacement for 'Fast' double Attack 3 + Immobilize, though that combo's initiative is so bad that you don't want to run it without support.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+							<p class="w3-container">Cascading Reaction is our go to if we need more good Movement actions if, we need quicker initiatives, or we think we will combo its top Attack loss into Sand in the Hourglass to deal with shielded or retaliating enemies. Keep it in mind even for later levels where initiative, Movement, or Wound are going to be very relevant in a scenario.</p>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+							<p class="w3-container">Overdrive is very narrow. You should not use this to try to tank unless you're doing it for fun or memes. The only uses of this card that I don't consider 'just for fun' / suboptimal is a.) In scenarios filled with high Retaliate enemies with low or no Shield value, where its use is obvious, or b.) In scenarios or parties where you NEED the jump to get around smoothly. Both uses are rare, but may still come up at higher levels. If you see the right time, don't hesitate to take the card. When it's good/valuable in a scenario, it's quite important to bring.</p>
+						</div>
+				
+					</div>
+				</div>
+			</div> <!-- choices -->
+		
+			<button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+			<div id="acc-1-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>As always, at the beginning of a scenario, carefully evaluate the enemies, scenario goals, and your party's options and choose from all your available options the cards that will best fit the scenario. The outlines presented in this guide are for a 'typical' scenario and you should always adjust to your party's and each scenario's individual needs. (and whatever you think is most fun!)<p>Defining top and bottom action typess is very difficult for the blinkblade given the Fast/Slow mechanism and the various combinations that the cards are used in so the Openers section should be referenced.</p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+								<p class="w3-pale-green">Attack [F Pierce]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+								<p class="w3-pale-green">Attack 4 [F Multi-target]</p>
+								<p class="w3-pale-red">Movement loss [S Multi-heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sap-speed.png">
+								<p class="w3-pale-green">Multi-target attack [F Adv.]</p>
+								<p class="w3-pale-red"><i>Immobilize</i> [S No S eff.]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-green">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-pale-red">Persistent <i>Immobilize</i></p>
+								<p class="w3-pale-green">Fast Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+								<p class="w3-pale-red">Token gain, Loss</p>
+								<p class="w3-pale-green">Self Heal, Regen</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 1 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-hit-and-run.png">
+								<p class="w3-pale-green"><i>Immobilize</i> attack, [F] Move</p>
+								<p class="w3-pale-red">Persistent move loss</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Your party can easily avoid an Immobilized target's attacks.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+								<p class="w3-pale-red"><i>Wound</i> attacks loss</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want the fast move, with conditional bonus movement for allies. We would typically replace Borrowed Time as the fast move card in our hand.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 1 hand -->
+			
+			<button id="level-openers" onclick="accClick('acc-1-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+			<div id="acc-1-openers" class="w3-container w3-hide">
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>'Fast' and Aggressive: The Assassin</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 02: Open with a Borrowed Time Move and Blurry Jab on the best target you can reach safely (in 4p, this may be an enemy in back!). Use your Poison Dagger with the Jab.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 74: Do a triple Attack via Twin Strike + Temporal Displacement (can use Sap Speed bot if you have that) and use the Poison to get an effective Attack 2+3+3 despite being 'Slow'</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 17:  Play Power Leak on two adjacent enemies and then Heal the poison off or get to safety with Sand in the Hourglass or a similar bottom action. Alternately, if you need a Move to use your Target 2, Move up to two enemies engaged with an early-initiative ally so you won't take too many hits.<br><b>Note: </b>Avoid being the target for a group of 2+ enemies for all builds anytime you're Poisoned! Stay safe! The more hits you take, the less aggressive you can be later!</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png"/>
+								<div class="w3-container" style="width: 250px">'Slow 99: Play Kinetic Transfer to Move 1, Attack 2 Range 2 and Drive Recharge to Heal our Poison off and Regen some of the damage we took.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<div class="w3-container" style="width: 250px">Next round, try to finish off whatever's left while preserving your Regen leading into a long rest so you'll be ready to start the next rest cycle in fighting shape.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>An all-in super-high damage opener for parties that can support some shenanigans from their Blinkblade. This will put a huge pile of damage into the first room immediately, but involves serious risk taking and will get you killed if you don't have allies that can support you effectively.</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>'Slow' open: Let 'em come</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 99: Let the enemies Move to you. Kinetic Transfer top Move 1 Attack 2 Range 2 to reposition yourself adjacent to two enemies. If you don't need the Move, Play Drive Recharge bot to Heal initial damage and put Regen on to cure your future Poison.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 02: Play Power Leak top for two Attack 4's and then Move to safety to preserve your Regenerate so it can clear Poison next round. We are glad for Borrowed Time's 02 here!</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 24: Play Twin Strike Top + Temporal Displacement bot to triple Attack, distributing attacks among anything left alive and avoiding disadvantage on the ranged Attack if you can.  If in danger, instead use the Top Move to get to safety and skip the Top Attack 3.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<div class="w3-container" style="width: 250px">From here, try to preserve Regenerate and engage the rest of the room safely. Ask allies to support you or tank for you as needed. Don't forget to use your Poison Dagger effectively!</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This opening sequence is for rooms where you can rely on (lightly or un-Shielded) melee enemies closing with you round 1. Line yourself up to take 1-2 light hits in the first round if you can, but only if it's safe. Communicate to your allies that you'll make Ice if they need it.</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Facing Shield/Retal Groups</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 12: Play Kinetic Transfer's bot Move right into the middle of the largest pack of enemies, followed by Experimental Adjustment Top to put a pile of non-attack damage into the enemies while going Invisible. Move to a hex that disrupts enemy movement if possible.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-hit-and-run.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 71: Play Blurry Jab's Bot Move 2 + 1 dmg. For the top action, Hit and Run is listed – but you should only use it if the immobilize or attack will have value. If you didn't bring it or attacking won't help, just don't perform a top action. Late initiative to avoid attacks.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 02: Play Sand in the Hourglass Top to Wound and damage a Shielded enemy, along with Borrowed Time (or any good movement with early initiative) to run to safety. </div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<div class="w3-container" style="width: 250px">Finish the rest cycle by putting whatever attacks you can into any good targets while staying safe until you rest back your non-attack damage cards. Depending on enemies, you may want to rest early. Keep Overdrive in mind if the enemies are high Retaliate but un-Shielded. If you have Overdrive, run its bottom action with Twin Strike Top after or before this pattern.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This combination is built to punish enemies you don't want to attack individually.</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Facing a Shielded Tank</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 20: Play Twin Strike's bot Move 3 Pierce 2 Wind and move to the Shielded enemy,<br>Play Blurry Jab Top Attack 4 Wound to get the pain train rolling.<br>Consider Poison Dagger on this attack if other allies will hit the enemy.<br><b>Note: </b>it's often ideal to take a hit here since you'll Heal during your 'Slow' turn.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 99: Play Sand in the Hourglass Top - dealing 2 Shield-ignoring damage to all the enemies you and the team were able to <i>Wound</i>.<br>Play Drive Recharge Bot to Heal 2 Regenerate and start recovering<br>As before, it can be good to take 1-2 hits leading into our 99 init Regen and Heal.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<div class="w3-container" style="width: 250px">Use the next turns to either apply other non-attack damage to the Shielded enemy, (see 'Facing Shield/Retal Groups' pattern above for ideas), or engage non-Shielded enemies with your remaining cards. Try to avoid getting hit and let the Regen keep going for a while while you engage elsewhere or long rest your hand back, as needed.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This opening sequence works for any room with a high-hp Shielded enemy. Ask allies who can apply <i>Wound</i> to put it on something (ideally another Shielded target) during the first round. Mention that you'll generate wind if anyone needs it.</p></footer>
+						</div>
+					</div>
+	
+				</div>
+			</div> <!-- openers -->
+		</div> <!-- level 1 -->
+		
+		<button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+		<div id="acc-2" class="w3-container w3-hide">
+		
+			<button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+			<div id="acc-2-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Everything you'd ever want in a 'Fast' payoff card. Top tier attack, solid exp-granting movement with upside, outstanding initiative. Just be sure you are limiting unnecessary damage taken so you can fuel using this powerhouse.</p>
+							<hr>
+							<p><b>Slow: </b>This card is not in your deck for its 'Slow' actions and you want to avoid using it for this if you can, since it's worse than or equivalent to many of your level 1 cards, while also being one of your very best 'Fast' cards.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Reckless Augmentation is everything a Blinkblade that cares about going 'Fast' wants.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-systems-reboot.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>This is a roleplayer used if you lose an important card while needing a Heal. It's not particularly powerful, but it can be handy late in a scenario to ensure you have the card you need. Mostly you just shouldn't do this.</p>
+							<hr>
+							<p><b>Fast: </b>This isn't the spiciest part of this card, but it actually has a number of uses because of how many self-inflicted conditions you have, coupled with any condition enemies might inflict.This is a powerful combo with Power Leak 'Fast' to remove the downside, and can cure self-inflicted Immobilize from Experimental Adjustment.<p><b>Slow: </b>What a card. The card primarily does one thing, but that one thing is everything to SlowBlade, constituting an enormous power upgrade for a turn by giving you full 'Fast' bonuses while getting the 'Slow' turn bonus from Precision Timing. This card will be talked about extensively in the SlowBlade guide, since it's a centerpiece card for that build.</p></p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This makes your 'Slow' turn top actions 'Fast' ones, but it also makes that whole 'Slow' turn Time Token neutral, so you still need another 'Slow' turn to actually gain a Time Token. The negative condition removal is nice, but is not enough to give this card a nod over Reckless Augmentation at level 2 or even at later levels (except for SlowBlades of course). Reboot is a good 'Slow' card, but the tradeoffs are quite real and the other uplevel cards are quite good.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Including Reckless Augmentation in your play patterns will give you a lot of good 'Fast' options to put extra damage into Shielded targets. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 2 cards -->
+	
+			<button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+			<div id="acc-2-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>Including Reckless Augmentation in your play patterns will give you a lot of good 'Fast' options to put extra damage into Shielded targets. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+								<p class="w3-pale-green">Attack [F Pierce]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+								<p class="w3-pale-green">Attack 4 [F Multi-target]</p>
+								<p class="w3-pale-red">Movement loss [S Multi-heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sap-speed.png">
+								<p class="w3-pale-green">Multi-target attack [F Adv.]</p>
+								<p class="w3-pale-red"><i>Immobilize</i> [S No S eff.]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-green">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-pale-red">Persistent <i>Immobilize</i></p>
+								<p class="w3-pale-green">Fast Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+								<p class="w3-pale-red">Token gain, Loss</p>
+								<p class="w3-pale-green">Self Heal, Regen</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 2 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-hit-and-run.png">
+								<p class="w3-pale-green"><i>Immobilize</i> attack, [F] Move</p>
+								<p class="w3-pale-red">Persistent move loss</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Your party can easily avoid an Immobilized target's attacks.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+								<p class="w3-pale-red"><i>Wound</i> attacks loss</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want the fast move, with conditional bonus movement for allies. We would typically replace Borrowed Time as the fast move card in our hand.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 2 hand -->
+			
+		</div> <!-- level 2 -->
+		
+		<button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+		<div id="acc-3" class="w3-container w3-hide">
+		
+			<button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+			<div id="acc-3-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>This is a second Twin Strike for builds that like the double attack, but organized differently so that the movement is granted at a much more useful point in the action - getting further away or being able to use Temporal Displacement's attack without disadvantage.<p><b>Slow: </b>This is +1 attack compared to Twin Strike, while otherwise being the same card at a similar initiative. Atk 4 for free for Slow is good, and SlowBlade is very excited about this card. Just note that this doubles down on the “good vs Poison, bad vs Shields/Retal” experience that a lot of Blinkblade cards have, so the more of this type of card you have, the worse your deck is against those effects and the more you need planning or help to face them.</p></p>
+							<hr>
+							<p><b>Bottom Loss: </b>This loss is fun and exciting… and is worse than most assume the first time they read it. Most actual 'Fast' bonuses don't add to offense (look at these two cards), and most Blinkblades will get something like +3-4 Attack and +12 Move out of this loss unless they put a lot of card choices into maximizing it. Maximizing this loss and using it at a high leverage point in the scenario is the main mission of NovaBlade. (and they'll sometimes get +10 Attack or more from it) Other Blinkblades can use this loss, but won't see anything near those returns.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Double Time is good for mobility and damage against low Shield targets.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>The top's Heal 3 Target 2 Range 2 is quite a good support card, though it's a bit out-of-role for us. In some parties, this will be amazing. In others, it's a bit of a wasted top action and doesn't contribute to your primary role. However, the bottom of the card more than makes up for that with Move 1, Atk 2 wound, becoming an outstanding bottom attack that gives us an extra option against Shielded enemies. The situational diversity on this card makes it a great all-rounder, and its only negative points (not a lot of movement, poor initiative) are areas the rest of our cards are great in.</p>
+							<hr>
+							<p><b>Slow: </b>Heal 1 Range 3 Target 3 plus Bless self. Now THIS is a spicy support action. This is a frequent go-to during traversals to pile Heals on allies and clear away negative conditions. In any kind of Wound/Poison/Brittle heavy scenario, often the Blinkblade will play a major support role by replaying this card for the 'Slow' top action as much as possible. The bottom is also a rock-solid Attack 2 Muddle that is ahead of the curve for a 'Slow' action, with an initiative that's great for weaving. </p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Make it Count is good for support, Healing, and Wounding Shielded targets for Sand in the Hourglass.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This card is a great utility card that can do several things for us. The top is for support and on a 'slow' is a Heal 1, Targets 3, Range 3 plus Bless, which is a great action. The bottom is better on a 'Fast' move where we get to MOve and attack with <i>Wound</i>. It replaces Drive Rechange due to the additional recovery and sustain options we now have available. Adding an additional non-loss Wound will incidentally improve Sand in the Hourglass' performance. If your party is not able to support you and you feel like you need more sustain and Healing, it may make sense to keep Drive Recharge and instead remove Temporal Displacement, which often performs best when we can be more free to stay adjacent to enemies.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 3 cards -->
+	
+			<button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+			<div id="acc-3-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>We've taken Make it Count, replacing Drive Recharge in our core cards, due to the additional recovery and sustain options we now have available. Adding an additional non-loss Wound will incidentally improve Sand in the Hourglass' performance. If your party is not able to support you and you feel like you need more sustain and Healing, it may make sense to keep Drive Recharge and instead remove Temporal Displacement, which often performs best when we can be more free to stay adjacent to enemies.<p>Make it Count will easily fill a strong role in our deck - it will be used to distribute wounds on Shielded enemies prior to Sand in the Hourglass. It replaces Temporal Displacement as your best bottom action attack for both 'Slow' and 'Fast' turns where you're trying to maximize damage instead of moving away to safely. It will slot in to 'Slow' turns as a 3 target Heal that clears negative conditions and self-Blesses. It will also enable us to support allies with a two target Heal 3 during 'Fast' actions - generally during the traversal stage between rooms.</p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+								<p class="w3-pale-green">Attack [F Pierce]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+								<p class="w3-pale-green">Attack 4 [F Multi-target]</p>
+								<p class="w3-pale-red">Movement loss [S Multi-heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sap-speed.png">
+								<p class="w3-pale-green">Multi-target attack [F Adv.]</p>
+								<p class="w3-pale-red"><i>Immobilize</i> [S No S eff.]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-green">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-pale-red">Persistent <i>Immobilize</i></p>
+								<p class="w3-pale-green">Fast Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 3 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-hit-and-run.png">
+								<p class="w3-pale-green"><i>Immobilize</i> attack, [F] Move</p>
+								<p class="w3-pale-red">Persistent move loss</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Your party can easily avoid an Immobilized target's attacks.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+								<p class="w3-pale-red"><i>Wound</i> attacks loss</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want the fast move, with conditional bonus movement for allies. We would typically replace Borrowed Time as the fast move card in our hand.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 3 hand -->
+			
+		</div> <!-- level 3 -->
+		
+		<button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+		<div id="acc-4" class="w3-container w3-hide">
+		
+			<button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+			<div id="acc-4-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-potential-energy.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>There's hidden text on this, 'Fast: -1 Attack and -1 Move'. This card is very weak as a 'Fast' action and you should not use it as one unless you have no better options or found yourself at 5 Time Tokens for some reason.</p>
+							<hr>
+							<p><b>Slow: </b>Unless you're doing something to build up Time Tokens, this is an Atk 3-4 top and Move 3-4 bottom action. The Atk 4 and Move 4 version is above rate for 'Slow' turns, and you should be trying to use this card aligned with a 'Slow' turn that builds to 2 Time Tokens for best output. While this card does combo well with ways to exceed 2 Time Tokens, It is also awkward in these situations, because you've got so many Time Tokens, and yet choose to declare 'Slow'. Also, note that this may not fit your playstyle (you need to be building to 2 Time Tokens regularly on 'Slow' non-long-rest turns for it to work out), so you may wish to avoid the card if you find yourself rarely at 2+ Time Tokens except on long rests.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is for a build that accumulates Time Tokens.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-precision-timing.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>This is the card that lets the SlowBlade build exist. That build plays this card ASAP and uses it to gain a huge amount of extra Attack damage over the course of a scenario. More on this in that build's writeup. SlowBlade appreciates the ability to get +1 move when they switch to mobility-mode during their occasional 'Fast' turn. This loss has narrow applications for other Blinkblade builds in movement-focused scenarios, but generally shouldn't be used except by SlowBlades in an average scenario.</p>
+							<hr>
+							<p><b>Fast: </b>Move 2, Attack 2, Move 2 with exp is a great bottom action, and 15 initiative makes the 'Fast' side of our weaving easier to accomplish. This combos well with Poison effects and helps us to set ourselves up to be in a good position next turn. It also combos with Double Time's loss to gain an extra Attack 2, which is nice upside.<p><b>Slow: </b>This is a Move 3 unless something grants your movement abilities +1 Move. Middling initiative. Not the worst 'Slow' action, but not a particularly good one. </p></p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Key to SlowBlades and low initiative move for other builds.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sap-speed.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This is a second Twin Strike for builds that like the double attack, but organized differently so that the movement is granted at a much more useful point in the action - getting further away or being able to use Temporal Displacement's attack without disadvantage.<p>The bottom isn't as good as it first looks given most 'Fast' bonuses are not attack oriented.</p></div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 4 cards -->
+	
+			<button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+			<div id="acc-4-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+								<p class="w3-pale-green">Attack [F Pierce]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+								<p class="w3-pale-green">Attack 4 [F Multi-target]</p>
+								<p class="w3-pale-red">Movement loss [S Multi-heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-blue">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [S Move|F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-pale-red">Persistent <i>Immobilize</i></p>
+								<p class="w3-pale-green">Fast Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 4 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+								<p class="w3-pale-red">Token gain, Loss</p>
+								<p class="w3-pale-green">Self Heal, Regen</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want additional healing.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+								<p class="w3-pale-red"><i>Wound</i> attacks loss</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want the fast move, with conditional bonus movement for allies. We would typically replace Borrowed Time as the fast move card in our hand.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 4 hand -->
+			
+		</div> <!-- level 4 -->
+		
+		<button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+		<div id="acc-5" class="w3-container w3-hide">
+		
+			<button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+			<div id="acc-5-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-breakneck-speed.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>Dare to dream. This is an absolutely amazing tempo boost, allowing two top actions (generally) during your next four turns. The output of this card can vary wildly, but you'll gain 4 full top actions worth of tempo from it as long as the damage doesn't kill you - making it quite a powerful loss option to have. NovaBlade's entire mission is to maximize the interaction between this and Double Time. They'll have some incredibly fun and explosive Nova rounds (and will pay the price in stamina and health to do so). Read more about this loss in that guide, but keep the loss in mind for other builds - it does work if used carefully.</p>
+							<hr>
+							<p><b>Bottom: </b>Teleport 5 is a great movement option under every circumstance. This card is especially amazing as 'Slow' movement as long as you're playing carefully enough to afford the hit point loss. Unless you've used Teleport, it's easy to underestimate how much more versatile it is than even a Jump Move. You can entirely dodge out of rooms and leave enemies needing to travel 10 hexes or more to get to you, or take multiple non-movement turns and catch up to the party in an instant if the map tiles are aligned for it. The initiative is also excellent, even for 'Slow' turns (comparably), and can do a lot to help us stay out of harm's way. Though we will often have immunity to Immobilize by this level, it's important to note that Teleport works whether or not you Immobilized yourself.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>I put a lot of value on superior initiatives and cards that let me engage enemies from more positions. I also put a premium on cards that allow me to take powerful actions during 'Slow' turns. Breakneck Speed checks all those boxes and I just love the card.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>'Consume an element for Attack 4 Target 2 Range 3' is the part of this card you want to play in almost all situations. If you're taking this card, you're taking it intending to play it 'Fast', consuming an element, and targeting 2 enemies. The other modes of this are significantly weaker - but this mode in particular combos quite well with various effects. Novablade enjoys getting an Attack 4 Target 3 Range 5 from it, SlowBlade likes using it with Systems Reboot to get Attack 5 Target 2 Range 3, and Tacticians like the option to AoE effectively from range. If your allies can't help you with elements, line this up following Twin Strike Bottom or Kinetic Transfer Top during prior turns.<p><b>Slow: </b>This is… fine. It's an ok weaving initiative, and, if you can consume the element, it's a two-target Attack 3. Using this for its 'Slow' action is generally not the place you want to be, but be sure you're doing the elemental consumption if you do. Even a SlowBlade is better served not trying to use the melee side of this card and should instead aim to combo with Systems Reboot to use the ranged Attack. </p></p>
+							<hr>
+							<p><b>Bottom Loss: </b>A powerful-but-situational loss, particularly if you care about the Time Tokens (non-SlowBlade). If it's going to prevent you from losing a card to damage, don't be afraid to fire it off and reap the benefit of an influx of Time Tokens to allow you to go 'Fast' for multiple turns. It can often be net-stamina-positive for the party to set the enemies up so you can fire this off for a 4+ target Stun (Do this carefully! Don't lose cards to set up a loss!), following it up with all-in aggression. This loss gets new life at lvl 8 alongside Fastest Alive for an incredibly brutal combo.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Many Tacticians in less melee-focused parties will find themselves able to get great usage out of the multitarget ranged Attack from Flurry's 'Fast' side.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+								<p class="w3-pale-green">[F] Multi-target ranged attack</p>
+								<p class="w3-pale-red">Time token gain loss</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-power-leak.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">'Consume an element for Attack 4 Target 2 Range 3' is the part of this card you want to play in almost all situations. If you're taking this card, you're taking it intending to play it 'Fast', consuming an element, and targeting 2 enemies.<p>Flashing Flurry goes immediately into our Core cards, and we'll remove Power Leak. Not because of power level, but because it has limited flexibility and we'd like to maximize how flexible our cards are.</p></div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 5 cards -->
+	
+			<button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+			<div id="acc-5-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>Also, if we're frequently engaging from range now that we've got Flashing Flurry, we can bring Temporal Displacement for some extra damage. Note that Kinetic Transfer's bottom actions were previously among it's best, but now they're important elemental generation options for Flashing Flurry. If we don't need the elemental generation or can't take advantage of the Push, Kinetic Transfer is probably our best cut at this point.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+								<p class="w3-pale-green">Attack [F Pierce]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+								<p class="w3-pale-green">[F] Multi-target ranged attack</p>
+								<p class="w3-pale-red">Time token gain loss</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-blue">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [S Move|F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-pale-red">Persistent <i>Immobilize</i></p>
+								<p class="w3-pale-green">Fast Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 5 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-drive-recharge.png">
+								<p class="w3-pale-red">Token gain, Loss</p>
+								<p class="w3-pale-green">Self Heal, Regen</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want additional healing.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-cascading-reaction.png">
+								<p class="w3-pale-red"><i>Wound</i> attacks loss</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want the fast move, with conditional bonus movement for allies. We would typically replace Borrowed Time as the fast move card in our hand.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 5 hand -->
+			
+		</div> <!-- level 5 -->
+		
+		<button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+		<div id="acc-6" class="w3-container w3-hide">
+		
+			<button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+			<div id="acc-6-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-stab-them-all.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>tabmovestabstabmovestab, wheee! We've graduated from double attacks to triple attacks, and doubled down on our strength against Poisoned enemies and our weakness to Shields and Retaliate. Interestingly, the 'Fast' version of this card is about the movement, not the attacks, which are identical on the 'Slow' side. Try to hit Poisoned enemies with this or otherwise get a static attack buff or Strengthen to ensure you really get paid for the triple attack.<p>The bottom action can be good, but it wants your allies to support you or have Invisibility to make it work. The 2 attack payoff isn't good enough to let enemies come and beat you up - you want them to be attacking someone else or moving through you. This can combo quite well with Experimental Adjustment's Invisibility to let enemies move through us. Include Adjustment in your deck if you're planning on this - especially against large numbers of low hp far-moving enemies.</p></p>
+							<hr>
+							<p><b>Slow: </b>The best part of this card is actually the 'Slow' side. It's absolutely amazing as a payoff for SlowBlade, who gets +3 attack for it and it's a great initiative for them. Non-loss Attack 8 (11 vs Poison) at initiative 34, getting bonus from Blinkblade's great perk deck, makes this absurdly powerful. The bottom action is also quite powerful situationally for a SlowBlade - the combination of adding Ward and upgrading to Attack 3 changes how willing you are to take some hits for the sake of this card. With some support from your allies, this can easily be an Attack 9-12+ bottom action, but be very careful not to overextend yourself.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Stab them All is truly impressive for SlowBlades. It can also do outstanding work with our powerful perk deck in NovaBlade contexts or while Strengthened, but doubles down on the class' fundamental weakness to Shields.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Very powerful effect, very late initiative. This is a card you want to initiative weave as best you can - either before (via a quicker second card) or after the enemies, and then get out of harm's way after you've wounded them. This card can do wonders followed by Sand in the Hourglass, driving the value of that card upwards as well and allowing you to put out massive non-attack damage while bypassing Shields/Retal. As with so many Blinkblade cards, play it safe and plan your spot to play this. If you just throw this card at enemies while also taking multiple hits to do so, it's going to work out poorly for you a good portion of the time. Get in, play the card, get safe. If our survivability is poor, the Bottom action has our back: it's a good Heal both 'Fast' and 'Slow', and even gives us some Move to reposition after the Heal.</p>
+							<hr>
+							<p><b>Slow: </b>This card's 'Slow' top side isn't particularly impressive, but can be good for wounding a single Retaliating enemy in a pack. The best part of it is the Heal 4 non-Move bottom action that's strong for initiative weaving at 95, and the top part of it is a weak-ish (for this level) Attack 3 Wound that we have to suffer damage for. Because we can do better from 'Slow' top actions, the bottom action is our focus for 'Slow' turns, and helps us with survivability to ensure we can keep the damage-train rolling during our 'Fast' turns.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p> Knife's Edge is great AoE and a solid Heal but a bad fit for two of our three builds for synergy reasons.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png">
+								<p class="w3-pale-green">[F AoE] Attack 3 <i>Wound</i><br>Take damage</p>
+								<p class="w3-pale-green">Heal self [F Move]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-blurry-jab.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The top is a good 'Fast' action as long as we are hitting 3 enemies and the bottom is a good 'Slow' heal with initiatve weaving. We replace Blurry Jab, which isan;t a bad card but we have 2 other sources of <i>Wound</i> and it is likely as much a Move card now.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 6 cards -->
+	
+			<button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+			<div id="acc-6-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>Also, if we're frequently engaging from range now that we've got Flashing Flurry, we can bring Temporal Displacement for some extra damage. Note that Kinetic Transfer's bottom actions were previously among it's best, but now they're important elemental generation options for Flashing Flurry. If we don't need the elemental generation or can't take advantage of the Push, Kinetic Transfer is probably our best cut at this point.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png">
+								<p class="w3-pale-green">[F AoE] Attack 3 <i>Wound</i><br>Take damage</p>
+								<p class="w3-pale-green">Heal self [F Move]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+								<p class="w3-pale-green">[F] Multi-target ranged attack</p>
+								<p class="w3-pale-red">Time token gain loss</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-blue">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [S Move|F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-pale-red">Persistent <i>Immobilize</i></p>
+								<p class="w3-pale-green">Fast Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 6 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 6 hand -->
+			
+			<button id="level-openers" onclick="accClick('acc-6-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+			<div id="acc-6-openers" class="w3-container w3-hide">
+				<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Knives and Flurries</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<div class="w3-container" style="width: 250px">We want to either have a 'Slow' round either at the start or following a long rest.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 65: Play Kinetic Transfer to move into a cluster of enemies who've taken turns.<br>Play The Knife's Edge top, AoE attack-wounding all adjacent (and taking dmg).</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 10: Play Reckless Augmentation Top Attack 5 on an enemy, ideally for a kill<br>Play Make it Count bot Move 1 Atk 2 Wound to shift to and Wound a new enemy.<br>*Try to minimize incoming damage with this shift and enable your allies to tank hits.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 52: From your hopefully safer position, play Double Time top and Twin Strike bot for a double Attack and a solid heal. Don't forget Poison Dagger if it's available.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 10:  Play Borrowed Time bot to Move into position for a good Flurry.<br>Play Flashing Flurry top for an Attack 4 Target 2 Range 3, focusing on highest value targets - especially if you can finish some enemies off.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This needs 2 time tokens so needs to be after a 'Slow' round such as a long rest.<br>There's a lot of variations on this kind of sequence, but what they all have in common is: If your allies aren't in position to help you, this can get you killed. It'll also do an absolute truckload of damage if you're able to perform it safely. Be sure to stay in good communication with the party!</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Let Them Come</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 81: At least one enemy has hopefully wandered up to us. Play Double Time top and Make it Count bottom for triple Attack. Use Poison Dagger if needed.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 10: Play The Knife's Edge bot to heal up from damage first round and Move to a good target. Play Reckless Aug top for Attack 5 Pierce 1.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 66: Play Kinetic Transfer top for Move 1 Attack 2 Range 2 Ice and step to allies. Play Twin Strike bot for a Heal 2 and small Move to recover some.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 02:  Borrowed Time bot to Move into a good position and then Flashing Flurry top for Attack 4 Target 2 Range 3 against the best two targets.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 12: Play Experimental Adjustment top to deal aoe damage and go Invisible. Play Sand in the Hourglass bot to heal yourself and adjacent allies.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-bb-back.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 99: Long rest, recovering another 2 hit points. We should be at a safer hit point total now and almost ready to start the traversal phase to the next room, during which we can finish healing up and get back to 2 Time Tokens. We'll often use Make it Count top alongside Experimental Adjustment bot to 'Slow' Heal + Move during traversal.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This is a scenario opener outlining 5 rounds. It anticipates initial enemies will wander into melee or use your Scenrio opener Move perk. It finishes with an Invisibilty to prime a long rest. This sequence is set up to take advantage of our self-healing options - it's a conservative pattern that gives you space to off-tank enemies during it, so if you're taking this kind of a line you should plan to peel aggro from 1-2 enemies and eat some of their Attacks - if things get too spicy, you can always pull the trigger on a quick Invis or Move.</p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Heal and Recover</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 12: Play Experimental Adjustment top to go Invisible (Heal first if below 3hp).<br>Play The Knife's Edge bot to Heal 4 and Move 2 closer to allies / to a safer spot.<br>Tell your allies that you'll run an AoE heal next round if they can get 1 hex away.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 82: Play Kinetic Transfer top to Move 1 to your allies and Attack 2 Range 2 Ice.<br>Play Sand in the Hourglass bot to Heal 2 yourself and your allies.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 02:  Play Borrowed Time bot to Move to a good spot that you can fire an attack at low hp enemies, then play Flashing Flurry top to shoot 2 enemies.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 81: Play Twin Strike bot to move 1 Heal 2 self and position to heal your allies.<br>Play Make it Count top to Heal 1 Target 3 Range 3 your allies and grab a Bless.</div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This is a mid-scenario emergency play sequence. You've just been beaten down to quite a low hit point total and your allies are similarly being pressed. You need to do some mid-combat recovery, because you just can't afford to safely take any more hits. Ideally you've killed some but not all of the enemies (you'd play this differently if the enemies are dead, during traversal)<br><b>Note</b>: If a lot of enemies are still alive, you're generally better off with balanced aggression (top attack, bottom heal) than all-in healing, Attack hoping to clear enemies and flip a Regen.<p>Hopefully switching roles to pseudo-support has given your allies some breathing room and you've cleared the room out and are starting to recover. Set yourself up to long rest and start the next rest cycle Healing allies up during traversal or while finishing off stragglers.</p></p></footer>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<header class="w3-light-grey"><p>Wound the World</p></header>
+	
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 65: Play Kinetic Transfer bot to Move near several enemies who've taken their turn.<br>Play The Knife's Edge top, aoe Attack-Wounding the enemies (and getting hurt)</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 12: Play Experimental Adjustment top to deal AoE damage and go Invisible.<br>Play Make it Count bot Move 1 Atk 2 Wound to shift to and Wound a new enemy.<br>*Do these two in whichever order maximizes damage.</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png"/>
+								<div class="w3-container" style="width: 250px">'Slow' 82: Play Sand in the Hourglass top to deal damage to all those wounded enemies.<br>Play Twin Strike bot to move to safety and Heal</div>
+							</div>
+		
+							<div class="w3-container w3-cell w3-center">
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png"/>
+								<p></p>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png"/>
+								<div class="w3-container" style="width: 250px">'Fast' 02: Play Borrowed Time bot to Move to a safe distance and then play Flashing Flurry to finish off enemies and hopefully flip a regen for the long rest. </div>
+							</div>
+		
+							<footer class="w3-light-grey"><p>This one is a shout out to all those enemies with too much darn Shield. We've got your number!<br><b>Note</b>: This pattern is set up to start with 2 Time Tokens (or to get one from the AoE attack). This can't really be done safely without going 'Fast' twice because of Knife's Edge fast's later init.</p></footer>
+						</div>
+					</div>
+	
+				</div>
+			</div> <!-- openers -->
+		</div> <!-- level 6 -->
+		
+		<button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+		<div id="acc-7" class="w3-container w3-hide">
+		
+			<button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+			<div id="acc-7-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-phasing-blades.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>So I've said a lot of words about 'weakness to Shields' and here we go. One card to fix all our problems, right?! Weeeelll… kind of. There are subsets of enemies that this just absolutely deletes. It's one of the strongest losses in the game if you play it in a scenario where every enemy has 3+ Shield. And it does stone nothing to enemies without Shield. So it's quite situational, and two of our three builds already are planning some losses.</p>
+							<hr>
+							<p><b>Bottom: </b>This is another card that's situational, though it can frequently be triggered in higher player counts. At lower player counts, it's going to be fairly difficult to trigger and often won't be the card you want. If you can trigger this safely, the reward is quite significant – especially on 'Slow' turns, where it allows you to exceed 2 Time Tokens and start stockpiling.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Phasing is generally good for higher player counts because it gives you a powerful option against Shield-heavy scenarios while having a generally useful bottom action.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-rushed-to-the-end.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>This card's top action is a bit awkward for 'Fast' turns, since it's significantly stronger if you can afford to spend Time Tokens, and is fine-not-great if you can't. Most of the payoff is gated behind the Time Token usage, so unless you've managed to get a stockpile of those, this should be used for its bottom action during 'Fast' turns. The bottom action is very useful for helping certain types of allies, but needs allies that are close-by and want the granted Move. In a team with something like Bannerspear who cares about lining allies up in position, or movement-challenged allies who need the help, it can shine. Alongside ranged allies who stay quite far back, it can be difficult to get more than your Move 4 from it.</p>
+							<hr>
+							<p><b>Slow: </b>NOW we're talking. For SlowBlade, this is outstanding because the cost of a Time Token is relatively low, and it grants them much needed exp. They can also use the 'Fast' side of it a lot more freely because they don't mind taking multiple 'Slow' turns in a row. The initiative on both halves is middling, so be sure to pair it with cards that will allow you to weave your initiative effectively. The bottom part of this can be very good for some allies and not particularly good for others - you'll know if you're in a party where your allies really need this large a granted movement.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Rushed or going down levels is generally good for lower player counts, since the top of Rushed competes for our precious Time Tokens. If you have trouble keeping Time Tokens stocked and/or have few allies who need granted movement, just go down to level 5 or 6 to pick up a solid card from those levels. SlowBlade has a slam dunk pick here and doesn't really want Phasing under most circumstances. (unless you were certain you were about to enter multiple shorter-length scenarios filled with Shielded enemies).</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-stab-them-all.png">
+								<p class="w3-pale-green">Multi-attack [F Move]</p>
+								<p class="w3-pale-green">[F Move|S Bless]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-borrowed-time.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Stab Them All beats out our level 7 options, replacing Borrowed Time as our official 'super quick card to beat very quick enemies'. This improves our initiatives and mobility dramatically, while leaving us with two good bottom Attacks (and we still have a loot). This adds another powerful 'Slow' turn attack, especially alongside our continually improving attack modifier deck, further expanding our options for 'Slow' turns.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 7 cards -->
+	
+			<button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+			<div id="acc-7-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>Keep in mind the combo of Stab Them All bottom and Experimental Adjustment top in terms of standing invisible in the path of enemies to get some stabs as they pass by. However, always consider the effect of using two of your earliest initiative cards in the same round with this build - having initiative control in this build relies on properly timing your quickest cards to hit during 'Fast' turns. Plan ahead and stay safe!</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png">
+								<p class="w3-pale-green">[F AoE] Attack 3 <i>Wound</i><br>Take damage</p>
+								<p class="w3-pale-green">Heal self [F Move]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+								<p class="w3-pale-green">[F] Multi-target ranged attack</p>
+								<p class="w3-pale-red">Time token gain loss</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-pale-blue">[F Move] Loot</p>
+								<p class="w3-pale-green">Attack [F Ranged]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-blue">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [S Move|F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-stab-them-all.png">
+								<p class="w3-pale-blue">Multi-attack [F Move]</p>
+								<p class="w3-pale-green">[F Move|S Bless]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 7 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 7 hand -->
+			
+		</div> <!-- level 7 -->
+		
+		<button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+		<div id="acc-8" class="w3-container w3-hide">
+		
+			<button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+			<div id="acc-8-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-fastest-alive.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>Wow. Move 8, initiative 01 or a spicy AoE Attack that super-punishes enemies who were unlucky enough to flip the wrong card or who got CC'd. It can be difficult to trigger this on purpose with Blinkblade except through specific combos, though at this level you'll sometimes Immobilize things just from flipping Attack modifier draws (of our '+1 Immobilize') if you've got enough perks.</p>
+							<hr>
+							<p><b>Slow: </b>Unless you're a SlowBlade, this isn't nearly as spicy of a 'Slow' action, though it's certainly not bad (at 4 move with reasonable initiative or situational Attack 4-6). If you're SlowBlade, though, this will be a decent speed Attack 6-9 Muddle, which is quite solid – though not really better than Stab Them All. </p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Fastest Alive is generically good - and particularly good if your party turns it on effectively.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-quantum-uncertainty.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Fast: </b>While turning nulls into crits is reasonable and might help us feel safe, it's not actually absurd by-the-numbers unless you're able to manipulate your deck somehow and don't have a good way to get Strengthen. The attack is functionally around an Attack 6, which is fine – but we've got better. The best part of this action is the Move 3 + Invisibility, which gives us a slew of good tactical options, allows us to perform some of our riskier plays with relative impunity, and makes it fairly easy to string initiative weaving together and entirely avoid attacks. With that said, if your deck has 3+ curses, use this Attack.</p>
+							<hr>
+							<p><b>Slow: </b>Much like the 'Fast' side of this card, this bottom action is where a lot of the power lies. Being able to have two rounds of Strengthened attacks on demand is absolutely massive for a class that delivers piles of attacks using an excellent attack modifier deck. This attack is functionally about an Attack 4, so it's just unimpressive compared to our other good options. SlowBlade especially will benefit a lot from lining up the bottom Strengthen alongside cards like Stab Them All or Twin Strike… and even SlowBlade isn't a huge fan of the top Attack.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Quantum gives you some tactical options you just aren't getting elsewhere. If your party members are giving you Invisibility or Strengthen or tanking for you super effectively, you don't need Quantum. If they aren't, it can really expand your tactical arsenal.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-quantum-uncertainty.png">
+								<p class="w3-pale-red">Attack 5</p>
+								<p class="w3-pale-green">Move [F Invis.|Slow adv.]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-temporal-displacement.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The bottom is where the power lies with this card in both 'Fast' and 'Slow' turns. Moving and gaining invisibility sets us up for a follow up slow turn safely and the slow Advantage is great for our Aoe attacks.<p>Quantum Uncertainty gives us a slew of new tactical options, but doesn't have an initiative quick enough to safely replace one of our quickest cards. Thus, Temporal Displacement finds itself on the cutting block. The bottom attack has trouble comparing favorably at this level. If we don't anticipate being able to wound a large number of enemies, or we think our party will churn through enemies too quickly, replace Sand in the Hourglass instead.</p></div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 8 cards -->
+	
+			<button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+			<div id="acc-8-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p>While this pickup doesn't change our play loops particularly much, the additional Invisibility and Strengthen expands the things we can do safely dramatically and helps ensure we can make some really, really big aoe turns, via a late knife's edge (ideally off an Invisibility) into an early Flashing Flurry + move away.</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png">
+								<p class="w3-pale-green">[F AoE] Attack 3 <i>Wound</i><br>Take damage</p>
+								<p class="w3-pale-green">Heal self [F Move]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+								<p class="w3-pale-green">[F] Multi-target ranged attack</p>
+								<p class="w3-pale-red">Time token gain loss</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-quantum-uncertainty.png">
+								<p class="w3-pale-red">Attack 5</p>
+								<p class="w3-pale-green">Move [F Invis.|Slow adv.]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-blue">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [S Move|F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-blue"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-green">Party heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-stab-them-all.png">
+								<p class="w3-pale-blue">Multi-attack [F Move]</p>
+								<p class="w3-pale-green">[F Move|S Bless]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 8 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 8 hand -->
+			
+		</div> <!-- level 8 -->
+		
+		<button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+		<div id="acc-9" class="w3-container w3-hide">
+		
+			<button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+			<div id="acc-9-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-fractured-timeline.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top Loss: </b>This can be hard to evaluate, but it's generally better than most players would think. Consider the stats of some good Boneshaper summons: lvl 5 hp 8, Move 2 Attack 3 Wound, lvl 9 hp 6 Attack 3 Range 3 Move 3.. It's actually quite common to find a level 5-7 enemy with stats equivalent or better than those - and it'll flip ability cards rather than just Move +0, Attack +0. It also uses your amazing AMD deck and can proc your active area +2's! The best targets for this card are significantly better than the baseline for a level 9 summon. So, if you find a great target - use it! Besides that, it's level 9 - aren't you meant to have fun with them? Slowblades should note that if your first monster dies and this loss will still good, you can Systems Reboot the loss back and clone another enemy!<br><i>Note</i>: If you play on Scenario level 6-7, this loss becomes quite powerful: you should generally use it anytime you see a good target, and try to keep it alive.</p>
+							<hr>
+							<p><b>Slow: </b>Even for level 9, this is exceptional mobility - and like Breakneck Speed, it only asks an hp cost to give us full power during 'Slow' turns. Teleport also gets significantly better the further above Teleport 4 you get, frequently allowing you to move between rooms entirely, leaving even the furthest moving long-range enemies unable to reach you.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The perfect pairing for a situationally powerful loss is a generically powerful non-loss.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-reverse-the-flow.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><b>Top: </b>This is an incredibly strong ability for 'Fast'-turn-focused Blinkblades, particularly NovaBlades, whose card choices happen to synergize with this ability. It is also at its absolute best during Nova turns, where it triples up on its effect. Some mind-blowingly amazing target damage come from using this ability with Breakneck Speed and Double Time active. It's level 9, so if you're a NovaBlade - just have fun with it! Figure out the best possible combinations, line up all your available buffs and just go wild. See how much damage you can deal a boss in a single round, and be sure to tell your party about it every single game session from then on. ;)</p>
+							<hr>
+							<p><b>Slow: </b>The value of this teleport varies wildly depending on the scenario objectives and how far you are from the beginning room, but is always optional… and the rest of the card is outstanding. In just about every scenario, this is an important stamina-extending healing option to keep in mind. It gets you back your two best cards, enabling all sorts of combo nonsense, particularly for NovaBlade, who gets to run their combo twice! (probably the second best combo to return is Flashing Flurry bottom when used alongside Fastest Alive top).</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card can produce huge damage in the right combinations.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-fractured-timeline.png">
+								<p class="w3-pale-blue">Clone enemy</p>
+								<p class="w3-pale-green">Teleport 7</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Fractured Timeline replaces Sand in the Hourglass. Hourglass's two damage just isn't quite as impactful as it once was, and we can't afford to cut our quicker initiatives. In scenarios with enough Shielded or Retaliating enemies, it can stay in and we can cut one of the multiattack cards instead, since those will underperform against heavy Shields. If you see a high value target to grab with Fractured Timeline's loss, don't hesitate to do so - hitting a powerful enough enemy with this can make the scenario significantly easier.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 9 cards -->
+	
+			<button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+			<div id="acc-9-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-the-knifes-edge.png">
+								<p class="w3-pale-green">[F AoE] Attack 3 <i>Wound</i><br>Take damage</p>
+								<p class="w3-pale-green">Heal self [F Move]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-twin-strike.png">
+								<p class="w3-pale-green">Multi-attack [F mid move]</p>
+								<p class="w3-pale-blue">Move, [F Pierce | S Heal]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-kinetic-transfer.png">
+								<p class="w3-pale-green">Move, Attack [F Push]</p>
+								<p class="w3-pale-blue">Move</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-flashing-flurry.png">
+								<p class="w3-pale-green">[F] Multi-target ranged attack</p>
+								<p class="w3-pale-red">Time token gain loss</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-double-time.png">
+								<p class="w3-pale-green">Multi-attack, [F] Move</p>
+								<p class="w3-pale-red">Trigger [F] effects twice</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-quantum-uncertainty.png">
+								<p class="w3-pale-red">Attack 5</p>
+								<p class="w3-pale-green">Move [F Invis.|Slow adv.]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-experimental-adjustment.png">
+								<p class="w3-pale-blue">Direct damage, Invisible</p>
+								<p class="w3-pale-green">Move [S Move|F Loot]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-fractured-timeline.png">
+								<p class="w3-pale-blue">Clone enemy</p>
+								<p class="w3-pale-green">Teleport 7</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-stab-them-all.png">
+								<p class="w3-pale-blue">Multi-attack [F Move]</p>
+								<p class="w3-pale-green">[F Move|S Bless]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/bb/fh-make-it-count.png">
+								<p class="w3-pale-green">[S] Multi-heal, Bless</p>
+								<p class="w3-pale-green">[F] Move, Attack, <i>Wound</i></p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 9 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-sand-in-the-hourglass.png">
+								<p class="w3-pale-green"><i>Wound</i>, direct damage</p>
+								<p class="w3-pale-red">Party heal</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies so we cut one of our multiattack cards as these wiull underperform for us.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-reckless-augmentation.png">
+								<p class="w3-pale-green">[F] Attack 5, <i>Pierce</i></p>
+								<p class="w3-pale-blue">Move, Ward</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We are facing Shielded enemies. Substitute it into the listed play patterns wherever it makes sense - it's such a versatile 'Fast' turn card that it'll work well replacing almost any of the 'Fast' cards in most situations in these patterns.</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/bb/fh-overdrive.png">
+								<p class="w3-pale-green">Add Jump to all moves</p>
+								<p class="w3-pale-green">Ignore retaliate</p>
+							</div>
+	
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with Retaliate and no or low shields<br>You <b>need</b> jump to get around.</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 9 hand -->
+			
+		</div> <!-- level 9 -->
+		
+	</div> <!-- build deck -->
+	
+	<!-- Perks -->
+	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+	<div id="acc-perks" class="w3-container w3-hide">
+
+		<div class="w3-light-grey">Our priority choices are to get rid of our worst AMD perk, ensure we are moving about and getting some time tokens.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Harmony</td><td>Remove one -2 card</td></tr>
+			<tr><td width="250px">Head Start</td><td>Start of scenario gain Move 3</td></tr>
+			<tr><td width="250px">Perpetual Motion</td><td>Immune to <i>Immobilize</i></td></tr>
+			<tr><td width="250px">Hasten</td><td>Add -1 'Gain 1 time token' card</td></tr>
+		</table><br>
+
+		<div class="w3-light-grey">Start improving our AMD cards</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Bolster</td><td>Replace +0 with rolling +2 next attack</td></tr>
+			<tr><td width="250px">Gouge</td><td>Replace -1 with +0 <i>Wound</i></td></tr>
+			<tr><td width="250px">Revitalize</td><td>Add rolling +2 Regenerate</td></tr>
+			<tr><td width="250px">Focus</td><td>Replace -1 with +1</td></tr>
+			<tr><td width="250px">Meditate</td><td>Replace 2x +1 with 2x +2</td></tr>
+			<tr><td width="250px">Refrain</td><td>Replace +0 with +1 <i>Immobilize</i></td></tr>
+		</table><br>
+
+		<div class="w3-light-grey">We are not expecting to short rest much so we leave this until last.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Entropy Transfer</td><td>On short rest spend one item to unspend another</td></tr>
+		</table><br>
+
+	</div> <!-- perks -->
+
+	<!-- Items -->
+	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+	<div id="acc-items" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey"></div>
+	
+		<button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+		<div id="acc-items-starting" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p></p></div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-127-poison-dagger.png">
+					<p class="w3-container">This is the key item for the Blinkblade</p>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- items -->
+		
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+	<div style="font-size:0.8rem">Tactician based on Dysentz build (<a href="https://www.reddit.com/r/Gloomhaven/comments/umg96w/blinkblade_class_guide/">https://www.reddit.com/r/Gloomhaven/comments/umg96w/blinkblade_class_guide/</a>)</div>
+</footer>
+
+</body>
+</html>
+	

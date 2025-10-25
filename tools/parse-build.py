@@ -187,7 +187,7 @@ def html_hand(level):
 			''')
 
 def html_hand_replacement_card(jcard, wide="true"):
-	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style, replace, comment]", jcard)
+	data=jmespath.search("[card, top.text, top.style, bottom.text, bottom.style, comment, replace]", jcard)
 	if wide == "true":
 		width = ""
 	else:
@@ -201,13 +201,16 @@ def html_hand_replacement_card(jcard, wide="true"):
 								<p class="{data[2]}">{data[1]}</p>
 								<p class="{data[4]}">{data[3]}</p>
 							</div>
-							<div class="w3-container w3-cell">
+	'''
+	if data[6]:
+		card+=f'''						<div class="w3-container w3-cell">
 								<header class="w3-light-grey"><p>Replace</p></header>
-								<img class="card-small" src="{cardimages[data[5]]}">
+								<img class="card-small" src="{cardimages[data[6]]}">
 								<p class="w3-light-grey">-</p>
 								<p class="w3-light-grey">-</p>
-							</div>
-							<div class="w3-container w3-cell w3-cell-middle w3-light-grey {width}">{data[6]}</div>
+							</div>'''
+	card+=f'''
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey {width}">{data[5]}</div>
 						</div>
 	'''
 	return card

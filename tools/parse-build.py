@@ -313,7 +313,7 @@ def html_choices(level):
 				hf.write(f'''
 						<div class="w3-card-4" style="width:250px">
 							<img class="card-med" src="{cardimages[card[0]]}">
-							<p class="w3-container">{card[1]}</p>
+							<div class="w3-container">{card[1]}</div>
 						</div>
 				''')
 				

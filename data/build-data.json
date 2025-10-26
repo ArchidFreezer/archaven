@@ -29478,14 +29478,14 @@
 							}
 						},
 						{
-							"card": "kinetictransfer",
+							"card": "sandinthehourglass",
 							"top": {
-								"text":"Move, Attack [F Push| S Ranged]",
+								"text":"[F <i>Wound</i>| S] direct damage",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Move [F dam adj| S], -Push",
-								"style": "w3-pale-green"
+								"text": "Party heal",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -29522,14 +29522,14 @@
 							}
 						},
 						{
-							"card": "sandinthehourglass",
+							"card": "kinetictransfer",
 							"top": {
-								"text":"[F <i>Wound</i>| S] direct damage",
+								"text":"Move, Attack [F Push| S Ranged]",
 								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Party heal",
-								"style": "w3-pale-blue"
+								"text": "Move [F dam adj| S], -Push",
+								"style": "w3-pale-green"
 							}
 						},
 						{
@@ -29663,14 +29663,14 @@
 							}
 						},
 						{
-							"card": "phasingblades",
+							"card": "sandinthehourglass",
 							"top": {
-								"text":"<i>Pierce</i> 3 persistent",
-								"style": "w3-pale-blue"
+								"text":"[F <i>Wound</i>| S] direct damage",
+								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Move, gain time token",
-								"style": "w3-pale-green"
+								"text": "Party heal",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -29707,14 +29707,14 @@
 							}
 						},
 						{
-							"card": "sandinthehourglass",
+							"card": "phasingblades",
 							"top": {
-								"text":"[F <i>Wound</i>| S] direct damage",
-								"style": "w3-pale-green"
+								"text":"<i>Pierce</i> 3 persistent",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Party heal",
-								"style": "w3-pale-blue"
+								"text": "Move, gain time token",
+								"style": "w3-pale-green"
 							}
 						},
 						{
@@ -29822,14 +29822,14 @@
 							}
 						},
 						{
-							"card": "phasingblades",
+							"card": "sandinthehourglass",
 							"top": {
-								"text":"<i>Pierce</i> 3 persistent",
-								"style": "w3-pale-blue"
+								"text":"[F <i>Wound</i>| S] direct damage",
+								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Move, gain time token",
-								"style": "w3-pale-green"
+								"text": "Party heal",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -29866,14 +29866,14 @@
 							}
 						},
 						{
-							"card": "sandinthehourglass",
+							"card": "phasingblades",
 							"top": {
-								"text":"[F <i>Wound</i>| S] direct damage",
-								"style": "w3-pale-green"
+								"text":"<i>Pierce</i> 3 persistent",
+								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Party heal",
-								"style": "w3-pale-blue"
+								"text": "Move, gain time token",
+								"style": "w3-pale-green"
 							}
 						},
 						{
@@ -29953,8 +29953,8 @@
 								"text": "Teleport 7",
 								"style": "w3-pale-green"
 							},
-							"replace": "sandinthehourglass",
-							"comment": "Fractured Timeline replaces Sand in the Hourglass. Hourglass's two damage just isn't quite as impactful as it once was, and we can't afford to cut our quicker initiatives. In scenarios with enough Shielded or Retaliating enemies, it can stay in and we can cut one of the multiattack cards instead, since those will underperform against heavy Shields. If you see a high value target to grab with Fractured Timeline's loss, don't hesitate to do so - hitting a powerful enough enemy with this can make the scenario significantly easier."
+							"replace": "phasingblades",
+							"comment": "Fractured Timeline replaces Phasing Blades for the powerful bottom move. Hourglass's two damage just isn't quite as impactful as it once was, and we can't afford to cut our quicker initiatives. In scenarios with enough Shielded or Retaliating enemies, it can stay in and we can cut one of the multiattack cards instead, since those will underperform against heavy Shields. If you see a high value target to grab with Fractured Timeline's loss, don't hesitate to do so - hitting a powerful enough enemy with this can make the scenario significantly easier."
 						}
 					],
 					"hand": [
@@ -29981,14 +29981,14 @@
 							}
 						},
 						{
-							"card": "phasingblades",
+							"card": "sandinthehourglass",
 							"top": {
-								"text":"<i>Pierce</i> 3 persistent",
-								"style": "w3-pale-blue"
+								"text":"[F <i>Wound</i>| S] direct damage",
+								"style": "w3-pale-green"
 							},
 							"bottom": {
-								"text": "Move, gain time token",
-								"style": "w3-pale-green"
+								"text": "Party heal",
+								"style": "w3-pale-blue"
 							}
 						},
 						{
@@ -30071,17 +30071,17 @@
 					],
 					"sideboard": [
 						{
-							"card": "sandinthehourglass",
+							"card": "phasingblades",
 							"top": {
-								"text":"[F <i>Wound</i>| S] direct damage",
-								"style": "w3-pale-green"
-							},
-							"bottom": {
-								"text": "Party heal",
+								"text":"<i>Pierce</i> 3 persistent",
 								"style": "w3-pale-blue"
 							},
-							"replace": "makeitcount",
-							"comment": "Against retaliate enemies direct dammage is still strong, even if it is only 2 damage."
+							"bottom": {
+								"text": "Move, gain time token",
+								"style": "w3-pale-green"
+							},
+							"replace": "sandinthehourglass",
+							"comment": "Against shielded enemies, replacing our weakest card."
 						},
 						{
 							"card": "driverecharge",

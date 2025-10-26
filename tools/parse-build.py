@@ -89,6 +89,7 @@ def html_build_decks():
 		html_choices(level)
 		html_hand(level)
 		html_openers(level)
+		html_full_deck(level)
 		
 		hf.write(f'''
 		</div> <!-- level {level} -->
@@ -250,6 +251,8 @@ def html_new_cards(level):
 			builddata.append("The overall card discussion.")
 
 		hf.write(html_new_card(id, builddata))
+		if level ==1:
+			full_deck.append(id)
 
 	hf.write(f'''
 				</div> <!-- new cards -->''')
@@ -263,6 +266,7 @@ def html_new_cards(level):
 		''')
 
 		for jcard in jpicks:
+			full_deck.append(jmespath.search("card", jcard))
 			hf.write(html_hand_replacement_card(jcard))
 
 		hf.write('''
@@ -323,6 +327,23 @@ def html_choices(level):
 		hf.write('''
 			</div> <!-- choices -->
 		''')
+
+def html_full_deck(level):
+	hf.write(f'''
+	
+			<button id="level-{level}-deck" onclick="accClick('acc-{level}-deck')" class="w3-btn w3-block w3-left-align">Level {level} Deck</button>
+			<div id="acc-{level}-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+	''')
+	for card in full_deck:
+		hf.write(f'''						<div class="w3-container w3-cell"><img class="card-med" src="{cardimages[card]}"></div>''')
+		
+	hf.write(f'''
+					</div>
+				</div>
+			</div>  <!-- level {level} deck -->
+	''')
 
 def html_enhancements():
 	enhancements=jmespath.search(f"enhancements[].[card,position,enhancement,comment]", jbuild)
@@ -538,6 +559,8 @@ for buildid in buildids:
 	jclasscards=jmespath.search(f"cards[?classid=='{classid}']", jcards)
 	cardimages = dict()
 	cache_card_images()
+	
+	full_deck=list(())
 	
 	html_header(buildname)
 	html_overview()

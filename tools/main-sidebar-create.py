@@ -68,6 +68,7 @@ function sidebarMainDropClick(id) {
 <div class="w3-sidebar w3-bar-block w3-light-grey w3-card w3-animate-left" style="display:none" id="main-sidebar">
   <button onclick="mainsidebar_close()" class="w3-bar-item w3-large">Close &times;</button>
 	<a href="index.html" class="w3-bar-item w3-button">Home</a>
+	<a href="events.html" class="w3-bar-item w3-button">Events</a>
 
 ''')
 

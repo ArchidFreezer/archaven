@@ -266,7 +266,9 @@ def html_new_cards(level):
 		''')
 
 		for jcard in jpicks:
-			full_deck.append(jmespath.search("card", jcard))
+			cardid = jmespath.search("card", jcard)
+			if cardid not in full_deck:
+				full_deck.append(cardid)
 			hf.write(html_hand_replacement_card(jcard))
 
 		hf.write('''

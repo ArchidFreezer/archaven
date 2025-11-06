@@ -400,7 +400,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							},
 							"replace": "atallcosts",
@@ -516,7 +516,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -646,7 +646,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -776,7 +776,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -906,7 +906,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -1036,7 +1036,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -1167,7 +1167,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -1298,7 +1298,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},
@@ -1428,7 +1428,7 @@
 								"style": "w3-pale-red"
 							},
 							"bottom": {
-								"text": "Move 2",
+								"text": "Move 3, Heal",
 								"style": "w3-pale-green"
 							}
 						},

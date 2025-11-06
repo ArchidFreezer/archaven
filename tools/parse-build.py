@@ -58,7 +58,7 @@ def html_overview():
 	paras=jmespath.search("overview.preferences[]", jbuild)
 	if not paras is None and len(paras) > 0:
 		hf.write(f'''
-		<p>The tank build loves the following:</p>
+		<p>The {build} build loves the following:</p>
 		<ul>''')
 	
 		for para in paras:

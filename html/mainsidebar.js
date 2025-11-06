@@ -79,6 +79,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('dwDrop')">Deathwalker <i class="fa fa-caret-down"></i></button>
     <div id="dwDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="dw-main.html" class="w3-bar-item w3-button">Overview</a>
+			<a href="dw-melee.html" class="w3-bar-item w3-button">Melee</a>
 			<a href="dw-puppet.html" class="w3-bar-item w3-button">Puppetmaster</a>
     </div>
   </div>

@@ -30188,6 +30188,2094 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "dw-melee",
+			"classid": "dw",
+			"build": "Melee",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://www.youtube.com/watch?v=pdID56fFhK0",
+			"overview": { 
+				"body": [
+					"The deathwalker melee build is a high risk, high reward build that takes what is a fairly low health character into melee range. As with other builds of this nature it needs to use initiative weaving to stay alive.",
+					"Unlike the ranged build this one only needs to keep one shadow moving with them as it's attacks are typically keyed to the number of shadows on the board without reference to their location, especially at early levels. Later on shadow proximity can help but by then you should have enough that it isn't an issue."
+				],
+				"benefits": [
+					"High damage output, even at very low levels",
+					"Fairly simple mechanics"
+				],
+				"preferences": [
+					"Melee allies that can take the focus of enemy attacks",
+					"Support allies for healing and CC"
+				]
+			},
+			"openers": [
+				{
+					"label": "High Tempo",
+					"level": 1,
+					"overview": "For when we need to start putting down damage as quickly as we can. At low levels we probably need to use this morethan later.",
+					"rounds": [
+						{
+							"top": "eclipse",
+							"bottom": "calltotheabyss",
+							"strategy": "Create 4 shadows in our first round"
+						},
+						{
+							"top": "strengthoftheabyss",
+							"bottom": "lingeringrot",
+							"strategy": "Move into place and inflict <i>Poison</i> then use our attack 5."
+						}
+					]
+				},
+				{
+					"label": "Medium Tempo",
+					"level": 1,
+					"overview": "When we have some time to get our shadows up and our big attacks.",
+					"rounds": [
+						{
+							"top": "calltotheabyss",
+							"bottom": "callofdoom",
+							"strategy": "Get our persistent shadow generator up late and then move into position generating <i>Dark</i>"
+						},
+						{
+							"top": "forcefulspirits",
+							"bottom": "eclipse",
+							"strategy": "Use the <i>Dark</i> in our multi-target ranged attack and then move out of the way."
+						},
+						{
+							"top": "darkfog",
+							"bottom": "shadowstep",
+							"strategy": "Move a shadow next to an enemy with Dark Fog bottom and then move and attack with Shadow Step."
+						}
+					]
+				}
+			],
+			"cards": [
+				{
+					"id": "angerofthedead",
+					"top": "This is a decent ranged attack, but it needs to consume shadows which is the opposite of what we are looking for.",
+					"bottom": "The bottom may be useful in the first room if we lay down a lot of shadows immediately, but is not something we would expect to be able to use as we tend to leave shadows where they are.",
+					"overall": "This is our lowest initiative card at level 1 so we will be bringing it long for that reason alone, typically as a fast move."
+				},
+				{
+					"id": "blackbarrage",
+					"top": "Long ranged attack that consumes <i>Dark</i> and provides xp. As a melee build we do not need the long range.",
+					"bottom": "Shadow movement which has some use for us, but we really need to be moving ourselves.",
+					"overall": "This isn't a bad card, but not something we are looking to use in the melee build, but it does have ok initiative."
+				},
+				{
+					"id": "callofdoom",
+					"top": "This is not an attack that the melee build cares much about as it is fairly weak and we are expecting to be in the face of enemies.",
+					"bottom": "This is a nice spammable Move 3 plus <i>Dark</i> that we will be happy to use for a while.",
+					"overall": "We take this card for the bottom movement and <i>Dark</i> generation, which we will pair with <em>Forceful Spirits</em>."
+				},
+				{
+					"id": "calltotheabyss",
+					"top": "This is our primary shadow generator and we will want it up in the first round if possible.",
+					"bottom": "In some high tempo scenarios where we may need shadows up immediately we can use this, but we would prefer to use the top.",
+					"overall": "This is a core card that we want to be setting up immediately if we can. We are more likely to be using the bottom at lower levels but it will find uses."
+				},
+				{
+					"id": "darkfog",
+					"top": "This is a decent loss for any build and with the low damage we are likely to be getting a couple of <i>Curse</i> in the enemy deck.",
+					"bottom": "This is a decent action, even for the melee build, as there are times when we will want to be moving our shadows around.",
+					"overall": "This is a core card for us early on as one we get a level or two we have a perk that wants us to occupy Shadows and this card lets us do that by moving one around. We combo it with Shadow Step to move ourselves around and attack."
+				},
+				{
+					"id": "eclipse",
+					"top": "Immediate shadow generation for high tempo scenarios where we want to get shadows out to increase our damage immediately.",
+					"bottom": "Move 4 is always a great action.",
+					"overall": "This that great combo of a conditional loss combined with a spammable bottom."
+				},
+				{
+					"id": "fluidnight",
+					"top": "This is a non-loss attack 5 so a decent attack, but it consumes shadow so you want to avoid using it if you can.",
+					"bottom": "Very situational action that can be used if we start getting to 6 shadows as it is a free disarm, but not something to play around.",
+					"overall": "Being a shadow consumer it is not something we want to be using, but early in a scenario it may be necessary to help out your party in the first few rounds.<p>We will take this card initially, but will have no problem dropping it fairly quickly.</p>"
+				},
+				{
+					"id": "forcefulspirits",
+					"top": "Multi-target, attack 2, range 2 which is attack 3 with <i>Dark</i> is a decent action at level 1. We should be able to get both attacks off in most cases.",
+					"bottom": "Teleport to Shadow is a good action and we will likely want one of these in our hand at all times but we are expecting to moving constantly so it is less important.",
+					"overall": "Until we get more melee attack cards we will need some that do not consume Shadows and this fits the bill for us.<p>We can pair this with Call of Doom bottom to power up this attack.</p>>"
+				},
+				{
+					"id": "lingeringrot",
+					"top": "Another attack that consumes a shadow. It is fairly powerful if it is set up as it can be an attack 3 on 6 enemies applying <i>Poison</i>, but not something we would be looking to use.",
+					"bottom": "Move 3, <i>Poison</i> is a great action for us setting up a boosted attack.",
+					"overall": "The bottom action is something we will want to be using every rest cycle."
+				},
+				{
+					"id": "restintheshade",
+					"top": "This is a party defence card that needs setup which we are unlikely to be able to achieve at the point we want to be throwing out the heals. It does produce <i>Dark</i> which we like.",
+					"bottom": "The bottom is nothing we need in a melee build.",
+					"overall": "This isn't a card that has anything for our build really wants."
+				},
+				{
+					"id": "shadowstep",
+					"top": "Top movement and an attack is great for us. We will find it difficult to be able to use the move early on but will come into play as we level up.",
+					"bottom": "TBig move loss is not something we want to be playing, but there are some scenarios where we might want to use this in the end room.",
+					"overall": "A core card for us with lots of utility on the top and good initiative."
+				},
+				{
+					"id": "strengthoftheabyss",
+					"top": "This is going to attack x + 1 where x is the number of shadows on the map so obviously this is potentially a non-loss attack six which is repeatable at level one which is obviously insane. That being said requires a lot of effort to get there and it requires something very specific from us which is trying to avoid spending many shadows.",
+					"bottom": "This is actually a very good persistent loss for a melee build but the top is so important for us we will rarely use it.",
+					"overall": "This is the real selling point of the melee build at level 1 being our primary damage card that will last throughout the game."
+				},
+				{
+					"id": "sunlessapparition",
+					"top": "Melee summon that is mostly used as a disarm as it is not a loss and will hopefully get an attack in as well.",
+					"bottom": "Loot and teleport.",
+					"overall": "The top may find some use in scenarios as it is not a loss, but we are not a summoning build and we tend to have better tops to be using, it also consumes a shadow.<p>The bottom teleport isn't something we really need on the melee build and we already have one on Forceful Spirits</p>"
+				},
+				{
+					"id": "waveofanguish",
+					"top": "This is for the puppetmaster build and not something we care about as we are only moving one or two of our shadows around.",
+					"bottom": "Move both ourselves and a shadow is something we need so this will be a core action.",
+					"overall": "The melee build needs to move both the character and a shadow, which is one of its real challenges so the bottom of this card is key for us , even though it is only Move 2 and the shadow can't keep up, though there is an enhancement slot on there."
+				},
+				{
+					"id": "deepeningdespair",
+					"top": "Situational ranged attack that can be difficult to set up, but does not consume the shadows.",
+					"bottom": "Very situational movement boost that is again difficult to set up.",
+					"overall": "o set up, but does have great initiative."
+				},
+				{
+					"id": "restlessspirits",
+					"top": "Attack 3 with <i>Curse</i> is a great action and it has an optional booster to give attack 6 with xp",
+					"bottom": "Shadow movement that has a potential consumption bonus.",
+					"overall": "The boost on the top is not something we will be able to pull off at low levels, but as we improve our cards later it becomes more viable<p>It is a still fine attack on its own.</p>"
+				},
+				{
+					"id": "deadbolt",
+					"top": "The top is an attack three at decent range.",
+					"bottom": "The bottom allows the movemnent of multiple shadows.",
+					"overall": "We are not looking to perform ranged attacks and we only need to be moving a single shadow around, for which we have better actions so this doesn't fit our build at all."
+				},
+				{
+					"id": "ritualsacrifice",
+					"top": "This is a melee attack boosted by shadows that we can hopefully set up at times.",
+					"bottom": "The bottom will frequently just be a move two that creates dark.",
+					"overall": "This card is great for us with a decent attack, though at level 3 we would want it to be boosted, but it can often get to be an attack 5 or 6. It also has one of our best initiatives. The difficulty at level 3 is getting the shadows to boost it, but there is a card we will soon be getting that fixes that.<p>We can use the bottom at times when we have excess shadows and is also an xp generator.</p>"
+				},
+				{
+					"id": "fleetingdusk",
+					"top": "Another ranged build action that is great for them, but of little use to us.",
+					"bottom": "This is a solid turn one action creating a shadow for us.",
+					"overall": "We like the bottom for a turn 1 action, but would need a spammable top for that and this top isn't that for a melee build as we are not manipulating shadows enough."
+				},
+				{
+					"id": "pulledacross",
+					"top": "<i>Doom</i> is a temperamental effect but can be used if we know an enemy has no heals.",
+					"bottom": "Move 2, <i>Invisible</i> plus <i>Dark</i> is such a great action for us allowing us 2 free attacks if we go in early with this and then late the following round.",
+					"overall": "We take this for the great bottom action which makes our low HP class viable as a melee build."
+				},
+				{
+					"id": "dominate",
+					"top": "Another ranged build attack that is very powerful when boosted with <i>Dark</i>",
+					"bottom": "Move 4 plus <i>Dark</i>.",
+					"overall": "This is a great card for the ranged build, but not what we are looking for."
+				},
+				{
+					"id": "medium",
+					"top": "A good solid attack if we can power it up that also generates a shadow.",
+					"bottom": "A persistent loss that allows us to move shadows every round.",
+					"overall": "The bottom action allows us to move both ourselves and a shadow every turn, which is transformational for this build and is an essential action.<p>The top action is something that you may want to use in the first rest cycle in the first room, but is not why we get this card</p>."
+				},
+				{
+					"id": "thenighttakesshape",
+					"top": "Another mnelee summon that is decent, but not something would use outside of between room top aciotns where it can be used.",
+					"bottom": "Shadow movement with a decent attack and optional extra damge.",
+					"overall": "The bottom of this card is so good for us as we can move shadows and have a bottom attack very late so we can do this coming out of invisibility."
+				},
+				{
+					"id": "vengefulstorm",
+					"top": "Big ranged AoE attack, consuming shadows.",
+					"bottom": "Ranged AoE <i>Wound & Stun</i> loss is a huge action",
+					"overall": "The bottom action is great for any build but we would need a spammable top and this is for the ranged build."
+				},
+				{
+					"id": "hungrygrasps",
+					"top": "Another top action for the ranged build.",
+					"bottom": "This is a loss that is a support action.",
+					"overall": "This isn't a card that has anything that improves what we do."
+				},
+				{
+					"id": "proliferationoftheabyss",
+					"top": "This is an effective disarm that may find use, but rarely.",
+					"bottom": "This is a decent Move 2/4 that also has shadow movement.",
+					"overall": "We really want to use this bottom with <i>Dark</i> but that doesn't work for our other cards with this initiative, so we will have to lean on our perks for that which isn't ideal."
+				},
+				{
+					"id": "frozeninfear",
+					"top": "This provides some CC and with Medium up we should be able to trigger this. The direct damage is decent, but not really the attraction of the action.",
+					"bottom": "Create shadow loss is not where we want to be in the melee build.",
+					"overall": "This isn't a great card, but the CC on the top is something we will find a use for every cycle."
+				},
+				{
+					"id": "lashingtendrils",
+					"top": "Retaliate loss. We already have 2 persistent losses and we aren't in the market for another.",
+					"bottom": "Direct damage on shadow movement is a good action, especially if boosted by <i>Dark</i>.",
+					"overall": "The top is a loss that we can't afford and our shadow movement is covered by Medium for the most part and it is our own movement that we use actions for so the bottom isn't great for us either."
+				},
+				{
+					"id": "blacklance",
+					"top": "Move 3, attack 4+. The attack can easily become attack 10 or more which isn't impossible with all out shadow movement options before we play the top.",
+					"bottom": "When surrounded by a multitude of weak enemies, the top will probably be overkill, at which point we can use the bottom. Lining up 3-4 curses is extraordinarily powerful, and the fast initiative means you can ensure you get in there before the enemies de-clump.",
+					"overall": "This card is a fantastic capstone for Deathwalkers that want to get up close and personal."
+				},
+				{
+					"id": "whenyourtimecomes",
+					"top": "Large ranged AoE direct damage.",
+					"bottom": "Persistent shadow generation. We don't need this as we should be generating enough shadows with our attacks.",
+					"overall": "his is a decent card, but aimed at the ranged build."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Shadow Management",
+							"overview": "In order for anything we do to make sense, we're going to need shadows and the ability to manipulate them. We need to move both ourselves and one shadow once we get our assocuiated perk, but until then we can focus on moving ourself around.",
+							"cards": [
+								{
+									"id": "calltotheabyss",
+									"comment": "Every build will generate shadows using Call to the Abyss, and most will rely on the top action in order to regularly generate shadows. We will want to play this on our first turn in most scenarios, although if the opening is particularly high pressure we can delay it until the second cycle."
+								},
+								{
+									"id": "eclipse",
+									"comment": "Can be run early for a high tempo start or to move ourselves around."
+								},
+								{
+									"id": "darkfog",
+									"comment": "Used for the bottom shadow manipulation."
+								},
+								{
+									"id": "waveofanguish",
+									"comment": "We use this for the bottom move and shadow manipulation."
+								}
+							]
+						},
+						{
+							"label": "Standard Attacks",
+							"overview": "Our primary melee attacks are Strength of the Abyss and Shadow Step",
+							"cards": [
+								{
+									"id": "strengthoftheabyss",
+									"comment": "Powerful melee attack boosted nby the number of shadows on the map."
+								},
+								{
+									"id": "shadowstep",
+									"comment": "This has a top movement, buty we are unlikely to be able to take advantage of that yet, but this is a solid attack."
+								},
+								{
+									"id": "fluidnight",
+									"comment": "A big ranged that relies on proximity shadow consumption."
+								},
+								{
+									"id": "forcefulspirits",
+									"comment": "A multi-target ranged attack we use at early levels."
+								}
+							]
+						},
+						{
+							"label": "Movement and Utility",
+							"overview": "We'll bring Call of Doom for dark generation, used for Forceful Spirits now.",
+							"cards": [
+								{
+									"id": "angerofthedead",
+									"comment": "Early movement."
+								},
+								{
+									"id": "callofdoom",
+									"comment": "Dark generation with movement."
+								},
+								{
+									"id": "lingeringrot",
+									"comment": "Movement with <i>Poison</i>."
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "forcefulspirits",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Teleport to shadow",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fluidnight",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "dwback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "callofdoom",
+							"top": {
+								"text":"Small ranged AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Dark</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "waveofanguish",
+							"top": {
+								"text":"Multi-target AoE loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, Shadow move",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "darkfog",
+							"top": {
+								"text":"Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move shadows",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "angerofthedead",
+							"top": {
+								"text":"Fast attack 2",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							},
+							"replace": "fluidnight",
+							"comment": "We don't want to have to be moving shadows around to perform attacks and this is swapping one shadow consumption with one that is optional."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "forcefulspirits",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Teleport to shadow",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "dwback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "callofdoom",
+							"top": {
+								"text":"Small ranged AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Dark</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "waveofanguish",
+							"top": {
+								"text":"Multi-target AoE loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, Shadow move",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "darkfog",
+							"top": {
+								"text":"Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move shadows",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "angerofthedead",
+							"top": {
+								"text":"Fast attack 2",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-blue"
+							},
+							"replace": "angerofthedead",
+							"comment": "This was mostly in for initiative so is an easy swap."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "forcefulspirits",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Teleport to shadow",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "callofdoom",
+							"top": {
+								"text":"Small ranged AoE attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Dark</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "waveofanguish",
+							"top": {
+								"text":"Multi-target AoE loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, Shadow move",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "darkfog",
+							"top": {
+								"text":"Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move shadows",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "Now that we have the <i>Invisibility</i> we want to maximise its usefulness which means we need a follow up late initiative. This means that we want to be using Eclipse bottom now as it is our only late card, assuming we are using Call to the Abyss top.",
+					"picks": [
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "callofdoom",
+							"comment": "We are swapping a move plus <i>Dark</i> generator with another better one. We are losing a movement but the payoff is worth it."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "forcefulspirits",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Teleport to shadow",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "dwback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "darkfog",
+							"top": {
+								"text":"Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move shadows",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "waveofanguish",
+							"top": {
+								"text":"Multi-target AoE loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, Shadow move",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "We now have our shadow movement covered with the persistent bottom, though we can use the powerful top in the first room if we aren't going to be moving much.",
+					"picks": [
+						{
+							"card": "medium",
+							"top": {
+								"text":"Attack 3/5",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Shadow Move",
+								"style": "w3-pale-yellow"
+							},
+							"replace": "darkfog",
+							"comment": "This was only in for the shadow movement and we don't need that any more."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "forcefulspirits",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Teleport to shadow",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "dwback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "medium",
+							"top": {
+								"text":"Attack 3/5",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Shadow Move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "waveofanguish",
+							"top": {
+								"text":"Multi-target AoE loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, Shadow move",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "thenighttakesshape",
+							"top": {
+								"text":"Melee summon",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"replace": "forcefulspirits",
+							"comment": "We remove our only ranged attack and the only one that cares about <i>Dark</i> and we also have a replacement teleport."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "dwback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "medium",
+							"top": {
+								"text":"Attack 3/5",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Shadow Move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "thenighttakesshape",
+							"top": {
+								"text":"Melee summon",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "waveofanguish",
+							"top": {
+								"text":"Multi-target AoE loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, Shadow move",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "proliferationoftheabyss",
+							"top": {
+								"text":"Direct damage AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2/4 with shadow",
+								"style": "w3-pale-green"
+							},
+							"replace": "waveofanguish",
+							"comment": "This is a direct upgrade of the bottom action."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "dwback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "medium",
+							"top": {
+								"text":"Attack 3/5",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Shadow Move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "eclipse",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "thenighttakesshape",
+							"top": {
+								"text":"Melee summon",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "proliferationoftheabyss",
+							"top": {
+								"text":"Direct damage AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2/4 with shadow",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "frozeninfear",
+							"top": {
+								"text":"Ranged <i>Immobilise</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow move",
+								"style": "w3-pale-blue"
+							},
+							"replace": "eclipse",
+							"comment": "We only use this for the Move 4 at this point and we have Proliferation for that now."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shadowstep",
+							"top": {
+								"text":"Move 3, attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "frozeninfear",
+							"top": {
+								"text":"Ranged <i>Immobilise</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "medium",
+							"top": {
+								"text":"Attack 3/5",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Shadow Move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "thenighttakesshape",
+							"top": {
+								"text":"Melee summon",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "proliferationoftheabyss",
+							"top": {
+								"text":"Direct damage AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2/4 with shadow",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "blacklance",
+							"top": {
+								"text":"Move 3, Attack 4+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, jump",
+								"style": "w3-pale-blue"
+							},
+							"replace": "shadowstep",
+							"comment": "There is nothing wrong with this card, but we only need one top move and Black Lance is a direct upgrade."
+						}
+					],
+					"hand": [
+						{
+							"card": "calltotheabyss",
+							"top": {
+								"text":"Shadow generation",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text":"Shadow generation",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ritualsacrifice",
+							"top": {
+								"text":"Attack 3+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "strengthoftheabyss",
+							"top": {
+								"text":"Attack 5+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Extra move/attack loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "restlessspirits",
+							"top": {
+								"text":"Attack 3+ <i>Curse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow movement",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "blacklance",
+							"top": {
+								"text":"Move 3, Attack 4+",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4, jump",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "frozeninfear",
+							"top": {
+								"text":"Ranged <i>Immobilise</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shadow move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "medium",
+							"top": {
+								"text":"Attack 3/5",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Shadow Move",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "lingeringrot",
+							"top": {
+								"text":"Big ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "pulledacross",
+							"top": {
+								"text":"<i>Doom</i> enemy loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 <i>Dark, Invis</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "thenighttakesshape",
+							"top": {
+								"text":"Melee summon",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "proliferationoftheabyss",
+							"top": {
+								"text":"Direct damage AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2/4 with shadow",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"perks": [
+				{
+					"comment": "The most important thing for us by far is consistency. We need to guarantee that we kill whenever we can, so we need to get rid of all of our negatives. The order isn't hugely significant, but I prefer to first remove my (-1)s, then replace the (-2), we also want the shadow hex as dimage mitigation thrown in there and then replace the remaining (-1)s.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "consistency"
+						},
+						{
+							"order": 2,
+							"name": "intensify"
+						},
+						{
+							"order": 3,
+							"name": "cloakofshadow"
+						},
+						{
+							"order": 4,
+							"name": "focus"
+						}
+					]
+				},
+				{
+					"comment": "Once we have a thin deck we move onto making sure it doesn't get worse and then improving our attacks.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "lesserinoculation"
+						},
+						{
+							"order": 2,
+							"name": "penumbra"
+						},
+						{
+							"order": 3,
+							"name": "hauntingdreams"
+						},
+						{
+							"order": 4,
+							"name": "doom"
+						}
+					]
+				},
+				{
+					"comment": "Everything from this point is much less important. We may as well add the rolling cards first",
+					"picks": [
+						{
+							"order": 1,
+							"name": "pacify"
+						},
+						{
+							"order": 2,
+							"name": "greaterrevive"
+						},
+						{
+							"order": 3,
+							"name": "restlessnight"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "The item recommendations are broken up into sections based on Craftsman levels.",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "The recommended starting items are fine choices.<br>Amulet of Life could be tempting but there are other valuable defensive helmets for a melee build.",
+						"picks": [
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 1",
+						"comments": "Add a Crude Helmet and Crude Shield<br>You could craft the Crude Hide Armor, but it's pretty expensive when you have a better option waiting at Craftsman 2. I'd recommend pushing for your party to upgrade the Craftsman sooner rather than later and hold off on filling out your chest slot until then.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "002",
+								"item": "Crude Helmet",
+								"description": "When you are attacked, treat a 2x as a +1",
+								"type": "permanent",
+								"comment": "This is cheap and effective. While +1 isn't great, it still has a decent chance of saving you from needing to pitch a card."
+							},
+							{
+								"location": "hands",
+								"id": "010",
+								"item": "Crude Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "burnt",
+								"comment": "Crude Shield is, like its Crude headwear cousin, cheap and effective. Most scenarios spent tanking will involve at least one useful condition to block and sometimes the swing can be huge."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 2",
+						"comments": "Add Crude Chain Armour and upgrade your Crude Shield into a Reinforced Shield",
+						"picks": [
+							{
+								"location": "head",
+								"id": "002",
+								"item": "Crude Helmet",
+								"description": "When you are attacked, treat a 2x as a +1",
+								"type": "permanent",
+								"comment": "This is cheap and effective. While a +1 isn't great, it still has a decent chance of saving you from needing to pitch a card."
+							},
+							{
+								"location": "chest",
+								"id": "012",
+								"item": "Crude Chain Armour",
+								"description": "When you suffer damage from an attack, gain +2 Shield",
+								"type": "spent",
+								"comment": "This is decent tanking armour."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 3",
+						"comments": "No changes this level",
+						"picks": [
+							{
+								"location": "head",
+								"id": "002",
+								"item": "Crude Helmet",
+								"description": "When you are attacked, treat a 2x as a +1",
+								"type": "permanent",
+								"comment": "This is cheap and effective. While a +1 isn't great, it still has a decent chance of saving you from needing to pitch a card."
+							},
+							{
+								"location": "chest",
+								"id": "012",
+								"item": "Crude Chain Armour",
+								"description": "When you suffer damage from an attack, gain +2 Shield",
+								"type": "spent",
+								"comment": "This is decent tanking armour."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							}
+						]
+					},		
+					{
+						"level": "Craftsman 4",
+						"comments": "The choice of whether or not to take Sturdy Greaves is going to come down to resource availability and how soon you'll retire. They're definitely a worthwhile upgrade to Winged Shoes in most scenarios, and you can keep the Winged Shoes around when you see a scenario where you think the Jump will be better. As with Chain Hood, any form of Shield stacking alongside your persistent loss is very, very powerful. And Sturdy Greaves are much easier to use as well. You can even pair them with the door-opening perk to barely miss a step, although you may not want to take that risk if you're facing a number of enemy types who are prone to not attacking.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "021",
+								"item": "Chain Hood",
+								"description": "When you are adjacent to 3 or more enemies, gain +1 Shield",
+								"type": "permanent",
+								"comment": "I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this."
+							},
+							{
+								"location": "chest",
+								"id": "022",
+								"item": "Heavy Chain Armour",
+								"description": "When you suffer damage from an attack, gain +3 Shield",
+								"type": "spent",
+								"comment": "A nice minor upgrade."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							},
+							{
+								"location": "feet",
+								"id": "023",
+								"item": "Sturdy Greaves",
+								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
+								"type": "spent",
+								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 5",
+						"comments": "We add the Parrying Gauntlet as another option for our hands. You'll typically be in a position such that it's easy to trigger and it can often deal respectable damage while even avoiding an attack. It's also cheap enough to craft that there should be no hesitation. At this point, I would bring Parrying Gauntlet all of the time, Reinforced Shield when you're facing enemies that have conditions, and Heater Shield when you're not",
+						"picks": [
+							{
+								"location": "head",
+								"id": "021",
+								"item": "Chain Hood",
+								"description": "When you are adjacent to 3 or more enemies, gain +1 Shield",
+								"type": "permanent",
+								"comment": "I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this."
+							},
+							{
+								"location": "chest",
+								"id": "022",
+								"item": "Heavy Chain Armour",
+								"description": "When you suffer damage from an attack, gain +3 Shield",
+								"type": "spent",
+								"comment": "A nice minor upgrade."
+							},
+							{
+								"location": "hands",
+								"id": "128",
+								"item": "Heater Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield",
+								"type": "spent",
+								"comment": "This is a welcome addition to mitigate some damage."
+							},
+							{
+								"location": "hands",
+								"id": "030",
+								"item": "Parrying Gauntlet",
+								"description": "Immediately after an enemy ends its move abiliuty adjacent to you, perform Attack 3 on it.",
+								"type": "consumed",
+								"comment": "This is an excellent addition ans something you will want to be using on most quests."
+							},
+							{
+								"location": "hands",
+								"id": "015",
+								"item": "Reinforced Shield",
+								"description": "When an enemy would apply a negative condition, prevent it.",
+								"type": "spent",
+								"comment": "Upgrading the Crude Shield into the Reinforced Shield is excellent and makes that slot so much more effective."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							},
+							{
+								"location": "feet",
+								"id": "023",
+								"item": "Sturdy Greaves",
+								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
+								"type": "spent",
+								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					},
+					{
+						"level": "Craftsman 6",
+						"comments": "We add the Kite Shield replacing both the Heater and Reinforced Shields.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "021",
+								"item": "Chain Hood",
+								"description": "When you are adjacent to 3 or more enemies, gain +1 Shield",
+								"type": "permanent",
+								"comment": "I find the Chain Hood to be strong enough to justify its place, and I do think it's enough stronger than the Crude Helmet to warrant the replacement. Even if this only happens 2-3 times per scenario, that's still certainly worth it, even if it does sometimes come with the dangerous temptation to play overly aggressively. Having a base persistent Shield 1, any additional Shield that can be stacked on top of that is very powerful. And the door-opening perk can also help facilitate this."
+							},
+							{
+								"location": "chest",
+								"id": "022",
+								"item": "Heavy Chain Armour",
+								"description": "When you suffer damage from an attack, gain +3 Shield",
+								"type": "spent",
+								"comment": "A nice minor upgrade."
+							},
+							{
+								"location": "hands",
+								"id": "035",
+								"item": "Kite Shield",
+								"description": "When you suffer damage from an attack, gain +1 Shield and prevent any negative conditions from the attack.",
+								"type": "spent",
+								"comment": "The Kite Shield is a strict upgrade compared to Heater Shield, always giving you the damage mitigation and sometimes also giving bonus condition prevention. This and Parrying Gauntlet would now be my primary two hand items."
+							},
+							{
+								"location": "hands",
+								"id": "030",
+								"item": "Parrying Gauntlet",
+								"description": "Immediately after an enemy ends its move abiliuty adjacent to you, perform Attack 3 on it.",
+								"type": "consumed",
+								"comment": "This is an excellent addition ans something you will want to be using on most quests."
+							},
+							{
+								"location": "feet",
+								"id": "124",
+								"item": "Winged Shoes",
+								"description": "During your move add Jump",
+								"type": "spent",
+								"comment": "These are a great choice as we only have a single jump action and we prefer not to use it."
+							},
+							{
+								"location": "feet",
+								"id": "023",
+								"item": "Sturdy Greaves",
+								"description": "At the start of your turn, add -2 Move to all movement to gain +1 Shield this round.",
+								"type": "spent",
+								"comment": "Having an additional shield for a round if we are standing and tanking is a powerfuil effect."
+							}
+						]
+					}
+				]
+			},
+			"potions": {
+				"comments": "In general, your highest priority will be to get any potions that provide healing or defensive effects, followed by card or item recovery, and then lastly offensive effects.",
+				"levels": [
+					{
+						"numherbs": "2",
+						"comments": "The Muscle Potion is certainly the strongest 2-herb potion in the abstract, but given that tanking builds should really only be played in larger parties with other damage-dealers, it's a pretty safe assumption that you have two allies who can make significantly better use of it than you.",
+						"picks": [
+							{
+								"id": "083",
+								"comment": "The best choice for any tank is generall healing."
+							},
+							{
+								"id": "092",
+								"comment": "Refreshing armour and shield should give a similar amount of healing as the Healing Potion, with the added flexibility of getting extra Jump instead, at the cost of not removing conditions."
+							},
+							{
+								"id": "097",
+								"comment": "The Explosive Vial can finish off damaged enemies and/or deal with pesky shielded enemies. And you'll regularly be on the front lines in a position to use it in a timely and convenient manner."
+							},
+							{
+								"id": "084",
+								"comment": "The Stamina Potion isn't anything exceptional but it will always provide an extra turn each scenario by using it when you have an odd hand size and let you repeat one of your more powerful level 1 cards, which is an acceptable impact."
+							},
+							{
+								"id": "093",
+								"comment": "This might be a bit of personal bias, but even for a tank, I'm always happy to have the Glancing Potion to ensure one of my rarer attacks doesn't whiff on a key target."
+							},
+							{
+								"id": "089",
+								"comment": "If you're really trying to go all-in on defence, the Stoneskin Potion (089) is acceptable. Ward has negative synergy with your persistent Shield, meaning this will likely represent more like two hits points than three regularly. Of course, being able to use this when you most need it against one of the many heavy-hitting enemies in Frosthaven can help keep your life total high, which is important for a tank to remain effective."
+							}
+						]
+					},
+					{
+						"numherbs": "3",
+						"comment": "Beyond these, a couple of your 2-herb potions can still be worth keeping around if you already have them and are short on herbs, namely the Renewing Potion, which scales very well with item upgrades, and the Healing Potion, because more healing is always welcome and it's another source of condition-cleansing.",
+						"picks": [
+							{
+								"id": "099",
+								"comment": "Much like its smaller cousin, the Major Healing Potion is going to be your best 3-herb potion."
+							},
+							{
+								"id": "118",
+								"comment": "The Fulminant Flask is just so good. The jump from two to four damage between the Explosive Vial and this has a profound effect and you'll always be well-placed to use this."
+							},
+							{
+								"id": "100",
+								"comment": "Abuse it. Nerf it. The Major Stamina Potion arrives all the same. It's still very good and especially being able to repeat Hold the Line is a really big deal. Do note that you can't recover Hold the Line the round in which you play it (unlike normal Stamina Potion shenanigans) for obvious reasons, so the turn sequence is more like Hold the Line on turns 1 and 3 of a room."
+							},
+							{
+								"id": "106",
+								"comment": "While the Stoneskin Potion was a bit unimpressive, the Stonewall Potion is much, much better. As a tank, your job is keeping your party alive. It's not realistic to think every attack will be on you, and having an extra layer of protection on your allies (or better yet, their summons) for when they do get attacked is great. This will pretty much represent the same amount of effective hit points gained as the Major Healing Potion, only spread across three figures (which is generally a bit of a downside) but with added safety (assurance against a damage spike leading to a pitched card - which is obvious upside)."
+							},
+							{
+								"id": "105",
+								"comment": "The Fireshield Potion wasn't even worth mentioning, but the jump from Retaliate 1 to Retaliate 2 is a really big deal, making the Major Fireshield Potion absolutely worthwhile if you'd like to add some offensive power to your tanking. The choice between this and Stonewall is really going to come down to whether your party needs more protection or damage."
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

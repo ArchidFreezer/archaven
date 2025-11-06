@@ -4597,7 +4597,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							},
 							"replace": "blackbarrage",
@@ -4667,7 +4667,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							}
 						},
@@ -4824,7 +4824,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							}
 						},
@@ -4966,7 +4966,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							}
 						},
@@ -5149,7 +5149,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							}
 						},
@@ -5332,7 +5332,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							}
 						},
@@ -5539,7 +5539,7 @@
 								"style": "w3-pale-blue"
 							},
 							"bottom": {
-								"text": "Shadow move",
+								"text": "Shadow generation",
 								"style": "w3-pale-green"
 							}
 						},

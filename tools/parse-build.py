@@ -338,8 +338,15 @@ def html_full_deck(level):
 				<div class="w3-container">
 					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
 	''')
+	jcards=jmespath.search(f"levels[?level==`{level}`].hand[].card", jbuild)
+#	print(jcards)
 	for card in full_deck:
-		hf.write(f'''						<div class="w3-container w3-cell"><img class="card-med" src="{cardimages[card]}"></div>''')
+		
+		if card in jcards:
+			bg="w3-pale-grey"
+		else:
+			bg="w3-khaki"
+		hf.write(f'''						<div class="w3-container w3-cell {bg}"><img class="card-med" src="{cardimages[card]}"></div>''')
 		
 	hf.write(f'''
 					</div>

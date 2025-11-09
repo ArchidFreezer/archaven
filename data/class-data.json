@@ -362,7 +362,69 @@
 				"Given the nature of the cards and the variance in their actions there is no single deck that will be used at each level. The deck needs to be tailored for each scenario, this is common for several classes but particularly pronounced for the Geminate. There are some basic principles that should be followed<ul><li>You always need to have 7 cards in each hand at the start of a scenario</li><li>You should have at least a couple of form switching actions in each hand</li><li>On levelling up try and balance the cards you take so you don't become too lopsided</li><li>You have a very large hand size so burning cards is expected and most xp is attached to burns so don't horde these cards</li></ul>",
 				"In general the two halves of your nature have the following characteristics over and above the shared damage/movement actions<ul><li>Melee - Uses <em>Ice</em> & <em>Light</em><br>Has tanking actions</li><li>Ranged - Uses <em>Fire</em> & <em>Light</em><br>Has support actions</li></ul>"
 			],
-			"handsize": "14"
+			"handsize": "14",
+			"perks": [
+				{
+					"id": "shove",
+					"name": "Shove",
+					"effect": "Add 2x +1 <i>Push 3</i>"
+				},
+				{
+					"id": "savage",
+					"name": "Savage",
+					"effect": "Add x2, <i>Brittle</i> self"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "fester",
+					"name": "Fester",
+					"effect": "Replace +0 with +1 <i>Poison</i>"
+				},
+				{
+					"id": "gouge",
+					"name": "Gouge",
+					"effect": "Replace +0 with +1 <i>Wound</i>"
+				},
+				{
+					"id": "sting",
+					"name": "Sting",
+					"effect": "Replace 2x +0 with 2x rolling <i>Pierce 3</i>"
+				},
+				{
+					"id": "preserve",
+					"name": "Preserve",
+					"effect": "Add rolling +1 <i>Regen</i>."
+				},
+				{
+					"id": "immunity",
+					"name": "Immunity",
+					"effect": "Ignore quest effects"
+				},
+				{
+					"id": "unstableequilibrium",
+					"name": "Unstable Equilibrium",
+					"effect": "[2 Perk] On burn card, discard one card to refresh another of equal or lower level"
+				},
+				{
+					"id": "transmutation",
+					"name": "Transmutation",
+					"effect": "Replace -1 with +0 swap any element"
+				},
+				{
+					"id": "revitalisingswarm",
+					"name": "Revitalising Swarm",
+					"effect": "On short rest, remove negative condition from ally, range 3"
+				},
+				{
+					"id": "acquiredresistance",
+					"name": "Acquired Resistance",
+					"effect": "Once per quest, prevent negative condition"
+				}
+			]
 		},
 		{
 			"id": "hv",

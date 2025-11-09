@@ -93,6 +93,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('geDrop')">Geminate <i class="fa fa-caret-down"></i></button>
     <div id="geDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="ge-main.html" class="w3-bar-item w3-button">Overview</a>
+			<a href="ge-striker.html" class="w3-bar-item w3-button">Striker</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

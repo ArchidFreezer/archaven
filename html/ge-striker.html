@@ -1,0 +1,2787 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geminate Striker</title>
+	<!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+	<button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+	<h1 class="w3-display-middle">Geminate Striker</h1>		
+	<button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+	
+	<!-- Overview -->
+	<button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+	<div id="acc-overview" class="w3-container w3-hide">
+		<p>This build is for a striker archetype whose main focus is on actions that cause damage to enemies as opposed to defensive or support actions, though there will be some of these actions in our deck due the spread of action types amongst the available cards.</p>	<p>It should also be noted that due to the large hand size you should expect to burn cards to take hits for other characters as you have a huge amount of stamina so you can off-tank no matter what your archetype is.</p>
+		<p>So why would you play a Striker Build?</p>
+		<ul>
+			<li>Can output significant damage.</li>
+			<li>Has some CC actions.</li>
+			<li>Hand size allows it to off-tank at times.</li>
+		</ul>
+		
+		<p>The Striker build loves the following:</p>
+		<ul>
+			<li>Complex mechanics so needs a player happy to think multiple moves ahead.</li>
+			<li>Needs another melee character to off-tank at least.</li>
+		</ul>
+		
+	</div> <!-- overview -->
+	
+	<!-- Build Decks -->
+	<div class="w3-container">
+		<h2 id="deck">Build Deck</h2>
+	
+		<button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+		<div id="acc-1" class="w3-container w3-hide">
+		
+			<button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+			<div id="acc-1-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Two attack 2's is nice, but obviously shield and retaliate make this something you won't want to be using. You want to be using this against poisoned enemies to really make it effective.</p>
+							<hr>
+							<p>Persistent loss that shuffles a <em>Bless</em> into your deck and switches form, but it allows you to convert any element into either <em>Fire</em> or <em>Light</em> at the end of your turn setting you up for the next round.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The initiative is fairly mediocre and not something you will want to rely on.<p>The bottom element manipulation is fairly strong as you have no reliable way to generate elements on your own and <em>Fire</em> is used for your ranged attacks to power them up. It can also be used to steal an element that an enemy will want for power up its attacks, such as <em>Ice</em> for enemy <em>Brittle</em> attacks. The action gets more powerful as we level up and get more ranged attacks that we can power up.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>AoE attack with  <em>Immobilise</em> and switch form.</p>
+							<hr>
+							<p>Jump 4 with <em>Disarm</em> 2 is a great action that even though it is a loss, it doesn't need an element to power it up so is always available.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>his is a good attack allowing to lay down some CC on a couple of enemies and then switching form to ranged now that we know they are going to stay where they are so we can position a ranged AoE next round. The bottom is also something we are happy to p[lay later in the scenario as we can afford multiple losses, though we would be burning a form switch card.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This is a situational attack as you are not going to be get the enemies lining up that easily for this, but when they do it is a great action if you can boost it with <em>Light</em>.</p>
+							<hr>
+							<p>Jump 3, switch form is a great action on a late card to allow positioning for a next round ranged turn.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The 72 initiative is late enough that you should be able to go after most monsters so with this bottom you can perform a melee attack with your other card and get into position for your ranged form next turn so this turns into a card that you will want to take to every scenario and only play the top loss towards the end of the scenario.<p>Unless you can guarantee that you will kill an enemy with your other card and still be in a good position for a ranged attack next turn it should not be used as a mechanism to close on an enemy for your melee attack.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top loss is something that you can use when you are trying for your mastery, but outside that you should be able to manage your form switching without this loss.</p>
+							<hr>
+							<p>One of only 2 loot cards at level 1, but a bottom loot is never that great, though the pure damage prior may help take down an enemy, but it is unlikely that you will know that there is a 1hp enemy prior to selecting the card and also hits allies.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Not a great card outside of when you are trying to gain your form switching mastery.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Ranged AoE attack 3 that should allow you to hit 2 targets at least and if powered up it's an attack 4. It is a loss, but one we would expect to use every scenario when it lines up.</p>
+							<hr>
+							<p>Solid move 4, what's not to like.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Another core card that we would expect to bring for every scenario early on and also into later levels. The initiative is fairly late, but not something you know will go after enemies.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The AoE is very difficult to pull off and you are likely to be hitting your allies.</p>
+							<hr>
+							<p>The bottom is also something is likely to be hitting allies as well, though potentially less often.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The initiative is great, but both actions are very situational with the bottom having use against Living Spirits or Flame Demons, but there are other options for those as well and in a party of 4 you are likely to be adding a negative status to your allies as well.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This is one of our few ranged attacks that does not have a precision element and is <em>Muddle</em> all creatures in range 2, including allies plus gaining <em>Ice</em>.</p>
+							<hr>
+							<p>The move is OK, but in ranged form we don't really want to be moving up to enemies and consuming an element that is difficult for us to gain just for wound.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The late initiative is something we can work with. The card is somewhat situational but for enemies like the Electric Eels and Ice Imps it can be good to try and limit their annoying attacks.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top loss is OK allowing us to swap an element for <em>Ice</em> or <em>Light</em>, but the <em>Ice</em> is more useful for other buiilds and this is not necessarily something we want to be doing as it would mean giving up the bottom, which is immense for us.</p>
+							<hr>
+							<p>Move 2, self-heal is a great action for us to cleanse some of the conditions we self-impose with our top attacks.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The bottom of this card is really great for us cleansing the conditions we add to ourself during some of our attacks. We will want this card every scenario as many of our heals are ally only or tied to losses.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This loss is very strong for damage, especially on ranged attacks so we really want to switch form after setting this up as it will trigger on any attack and we don't want to waste it on melee.</p>
+							<hr>
+							<p>A good tanking card, especially if can power it up. The initiative is good enough that we should get this up before enemy attacks most turns and it's not a loss. It is one of our few xp gains on a non-loss card.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a very easy pick for any build with the low initiative, spammable bottom and very powerful top when the moment is right.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top is a really good AoE attack that has <em>Pierce</em> 3 and <em>Poison</em>, which will cut through enemies at lower levels and even be very effective later on.<p>It has a switch to ranged form so you will want to make sure you can get into position for that but those attacks tend to also be AoE so you will hopefully be able to target the enemies you just poisoned.</p>
+							<hr>
+							<p>A move 3 with disadvantage on a melee card usually pays off fairly well and the initiative should get you in position before most enemies can attack.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The 23 initiative isn't great, but should be good enough for most cases and both the top and bottom actions are useful. If you can get the top to line up and have cards for a follow up ranged round then it can be very powerful, but until that point the bottom is something you will be happy to use all day.<p>The top is better in higher player counts as you have a better chance of having more monsters to target.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Even without <em>Ice</em> attack 5 with <em>Pierce</em> and an xp is a strong action and one of your largest punches until later levels.</p>
+							<hr>
+							<p>Works well because it sets up the defensive action before most enemies will have their go.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The 14 initiative alone means that we will want this card in our hand.<p>Both halves are good for shielded enemies and as powerful as the top is we may not want to play it immediately in a scenario as it means we lose access to the initiative and the bottom. We will however want to fire this top off at some point in every scenario.</p><p>At worst this is a move 2, initiative 14, which is also great.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This is a great top that allows us to attack at range and then pull the enemy into us ready for a melee attack next round when we switch form.</p>
+							<hr>
+							<p>A big self-heal and <em>Regen</em> loss with the chance of <em>Strengthen</em> if it is powered up.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a very strong top attack that we would like to pair with a late initiative bottom to go move late attack and set up the enemy for a fast melee round next turn. We will want to bring this card to every scenario.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Against strictly melee enemies this can be quite strong or against low health shielded enemies if you can power it up to give 2 pure damage. This is a very conditional top, but does have its uses.</p>
+							<hr>
+							<p>Bottom attack with form switch. We always like bottom attacks and you can get some real damage out of this when paired with some other top attacks. The problem is that you will be out of position for your next melee round.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is our lowest ranged initiative and for that alone is worth bringing along. The top is very conditional and the bottom isn't great, but is usable and a fast Move 2 is fine with us in any case.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>An attack 2 is the default, but giving yourself <em>Wound</em> to add <em>Disarrm</em> and taking <em>Poison</em> to add an additional +2 really makes this action shine. You can pop the Amulet of Life or a self-heal action, which we have, to instantly remove the conditions.</p>
+							<hr>
+							<p>An attack 4 on the bottom is always a great action and if you have one of the elements it will <em>Stun</em> the enemy. There are much fewer opportunities to stun enemies in Frosthaven than Gloomhaven so even though this is a loss it has its place and is a source of xp that we want.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Another ok initiative, but both actions on the card are strong if you can power them up. The top becomes a reusable attack 4, <em>Disarm</em> which is immense for a level 1 card and the bottom is great for large health pool enemies. This is another great card that we will be happy to bring along.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Top loot actions are ones that we can get behind as looting is much more important in Frosthaven and the add the addition of <em>Regen</em> makes this a great between rooms or after a round that we poison ourselves.</p>
+							<hr>
+							<p>The bottom here has some utility as it allows you to use short rests to change form and you can ensure that you are losing a card from the deck you want rather than potentially making your hands lopsided.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is almost the mirror of Feeding Frenzy and is far better for it. Given the requirement for looting you will want to be bringing this top, but in high-tempo scenarios where you don't want to be wasting a turn long resting the bottom comes into play, though that is likely more situational. If you are aiming for a mastery it is a useful action to have in your toolkit.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This typically a couple of attack 2s, which isn't great, but it does have a small push in there as well.</p>
+							<hr>
+							<p>This is a good tanking action where for your next 4 turns you get shields, 2 for melee and 1 for ranged. We would really like to be in melee form when this is triggered so pairing it with a form switch top attack is likely the best action.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card is fairly conditional and of more use in some builds than others,. For the striker it is not a card we would look to bring to every scenario with its fairly weak top attack and conditionally useful bottom.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Heal 3, Range 3 is decent for level 1, but it can only target an ally which is a significant limitation. If it is powered up with <em>Fire</em> it also applies <em>Regen</em> and gives an xp which adds real value. This is one of the few non-burn xp generators we have.</p>
+							<hr>
+							<p>Move 3 switch form is a decent action allowing us to attack then get into place for our next round of melee.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Initiative 27 isn't great, but we are happy to have it on a ranged card. The top has its place, especially if we can power it up as it can help clear status effects from our melee allies. It is not necessarily a staple card for every scenario or group.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top is a basic attack 2 at range 4/5 which is weak, you can muddle yourself, which comes in before the attack to add 2 more and curse yourself to add a target. This turns it into two attack 4, though with some real downsides. You can do healing or something defensive the next round to waste the muddle, but the curse stays.</p>
+							<hr>
+							<p>The bottom looks like it is good as you get to <em>Immobilise</em> a couple of enemies and then jump out, but it means that the enemies need to be next to you in the first place which isn't something would be wanting to happen in ranged form.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The top has it's uses if used with care, but the bottom isn't likely to see much use, especially as a loss.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<p></p>
+			</div> <!-- new level 1 cards -->
+	
+			<button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+			<div id="acc-1-choices" class="w3-container w3-hide">
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Form Shifting</h3>
+					<p>We need at least 2 of these in each hand to switch forms outside long resting</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+							<div class="w3-container">The jump action this is tied to is something we are happy to play at any point</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+							<div class="w3-container">Another action we are happy to play multiple times in a scenario</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+							<div class="w3-container">This switch is perfect for the action pulling enemies into melee range and then switching</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+							<div class="w3-container">Another move and switch</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+							<div class="w3-container">The bottom ranged attack and switch is harder to use the switch for</div>
+						</div>
+				
+					</div>
+				</div>
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Situational</h3>
+					<p>These are cards that that we will want to bring along, but potentially save until we can get solid use out of them</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+							<div class="w3-container">The top attack boost is almost mandatory at some point in the scenario</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+							<div class="w3-container">This is such a powerful top if we power it up</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+							<div class="w3-container">Big single-target attack</div>
+						</div>
+				
+						<div class="w3-card-4" style="width:250px">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+							<div class="w3-container">Both the bottom move and the AoE attack are strong</div>
+						</div>
+				
+					</div>
+				</div>
+			</div> <!-- choices -->
+		
+			<button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+			<div id="acc-1-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+								<p class="w3-pale-blue">Attack, pot. <em>Adv.</em></p>
+								<p class="w3-pale-green">Move 3, <em>Jump</em>, [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-pale-green">AoE attack [S]</p>
+								<p class="w3-pale-blue">Jump 4, <emn>Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png">
+								<p class="w3-pale-blue">Ranged attack 2/4</p>
+								<p class="w3-pale-blue"><em>Immob.</em>, Jump 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 1 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png">
+								<p class="w3-pale-blue">[S] on enemy kill</p>
+								<p class="w3-pale-green">Loot</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need multiple loots for a scenario goal</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png">
+								<p class="w3-pale-red">ranged Aoe</p>
+								<p class="w3-pale-blue"><em>Wound</em> AoE</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need fast initaitive or shielded enemies</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 1 hand -->
+			
+	
+			<button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+			<div id="acc-1-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 1 deck -->
+	
+		</div> <!-- level 1 -->
+		
+		<button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+		<div id="acc-2" class="w3-container w3-hide">
+		
+			<button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+			<div id="acc-2-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-locust-host.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top has a fairly large AoE pattern with enemies at range 2/3 being hit. Cursing yourself allows it to increase the potential template area and could add a more targets plus it gives 2 xp.</p>
+							<hr>
+							<p>Move 1 that pushes all enemies that are at range 2 away one space.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card is fairly situational, though in the right place it can work well.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This can turn into retaliate 3, range 3 which is a massive effect and the xp every time it fires is something we like. You need to be sure that the enemies will attack and not do one of their heal/shield type actions, but if it works out is can make a huge dent in a room.</p>
+							<hr>
+							<p>Fast bottom attack with <em>Poison</em> is a great action to pair with a multi-attack top action.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>Initiative 17 is great on this card. The problem with the top is that you need some form of shields before you play it as otherwise you are likely to end up burning cards to stay alive. The bottom however is something we can spam all day.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Hornet Stingers if no shielded enemies</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 2 cards -->
+	
+			<button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+			<div id="acc-2-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+								<p class="w3-pale-blue">Attack, pot. <em>Adv.</em></p>
+								<p class="w3-pale-green">Move 3, <em>Jump</em>, [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-pale-green">AoE attack [S]</p>
+								<p class="w3-pale-blue">Jump 4, <emn>Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png">
+								<p class="w3-pale-blue">Ranged attack 2/4</p>
+								<p class="w3-pale-blue"><em>Immob.</em>, Jump 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 2 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 2 hand -->
+			
+	
+			<button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+			<div id="acc-2-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 2 deck -->
+	
+		</div> <!-- level 2 -->
+		
+		<button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+		<div id="acc-3" class="w3-container w3-hide">
+		
+			<button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+			<div id="acc-3-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>This is your biggest single target attack to date. It has a range of 4/5 so you need to position yourself well, but boosted it also grants <em>Advantage</em> and <em>Wound</em>. As a loss this is very much worth it.</p>
+							<hr>
+							<p>The bottom is an anti-shield boost with advantage, self-inflicting <em>Poison</em> and switching form.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The initiative is one of the worst you can get, but the top attack is huge when boosted with an element. The bottom is also something we can get behind, even if it is used solely for the advantage. You will want to pair this with a faster ranged attack.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mandible-storm.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The top has potentially several attack 3s with <em>Immobilise</em> and then you form swap. You do <em>Muddle</em> yourself which isn't great.</p>
+							<hr>
+							<p>Move 3, Shield 2/3 is a great card that would pair very well with Venomous Barbs that we probably took at level 2.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The 30 initiative is fine and the top can be used with a bottom move to provide some decent CC along with the attack.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This a simple attack upgrade</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 3 cards -->
+	
+			<button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+			<div id="acc-3-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+								<p class="w3-pale-blue">Attack, pot. <em>Adv.</em></p>
+								<p class="w3-pale-green">Move 3, <em>Jump</em>, [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-pale-green">AoE attack [S]</p>
+								<p class="w3-pale-blue">Jump 4, <emn>Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 3 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 3 hand -->
+			
+	
+			<button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+			<div id="acc-3-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 3 deck -->
+	
+		</div> <!-- level 3 -->
+		
+		<button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+		<div id="acc-4" class="w3-container w3-hide">
+		
+			<button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+			<div id="acc-4-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Big heal on an ally at range 3 with the possibility of adding an extra target and generating your core elements is a very powerful support action.</p>
+							<hr>
+							<p>Jump 5 and <em>Stun</em> 2 adjacent enemies whilst producing <em>Light</em> would be a really good action but it seems to expect us to be in melee form the next round to make use of this</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card has two good actions with a very strong non-loss top that provides significant support and a big loss jump on the bottom that provides significant CC where you land.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>The multi-attack top is such an easy action to use and you an pair it with a poison generating bottom for real damage. Obviously against retaliating enemies this is not what you want to be doing, but otherwise it is a really good loss. It also produces <em>Light</em> which we are never sorry to have.</p>
+							<hr>
+							<p>The bottom pulls enemies into melee range and if powered up does some pure damage on top. It has a long range and is powered can swap an element to one we like. It creates either <em>Fire</em> or <em>Ice</em> so is useful for both melee and ranged turns.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is an easy to use card that you will be happy to bring along with a top that we can trigger against poisoned enemies and a bottom that we can use until then.<p>There are items that can give you advantage and that is a real boost to this action as it applies to each attack.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We are swapping a big CC for more attacks.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 4 cards -->
+	
+			<button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+			<div id="acc-4-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+								<p class="w3-pale-blue">Attack, pot. <em>Adv.</em></p>
+								<p class="w3-pale-green">Move 3, <em>Jump</em>, [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-pale-green">AoE attack [S]</p>
+								<p class="w3-pale-blue">Jump 4, <emn>Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 4 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">There are powerful enemies we need to disarm</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 4 hand -->
+			
+	
+			<button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+			<div id="acc-4-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 4 deck -->
+	
+		</div> <!-- level 4 -->
+		
+		<button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+		<div id="acc-5" class="w3-container w3-hide">
+		
+			<button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+			<div id="acc-5-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-chitinous-horde.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Give a shield to an ally at range 3 and potentially give yourself <em>strengthen</em>.</p>
+							<hr>
+							<p>This targets allies for damage to create <em>Ice</em> or <em>Light</em> switch form.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card has great initiative and the top is a decent support card and the self-buff is good if you power it up. Alone neither of these seems like they are worth a level 5 action, but together they add up to a decent action.<p>The bottom is the mirror of Formless Grace top but is less useful as you need an adjacent ally who is willing to take damage in order to create the element.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-formless-grace.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>One time heal all adjacent allies, persistent loss to take 2 damage to create <em>Fire</em> or <em>Light</em> switch form.</p>
+							<hr>
+							<p>Jump 4, potentially gaining <em>Ward</em>.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This has two good actions with a good late initiative. The top can be very good for creating <em>Fire</em> to power your ranged attacks.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+								<p class="w3-pale-blue">Heal ally, Elements(?)</p>
+								<p class="w3-pale-blue"><em>Jump 5, Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We go back for the bottom Jump and Stun.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 5 cards -->
+	
+			<button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+			<div id="acc-5-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+								<p class="w3-pale-blue">Attack, pot. <em>Adv.</em></p>
+								<p class="w3-pale-green">Move 3, <em>Jump</em>, [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-pale-green">AoE attack [S]</p>
+								<p class="w3-pale-blue">Jump 4, <emn>Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+								<p class="w3-pale-blue">Heal ally, Elements(?)</p>
+								<p class="w3-pale-blue"><em>Jump 5, Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 5 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">There are powerful enemies we need to disarm</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need a loot card</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 5 hand -->
+			
+	
+			<button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+			<div id="acc-5-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 5 deck -->
+	
+		</div> <!-- level 5 -->
+		
+		<button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+		<div id="acc-6" class="w3-container w3-hide">
+		
+			<button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+			<div id="acc-6-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Melee AoE with 2 attack where you can take <em>Brittle</em> to dish it out and <em>Impair</em> to dish out <em>Poison</em>.</p>
+							<hr>
+							<p>Reducing the shields of all adjacent enemies is powerful but risky as you will be in ranged form.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>It is risky self-inflicting <em>Brittle</em>, but if your allies can hit the targets as well, they can melt them with both <em>Poison</em> and <em>Brittle</em> applied.<p>The bottom is similar to granting pierce to all attacks on each character adjacent to you which can be a great action to add to a move, though the form switch is less good for this as you don't want to be in melee form adjacent to enemies so you will want to ensure you can kill theme with your paired top.</p></p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hirudotherapy.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>2 pure damage to 2 enemies at range 2 that is transferred as health is a nice top action and can be combined with <em>Brittle</em> to create even more, but that is not easy to pull off, switching form.</p>
+							<hr>
+							<p>Move 3 and attack an enemy at range 3/4 is a fine action and you can add <em>Immobilise</em> to yourself to add the same condition to the enemy and <em>Curse</em> yourself to add a target.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a very reliable late initiative and both top and bottom are playable.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png">
+								<p class="w3-pale-green">AoE <em>Brittle, Poison</em></p>
+								<p class="w3-pale-blue">Move, shield debuff [S]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We are adding a more powerful top and retaining a form swap.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 6 cards -->
+	
+			<button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+			<div id="acc-6-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png">
+								<p class="w3-pale-green">AoE <em>Brittle, Poison</em></p>
+								<p class="w3-pale-blue">Move, shield debuff [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-pale-green">AoE attack [S]</p>
+								<p class="w3-pale-blue">Jump 4, <emn>Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+								<p class="w3-pale-blue">Heal ally, Elements(?)</p>
+								<p class="w3-pale-blue"><em>Jump 5, Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 6 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">There are powerful enemies we need to disarm</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need a loot card</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 6 hand -->
+			
+	
+			<button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+			<div id="acc-6-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 6 deck -->
+	
+		</div> <!-- level 6 -->
+		
+		<button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+		<div id="acc-7" class="w3-container w3-hide">
+		
+			<button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+			<div id="acc-7-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-alluring-pheromones.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Ranged attack 3 AoE at range 4/5 that pulls the targets. You are likely to be able to hit 2 enemies with this in 4 party groups. It also gives the chance to create both <em>Fire</em> and <em>Light></em> by consuming another element.</p>
+							<hr>
+							<p>The bottom is a really big support boost loss, giving a heal, <em>Bless</em>, <em>Regen</em> and potentially <em>Strengthen</em> and a second <em>Bless</em> to allies in a cone next to you.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The initiative is awful so you will want to pair it with something else. The top is a decent attack with the pull being of use sometimes if there is hazardous terrain of traps. The bottom is a really big ally boost for support builds.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>A solid attack 4 with the added bonus of a shield and the chance to create both <em>Ice</em> and <em>Light></em> by consuming another element. This is a decent melee attack that is slightly below the curve at level 7, but the element generation is very good allowing us to power up our next melee action. The initiative is good for the shield but not great as there are several enemies that can go before this.</p>
+							<hr>
+							<p>This is a great action, push and giving the enemies <em>Brittle</em> is great action, if we consume elements we can also add <em>Immobilise</em> and <em>Disarm</em> which turns this into something that can turn rooms.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The initiative is good, not great, but we have 2 actions that we like, a spammable top and a very powerful loss on the bottom.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png">
+								<p class="w3-pale-blue">Attack 4 <em>Shield</em></p>
+								<p class="w3-pale-blue">AoE <em>Brittle, Push, Disarm</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We are swapping the powerful bottom for another better one.</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 7 cards -->
+	
+			<button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+			<div id="acc-7-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png">
+								<p class="w3-pale-green">AoE <em>Brittle, Poison</em></p>
+								<p class="w3-pale-blue">Move, shield debuff [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png">
+								<p class="w3-pale-blue">Attack 4 <em>Shield</em></p>
+								<p class="w3-pale-blue">AoE <em>Brittle, Push, Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-pale-blue">AoE attack 3/4</p>
+								<p class="w3-pale-green">Move 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+								<p class="w3-pale-blue">Heal ally, Elements(?)</p>
+								<p class="w3-pale-blue"><em>Jump 5, Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 7 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">There are powerful enemies we need to disarm</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need a loot card</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 7 hand -->
+			
+	
+			<button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+			<div id="acc-7-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 7 deck -->
+	
+		</div> <!-- level 7 -->
+		
+		<button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+		<div id="acc-8" class="w3-container w3-hide">
+		
+			<button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+			<div id="acc-8-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-accelerated-metabolism.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p><em>Strengthen</em> yourself using an element and then do a multi-target attack 3 with <em>Pierce 3</em> is a decent action as the <em>Strengthen</em> also applies to the next round. An attack 6 at level 8 is fairly weak, but if the enemy is shielded it turns into an attack 12, which is much better especially with the buff.</p>
+							<hr>
+							<p>The bottom is a loss that gives a one-time movement and tempo boost allowing you to use an extra melee card next round after swapping to ranged form.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This a good late initiative that allows you to burn down the annoying high shield enemies. The bottom is a nice situational effect when you come up against a boss or other high health enemy. The problem is that you are now in ranged form and unlikely to want to be in melee range so you would need to use the melee card and then move away to use the ranged action.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-oscillating-entity.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Ranged attack 4 then swap to melee with the ability to use a ranged card after you have swapped next turn. This is actually better that the AM version as you can do you ranged attack next turn and then move into melee range and do your melee actions which works better.</p>
+							<hr>
+							<p>Move 4, <em>Bless</em> and potentially <em>Strengthen</em> yourself is a great action you will be happy to use.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This is a mirror of AM with the loss on top this time, but with a much worse initiative. The actions however are better. The top allows plays like Dragonfly Surge bottom to <em>Strengthen</em> yourself and apply <em>Pierce</em> followed by Venomous Barbs bottom and Thresh and Flail on top for a huge damage burst.</p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-oscillating-entity.png">
+								<p class="w3-pale-blue">Attack 4, extra card [S]</p>
+								<p class="w3-pale-green">Move 4 <em>Bless, Strengthen</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The move and bless are a bottom upgrade</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 8 cards -->
+	
+			<button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+			<div id="acc-8-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png">
+								<p class="w3-pale-green">AoE <em>Brittle, Poison</em></p>
+								<p class="w3-pale-blue">Move, shield debuff [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png">
+								<p class="w3-pale-blue">Attack 4 <em>Shield</em></p>
+								<p class="w3-pale-blue">AoE <em>Brittle, Push, Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-oscillating-entity.png">
+								<p class="w3-pale-blue">Attack 4, extra card [S]</p>
+								<p class="w3-pale-green">Move 4 <em>Bless, Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+								<p class="w3-pale-blue">Heal ally, Elements(?)</p>
+								<p class="w3-pale-blue"><em>Jump 5, Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 8 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">There are powerful enemies we need to disarm</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need a loot card</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 8 hand -->
+			
+	
+			<button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+			<div id="acc-8-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-oscillating-entity.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 8 deck -->
+	
+		</div> <!-- level 8 -->
+		
+		<button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+		<div id="acc-9" class="w3-container w3-hide">
+		
+			<button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+			<div id="acc-9-new" class="w3-container w3-hide">
+				<h3 class="w3-light-grey">New Cards</h3>
+				<div class="w3-flex" style="gap:4px;flex-direction:column">
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harbinger-of-ruin.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Persistent loss that acts as a huge retaliate of 5 for the next 4 melee attacks against you, gaining <em>Ward</em> which then reduces the damage you take is a really powerful, if transient effect. You need to be careful when you use this as you don't want to waste it on lower health or difficulty enemies.</p>
+							<hr>
+							<p>Another bottom attack, which is always welcome that adds <em>Immobilise</em> as CC plus <em>Retaliate</em> 2 for a round.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>This card has a great initiative of 11 that means we can set up the retaliate before enemies should be attacking. For tanking this is the sort of effect we are looking for, the top dishes out significant pure damage along with reducing the damage we take and whilst we are waiting for the opportunity to use that we can dish out damage with an attack and with retaliate.</p>
+						</div>
+					</div>
+	
+					<div class="w3-card-4">
+						<div class="w3-container w3-cell">
+							<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-voice-of-salvation.png">
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle">
+							<p>Huge range 3 aura buffing allied attacks and debuffing enemies for a round is a great action to play, obviously on a ranged card this may be slightly less effective depending on positioning.</p>
+							<hr>
+							<p>The bottom allows another ally to do some tanking where they don't have to lose cards to hits 4 times.</p>
+						</div>
+						<div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+							<p>The top can swing a round significantly, especially at higher party numbers and if there are summons out then this can be huge.<p>The bottom can also have a significant impact as you lose 1 card to allow 4 other cards be retained on allies.</p></p>
+						</div>
+					</div>
+	
+				</div> <!-- new cards -->
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Picks</h3>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-harbinger-of-ruin.png">
+								<p class="w3-pale-blue">Pure damage when attacked</p>
+								<p class="w3-pale-green">Attack 4 <em>retaliate</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Both top and bottom are simlar, though the top has no range</div>
+						</div>
+	
+					</div>
+				</div> <!-- new picks -->
+				<p></p>
+			</div> <!-- new level 9 cards -->
+	
+			<button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+			<div id="acc-9-hand" class="w3-container w3-hide">
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Standard Hand</h3>
+					<p></p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+		
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png">
+								<p class="w3-pale-green">AoE <em>Brittle, Poison</em></p>
+								<p class="w3-pale-blue">Move, shield debuff [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png">
+								<p class="w3-pale-blue">Attack 4 <em>Shield</em></p>
+								<p class="w3-pale-blue">AoE <em>Brittle, Push, Disarm</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harbinger-of-ruin.png">
+								<p class="w3-pale-blue">Pure damage when attacked</p>
+								<p class="w3-pale-green">Attack 4 <em>retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png">
+								<p class="w3-pale-blue">Power attacks</p>
+								<p class="w3-pale-green">Move 1 <em>Shield 1/2</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png">
+								<p class="w3-pale-blue">AoE <em>Pierce 3/Poison</em> [S]</p>
+								<p class="w3-pale-blue">Move 3, enemy disadv.</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png">
+								<p class="w3-pale-green">Attack 5/6 <em>Pierce 1/2</em></p>
+								<p class="w3-pale-blue"><em>Shield/Retaliate</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png">
+								<p class="w3-pale-green">Multi attack</p>
+								<p class="w3-pale-blue"><em>Pull</em> Range 4</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-oscillating-entity.png">
+								<p class="w3-pale-blue">Attack 4, extra card [S]</p>
+								<p class="w3-pale-green">Move 4 <em>Bless, Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png">
+								<p class="w3-pale-red">Element switch [S]</p>
+								<p class="w3-pale-green">Move 2, Heal</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png">
+								<p class="w3-pale-green">Ranged attack, Pull [S]</p>
+								<p class="w3-pale-blue">Heal, <em>Regen/Strengthen</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png">
+								<p class="w3-pale-blue">Ranged <em>Immob.</em></p>
+								<p class="w3-pale-green">Ranged attack [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png">
+								<p class="w3-pale-blue">Heal ally, Elements(?)</p>
+								<p class="w3-pale-blue"><em>Jump 5, Stun</em></p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png">
+								<p class="w3-pale-blue">Ally Heal, <em>Regen</em></p>
+								<p class="w3-pale-green">Move 3 [S]</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png">
+								<p class="w3-pale-blue">Big ranged loss</p>
+								<p class="w3-pale-green"><em>Adv. / Pierce</em> on attacks</p>
+							</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell">
+								<img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="">-</p>
+								<p class="">-</p>
+							</div>
+						</div>
+	
+					</div>
+				</div> <!-- standard level 9 cards -->
+		
+				<div class="w3-container">
+					<h3 class="w3-light-grey">Sideboard Cards</h3>
+					<p>These are cards that may be swapped in based on quest requirements</p>
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png">
+								<p class="w3-pale-blue">Attack <em>Disarm/Poison</em></p>
+								<p class="w3-pale-blue">Attack 4, <em>Stun</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">There are powerful enemies we need to disarm</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png">
+								<p class="w3-pale-green">Multi-attack</p>
+								<p class="w3-pale-red">Element swap</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">No shielded enemies</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png">
+								<p class="w3-pale-green">Loot, <em>Regen</em></p>
+								<p class="w3-pale-red">Short rest pick discard [S]</p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need a loot card</div>
+						</div>
+	
+						<div class="w3-card-4">
+							<div class="w3-container w3-cell card-med">
+								<header class="w3-light-grey"><p>Take</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png">
+								<p class="w3-pale-blue"><em>Retaliate 3, Range 3</em></p>
+								<p class="w3-pale-green">Attack 2, <em>Poison</em></p>
+							</div>
+							<div class="w3-container w3-cell">
+								<header class="w3-light-grey"><p>Replace</p></header>
+								<img class="card-small" src="images/frosthaven/character-ability-cards/ge/fh-ge-back.png">
+								<p class="w3-light-grey">-</p>
+								<p class="w3-light-grey">-</p>
+							</div>
+							<div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We want the top ranged retaliate</div>
+						</div>
+	
+					</div>
+				</div> <!-- sideboard cards -->
+			</div> <!-- level 9 hand -->
+			
+	
+			<button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+			<div id="acc-9-deck" class="w3-container w3-hide">
+				<div class="w3-container">
+					<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+							<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-changelings-boon.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-drag-down.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-draining-pincers.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-feeding-frenzy.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-firefly-swarm.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-flailing-tendrils.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hail-of-thorns.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harvest-the-essence.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornbeetle-carapace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-hornet-stingers.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-icebound-quills.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-into-my-embrace.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-mind-spike.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reckless-jab.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-reshape-the-guise.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-scarab-flight.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-selfless-offering.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-smoldering-hatred.png"></div>						<div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-venomous-barbs.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-dragonfly-surge.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-thresh-and-flail.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-luminous-descent.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-corrosive-acids.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-two-pronged-entrapment.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-oscillating-entity.png"></div>						<div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/frosthaven/character-ability-cards/ge/fh-harbinger-of-ruin.png"></div>
+					</div>
+				</div>
+			</div>  <!-- level 9 deck -->
+	
+		</div> <!-- level 9 -->
+		
+	</div> <!-- build deck -->
+	
+	<!-- Perks -->
+	<button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+	<div id="acc-perks" class="w3-container w3-hide">
+
+		<div class="w3-light-grey">We start with getting rid of our worst AMD card and then we take the element tramsmution followed by the standard AMD upgrades.</div>
+		<table class="w3-table w3-border">
+			<tr><td width="250px">Intensify</td><td>Replace -2 with +0</td></tr>
+			<tr><td width="250px">Transmutation</td><td>Replace -1 with +0 swap any element</td></tr>
+			<tr><td width="250px">Fester</td><td>Replace +0 with +1 <i>Poison</i></td></tr>
+			<tr><td width="250px">Gouge</td><td>Replace +0 with +1 <i>Wound</i></td></tr>
+			<tr><td width="250px">Immunity</td><td>Ignore quest effects</td></tr>
+			<tr><td width="250px">Savage</td><td>Add x2, <i>Brittle</i> self</td></tr>
+			<tr><td width="250px">Acquired Resistance</td><td>Once per quest, prevent negative condition</td></tr>
+			<tr><td width="250px">Preserve</td><td>Add rolling +1 <i>Regen</i>.</td></tr>
+			<tr><td width="250px">Sting</td><td>Replace 2x +0 with 2x rolling <i>Pierce 3</i></td></tr>
+			<tr><td width="250px">Shove</td><td>Add 2x +1 <i>Push 3</i></td></tr>
+			<tr><td width="250px">Revitalising Swarm</td><td>On short rest, remove negative condition from ally, range 3</td></tr>
+			<tr><td width="250px">Unstable Equilibrium</td><td>[2 Perk] On burn card, discard one card to refresh another of equal or lower level</td></tr>
+		</table><br>
+
+	</div> <!-- perks -->
+
+	<!-- Items -->
+	<button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+	<div id="acc-items" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey">The item recommendations are broken up into sections based on Craftsman levels.</div>
+	
+		<button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+		<div id="acc-items-starting" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>The recommended starting items are fine choices.<br>The Amulet of Life is important to cleanse ourselves of negative status effects that we apply to ourselves.</p></div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-120-amulet-of-life.png">
+					<p class="w3-container">We want this for the cleanse.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-123-leather-armor.png">
+					<p class="w3-container">We want some damage mitigation.</p>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- items -->
+		
+	<!-- Potions -->
+	<button id="potions" onclick="accClick('acc-potions')" class="w3-btn w3-block w3-left-align"><h2>Potions</h2></button>
+	<div id="acc-potions" class="w3-container w3-hide">
+		<div class="w3-container w3-light-grey">In general, your highest priority will be to get any potions that provide healing or defensive effects, followed by card or item recovery, and then lastly offensive effects.</div>
+	
+		<button id="items-2" onclick="accClick('acc-items-2')" class="w3-btn w3-block w3-left-align"><h4>2 Herb</h4></button>
+		<div id="acc-items-2" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>The Muscle Potion is certainly the strongest 2-herb potion in the abstract, but given that tanking builds should really only be played in larger parties with other damage-dealers, it's a pretty safe assumption that you have two allies who can make significantly better use of it than you.</p></div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-083-healing-potion.png">
+					<p class="w3-container">The best choice for any melee build is generally healing.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-092-renewing-potion.png">
+					<p class="w3-container">Refreshing armour and shield should give a similar amount of healing as the Healing Potion, with the added flexibility of getting extra Jump instead, at the cost of not removing conditions.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-097-explosive-vial.png">
+					<p class="w3-container">The Explosive Vial can finish off damaged enemies and/or deal with pesky shielded enemies. And you'll regularly be on the front lines in a position to use it in a timely and convenient manner.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-084-stamina-potion.png">
+					<p class="w3-container">The Stamina Potion isn't anything exceptional but it will always provide an extra turn each scenario by using it when you have an odd hand size and let you repeat one of your more powerful level 1 cards, which is an acceptable impact.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-093-glancing-potion.png">
+					<p class="w3-container">The Glancing Potion ensures one of my rarer attacks doesn't whiff on a key target.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-089-stoneskin-potion.png">
+					<p class="w3-container">If you're really trying to go all-in on defence, the Stoneskin Potion (089) is acceptable. Ward has negative synergy with your persistent Shield, meaning this will likely represent more like two hits points than three regularly. Of course, being able to use this when you most need it against one of the many heavy-hitting enemies in Frosthaven can help keep your life total high, which is important for a tank to remain effective.</p>
+				</div>
+				
+			</div>
+		</div>
+		<button id="items-3" onclick="accClick('acc-items-3')" class="w3-btn w3-block w3-left-align"><h4>3 Herb</h4></button>
+		<div id="acc-items-3" class="w3-container w3-hide">
+			<div class="w3-container w3-light-grey"><p>None</p></div>
+			<div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+			
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-099-major-healing-potion.png">
+					<p class="w3-container">Much like its smaller cousin, the Major Healing Potion is going to be your best 3-herb potion.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-118-fulminant-flask.png">
+					<p class="w3-container">The Fulminant Flask is just so good. The jump from two to four damage between the Explosive Vial and this has a profound effect and you'll always be well-placed to use this.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-100-major-stamina-potion.png">
+					<p class="w3-container">Abuse it. Nerf it. The Major Stamina Potion arrives all the same. It's still very good and especially being able to repeat Hold the Line is a really big deal. Do note that you can't recover Hold the Line the round in which you play it (unlike normal Stamina Potion shenanigans) for obvious reasons, so the turn sequence is more like Hold the Line on turns 1 and 3 of a room.</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-106-stonewall-potion.png">
+					<p class="w3-container">While the Stoneskin Potion was a bit unimpressive, the Stonewall Potion is much, much better. As a tank, your job is keeping your party alive. It's not realistic to think every attack will be on you, and having an extra layer of protection on your allies (or better yet, their summons) for when they do get attacked is great. This will pretty much represent the same amount of effective hit points gained as the Major Healing Potion, only spread across three figures (which is generally a bit of a downside) but with added safety (assurance against a damage spike leading to a pitched card - which is obvious upside).</p>
+				</div>
+				
+				<div class="w3-card-4" style="width:250px">
+					<img class="card-med" src="images/frosthaven/items/fh-105-major-fireshield-potion.png">
+					<p class="w3-container">The Fireshield Potion wasn't even worth mentioning, but the jump from Retaliate 1 to Retaliate 2 is a really big deal, making the Major Fireshield Potion absolutely worthwhile if you'd like to add some offensive power to your tanking. The choice between this and Stonewall is really going to come down to whether your party needs more protection or damage.</p>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- potions -->
+		
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+	<div style="font-size:0.8rem">Striker based on Rage Badger build (<a href="https://www.youtube.com/watch?v=O4A0DQlTqYg">https://www.youtube.com/watch?v=O4A0DQlTqYg</a>)</div>
+</footer>
+
+</body>
+</html>
+	

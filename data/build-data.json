@@ -32276,6 +32276,2491 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "ge-striker",
+			"classid": "ge",
+			"build": "Striker",
+			"orig_author": "Rage Badger",
+			"orig_url": "https://www.youtube.com/watch?v=O4A0DQlTqYg",
+			"overview": { 
+				"body": [
+					"This build is for a striker archetype whose main focus is on actions that cause damage to enemies as opposed to defensive or support actions, though there will be some of these actions in our deck due the spread of action types amongst the available cards.",
+					"It should also be noted that due to the large hand size you should expect to burn cards to take hits for other characters as you have a huge amount of stamina so you can off-tank no matter what your archetype is."
+				],
+				"benefits": [
+					"Can output significant damage.",
+					"Has some CC actions.",
+					"Hand size allows it to off-tank at times."
+				],
+				"preferences": [
+					"Complex mechanics so needs a player happy to think multiple moves ahead.",
+					"Needs another melee character to off-tank at least."
+				]
+			},
+			"cards": [
+				{
+					"id": "changelingsboon",
+					"top": "Two attack 2's is nice, but obviously shield and retaliate make this something you won't want to be using. You want to be using this against poisoned enemies to really make it effective.",
+					"bottom": "Persistent loss that shuffles a <em>Bless</em> into your deck and switches form, but it allows you to convert any element into either <em>Fire</em> or <em>Light</em> at the end of your turn setting you up for the next round.",
+					"overall": "The initiative is fairly mediocre and not something you will want to rely on.<p>The bottom element manipulation is fairly strong as you have no reliable way to generate elements on your own and <em>Fire</em> is used for your ranged attacks to power them up. It can also be used to steal an element that an enemy will want for power up its attacks, such as <em>Ice</em> for enemy <em>Brittle</em> attacks. The action gets more powerful as we level up and get more ranged attacks that we can power up."
+				},
+				{
+					"id": "dragdown",
+					"top": "AoE attack with  <em>Immobilise</em> and switch form.",
+					"bottom": "Jump 4 with <em>Disarm</em> 2 is a great action that even though it is a loss, it doesn't need an element to power it up so is always available.",
+					"overall": "his is a good attack allowing to lay down some CC on a couple of enemies and then switching form to ranged now that we know they are going to stay where they are so we can position a ranged AoE next round. The bottom is also something we are happy to p[lay later in the scenario as we can afford multiple losses, though we would be burning a form switch card."
+				},
+				{
+					"id": "drainingpincers",
+					"top": "This is a situational attack as you are not going to be get the enemies lining up that easily for this, but when they do it is a great action if you can boost it with <em>Light</em>.",
+					"bottom": "Jump 3, switch form is a great action on a late card to allow positioning for a next round ranged turn.",
+					"overall": "The 72 initiative is late enough that you should be able to go after most monsters so with this bottom you can perform a melee attack with your other card and get into position for your ranged form next turn so this turns into a card that you will want to take to every scenario and only play the top loss towards the end of the scenario.<p>Unless you can guarantee that you will kill an enemy with your other card and still be in a good position for a ranged attack next turn it should not be used as a mechanism to close on an enemy for your melee attack.</p>"
+				},
+				{
+					"id": "feedingfrenzy",
+					"top": "The top loss is something that you can use when you are trying for your mastery, but outside that you should be able to manage your form switching without this loss.",
+					"bottom": "One of only 2 loot cards at level 1, but a bottom loot is never that great, though the pure damage prior may help take down an enemy, but it is unlikely that you will know that there is a 1hp enemy prior to selecting the card and also hits allies.",
+					"overall": "Not a great card outside of when you are trying to gain your form switching mastery."
+				},
+				{
+					"id": "fireflyswarm",
+					"top": "Ranged AoE attack 3 that should allow you to hit 2 targets at least and if powered up it's an attack 4. It is a loss, but one we would expect to use every scenario when it lines up.",
+					"bottom": "Solid move 4, what's not to like.",
+					"overall": "Another core card that we would expect to bring for every scenario early on and also into later levels. The initiative is fairly late, but not something you know will go after enemies."
+				},
+				{
+					"id": "flailingtendrils",
+					"top": "The AoE is very difficult to pull off and you are likely to be hitting your allies.",
+					"bottom": "The bottom is also something is likely to be hitting allies as well, though potentially less often.",
+					"overall": "The initiative is great, but both actions are very situational with the bottom having use against Living Spirits or Flame Demons, but there are other options for those as well and in a party of 4 you are likely to be adding a negative status to your allies as well."
+				},
+				{
+					"id": "hailofthorns",
+					"top": "This is one of our few ranged attacks that does not have a precision element and is <em>Muddle</em> all creatures in range 2, including allies plus gaining <em>Ice</em>.",
+					"bottom": "The move is OK, but in ranged form we don't really want to be moving up to enemies and consuming an element that is difficult for us to gain just for wound.",
+					"overall": "The late initiative is something we can work with. The card is somewhat situational but for enemies like the Electric Eels and Ice Imps it can be good to try and limit their annoying attacks."
+				},
+				{
+					"id": "harvesttheessence",
+					"top": "The top loss is OK allowing us to swap an element for <em>Ice</em> or <em>Light</em>, but the <em>Ice</em> is more useful for other buiilds and this is not necessarily something we want to be doing as it would mean giving up the bottom, which is immense for us.",
+					"bottom": "Move 2, self-heal is a great action for us to cleanse some of the conditions we self-impose with our top attacks.",
+					"overall": "The bottom of this card is really great for us cleansing the conditions we add to ourself during some of our attacks. We will want this card every scenario as many of our heals are ally only or tied to losses."
+				},
+				{
+					"id": "hornbeetlecarapace",
+					"top": "This loss is very strong for damage, especially on ranged attacks so we really want to switch form after setting this up as it will trigger on any attack and we don't want to waste it on melee.",
+					"bottom": "A good tanking card, especially if can power it up. The initiative is good enough that we should get this up before enemy attacks most turns and it's not a loss. It is one of our few xp gains on a non-loss card.",
+					"overall": "This is a very easy pick for any build with the low initiative, spammable bottom and very powerful top when the moment is right."
+				},
+				{
+					"id": "hornetstingers",
+					"top": "The top is a really good AoE attack that has <em>Pierce</em> 3 and <em>Poison</em>, which will cut through enemies at lower levels and even be very effective later on.<p>It has a switch to ranged form so you will want to make sure you can get into position for that but those attacks tend to also be AoE so you will hopefully be able to target the enemies you just poisoned.",
+					"bottom": "A move 3 with disadvantage on a melee card usually pays off fairly well and the initiative should get you in position before most enemies can attack.",
+					"overall": "The 23 initiative isn't great, but should be good enough for most cases and both the top and bottom actions are useful. If you can get the top to line up and have cards for a follow up ranged round then it can be very powerful, but until that point the bottom is something you will be happy to use all day.<p>The top is better in higher player counts as you have a better chance of having more monsters to target.</p>"
+				},
+				{
+					"id": "iceboundquills",
+					"top": "Even without <em>Ice</em> attack 5 with <em>Pierce</em> and an xp is a strong action and one of your largest punches until later levels.",
+					"bottom": "Works well because it sets up the defensive action before most enemies will have their go.",
+					"overall": "The 14 initiative alone means that we will want this card in our hand.<p>Both halves are good for shielded enemies and as powerful as the top is we may not want to play it immediately in a scenario as it means we lose access to the initiative and the bottom. We will however want to fire this top off at some point in every scenario.</p><p>At worst this is a move 2, initiative 14, which is also great.</p>"
+				},
+				{
+					"id": "intomyembrace",
+					"top": "This is a great top that allows us to attack at range and then pull the enemy into us ready for a melee attack next round when we switch form.",
+					"bottom": "A big self-heal and <em>Regen</em> loss with the chance of <em>Strengthen</em> if it is powered up.",
+					"overall": "This is a very strong top attack that we would like to pair with a late initiative bottom to go move late attack and set up the enemy for a fast melee round next turn. We will want to bring this card to every scenario."
+				},
+				{
+					"id": "mindspike",
+					"top": "Against strictly melee enemies this can be quite strong or against low health shielded enemies if you can power it up to give 2 pure damage. This is a very conditional top, but does have its uses.",
+					"bottom": "Bottom attack with form switch. We always like bottom attacks and you can get some real damage out of this when paired with some other top attacks. The problem is that you will be out of position for your next melee round.",
+					"overall": "This is our lowest ranged initiative and for that alone is worth bringing along. The top is very conditional and the bottom isn't great, but is usable and a fast Move 2 is fine with us in any case."
+				},
+				{
+					"id": "recklessjab",
+					"top": "An attack 2 is the default, but giving yourself <em>Wound</em> to add <em>Disarrm</em> and taking <em>Poison</em> to add an additional +2 really makes this action shine. You can pop the Amulet of Life or a self-heal action, which we have, to instantly remove the conditions.",
+					"bottom": "An attack 4 on the bottom is always a great action and if you have one of the elements it will <em>Stun</em> the enemy. There are much fewer opportunities to stun enemies in Frosthaven than Gloomhaven so even though this is a loss it has its place and is a source of xp that we want.",
+					"overall": "Another ok initiative, but both actions on the card are strong if you can power them up. The top becomes a reusable attack 4, <em>Disarm</em> which is immense for a level 1 card and the bottom is great for large health pool enemies. This is another great card that we will be happy to bring along."
+				},
+				{
+					"id": "reshapetheguise",
+					"top": "Top loot actions are ones that we can get behind as looting is much more important in Frosthaven and the add the addition of <em>Regen</em> makes this a great between rooms or after a round that we poison ourselves.",
+					"bottom": "The bottom here has some utility as it allows you to use short rests to change form and you can ensure that you are losing a card from the deck you want rather than potentially making your hands lopsided.",
+					"overall": "This is almost the mirror of Feeding Frenzy and is far better for it. Given the requirement for looting you will want to be bringing this top, but in high-tempo scenarios where you don't want to be wasting a turn long resting the bottom comes into play, though that is likely more situational. If you are aiming for a mastery it is a useful action to have in your toolkit."
+				},
+				{
+					"id": "scarabflight",
+					"top": "This typically a couple of attack 2s, which isn't great, but it does have a small push in there as well.",
+					"bottom": "This is a good tanking action where for your next 4 turns you get shields, 2 for melee and 1 for ranged. We would really like to be in melee form when this is triggered so pairing it with a form switch top attack is likely the best action.",
+					"overall": "This card is fairly conditional and of more use in some builds than others,. For the striker it is not a card we would look to bring to every scenario with its fairly weak top attack and conditionally useful bottom."
+				},
+				{
+					"id": "selflessoffering",
+					"top": "Heal 3, Range 3 is decent for level 1, but it can only target an ally which is a significant limitation. If it is powered up with <em>Fire</em> it also applies <em>Regen</em> and gives an xp which adds real value. This is one of the few non-burn xp generators we have.",
+					"bottom": "Move 3 switch form is a decent action allowing us to attack then get into place for our next round of melee.",
+					"overall": "Initiative 27 isn't great, but we are happy to have it on a ranged card. The top has its place, especially if we can power it up as it can help clear status effects from our melee allies. It is not necessarily a staple card for every scenario or group."
+				},
+				{
+					"id": "smolderinghatred",
+					"top": "The top is a basic attack 2 at range 4/5 which is weak, you can muddle yourself, which comes in before the attack to add 2 more and curse yourself to add a target. This turns it into two attack 4, though with some real downsides. You can do healing or something defensive the next round to waste the muddle, but the curse stays.",
+					"bottom": "The bottom looks like it is good as you get to <em>Immobilise</em> a couple of enemies and then jump out, but it means that the enemies need to be next to you in the first place which isn't something would be wanting to happen in ranged form.",
+					"overall": "The top has it's uses if used with care, but the bottom isn't likely to see much use, especially as a loss."
+				},
+				{
+					"id": "venomousbarbs",
+					"top": "This can turn into retaliate 3, range 3 which is a massive effect and the xp every time it fires is something we like. You need to be sure that the enemies will attack and not do one of their heal/shield type actions, but if it works out is can make a huge dent in a room.",
+					"bottom": "Fast bottom attack with <em>Poison</em> is a great action to pair with a multi-attack top action.",
+					"overall": "Initiative 17 is great on this card. The problem with the top is that you need some form of shields before you play it as otherwise you are likely to end up burning cards to stay alive. The bottom however is something we can spam all day."
+				},
+				{
+					"id": "locusthost",
+					"top": "The top has a fairly large AoE pattern with enemies at range 2/3 being hit. Cursing yourself allows it to increase the potential template area and could add a more targets plus it gives 2 xp.",
+					"bottom": "Move 1 that pushes all enemies that are at range 2 away one space.",
+					"overall": "This card is fairly situational, though in the right place it can work well."
+				},
+				{
+					"id": "mandiblestorm",
+					"top": "The top has potentially several attack 3s with <em>Immobilise</em> and then you form swap. You do <em>Muddle</em> yourself which isn't great.",
+					"bottom": "Move 3, Shield 2/3 is a great card that would pair very well with Venomous Barbs that we probably took at level 2.",
+					"overall": "The 30 initiative is fine and the top can be used with a bottom move to provide some decent CC along with the attack."
+				},
+				{
+					"id": "dragonflysurge",
+					"top": "This is your biggest single target attack to date. It has a range of 4/5 so you need to position yourself well, but boosted it also grants <em>Advantage</em> and <em>Wound</em>. As a loss this is very much worth it.",
+					"bottom": "The bottom is an anti-shield boost with advantage, self-inflicting <em>Poison</em> and switching form.",
+					"overall": "The initiative is one of the worst you can get, but the top attack is huge when boosted with an element. The bottom is also something we can get behind, even if it is used solely for the advantage. You will want to pair this with a faster ranged attack."
+				},
+				{
+					"id": "threshandflail",
+					"top": "The multi-attack top is such an easy action to use and you an pair it with a poison generating bottom for real damage. Obviously against retaliating enemies this is not what you want to be doing, but otherwise it is a really good loss. It also produces <em>Light</em> which we are never sorry to have.",
+					"bottom": "The bottom pulls enemies into melee range and if powered up does some pure damage on top. It has a long range and is powered can swap an element to one we like. It creates either <em>Fire</em> or <em>Ice</em> so is useful for both melee and ranged turns.",
+					"overall": "This is an easy to use card that you will be happy to bring along with a top that we can trigger against poisoned enemies and a bottom that we can use until then.<p>There are items that can give you advantage and that is a real boost to this action as it applies to each attack."
+				},
+				{
+					"id": "luminousdescent",
+					"top": "Big heal on an ally at range 3 with the possibility of adding an extra target and generating your core elements is a very powerful support action.",
+					"bottom": "Jump 5 and <em>Stun</em> 2 adjacent enemies whilst producing <em>Light</em> would be a really good action but it seems to expect us to be in melee form the next round to make use of this",
+					"overall": "This card has two good actions with a very strong non-loss top that provides significant support and a big loss jump on the bottom that provides significant CC where you land."
+				},
+				{
+					"id": "formlessgrace",
+					"top": "One time heal all adjacent allies, persistent loss to take 2 damage to create <em>Fire</em> or <em>Light</em> switch form.",
+					"bottom": "Jump 4, potentially gaining <em>Ward</em>.",
+					"overall": "This has two good actions with a good late initiative. The top can be very good for creating <em>Fire</em> to power your ranged attacks."
+				},
+				{
+					"id": "chitinoushorde",
+					"top": "Give a shield to an ally at range 3 and potentially give yourself <em>strengthen</em>.",
+					"bottom": "This targets allies for damage to create <em>Ice</em> or <em>Light</em> switch form.",
+					"overall": "This card has great initiative and the top is a decent support card and the self-buff is good if you power it up. Alone neither of these seems like they are worth a level 5 action, but together they add up to a decent action.<p>The bottom is the mirror of Formless Grace top but is less useful as you need an adjacent ally who is willing to take damage in order to create the element.</p>"
+				},
+				{
+					"id": "corrosiveacids",
+					"top": "Melee AoE with 2 attack where you can take <em>Brittle</em> to dish it out and <em>Impair</em> to dish out <em>Poison</em>.",
+					"bottom": "Reducing the shields of all adjacent enemies is powerful but risky as you will be in ranged form.",
+					"overall": "It is risky self-inflicting <em>Brittle</em>, but if your allies can hit the targets as well, they can melt them with both <em>Poison</em> and <em>Brittle</em> applied.<p>The bottom is similar to granting pierce to all attacks on each character adjacent to you which can be a great action to add to a move, though the form switch is less good for this as you don't want to be in melee form adjacent to enemies so you will want to ensure you can kill theme with your paired top.</p>"
+				},
+				{
+					"id": "hirudotherapy",
+					"top": "2 pure damage to 2 enemies at range 2 that is transferred as health is a nice top action and can be combined with <em>Brittle</em> to create even more, but that is not easy to pull off, switching form.",
+					"bottom": "Move 3 and attack an enemy at range 3/4 is a fine action and you can add <em>Immobilise</em> to yourself to add the same condition to the enemy and <em>Curse</em> yourself to add a target.",
+					"overall": "This is a very reliable late initiative and both top and bottom are playable."
+				},
+				{
+					"id": "twoprongedentrapment",
+					"top": "A solid attack 4 with the added bonus of a shield and the chance to create both <em>Ice</em> and <em>Light></em> by consuming another element. This is a decent melee attack that is slightly below the curve at level 7, but the element generation is very good allowing us to power up our next melee action. The initiative is good for the shield but not great as there are several enemies that can go before this.",
+					"bottom": "This is a great action, push and giving the enemies <em>Brittle</em> is great action, if we consume elements we can also add <em>Immobilise</em> and <em>Disarm</em> which turns this into something that can turn rooms.",
+					"overall": "The initiative is good, not great, but we have 2 actions that we like, a spammable top and a very powerful loss on the bottom."
+				},
+				{
+					"id": "alluringpheromones",
+					"top": "Ranged attack 3 AoE at range 4/5 that pulls the targets. You are likely to be able to hit 2 enemies with this in 4 party groups. It also gives the chance to create both <em>Fire</em> and <em>Light></em> by consuming another element.",
+					"bottom": "The bottom is a really big support boost loss, giving a heal, <em>Bless</em>, <em>Regen</em> and potentially <em>Strengthen</em> and a second <em>Bless</em> to allies in a cone next to you.",
+					"overall": "The initiative is awful so you will want to pair it with something else. The top is a decent attack with the pull being of use sometimes if there is hazardous terrain of traps. The bottom is a really big ally boost for support builds."
+				},
+				{
+					"id": "acceleratedmetabolism",
+					"top": "<em>Strengthen</em> yourself using an element and then do a multi-target attack 3 with <em>Pierce 3</em> is a decent action as the <em>Strengthen</em> also applies to the next round. An attack 6 at level 8 is fairly weak, but if the enemy is shielded it turns into an attack 12, which is much better especially with the buff.",
+					"bottom": "The bottom is a loss that gives a one-time movement and tempo boost allowing you to use an extra melee card next round after swapping to ranged form.",
+					"overall": "This a good late initiative that allows you to burn down the annoying high shield enemies. The bottom is a nice situational effect when you come up against a boss or other high health enemy. The problem is that you are now in ranged form and unlikely to want to be in melee range so you would need to use the melee card and then move away to use the ranged action."
+				},
+				{
+					"id": "oscillatingentity",
+					"top": "Ranged attack 4 then swap to melee with the ability to use a ranged card after you have swapped next turn. This is actually better that the AM version as you can do you ranged attack next turn and then move into melee range and do your melee actions which works better.",
+					"bottom": "Move 4, <em>Bless</em> and potentially <em>Strengthen</em> yourself is a great action you will be happy to use.",
+					"overall": "This is a mirror of AM with the loss on top this time, but with a much worse initiative. The actions however are better. The top allows plays like Dragonfly Surge bottom to <em>Strengthen</em> yourself and apply <em>Pierce</em> followed by Venomous Barbs bottom and Thresh and Flail on top for a huge damage burst."
+				},
+				{
+					"id": "harbingerofruin",
+					"top": "Persistent loss that acts as a huge retaliate of 5 for the next 4 melee attacks against you, gaining <em>Ward</em> which then reduces the damage you take is a really powerful, if transient effect. You need to be careful when you use this as you don't want to waste it on lower health or difficulty enemies.",
+					"bottom": "Another bottom attack, which is always welcome that adds <em>Immobilise</em> as CC plus <em>Retaliate</em> 2 for a round.",
+					"overall": "This card has a great initiative of 11 that means we can set up the retaliate before enemies should be attacking. For tanking this is the sort of effect we are looking for, the top dishes out significant pure damage along with reducing the damage we take and whilst we are waiting for the opportunity to use that we can dish out damage with an attack and with retaliate."
+				},
+				{
+					"id": "voiceofsalvation",
+					"top": "Huge range 3 aura buffing allied attacks and debuffing enemies for a round is a great action to play, obviously on a ranged card this may be slightly less effective depending on positioning.",
+					"bottom": "The bottom allows another ally to do some tanking where they don't have to lose cards to hits 4 times.",
+					"overall": "The top can swing a round significantly, especially at higher party numbers and if there are summons out then this can be huge.<p>The bottom can also have a significant impact as you lose 1 card to allow 4 other cards be retained on allies.</p>"
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Form Shifting",
+							"overview": "We need at least 2 of these in each hand to switch forms outside long resting",
+							"cards": [
+								{
+									"id": "drainingpincers",
+									"comment": "The jump action this is tied to is something we are happy to play at any point"
+								},
+								{
+									"id": "dragdown",
+									"comment": "Another action we are happy to play multiple times in a scenario"
+								},
+								{
+									"id": "intomyembrace",
+									"comment": "This switch is perfect for the action pulling enemies into melee range and then switching"
+								},
+								{
+									"id": "selflessoffering",
+									"comment": "Another move and switch"
+								},
+								{
+									"id": "mindspike",
+									"comment": "The bottom ranged attack and switch is harder to use the switch for"
+								}
+							]
+						},
+						{
+							"label": "Situational",
+							"overview": "These are cards that that we will want to bring along, but potentially save until we can get solid use out of them",
+							"cards": [
+								{
+									"id": "hornbeetlecarapace",
+									"comment": "The top attack boost is almost mandatory at some point in the scenario"
+								},
+								{
+									"id": "recklessjab",
+									"comment": "This is such a powerful top if we power it up"
+								},
+								{
+									"id": "iceboundquills",
+									"comment": "Big single-target attack"
+								},
+								{
+									"id": "fireflyswarm",
+									"comment": "Both the bottom move and the AoE attack are strong"
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "drainingpincers",
+							"top": {
+								"text":"Attack, pot. <em>Adv.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <em>Jump</em>, [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragdown",
+							"top": {
+								"text":"AoE attack [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Jump 4, <emn>Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "smolderinghatred",
+							"top": {
+								"text":"Ranged attack 2/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Immob.</em>, Jump 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "feedingfrenzy",
+							"top": {
+								"text":"[S] on enemy kill",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Loot",
+								"style": "w3-pale-green"
+							},
+							"replace": "changelingsboon",
+							"comment": "We need multiple loots for a scenario goal"
+						},
+						{
+							"card": "flailingtendrils",
+							"top": {
+								"text":"ranged Aoe",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "<em>Wound</em> AoE",
+								"style": "w3-pale-blue"
+							},
+							"replace": "changelingsboon",
+							"comment": "We need fast initaitive or shielded enemies"
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"replace": "changelingsboon",
+							"comment": "Hornet Stingers if no shielded enemies"
+						}
+					],
+					"hand": [
+						{
+							"card": "drainingpincers",
+							"top": {
+								"text":"Attack, pot. <em>Adv.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <em>Jump</em>, [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragdown",
+							"top": {
+								"text":"AoE attack [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Jump 4, <emn>Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "smolderinghatred",
+							"top": {
+								"text":"Ranged attack 2/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Immob.</em>, Jump 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "hornetstingers",
+							"comment": "No shielded enemies"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							},
+							"replace": "smolderinghatred",
+							"comment": "This a simple attack upgrade"
+						}
+					],
+					"hand": [
+						{
+							"card": "drainingpincers",
+							"top": {
+								"text":"Attack, pot. <em>Adv.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <em>Jump</em>, [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragdown",
+							"top": {
+								"text":"AoE attack [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Jump 4, <emn>Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "hornetstingers",
+							"comment": "No shielded enemies"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							},
+							"replace": "recklessjab",
+							"comment": "We are swapping a big CC for more attacks."
+						}
+					],
+					"hand": [
+						{
+							"card": "drainingpincers",
+							"top": {
+								"text":"Attack, pot. <em>Adv.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <em>Jump</em>, [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragdown",
+							"top": {
+								"text":"AoE attack [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Jump 4, <emn>Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "hornetstingers",
+							"comment": "There are powerful enemies we need to disarm"
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "hornetstingers",
+							"comment": "No shielded enemies"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "luminousdescent",
+							"top": {
+								"text":"Heal ally, Elements(?)",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Jump 5, Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "reshapetheguise",
+							"comment": "We go back for the bottom Jump and Stun."
+						}
+					],
+					"hand": [
+						{
+							"card": "drainingpincers",
+							"top": {
+								"text":"Attack, pot. <em>Adv.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <em>Jump</em>, [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragdown",
+							"top": {
+								"text":"AoE attack [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Jump 4, <emn>Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "luminousdescent",
+							"top": {
+								"text":"Heal ally, Elements(?)",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Jump 5, Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "geback",
+							"comment": "There are powerful enemies we need to disarm"
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "No shielded enemies"
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "We need a loot card"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "corrosiveacids",
+							"top": {
+								"text":"AoE <em>Brittle, Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, shield debuff [S]",
+								"style": "w3-pale-blue"
+							},
+							"replace": "drainingpincers",
+							"comment": "We are adding a more powerful top and retaining a form swap."
+						}
+					],
+					"hand": [
+						{
+							"card": "corrosiveacids",
+							"top": {
+								"text":"AoE <em>Brittle, Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, shield debuff [S]",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "dragdown",
+							"top": {
+								"text":"AoE attack [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Jump 4, <emn>Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "luminousdescent",
+							"top": {
+								"text":"Heal ally, Elements(?)",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Jump 5, Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "geback",
+							"comment": "There are powerful enemies we need to disarm"
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "No shielded enemies"
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "We need a loot card"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "twoprongedentrapment",
+							"top": {
+								"text":"Attack 4 <em>Shield</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE <em>Brittle, Push, Disarm</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "dragdown",
+							"comment": "We are swapping the powerful bottom for another better one."
+						}
+					],
+					"hand": [
+						{
+							"card": "corrosiveacids",
+							"top": {
+								"text":"AoE <em>Brittle, Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, shield debuff [S]",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "twoprongedentrapment",
+							"top": {
+								"text":"Attack 4 <em>Shield</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE <em>Brittle, Push, Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "fireflyswarm",
+							"top": {
+								"text":"AoE attack 3/4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "luminousdescent",
+							"top": {
+								"text":"Heal ally, Elements(?)",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Jump 5, Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "geback",
+							"comment": "There are powerful enemies we need to disarm"
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "No shielded enemies"
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "We need a loot card"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "oscillatingentity",
+							"top": {
+								"text":"Attack 4, extra card [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4 <em>Bless, Strengthen</em>",
+								"style": "w3-pale-green"
+							},
+							"replace": "fireflyswarm",
+							"comment": "The move and bless are a bottom upgrade"
+						}
+					],
+					"hand": [
+						{
+							"card": "corrosiveacids",
+							"top": {
+								"text":"AoE <em>Brittle, Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, shield debuff [S]",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "twoprongedentrapment",
+							"top": {
+								"text":"Attack 4 <em>Shield</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE <em>Brittle, Push, Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "oscillatingentity",
+							"top": {
+								"text":"Attack 4, extra card [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4 <em>Bless, Strengthen</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "luminousdescent",
+							"top": {
+								"text":"Heal ally, Elements(?)",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Jump 5, Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "geback",
+							"comment": "There are powerful enemies we need to disarm"
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "No shielded enemies"
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "We need a loot card"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "harbingerofruin",
+							"top": {
+								"text":"Pure damage when attacked",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4 <em>retaliate</em>",
+								"style": "w3-pale-green"
+							},
+							"replace": "venomousbarbs",
+							"comment": "Both top and bottom are simlar, though the top has no range"
+						}
+					],
+					"hand": [
+						{
+							"card": "corrosiveacids",
+							"top": {
+								"text":"AoE <em>Brittle, Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, shield debuff [S]",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "twoprongedentrapment",
+							"top": {
+								"text":"Attack 4 <em>Shield</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE <em>Brittle, Push, Disarm</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "harbingerofruin",
+							"top": {
+								"text":"Pure damage when attacked",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4 <em>retaliate</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornbeetlecarapace",
+							"top": {
+								"text":"Power attacks",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 1 <em>Shield 1/2</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hornetstingers",
+							"top": {
+								"text":"AoE <em>Pierce 3/Poison</em> [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy disadv.",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "iceboundquills",
+							"top": {
+								"text":"Attack 5/6 <em>Pierce 1/2</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Shield/Retaliate</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "threshandflail",
+							"top": {
+								"text":"Multi attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<em>Pull</em> Range 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "oscillatingentity",
+							"top": {
+								"text":"Attack 4, extra card [S]",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4 <em>Bless, Strengthen</em>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harvesttheessence",
+							"top": {
+								"text":"Element switch [S]",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, Heal",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "intomyembrace",
+							"top": {
+								"text":"Ranged attack, Pull [S]",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Heal, <em>Regen/Strengthen</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mindspike",
+							"top": {
+								"text":"Ranged <em>Immob.</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "luminousdescent",
+							"top": {
+								"text":"Heal ally, Elements(?)",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Jump 5, Stun</em>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selflessoffering",
+							"top": {
+								"text":"Ally Heal, <em>Regen</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 [S]",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dragonflysurge",
+							"top": {
+								"text":"Big ranged loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<em>Adv. / Pierce</em> on attacks",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "geback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "recklessjab",
+							"top": {
+								"text":"Attack <em>Disarm/Poison</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 4, <em>Stun</em>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "geback",
+							"comment": "There are powerful enemies we need to disarm"
+						},
+						{
+							"card": "changelingsboon",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Element swap",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "No shielded enemies"
+						},
+						{
+							"card": "reshapetheguise",
+							"top": {
+								"text":"Loot, <em>Regen</em>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Short rest pick discard [S]",
+								"style": "w3-pale-red"
+							},
+							"replace": "geback",
+							"comment": "We need a loot card"
+						},
+						{
+							"card": "venomousbarbs",
+							"top": {
+								"text":"<em>Retaliate 3, Range 3</em>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack 2, <em>Poison</em>",
+								"style": "w3-pale-green"
+							},
+							"replace": "geback",
+							"comment": "We want the top ranged retaliate"
+						}
+					]
+				}
+			],
+			"perks": [
+				{
+					"comment": "We start with getting rid of our worst AMD card and then we take the element tramsmution followed by the standard AMD upgrades.",
+					"picks": [
+						{
+							"order": 1,
+							"name": "intensify"
+						},
+						{
+							"order": 2,
+							"name": "transmutation"
+						},
+						{
+							"order": 3,
+							"name": "fester"
+						},
+						{
+							"order": 4,
+							"name": "gouge"
+						},
+						{
+							"order": 5,
+							"name": "immunity"
+						},
+						{
+							"order": 6,
+							"name": "savage"
+						},
+						{
+							"order": 7,
+							"name": "acquiredresistance"
+						},
+						{
+							"order": 8,
+							"name": "preserve"
+						},
+						{
+							"order": 9,
+							"name": "sting"
+						},
+						{
+							"order": 10,
+							"name": "shove"
+						},
+						{
+							"order": 11,
+							"name": "revitalisingswarm"
+						},
+						{
+							"order": 12,
+							"name": "unstableequilibrium"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "The item recommendations are broken up into sections based on Craftsman levels.",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "The recommended starting items are fine choices.<br>The Amulet of Life is important to cleanse ourselves of negative status effects that we apply to ourselves.",
+						"picks": [
+							{
+								"location": "head",
+								"id": "120",
+								"item": "Amulet of Life",
+								"description": "Heal yourself, cleansing status effects",
+								"type": "spent",
+								"comment": "We want this for the cleanse."
+							},
+							{
+								"location": "chest",
+								"id": "123",
+								"item": "Leather Armour",
+								"description": "Enemy attack gets disadvantage",
+								"type": "spent",
+								"comment": "We want some damage mitigation."
+							}
+						]
+					}
+				]
+			},
+			"potions": {
+				"comments": "In general, your highest priority will be to get any potions that provide healing or defensive effects, followed by card or item recovery, and then lastly offensive effects.",
+				"levels": [
+					{
+						"numherbs": "2",
+						"comments": "The Muscle Potion is certainly the strongest 2-herb potion in the abstract, but given that tanking builds should really only be played in larger parties with other damage-dealers, it's a pretty safe assumption that you have two allies who can make significantly better use of it than you.",
+						"picks": [
+							{
+								"id": "083",
+								"comment": "The best choice for any melee build is generally healing."
+							},
+							{
+								"id": "092",
+								"comment": "Refreshing armour and shield should give a similar amount of healing as the Healing Potion, with the added flexibility of getting extra Jump instead, at the cost of not removing conditions."
+							},
+							{
+								"id": "097",
+								"comment": "The Explosive Vial can finish off damaged enemies and/or deal with pesky shielded enemies. And you'll regularly be on the front lines in a position to use it in a timely and convenient manner."
+							},
+							{
+								"id": "084",
+								"comment": "The Stamina Potion isn't anything exceptional but it will always provide an extra turn each scenario by using it when you have an odd hand size and let you repeat one of your more powerful level 1 cards, which is an acceptable impact."
+							},
+							{
+								"id": "093",
+								"comment": "The Glancing Potion ensures one of my rarer attacks doesn't whiff on a key target."
+							},
+							{
+								"id": "089",
+								"comment": "If you're really trying to go all-in on defence, the Stoneskin Potion (089) is acceptable. Ward has negative synergy with your persistent Shield, meaning this will likely represent more like two hits points than three regularly. Of course, being able to use this when you most need it against one of the many heavy-hitting enemies in Frosthaven can help keep your life total high, which is important for a tank to remain effective."
+							}
+						]
+					},
+					{
+						"numherbs": "3",
+						"comment": "Beyond these, a couple of your 2-herb potions can still be worth keeping around if you already have them and are short on herbs, namely the Renewing Potion, which scales very well with item upgrades, and the Healing Potion, because more healing is always welcome and it's another source of condition-cleansing.",
+						"picks": [
+							{
+								"id": "099",
+								"comment": "Much like its smaller cousin, the Major Healing Potion is going to be your best 3-herb potion."
+							},
+							{
+								"id": "118",
+								"comment": "The Fulminant Flask is just so good. The jump from two to four damage between the Explosive Vial and this has a profound effect and you'll always be well-placed to use this."
+							},
+							{
+								"id": "100",
+								"comment": "Abuse it. Nerf it. The Major Stamina Potion arrives all the same. It's still very good and especially being able to repeat Hold the Line is a really big deal. Do note that you can't recover Hold the Line the round in which you play it (unlike normal Stamina Potion shenanigans) for obvious reasons, so the turn sequence is more like Hold the Line on turns 1 and 3 of a room."
+							},
+							{
+								"id": "106",
+								"comment": "While the Stoneskin Potion was a bit unimpressive, the Stonewall Potion is much, much better. As a tank, your job is keeping your party alive. It's not realistic to think every attack will be on you, and having an extra layer of protection on your allies (or better yet, their summons) for when they do get attacked is great. This will pretty much represent the same amount of effective hit points gained as the Major Healing Potion, only spread across three figures (which is generally a bit of a downside) but with added safety (assurance against a damage spike leading to a pitched card - which is obvious upside)."
+							},
+							{
+								"id": "105",
+								"comment": "The Fireshield Potion wasn't even worth mentioning, but the jump from Retaliate 1 to Retaliate 2 is a really big deal, making the Major Fireshield Potion absolutely worthwhile if you'd like to add some offensive power to your tanking. The choice between this and Stonewall is really going to come down to whether your party needs more protection or damage."
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

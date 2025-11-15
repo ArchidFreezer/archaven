@@ -1,5 +1,6 @@
 #!/home/archid/python/.archaven/bin/python
 
+import argparse
 import json
 import jmespath
 import glob
@@ -19,7 +20,7 @@ def html_class(cls):
 '''
 	
 	# find all the build files
-	files = glob.glob('../html/' + id + '-*.html')
+	files = glob.glob(f'../{gamename}/html/' + id + '-*.html')
 	for file in files:
 		file=os.path.basename(file)
 		if file != id + "-main.html":
@@ -32,16 +33,31 @@ def html_class(cls):
 '''
 	return menu
 
+parser = argparse.ArgumentParser(
+                    prog='class-pages-create',
+                    description='Reads a json file containing an xhaven class data and produces a static html page from it.',
+                    epilog='This needs to be used with the archaven github repository file structure.')
+parser.add_argument('game', choices=['fh','gh'], help='game whose data should be parsed')
+args = parser.parse_args()
 
-with open('../data/class-data.json') as fd:
+gameprefix=args.game
+gamename=''
+match gameprefix:
+	case 'fh':
+		gamename='frosthaven'
+	case 'gh':
+		gamename='gloomhaven'
+
+
+with open(f'../{gamename}/data/class-data.json') as fd:
 	jclasses = json.load(fd)
 classes=jmespath.search(f"classes[].[id,label]", jclasses)
 
-with open('../data/build-data.json') as fd:
+with open(f'../{gamename}/data/build-data.json') as fd:
 	jbuilds = json.load(fd)
 
 # Open the output html file
-hf = open(f"../html/mainsidebar.js", "w")
+hf = open(f'../{gamename}/html/mainsidebar.js', "w")
 
 hf.write('''document.write(`
 <script>

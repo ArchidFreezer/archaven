@@ -13,7 +13,7 @@ def html_create(jclass):
 	jclasscards=jmespath.search(f"cards[?classid=='{id}']", jcards)
 	
 	# Open the output html file
-	hf = open(f"../html/{id}-main.html", "w")
+	hf = open(f"../{gamename}/html/{id}-main.html", "w")
 #	hf = open(f"{id}-main.html", "w")
 	
 	hf.write(f'''<!DOCTYPE html>
@@ -37,7 +37,7 @@ def html_create(jclass):
 
 	<div class="w3-container">
 		<table>
-			<tr><td><img src="images/frosthaven/character-mats/fh-{label}.png"><td><img src="images/frosthaven/character-mats/fh-{label}-back.png">
+			<tr><td><img src="images/character-mats/{gameprefix}-{label}.png"><td><img src="images/character-mats/{gameprefix}-{label}-back.png">
 		</table>
 	</div>
 
@@ -75,10 +75,25 @@ def html_create(jclass):
 
 </html>''')
 
-with open('../data/class-data.json') as fd:
+parser = argparse.ArgumentParser(
+                    prog='class-pages-create',
+                    description='Reads a json file containing an xhaven class data and produces a static html page from it.',
+                    epilog='This needs to be used with the archaven github repository file structure.')
+parser.add_argument('game', choices=['fh','gh'], help='game whose data should be parsed')
+args = parser.parse_args()
+
+gameprefix=args.game
+gamename=''
+match gameprefix:
+	case 'fh':
+		gamename='frosthaven'
+	case 'gh':
+		gamename='gloomhaven'
+
+with open(f'../{gamename}/data/class-data.json') as fd:
 	jclasses = json.load(fd)
 
-with open('../data/card-data.json') as fd:
+with open(f'../{gamename}//data/card-data.json') as fd:
 	jcards = json.load(fd)
 
 jclasses = jmespath.search(f"classes", jclasses)
@@ -86,7 +101,7 @@ jclasses = jmespath.search(f"classes", jclasses)
 cardimages = dict()
 cards = jmespath.search("cards[*].[image, id]", jcards)
 for data in cards:
-	img=f"images/frosthaven/{data[0]}"
+	img=f"images/{data[0]}"
 	cardimages.update({data[1]: img})
 
 for jclass in jclasses:

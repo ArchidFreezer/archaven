@@ -506,37 +506,45 @@ def get_build_name(id, build):
 def cache_card_images():
 	cards = jmespath.search("[*].[image, id]", jclasscards)
 	for data in cards:
-		img=f"images/frosthaven/{data[0]}"
+		img=f"images/{data[0]}"
 		cardimages.update({data[1]: img})
 
 def cache_item_images():
 	items = jmespath.search("items[*].[image, id]", jitems)
 	for data in items:
-		img=f"images/frosthaven/{data[0]}"
+		img=f"images/{data[0]}"
 		itemimages.update({data[1]: img})
 
 parser = argparse.ArgumentParser(
                     prog='parse-build',
-                    description='Reads a json file containing Frosthaven character build data and produces a static html page from it.',
+                    description='Reads a json file containing an xhaven character build data and produces a static html page from it.',
                     epilog='This needs to be used with the archaven github repository file structure.')
+parser.add_argument('game', choices=['fh','gh'], help='game whose data should be parsed')
 parser.add_argument('-b', help='build id to parse')
 parser.add_argument('-d', help='json file containing the build details')
 args = parser.parse_args()
 
+gamepath=''
+match args.game:
+	case 'fh':
+		gamepath='frosthaven'
+	case 'gh':
+		gamepath='gloomhaven'
+
 if (args.d):
 	buildfile=args.d
 else:
-	buildfile='../data/build-data.json'
+	buildfile=f'../{gamepath}/data/build-data.json'
 
 
 # Read our json data files
-with open('../data/card-data.json') as fd:
+with open(f'../{gamepath}/data/card-data.json') as fd:
 	jcards = json.load(fd)
 
-with open(f'../data/item-data.json') as fd:
+with open(f'../{gamepath}/data/item-data.json') as fd:
 	jitems = json.load(fd)
 
-with open('../data/class-data.json') as fd:
+with open(f'../{gamepath}/data/class-data.json') as fd:
 	jclasses = json.load(fd)
 
 with open(buildfile) as fd:
@@ -552,7 +560,7 @@ cache_item_images()
 
 for buildid in buildids:
 	# Open the output html file
-	hf = open(f"../html/{buildid}.html", "w")
+	hf = open(f"../{gamepath}/html/{buildid}.html", "w")
 	
 	# Get the specific build
 	jbuild=jmespath.search(f"builds[?id=='{buildid}']|[0]", jbuilds)

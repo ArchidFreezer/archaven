@@ -7,7 +7,7 @@
       "id": "beback",
       "level": "-",
       "initiative": "-",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "blood pact",
@@ -16,7 +16,7 @@
       "id": "bloodpact",
       "level": "1",
       "initiative": "76",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "bone breaker",
@@ -25,7 +25,7 @@
       "id": "bonebreaker",
       "level": "8",
       "initiative": "41",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "bounce back",
@@ -34,7 +34,7 @@
       "id": "bounceback",
       "level": "1",
       "initiative": "14",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "break the chains",
@@ -43,7 +43,7 @@
       "id": "breakthechains",
       "level": "2",
       "initiative": "53",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "burning hatred",
@@ -52,7 +52,7 @@
       "id": "burninghatred",
       "level": "7",
       "initiative": "40",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "careless charge",
@@ -61,7 +61,7 @@
       "id": "carelesscharge",
       "level": "7",
       "initiative": "20",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "cauterize",
@@ -70,7 +70,7 @@
       "id": "cauterize",
       "level": "1",
       "initiative": "40",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "dazing wound",
@@ -79,7 +79,7 @@
       "id": "dazingwound",
       "level": "1",
       "initiative": "29",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "defiance of death",
@@ -88,7 +88,7 @@
       "id": "defianceofdeath",
       "level": "1",
       "initiative": "31",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "devil horns",
@@ -97,7 +97,7 @@
       "id": "devilhorns",
       "level": "6",
       "initiative": "31",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "fatal fury",
@@ -106,7 +106,7 @@
       "id": "fatalfury",
       "level": "3",
       "initiative": "34",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "final fight",
@@ -115,7 +115,7 @@
       "id": "finalfight",
       "level": "5",
       "initiative": "89",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "flurry of axes",
@@ -124,7 +124,7 @@
       "id": "flurryofaxes",
       "level": "4",
       "initiative": "27",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "from the brink",
@@ -133,7 +133,7 @@
       "id": "fromthebrink",
       "level": "1",
       "initiative": "24",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "furious aid",
@@ -142,7 +142,7 @@
       "id": "furiousaid",
       "level": "1",
       "initiative": "43",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "glass hammer",
@@ -151,7 +151,7 @@
       "id": "glasshammer",
       "level": "x",
       "initiative": "11",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "growing rage",
@@ -160,7 +160,7 @@
       "id": "growingrage",
       "level": "1",
       "initiative": "85",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "immortality",
@@ -169,7 +169,7 @@
       "id": "immortality",
       "level": "9",
       "initiative": "33",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "numb the pain",
@@ -178,7 +178,7 @@
       "id": "numbthepain",
       "level": "x",
       "initiative": "35",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "reckless offensive",
@@ -187,7 +187,7 @@
       "id": "recklessoffensive",
       "level": "2",
       "initiative": "21",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "resolute stand",
@@ -196,7 +196,7 @@
       "id": "resolutestand",
       "level": "1",
       "initiative": "09",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "seeing red",
@@ -205,7 +205,7 @@
       "id": "seeingred",
       "level": "5",
       "initiative": "22",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "shiny distraction",
@@ -214,7 +214,7 @@
       "id": "shinydistraction",
       "level": "4",
       "initiative": "08",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "spiked armor",
@@ -223,7 +223,7 @@
       "id": "spikedarmor",
       "level": "3",
       "initiative": "16",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "strength in agony",
@@ -232,7 +232,7 @@
       "id": "strengthinagony",
       "level": "1",
       "initiative": "37",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "the maw of madness",
@@ -241,7 +241,7 @@
       "id": "themawofmadness",
       "level": "9",
       "initiative": "10",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "unbridled power",
@@ -250,7 +250,7 @@
       "id": "unbridledpower",
       "level": "x",
       "initiative": "67",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "unstoppable destruction",
@@ -259,7 +259,7 @@
       "id": "unstoppabledestruction",
       "level": "6",
       "initiative": "57",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "vengeful barrage",
@@ -268,7 +268,7 @@
       "id": "vengefulbarrage",
       "level": "8",
       "initiative": "38",
-      "classid": "be",
+      "classid": "be"
     },
     {
       "name": "balanced measure",
@@ -277,7 +277,7 @@
       "id": "balancedmeasure",
       "level": "x",
       "initiative": "77",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "br-back",
@@ -286,7 +286,7 @@
       "id": "brback",
       "level": "-",
       "initiative": "-",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "brute force",
@@ -295,7 +295,7 @@
       "id": "bruteforce",
       "level": "3",
       "initiative": "51",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "crippling offensive",
@@ -304,7 +304,7 @@
       "id": "cripplingoffensive",
       "level": "7",
       "initiative": "33",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "defensive tactics",
@@ -313,7 +313,7 @@
       "id": "defensivetactics",
       "level": "7",
       "initiative": "26",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "devastating hack",
@@ -322,7 +322,7 @@
       "id": "devastatinghack",
       "level": "4",
       "initiative": "27",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "eye for an eye",
@@ -331,7 +331,7 @@
       "id": "eyeforaneye",
       "level": "1",
       "initiative": "18",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "face your end",
@@ -340,7 +340,7 @@
       "id": "faceyourend",
       "level": "9",
       "initiative": "67",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "fatal advance",
@@ -349,7 +349,7 @@
       "id": "fataladvance",
       "level": "2",
       "initiative": "40",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "frenzied onslaught",
@@ -358,7 +358,7 @@
       "id": "frenziedonslaught",
       "level": "8",
       "initiative": "41",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "grab and go",
@@ -367,7 +367,7 @@
       "id": "grabandgo",
       "level": "1",
       "initiative": "87",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "hook and chain",
@@ -376,7 +376,7 @@
       "id": "hookandchain",
       "level": "3",
       "initiative": "42",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "immovable phalanx",
@@ -385,7 +385,7 @@
       "id": "immovablephalanx",
       "level": "6",
       "initiative": "17",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "juggernaut",
@@ -394,7 +394,7 @@
       "id": "juggernaut",
       "level": "2",
       "initiative": "34",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "king of the hill",
@@ -403,7 +403,7 @@
       "id": "kingofthehill",
       "level": "9",
       "initiative": "39",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "leaping cleave",
@@ -412,7 +412,7 @@
       "id": "leapingcleave",
       "level": "1",
       "initiative": "54",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "overwhelming assault",
@@ -421,7 +421,7 @@
       "id": "overwhelmingassault",
       "level": "1",
       "initiative": "61",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "provoking roar",
@@ -430,7 +430,7 @@
       "id": "provokingroar",
       "level": "1",
       "initiative": "10",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "quietus",
@@ -439,7 +439,7 @@
       "id": "quietus",
       "level": "6",
       "initiative": "57",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "selfish retribution",
@@ -448,7 +448,7 @@
       "id": "selfishretribution",
       "level": "8",
       "initiative": "12",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "shield bash",
@@ -457,7 +457,7 @@
       "id": "shieldbash",
       "level": "1",
       "initiative": "15",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "skewer",
@@ -466,7 +466,7 @@
       "id": "skewer",
       "level": "x",
       "initiative": "35",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "skirmishing maneuver",
@@ -475,7 +475,7 @@
       "id": "skirmishingmaneuver",
       "level": "5",
       "initiative": "29",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "spare dagger",
@@ -484,7 +484,7 @@
       "id": "sparedagger",
       "level": "1",
       "initiative": "27",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "sweeping blow",
@@ -493,7 +493,7 @@
       "id": "sweepingblow",
       "level": "1",
       "initiative": "64",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "trample",
@@ -502,7 +502,7 @@
       "id": "trample",
       "level": "1",
       "initiative": "72",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "unstoppable charge",
@@ -511,7 +511,7 @@
       "id": "unstoppablecharge",
       "level": "4",
       "initiative": "86",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "wall of doom",
@@ -520,7 +520,7 @@
       "id": "wallofdoom",
       "level": "x",
       "initiative": "20",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "warding strength",
@@ -529,7 +529,7 @@
       "id": "wardingstrength",
       "level": "1",
       "initiative": "32",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "whirlwind",
@@ -538,7 +538,7 @@
       "id": "whirlwind",
       "level": "5",
       "initiative": "28",
-      "classid": "br",
+      "classid": "br"
     },
     {
       "name": "armed and dangerous",
@@ -547,7 +547,7 @@
       "id": "armedanddangerous",
       "level": "3",
       "initiative": "78",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "bioluminescence",
@@ -556,7 +556,7 @@
       "id": "bioluminescence",
       "level": "5",
       "initiative": "80",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "lightning moths",
@@ -565,7 +565,7 @@
       "id": "lightningmoths",
       "level": "5",
       "initiative": "80",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "blood drain",
@@ -574,7 +574,7 @@
       "id": "blooddrain",
       "level": "6",
       "initiative": "47",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "bone daggers",
@@ -583,7 +583,7 @@
       "id": "bonedaggers",
       "level": "8",
       "initiative": "68",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "bs-back",
@@ -592,7 +592,7 @@
       "id": "bsback",
       "level": "-",
       "initiative": "-",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "call of the grave",
@@ -601,7 +601,7 @@
       "id": "callofthegrave",
       "level": "1",
       "initiative": "49",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "corrupting parasites",
@@ -610,7 +610,7 @@
       "id": "corruptingparasites",
       "level": "1",
       "initiative": "97",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "cyclone of blades",
@@ -619,7 +619,7 @@
       "id": "cycloneofblades",
       "level": "5",
       "initiative": "27",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "death march",
@@ -628,7 +628,7 @@
       "id": "deathmarch",
       "level": "1",
       "initiative": "84",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "deflecting blades",
@@ -637,7 +637,7 @@
       "id": "deflectingblades",
       "level": "1",
       "initiative": "11",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "endless biting",
@@ -646,7 +646,7 @@
       "id": "endlessbiting",
       "level": "8",
       "initiative": "41",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "engulfing stingers",
@@ -655,7 +655,7 @@
       "id": "engulfingstingers",
       "level": "1",
       "initiative": "88",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "focused scourge",
@@ -664,7 +664,7 @@
       "id": "focusedscourge",
       "level": "1",
       "initiative": "50",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "fury of the horde",
@@ -673,7 +673,7 @@
       "id": "furyofthehorde",
       "level": "7",
       "initiative": "86",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "grasping advance",
@@ -682,7 +682,7 @@
       "id": "graspingadvance",
       "level": "x",
       "initiative": "18",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "hive mind",
@@ -691,7 +691,7 @@
       "id": "hivemind",
       "level": "1",
       "initiative": "05",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "incubation",
@@ -700,7 +700,7 @@
       "id": "incubation",
       "level": "4",
       "initiative": "09",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "infest",
@@ -709,7 +709,7 @@
       "id": "infest",
       "level": "2",
       "initiative": "43",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "oasis",
@@ -718,7 +718,7 @@
       "id": "oasis",
       "level": "9",
       "initiative": "04",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "omniscient assault",
@@ -727,7 +727,7 @@
       "id": "omniscientassault",
       "level": "1",
       "initiative": "22",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "overwhelming offensive",
@@ -736,7 +736,7 @@
       "id": "overwhelmingoffensive",
       "level": "2",
       "initiative": "12",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "putrid grubs",
@@ -745,7 +745,7 @@
       "id": "putridgrubs",
       "level": "3",
       "initiative": "16",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "repulsive host",
@@ -754,7 +754,7 @@
       "id": "repulsivehost",
       "level": "7",
       "initiative": "19",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "scattered defense",
@@ -763,7 +763,7 @@
       "id": "scattereddefense",
       "level": "1",
       "initiative": "13",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "sunstroke",
@@ -772,7 +772,7 @@
       "id": "sunstroke",
       "level": "6",
       "initiative": "32",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "swarming minions",
@@ -781,7 +781,7 @@
       "id": "swarmingminions",
       "level": "1",
       "initiative": "61",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "the storm's edge",
@@ -790,7 +790,7 @@
       "id": "thestormsedge",
       "level": "1",
       "initiative": "37",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "tomb of the immortal",
@@ -799,7 +799,7 @@
       "id": "tomboftheimmortal",
       "level": "x",
       "initiative": "59",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "unstoppable army",
@@ -808,7 +808,7 @@
       "id": "unstoppablearmy",
       "level": "x",
       "initiative": "94",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "vampiric tempest",
@@ -817,7 +817,7 @@
       "id": "vampirictempest",
       "level": "4",
       "initiative": "64",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "wasteland",
@@ -826,7 +826,7 @@
       "id": "wasteland",
       "level": "9",
       "initiative": "96",
-      "classid": "bs",
+      "classid": "bs"
     },
     {
       "name": "ancient ward",
@@ -835,7 +835,7 @@
       "id": "ancientward",
       "level": "4",
       "initiative": "19",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "blood hunger",
@@ -844,7 +844,7 @@
       "id": "bloodhunger",
       "level": "6",
       "initiative": "42",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "borrowed essence",
@@ -853,7 +853,7 @@
       "id": "borrowedessence",
       "level": "x",
       "initiative": "56",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "bt-back",
@@ -862,7 +862,7 @@
       "id": "btback",
       "level": "-",
       "initiative": "-",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "concentrated rage",
@@ -871,7 +871,7 @@
       "id": "concentratedrage",
       "level": "1",
       "initiative": "51",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "disappearing wounds",
@@ -880,7 +880,7 @@
       "id": "disappearingwounds",
       "level": "1",
       "initiative": "23",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "disorienting roar",
@@ -889,7 +889,7 @@
       "id": "disorientingroar",
       "level": "1",
       "initiative": "17",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "earthen spikes",
@@ -898,7 +898,7 @@
       "id": "earthenspikes",
       "level": "2",
       "initiative": "11",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "energizing strike",
@@ -907,7 +907,7 @@
       "id": "energizingstrike",
       "level": "2",
       "initiative": "29",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "focused aggression",
@@ -916,7 +916,7 @@
       "id": "focusedaggression",
       "level": "x",
       "initiative": "31",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "forceful swipe",
@@ -925,7 +925,7 @@
       "id": "forcefulswipe",
       "level": "1",
       "initiative": "35",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "howling bolts",
@@ -934,7 +934,7 @@
       "id": "howlingbolts",
       "level": "1",
       "initiative": "47",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "jaws of death",
@@ -943,7 +943,7 @@
       "id": "jawsofdeath",
       "level": "9",
       "initiative": "48",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "lash out",
@@ -952,7 +952,7 @@
       "id": "lashout",
       "level": "8",
       "initiative": "18",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "maul",
@@ -961,7 +961,7 @@
       "id": "maul",
       "level": "1",
       "initiative": "14",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "natural remedy",
@@ -970,7 +970,7 @@
       "id": "naturalremedy",
       "level": "8",
       "initiative": "25",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "patch fur",
@@ -979,7 +979,7 @@
       "id": "patchfur",
       "level": "1",
       "initiative": "20",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "primal blessing",
@@ -988,7 +988,7 @@
       "id": "primalblessing",
       "level": "6",
       "initiative": "28",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "punch through",
@@ -997,7 +997,7 @@
       "id": "punchthrough",
       "level": "4",
       "initiative": "44",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "rampage",
@@ -1006,7 +1006,7 @@
       "id": "rampage",
       "level": "5",
       "initiative": "34",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "relentless ally",
@@ -1015,7 +1015,7 @@
       "id": "relentlessally",
       "level": "1",
       "initiative": "81",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "soaring ally",
@@ -1024,7 +1024,7 @@
       "id": "soaringally",
       "level": "x",
       "initiative": "77",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "spirit swap",
@@ -1033,7 +1033,7 @@
       "id": "spiritswap",
       "level": "1",
       "initiative": "22",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "stone sigil",
@@ -1042,7 +1042,7 @@
       "id": "stonesigil",
       "level": "5",
       "initiative": "95",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "storm sigil",
@@ -1051,7 +1051,7 @@
       "id": "stormsigil",
       "level": "7",
       "initiative": "93",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "tribal sigil",
@@ -1060,7 +1060,7 @@
       "id": "tribalsigil",
       "level": "9",
       "initiative": "91",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "tyrannical force",
@@ -1069,7 +1069,7 @@
       "id": "tyrannicalforce",
       "level": "7",
       "initiative": "37",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "unstoppable beast",
@@ -1078,7 +1078,7 @@
       "id": "unstoppablebeast",
       "level": "3",
       "initiative": "32",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "venomous ally",
@@ -1087,7 +1087,7 @@
       "id": "venomousally",
       "level": "1",
       "initiative": "79",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "vicious ally",
@@ -1096,7 +1096,7 @@
       "id": "viciousally",
       "level": "3",
       "initiative": "86",
-      "classid": "bt",
+      "classid": "bt"
     },
     {
       "name": "avalanche",
@@ -1105,7 +1105,7 @@
       "id": "avalanche",
       "level": "1",
       "initiative": "75",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "backup ammunition",
@@ -1114,7 +1114,7 @@
       "id": "backupammunition",
       "level": "1",
       "initiative": "77",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "blind destruction",
@@ -1123,7 +1123,7 @@
       "id": "blinddestruction",
       "level": "9",
       "initiative": "74",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "blunt force",
@@ -1132,7 +1132,7 @@
       "id": "bluntforce",
       "level": "3",
       "initiative": "21",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "brutal momentum",
@@ -1141,7 +1141,7 @@
       "id": "brutalmomentum",
       "level": "7",
       "initiative": "52",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "cataclysm",
@@ -1150,7 +1150,7 @@
       "id": "cataclysm",
       "level": "6",
       "initiative": "26",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "ch-back",
@@ -1159,7 +1159,7 @@
       "id": "chback",
       "level": "-",
       "initiative": "-",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "clear the way",
@@ -1168,7 +1168,7 @@
       "id": "cleartheway",
       "level": "3",
       "initiative": "43",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "crater",
@@ -1177,7 +1177,7 @@
       "id": "crater",
       "level": "1",
       "initiative": "61",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "crushing grasp",
@@ -1186,7 +1186,7 @@
       "id": "crushinggrasp",
       "level": "1",
       "initiative": "35",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "dig pit",
@@ -1195,7 +1195,7 @@
       "id": "digpit",
       "level": "6",
       "initiative": "78",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "dirt tornado",
@@ -1204,7 +1204,7 @@
       "id": "dirttornado",
       "level": "1",
       "initiative": "82",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "earthen clod",
@@ -1213,7 +1213,7 @@
       "id": "earthenclod",
       "level": "1",
       "initiative": "38",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "explosive punch",
@@ -1222,7 +1222,7 @@
       "id": "explosivepunch",
       "level": "2",
       "initiative": "28",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "forceful storm",
@@ -1231,7 +1231,7 @@
       "id": "forcefulstorm",
       "level": "x",
       "initiative": "53",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "heaving swing",
@@ -1240,7 +1240,7 @@
       "id": "heavingswing",
       "level": "x",
       "initiative": "57",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "kinetic assault",
@@ -1249,7 +1249,7 @@
       "id": "kineticassault",
       "level": "4",
       "initiative": "19",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "lumbering bash",
@@ -1258,7 +1258,7 @@
       "id": "lumberingbash",
       "level": "8",
       "initiative": "85",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "massive boulder",
@@ -1267,7 +1267,7 @@
       "id": "massiveboulder",
       "level": "1",
       "initiative": "87",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "meteor",
@@ -1276,7 +1276,7 @@
       "id": "meteor",
       "level": "7",
       "initiative": "23",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "nature's lift",
@@ -1285,7 +1285,7 @@
       "id": "natureslift",
       "level": "x",
       "initiative": "64",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "opposing strike",
@@ -1294,7 +1294,7 @@
       "id": "opposingstrike",
       "level": "1",
       "initiative": "46",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "petrify",
@@ -1303,7 +1303,7 @@
       "id": "petrify",
       "level": "5",
       "initiative": "47",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "pulverize",
@@ -1312,7 +1312,7 @@
       "id": "pulverize",
       "level": "9",
       "initiative": "31",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "rock slide",
@@ -1321,7 +1321,7 @@
       "id": "rockslide",
       "level": "4",
       "initiative": "81",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "rock tunnel",
@@ -1330,7 +1330,7 @@
       "id": "rocktunnel",
       "level": "1",
       "initiative": "41",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "rocky end",
@@ -1339,7 +1339,7 @@
       "id": "rockyend",
       "level": "8",
       "initiative": "37",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "rumbling advance",
@@ -1348,7 +1348,7 @@
       "id": "rumblingadvance",
       "level": "1",
       "initiative": "29",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "sentient growth",
@@ -1357,7 +1357,7 @@
       "id": "sentientgrowth",
       "level": "2",
       "initiative": "78",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "stone pummel",
@@ -1366,7 +1366,7 @@
       "id": "stonepummel",
       "level": "5",
       "initiative": "32",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "unstable upheaval",
@@ -1375,7 +1375,7 @@
       "id": "unstableupheaval",
       "level": "1",
       "initiative": "13",
-      "classid": "ch",
+      "classid": "ch"
     },
     {
       "name": "a moment's peace",
@@ -1384,7 +1384,7 @@
       "id": "amomentspeace",
       "level": "1",
       "initiative": "88",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "camouflage",
@@ -1393,7 +1393,7 @@
       "id": "camouflage",
       "level": "6",
       "initiative": "23",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "crashing wave",
@@ -1402,7 +1402,7 @@
       "id": "crashingwave",
       "level": "7",
       "initiative": "22",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "crippling noose",
@@ -1411,7 +1411,7 @@
       "id": "cripplingnoose",
       "level": "1",
       "initiative": "57",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "darkened skies",
@@ -1420,7 +1420,7 @@
       "id": "darkenedskies",
       "level": "3",
       "initiative": "25",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "detonation",
@@ -1429,7 +1429,7 @@
       "id": "detonation",
       "level": "1",
       "initiative": "54",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "ds-back",
@@ -1438,7 +1438,7 @@
       "id": "dsback",
       "level": "-",
       "initiative": "-",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "expose",
@@ -1447,7 +1447,7 @@
       "id": "expose",
       "level": "2",
       "initiative": "13",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "felling swoop",
@@ -1456,7 +1456,7 @@
       "id": "fellingswoop",
       "level": "1",
       "initiative": "75",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "feral instincts",
@@ -1465,7 +1465,7 @@
       "id": "feralinstincts",
       "level": "8",
       "initiative": "35",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "flight of flame",
@@ -1474,7 +1474,7 @@
       "id": "flightofflame",
       "level": "4",
       "initiative": "53",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "foot snare",
@@ -1483,7 +1483,7 @@
       "id": "footsnare",
       "level": "1",
       "initiative": "61",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "fresh kill",
@@ -1492,7 +1492,7 @@
       "id": "freshkill",
       "level": "x",
       "initiative": "65",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "frightening curse",
@@ -1501,7 +1501,7 @@
       "id": "frighteningcurse",
       "level": "1",
       "initiative": "37",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "impending end",
@@ -1510,7 +1510,7 @@
       "id": "impendingend",
       "level": "7",
       "initiative": "47",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "inescapable fate",
@@ -1519,7 +1519,7 @@
       "id": "inescapablefate",
       "level": "5",
       "initiative": "97",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "lead to slaughter",
@@ -1528,7 +1528,7 @@
       "id": "leadtoslaughter",
       "level": "9",
       "initiative": "40",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "multi-pronged assault",
@@ -1537,7 +1537,7 @@
       "id": "multiprongedassault",
       "level": "1",
       "initiative": "14",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "nature's hunger",
@@ -1546,7 +1546,7 @@
       "id": "natureshunger",
       "level": "6",
       "initiative": "82",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "predator and prey",
@@ -1555,7 +1555,7 @@
       "id": "predatorandprey",
       "level": "9",
       "initiative": "86",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "press the attack",
@@ -1564,7 +1564,7 @@
       "id": "presstheattack",
       "level": "3",
       "initiative": "10",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "race to the grave",
@@ -1573,7 +1573,7 @@
       "id": "racetothegrave",
       "level": "1",
       "initiative": "09",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "rain of arrows",
@@ -1582,7 +1582,7 @@
       "id": "rainofarrows",
       "level": "1",
       "initiative": "33",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "relentless offensive",
@@ -1591,7 +1591,7 @@
       "id": "relentlessoffensive",
       "level": "2",
       "initiative": "52",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "rising momentum",
@@ -1600,7 +1600,7 @@
       "id": "risingmomentum",
       "level": "8",
       "initiative": "12",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "sap life",
@@ -1609,7 +1609,7 @@
       "id": "saplife",
       "level": "x",
       "initiative": "14",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "singular focus",
@@ -1618,7 +1618,7 @@
       "id": "singularfocus",
       "level": "4",
       "initiative": "28",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "solid bow",
@@ -1627,7 +1627,7 @@
       "id": "solidbow",
       "level": "1",
       "initiative": "31",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "swift trickery",
@@ -1636,7 +1636,7 @@
       "id": "swifttrickery",
       "level": "1",
       "initiative": "11",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "the hunt begins",
@@ -1645,7 +1645,7 @@
       "id": "thehuntbegins",
       "level": "x",
       "initiative": "71",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "vital charge",
@@ -1654,7 +1654,7 @@
       "id": "vitalcharge",
       "level": "1",
       "initiative": "78",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "wild command",
@@ -1663,7 +1663,7 @@
       "id": "wildcommand",
       "level": "5",
       "initiative": "46",
-      "classid": "ds",
+      "classid": "ds"
     },
     {
       "name": "boiling arc",
@@ -1672,7 +1672,7 @@
       "id": "boilingarc",
       "level": "2",
       "initiative": "47",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "brilliant flash",
@@ -1681,7 +1681,7 @@
       "id": "brilliantflash",
       "level": "x",
       "initiative": "67",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "burial",
@@ -1690,7 +1690,7 @@
       "id": "burial",
       "level": "3",
       "initiative": "65",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "chain lightning",
@@ -1699,7 +1699,7 @@
       "id": "chainlightning",
       "level": "3",
       "initiative": "41",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "crystallizing blast",
@@ -1708,7 +1708,7 @@
       "id": "crystallizingblast",
       "level": "2",
       "initiative": "67",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "el-back",
@@ -1717,7 +1717,7 @@
       "id": "elback",
       "level": "-",
       "initiative": "-",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "elemental aegis",
@@ -1726,7 +1726,7 @@
       "id": "elementalaegis",
       "level": "8",
       "initiative": "14",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "encompassing shadow",
@@ -1735,7 +1735,7 @@
       "id": "encompassingshadow",
       "level": "x",
       "initiative": "23",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "eternal equilibrium",
@@ -1744,7 +1744,7 @@
       "id": "eternalequilibrium",
       "level": "9",
       "initiative": "27",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "ethereal manifestation",
@@ -1753,7 +1753,7 @@
       "id": "etherealmanifestation",
       "level": "9",
       "initiative": "98",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "eye of the hurricane",
@@ -1762,7 +1762,7 @@
       "id": "eyeofthehurricane",
       "level": "6",
       "initiative": "29",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "formless power",
@@ -1771,7 +1771,7 @@
       "id": "formlesspower",
       "level": "1",
       "initiative": "45",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "frigid torrent",
@@ -1780,7 +1780,7 @@
       "id": "frigidtorrent",
       "level": "1",
       "initiative": "35",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "gravel vortex",
@@ -1789,7 +1789,7 @@
       "id": "gravelvortex",
       "level": "4",
       "initiative": "62",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "ice spikes",
@@ -1798,7 +1798,7 @@
       "id": "icespikes",
       "level": "1",
       "initiative": "40",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "infernal vortex",
@@ -1807,7 +1807,7 @@
       "id": "infernalvortex",
       "level": "1",
       "initiative": "17",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "lava eruption",
@@ -1816,7 +1816,7 @@
       "id": "lavaeruption",
       "level": "1",
       "initiative": "19",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "malleable evocation",
@@ -1825,7 +1825,7 @@
       "id": "malleableevocation",
       "level": "x",
       "initiative": "50",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "obsidian shards",
@@ -1834,7 +1834,7 @@
       "id": "obsidianshards",
       "level": "5",
       "initiative": "36",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "pragmatic reinforcement",
@@ -1843,7 +1843,7 @@
       "id": "pragmaticreinforcement",
       "level": "7",
       "initiative": "56",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "primal duality",
@@ -1852,7 +1852,7 @@
       "id": "primalduality",
       "level": "4",
       "initiative": "15",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "pure augmentation",
@@ -1861,7 +1861,7 @@
       "id": "pureaugmentation",
       "level": "1",
       "initiative": "48",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "raw enhancement",
@@ -1870,7 +1870,7 @@
       "id": "rawenhancement",
       "level": "1",
       "initiative": "48",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "shaping the ether",
@@ -1879,7 +1879,7 @@
       "id": "shapingtheether",
       "level": "1",
       "initiative": "54",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "simulacrum",
@@ -1888,7 +1888,7 @@
       "id": "simulacrum",
       "level": "6",
       "initiative": "94",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "stoking hail",
@@ -1897,7 +1897,7 @@
       "id": "stokinghail",
       "level": "1",
       "initiative": "28",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "tremulant cyclone",
@@ -1906,7 +1906,7 @@
       "id": "tremulantcyclone",
       "level": "1",
       "initiative": "26",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "vengeance",
@@ -1915,7 +1915,7 @@
       "id": "vengeance",
       "level": "7",
       "initiative": "33",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "volatile consumption",
@@ -1924,7 +1924,7 @@
       "id": "volatileconsumption",
       "level": "8",
       "initiative": "64",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "winter's edge",
@@ -1933,7 +1933,7 @@
       "id": "wintersedge",
       "level": "5",
       "initiative": "43",
-      "classid": "el",
+      "classid": "el"
     },
     {
       "name": "brain leech",
@@ -1942,7 +1942,7 @@
       "id": "brainleech",
       "level": "3",
       "initiative": "16",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "corrupting embrace",
@@ -1951,7 +1951,7 @@
       "id": "corruptingembrace",
       "level": "6",
       "initiative": "39",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "cranium overload",
@@ -1960,7 +1960,7 @@
       "id": "craniumoverload",
       "level": "4",
       "initiative": "05",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "dark frenzy",
@@ -1969,7 +1969,7 @@
       "id": "darkfrenzy",
       "level": "6",
       "initiative": "10",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "domination",
@@ -1978,7 +1978,7 @@
       "id": "domination",
       "level": "8",
       "initiative": "13",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "empathetic assault",
@@ -1987,7 +1987,7 @@
       "id": "empatheticassault",
       "level": "1",
       "initiative": "11",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "fearsome blade",
@@ -1996,7 +1996,7 @@
       "id": "fearsomeblade",
       "level": "1",
       "initiative": "27",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "feedback loop",
@@ -2005,7 +2005,7 @@
       "id": "feedbackloop",
       "level": "1",
       "initiative": "79",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "frigid apparition",
@@ -2014,7 +2014,7 @@
       "id": "frigidapparition",
       "level": "x",
       "initiative": "29",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "frozen mind",
@@ -2023,7 +2023,7 @@
       "id": "frozenmind",
       "level": "5",
       "initiative": "81",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "gnawing horde",
@@ -2032,7 +2032,7 @@
       "id": "gnawinghorde",
       "level": "1",
       "initiative": "82",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "hostile takeover",
@@ -2041,7 +2041,7 @@
       "id": "hostiletakeover",
       "level": "2",
       "initiative": "09",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "into the night",
@@ -2050,7 +2050,7 @@
       "id": "intothenight",
       "level": "1",
       "initiative": "14",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "many as one",
@@ -2059,7 +2059,7 @@
       "id": "manyasone",
       "level": "9",
       "initiative": "91",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "mass hysteria",
@@ -2068,7 +2068,7 @@
       "id": "masshysteria",
       "level": "5",
       "initiative": "12",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "mt-back",
@@ -2077,7 +2077,7 @@
       "id": "mtback",
       "level": "-",
       "initiative": "-",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "parasitic influence",
@@ -2086,7 +2086,7 @@
       "id": "parasiticinfluence",
       "level": "1",
       "initiative": "71",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "perverse edge",
@@ -2095,7 +2095,7 @@
       "id": "perverseedge",
       "level": "1",
       "initiative": "08",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "phantasmal killer",
@@ -2104,7 +2104,7 @@
       "id": "phantasmalkiller",
       "level": "9",
       "initiative": "67",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "pilfer",
@@ -2113,7 +2113,7 @@
       "id": "pilfer",
       "level": "4",
       "initiative": "68",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "possession",
@@ -2122,7 +2122,7 @@
       "id": "possession",
       "level": "x",
       "initiative": "51",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "psychic projection",
@@ -2131,7 +2131,7 @@
       "id": "psychicprojection",
       "level": "7",
       "initiative": "92",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "scurry",
@@ -2140,7 +2140,7 @@
       "id": "scurry",
       "level": "1",
       "initiative": "20",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "shared nightmare",
@@ -2149,7 +2149,7 @@
       "id": "sharednightmare",
       "level": "8",
       "initiative": "07",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "silent scream",
@@ -2158,7 +2158,7 @@
       "id": "silentscream",
       "level": "3",
       "initiative": "73",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "submissive affliction",
@@ -2167,7 +2167,7 @@
       "id": "submissiveaffliction",
       "level": "1",
       "initiative": "48",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "the mind's weakness",
@@ -2176,7 +2176,7 @@
       "id": "themindsweakness",
       "level": "1",
       "initiative": "75",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "vicious blood",
@@ -2185,7 +2185,7 @@
       "id": "viciousblood",
       "level": "7",
       "initiative": "83",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "withering claw",
@@ -2194,7 +2194,7 @@
       "id": "witheringclaw",
       "level": "x",
       "initiative": "77",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "wretched creature",
@@ -2203,7 +2203,7 @@
       "id": "wretchedcreature",
       "level": "2",
       "initiative": "84",
-      "classid": "mt",
+      "classid": "mt"
     },
     {
       "name": "angel of death",
@@ -2212,7 +2212,7 @@
       "id": "angelofdeath",
       "level": "9",
       "initiative": "38",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "armor of the night",
@@ -2221,7 +2221,7 @@
       "id": "armorofthenight",
       "level": "3",
       "initiative": "23",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "black arrow",
@@ -2230,7 +2230,7 @@
       "id": "blackarrow",
       "level": "5",
       "initiative": "11",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "black knives",
@@ -2239,7 +2239,7 @@
       "id": "blackknives",
       "level": "1",
       "initiative": "44",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "claws of the night",
@@ -2248,7 +2248,7 @@
       "id": "clawsofthenight",
       "level": "5",
       "initiative": "26",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "cloak of shade",
@@ -2257,7 +2257,7 @@
       "id": "cloakofshade",
       "level": "1",
       "initiative": "13",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "concealed dominance",
@@ -2266,7 +2266,7 @@
       "id": "concealeddominance",
       "level": "x",
       "initiative": "35",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "dancing shadows",
@@ -2275,7 +2275,7 @@
       "id": "dancingshadows",
       "level": "1",
       "initiative": "09",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "dark cloud",
@@ -2284,7 +2284,7 @@
       "id": "darkcloud",
       "level": "x",
       "initiative": "74",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "doomed breeze",
@@ -2293,7 +2293,7 @@
       "id": "doomedbreeze",
       "level": "1",
       "initiative": "15",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "empowering void",
@@ -2302,7 +2302,7 @@
       "id": "empoweringvoid",
       "level": "1",
       "initiative": "21",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "enervating wound",
@@ -2311,7 +2311,7 @@
       "id": "enervatingwound",
       "level": "1",
       "initiative": "77",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "eyes of the night",
@@ -2320,7 +2320,7 @@
       "id": "eyesofthenight",
       "level": "7",
       "initiative": "35",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "gloom darts",
@@ -2329,7 +2329,7 @@
       "id": "gloomdarts",
       "level": "8",
       "initiative": "78",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "grim sustenance",
@@ -2338,7 +2338,7 @@
       "id": "grimsustenance",
       "level": "4",
       "initiative": "29",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "lurking ruin",
@@ -2347,7 +2347,7 @@
       "id": "lurkingruin",
       "level": "8",
       "initiative": "18",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "nightfall",
@@ -2356,7 +2356,7 @@
       "id": "nightfall",
       "level": "4",
       "initiative": "73",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "ns-back",
@@ -2365,7 +2365,7 @@
       "id": "nsback",
       "level": "-",
       "initiative": "-",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "prepare for the kill",
@@ -2374,7 +2374,7 @@
       "id": "prepareforthekill",
       "level": "2",
       "initiative": "07",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "quiet frenzy",
@@ -2383,7 +2383,7 @@
       "id": "quietfrenzy",
       "level": "7",
       "initiative": "19",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "silent force",
@@ -2392,7 +2392,7 @@
       "id": "silentforce",
       "level": "1",
       "initiative": "91",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "smoke step",
@@ -2401,7 +2401,7 @@
       "id": "smokestep",
       "level": "1",
       "initiative": "28",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "soulfire",
@@ -2410,7 +2410,7 @@
       "id": "soulfire",
       "level": "2",
       "initiative": "85",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "spirit of the night",
@@ -2419,7 +2419,7 @@
       "id": "spiritofthenight",
       "level": "1",
       "initiative": "84",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "swallowed by fear",
@@ -2428,7 +2428,7 @@
       "id": "swallowedbyfear",
       "level": "6",
       "initiative": "90",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "terror blade",
@@ -2437,7 +2437,7 @@
       "id": "terrorblade",
       "level": "3",
       "initiative": "17",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "unseen dread",
@@ -2446,7 +2446,7 @@
       "id": "unseendread",
       "level": "6",
       "initiative": "05",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "voice of the night",
@@ -2455,7 +2455,7 @@
       "id": "voiceofthenight",
       "level": "9",
       "initiative": "06",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "wings of the night",
@@ -2464,7 +2464,7 @@
       "id": "wingsofthenight",
       "level": "x",
       "initiative": "24",
-      "classid": "ns",
+      "classid": "ns"
     },
     {
       "name": "accelerated end",
@@ -2473,7 +2473,7 @@
       "id": "acceleratedend",
       "level": "5",
       "initiative": "62",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "airborne toxin",
@@ -2482,7 +2482,7 @@
       "id": "airbornetoxin",
       "level": "7",
       "initiative": "57",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "baneful hex",
@@ -2491,7 +2491,7 @@
       "id": "banefulhex",
       "level": "7",
       "initiative": "33",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "biting gnats",
@@ -2500,7 +2500,7 @@
       "id": "bitinggnats",
       "level": "1",
       "initiative": "47",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "black tides",
@@ -2509,7 +2509,7 @@
       "id": "blacktides",
       "level": "6",
       "initiative": "37",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "blistering vortex",
@@ -2518,7 +2518,7 @@
       "id": "blisteringvortex",
       "level": "x",
       "initiative": "21",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "convert the flock",
@@ -2527,7 +2527,7 @@
       "id": "converttheflock",
       "level": "9",
       "initiative": "29",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "creeping curse",
@@ -2536,7 +2536,7 @@
       "id": "creepingcurse",
       "level": "1",
       "initiative": "72",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "epidemic",
@@ -2545,7 +2545,7 @@
       "id": "epidemic",
       "level": "x",
       "initiative": "43",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "fetid flurry",
@@ -2554,7 +2554,7 @@
       "id": "fetidflurry",
       "level": "3",
       "initiative": "26",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "foul wind",
@@ -2563,7 +2563,7 @@
       "id": "foulwind",
       "level": "1",
       "initiative": "35",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "gathering doom",
@@ -2572,7 +2572,7 @@
       "id": "gatheringdoom",
       "level": "1",
       "initiative": "76",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "grasping vermin",
@@ -2581,7 +2581,7 @@
       "id": "graspingvermin",
       "level": "1",
       "initiative": "69",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "grim bargain",
@@ -2590,7 +2590,7 @@
       "id": "grimbargain",
       "level": "8",
       "initiative": "46",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "mass extinction",
@@ -2599,7 +2599,7 @@
       "id": "massextinction",
       "level": "9",
       "initiative": "94",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "nightmarish affliction",
@@ -2608,7 +2608,7 @@
       "id": "nightmarishaffliction",
       "level": "4",
       "initiative": "43",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "paralyzing bite",
@@ -2617,7 +2617,7 @@
       "id": "paralyzingbite",
       "level": "1",
       "initiative": "31",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "ph-back",
@@ -2626,7 +2626,7 @@
       "id": "phback",
       "level": "-",
       "initiative": "-",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "rot maggots",
@@ -2635,7 +2635,7 @@
       "id": "rotmaggots",
       "level": "2",
       "initiative": "69",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "scattered terror",
@@ -2644,7 +2644,7 @@
       "id": "scatteredterror",
       "level": "1",
       "initiative": "11",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "spreading scourge",
@@ -2653,7 +2653,7 @@
       "id": "spreadingscourge",
       "level": "8",
       "initiative": "71",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "spread the plague",
@@ -2662,7 +2662,7 @@
       "id": "spreadtheplague",
       "level": "1",
       "initiative": "27",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "stinging cloud",
@@ -2671,7 +2671,7 @@
       "id": "stingingcloud",
       "level": "6",
       "initiative": "66",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "storm of wings",
@@ -2680,7 +2680,7 @@
       "id": "stormofwings",
       "level": "4",
       "initiative": "91",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "succumb to the gift",
@@ -2689,7 +2689,7 @@
       "id": "succumbtothegift",
       "level": "3",
       "initiative": "70",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "under the skin",
@@ -2698,7 +2698,7 @@
       "id": "undertheskin",
       "level": "2",
       "initiative": "59",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "vile pestilence",
@@ -2707,7 +2707,7 @@
       "id": "vilepestilence",
       "level": "1",
       "initiative": "61",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "virulent strain",
@@ -2716,7 +2716,7 @@
       "id": "virulentstrain",
       "level": "x",
       "initiative": "50",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "willing sacrifice",
@@ -2725,7 +2725,7 @@
       "id": "willingsacrifice",
       "level": "5",
       "initiative": "84",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "winged congregation",
@@ -2734,7 +2734,7 @@
       "id": "wingedcongregation",
       "level": "1",
       "initiative": "16",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "wretched swarm",
@@ -2743,7 +2743,7 @@
       "id": "wretchedswarm",
       "level": "1",
       "initiative": "84",
-      "classid": "ph",
+      "classid": "ph"
     },
     {
       "name": "bag of holding",
@@ -2752,7 +2752,7 @@
       "id": "bagofholding",
       "level": "9",
       "initiative": "91",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "bladed boomerang",
@@ -2761,7 +2761,7 @@
       "id": "bladedboomerang",
       "level": "2",
       "initiative": "40",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "catastrophic bomb",
@@ -2770,7 +2770,7 @@
       "id": "catastrophicbomb",
       "level": "6",
       "initiative": "46",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "cleaving axe",
@@ -2779,7 +2779,7 @@
       "id": "cleavingaxe",
       "level": "1",
       "initiative": "52",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "continual supply",
@@ -2788,7 +2788,7 @@
       "id": "continualsupply",
       "level": "3",
       "initiative": "86",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "crippling bow",
@@ -2797,7 +2797,7 @@
       "id": "cripplingbow",
       "level": "1",
       "initiative": "44",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "crushing hammer",
@@ -2806,7 +2806,7 @@
       "id": "crushinghammer",
       "level": "x",
       "initiative": "17",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "fortified position",
@@ -2815,7 +2815,7 @@
       "id": "fortifiedposition",
       "level": "8",
       "initiative": "10",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "giant club",
@@ -2824,7 +2824,7 @@
       "id": "giantclub",
       "level": "4",
       "initiative": "61",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "hastened step",
@@ -2833,7 +2833,7 @@
       "id": "hastenedstep",
       "level": "1",
       "initiative": "26",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "impaling spear",
@@ -2842,7 +2842,7 @@
       "id": "impalingspear",
       "level": "1",
       "initiative": "48",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "iron bulwark",
@@ -2851,7 +2851,7 @@
       "id": "ironbulwark",
       "level": "1",
       "initiative": "19",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "oversized pack",
@@ -2860,7 +2860,7 @@
       "id": "oversizedpack",
       "level": "1",
       "initiative": "81",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "portable ballista",
@@ -2869,7 +2869,7 @@
       "id": "portableballista",
       "level": "8",
       "initiative": "41",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "proficiency",
@@ -2878,7 +2878,7 @@
       "id": "proficiency",
       "level": "1",
       "initiative": "62",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "qm-back",
@@ -2887,7 +2887,7 @@
       "id": "qmback",
       "level": "-",
       "initiative": "-",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "quiver of arrows",
@@ -2896,7 +2896,7 @@
       "id": "quiverofarrows",
       "level": "6",
       "initiative": "31",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "reforge",
@@ -2905,7 +2905,7 @@
       "id": "reforge",
       "level": "2",
       "initiative": "95",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "refreshment",
@@ -2914,7 +2914,7 @@
       "id": "refreshment",
       "level": "7",
       "initiative": "89",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "reinforced steel",
@@ -2923,7 +2923,7 @@
       "id": "reinforcedsteel",
       "level": "5",
       "initiative": "12",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "reserved energy",
@@ -2932,7 +2932,7 @@
       "id": "reservedenergy",
       "level": "x",
       "initiative": "88",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "restock",
@@ -2941,7 +2941,7 @@
       "id": "restock",
       "level": "1",
       "initiative": "73",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "scroll of annihilation",
@@ -2950,7 +2950,7 @@
       "id": "scrollofannihilation",
       "level": "9",
       "initiative": "56",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "scroll of blizzards",
@@ -2959,7 +2959,7 @@
       "id": "scrollofblizzards",
       "level": "7",
       "initiative": "46",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "scroll of judgment",
@@ -2968,7 +2968,7 @@
       "id": "scrollofjudgment",
       "level": "5",
       "initiative": "66",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "scroll of lightning",
@@ -2977,7 +2977,7 @@
       "id": "scrolloflightning",
       "level": "3",
       "initiative": "77",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "scroll of recall",
@@ -2986,7 +2986,7 @@
       "id": "scrollofrecall",
       "level": "x",
       "initiative": "98",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "sharpening kit",
@@ -2995,7 +2995,7 @@
       "id": "sharpeningkit",
       "level": "1",
       "initiative": "23",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "side pouch",
@@ -3004,7 +3004,7 @@
       "id": "sidepouch",
       "level": "4",
       "initiative": "84",
-      "classid": "qm",
+      "classid": "qm"
     },
     {
       "name": "amputate",
@@ -3013,7 +3013,7 @@
       "id": "amputate",
       "level": "5",
       "initiative": "86",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "battlefield medicine",
@@ -3022,7 +3022,7 @@
       "id": "battlefieldmedicine",
       "level": "1",
       "initiative": "83",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "bedside manner",
@@ -3031,7 +3031,7 @@
       "id": "bedsidemanner",
       "level": "8",
       "initiative": "05",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "blood transfusion",
@@ -3040,7 +3040,7 @@
       "id": "bloodtransfusion",
       "level": "4",
       "initiative": "52",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "bloody saw",
@@ -3049,7 +3049,7 @@
       "id": "bloodysaw",
       "level": "1",
       "initiative": "25",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "booster shot",
@@ -3058,7 +3058,7 @@
       "id": "boostershot",
       "level": "1",
       "initiative": "42",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "curative mixture",
@@ -3067,7 +3067,7 @@
       "id": "curativemixture",
       "level": "1",
       "initiative": "19",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "do no harm",
@@ -3076,7 +3076,7 @@
       "id": "donoharm",
       "level": "4",
       "initiative": "76",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "euthanize",
@@ -3085,7 +3085,7 @@
       "id": "euthanize",
       "level": "6",
       "initiative": "27",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "first aid",
@@ -3094,7 +3094,7 @@
       "id": "firstaid",
       "level": "1",
       "initiative": "08",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "gentleman's anger",
@@ -3103,7 +3103,7 @@
       "id": "gentlemansanger",
       "level": "8",
       "initiative": "29",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "grisly trauma",
@@ -3112,7 +3112,7 @@
       "id": "grislytrauma",
       "level": "9",
       "initiative": "81",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "hamstring",
@@ -3121,7 +3121,7 @@
       "id": "hamstring",
       "level": "2",
       "initiative": "62",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "hand of the surgeon",
@@ -3130,7 +3130,7 @@
       "id": "handofthesurgeon",
       "level": "1",
       "initiative": "62",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "hold back the pain",
@@ -3139,7 +3139,7 @@
       "id": "holdbackthepain",
       "level": "1",
       "initiative": "57",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "large medical pack",
@@ -3148,7 +3148,7 @@
       "id": "largemedicalpack",
       "level": "m",
       "initiative": "30",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "master physician",
@@ -3157,7 +3157,7 @@
       "id": "masterphysician",
       "level": "7",
       "initiative": "49",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "medical pack",
@@ -3166,7 +3166,7 @@
       "id": "medicalpack",
       "level": "m",
       "initiative": "50",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "mobile response",
@@ -3175,7 +3175,7 @@
       "id": "mobileresponse",
       "level": "1",
       "initiative": "12",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "precaution",
@@ -3184,7 +3184,7 @@
       "id": "precaution",
       "level": "2",
       "initiative": "09",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "prep for surgery",
@@ -3193,7 +3193,7 @@
       "id": "prepforsurgery",
       "level": "9",
       "initiative": "22",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "prescription",
@@ -3202,7 +3202,7 @@
       "id": "prescription",
       "level": "6",
       "initiative": "06",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "prevention is key",
@@ -3211,7 +3211,7 @@
       "id": "preventioniskey",
       "level": "x",
       "initiative": "13",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "regenerative tissue",
@@ -3220,7 +3220,7 @@
       "id": "regenerativetissue",
       "level": "3",
       "initiative": "46",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "research the cure",
@@ -3229,7 +3229,7 @@
       "id": "researchthecure",
       "level": "5",
       "initiative": "40",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "sb-back",
@@ -3238,7 +3238,7 @@
       "id": "sbback",
       "level": "-",
       "initiative": "-",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "surgeon's satchel",
@@ -3247,7 +3247,7 @@
       "id": "surgeonssatchel",
       "level": "7",
       "initiative": "10",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "syringe",
@@ -3256,7 +3256,7 @@
       "id": "syringe",
       "level": "1",
       "initiative": "15",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "teamwork",
@@ -3265,7 +3265,7 @@
       "id": "teamwork",
       "level": "x",
       "initiative": "89",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "triage",
@@ -3274,7 +3274,7 @@
       "id": "triage",
       "level": "1",
       "initiative": "53",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "vaccine",
@@ -3283,7 +3283,7 @@
       "id": "vaccine",
       "level": "x",
       "initiative": "44",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "vital strike",
@@ -3292,7 +3292,7 @@
       "id": "vitalstrike",
       "level": "3",
       "initiative": "38",
-      "classid": "sb",
+      "classid": "sb"
     },
     {
       "name": "backstab",
@@ -3301,7 +3301,7 @@
       "id": "backstab",
       "level": "1",
       "initiative": "06",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "burning oil",
@@ -3310,7 +3310,7 @@
       "id": "burningoil",
       "level": "6",
       "initiative": "95",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "crippling poison",
@@ -3319,7 +3319,7 @@
       "id": "cripplingpoison",
       "level": "6",
       "initiative": "30",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "cull the weak",
@@ -3328,7 +3328,7 @@
       "id": "culltheweak",
       "level": "5",
       "initiative": "16",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "duelist's advance",
@@ -3337,7 +3337,7 @@
       "id": "duelistsadvance",
       "level": "3",
       "initiative": "16",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "flanking strike",
@@ -3346,7 +3346,7 @@
       "id": "flankingstrike",
       "level": "1",
       "initiative": "04",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "flintlock",
@@ -3355,7 +3355,7 @@
       "id": "flintlock",
       "level": "2",
       "initiative": "90",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "flurry of blades",
@@ -3364,7 +3364,7 @@
       "id": "flurryofblades",
       "level": "4",
       "initiative": "03",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "gruesome advantage",
@@ -3373,7 +3373,7 @@
       "id": "gruesomeadvantage",
       "level": "4",
       "initiative": "62",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "hidden daggers",
@@ -3382,7 +3382,7 @@
       "id": "hiddendaggers",
       "level": "3",
       "initiative": "85",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "long con",
@@ -3391,7 +3391,7 @@
       "id": "longcon",
       "level": "9",
       "initiative": "02",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "open wound",
@@ -3400,7 +3400,7 @@
       "id": "openwound",
       "level": "2",
       "initiative": "11",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "pain's end",
@@ -3409,7 +3409,7 @@
       "id": "painsend",
       "level": "8",
       "initiative": "38",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "quick hands",
@@ -3418,7 +3418,7 @@
       "id": "quickhands",
       "level": "1",
       "initiative": "64",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "sc-back",
@@ -3427,7 +3427,7 @@
       "id": "scback",
       "level": "-",
       "initiative": "-",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "single out",
@@ -3436,7 +3436,7 @@
       "id": "singleout",
       "level": "1",
       "initiative": "86",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "sinister opportunity",
@@ -3445,7 +3445,7 @@
       "id": "sinisteropportunity",
       "level": "x",
       "initiative": "93",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "smoke bomb",
@@ -3454,7 +3454,7 @@
       "id": "smokebomb",
       "level": "1",
       "initiative": "12",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "special mixture",
@@ -3463,7 +3463,7 @@
       "id": "specialmixture",
       "level": "1",
       "initiative": "33",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "spring the trap",
@@ -3472,7 +3472,7 @@
       "id": "springthetrap",
       "level": "7",
       "initiative": "13",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "stick to the shadows",
@@ -3481,7 +3481,7 @@
       "id": "sticktotheshadows",
       "level": "7",
       "initiative": "26",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "stiletto storm",
@@ -3490,7 +3490,7 @@
       "id": "stilettostorm",
       "level": "8",
       "initiative": "80",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "swift bow",
@@ -3499,7 +3499,7 @@
       "id": "swiftbow",
       "level": "x",
       "initiative": "36",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "thief's knack",
@@ -3508,7 +3508,7 @@
       "id": "thiefsknack",
       "level": "1",
       "initiative": "23",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "throwing knives",
@@ -3517,7 +3517,7 @@
       "id": "throwingknives",
       "level": "1",
       "initiative": "10",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "trickster's reversal",
@@ -3526,7 +3526,7 @@
       "id": "trickstersreversal",
       "level": "x",
       "initiative": "09",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "venom shiv",
@@ -3535,7 +3535,7 @@
       "id": "venomshiv",
       "level": "1",
       "initiative": "60",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "visage of the inevitable",
@@ -3544,7 +3544,7 @@
       "id": "visageoftheinevitable",
       "level": "5",
       "initiative": "88",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "watch it burn",
@@ -3553,7 +3553,7 @@
       "id": "watchitburn",
       "level": "9",
       "initiative": "98",
-      "classid": "sc",
+      "classid": "sc"
     },
     {
       "name": "angelic ascension",
@@ -3562,7 +3562,7 @@
       "id": "angelicascension",
       "level": "9",
       "initiative": "87",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "beacon of light",
@@ -3571,7 +3571,7 @@
       "id": "beaconoflight",
       "level": "x",
       "initiative": "36",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "bright aegis",
@@ -3580,7 +3580,7 @@
       "id": "brightaegis",
       "level": "7",
       "initiative": "14",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "brilliant prayer",
@@ -3589,7 +3589,7 @@
       "id": "brilliantprayer",
       "level": "1",
       "initiative": "27",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "burning flash",
@@ -3598,7 +3598,7 @@
       "id": "burningflash",
       "level": "3",
       "initiative": "51",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "cautious advance",
@@ -3607,7 +3607,7 @@
       "id": "cautiousadvance",
       "level": "1",
       "initiative": "23",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "cleansing force",
@@ -3616,7 +3616,7 @@
       "id": "cleansingforce",
       "level": "8",
       "initiative": "25",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "daybreak",
@@ -3625,7 +3625,7 @@
       "id": "daybreak",
       "level": "x",
       "initiative": "85",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "dazzling charge",
@@ -3634,7 +3634,7 @@
       "id": "dazzlingcharge",
       "level": "1",
       "initiative": "57",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "defensive stance",
@@ -3643,7 +3643,7 @@
       "id": "defensivestance",
       "level": "1",
       "initiative": "65",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "divine intervention",
@@ -3652,7 +3652,7 @@
       "id": "divineintervention",
       "level": "9",
       "initiative": "09",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "empowering command",
@@ -3661,7 +3661,7 @@
       "id": "empoweringcommand",
       "level": "1",
       "initiative": "32",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "engulfing radiance",
@@ -3670,7 +3670,7 @@
       "id": "engulfingradiance",
       "level": "4",
       "initiative": "20",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "glorious bolt",
@@ -3679,7 +3679,7 @@
       "id": "gloriousbolt",
       "level": "x",
       "initiative": "39",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "hammer blow",
@@ -3688,7 +3688,7 @@
       "id": "hammerblow",
       "level": "1",
       "initiative": "55",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "holy strike",
@@ -3697,7 +3697,7 @@
       "id": "holystrike",
       "level": "1",
       "initiative": "85",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "illuminate the target",
@@ -3706,7 +3706,7 @@
       "id": "illuminatethetarget",
       "level": "6",
       "initiative": "91",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "inspiring sanctity",
@@ -3715,7 +3715,7 @@
       "id": "inspiringsanctity",
       "level": "8",
       "initiative": "79",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "lay on hands",
@@ -3724,7 +3724,7 @@
       "id": "layonhands",
       "level": "1",
       "initiative": "90",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "mobilizing axiom",
@@ -3733,7 +3733,7 @@
       "id": "mobilizingaxiom",
       "level": "3",
       "initiative": "23",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "path of glory",
@@ -3742,7 +3742,7 @@
       "id": "pathofglory",
       "level": "5",
       "initiative": "48",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "practical plans",
@@ -3751,7 +3751,7 @@
       "id": "practicalplans",
       "level": "2",
       "initiative": "56",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "protective blessing",
@@ -3760,7 +3760,7 @@
       "id": "protectiveblessing",
       "level": "1",
       "initiative": "61",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "purifying aura",
@@ -3769,7 +3769,7 @@
       "id": "purifyingaura",
       "level": "1",
       "initiative": "21",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "righteous strength",
@@ -3778,7 +3778,7 @@
       "id": "righteousstrength",
       "level": "4",
       "initiative": "18",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "scales of justice",
@@ -3787,7 +3787,7 @@
       "id": "scalesofjustice",
       "level": "5",
       "initiative": "68",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "sk-back",
@@ -3796,7 +3796,7 @@
       "id": "skback",
       "level": "-",
       "initiative": "-",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "supportive chant",
@@ -3805,7 +3805,7 @@
       "id": "supportivechant",
       "level": "6",
       "initiative": "11",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "tactical order",
@@ -3814,7 +3814,7 @@
       "id": "tacticalorder",
       "level": "1",
       "initiative": "29",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "unwavering mandate",
@@ -3823,7 +3823,7 @@
       "id": "unwaveringmandate",
       "level": "2",
       "initiative": "72",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "weapon of purity",
@@ -3832,7 +3832,7 @@
       "id": "weaponofpurity",
       "level": "7",
       "initiative": "73",
-      "classid": "sk",
+      "classid": "sk"
     },
     {
       "name": "booming proclamation",
@@ -3841,7 +3841,7 @@
       "id": "boomingproclamation",
       "level": "7",
       "initiative": "65",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "call to action",
@@ -3850,7 +3850,7 @@
       "id": "calltoaction",
       "level": "1",
       "initiative": "85",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "captivating performance",
@@ -3859,7 +3859,7 @@
       "id": "captivatingperformance",
       "level": "9",
       "initiative": "25",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "change tempo",
@@ -3868,7 +3868,7 @@
       "id": "changetempo",
       "level": "2",
       "initiative": "91",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "commanding presence",
@@ -3877,7 +3877,7 @@
       "id": "commandingpresence",
       "level": "8",
       "initiative": "59",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "crippling chorus",
@@ -3886,7 +3886,7 @@
       "id": "cripplingchorus",
       "level": "3",
       "initiative": "62",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "defensive ditty",
@@ -3895,7 +3895,7 @@
       "id": "defensiveditty",
       "level": "1",
       "initiative": "09",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "disorienting dirge",
@@ -3904,7 +3904,7 @@
       "id": "disorientingdirge",
       "level": "4",
       "initiative": "14",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "echoing aria",
@@ -3913,7 +3913,7 @@
       "id": "echoingaria",
       "level": "3",
       "initiative": "08",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "inspiring anthem",
@@ -3922,7 +3922,7 @@
       "id": "inspiringanthem",
       "level": "4",
       "initiative": "50",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "marching beat",
@@ -3931,7 +3931,7 @@
       "id": "marchingbeat",
       "level": "1",
       "initiative": "32",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "melody and harmony",
@@ -3940,7 +3940,7 @@
       "id": "melodyandharmony",
       "level": "5",
       "initiative": "78",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "mobilizing measure",
@@ -3949,7 +3949,7 @@
       "id": "mobilizingmeasure",
       "level": "5",
       "initiative": "06",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "nightmare serenade",
@@ -3958,7 +3958,7 @@
       "id": "nightmareserenade",
       "level": "7",
       "initiative": "13",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "nimble knife",
@@ -3967,7 +3967,7 @@
       "id": "nimbleknife",
       "level": "x",
       "initiative": "27",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "power ballad",
@@ -3976,7 +3976,7 @@
       "id": "powerballad",
       "level": "1",
       "initiative": "19",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "provoke terror",
@@ -3985,7 +3985,7 @@
       "id": "provoketerror",
       "level": "6",
       "initiative": "60",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "pull the strings",
@@ -3994,7 +3994,7 @@
       "id": "pullthestrings",
       "level": "6",
       "initiative": "20",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "shadow puppets",
@@ -4003,7 +4003,7 @@
       "id": "shadowpuppets",
       "level": "9",
       "initiative": "52",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "singing arrow",
@@ -4012,7 +4012,7 @@
       "id": "singingarrow",
       "level": "1",
       "initiative": "89",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "song of speed",
@@ -4021,7 +4021,7 @@
       "id": "songofspeed",
       "level": "1",
       "initiative": "05",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "soothing lullaby",
@@ -4030,7 +4030,7 @@
       "id": "soothinglullaby",
       "level": "2",
       "initiative": "11",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "ss-back",
@@ -4039,7 +4039,7 @@
       "id": "ssback",
       "level": "-",
       "initiative": "-",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "throw voice",
@@ -4048,7 +4048,7 @@
       "id": "throwvoice",
       "level": "1",
       "initiative": "44",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "tranquil trill",
@@ -4057,7 +4057,7 @@
       "id": "tranquiltrill",
       "level": "8",
       "initiative": "10",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "tuning the outcome",
@@ -4066,7 +4066,7 @@
       "id": "tuningtheoutcome",
       "level": "1",
       "initiative": "78",
-      "classid": "ss",
+      "classid": "ss"
     },
    {
       "name": "unending chant",
@@ -4075,7 +4075,7 @@
       "id": "unendingchant",
       "level": "x",
       "initiative": "51",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "warding dagger",
@@ -4084,7 +4084,7 @@
       "id": "wardingdagger",
       "level": "1",
       "initiative": "56",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "wistful wounding",
@@ -4093,7 +4093,7 @@
       "id": "wistfulwounding",
       "level": "x",
       "initiative": "16",
-      "classid": "ss",
+      "classid": "ss"
     },
     {
       "name": "biting wind",
@@ -4102,7 +4102,7 @@
       "id": "bitingwind",
       "level": "1",
       "initiative": "25",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "black fire",
@@ -4111,7 +4111,7 @@
       "id": "blackfire",
       "level": "1",
       "initiative": "24",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "bonded might",
@@ -4120,7 +4120,7 @@
       "id": "bondedmight",
       "level": "1",
       "initiative": "61",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "conjured aid",
@@ -4129,7 +4129,7 @@
       "id": "conjuredaid",
       "level": "5",
       "initiative": "81",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "divided mind",
@@ -4138,7 +4138,7 @@
       "id": "dividedmind",
       "level": "4",
       "initiative": "55",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "earthen steed",
@@ -4147,7 +4147,7 @@
       "id": "earthensteed",
       "level": "2",
       "initiative": "13",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "endless spikes",
@@ -4156,7 +4156,7 @@
       "id": "endlessspikes",
       "level": "6",
       "initiative": "97",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "ethereal vines",
@@ -4165,7 +4165,7 @@
       "id": "etherealvines",
       "level": "x",
       "initiative": "30",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "forged ferocity",
@@ -4174,7 +4174,7 @@
       "id": "forgedferocity",
       "level": "1",
       "initiative": "96",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "grasping the void",
@@ -4183,7 +4183,7 @@
       "id": "graspingthevoid",
       "level": "2",
       "initiative": "62",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "horned majesty",
@@ -4192,7 +4192,7 @@
       "id": "hornedmajesty",
       "level": "9",
       "initiative": "80",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "inexorable momentum",
@@ -4201,7 +4201,7 @@
       "id": "inexorablemomentum",
       "level": "6",
       "initiative": "32",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "interplanar mastery",
@@ -4210,7 +4210,7 @@
       "id": "interplanarmastery",
       "level": "9",
       "initiative": "22",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "intervening apparitions",
@@ -4219,7 +4219,7 @@
       "id": "interveningapparitions",
       "level": "8",
       "initiative": "68",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "leathery wings",
@@ -4228,7 +4228,7 @@
       "id": "leatherywings",
       "level": "x",
       "initiative": "90",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "living mountain",
@@ -4237,7 +4237,7 @@
       "id": "livingmountain",
       "level": "4",
       "initiative": "88",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "living night",
@@ -4246,7 +4246,7 @@
       "id": "livingnight",
       "level": "1",
       "initiative": "82",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "mighty bond",
@@ -4255,7 +4255,7 @@
       "id": "mightybond",
       "level": "1",
       "initiative": "51",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "negative energy",
@@ -4264,7 +4264,7 @@
       "id": "negativeenergy",
       "level": "7",
       "initiative": "95",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "oozing manifestation",
@@ -4273,7 +4273,7 @@
       "id": "oozingmanifestation",
       "level": "3",
       "initiative": "86",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "otherworldly rage",
@@ -4282,7 +4282,7 @@
       "id": "otherworldlyrage",
       "level": "8",
       "initiative": "35",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "staff of visions",
@@ -4291,7 +4291,7 @@
       "id": "staffofvisions",
       "level": "7",
       "initiative": "27",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "strength in numbers",
@@ -4300,7 +4300,7 @@
       "id": "strengthinnumbers",
       "level": "5",
       "initiative": "45",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "su-back",
@@ -4309,7 +4309,7 @@
       "id": "suback",
       "level": "-",
       "initiative": "-",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "tear the fabric",
@@ -4318,7 +4318,7 @@
       "id": "tearthefabric",
       "level": "3",
       "initiative": "41",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "unending dominance",
@@ -4327,7 +4327,7 @@
       "id": "unendingdominance",
       "level": "1",
       "initiative": "98",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "unwavering hand",
@@ -4336,7 +4336,7 @@
       "id": "unwaveringhand",
       "level": "1",
       "initiative": "31",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "volatile flame",
@@ -4345,7 +4345,7 @@
       "id": "volatileflame",
       "level": "x",
       "initiative": "94",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "wild animation",
@@ -4354,7 +4354,7 @@
       "id": "wildanimation",
       "level": "1",
       "initiative": "92",
-      "classid": "su",
+      "classid": "su"
     },
     {
       "name": "aid from the ether",
@@ -4363,7 +4363,7 @@
       "id": "aidfromtheether",
       "level": "x",
       "initiative": "91",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "black hole",
@@ -4372,7 +4372,7 @@
       "id": "blackhole",
       "level": "9",
       "initiative": "41",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "chromatic explosion",
@@ -4381,7 +4381,7 @@
       "id": "chromaticexplosion",
       "level": "5",
       "initiative": "71",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "cold fire",
@@ -4390,7 +4390,7 @@
       "id": "coldfire",
       "level": "3",
       "initiative": "67",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "cold front",
@@ -4399,7 +4399,7 @@
       "id": "coldfront",
       "level": "8",
       "initiative": "61",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "crackling air",
@@ -4408,7 +4408,7 @@
       "id": "cracklingair",
       "level": "x",
       "initiative": "25",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "elemental aid",
@@ -4417,7 +4417,7 @@
       "id": "elementalaid",
       "level": "3",
       "initiative": "84",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "engulfed in flames",
@@ -4426,7 +4426,7 @@
       "id": "engulfedinflames",
       "level": "5",
       "initiative": "44",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "fire orbs",
@@ -4435,7 +4435,7 @@
       "id": "fireorbs",
       "level": "1",
       "initiative": "69",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "flame strike",
@@ -4444,7 +4444,7 @@
       "id": "flamestrike",
       "level": "1",
       "initiative": "36",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "flashing burst",
@@ -4453,7 +4453,7 @@
       "id": "flashingburst",
       "level": "2",
       "initiative": "26",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "forked beam",
@@ -4462,7 +4462,7 @@
       "id": "forkedbeam",
       "level": "4",
       "initiative": "20",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "freezing nova",
@@ -4471,7 +4471,7 @@
       "id": "freezingnova",
       "level": "1",
       "initiative": "21",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "frost armor",
@@ -4480,7 +4480,7 @@
       "id": "frostarmor",
       "level": "1",
       "initiative": "20",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "frozen night",
@@ -4489,7 +4489,7 @@
       "id": "frozennight",
       "level": "6",
       "initiative": "46",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "hardened spikes",
@@ -4498,7 +4498,7 @@
       "id": "hardenedspikes",
       "level": "x",
       "initiative": "26",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "icy blast",
@@ -4507,7 +4507,7 @@
       "id": "icyblast",
       "level": "2",
       "initiative": "66",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "impaling eruption",
@@ -4516,7 +4516,7 @@
       "id": "impalingeruption",
       "level": "1",
       "initiative": "70",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "inferno",
@@ -4525,7 +4525,7 @@
       "id": "inferno",
       "level": "9",
       "initiative": "19",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "living torch",
@@ -4534,7 +4534,7 @@
       "id": "livingtorch",
       "level": "6",
       "initiative": "96",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "mana bolt",
@@ -4543,7 +4543,7 @@
       "id": "manabolt",
       "level": "1",
       "initiative": "07",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "reviving ether",
@@ -4552,7 +4552,7 @@
       "id": "revivingether",
       "level": "1",
       "initiative": "80",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "ride the wind",
@@ -4561,7 +4561,7 @@
       "id": "ridethewind",
       "level": "1",
       "initiative": "83",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "spirit of doom",
@@ -4570,7 +4570,7 @@
       "id": "spiritofdoom",
       "level": "4",
       "initiative": "81",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "stone fists",
@@ -4579,7 +4579,7 @@
       "id": "stonefists",
       "level": "7",
       "initiative": "62",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "sw-back",
@@ -4588,7 +4588,7 @@
       "id": "swback",
       "level": "-",
       "initiative": "-",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "twin restoration",
@@ -4597,7 +4597,7 @@
       "id": "twinrestoration",
       "level": "7",
       "initiative": "75",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "zephyr wings",
@@ -4606,7 +4606,7 @@
       "id": "zephyrwings",
       "level": "8",
       "initiative": "85",
-      "classid": "sw",
+      "classid": "sw"
     },
     {
       "name": "auto turret",
@@ -4615,7 +4615,7 @@
       "id": "autoturret",
       "level": "6",
       "initiative": "34",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "chimeric formula",
@@ -4624,7 +4624,7 @@
       "id": "chimericformula",
       "level": "9",
       "initiative": "43",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "crank bow",
@@ -4633,7 +4633,7 @@
       "id": "crankbow",
       "level": "3",
       "initiative": "66",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "curative aerosol",
@@ -4642,7 +4642,7 @@
       "id": "curativeaerosol",
       "level": "7",
       "initiative": "21",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "dangerous contraption",
@@ -4651,7 +4651,7 @@
       "id": "dangerouscontraption",
       "level": "4",
       "initiative": "84",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "disintegration beam",
@@ -4660,7 +4660,7 @@
       "id": "disintegrationbeam",
       "level": "5",
       "initiative": "36",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "disorienting flash",
@@ -4669,7 +4669,7 @@
       "id": "disorientingflash",
       "level": "2",
       "initiative": "73",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "energizing tonic",
@@ -4678,7 +4678,7 @@
       "id": "energizingtonic",
       "level": "1",
       "initiative": "16",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "enhancement field",
@@ -4687,7 +4687,7 @@
       "id": "enhancementfield",
       "level": "1",
       "initiative": "61",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "flamethrower",
@@ -4696,7 +4696,7 @@
       "id": "flamethrower",
       "level": "1",
       "initiative": "47",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "gas canister",
@@ -4705,7 +4705,7 @@
       "id": "gascanister",
       "level": "6",
       "initiative": "71",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "harmless contraption",
@@ -4714,7 +4714,7 @@
       "id": "harmlesscontraption",
       "level": "1",
       "initiative": "74",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "harsh stimulants",
@@ -4723,7 +4723,7 @@
       "id": "harshstimulants",
       "level": "8",
       "initiative": "27",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "hook gun",
@@ -4732,7 +4732,7 @@
       "id": "hookgun",
       "level": "1",
       "initiative": "72",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "ink bomb",
@@ -4741,7 +4741,7 @@
       "id": "inkbomb",
       "level": "1",
       "initiative": "74",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "jet propulsion",
@@ -4750,7 +4750,7 @@
       "id": "jetpropulsion",
       "level": "8",
       "initiative": "38",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "lethal injection",
@@ -4759,7 +4759,7 @@
       "id": "lethalinjection",
       "level": "9",
       "initiative": "85",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "micro bots",
@@ -4768,7 +4768,7 @@
       "id": "microbots",
       "level": "4",
       "initiative": "22",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "murderous contraption",
@@ -4777,7 +4777,7 @@
       "id": "murderouscontraption",
       "level": "7",
       "initiative": "94",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "net shooter",
@@ -4786,7 +4786,7 @@
       "id": "netshooter",
       "level": "1",
       "initiative": "19",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "noxious vials",
@@ -4795,7 +4795,7 @@
       "id": "noxiousvials",
       "level": "5",
       "initiative": "75",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "potent potables",
@@ -4804,7 +4804,7 @@
       "id": "potentpotables",
       "level": "x",
       "initiative": "46",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "proximity mine",
@@ -4813,7 +4813,7 @@
       "id": "proximitymine",
       "level": "1",
       "initiative": "62",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "reinvigorating elixir",
@@ -4822,7 +4822,7 @@
       "id": "reinvigoratingelixir",
       "level": "1",
       "initiative": "37",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "restorative mist",
@@ -4831,7 +4831,7 @@
       "id": "restorativemist",
       "level": "1",
       "initiative": "17",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "reviving shock",
@@ -4840,7 +4840,7 @@
       "id": "revivingshock",
       "level": "x",
       "initiative": "34",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "stamina booster",
@@ -4849,7 +4849,7 @@
       "id": "staminabooster",
       "level": "2",
       "initiative": "48",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "stun shot",
@@ -4858,7 +4858,7 @@
       "id": "stunshot",
       "level": "1",
       "initiative": "20",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "ti-back",
@@ -4867,7 +4867,7 @@
       "id": "tiback",
       "level": "-",
       "initiative": "-",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "tinkerers tools",
@@ -4876,7 +4876,7 @@
       "id": "tinkererstools",
       "level": "3",
       "initiative": "26",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "toxic bolt",
@@ -4885,7 +4885,7 @@
       "id": "toxicbolt",
       "level": "1",
       "initiative": "18",
-      "classid": "ti",
+      "classid": "ti"
     },
     {
       "name": "volatile concoction",
@@ -4894,7 +4894,7 @@
       "id": "volatileconcoction",
       "level": "x",
       "initiative": "76",
-      "classid": "ti",
+      "classid": "ti"
     },
 		{
 			"name": "collateral damage",
@@ -4903,7 +4903,7 @@
 			"id": "collateraldamage",
 			"level": "9",
 			"initiative": "15",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "crash protocol",
@@ -4912,7 +4912,7 @@
 			"id": "crashprotocol",
 			"level": "2",
 			"initiative": "74",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "crushing weight",
@@ -4921,7 +4921,7 @@
 			"id": "crushingweight",
 			"level": "1",
 			"initiative": "22",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "de-back",
@@ -4930,7 +4930,7 @@
 			"id": "deback",
 			"level": "#",
 			"initiative": "##",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "drill fist",
@@ -4939,7 +4939,7 @@
 			"id": "drillfist",
 			"level": "6",
 			"initiative": "62",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "dust cloud",
@@ -4948,7 +4948,7 @@
 			"id": "dustcloud",
 			"level": "6",
 			"initiative": "15",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "explode",
@@ -4957,7 +4957,7 @@
 			"id": "explode",
 			"level": "1",
 			"initiative": "28",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "explosive blitz",
@@ -4966,7 +4966,7 @@
 			"id": "explosiveblitz",
 			"level": "1",
 			"initiative": "19",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "extra fuel",
@@ -4975,7 +4975,7 @@
 			"id": "extrafuel",
 			"level": "4",
 			"initiative": "17",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "fire bombs",
@@ -4984,7 +4984,7 @@
 			"id": "firebombs",
 			"level": "3",
 			"initiative": "24",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "gut punch",
@@ -4993,7 +4993,7 @@
 			"id": "gutpunch",
 			"level": "8",
 			"initiative": "26",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "implode",
@@ -5002,7 +5002,7 @@
 			"id": "implode",
 			"level": "1",
 			"initiative": "88",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "insult to injury",
@@ -5011,7 +5011,7 @@
 			"id": "insulttoinjury",
 			"level": "7",
 			"initiative": "64",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "knock out the support",
@@ -5020,7 +5020,7 @@
 			"id": "knockoutthesupport",
 			"level": "1",
 			"initiative": "20",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "level",
@@ -5029,7 +5029,7 @@
 			"id": "level",
 			"level": "x",
 			"initiative": "61",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "lobbed charge",
@@ -5038,7 +5038,7 @@
 			"id": "lobbedcharge",
 			"level": "x",
 			"initiative": "52",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "mech suit",
@@ -5047,7 +5047,7 @@
 			"id": "mechsuit",
 			"level": "5",
 			"initiative": "80",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "micro missiles",
@@ -5056,7 +5056,7 @@
 			"id": "micromissiles",
 			"level": "7",
 			"initiative": "16",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "nowhere to run",
@@ -5065,7 +5065,7 @@
 			"id": "nowheretorun",
 			"level": "3",
 			"initiative": "39",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "one-two punch",
@@ -5074,7 +5074,7 @@
 			"id": "onetwopunch",
 			"level": "1",
 			"initiative": "66",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "piston punch",
@@ -5083,7 +5083,7 @@
 			"id": "pistonpunch",
 			"level": "1",
 			"initiative": "42",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "remote detonation",
@@ -5092,7 +5092,7 @@
 			"id": "remotedetonation",
 			"level": "4",
 			"initiative": "63",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "robotic enhancement",
@@ -5101,7 +5101,7 @@
 			"id": "roboticenhancement",
 			"level": "2",
 			"initiative": "33",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "rubble",
@@ -5110,7 +5110,7 @@
 			"id": "rubble",
 			"level": "x",
 			"initiative": "55",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "the bigger one",
@@ -5119,7 +5119,7 @@
 			"id": "thebiggerone",
 			"level": "8",
 			"initiative": "31",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "the big one",
@@ -5128,7 +5128,7 @@
 			"id": "thebigone",
 			"level": "1",
 			"initiative": "37",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "wholesale destruction",
@@ -5137,7 +5137,7 @@
 			"id": "wholesaledestruction",
 			"level": "9",
 			"initiative": "34",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "windup",
@@ -5146,7 +5146,7 @@
 			"id": "windup",
 			"level": "1",
 			"initiative": "77",
-			"classid": "de",
+			"classid": "de"
 		},
 		{
 			"name": "bombardment",
@@ -5155,7 +5155,7 @@
 			"id": "bombardment",
 			"level": "6",
 			"initiative": "54",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "brutalize",
@@ -5164,7 +5164,7 @@
 			"id": "brutalize",
 			"level": "7",
 			"initiative": "22",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "camaraderie",
@@ -5173,7 +5173,7 @@
 			"id": "camaraderie",
 			"level": "8",
 			"initiative": "75",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "care package",
@@ -5182,7 +5182,7 @@
 			"id": "carepackage",
 			"level": "x",
 			"initiative": "30",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "center mass",
@@ -5191,7 +5191,7 @@
 			"id": "centermass",
 			"level": "1",
 			"initiative": "24",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "close cuts",
@@ -5200,7 +5200,7 @@
 			"id": "closecuts",
 			"level": "1",
 			"initiative": "25",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "disorienting barrage",
@@ -5209,7 +5209,7 @@
 			"id": "disorientingbarrage",
 			"level": "1",
 			"initiative": "51",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "double throw",
@@ -5218,7 +5218,7 @@
 			"id": "doublethrow",
 			"level": "1",
 			"initiative": "64",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "excessive force",
@@ -5227,7 +5227,7 @@
 			"id": "excessiveforce",
 			"level": "7",
 			"initiative": "47",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "executioner's axe",
@@ -5236,7 +5236,7 @@
 			"id": "executionersaxe",
 			"level": "9",
 			"initiative": "79",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "extra lift",
@@ -5245,7 +5245,7 @@
 			"id": "extralift",
 			"level": "x",
 			"initiative": "21",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "fancy hat",
@@ -5254,7 +5254,7 @@
 			"id": "fancyhat",
 			"level": "x",
 			"initiative": "12",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "fearsome efficiency",
@@ -5263,7 +5263,7 @@
 			"id": "fearsomeefficiency",
 			"level": "3",
 			"initiative": "58",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "follow through",
@@ -5272,7 +5272,7 @@
 			"id": "followthrough",
 			"level": "1",
 			"initiative": "39",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "ha-back",
@@ -5281,7 +5281,7 @@
 			"id": "haback",
 			"level": "#",
 			"initiative": "##",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "heart seeker",
@@ -5290,7 +5290,7 @@
 			"id": "heartseeker",
 			"level": "9",
 			"initiative": "32",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "overwatch",
@@ -5299,7 +5299,7 @@
 			"id": "overwatch",
 			"level": "4",
 			"initiative": "40",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "power pitch",
@@ -5308,7 +5308,7 @@
 			"id": "powerpitch",
 			"level": "1",
 			"initiative": "60",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "quick turnaround",
@@ -5317,7 +5317,7 @@
 			"id": "quickturnaround",
 			"level": "6",
 			"initiative": "11",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "repeat shot",
@@ -5326,7 +5326,7 @@
 			"id": "repeatshot",
 			"level": "2",
 			"initiative": "31",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "retrieval",
@@ -5335,7 +5335,7 @@
 			"id": "retrieval",
 			"level": "1",
 			"initiative": "46",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "ricochet",
@@ -5344,7 +5344,7 @@
 			"id": "ricochet",
 			"level": "2",
 			"initiative": "56",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "ripped from the flesh",
@@ -5353,7 +5353,7 @@
 			"id": "rippedfromtheflesh",
 			"level": "4",
 			"initiative": "20",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "second wind",
@@ -5362,7 +5362,7 @@
 			"id": "secondwind",
 			"level": "1",
 			"initiative": "18",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "sharpened blades",
@@ -5371,7 +5371,7 @@
 			"id": "sharpenedblades",
 			"level": "3",
 			"initiative": "44",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "shrapnel",
@@ -5380,7 +5380,7 @@
 			"id": "shrapnel",
 			"level": "8",
 			"initiative": "37",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "stopping power",
@@ -5389,7 +5389,7 @@
 			"id": "stoppingpower",
 			"level": "1",
 			"initiative": "35",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "the favorite",
@@ -5398,7 +5398,7 @@
 			"id": "thefavorite",
 			"level": "1",
 			"initiative": "17",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "the new favorite",
@@ -5407,7 +5407,7 @@
 			"id": "thenewfavorite",
 			"level": "5",
 			"initiative": "15",
-			"classid": "ha",
+			"classid": "ha"
 		},
 		{
 			"name": "barbaric instincts",
@@ -5416,7 +5416,7 @@
 			"id": "barbaricinstincts",
 			"level": "2",
 			"initiative": "12",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "blade dance",
@@ -5425,7 +5425,7 @@
 			"id": "bladedance",
 			"level": "x",
 			"initiative": "29",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "blinding sickle",
@@ -5434,7 +5434,7 @@
 			"id": "blindingsickle",
 			"level": "1",
 			"initiative": "87",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "burn away the dark",
@@ -5443,7 +5443,7 @@
 			"id": "burnawaythedark",
 			"level": "4",
 			"initiative": "31",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "desert night",
@@ -5452,7 +5452,7 @@
 			"id": "desertnight",
 			"level": "1",
 			"initiative": "90",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "fierce brilliance",
@@ -5461,7 +5461,7 @@
 			"id": "fiercebrilliance",
 			"level": "6",
 			"initiative": "22",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "flame shroud",
@@ -5470,7 +5470,7 @@
 			"id": "flameshroud",
 			"level": "1",
 			"initiative": "06",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "flaming sickle",
@@ -5479,7 +5479,7 @@
 			"id": "flamingsickle",
 			"level": "1",
 			"initiative": "63",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "flying sickle",
@@ -5488,7 +5488,7 @@
 			"id": "flyingsickle",
 			"level": "6",
 			"initiative": "91",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "harvest sickle",
@@ -5497,7 +5497,7 @@
 			"id": "harvestsickle",
 			"level": "2",
 			"initiative": "52",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "healing sands",
@@ -5506,7 +5506,7 @@
 			"id": "healingsands",
 			"level": "1",
 			"initiative": "32",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "honorable fury",
@@ -5515,7 +5515,7 @@
 			"id": "honorablefury",
 			"level": "9",
 			"initiative": "89",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "horns of the beast",
@@ -5524,7 +5524,7 @@
 			"id": "hornsofthebeast",
 			"level": "7",
 			"initiative": "08",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "no fear",
@@ -5533,7 +5533,7 @@
 			"id": "nofear",
 			"level": "8",
 			"initiative": "01",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "precision strike",
@@ -5542,7 +5542,7 @@
 			"id": "precisionstrike",
 			"level": "x",
 			"initiative": "40",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "prismatic sickle",
@@ -5551,7 +5551,7 @@
 			"id": "prismaticsickle",
 			"level": "8",
 			"initiative": "70",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "radiant sickle",
@@ -5560,7 +5560,7 @@
 			"id": "radiantsickle",
 			"level": "4",
 			"initiative": "79",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "rg-back",
@@ -5569,7 +5569,7 @@
 			"id": "rgback",
 			"level": "#",
 			"initiative": "##",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "sand devil",
@@ -5578,7 +5578,7 @@
 			"id": "sanddevil",
 			"level": "5",
 			"initiative": "55",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "shield of the desert",
@@ -5587,7 +5587,7 @@
 			"id": "shieldofthedesert",
 			"level": "1",
 			"initiative": "10",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "shield spikes",
@@ -5596,7 +5596,7 @@
 			"id": "shieldspikes",
 			"level": "1",
 			"initiative": "41",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "shocking advance",
@@ -5605,7 +5605,7 @@
 			"id": "shockingadvance",
 			"level": "1",
 			"initiative": "14",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "soaring shield",
@@ -5614,7 +5614,7 @@
 			"id": "soaringshield",
 			"level": "9",
 			"initiative": "11",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "strangling chain",
@@ -5623,7 +5623,7 @@
 			"id": "stranglingchain",
 			"level": "3",
 			"initiative": "19",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "swift strength",
@@ -5632,7 +5632,7 @@
 			"id": "swiftstrength",
 			"level": "1",
 			"initiative": "16",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "twirling stabs",
@@ -5641,7 +5641,7 @@
 			"id": "twirlingstabs",
 			"level": "1",
 			"initiative": "38",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "vicious ballet",
@@ -5650,7 +5650,7 @@
 			"id": "viciousballet",
 			"level": "7",
 			"initiative": "28",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "warmth of the sun",
@@ -5659,7 +5659,7 @@
 			"id": "warmthofthesun",
 			"level": "3",
 			"initiative": "23",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "warrior of the sun",
@@ -5668,7 +5668,7 @@
 			"id": "warriorofthesun",
 			"level": "x",
 			"initiative": "13",
-			"classid": "rg",
+			"classid": "rg"
 		},
 		{
 			"name": "black boon",
@@ -5677,7 +5677,7 @@
 			"id": "blackboon",
 			"level": "1",
 			"initiative": "43",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "close to the abyss",
@@ -5686,7 +5686,7 @@
 			"id": "closetotheabyss",
 			"level": "1",
 			"initiative": "72",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "cold embrace",
@@ -5695,7 +5695,7 @@
 			"id": "coldembrace",
 			"level": "x",
 			"initiative": "71",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "commanding presence",
@@ -5704,7 +5704,7 @@
 			"id": "commandingpresence",
 			"level": "3",
 			"initiative": "75",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "crushing cold",
@@ -5713,7 +5713,7 @@
 			"id": "crushingcold",
 			"level": "2",
 			"initiative": "86",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "empowered link",
@@ -5722,7 +5722,7 @@
 			"id": "empoweredlink",
 			"level": "8",
 			"initiative": "59",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "eye of the void",
@@ -5731,7 +5731,7 @@
 			"id": "eyeofthevoid",
 			"level": "9",
 			"initiative": "19",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "freeze the soul",
@@ -5740,7 +5740,7 @@
 			"id": "freezethesoul",
 			"level": "1",
 			"initiative": "58",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "gift of the void",
@@ -5749,8 +5749,7 @@
 			"id": "giftofthevoid",
 			"level": "1",
 			"initiative": "89",
-			"classid": "vw",
-		},
+			"classid": "vw"
 		},
 		{
 			"name": "give and take",
@@ -5759,7 +5758,7 @@
 			"id": "giveandtake",
 			"level": "2",
 			"initiative": "21",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "grasp of doom",
@@ -5768,7 +5767,7 @@
 			"id": "graspofdoom",
 			"level": "1",
 			"initiative": "36",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "hateful blast",
@@ -5777,7 +5776,7 @@
 			"id": "hatefulblast",
 			"level": "7",
 			"initiative": "29",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "lull into oblivion",
@@ -5786,7 +5785,7 @@
 			"id": "lullintooblivion",
 			"level": "8",
 			"initiative": "11",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "lure of the void",
@@ -5795,7 +5794,7 @@
 			"id": "lureofthevoid",
 			"level": "1",
 			"initiative": "67",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "master influence",
@@ -5804,7 +5803,7 @@
 			"id": "masterinfluence",
 			"level": "1",
 			"initiative": "83",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "possessed by fate",
@@ -5813,7 +5812,7 @@
 			"id": "possessedbyfate",
 			"level": "9",
 			"initiative": "66",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "resigned frenzy",
@@ -5822,7 +5821,7 @@
 			"id": "resignedfrenzy",
 			"level": "x",
 			"initiative": "26",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "sap warmth",
@@ -5831,7 +5830,7 @@
 			"id": "sapwarmth",
 			"level": "x",
 			"initiative": "59",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "savage instinct",
@@ -5840,7 +5839,7 @@
 			"id": "savageinstinct",
 			"level": "4",
 			"initiative": "51",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "signs of the void",
@@ -5849,7 +5848,7 @@
 			"id": "signsofthevoid",
 			"level": "1",
 			"initiative": "15",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "spirit hunger",
@@ -5858,7 +5857,7 @@
 			"id": "spirithunger",
 			"level": "7",
 			"initiative": "68",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "stand fast",
@@ -5867,7 +5866,7 @@
 			"id": "standfast",
 			"level": "5",
 			"initiative": "90",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "suggestion",
@@ -5876,7 +5875,7 @@
 			"id": "suggestion",
 			"level": "1",
 			"initiative": "23",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "surge of power",
@@ -5885,7 +5884,7 @@
 			"id": "surgeofpower",
 			"level": "6",
 			"initiative": "81",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "taunting fate",
@@ -5894,7 +5893,7 @@
 			"id": "tauntingfate",
 			"level": "3",
 			"initiative": "13",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "the last journey",
@@ -5903,7 +5902,7 @@
 			"id": "thelastjourney",
 			"level": "4",
 			"initiative": "38",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "turn out the lights",
@@ -5912,7 +5911,7 @@
 			"id": "turnoutthelights",
 			"level": "1",
 			"initiative": "49",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "vw-back",
@@ -5921,7 +5920,7 @@
 			"id": "vwback",
 			"level": "#",
 			"initiative": "##",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "wicked scratch",
@@ -5930,7 +5929,7 @@
 			"id": "wickedscratch",
 			"level": "1",
 			"initiative": "68",
-			"classid": "vw",
+			"classid": "vw"
 		},
 		{
 			"name": "withering conviction",
@@ -5939,7 +5938,7 @@
 			"id": "witheringconviction",
 			"level": "6",
 			"initiative": "44",
-			"classid": "vw",
+			"classid": "vw"
 		}
   ]
 }

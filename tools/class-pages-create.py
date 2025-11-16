@@ -93,7 +93,7 @@ match gameprefix:
 with open(f'../{gamename}/data/class-data.json') as fd:
 	jclasses = json.load(fd)
 
-with open(f'../{gamename}//data/card-data.json') as fd:
+with open(f'../{gamename}/data/card-data.json') as fd:
 	jcards = json.load(fd)
 
 jclasses = jmespath.search(f"classes", jclasses)

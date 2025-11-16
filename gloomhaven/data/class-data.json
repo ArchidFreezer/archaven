@@ -1,0 +1,1331 @@
+{
+  "classes": [
+    {
+      "id": "be",
+      "label": "Berserker",
+      "description": [
+        "The Berserker, a tanky melee damage-dealer class that has unique life-based mechanics.",
+        "She is difficult to level up because of the following:<ul><li>Her level 1 cards are already really strong, so it sucks to replace them.</li><li>Most of the cards she can choose from are really strong.</li><li>Most of her cards have a lot of synergy, so removing a single card feels like you could be dismantling a machine in many cases.</li></ul>"
+      ],
+      "handsize": "10",
+      "perks": [
+        {
+          "id": "consistency",
+          "name": "Consistency",
+          "effect": "Remove 2x -1 cards"
+        },
+        {
+          "id": "focus",
+          "name": "Focus",
+          "effect": "2x Swap -1 for +1"
+        },
+        {
+          "id": "dust",
+          "name": "Dust",
+          "effect": "Remove 4x +0"
+        },
+        {
+          "id": "cinder",
+          "name": "Cinder",
+          "effect": "2x Add +2 <i>Fire</i>"
+        },
+        {
+          "id": "overkill",
+          "name": "Overkill",
+          "effect": "2x Replace +0 with rolling +2"
+        },
+        {
+          "id": "bludgeon",
+          "name": "Bludgeon",
+          "effect": "2x Add rolling <i>Stun</i>"
+        },
+        {
+          "id": "subdue",
+          "name": "Subdue",
+          "effect": "Add +1 <i>Disarm</i>"
+        },
+        {
+          "id": "recover",
+          "name": "Recover",
+          "effect": "Add 2x <i>Heal 1</i>"
+        },
+        {
+          "id": "bloodletting",
+          "name": "Bloodletting",
+          "effect": "2x add 2x rolling <i>Wound</i>"
+        },
+        {
+          "id": "endurance",
+          "name": "Endurance",
+          "effect": "Ignore negative item effects"
+        }
+      ]
+    },
+		{
+			"id": "br",
+			"label": "Brute",
+			"description": [
+				"The Brute is a melee bruiser (hybrid between tank and damage dealer) class.",
+				"The Brute does have some slightly more complicated and complex combos at high Prosperity, most of the time this is simply the more straightforward class in Gloomhaven, focusing most of its turns around moving and attacking.",
+				"While definitely not a true 'tank' in the sense that it can just wade into the fray and absorb hits left and right, it does have some tankiness and can take some number of hits when your party otherwise has no way to avoid them."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "fortitude",
+					"name": "Fortitude",
+					"effect": "Ignore negative item effects"
+				},
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "outburst",
+					"name": "Outburst",
+					"effect": "Add +3"
+				},
+				{
+					"id": "bludgeon",
+					"name": "Bludgeon",
+					"effect": "2x Add rolling <i>Stun</i>"
+				},
+				{
+					"id": "pacify",
+					"name": "Pacify",
+					"effect": "Add rolling <i>Disarm</i> and <i>Muddle</i>"
+				},
+				{
+					"id": "bulwark",
+					"name": "Bulwark",
+					"effect": "Add +1 <i>Shield</i>"
+				},
+				{
+					"id": "power",
+					"name": "Power",
+					"effect": "2x Add 2x +1"
+				},
+				{
+					"id": "sweep",
+					"name": "Sweep",
+					"effect": "2x Add target"
+				}
+			]
+		},
+		{
+			"id": "bs",
+			"label": "Bladeswarm",
+			"description": [
+				"Harrower secret class, not available in digital game",
+				"Melee class with some summons"
+			],
+			"handsize": "11"
+		},
+		{
+			"id": "bt",
+			"label": "Beast Tyrant",
+			"description": [
+				"Beast Tyrant is one of the most unique classes in Gloomhaven. It is the only class with two miniatures, and features a unique ability called 'command' that allows the Beast Tyrant to control his or her trusty bear.",
+				"The bear is by far and away the best summon, with Brute levels of HP and the ability to attack three times in a turn. It also 'summons' automatically at the beginning of a scenario when you place your miniatures.",
+				"Perhaps one of the weak points of the class is the bear's nature as a summon; it will move and attack on its turn like a monster, which can get it into trouble and muddy the plans of your ally's turns.",
+				"The Tyrant also has incredibly low HP, so you should keep it out of harm's way - and generally you will want to use your move actions to command the bear to attack. Thus, you may only have three or so cards with a movement for your Tyrant, making its positioning key. That said, commands do not require line of site, so expect your Tyrant to linger in the first room and not really get much loot during its career."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "003",
+					"name": "xxx",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "004",
+					"name": "xxx",
+					"effect": "Add +1 <i>Wound</i>"
+				},
+				{
+					"id": "005",
+					"name": "xxx",
+					"effect": "Add +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "006",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Heal 1</i>"
+				},
+				{
+					"id": "007",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Earth</i>"
+				},
+				{
+					"id": "008",
+					"name": "xxx",
+					"effect": "Ignore negative scenario effects"
+				}
+			]
+		},
+		{
+			"id": "ch",
+			"label": "Cragheart",
+			"description": [
+				"The Cragheart is, by most accounts, one of the best-designed classes in the game. He is also typically one of the scariest classes for new players. So let's try to break it all down:<ul><li>He is tanky but he's not a 'tank.' Despite his tankiness, he prefers to attack from range and, eventually, use obstacles to impede enemies' paths.</li><li>He does a lot of direct (unmitigated) damage, making him good, at least at early levels, at dealing with enemies with low hp and high shield. His direct damage can also affect allies, meaning he prefers ranged allies to melee ones. That statement is doubly true because of his obstacles, which ranged allies find much more helpful.</li><li>He has some of the most powerful actions of any starting class (for example, Massive Boulder at level 1) but has two very severe drawbacks as well: initiative and movement.</li><li>He has, quite possibly, consistently the worst initiative in the game and his movement at level 1 is pretty abysmal.</li></ul>",
+				"For any Cragheart, as you level up, you should try to mitigate his weaknesses, but in a 2p party especially, movement and initiative are extremely important. In 4p, if you go slowly and can't go before the enemies, it's only 25% of your party, but if you have the same thing happen in 2p, it's 50% of your party, which is obviously an enormous difference. Accordingly, it's very, very important to be able to have good initiative which allows us to coordinate effectively with our partner.",
+				"Focus on being a ranged damage-dealer as much of the time as possible, coming into melee only when you're out of ranged attacks or using melee attacks and moving away when enemies have closed on you. Your secondary role is support as you do have some nice amount of healing.",
+				"Once you get access to Rock Slide at level 4, that will define your role, as you'll constantly want to try to figure out how to deal maximum damage with that action while also preventing enemies from getting to your team (allowing you to perform both of your roles, support and ranged damage, with one action)."
+			],
+			"handsize": "11",
+			"perks": [
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "savage",
+					"name": "Savage",
+					"effect": "Add -2 and 2x +2"
+				},
+				{
+					"id": "hobble",
+					"name": "Hobble",
+					"effect": "Add +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "daze",
+					"name": "Daze",
+					"effect": "Add +2 <i>Muddle</i>"
+				},
+				{
+					"id": "barge",
+					"name": "Barge",
+					"effect": "Add 2x rolling <i>Push 2</i>"
+				},
+				{
+					"id": "verdant",
+					"name": "Verdant",
+					"effect": "Add 2x rolling <i>Earth</i>"
+				},
+				{
+					"id": "cobalt",
+					"name": "Cobalt",
+					"effect": "Add 2x rolling <i>Wind</i>"
+				},
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Ignore negative item effects"
+				},
+				{
+					"id": "666",
+					"name": "xxx",
+					"effect": "Ignore negative scenario effects"
+				}
+			]
+		},
+		{
+			"id": "de",
+			"label": "Demolitionist",
+			"description": [
+				"The Demo is a mid-health, 9 card class that functions as the 'melee dps' of the JotL crew. This puts them in the same category as base Gloom’s Scoundrel. At higher levels (6+), when the Demo's perk deck has become the best in the game among classes that actually attack (basically guaranteed +2), they can compare reasonably well. At lower levels, they suffer from initiatives that just aren't fast enough to allow you to really hit and run, and thus become significantly riskier to play with arguably less reward. Lastly, they will always suffer from a crippling lack of any healing whatsoever. Now, healing is generally a losing battle in Gloomhaven, but some healing is always needed in order to clear off poison and wound (especially against JotL's Zealots) or to make sure you aren’t at 1 health for half the game.",
+				"They also have an obstacle destruction and 'pin against walls' subtheme, which, while situational, are much less situational than people seem to think, even in base Gloom (there isn’t any issue in JotL, where the maps are balanced to help the Demo in this area). On an average base Gloom 3 room scenario, you’ll be able to destroy about 4 obstacles for useful benefit, which comes out to about 1 destruction per rest cycle. This is something to keep in mind when evaluating your choices of obstacle destroyers. Obviously, this means you get insane extra value from a Cragheart teammate, who can place obstacles for your benefit."
+			],
+			"handsize": "9",
+			"perks": [
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "003",
+					"name": "xxx",
+					"effect": "Remove -2 and +1"
+				},
+				{
+					"id": "004",
+					"name": "xxx",
+					"effect": "Replace +0 with +2 <i>Muddle</i>"
+				},
+				{
+					"id": "005",
+					"name": "xxx",
+					"effect": "Replace -1 with +0 <i>Poison</i>"
+				},
+				{
+					"id": "006",
+					"name": "xxx",
+					"effect": "Add +2"
+				},
+				{
+					"id": "007",
+					"name": "xxx",
+					"effect": "Replace +1 with +2 <i>Earth</i>"
+				},
+				{
+					"id": "008",
+					"name": "xxx",
+					"effect": "Replace +1 with +2 <i>Fire</i>"
+				},
+				{
+					"id": "009",
+					"name": "xxx",
+					"effect": "Add +0 all adjacenet enemies 1 damage"
+				}
+			]
+		},
+		{
+			"id": "ds",
+			"label": "Doomstalker",
+			"description": [
+				"The Doomstalker is a medium-hp, giant hand-size ranged damage-dealer; and ranged damage-dealer he is, as he can pump out some really high damage from quite far away, and that's pretty much all he does. Limited crowd control or utility of any other sort does make our role and gameplay pretty straightforward, but fortunately, just about every party can use some more damage, as damage is typically king in Gloomhaven. Being a Ranger, we also have a very large summoning sub-theme which is almost a complete failure, with very few of the Summon actions ever being worth performing. We also have a bit of the Trapping theme as well, which are again typically pretty bad actions. Thus, while we can perform some very powerful non-loss turns, we also have a TON of garbage actions clogging up our hand from the beginning. Accordingly, effective non-loss actions will be at a premium, allowing us to consistently perform effective turns despite the mass of bad actions we're saddled with.",
+				"Our Doom mechanic, which requires us to perform a bottom action to apply a Doom, typically needing to be applied to our target before attacking (as many of our attacks are pretty weak without a Doom), means we have a unique rhythm to our play where we want to make big moves and then stand still for a bit, and then repeat. Accordingly, small Move actions are typically not good for us unless they come with some real benefits as we want to spend as few turns performing Move actions as possible.",
+				"I really cannot overstate this point either: <b>you shouldn't be obsessed with playing all of your cards every rest cycle at low levels</b>. Sure, at high levels you'll have some better losses and thus less longevity margin, but at low levels we have almost no good losses and a ton of longevity, which means that we should spend that longevity to be more effective through shorter rest cycles."
+			],
+			"handsize": "12",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "ambition",
+					"name": "Ambition",
+					"effect": "Replace 2x +0 with 2x +1"
+				},
+				{
+					"id": "technique",
+					"name": "Technique",
+					"effect": "Add 2x rolling +1"
+				},
+				{
+					"id": "daze",
+					"name": "Daze",
+					"effect": "Add +2 <i>Muddle</i>"
+				},
+				{
+					"id": "taint",
+					"name": "Taint",
+					"effect": "Add +1 <i>Poison</i>"
+				},
+				{
+					"id": "lacerate",
+					"name": "Lacerate",
+					"effect": "Add +1 <i>Wound</i>"
+				},
+				{
+					"id": "111",
+					"name": "xxx",
+					"effect": "Add +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "blind",
+					"name": "Blind",
+					"effect": "Add +0 <i>Stun</i>"
+				},
+				{
+					"id": "222",
+					"name": "xxx",
+					"effect": "Add rolling extra target"
+				},
+				{
+					"id": "resilience",
+					"name": "Resilience",
+					"effect": "Ignore negative scenario effects"
+				}
+			]
+		},
+		{
+			"id": "el",
+			"label": "Elementalist",
+			"description": [
+				"The Elementalist is my favourite class in Gloomhaven, mostly because it has some of the coolest flavour in the game. You start with mastery over fire, ice, wind, and earth, but your scholarly nature forces you to keep learning. As you level up, you slowly master light and dark in order to become the true elemental master!",
+				"The following are general observations of the class:<ul><li>This class is all about elements, which means you always need to plan at least one turn ahead.</li><li>Mobility is bad. We are often using move 2s every turn, particularly at low levels. If we need to move more we are sacrificing our effectiveness. Bring items or allies that can help you move if possible.</li><li>Our Initiatives are pretty bad overall, especially at low levels. We have two good fast initiatives and two average fast initiatives, but we do not have access to ANY good slow initiatives. The slowest we can go is 67 initially.</li><li>Generate as much xp as possible at low levels because lvl 1 is pretty rough on this class.</li></ul>"
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "conflagrate",
+					"name": "Conflagrate",
+					"effect": "Add 3x +0 <i>Fire</i>"
+				},
+				{
+					"id": "glaciate",
+					"name": "Glaciate",
+					"effect": "Add 3x +0 <i>Ice</i>"
+				},
+				{
+					"id": "storm",
+					"name": "Storm",
+					"effect": "Add 3x +0 <i>Wind</i>"
+				},
+				{
+					"id": "quake",
+					"name": "Quake",
+					"effect": "Add 3x +0 <i>Earth</i>"
+				},
+				{
+					"id": "magma",
+					"name": "Magma",
+					"effect": "Replace 2x +0 with +0 <i>Fire</i> and +0 <i>Earth</i>"
+				},
+				{
+					"id": "blizzard",
+					"name": "Blizzard",
+					"effect": "Replace 2x +0 with +0 <i>Ice</i> and +0 <i>Wind</i>"
+				},
+				{
+					"id": "shove",
+					"name": "Shove",
+					"effect": "Add 2x +1 <i>Push 1</i>"
+				},
+				{
+					"id": "lacerate",
+					"name": "Lacerate",
+					"effect": "Add +1 <i>Wound</i>"
+				},
+				{
+					"id": "blind",
+					"name": "Blind",
+					"effect": "Add +0 <i>Stun</i>"
+				},
+				{
+					"id": "extend",
+					"name": "Extend",
+					"effect": "Add +0 extra target"
+				}
+			]
+		},
+		{
+			"id": "ha",
+			"label": "Hatchet",
+			"description": [
+				"The Hatchet is a ranged damage-dealer who functions primarily around the core mechanic of his persistent loss card 'The Favorite.' He provides excellent and very consistent ranged damage with little downside. He is also one of the best classes at Looting in Gloomhaven and will regularly accrue large stacks of coins. The weaknesses of the class are that he mostly lacks crowd control, he has somewhat limited movement (and while this is mostly a recurring trend with the Jaws characters as Jaws scenarios were smaller on average, his is still quite poor in comparison), and he has average initiative. Still, he's very straightforward to play while also being very effective, making him a great beginner class who can still be good in any party."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "mislead",
+					"name": "Mislead",
+					"effect": "Replace +0 with +2 <i>Muddle</i>"
+				},
+				{
+					"id": "fester",
+					"name": "Fester",
+					"effect": "Replace +0 with +1 <i>Poison</i>"
+				},
+				{
+					"id": "gouge",
+					"name": "Gouge",
+					"effect": "Replace +0 with +1 <i>Wound</i>"
+				},
+				{
+					"id": "refrain",
+					"name": "Refrain",
+					"effect": "Replace +0 with +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "elbow",
+					"name": "Elbow",
+					"effect": "Replace +0 with +1 <i>Push 2</i>"
+				},
+				{
+					"id": "stupefy",
+					"name": "Stupefy",
+					"effect": "Replace +0 with +0 <i>Stun</i>"
+				},
+				{
+					"id": "numb",
+					"name": "Numb",
+					"effect": "Replace +1 with +1 <i>Stun</i>"
+				},
+				{
+					"id": "gale",
+					"name": "Gale",
+					"effect": "Add +2 <i>Wind</i>"
+				},
+				{
+					"id": "hack",
+					"name": "Hack",
+					"effect": "Reaplce +1 with +3"
+				}
+			]
+		},
+		{
+			"id": "mt",
+			"label": "Mindthief",
+			"description": [
+				"Okay, time for the Mindthief, my personal favourite starting class. Personal favourite to play, that is, certainly not the design. What's wrong with the design? Well, the class appears to be designed such that you're supposed to switch around Augments depending on the circumstances but in reality, you should pretty much just play The Mind's Weakness nearly 100% of the time (especially pre-9).",
+				"So what makes this class so fun? High power level with high difficulty to execute properly. The Mindthief has quite possibly the highest consistent damage of any of the starting classes combined with certainly the best crowd control at level 1. She also has great mobility and amazing initiatives. What's the catch? Well, she's a mostly-melee character, especially at low level, with a very small hp pool."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "meditate",
+					"name": "Meditate",
+					"effect": "Replace 2x +1 with 2x +2"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "freeze",
+					"name": "Freeze",
+					"effect": "Add +2 <i>Ice</i>"
+				},
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Add 2x rolling +1"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Add 3x rolling <i>Pull 1</i>"
+				},
+				{
+					"id": "003",
+					"name": "xxx",
+					"effect": "Add 3x rolling <i>Muddle</i>"
+				},
+				{
+					"id": "004",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Immobilise</i>"
+				},
+				{
+					"id": "005",
+					"name": "xxx",
+					"effect": "Add rolling <i>Stun</i>"
+				},
+				{
+					"id": "pacify",
+					"name": "Pacify",
+					"effect": "Add rolling <i>Disarm</i> and rolling <i>Muddle</i>"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative scenario effects"
+				}
+			]
+		},
+		{
+			"id": "ns",
+			"label": "Nightshroud",
+			"description": [
+				"This class is a melee-damage dealer with a medium-sized health pool and a whole new bag of tricks. He tends to play as a solo character with little group interaction.",
+				"The nightshroud has a few core strengths as he has the ability to:<ul><li>Be invisible, almost always</li><li>Consume Dark to automatically kill, or do massive damage, without losing cards</li><li>Manipulate initiative to an extraordinary extent (which is one of the keys to point 1)</li><li>Jam doors, shielding teammates from all monsters without ranged attacks and/or flying</li><li>Regularly gain 20+ XP per scenario (before scenario bonus XP)</li></ul>",
+				"On the flip side, the Nightshroud also faces a few challenges:<ul><li>Inflexibility: accomplishing all of the aforementioned lofty goals comes at a cost: one must plan carefully in advance more than any other class, such that every single card played, in the correct order, is a cog in a complex machine. (Ironically, this will result in some of our actions being quite underwhelming in the short-term, as they are intended primarily as setup for a later nova action.) Death incarnate needs to keep to a strict schedule.</li><li>Card count / Loss actions: With a hand of only 9 cards, each one is precious and playing cards as losses will risk early exhaustion. Also, losing cards prematurely is tantamount to needlessly removing cogs from the previously-mentioned complex machine, which can cause serious problems.</li><li>Movement: This one will get a lot better as we level up, buy enhancements, and acquire equipment, but out of the gate at level 1 this character is possibly the slowest in the game.</li><li>Resting: Related to the first point, the Nightshroud can almost never afford to short rest, as removing a cog from the machine at random is extremely risky. During a long-rest will, incidentally, be one of the few times you are at risk of being hit, unless you get help from an item or ally to turn invisible again.</li><li>Traps: For the first several levels, this class has no access to jump movements or push/pull attacks, and can't afford to waste money or body/enhancement slots on a jump item or enhancement. That said, we have a surprisingly large health pool (medium progression) and almost never get hit, so I quickly became our party's resident expert at disarming traps for the group (using my face). For the Nightshroud, hit points (friend and foe) are just a state of mind.</li></ul>"
+			],
+			"handsize": "9",
+			"perks": [
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Remove 2x -2"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "twilight",
+					"name": "Twilight",
+					"effect": "Add -1 <i>Dark</i>"
+				},
+				{
+					"id": "umbra",
+					"name": "Umbra",
+					"effect": "Replace -1 <i>Dark</i> with +1 <i>Dark</i>"
+				},
+				{
+					"id": "enshroud",
+					"name": "Enshroud",
+					"effect": "Add +1 <i>Invisible</i>"
+				},
+				{
+					"id": "003",
+					"name": "xxx",
+					"effect": "Add 3x rolling <i>Muddle</i>"
+				},
+				{
+					"id": "004",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Heal 1</i>"
+				},
+				{
+					"id": "incantation",
+					"name": "Incantation",
+					"effect": "Add 2x rolling <i>Curse</i>"
+				},
+				{
+					"id": "sweep",
+					"name": "Sweep",
+					"effect": "Add rolling add target"
+				},
+				{
+					"id": "greaterimmunity",
+					"name": "Greater Immunity",
+					"effect": "Ignoire negative scenario effects and add 2x +1"
+				}
+			]
+		},
+		{
+			"id": "ph",
+			"label": "Plagueherald",
+			"description": [
+				"The class's playstyle is what would be called a 'debuffer,' which is someone who specializes in reducing the effectiveness of enemies or putting debuffs (negative conditions) on enemies that make your allies more effective. The Plagueherald does the above through the use of Curse and Poison. Curse is one of the more controversial conditions in the game as large amounts of Curse can lead to trivialization of scenarios by significantly reducing enemies' ability to deal damage. We don't really care what other denizens of Gloomhaven think of Curse though, we're pretty clearly an evil bug-creature and we're out to destroy our enemies and consume their corpses, so we're more than happy to take advantage of the power of Curse-stacking.",
+				"We are a squishy ranged class, so our survivability is sometimes an issue, but we also have a large hand size of 11, which means we can afford to lose a card to negate damage when necessary. While not technically a damage-dealer class in terms of style, many of our attacks are actually a bit overtuned to the point that we get our debuffing more or less for free, meaning we do actually bring a fair amount of damage to any party, even before you consider the absurdity that is Baneful Hex at level 7."
+			],
+			"handsize": "11",
+			"perks": [
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Add 2x +1"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Add +1 <i>Wind</i>"
+				},
+				{
+					"id": "corrupt",
+					"name": "Corrupt",
+					"effect": "Add 3x rolling <i>Poison</i>"
+				},
+				{
+					"id": "incantation",
+					"name": "Incantation",
+					"effect": "Add 2x rolling <i>Curse</i>"
+				},
+				{
+					"id": "hamstring",
+					"name": "Hamstring",
+					"effect": "Add 2x rolling <i>Immobilise</i>"
+				},
+				{
+					"id": "bludgeon",
+					"name": "Bludgeon",
+					"effect": "Add rolling <i>Stun</i>"
+				},
+				{
+					"id": "immunity",
+					"name": "Immunity",
+					"effect": "Ignore negative scenario effects and add +1"
+				}
+			]
+		},
+		{
+			"id": "qm",
+			"label": "Quartermaster",
+			"description": [
+				"As a tank/melee damage-dealer/ranged damage-dealer/item-based support, he is conceptually quite possibly the strangest class in the game, yet it actually all works surprisingly well. In the end what you get is a class that's both very powerful and very versatile, only held in check by his painful 9 card hand limit.",
+				"Because of his wide range of abilities, there's not really a good 'way to play him' I can recommend. You have a variety of things you can do all the time and you can't even really build him to do one specific thing. As far as builds go, he doesn't really have defined build paths, the only question is just how much you want to go into his support side vs just damage/tanking. The answer to that will usually depend on your group composition and size. Support, as always, is worse the smaller the group. In a large group, it's pretty simple - if you already have a tank, do damage and support. If you don't have a tank, damage and tank. If you already have a tank and a support (who knows, maybe you were lucky enough to open a box with 5 Quartermasters), a second tank is generally better than a second support. You should almost always prioritize good damage cards over good support cards as damage is the best kind of support, most of the time."
+			],
+			"handsize": "9",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "technique",
+					"name": "Technique",
+					"effect": "Add 2x rolling +1"
+				},
+				{
+					"id": "confuse",
+					"name": "Confuse",
+					"effect": "Add 3x rolling <i>Muddle</i>"
+				},
+				{
+					"id": "stab",
+					"name": "Stab",
+					"effect": "Add 2x rolling <i>Pierce 3</i>"
+				},
+				{
+					"id": "bludgeon",
+					"name": "Bludgeon",
+					"effect": "Add rolling <i>Stun</i>"
+				},
+				{
+					"id": "sweep",
+					"name": "Sweep",
+					"effect": "Add rolling add target"
+				},
+				{
+					"id": "artifice",
+					"name": "Artifice",
+					"effect": "Add +0 refresh item"
+				},
+				{
+					"id": "extremefortitude",
+					"name": "Extreme Fortitude",
+					"effect": "Ignore negative item effects and add 2x +1"
+				}
+			]
+		},
+		{
+			"id": "rg",
+			"label": "Red Guard",
+			"description": [
+				"The Red Guard is a melee bruiser (hybrid between tank and damage dealer) class, the Jaw of the Lion equivalent to the Brute. Unlike the Brute, who turns out a bit underwhelming in Gloomhaven, the Red Guard is an amazing class in terms of design and balance. Basically every card this class has is good and most choices you make both while levelling up and deciding which cards to bring to a scenario will be difficult. It's hard to go wrong with the Red Guard and all of the best Jaws of the Lion party compositions include one."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "refine",
+					"name": "Refine",
+					"effect": "Remove -2 and +1"
+				},
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "flare",
+					"name": "Flare",
+					"effect": "Replace +1 with +2 <i>Fire</i>"
+				},
+				{
+					"id": "gouge",
+					"name": "Gouge",
+					"effect": "Replace +0 with +1 <i>Wound</i>"
+				},
+				{
+					"id": "refrain",
+					"name": "Refrain",
+					"effect": "Replace +0 with +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "illuminate",
+					"name": "Illuminate",
+					"effect": "Replace +1 with +2 <i>Light</i>"
+				},
+				{
+					"id": "blazinglight",
+					"name": "Blazing Light",
+					"effect": "Add +1 <i>Fire</i> and +1 <i>Light</i>"
+				},
+				{
+					"id": "bulwark",
+					"name": "Bulwark",
+					"effect": "Add +1 <i>Shield</i>"
+				},
+				{
+					"id": "extremefortitude",
+					"name": "Extreme Fortitude",
+					"effect": "Ignore negative item effects and add 2x +1"
+				}
+			]
+		},
+		{
+			"id": "sb",
+			"label": "Sawbones",
+			"description": [
+				"Sawbones, the most painfully-misunderstood (and thus probably the most underrated) class in the game. In fact, a poll had 25% of people calling this class underpowered (the 4th highest percentage of votes for 'underpowered' in the game). People who think this class is underpowered think so because they believe that it's a support class. But Saw is only tangentially a support class. Saw gets to support as a bonus, but Saw is really an excellent melee damage-dealer with an incredible capacity for crowd control.",
+				"Saw has two defining conditions when building him: do you have a tank in your party or not? Accordingly, we will have two builds. Why is that so important? The persistent losses Booster Shot and Research the Cure, which are some of the best persistent-losses in the game, really only work with a tank. The best part about these cards is that you can be the difference in the party between a class that can 'kind of' tank on its own to become a full-fledged tank. Some classes in the game have their own tank builds that don't quite have enough support within the class itself (classes like Mindthief and a few unlockable classes), but throwing an additional permanent Shield 1 on top will usually make the difference between wonky and truly effective. And obviously if you throw that Shield on top of someone who's naturally very tanky, you can end up with some of the most broken combos in the game. Furthermore, what's amazing about this is you don't need to become 'a support' in order to have this effect - you just have to play a single persistent loss, which is realistic enough to do as you otherwise have great non-loss actions and a 10-card hand size, so you can certainly afford the one early loss per scenario."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "knack",
+					"name": "Knack",
+					"effect": "Add rolling +2"
+				},
+				{
+					"id": "hobble",
+					"name": "Hobble",
+					"effect": "Add +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "bloodletting",
+					"name": "Bloodletting",
+					"effect": "Add 2x rolling <i>Wound</i>"
+				},
+				{
+					"id": "blind",
+					"name": "Blind",
+					"effect": "Add rolling <i>Stun</i>"
+				},
+				{
+					"id": "rejuvenate",
+					"name": "Rejuvenate",
+					"effect": "Add rolling <i>Heal 3</i>"
+				},
+				{
+					"id": "artifice",
+					"name": "Artifice",
+					"effect": "Add +0 refresh item"
+				}
+			]
+		},
+		{
+			"id": "sc",
+			"label": "Scoundrel",
+			"description": [
+				"The Scoundrel is a medium-hp class that is focused almost entirely around dealing damage with only small additional subthemes of dealing with traps, looting, and some basic conditions like Poison (which just translates into more damage).",
+				"So what does the Scoundrel need to play with? Honestly, a melee companion. In my mind, this isn't optional. Can you play without one? Sure. Will you be as strong? No. Will it be as fun for you? Not really. You'll not only be doing less damage (especially at early levels), you'll also be gaining significantly less experience and have less meaningful choice in card selection both while levelling and when building your hand for each scenario. So for 2-player parties, I would only recommend playing with a Brute or Mindthief (of the starting classes). Both of these party compositions are strong and fun. In 3p and 4p, just continue the same trend, one melee ally is necessary, but you don't need to have exclusively melee allies. A second point I've had to combat in the past: can you have too much damage? No! That's just not possible in Gloomhaven for the vast majority of scenarios. Damage is what makes your party tick. So If you have a party of Brute, Mindthief, and Spellweaver, it's still perfectly fine to roll a Scoundrel to go with them. You don't have to have a 'balanced party' of support and damage. More damage can easily be just as good. So if you want to play a Scoundrel in a party that has a melee ally, do it, don't overthink it any further than that.",
+				"The Scoundrel has the lowest possible effective hand size in the game and thus is ill-equipped to consistently play loss cards because she will simply exhaust too early. The Scoundrel's cards are balanced by giving her more powerful non-loss cards to make up for her inability to play losses. Additionally, not only can we rarely afford to play losses, but being a relatively-squishy melee character with very early initiatives, it's inevitable we will get hit, and getting hit will many times mean losing cards. I would say, on average, while playing on a challenging difficulty, you should expect to have to lose one card to negate damage every scenario. Occasionally it won't happen, but if you count on it not happening and then play a loss that you probably shouldn't, you may cost yourself a scenario you could have otherwise won. Obviously there are some exceptions to this rule as well: if you're playing with something like a Tinkerer, who can both keep you healthy and give you back cards, you have more flexibility to play losses. Additionally, while we don't want to play losses for average scenarios, we absolutely do still want to play losses for short scenarios/boss fights, where many of our losses shine."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "technique",
+					"name": "Technique",
+					"effect": "Add 2x rolling +1"
+				},
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Pierce 3</i>"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Poison</i>"
+				},
+				{
+					"id": "003",
+					"name": "xxx",
+					"effect": "Add 2x rolling <i>Muddle</i>"
+				},
+				{
+					"id": "obscure",
+					"name": "Obscure",
+					"effect": "Add rolling <i>Invisible</i>"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative scenario effects"
+				}
+			]
+		},
+		{
+			"id": "sk",
+			"label": "Sunkeeper",
+			"description": [
+				"Sunkeeper is an amazing tank, a very solid single-target melee damage-dealer, and she also can bring numerous valuable support tools depending on your group's needs. She does, however, have two weaknesses: she completely lacks top action ranged Attacks, which makes her inflexible in terms of movement/targeting for dealing damage. She also has one of the slowest average rates of experience gain in the game, which is a serious issue for a tanking class as it's important for tanks to remain at or above the average level of their party.",
+				"There are two main builds: Damage and Tanking/Mitigation. Focusing mostly on tanking and mitigating damage will be more effective in larger parties and less realistic in a two-player party or in parties with lots of support and little other damage (allies like a Tinkerer)."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
+				},
+				{
+					"id": "technique",
+					"name": "Technique",
+					"effect": "Add 2x rolling +1"
+				},
+				{
+					"id": "recover",
+					"name": "Recover",
+					"effect": "Add 2x rolling <i>Heal 1</i>"
+				},
+				{
+					"id": "bludgeon",
+					"name": "Bludgeon",
+					"effect": "Add rolling <i>Stun</i>"
+				},
+				{
+					"id": "brilliance",
+					"name": "Brilliance",
+					"effect": "Add 2x rolling <i>Light</i>"
+				},
+				{
+					"id": "hunker",
+					"name": "Hunker",
+					"effect": "Add 2x rolling <i>Shield 1</i>"
+				},
+				{
+					"id": "extremefortitude",
+					"name": "Extreme Fortitude",
+					"effect": "Ignore negative item effects and add 2x +1"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative secnario effects"
+				}
+			]
+		},
+		{
+			"id": "ss",
+			"label": "Soothsinger",
+			"description": [
+				"The Soothsinger is the most successful class in the game, from a design perspective, in terms of creating a pure support that also feels powerful. Instead of focusing on aspects of support that scale very poorly in Gloomhaven, like healing, the Soothsinger spends her actions making sure that enemies deal no damage, which, as it turns out, is a pretty powerful thing to bring to a party. The biggest weakness this class has is its party-size scaling. While incredibly powerful in a 4p party and still quite a force in a 3p party, a lot of her actions are less impressive with only one ally and a lot less enemies in 2p.",
+				"An important tip top note with Songs: always pay attention when you rest to whether you should bring the Song back or not. If bringing the Song back will result in an even hand size after the obligatory loss, you'll be netting a turn of longevity, which is very welcome on this low-longevity class. Additionally, as you lack top actions, many times you don't even mind spending your top action for the turn (re)playing a Song, doubly-so if you have your solo item. Obviously if you're in the middle of some really intense combat, you're usually better off not bringing the Song back so that you can immediately play a top CC action, so you do need to read the situation."
+			],
+			"handsize": "10",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "harmony",
+					"name": "Harmony",
+					"effect": "Remove -2"
+				},
+				{
+					"id": "powerchord",
+					"name": "Power Chord",
+					"effect": "Reaplce 2x +1 with a +4"
+				},
+				{
+					"id": "refrain",
+					"name": "Refrain",
+					"effect": "Replace +0 with +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "lethargy",
+					"name": "Lethargy",
+					"effect": "Replace +0 with +1 <i>Disarm</i>"
+				},
+				{
+					"id": "cacophany",
+					"name": "Cacophany",
+					"effect": "Replace +0 with +2 <i>Wound</i>"
+				},
+				{
+					"id": "discord",
+					"name": "Discord",
+					"effect": "Replace +0 with +2 <i>Poison</i>"
+				},
+				{
+					"id": "dissonance",
+					"name": "Dissonance",
+					"effect": "Replace +0 with +2 <i>Curse</i>"
+				},
+				{
+					"id": "clamour",
+					"name": "Clamour",
+					"effect": "Replace +0 with +3 <i>Muddle</i>"
+				},
+				{
+					"id": "tumult",
+					"name": "Tumult",
+					"effect": "Replace -1 with +0 <i>Stun</i>"
+				},
+				{
+					"id": "retune",
+					"name": "Retune",
+					"effect": "Add 3x rolling +1"
+				},
+				{
+					"id": "incantation",
+					"name": "Incantation",
+					"effect": "Add 2 rolling <i>Curse</i>"
+				}
+			]
+		},
+		{
+			"id": "su",
+			"label": "Summoner",
+			"description": [
+				"The summoner is, unsurprisingly enough, a summon-based class. However, you should not forget that she’s also got some nice ranged attacks, and indeed the ranged attacks will probably make up the bulk of your top actions! She’s also got a good amount of HP. Adding in the range of summons you can bring to the table, she can function well as a ranged sniper away from the main action, or stand a little more on the frontlines if you’re in a small party that requires you to at least absorb some of the damage for other people.",
+				"Your presence is a combination of 3 things:<ul><li>Meleer summons to tank damage, and attack</li><li>You and your ranged attacks</li><li>Ranged summons to debuff and support, plus attack</li></ul>",
+				"Out of these, the melee summons are a weak point as you progress. As the scenarios level up, enemies hit harder and your melee guys’ survivability gets lower and lower as their stats get relatively worse and worse. Luckily our own increased HP, good mobility, ranged attacks and even our slow initiative mean that we don’t even really need to have melee summons to tank damage in the end. Our ranged summons – who don't care so much about their relative squishiness – generally have good enough support skills to always be valuable, and our perks for our attack modifier deck help those ranged summons to keep up with harder scenarios."
+			],
+			"handsize": "9",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "intent",
+					"name": "Intent",
+					"effect": "Add +2"
+				},
+				{
+					"id": "bloodletting",
+					"name": "Bloodletting",
+					"effect": "Add 2x rolling <i>Wound</i>"
+				},
+				{
+					"id": "envenom",
+					"name": "Envenom",
+					"effect": "Add 2x rolling <i>Poison</i>"
+				},
+				{
+					"id": "recover",
+					"name": "Recover",
+					"effect": "Add 2x rolling <i>Heal 1</i>"
+				},
+				{
+					"id": "blaze",
+					"name": "Blaze",
+					"effect": "Add rolling <i>Fire</i> and rolling <i>Wind</i>"
+				},
+				{
+					"id": "burial",
+					"name": "Burial",
+					"effect": "Add rolling <i>Dark</i> and rolling <i>Earth</i>"
+				},
+				{
+					"id": "greaterimmunity",
+					"name": "Greater Immunity",
+					"effect": "Ignore negative scenario effects and add 2x +1"
+				}
+			]
+		},
+		{
+			"id": "sw",
+			"label": "Spellweaver",
+			"description": [
+				"The Spellweaver. The starting class designed to fulfil the traditional 'mage' role. At level 1, she focuses heavily on AOE damage with little utility. As she levels, she gains more capacity to provide more than just damage. Of numerous classes with minor summoning sub-themes, she has by far the most effective with 2/2 being quite usable. She also strongly introduces the player to the element board, primarily focusing on Fire and Ice, with a not-insignificant amount of Light as well. She has the lowest hand size of any class in the game but makes up for this drawback with a card recovery mechanic, which primarily allows her to play each of her losses twice per scenario.",
+				"In terms of complexity, most of what she does is pretty straight-forward, although the loss recovery system does require a fair amount of caution and planning, which can throw some new players off. Fortunately, she's also more forgiving with playing losses, something new players tend to over-prioritize. She is good against multiple, weaker enemies because of her AOE focus and her biggest issue, by far, is dealing with high-Shield enemies (one of the reasons the Piercing Bow is an absolute must-buy).",
+				"Her squishy small hp pool and eight card hand size don't lend themselves to taking many hits. She can cover this weakness a bit with something like an Invisibility Cloak and certainly once she has access to a fully-functional Cold Fire, she's at much less risk, but she does definitely prefer to have someone else in the party who will be closer to the monsters than her."
+			],
+			"handsize": "8",
+			"perks": [
+				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
+					"id": "focus",
+					"name": "Focus",
+					"effect": "Replace -1 with +1"
+				},
+				{
+					"id": "power",
+					"name": "Power",
+					"effect": "Add 2x +1"
+				},
+				{
+					"id": "blind",
+					"name": "Blind",
+					"effect": "Add +0 <i>Stun</i>"
+				},
+				{
+					"id": "lacerate",
+					"name": "Lacerate",
+					"effect": "Add +1 <i>Wound</i>"
+				},
+				{
+					"id": "hobble",
+					"name": "Hobble",
+					"effect": "Add +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "scorn",
+					"name": "Scorn",
+					"effect": "Add +1 <i>Curse</i>"
+				},
+				{
+					"id": "cinder",
+					"name": "Cinder",
+					"effect": "Add +2 <i>Fire</i>"
+				},
+				{
+					"id": "freeze",
+					"name": "Freeze",
+					"effect": "Add +2 <i>Ice</i>"
+				},
+				{
+					"id": "001",
+					"name": "xxx",
+					"effect": "Add rolling <i>Earth</i> and rolling <i>Wind</i>"
+				},
+				{
+					"id": "002",
+					"name": "xxx",
+					"effect": "Add rolling <i>Light</i> and rolling <i>Dark</i>"
+				}
+			]
+		},
+		{
+			"id": "ti",
+			"label": "Tinkerer",
+			"description": [
+				"The Tinkerer is the support class of the starting 6. She has great healing and a medium-sized health pool. What she lacks, mostly, is damage. She has a number of attacks, some of which are quite decent, although many times they're good because of status effects rather than the damage they deal (further solidifying her role as a support). Her few really good damage attacks are all losses and unlike the Spellweaver, she can't reuse them. Unlike any other of the starting classes, however, she has a hand size of 12, which is enormous and both gives her a ton of longevity as well as the flexibility to use more loss cards than most other classes. She typically plays from ranged, as she has little benefit from getting into melee range, but a reasonable health pool and a huge hand size means she can risk getting up close and taking a few hits if absolutely necessary."
+			],
+			"handsize": "12",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "intensify",
+					"name": "Intensify",
+					"effect": "Replace -2 with +0"
+				},
+				{
+					"id": "power",
+					"name": "Power",
+					"effect": "Add 2x +1"
+				},
+				{
+					"id": "outburst",
+					"name": "Outburst",
+					"effect": "Add +3"
+				},
+				{
+					"id": "embers",
+					"name": "Embers",
+					"effect": "Add 2x rolling <i>Fire</i>"
+				},
+				{
+					"id": "confuse",
+					"name": "Confuse",
+					"effect": "Add 3x rolling <i>Muddle</i>"
+				},
+				{
+					"id": "lacerate",
+					"name": "Lacerate",
+					"effect": "Add +1 <i>Wound</i>"
+				},
+				{
+					"id": "hobble",
+					"name": "Hobble",
+					"effect": "Add +1 <i>Immoblise</i>"
+				},
+				{
+					"id": "repair",
+					"name": "Repair",
+					"effect": "Add +1 <i>Heal 2</i>"
+				},
+				{
+					"id": "extend",
+					"name": "Extend",
+					"effect": "Add +0 add target"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative scenario effects"
+				}
+			]
+		},
+		{
+			"id": "vw",
+			"label": "Voidwarden",
+			"description": [
+				"The Voidwarden is the support class of the Jaws of the Lion characters. She specializes in making other pathetic creatures perform her attacks for her or move as she sees fit. She has the largest hand size of the Jaws characters and some impressive losses to go with it. She also brings some welcome healing and some great crowd control. As a support character, she gets better the larger the party. She also really wants a melee ally (Red Guard being the better option of the two) to make one of her core cards work and thus she'll typically have a bad time if she's in a party with just a Hatchet.",
+				"Before going any further, I should talk about elements on this class in general. Ice is mostly useless, its use tied almost exclusively to losses, so you'll either use it for Master Influence or mostly not care about it except for when you're lining up a relevant loss. Dark is used by a number of abilities but is usually just a small bonus that's not essential and rarely worth playing around - the main exception to this being Lure of the Void top, where Dark can make a huge difference, but that's obviously situational. Accordingly, we like to have Dark around (both for the small bonuses and for Master Influence), and creating Dark is a welcome bonus, but it's also not really a driving force for our abilities or ability ordering."
+			],
+			"handsize": "11",
+			"perks": [
+				{
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
+				},
+				{
+					"id": "harmony",
+					"name": "Harmony",
+					"effect": "Remove -2"
+				},
+				{
+					"id": "umber",
+					"name": "Umber",
+					"effect": "Replace +0 with +1 <i>Dark</i>"
+				},
+				{
+					"id": "frost",
+					"name": "Frost",
+					"effect": "Replace +0 with +1 <i>Ice</i>"
+				},
+				{
+					"id": "restore",
+					"name": "Restore",
+					"effect": "Replace -1 with +0 <i>Heal 1 (ally)</i>"
+				},
+				{
+					"id": "revive",
+					"name": "Revive",
+					"effect": "Add +1 <i>Heal 1 (ally)</i>"
+				},
+				{
+					"id": "taint",
+					"name": "Taint",
+					"effect": "Add +1 <i>Poison</i>"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative scenario effects"
+				},
+				{
+					"id": "scorn",
+					"name": "Scorn",
+					"effect": "Add +1 <i>Curse</i>"
+				}
+			]
+		}
+  ]
+}

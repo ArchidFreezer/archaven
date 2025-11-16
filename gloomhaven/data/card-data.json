@@ -559,15 +559,6 @@
       "classid": "bs"
     },
     {
-      "name": "lightning moths",
-      "expansion": "gloomhaven",
-      "image": "character-ability-cards/bs/gh-bioluminescence.png",
-      "id": "lightningmoths",
-      "level": "5",
-      "initiative": "80",
-      "classid": "bs"
-    },
-    {
       "name": "blood drain",
       "expansion": "gloomhaven",
       "image": "character-ability-cards/bs/gh-blood-drain.png",
@@ -5701,7 +5692,7 @@
 			"name": "commanding presence",
 			"expansion": "jaws of the lion",
 			"image": "character-ability-cards/vw/jl-commanding-presence.png",
-			"id": "commandingpresence",
+			"id": "commandingpresence-vw",
 			"level": "3",
 			"initiative": "75",
 			"classid": "vw"

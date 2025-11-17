@@ -341,13 +341,11 @@ def write_template_file(fh):
 					"picks": [
 						{
 							"order": 1,
-							"name": "",
-							"effect": ""
+							"name": ""
 						},
 						{
 							"order": 2,
-							"name": "",
-							"effect": ""
+							"name": ""
 						}
 					]
 				},

@@ -1,0 +1,1588 @@
+{
+	"builds": [
+		{
+			"id": "rg-shield-spikes",
+			"classid": "rg",
+			"build": "Shield Spikes",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://imgur.com/a/ATJwEPe",
+			"overview": { 
+				"body": [
+					"This Red Guard build centres around the Shield Spikes card that retaliates damage based on the Shield value at the time of the hit. This means that the build is not overly interested in the AMD or damage abilities, focussing instead on consistently increasing our shield value. We use both enhancements and items to increase this value. Because some of the decenbt shileding items are not found until higher wealth levels the build can feel a little underwhelming at the start if these have not been unlocked yet.",
+					"Applying the <i>Immobilize</i> status effect is also very useful to us as it means we can lock down ranged enemies so they do not attempt to move away and we can get our retaliate to proc."
+				],
+				"benefits": [
+					"Strong against the typically difficult high shield/retaliate enemies.",
+					"Strong against swarming enemies as they tend to be low health, low damage and our shields can negate much if not all the damage, whilst dishing out direct damage back."
+				],
+				"preferences": [
+					"Party members who can provide us with <i>Shield</i> or <i>Immobilize</i> enemies. There is a great synergy with the Sawbones persistent loss that gives a permanent shield 1, and even better with the upgraded version that allows us to ignore negative status effects. The Spellweaver, Tinkerer and Voidwarden also have cards that can help.",
+					"Party members that can heal us, especially at lower levels when we have loiwer shield values.",
+					"Unusually we want to be hit a lot so <i>Stun</i> is not something we want on adjacent enemies, we are happy to have them draw a <i>Curse</i> as that means they still attack."
+				]
+			},
+			"cards": [
+				{
+					"id": "bladedance",
+					"top": "The top is excellent if you have the elements, but… you don’t. A top move is not very good on this build, because all our good shields are either top actions or tied to moves, so it doesn’t really add anything.",
+					"bottom": "The bottom is also a just okay loss, which means it’s not really viable in this build.",
+					"overall": "This card demands too much from our elements to be taken in place of others."
+				},
+				{
+					"id": "blindingsickle",
+					"top": "On the top, we have an Immobilize, which is decent for locking down a ranged enemy so they have to eat our Shield Spikes. Initiative is very late, which is actually good; it means we can ensure we go after the enemies. A good sequence is to use this late initiative to immobilize an archer, then next round set up a full Shield turn to kill it.",
+					"bottom": "The bottom is, again, less desirable because it’s a non-movement bottom that isn’t super useful.",
+					"overall": "This is Flaming Sickle’s twin, but it’s a bit less desirable because we care about Light less than Fire.<p>Overall, this would be a card that I’d be happy to take… if there weren’t better ways to Immobilize enemies and make Light.</p>"
+				},
+				{
+					"id": "desertnight",
+					"top": "A great late initiative with a very consistent and powerful The top is an essentially range 2 Disarm, which is quite good. Sometimes there are enemies you really can’t put up enough Shield to deal with, so preventing them from attacking while come in clutch. The elements also help out allies like the Voidwarden or Mindthief.",
+					"bottom": "The bottom is an emergency loss that will normally only be used in escape scenarios or to snag a chest from underneath a teammate.",
+					"overall": "Initiative is very late, which is actually good; it means we can ensure we go after the enemies."
+				},
+				{
+					"id": "flameshroud",
+					"top": "The top is a loss that can be decent against high shield/low health enemies (and it synergizes well with our Pull abilities), but using a second loss on a 10 card hand that plans on taking lots of hits is just much too risky.",
+					"bottom": "The bottom, however, is great for us. Move 4, Shield 1, initiative 6 is everything we could ask for. It lets us position to tank a hit and goes early enough to beat almost any monster. The only problem is that <i>Fire</i> will be the one element we never have enough of, but the payoff is worth it.",
+					"overall": "The 6 initiative is your best and is really insanely-good initiative for this type of class. Finally, the Fire consumption is a nice bonus that often doesn't matter much because you want Fire so badly for other actions."
+				},
+				{
+					"id": "flamingsickle",
+					"top": "The top action is significant for being your only non-loss <i>Fire</i> generating top at level 1. Given that Flame Shroud needs <i>Fire</i> and is a key card for this build, that’s kind of a big deal. The pull also synergizes with your Shields, letting you ensure that monster focus remains on you.",
+					"bottom": "The bottom is also a <i>Fire</i> generator, which is good for the same reasons described above, but slightly less valuable because as a tank, you often need to keep moving in order to protect your teammates and/or avoid unnecessary hits.",
+					"overall": "Overall, this is a card that makes it into our hand until we find a better source of Fire.<p>The initiative is very subpar; not fast, but not slow enough to reliably go after monsters.</p>"
+				},
+				{
+					"id": "healingsands",
+					"top": "The top is an excellent top self-heal that is great for getting back any life lost while moving between rooms (and as the team tank, you’ll be taking some damage that should be removed). It also gives an unconditional XP, which isn’t super notable given that there are many go-to cards that do the same thing.",
+					"bottom": "The bottom is… okay. On average, this will essentially be a -1 to enemy attacks, meaning it’s essentially a more complicated Shield 1. That’s great… except you can’t use Shield Spikes to deal damage back.",
+					"overall": "Initiative-wise, this is on the wrong side of the fast/meh border, especially compared to some of your other cards.<p>Overall, this is a card that can definitely find a place in a level 1 hand, but after that it depends on your team comp; do you have allies that can reliably heal you (think Tinkerer, Voidwarden, spoilers)? If so, you can leave this at home. Otherwise, it will be necessary to keep this around for longer than it deserves.</p>"
+				},
+				{
+					"id": "precisionstrike",
+					"top": "The top is a decent boss-killing loss, which is the only time you’d ever bring it.",
+					"bottom": "The bottom doesn’t do enough, which, combined with its initiative, makes it just an overall lacklustre card.",
+					"overall": "Precision Strike is legitimately your worst card and it's not even bad.<p>I do recommend bringing this card for the top action to boss fights at low levels, where it is good.</p>"
+				},
+				{
+					"id": "shieldspikes",
+					"top": "This is our core persistent loss.<p>Shield Spikes is a class-defining, build around card. Now, I know what anyone who’s done a bit of base Gloomhaven is saying; “That’s just Retaliate with extra steps, and Retaliate sucks!” To that I’d say; yes, retaliate sucks in base Gloomhaven, but that’s because most retaliate abilities in base Gloom are an either/or with putting up Shields, so you take more damage than usual to deal… an unpredictable amount back. This lets you do both at once, which is a huge improvement. Additionally, as we’ll see in a bit, you have access to a fair amount of immobilize effects, letting you trap enemies who would otherwise run away from you into taking damage from your spikes.</p>",
+					"bottom": "Oh, right, there’s a bottom here; it’s a decent heal, and will always be useful for clearing poison and wound. It’s also one of your only non-loss bottom Fire generators at any level, which is why it’s somewhat worth taking along early even if you don’t want to use Shield Spikes. Obviously though, the main point of this card is the top.",
+					"overall": "Shield Spikes persistent loss is the core of one of the two builds for the Red Guard and unlike some alternative builds for classes in Gloomhaven, the Shield Spikes build has everything it needs to shine.<p>Initiative is in the bad zone (mid-range is just too inconsistent, but odds are you aren’t carrying this in your hand for long enough to matter.</p>"
+				},
+				{
+					"id": "shieldofthedesert",
+					"top": "The top is a powerful attack action at good initiative… provided we have the elements for it. As we’ve seen though, we’re starved for Fire and would prefer to use it on Flame Shroud. Light is much less of a problem to get once we take a look at the X cards, but the consumption here is also less desirable than Twirling Stabs or Shocking Advance. Forget seeing this as a double target Attack 4, more often than not this will be a single target Attack 4 that maybe triggers a trap, which is good enough for a level 1.",
+					"bottom": "The bottom is an extremely powerful loss for this build; at this level, Shield 3 may as well be “take no damage this round,” but again, we’re already running a loss in Shield Spikes; the longevity cost isn’t really worth it.",
+					"overall": "The initiative is extremely good, and at level 1 that’ll be the main draw of this card (we have excellent early initiatives on our “Shields up” turns, but much worse on our off turns)."
+				},
+				{
+					"id": "shockingadvance",
+					"top": "The top is one of only 2 top Shield actions we have at level 1, though it does require Light, and thus it competes with Twirling Stabs. However, the Immobilize synergizes nicely with the Shield (as described on Blinding Sickle).",
+					"bottom": "The bottom is one of our best Light generators, and has an enhancement dot that looks ripe for a Fire enhancement. My first recommended enhancement would be to put a Fire on there ASAP. Having an easy way to move and make Fire will be key, and having a card that makes both your main elements nicely sets up cards like Shield of the Desert.",
+					"overall": "Shocking Advance is another good card with two good halves.<p>The initiative is excellent again, able to comfortably go before most enemies.</p>"
+				},
+				{
+					"id": "swiftstrength",
+					"top": "The top is a decent double target short ranged attack. Attack 2 isn’t going to win awards, and doesn’t scale well against shielded enemies, but the pull will sometimes be useful. More often than not, this top will only be used if the enemies pull a non-attack card when you were planning on shielding up and you need something to do. In that capacity, it does its job well.",
+					"bottom": "The bottom is the main draw of this card; <i>Jump, Shield, Loot</i> and early initiative are a great combination for tanking, letting you get in the perfect spot to maximize mitigation and damage. It only being a Move 2 is a negative, but that’s where the Boots of Striding come in.",
+					"overall": "Swift Strength is an excellent card no matter how you're using it."
+				},
+				{
+					"id": "twirlingstabs",
+					"top": "Now this is a non-shield top action I can get behind! Attack 3 all adjacent enemies is extremely good for a level 1 card (the Red Guard will generally make more Light than they need, so the consumption here is easy to proc), and it makes an excellent finisher for the round after we’ve spiked a bunch of enemies with our shields.",
+					"bottom": "The bottom is much less exciting; Attack 2 on bottom is standard, but boring, and we’ll almost never be able to use the Fire consumption on it.",
+					"overall": "Twirling Stabs has two really powerful halves only let down by its initiative."
+				},
+				{
+					"id": "warriorofthesun",
+					"top": "The top does almost everything; gives us an unconditional <i>Shield</i>, <i>Immobilizes</i> enemies to keep them next to you, and makes <i>Light</i>. Only thing that could make this better is if it made Fire, but you can’t have it all.",
+					"bottom": "The bottom is much less exciting; Attack 2 on bottom is standard, but boring, and while we could use Light, we have better uses for it.",
+					"overall": "This is a key card for this build.<p>The initiative is excellent again, able to comfortably go before most enemies.</p>"
+				},
+				{
+					"id": "barbaricinstincts",
+					"top": "The top action already represents two direct damage in an AoE around you while providing mitigation and your best element, all at early initiative.",
+					"bottom": "The bottom is good in situations where the top is not: when dealing with high-HP, high-damage enemies.",
+					"overall": "If you're playing Shield Spikes, Barbaric Instincts is obviously amazing.<p>The repositioning can be helpful for getting ranged enemies around you, which you can pair with Healing Sands or Stranglin' Chain bottom.</p>"
+				},
+				{
+					"id": "harvestsickle",
+					"top": "Harvest Sickle immediately gives us our first Attack 4, which is welcome already at level 2. The two elements on there can be useful to us or a companion, so they add a not-insignificant amount of value.",
+					"bottom": "The bottom is just an amazing loss for the end of scenarios, which is convenient because you typically want to bring this card as late into a scenario as possible because of the top Attack.",
+					"overall": "A powerful top action that most builds would be happy to spam all scenartio coupled with a goo last room loss on the bottom. The biggest downside of the card is the bad initiative."
+				},
+				{
+					"id": "stranglingchain",
+					"top": "The top is basically a super poison that has extra value on classes with multiple Attacks in a single action (cough cough Demolitionist), and it can ignore shields. Very good against bosses, where you'll want to combo this with the bottom attacks on Barbaric Instincts, Warrior of the Sun, or Twirling Stabs.",
+					"bottom": "The bottom is great for the movement and the ability to lock enemies down next to you.",
+					"overall": "Strangling Chain is a card with 2 excellent halves.<p>The initiative is, as always, very good.</p>"
+				},
+				{
+					"id": "warmthofthesun",
+					"top": "The top can be a lot of damage.... but again, we don't want to be dropping losses with this build and we're doing a similar amount of damage via Shield Spikes anyway.",
+					"bottom": "The bottom heal is okay, but again, we'd like to move often or deal damage with the bottom. ",
+					"overall": "Warmth of the Sun is a top loss with a non-movement bottom, a combination we certainly do not want."
+				},
+				{
+					"id": "burnawaythedark",
+					"top": "Burn Away the Dark is an excellent top action, but it's much weaker against base Gloom's numerous Shielded enemies and wants to use the <i>Fire</i> we've been saving for Flame Shroud.",
+					"bottom": "The bottom is a Disarm, which is decent even if it does anti-synergize with our Shield Spikes focus.",
+					"overall": "Overall, I'd only take it for this build if you've enhanced Shocking Advance with <i>Fire</i>, in which case this fits in our hand as an upgraded Twirling Stabs."
+				},
+				{
+					"id": "radiantsickle",
+					"top": "The top gives us a single-target damage option (which we've been lacking until this point).",
+					"bottom": "The bottom gives us a nice poison/wound clearer (every tank's worst nightmare) while still moving, which is much better value than the bottom heal on Warmth of the Sun.",
+					"overall": "Radiant Sickle has 2 decent halves.<p>If you have item 140 (Sun Shield), it should be obvious why you want to take this card.</p>"
+				},
+				{
+					"id": "sanddevil",
+					"top": "While the top is very powerful and useful in JotL, it's a persistent loss we can't really use with this build.",
+					"bottom": "The bottom is a Move 5, which is nice, but we're consistently playing 2 Move 4s, so it's not like we're starved for movement.",
+					"overall": "Whilst, thematically it fits with our push/pull/forced moevement theme it doesn;t actually add anything to our build and we don't want another loss."
+				},
+				{
+					"id": "fiercebrilliance",
+					"top": "The top is a loss that anti-synergizes with your Shield Spikes.",
+					"bottom": "The bottom is a decent amount of direct damage, which can help guarantee kills.",
+					"overall": "Fierce Brilliance would be a decent card for this build."
+				},
+				{
+					"id": "flyingsickle",
+					"top": "Flying Sickle is your longest range top attack, perfect for plucking a ranged enemy from the back line into your Spikes. It makes Wind, which you don't use...yet (take a quick look at your level 9, I'll wait).",
+					"bottom": "he bottom is okay, most useful for a killer Stranglin' Chain turn.",
+					"overall": "Flying Sickle is incredible!<p>The combination of a powerful and narrow bottom with an extremely flexible top and even good late initiative just makes an impossible-to-miss card.</p>"
+				},
+				{
+					"id": "hornsofthebeast",
+					"top": "Horns of the Beast is another top Fire generator, which is great!... except we already have Barbaric Instincts and our enhanced Shocking Advance for that.",
+					"bottom": "The bottom loss is an upgrade to Shield of the Desert's, but we never really played that one.",
+					"overall": "Horns of the Beast doesn't really add a lot extra for us."
+				},
+				{
+					"id": "viciousballet",
+					"top": "This top is powerful, but needs a melee ally. Additionally, the top is just a bit unwieldy as it's not always easy to line up effectively between positioning and initiatives.",
+					"bottom": "The bottom is a decent amount of direct damage, but it's not that much more than a good Shield turn.",
+					"overall": "Vicious Ballet top suffers from 2 problems: it needs Fire and lots of melee allies."
+				},
+				{
+					"id": "nofear",
+					"top": "Easily a Shield 2 and often a Shield 3 on top, with an absurd 01 initiative, this top absolutely does the trick, both mitigating most of the damage for a round, and sending a bunch back at the same time.<br>Thanks to Strangling Chain's bottom, you can even hold ranged enemies in melee (and that bottom also conveniently provides a ton of movement to get into the ideal position).",
+					"bottom": "The bottom loss here is pretty sad for a level 8 loss though, so please don't use it unless you're extremely desperate.",
+					"overall": "No Fear is a fantastic card for our build."
+				},
+				{
+					"id": "prismaticsickle",
+					"top": "We really want Fire generation and an Attack 4, Range 3 is a lot better than an Attack 3, Range 2.",
+					"bottom": "The bottom Loot 2 is also a huge non-loss Loot action, so enjoy raking in those coins when you don't need this in combat.",
+					"overall": "Prismatic Sickle is great, especially in larger parties with more allies that use elements."
+				},
+				{
+					"id": "honorablefury",
+					"top": "Obviously with both elements, this top represents a lot of damage. And fortunately, for the only build that's taking this card (Standard), we just picked up Prismatic Sickle, which creates a very obvious and effect two-turn combo with this top.",
+					"bottom": "Meanwhile, for every time we can't set up the elements with Prismatic Sickle's top, we can just use this bottom after a Harvest Sickle in order to get a good Move with a ton of direct damage.",
+					"overall": "Honorable Fury is good although not crazy for a level 9 card.<p>Either way, this card is very powerful and you'll never be unhappy to have it.</p>"
+				},
+				{
+					"id": "soaringshield",
+					"top": "The top is a perfectly fine loss to use in the last room as it outputs a reasonable amount of damage and obviously AoE Stun is pretty much the best thing you can be doing in Gloomhaven.",
+					"bottom": "Paired with a powerful last-room loss on top, we have a perfect bottom action to spam. Move 3 Jump + 3-4 Shield is perfect for justifying Shield Spikes and the 11 initiative is beautiful for this sort of effect. We even have access to Wind thanks to Flying Sickle from level 6, so it's easy enough for us to get the full Shield 4 when we want it (it also makes perfect sense as you'll use Flying Sickle bottom when there's a single strong enemy to kill with Strangling Chain top but when there's not, you can use the top to set up this bottom).",
+					"overall": "Soaring Shield continues the hit parade for Shield Spikes after the dry spell in the mid levels."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "We need to lean on items for our first few levels, but we should be able to produce a couple of decent rounds from the start.",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These cards stay with us through to level 9 as they have the appropriate actions we like, either enhanceable moves or shields",
+							"cards": [
+								{
+									"id": "shieldspikes",
+									"comment": "This is the card that we build around and should be played in round 1 in most scenarios."
+								},
+								{
+									"id": "flameshroud",
+									"comment": "Early move with a shield is something we always use and we can add <i>Jump</i> on bottom eventually, but it is not a priority."
+								},
+								{
+									"id": "shockingadvance",
+									"comment": "Another move we like and one we want to enhance with <i>Fire</i> as soon as we can"
+								},
+								{
+									"id": "swiftstrength",
+									"comment": "This card does a bit of everything on the bottom with <i>Move, Jump, Shield & Loot</i>"
+								},
+								{
+									"id": "warriorofthesun",
+									"comment": "This is the only top we keep, apart from spikes, as it is a top <i>Shield</i> that can be enhamnced to add another."
+								}
+							]
+						},
+						{
+							"label": "Valuable",
+							"overview": "These cards add real value, but will be swapped out as we get better options",
+							"cards": [
+								{
+									"id": "healingsands",
+									"comment": "The disarm on the bottom can be useful, but the initiative is fairly awful. In an emergency the self-heal on the top can be used."
+								},
+								{
+									"id": "flamingsickle",
+									"comment": "A decent top attack that allows us to pull enemies towards us. This is great for dealing with archers that lay down traps."
+								},
+								{
+									"id": "twirlingstabs",
+									"comment": "An AoE attack that can be powered up and also gives xp"
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "These cards are there to make up the hand and are the first candidates to be dropped on resting",
+							"cards": [
+								{
+									"id": "desertnight",
+									"comment": "A late attack, but has an anti-synergy with our build goal"
+								},
+								{
+									"id": "shieldofthedesert",
+									"comment": "Another AoE attack, but it uses our elements that we have better uses for. The bottom can be used in an emergency of against very specific creatures."
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "flamingsickle",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Adj. AoE, <i>Loot, Fire</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "twirlingstabs",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "desertnight",
+							"top": {
+								"text":"Late attack, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "healingsands",
+							"top": {
+								"text":"Heal 4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy has <i>Disadvantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shieldofthedesert",
+							"top": {
+								"text":"Attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<i>Shield 3</i> loss",
+								"style": "w3-pale-blue"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							},
+							"replace": "flamingsickle",
+							"comment": "Barbaric Instincts replaces Flaming Sickle in this build; it's pretty much a straight upgrade for what you use it for, and now you can easily do consecutive Shield 2 turns. You're now mostly depending on teammates and items for protection turn 1, but then you're set up to tank for the next 2 rounds."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "twirlingstabs",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "desertnight",
+							"top": {
+								"text":"Late attack, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "healingsands",
+							"top": {
+								"text":"Heal 4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy has <i>Disadvantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shieldofthedesert",
+							"top": {
+								"text":"Attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "<i>Shield 3</i> loss",
+								"style": "w3-pale-blue"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "shieldofthedesert",
+							"comment": "Strangling Chain is the clear choice here, replacing Shield of the Desert, which we couldn't make great use out of anyway. I have it here combined with Barbaric Instincts to lock down a few enemies with Shield 1 plus items, and then have Shield 2 for the next 2 rounds."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "desertnight",
+							"top": {
+								"text":"Late attack, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "healingsands",
+							"top": {
+								"text":"Heal 4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy has <i>Disadvantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "twirlingstabs",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "radiantsickle",
+							"top": {
+								"text":"AoE ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "twirlingstabs",
+							"comment": "I have Radiant Sickle replacing Twirling Stabs here, but it could just as easily replace Healing Sands. The problem is that all 3 of those cards are on the chopping block when long resting, as keeping the Shield chain going is more important, so which one you chose to replace doesn't matter too much."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "desertnight",
+							"top": {
+								"text":"Late attack, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "healingsands",
+							"top": {
+								"text":"Heal 4",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, enemy has <i>Disadvantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "radiantsickle",
+							"top": {
+								"text":"AoE ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "We go back a level for our pick and shuffle our deck on the assumption that we have enhanced Shocking Advance with <i>Fire</i>",
+					"picks": [
+						{
+							"card": "burnawaythedark",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-red"
+							},
+							"replace": "healingsands",
+							"comment": "Burn Away the Dark replaces Twirling Stabs or Healing Sands (whichever one you didn't replace last level). Here, I'm assuming you have saved up enough to enhance Shocking Advance with a Fire, in which case you can now power up Burn Away the Dark rather consistently."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "desertnight",
+							"top": {
+								"text":"Late attack, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "burnawaythedark",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light, (Fire)</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "radiantsickle",
+							"top": {
+								"text":"AoE ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "These next couple of levels are when you most have to lean on your item load out for protection; the goal is to maximize items for high shield turns 2 and 3, then CC and use AOEs on what's left the last 2 turns of the cycle.",
+					"picks": [
+						{
+							"card": "flyingsickle",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Multi-attack",
+								"style": "w3-pale-red"
+							},
+							"replace": "desertnight",
+							"comment": "Flying Sickle is the clear choice, and it'll replace Desert Night (the CC was nice, but a single target Attack 2 just doesn't cut it). Card combos/order of turns doesn't really change."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flyingsickle",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Multi-attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "burnawaythedark",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light, (Fire)</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "radiantsickle",
+							"top": {
+								"text":"AoE ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "Level 7 is probably the most disappointing level for this build, more because our hand is already good for our purposes than because these cards are bad",
+					"picks": [
+						{
+							"card": "hornsofthebeast",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i> loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "rgback",
+							"comment": "At level 7, you can take whatever you want, but I wouldn't use it. Horns of the Beast is the better card (and combos well with Stranglin' Chain's bottom), but you have too many good tops you want to use, so there's nowhere to fit it."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flyingsickle",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Multi-attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "burnawaythedark",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light, (Fire)</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "radiantsickle",
+							"top": {
+								"text":"AoE ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "Level 8 is when we finally get another (excellent) shield option.",
+					"picks": [
+						{
+							"card": "nofear",
+							"top": {
+								"text":"<i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent heal loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "radiantsickle",
+							"comment": "No Fear replaces Radiant Sickle (unless you have Sun Shield, in which case I'd replace Burn Away the Dark). You can now finally get 3 turns of Shield 2+ before items, which is very fun to play."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "nofear",
+							"top": {
+								"text":"<i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent heal loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "flyingsickle",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Multi-attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "burnawaythedark",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light, (Fire)</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "soaringshield",
+							"top": {
+								"text":"Move, AoE attack <i>Stun</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "burnawaythedark",
+							"comment": "Soaring Shield replaces Burn Away the Dark. Here I'm expecting an enhanced Swift Strength, letting you have 4 turns of Shield 2+ before items in a cycle, which is pretty great."
+						}
+					],
+					"hand": [
+						{
+							"card": "shieldspikes",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "barbaricinstincts",
+							"top": {
+								"text":"<i>Shield, Pull</i>, damage and <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Shielded enemies",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "warriorofthesun",
+							"top": {
+								"text":"<i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "nofear",
+							"top": {
+								"text":"<i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent heal loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "flyingsickle",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Multi-attack",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "soaringshield",
+							"top": {
+								"text":"Move, AoE attack <i>Stun</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "shockingadvance",
+							"top": {
+								"text":"Attack, <i>Immobilize, Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Light, (Fire)</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flameshroud",
+							"top": {
+								"text":"Enemy pure damage loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftstrength",
+							"top": {
+								"text":"Ranged attack, <i>Pull</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Jump, Shield,  Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "stranglingchain",
+							"top": {
+								"text":"Attack, <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "shockingadvance",
+					"position": "bottom",
+					"enhancement": "<i>Fire</i>",
+					"comment": "We want as much <i>Fire</i> as we can get"
+				},
+				{
+					"card": "flameshroud",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Helps us get into position"
+				},
+				{
+					"card": "swiftstrength",
+					"position": "bottom",
+					"enhancement": "</i>Shield</i>",
+					"comment": "Move shields always works for us"
+				},
+				{
+					"card": "swiftstrength",
+					"position": "bottom",
+					"enhancement": "Move",
+					"comment": "<i>Jump</i> 3 is much better than 2"
+				},
+				{
+					"card": "stranglingchain",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Better positioning"
+				},
+				{
+					"card": "warriorofthesun",
+					"position": "top",
+					"enhancement": "<i>Shield</i>",
+					"comment": "More shields"
+				},
+				{
+					"card": "barbaricinstincts",
+					"position": "top",
+					"enhancement": "<i>Shield</i>",
+					"comment": "More shields"
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "extremefortitude"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "refine"
+						},
+						{
+							"order": 4,
+							"name": "dust"
+						},
+						{
+							"order": 5,
+							"name": "flare"
+						},
+						{
+							"order": 6,
+							"name": "gouge"
+						},
+						{
+							"order": 7,
+							"name": "refrain"
+						},
+						{
+							"order": 8,
+							"name": "illuminate"
+						},
+						{
+							"order": 9,
+							"name": "blazinglight"
+						},
+						{
+							"order": 10,
+							"name": "bulwark"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "Standard",
+						"comments": "",
+						"picks": [
+							{
+								"id": "496",
+								"comment": ""
+							},
+							{
+								"id": "760",
+								"comment": ""
+							},
+							{
+								"id": "494",
+								"comment": ""
+							},
+							{
+								"id": "800",
+								"comment": ""
+							},
+							{
+								"id": "830",
+								"comment": ""
+							},
+							{
+								"id": "748",
+								"comment": ""
+							},
+							{
+								"id": "820",
+								"comment": ""
+							},
+							{
+								"id": "852",
+								"comment": ""
+							},
+							{
+								"id": "762",
+								"comment": ""
+							},
+							{
+								"id": "770",
+								"comment": ""
+							},
+							{
+								"id": "812",
+								"comment": ""
+							},
+							{
+								"id": "774",
+								"comment": ""
+							},
+							{
+								"id": "792",
+								"comment": ""
+							},
+							{
+								"id": "824",
+								"comment": ""
+							},
+							{
+								"id": "860",
+								"comment": ""
+							},
+							{
+								"id": "511",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

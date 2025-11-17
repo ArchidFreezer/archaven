@@ -7,57 +7,59 @@ import glob
 import os
 
 def get_build_name(id):
-	name=jmespath.search(f"builds[?id=='{id}'].build|[0]", jbuilds)
-	return name
-	
+  name=jmespath.search(f"builds[?id=='{id}'].build|[0]", jbuilds)
+  return name
+  
 def html_class(cls):
-	id=cls[0]
-	name=cls[1]
-	menu=f'''  <div class="w3-dropdown-click">
+  id=cls[0]
+  name=cls[1]
+  menu=f'''  <div class="w3-dropdown-click">
     <button class="w3-button" onclick="sidebarMainDropClick('{id}Drop')">{name} <i class="fa fa-caret-down"></i></button>
     <div id="{id}Drop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="{id}-main.html" class="w3-bar-item w3-button">Overview</a>
 '''
-	
-	# find all the build files
-	files = glob.glob(f'../{gamename}/html/' + id + '-*.html')
-	for file in files:
-		file=os.path.basename(file)
-		if file != id + "-main.html":
-			name=get_build_name(os.path.splitext(file)[0])
-			menu+=f'''			<a href="{file}" class="w3-bar-item w3-button">{name}</a>
+  
+  # find all the build files
+  files = glob.glob(f'../{gamepath}/html/' + id + '-*.html')
+  for file in files:
+    file=os.path.basename(file)
+    if file != id + "-main.html":
+      name=get_build_name(os.path.splitext(file)[0])
+      menu+=f'''      <a href="{file}" class="w3-bar-item w3-button">{name}</a>
 '''
-	
-	menu+='''    </div>
+  
+  menu+='''    </div>
   </div>
 '''
-	return menu
+  return menu
 
 parser = argparse.ArgumentParser(
                     prog='class-pages-create',
                     description='Reads a json file containing an xhaven class data and produces a static html page from it.',
                     epilog='This needs to be used with the archaven github repository file structure.')
-parser.add_argument('game', choices=['fh','gh'], help='game whose data should be parsed')
+parser.add_argument('game', choices=['fh','gh','gha'], help='game whose data should be parsed')
 args = parser.parse_args()
 
 gameprefix=args.game
-gamename=''
+gamepath=''
 match gameprefix:
-	case 'fh':
-		gamename='frosthaven'
-	case 'gh':
-		gamename='gloomhaven'
+  case 'fh':
+    gamepath='frosthaven'
+  case 'gh':
+    gamepath='gloomhaven'
+  case 'gha':
+    gamepath='gloomhaven-archid'
 
 
-with open(f'../{gamename}/data/class-data.json') as fd:
-	jclasses = json.load(fd)
+with open(f'../{gamepath}/data/class-data.json') as fd:
+  jclasses = json.load(fd)
 classes=jmespath.search(f"classes[].[id,label]", jclasses)
 
-with open(f'../{gamename}/data/build-data.json') as fd:
-	jbuilds = json.load(fd)
+with open(f'../{gamepath}/data/build-data.json') as fd:
+  jbuilds = json.load(fd)
 
 # Open the output html file
-hf = open(f'../{gamename}/html/mainsidebar.js', "w")
+hf = open(f'../{gamepath}/html/mainsidebar.js', "w")
 
 hf.write('''document.write(`
 <script>
@@ -83,13 +85,13 @@ function sidebarMainDropClick(id) {
      
 <div class="w3-sidebar w3-bar-block w3-light-grey w3-card w3-animate-left" style="display:none" id="main-sidebar">
   <button onclick="mainsidebar_close()" class="w3-bar-item w3-large">Close &times;</button>
-	<a href="index.html" class="w3-bar-item w3-button">Home</a>
-	<a href="events.html" class="w3-bar-item w3-button">Events</a>
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="events.html" class="w3-bar-item w3-button">Events</a>
 
 ''')
 
 for cls in classes:
-	hf.write(html_class(cls))
+  hf.write(html_class(cls))
 
 hf.write('''</div>
 `);

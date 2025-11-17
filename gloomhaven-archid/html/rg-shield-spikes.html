@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Red Guard Shield Spikes</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Red Guard Shield Spikes</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>This Red Guard build centres around the Shield Spikes card that retaliates damage based on the Shield value at the time of the hit. This means that the build is not overly interested in the AMD or damage abilities, focussing instead on consistently increasing our shield value. We use both enhancements and items to increase this value. Because some of the decenbt shileding items are not found until higher wealth levels the build can feel a little underwhelming at the start if these have not been unlocked yet.</p> <p>Applying the <i>Immobilize</i> status effect is also very useful to us as it means we can lock down ranged enemies so they do not attempt to move away and we can get our retaliate to proc.</p>
+    <p>So why would you play a Shield Spikes Build?</p>
+    <ul>
+      <li>Strong against the typically difficult high shield/retaliate enemies.</li>
+      <li>Strong against swarming enemies as they tend to be low health, low damage and our shields can negate much if not all the damage, whilst dishing out direct damage back.</li>
+    </ul>
+    
+    <p>The Shield Spikes build loves the following:</p>
+    <ul>
+      <li>Party members who can provide us with <i>Shield</i> or <i>Immobilize</i> enemies. There is a great synergy with the Sawbones persistent loss that gives a permanent shield 1, and even better with the upgraded version that allows us to ignore negative status effects. The Spellweaver, Tinkerer and Voidwarden also have cards that can help.</li>
+      <li>Party members that can heal us, especially at lower levels when we have loiwer shield values.</li>
+      <li>Unusually we want to be hit a lot so <i>Stun</i> is not something we want on adjacent enemies, we are happy to have them draw a <i>Curse</i> as that means they still attack.</li>
+    </ul>
+    
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is excellent if you have the elements, but… you don’t. A top move is not very good on this build, because all our good shields are either top actions or tied to moves, so it doesn’t really add anything.</p>
+              <hr>
+              <p>The bottom is also a just okay loss, which means it’s not really viable in this build.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This card demands too much from our elements to be taken in place of others.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>On the top, we have an Immobilize, which is decent for locking down a ranged enemy so they have to eat our Shield Spikes. Initiative is very late, which is actually good; it means we can ensure we go after the enemies. A good sequence is to use this late initiative to immobilize an archer, then next round set up a full Shield turn to kill it.</p>
+              <hr>
+              <p>The bottom is, again, less desirable because it’s a non-movement bottom that isn’t super useful.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is Flaming Sickle’s twin, but it’s a bit less desirable because we care about Light less than Fire.<p>Overall, this would be a card that I’d be happy to take… if there weren’t better ways to Immobilize enemies and make Light.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A great late initiative with a very consistent and powerful The top is an essentially range 2 Disarm, which is quite good. Sometimes there are enemies you really can’t put up enough Shield to deal with, so preventing them from attacking while come in clutch. The elements also help out allies like the Voidwarden or Mindthief.</p>
+              <hr>
+              <p>The bottom is an emergency loss that will normally only be used in escape scenarios or to snag a chest from underneath a teammate.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Initiative is very late, which is actually good; it means we can ensure we go after the enemies.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a loss that can be decent against high shield/low health enemies (and it synergizes well with our Pull abilities), but using a second loss on a 10 card hand that plans on taking lots of hits is just much too risky.</p>
+              <hr>
+              <p>The bottom, however, is great for us. Move 4, Shield 1, initiative 6 is everything we could ask for. It lets us position to tank a hit and goes early enough to beat almost any monster. The only problem is that <i>Fire</i> will be the one element we never have enough of, but the payoff is worth it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The 6 initiative is your best and is really insanely-good initiative for this type of class. Finally, the Fire consumption is a nice bonus that often doesn't matter much because you want Fire so badly for other actions.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action is significant for being your only non-loss <i>Fire</i> generating top at level 1. Given that Flame Shroud needs <i>Fire</i> and is a key card for this build, that’s kind of a big deal. The pull also synergizes with your Shields, letting you ensure that monster focus remains on you.</p>
+              <hr>
+              <p>The bottom is also a <i>Fire</i> generator, which is good for the same reasons described above, but slightly less valuable because as a tank, you often need to keep moving in order to protect your teammates and/or avoid unnecessary hits.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Overall, this is a card that makes it into our hand until we find a better source of Fire.<p>The initiative is very subpar; not fast, but not slow enough to reliably go after monsters.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is an excellent top self-heal that is great for getting back any life lost while moving between rooms (and as the team tank, you’ll be taking some damage that should be removed). It also gives an unconditional XP, which isn’t super notable given that there are many go-to cards that do the same thing.</p>
+              <hr>
+              <p>The bottom is… okay. On average, this will essentially be a -1 to enemy attacks, meaning it’s essentially a more complicated Shield 1. That’s great… except you can’t use Shield Spikes to deal damage back.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Initiative-wise, this is on the wrong side of the fast/meh border, especially compared to some of your other cards.<p>Overall, this is a card that can definitely find a place in a level 1 hand, but after that it depends on your team comp; do you have allies that can reliably heal you (think Tinkerer, Voidwarden, spoilers)? If so, you can leave this at home. Otherwise, it will be necessary to keep this around for longer than it deserves.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a decent boss-killing loss, which is the only time you’d ever bring it.</p>
+              <hr>
+              <p>The bottom doesn’t do enough, which, combined with its initiative, makes it just an overall lacklustre card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Precision Strike is legitimately your worst card and it's not even bad.<p>I do recommend bringing this card for the top action to boss fights at low levels, where it is good.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a powerful attack action at good initiative… provided we have the elements for it. As we’ve seen though, we’re starved for Fire and would prefer to use it on Flame Shroud. Light is much less of a problem to get once we take a look at the X cards, but the consumption here is also less desirable than Twirling Stabs or Shocking Advance. Forget seeing this as a double target Attack 4, more often than not this will be a single target Attack 4 that maybe triggers a trap, which is good enough for a level 1.</p>
+              <hr>
+              <p>The bottom is an extremely powerful loss for this build; at this level, Shield 3 may as well be “take no damage this round,” but again, we’re already running a loss in Shield Spikes; the longevity cost isn’t really worth it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The initiative is extremely good, and at level 1 that’ll be the main draw of this card (we have excellent early initiatives on our “Shields up” turns, but much worse on our off turns).</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is our core persistent loss.<p>Shield Spikes is a class-defining, build around card. Now, I know what anyone who’s done a bit of base Gloomhaven is saying; “That’s just Retaliate with extra steps, and Retaliate sucks!” To that I’d say; yes, retaliate sucks in base Gloomhaven, but that’s because most retaliate abilities in base Gloom are an either/or with putting up Shields, so you take more damage than usual to deal… an unpredictable amount back. This lets you do both at once, which is a huge improvement. Additionally, as we’ll see in a bit, you have access to a fair amount of immobilize effects, letting you trap enemies who would otherwise run away from you into taking damage from your spikes.</p></p>
+              <hr>
+              <p>Oh, right, there’s a bottom here; it’s a decent heal, and will always be useful for clearing poison and wound. It’s also one of your only non-loss bottom Fire generators at any level, which is why it’s somewhat worth taking along early even if you don’t want to use Shield Spikes. Obviously though, the main point of this card is the top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Shield Spikes persistent loss is the core of one of the two builds for the Red Guard and unlike some alternative builds for classes in Gloomhaven, the Shield Spikes build has everything it needs to shine.<p>Initiative is in the bad zone (mid-range is just too inconsistent, but odds are you aren’t carrying this in your hand for long enough to matter.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is one of only 2 top Shield actions we have at level 1, though it does require Light, and thus it competes with Twirling Stabs. However, the Immobilize synergizes nicely with the Shield (as described on Blinding Sickle).</p>
+              <hr>
+              <p>The bottom is one of our best Light generators, and has an enhancement dot that looks ripe for a Fire enhancement. My first recommended enhancement would be to put a Fire on there ASAP. Having an easy way to move and make Fire will be key, and having a card that makes both your main elements nicely sets up cards like Shield of the Desert.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Shocking Advance is another good card with two good halves.<p>The initiative is excellent again, able to comfortably go before most enemies.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a decent double target short ranged attack. Attack 2 isn’t going to win awards, and doesn’t scale well against shielded enemies, but the pull will sometimes be useful. More often than not, this top will only be used if the enemies pull a non-attack card when you were planning on shielding up and you need something to do. In that capacity, it does its job well.</p>
+              <hr>
+              <p>The bottom is the main draw of this card; <i>Jump, Shield, Loot</i> and early initiative are a great combination for tanking, letting you get in the perfect spot to maximize mitigation and damage. It only being a Move 2 is a negative, but that’s where the Boots of Striding come in.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Swift Strength is an excellent card no matter how you're using it.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Now this is a non-shield top action I can get behind! Attack 3 all adjacent enemies is extremely good for a level 1 card (the Red Guard will generally make more Light than they need, so the consumption here is easy to proc), and it makes an excellent finisher for the round after we’ve spiked a bunch of enemies with our shields.</p>
+              <hr>
+              <p>The bottom is much less exciting; Attack 2 on bottom is standard, but boring, and we’ll almost never be able to use the Fire consumption on it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Twirling Stabs has two really powerful halves only let down by its initiative.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top does almost everything; gives us an unconditional <i>Shield</i>, <i>Immobilizes</i> enemies to keep them next to you, and makes <i>Light</i>. Only thing that could make this better is if it made Fire, but you can’t have it all.</p>
+              <hr>
+              <p>The bottom is much less exciting; Attack 2 on bottom is standard, but boring, and while we could use Light, we have better uses for it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a key card for this build.<p>The initiative is excellent again, able to comfortably go before most enemies.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These cards stay with us through to level 9 as they have the appropriate actions we like, either enhanceable moves or shields</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+              <div class="w3-container">This is the card that we build around and should be played in round 1 in most scenarios.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+              <div class="w3-container">Early move with a shield is something we always use and we can add <i>Jump</i> on bottom eventually, but it is not a priority.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+              <div class="w3-container">Another move we like and one we want to enhance with <i>Fire</i> as soon as we can</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+              <div class="w3-container">This card does a bit of everything on the bottom with <i>Move, Jump, Shield & Loot</i></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+              <div class="w3-container">This is the only top we keep, apart from spikes, as it is a top <i>Shield</i> that can be enhamnced to add another.</div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Valuable</h3>
+          <p>These cards add real value, but will be swapped out as we get better options</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png">
+              <div class="w3-container">The disarm on the bottom can be useful, but the initiative is fairly awful. In an emergency the self-heal on the top can be used.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png">
+              <div class="w3-container">A decent top attack that allows us to pull enemies towards us. This is great for dealing with archers that lay down traps.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png">
+              <div class="w3-container">An AoE attack that can be powered up and also gives xp</div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>These cards are there to make up the hand and are the first candidates to be dropped on resting</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+              <div class="w3-container">A late attack, but has an anti-synergy with our build goal</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png">
+              <div class="w3-container">Another AoE attack, but it uses our elements that we have better uses for. The bottom can be used in an emergency of against very specific creatures.</div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>We need to lean on items for our first few levels, but we should be able to produce a couple of decent rounds from the start.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png">
+                <p class="w3-pale-green">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-blue">Adj. AoE, <i>Loot, Fire</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+                <p class="w3-pale-green">Late attack, <i>Disarm</i></p>
+                <p class="w3-pale-red">Move 6, <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png">
+                <p class="w3-pale-blue">Heal 4</p>
+                <p class="w3-pale-green">Move 3, enemy has <i>Disadvantage</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png">
+                <p class="w3-pale-blue">Attack</p>
+                <p class="w3-pale-blue"><i>Shield 3</i> loss</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action already represents two direct damage in an AoE around you while providing mitigation and your best element, all at early initiative.</p>
+              <hr>
+              <p>The bottom is good in situations where the top is not: when dealing with high-HP, high-damage enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>If you're playing Shield Spikes, Barbaric Instincts is obviously amazing.<p>The repositioning can be helpful for getting ranged enemies around you, which you can pair with Healing Sands or Stranglin' Chain bottom.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-harvest-sickle.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Harvest Sickle immediately gives us our first Attack 4, which is welcome already at level 2. The two elements on there can be useful to us or a companion, so they add a not-insignificant amount of value.</p>
+              <hr>
+              <p>The bottom is just an amazing loss for the end of scenarios, which is convenient because you typically want to bring this card as late into a scenario as possible because of the top Attack.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A powerful top action that most builds would be happy to spam all scenartio coupled with a goo last room loss on the bottom. The biggest downside of the card is the bad initiative.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-flaming-sickle.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Barbaric Instincts replaces Flaming Sickle in this build; it's pretty much a straight upgrade for what you use it for, and now you can easily do consecutive Shield 2 turns. You're now mostly depending on teammates and items for protection turn 1, but then you're set up to tank for the next 2 rounds.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+                <p class="w3-pale-green">Late attack, <i>Disarm</i></p>
+                <p class="w3-pale-red">Move 6, <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png">
+                <p class="w3-pale-blue">Heal 4</p>
+                <p class="w3-pale-green">Move 3, enemy has <i>Disadvantage</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png">
+                <p class="w3-pale-blue">Attack</p>
+                <p class="w3-pale-blue"><i>Shield 3</i> loss</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is basically a super poison that has extra value on classes with multiple Attacks in a single action (cough cough Demolitionist), and it can ignore shields. Very good against bosses, where you'll want to combo this with the bottom attacks on Barbaric Instincts, Warrior of the Sun, or Twirling Stabs.</p>
+              <hr>
+              <p>The bottom is great for the movement and the ability to lock enemies down next to you.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Strangling Chain is a card with 2 excellent halves.<p>The initiative is, as always, very good.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-warmth-of-the-sun.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top can be a lot of damage.... but again, we don't want to be dropping losses with this build and we're doing a similar amount of damage via Shield Spikes anyway.</p>
+              <hr>
+              <p>The bottom heal is okay, but again, we'd like to move often or deal damage with the bottom. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Warmth of the Sun is a top loss with a non-movement bottom, a combination we certainly do not want.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Strangling Chain is the clear choice here, replacing Shield of the Desert, which we couldn't make great use out of anyway. I have it here combined with Barbaric Instincts to lock down a few enemies with Shield 1 plus items, and then have Shield 2 for the next 2 rounds.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-green">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-blue">Move 3 <i>Light</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+                <p class="w3-pale-green">Late attack, <i>Disarm</i></p>
+                <p class="w3-pale-red">Move 6, <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png">
+                <p class="w3-pale-blue">Heal 4</p>
+                <p class="w3-pale-green">Move 3, enemy has <i>Disadvantage</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png">
+                <p class="w3-pale-blue">AoE attack</p>
+                <p class="w3-pale-green">Bottom attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Burn Away the Dark is an excellent top action, but it's much weaker against base Gloom's numerous Shielded enemies and wants to use the <i>Fire</i> we've been saving for Flame Shroud.</p>
+              <hr>
+              <p>The bottom is a Disarm, which is decent even if it does anti-synergize with our Shield Spikes focus.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Overall, I'd only take it for this build if you've enhanced Shocking Advance with <i>Fire</i>, in which case this fits in our hand as an upgraded Twirling Stabs.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top gives us a single-target damage option (which we've been lacking until this point).</p>
+              <hr>
+              <p>The bottom gives us a nice poison/wound clearer (every tank's worst nightmare) while still moving, which is much better value than the bottom heal on Warmth of the Sun.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Radiant Sickle has 2 decent halves.<p>If you have item 140 (Sun Shield), it should be obvious why you want to take this card.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+                <p class="w3-pale-blue">AoE ranged attack</p>
+                <p class="w3-pale-green">Move, <i>Heal</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-twirling-stabs.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">I have Radiant Sickle replacing Twirling Stabs here, but it could just as easily replace Healing Sands. The problem is that all 3 of those cards are on the chopping block when long resting, as keeping the Shield chain going is more important, so which one you chose to replace doesn't matter too much.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-green">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-blue">Move 3 <i>Light</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+                <p class="w3-pale-green">Late attack, <i>Disarm</i></p>
+                <p class="w3-pale-red">Move 6, <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png">
+                <p class="w3-pale-blue">Heal 4</p>
+                <p class="w3-pale-green">Move 3, enemy has <i>Disadvantage</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+                <p class="w3-pale-blue">AoE ranged attack</p>
+                <p class="w3-pale-green">Move, <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-sand-devil.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>While the top is very powerful and useful in JotL, it's a persistent loss we can't really use with this build.</p>
+              <hr>
+              <p>The bottom is a Move 5, which is nice, but we're consistently playing 2 Move 4s, so it's not like we're starved for movement.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Whilst, thematically it fits with our push/pull/forced moevement theme it doesn;t actually add anything to our build and we don't want another loss.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Move, <i>Disarm</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-healing-sands.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Burn Away the Dark replaces Twirling Stabs or Healing Sands (whichever one you didn't replace last level). Here, I'm assuming you have saved up enough to enhance Shocking Advance with a Fire, in which case you can now power up Burn Away the Dark rather consistently.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>We go back a level for our pick and shuffle our deck on the assumption that we have enhanced Shocking Advance with <i>Fire</i></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png">
+                <p class="w3-pale-green">Late attack, <i>Disarm</i></p>
+                <p class="w3-pale-red">Move 6, <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Move, <i>Disarm</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light, (Fire)</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+                <p class="w3-pale-blue">AoE ranged attack</p>
+                <p class="w3-pale-green">Move, <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-fierce-brilliance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a loss that anti-synergizes with your Shield Spikes.</p>
+              <hr>
+              <p>The bottom is a decent amount of direct damage, which can help guarantee kills.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Fierce Brilliance would be a decent card for this build.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Flying Sickle is your longest range top attack, perfect for plucking a ranged enemy from the back line into your Spikes. It makes Wind, which you don't use...yet (take a quick look at your level 9, I'll wait).</p>
+              <hr>
+              <p>he bottom is okay, most useful for a killer Stranglin' Chain turn.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Flying Sickle is incredible!<p>The combination of a powerful and narrow bottom with an extremely flexible top and even good late initiative just makes an impossible-to-miss card.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-flying-sickle.png">
+                <p class="w3-pale-green">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-red">Multi-attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-desert-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Flying Sickle is the clear choice, and it'll replace Desert Night (the CC was nice, but a single target Attack 2 just doesn't cut it). Card combos/order of turns doesn't really change.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>These next couple of levels are when you most have to lean on your item load out for protection; the goal is to maximize items for high shield turns 2 and 3, then CC and use AOEs on what's left the last 2 turns of the cycle.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png">
+                <p class="w3-pale-green">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-red">Multi-attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Move, <i>Disarm</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light, (Fire)</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+                <p class="w3-pale-blue">AoE ranged attack</p>
+                <p class="w3-pale-green">Move, <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-horns-of-the-beast.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Horns of the Beast is another top Fire generator, which is great!... except we already have Barbaric Instincts and our enhanced Shocking Advance for that.</p>
+              <hr>
+              <p>The bottom loss is an upgrade to Shield of the Desert's, but we never really played that one.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Horns of the Beast doesn't really add a lot extra for us.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-vicious-ballet.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This top is powerful, but needs a melee ally. Additionally, the top is just a bit unwieldy as it's not always easy to line up effectively between positioning and initiatives.</p>
+              <hr>
+              <p>The bottom is a decent amount of direct damage, but it's not that much more than a good Shield turn.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Vicious Ballet top suffers from 2 problems: it needs Fire and lots of melee allies.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-horns-of-the-beast.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Move, <i>Shield</i> loss</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-rg-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">At level 7, you can take whatever you want, but I wouldn't use it. Horns of the Beast is the better card (and combos well with Stranglin' Chain's bottom), but you have too many good tops you want to use, so there's nowhere to fit it.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>Level 7 is probably the most disappointing level for this build, more because our hand is already good for our purposes than because these cards are bad</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png">
+                <p class="w3-pale-green">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-red">Multi-attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-red">Move, <i>Disarm</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light, (Fire)</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+                <p class="w3-pale-blue">AoE ranged attack</p>
+                <p class="w3-pale-green">Move, <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-horns-of-the-beast.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-no-fear.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Easily a Shield 2 and often a Shield 3 on top, with an absurd 01 initiative, this top absolutely does the trick, both mitigating most of the damage for a round, and sending a bunch back at the same time.<br>Thanks to Strangling Chain's bottom, you can even hold ranged enemies in melee (and that bottom also conveniently provides a ton of movement to get into the ideal position).</p>
+              <hr>
+              <p>The bottom loss here is pretty sad for a level 8 loss though, so please don't use it unless you're extremely desperate.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>No Fear is a fantastic card for our build.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-prismatic-sickle.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>We really want Fire generation and an Attack 4, Range 3 is a lot better than an Attack 3, Range 2.</p>
+              <hr>
+              <p>The bottom Loot 2 is also a huge non-loss Loot action, so enjoy raking in those coins when you don't need this in combat.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Prismatic Sickle is great, especially in larger parties with more allies that use elements.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-no-fear.png">
+                <p class="w3-pale-green"><i>Shield</i></p>
+                <p class="w3-pale-red">Persistent heal loss</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-radiant-sickle.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">No Fear replaces Radiant Sickle (unless you have Sun Shield, in which case I'd replace Burn Away the Dark). You can now finally get 3 turns of Shield 2+ before items, which is very fun to play.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>Level 8 is when we finally get another (excellent) shield option.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-no-fear.png">
+                <p class="w3-pale-green"><i>Shield</i></p>
+                <p class="w3-pale-red">Persistent heal loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png">
+                <p class="w3-pale-green">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-red">Multi-attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+                <p class="w3-pale-blue">AoE attack</p>
+                <p class="w3-pale-green">Move, <i>Disarm</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light, (Fire)</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-horns-of-the-beast.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-no-fear.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-honorable-fury.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Obviously with both elements, this top represents a lot of damage. And fortunately, for the only build that's taking this card (Standard), we just picked up Prismatic Sickle, which creates a very obvious and effect two-turn combo with this top.</p>
+              <hr>
+              <p>Meanwhile, for every time we can't set up the elements with Prismatic Sickle's top, we can just use this bottom after a Harvest Sickle in order to get a good Move with a ton of direct damage.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Honorable Fury is good although not crazy for a level 9 card.<p>Either way, this card is very powerful and you'll never be unhappy to have it.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/rg/jl-soaring-shield.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a perfectly fine loss to use in the last room as it outputs a reasonable amount of damage and obviously AoE Stun is pretty much the best thing you can be doing in Gloomhaven.</p>
+              <hr>
+              <p>Paired with a powerful last-room loss on top, we have a perfect bottom action to spam. Move 3 Jump + 3-4 Shield is perfect for justifying Shield Spikes and the 11 initiative is beautiful for this sort of effect. We even have access to Wind thanks to Flying Sickle from level 6, so it's easy enough for us to get the full Shield 4 when we want it (it also makes perfect sense as you'll use Flying Sickle bottom when there's a single strong enemy to kill with Strangling Chain top but when there's not, you can use the top to set up this bottom).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Soaring Shield continues the hit parade for Shield Spikes after the dry spell in the mid levels.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-soaring-shield.png">
+                <p class="w3-pale-red">Move, AoE attack <i>Stun</i></p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Soaring Shield replaces Burn Away the Dark. Here I'm expecting an enhanced Swift Strength, letting you have 4 turns of Shield 2+ before items in a cycle, which is pretty great.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png">
+                <p class="w3-pale-green"><i>Shield, Pull</i>, damage and <i>Fire</i></p>
+                <p class="w3-pale-blue">Shielded enemies</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png">
+                <p class="w3-pale-green"><i>Shield</i>, <i>Immobilize</i> adj., <i>Light</i></p>
+                <p class="w3-pale-blue">Bottom attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-no-fear.png">
+                <p class="w3-pale-green"><i>Shield</i></p>
+                <p class="w3-pale-red">Persistent heal loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png">
+                <p class="w3-pale-green">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-red">Multi-attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-soaring-shield.png">
+                <p class="w3-pale-red">Move, AoE attack <i>Stun</i></p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize, Shield</i></p>
+                <p class="w3-pale-green">Move 3 <i>Light, (Fire)</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png">
+                <p class="w3-pale-red">Enemy pure damage loss</p>
+                <p class="w3-pale-green">Move 4, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png">
+                <p class="w3-pale-blue">Ranged attack, <i>Pull</i></p>
+                <p class="w3-pale-green">Move 2, <i>Jump, Shield,  Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png">
+                <p class="w3-pale-blue">Attack, <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 4, <i>Immobilize</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blade-dance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-blinding-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-desert-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flame-shroud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-flaming-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-healing-sands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-precision-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-of-the-desert.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shield-spikes.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-shocking-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-swift-strength.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-twirling-stabs.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-strangling-chain.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-radiant-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-burn-away-the-dark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-flying-sickle.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/rg/jl-horns-of-the-beast.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-no-fear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/rg/jl-soaring-shield.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-shocking-advance.png"></td><td>bottom</td><td><i>Fire</i></td><td>We want as much <i>Fire</i> as we can get</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-flame-shroud.png"></td><td>bottom</td><td><i>Jump</i></td><td>Helps us get into position</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-swift-strength.png"></td><td>bottom</td><td></i>Shield</i></td><td>Move shields always works for us</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-swift-strength.png"></td><td>bottom</td><td>Move</td><td><i>Jump</i> 3 is much better than 2</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-strangling-chain.png"></td><td>bottom</td><td><i>Jump</i></td><td>Better positioning</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-warrior-of-the-sun.png"></td><td>top</td><td><i>Shield</i></td><td>More shields</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/rg/jl-barbaric-instincts.png"></td><td>top</td><td><i>Shield</i></td><td>More shields</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey"></div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Extreme Fortitude</td><td>Ignore negative item effects and add 2x +1</td></tr>
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Refine</td><td>Remove -2 and +1</td></tr>
+      <tr><td width="250px">Dust</td><td>Remove 4x +0</td></tr>
+      <tr><td width="250px">Flare</td><td>Replace +1 with +2 <i>Fire</i></td></tr>
+      <tr><td width="250px">Gouge</td><td>Replace +0 with +1 <i>Wound</i></td></tr>
+      <tr><td width="250px">Refrain</td><td>Replace +0 with +1 <i>Immobilise</i></td></tr>
+      <tr><td width="250px">Illuminate</td><td>Replace +1 with +2 <i>Light</i></td></tr>
+      <tr><td width="250px">Blazing Light</td><td>Add +1 <i>Fire</i> and +1 <i>Light</i></td></tr>
+      <tr><td width="250px">Bulwark</td><td>Add +1 <i>Shield</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-standard" onclick="accClick('acc-items-standard')" class="w3-btn w3-block w3-left-align"><h4>Standard</h4></button>
+    <div id="acc-items-standard" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-076a-chain-hood.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-007-iron-helmet.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-074a-swordedge-armor.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-023-chainmail.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-036-boots-of-dashing.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-032-tower-shield.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-046-spiked-shield.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-008-heater-shield.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-012-minor-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-028-moon-earring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-020-minor-mana-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-049-sun-earring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-091a-steel-ring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Shield Spikes based on Gripeaway build (<a href="https://imgur.com/a/ATJwEPe">https://imgur.com/a/ATJwEPe</a>)</div>
+</footer>
+
+</body>
+</html>
+  

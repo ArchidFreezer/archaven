@@ -827,6 +827,11 @@
 			"handsize": "10",
 			"perks": [
 				{
+					"id": "steady",
+					"name": "Steady",
+					"effect": "Remove -2, ignore negative item effects"
+				},
+				{
 					"id": "consistency",
 					"name": "Consistency",
 					"effect": "Remove 2x -1"

@@ -129,6 +129,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('skDrop')">Sunkeeper <i class="fa fa-caret-down"></i></button>
     <div id="skDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="sk-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="sk-damage.html" class="w3-bar-item w3-button">Damage</a>
       <a href="sk-tank.html" class="w3-bar-item w3-button">Tank</a>
     </div>
   </div>

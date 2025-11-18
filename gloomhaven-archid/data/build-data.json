@@ -1516,67 +1516,67 @@
 						"comments": "",
 						"picks": [
 							{
-								"id": "496",
+								"id": "chainhood",
 								"comment": ""
 							},
 							{
-								"id": "760",
+								"id": "ironhelmet",
 								"comment": ""
 							},
 							{
-								"id": "494",
+								"id": "swordedgearmor",
 								"comment": ""
 							},
 							{
-								"id": "800",
+								"id": "chainmail",
 								"comment": ""
 							},
 							{
-								"id": "830",
+								"id": "bootsofdashing",
 								"comment": ""
 							},
 							{
-								"id": "748",
+								"id": "bootsofstriding",
 								"comment": ""
 							},
 							{
-								"id": "820",
+								"id": "towershield",
 								"comment": ""
 							},
 							{
-								"id": "852",
+								"id": "spikedshield",
 								"comment": ""
 							},
 							{
-								"id": "762",
+								"id": "heatershield",
 								"comment": ""
 							},
 							{
-								"id": "770",
+								"id": "minorhealingpotion",
 								"comment": ""
 							},
 							{
-								"id": "812",
+								"id": "moonearring",
 								"comment": ""
 							},
 							{
-								"id": "774",
+								"id": "minorstaminapotion",
 								"comment": ""
 							},
 							{
-								"id": "792",
+								"id": "minormanapotion",
 								"comment": ""
 							},
 							{
-								"id": "824",
+								"id": "majorstaminapotion",
 								"comment": ""
 							},
 							{
-								"id": "860",
+								"id": "sunearring",
 								"comment": ""
 							},
 							{
-								"id": "511",
+								"id": "steelring",
 								"comment": ""
 							}
 						]
@@ -3166,51 +3166,51 @@
 						"comments": "",
 						"picks": [
 							{
-								"id": "760",
+								"id": "ironhelmet",
 								"comment": ""
 							},
 							{
-								"id": "850",
+								"id": "pendantofdarkpacts",
 								"comment": ""
 							},
 							{
-								"id": "786",
+								"id": "empoweringtalisman",
 								"comment": ""
 							},
 							{
-								"id": "806",
+								"id": "longspear",
 								"comment": ""
 							},
 							{
-								"id": "788",
+								"id": "battleaxe",
 								"comment": ""
 							},
 							{
-								"id": "868",
+								"id": "blackknife",
 								"comment": ""
 							},
 							{
-								"id": "762",
+								"id": "heatershield",
 								"comment": ""
 							},
 							{
-								"id": "774",
+								"id": "minorstaminapotion",
 								"comment": ""
 							},
 							{
-								"id": "509",
+								"id": "minorcurepotion",
 								"comment": ""
 							},
 							{
-								"id": "876",
+								"id": "ringofbrutality",
 								"comment": ""
 							},
 							{
-								"id": "824",
+								"id": "majorstaminapotion",
 								"comment": ""
 							},
 							{
-								"id": "844",
+								"id": "ringofhaste",
 								"comment": ""
 							}
 						]
@@ -3220,27 +3220,27 @@
 						"comments": "Blinking Cape is the best chest slot in the game for Saw, but Saw really wants flying as well (Cloak of Phasing or Boots of Levitation).<p>If you don't have item Boots of Levitation but you do have item Cloak of Phasing, I would actually suggest taking Cloak of Phasing instead of Blinking Cape, even if you have Blinking Cape. If you have both Boots of Levitation and Blinking Cape, just take those two. If you have Cloak of Phasing but neither Boots of Levitation or Blinking Cape, then Boots of Striding are a better choice than Rocket Boots. But if you have neither 58 nor Boots of Levitation, then Rocket Boots is actually better than Boots of Striding. Finally, Cloak of Invisibility is the choice if you have neither Blinking Cape nor Cloak of Phasing.</p><p>So, to make this clearer:</p><table class=\"w3-table w3-striped w3-border\"><tr><th>Have</th><th>Have Not</th><th>Take</th></tr><tr><td>Blinking Cape<br>Boots of Levitation</td><td></td><td>Blinking Cape<br>Boots of Levitation</td></tr><tr><td>Cloak of Phasing<br>Boots of Levitation</td><td>Blinking Cape</td><td>Cloak of Phasing<br>Boots of Striding</td></tr><tr><td>Blinking Cape<br>Cloak of Phasing</td><td>Boots of Levitation</td><td>Cloak of Phasing<br>Boots of Striding</td></tr></table>",
 						"picks": [
 							{
-								"id": "493",
+								"id": "blinkingcape",
 								"comment": ""
 							},
 							{
-								"id": "880",
+								"id": "cloakofphasing",
 								"comment": ""
 							},
 							{
-								"id": "756",
+								"id": "cloakofinvisibility",
 								"comment": ""
 							},
 							{
-								"id": "491",
+								"id": "bootsoflevitation",
 								"comment": ""
 							},
 							{
-								"id": "748",
+								"id": "bootsofstriding",
 								"comment": ""
 							},
 							{
-								"id": "931",
+								"id": "rocketboots",
 								"comment": ""
 							}
 						]
@@ -4800,51 +4800,51 @@
 						"comments": "",
 						"picks": [
 							{
-								"id": "760",
+								"id": "ironhelmet",
 								"comment": ""
 							},
 							{
-								"id": "850",
+								"id": "pendantofdarkpacts",
 								"comment": ""
 							},
 							{
-								"id": "786",
+								"id": "empoweringtalisman",
 								"comment": ""
 							},
 							{
-								"id": "806",
+								"id": "longspear",
 								"comment": ""
 							},
 							{
-								"id": "788",
+								"id": "battleaxe",
 								"comment": ""
 							},
 							{
-								"id": "868",
+								"id": "blackknife",
 								"comment": ""
 							},
 							{
-								"id": "762",
+								"id": "heatershield",
 								"comment": ""
 							},
 							{
-								"id": "774",
+								"id": "minorstaminapotion",
 								"comment": ""
 							},
 							{
-								"id": "509",
+								"id": "minorcurepotion",
 								"comment": ""
 							},
 							{
-								"id": "876",
+								"id": "ringofbrutality",
 								"comment": ""
 							},
 							{
-								"id": "824",
+								"id": "majorstaminapotion",
 								"comment": ""
 							},
 							{
-								"id": "844",
+								"id": "ringofhaste",
 								"comment": ""
 							}
 						]
@@ -4854,27 +4854,1727 @@
 						"comments": "Blinking Cape is the best chest slot in the game for Saw, but Saw really wants flying as well (Cloak of Phasing or Boots of Levitation).<p>If you don't have item Boots of Levitation but you do have item Cloak of Phasing, I would actually suggest taking Cloak of Phasing instead of Blinking Cape, even if you have Blinking Cape. If you have both Boots of Levitation and Blinking Cape, just take those two. If you have Cloak of Phasing but neither Boots of Levitation or Blinking Cape, then Boots of Striding are a better choice than Rocket Boots. But if you have neither 58 nor Boots of Levitation, then Rocket Boots is actually better than Boots of Striding. Finally, Cloak of Invisibility is the choice if you have neither Blinking Cape nor Cloak of Phasing.</p><p>So, to make this clearer:</p><table class=\"w3-table w3-striped w3-border\"><tr><th>Have</th><th>Have Not</th><th>Take</th></tr><tr><td>Blinking Cape<br>Boots of Levitation</td><td></td><td>Blinking Cape<br>Boots of Levitation</td></tr><tr><td>Cloak of Phasing<br>Boots of Levitation</td><td>Blinking Cape</td><td>Cloak of Phasing<br>Boots of Striding</td></tr><tr><td>Blinking Cape<br>Cloak of Phasing</td><td>Boots of Levitation</td><td>Cloak of Phasing<br>Boots of Striding</td></tr></table>",
 						"picks": [
 							{
-								"id": "493",
+								"id": "blinkingcape",
 								"comment": ""
 							},
 							{
-								"id": "880",
+								"id": "cloakofphasing",
 								"comment": ""
 							},
 							{
-								"id": "756",
+								"id": "cloakofinvisibility",
 								"comment": ""
 							},
 							{
-								"id": "491",
+								"id": "bootsoflevitation",
 								"comment": ""
 							},
 							{
-								"id": "748",
+								"id": "bootsofstriding",
 								"comment": ""
 							},
 							{
-								"id": "931",
+								"id": "rocketboots",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "br-striker",
+			"classid": "br",
+			"build": "Striker",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://imgur.com/a/ZybkYxb",
+			"overview": { 
+				"body": [
+					"This build is a basic striker build where the focus is on moving and attacking, there are some combos that may be performed at higher prosperity, but the basics remain the same.",
+					"There is some built in tankiness to the brute but we will not be leaning into that in this build."
+				],
+				"benefits": [
+					"Solid damage dealer who can act as on off-tank.",
+					"Has some minor CC abilities, but very limited in number."
+				],
+				"preferences": [
+					"Party members who can do some ranged damage.",
+					"Support party members and those with some hard CC."
+				]
+			},
+			"cards": [
+				{
+					"id": "balancedmeasure",
+					"top": "Balanced Measure represents an Attack 4 or 6 non-loss at level 1 for this class, which is certainly one of the best things we can do, by far.",
+					"bottom": "The bottom is also part of higher level combos that are good on boss fights using a level 6 card which we'll talk about at level 6.",
+					"overall": "Ah, Balanced Measure, THE Brute card. Ignore the fact that this card is supposed to be a 'level X', card rather than 'level 1', it's as core of a card as possible.<p>The initiative of these combos is the biggest cost and accordingly it's at its best when used opening a door.</p>"
+				},
+				{
+					"id": "eyeforaneye",
+					"top": "It's typically better to avoid monsters hitting you as much as possible unless you're a true tank class, which the Brute, as a bruiser, is not. You'd rather kill enemies before they attack rather than let a bunch attack you just in order to deal some damage. Additionally, it's very difficult to use on ranged enemies and most enemies in Gloomhaven have the possibility to not attack on their ability cards and thus you can end up wasting a turn doing nothing. Attacking is, by far, more powerful and more consistent in most situations compared to Retaliate and thus Retaliate as the sole focus of an action is certainly best avoided.",
+					"bottom": "The bottom is nothing to get overly excited about but a solid, spammable Move/Heal combo.",
+					"overall": "Eye for an Eye is not an intrinsically great card mostly because Retaliate is not a good mechanic, but the spammable bottom and decent initiative means it makes it into our starting deck."
+				},
+				{
+					"id": "grabandgo",
+					"top": "Loot is a naturally situational action because you don't want to perform Loot actions in the middle of combat (don't listen to your Scoundrel friend) and most of Gloomhaven will be spent in combat. Although we don't really need a top move having it attached to Loot is an added bonus.",
+					"bottom": "Fortunately, this card is well balanced by pairing this situational top with an extremely spammable bottom. Every class in Gloomhaven appreciates having a couple Move 4's as almost every scenario will require a decent amount of movement. The Brute wants Move 4's more than basically anyone else because of Balanced Measure.",
+					"overall": "Ah, now Grab and Go is a Loot card.<p>The top is nice when moving between rooms and coupled with a spammable Move 4.</p>Finally, this card has an amazing late initiative which will almost always allow you to go after the enemies that round, which naturally pairs perfectly with a Move 4 as you can approach the group of enemies from a long distance (and typically hit them with Balanced Measure as a great opener).</p>"
+				},
+				{
+					"id": "leapingcleave",
+					"top": "The top is the most consistent AoE Attack in the Brute's arsenal. Skewer definitely has a higher upside if you can hit two targets and power it up, but powering it up requires Leaping Cleave anyway. It's easier to hit two targets with this AoE than it is to hit three targets with Sweeping Blow, both netting the same Attack value while this one is safer and also nets you a free XP.",
+					"bottom": "On the bottom we have a very good Move 3 Jump that creates the aforementioned Air in order to turn on Skewer. Having access to at least one Jump is always helpful both to traverse the map and position where you want in combat.",
+					"overall": "Leaping Cleave is a great card with a good top and good bottom.<p>The biggest negatives of this card are the initiative and that you can't play both halves each rest cycle as you really do want them both.</p>"
+				},
+				{
+					"id": "overwhelmingassault",
+					"top": "Attack 6 for a loss is pretty far behind the curve - the Scoundrel can deal 5 without a loss on multiple cards very easily and you can actually perform an Attack 6 without a loss with just the use of Boots. Sometimes it might be decent to finish a scenario but you have plenty of better cards that are only slightly worse in that situation and much better the rest of the time, which will set you up to not need something like this at the end.",
+					"bottom": "A Move action with Push is rather clunky for the same reasons mentioned on Sweeping Blow. Admittedly, the Push here is a bit better as pushing one enemy two hexes is more likely to be useful than pushing a few enemies one hex.",
+					"overall": "Overwhelming Assault is actually just totally underwhelming."
+				},
+				{
+					"id": "provokingroar",
+					"top": "Attack 2 is weak, but Disarm is the second best negative condition in the game and makes this usually worth using at some point. 10 initiative all but guarantees that you'll be able to Disarm the enemy before they attack. The downside is that you're not making a lot of progress towards actually killing enemies when you use this, so it's not great in rooms with a large number of enemies, but instead is much better against smaller numbers of stronger enemies. You also need to be careful who you use this on as some monsters may do something other than attacking, such as healing or summoning.",
+					"bottom": "At the same time, the bottom isn't great. You have to be in a very specific situation to want to use it (you have an ally adjacent to you who is somehow getting attacked instead of you, you don't want to move and you don't have something more effective to do. The addition of the shield means that you are mitigating damage from each attack, but you would usually be better doing something else.",
+					"overall": "Provoking Roar has a lot going for it. The positives are the top and the initiative, which combine well together.<p>Despite the fairly weak bottom and the potential weakness of Disarm, this card can still be very effective a good percentage of the time both for disarming strong attackers and even just as a Move 2 with great initiative to allow you to use another top quickly, meaning you'll usually be happy to have it.</p>"
+				},
+				{
+					"id": "shieldbash",
+					"top": "Attack 2 is weak but the Stun and XP are good. We will find ourselves using this action a lot.",
+					"bottom": "The bottom Heal is nice along with the Shield. Having non-Move options on bottom is always good, and Shield 1 on early initiative can save you some health. The problem is when is it actually good? In order to use this, you need to be somewhere you're going to get attacked multiple times. But in most of those situations, attacking first and then moving will usually save you more health by virtue of being able to avoid attacks, and movement is always helpful. This might be better against ranged enemies, but against ranged enemies you usually need to constantly be moving in order to close the distance and kill them one by one, and standing still to absorb their attacks only works if you have a ranged Attack to damage them with. You do have one ranged Attack but it's usually going to be used when you enter new rooms and can't make it to enemies rather than when you're already there, which is what this requires.",
+					"overall": "This card is better than Disarming Roar on account of the Stun and XP. The bottom is also an improvement as a bit of extra healing for when we don’t need to move is always welcome even if it doesn't scale well.<p>This is a card that will stay in our deck for a while.</p>"
+				},
+				{
+					"id": "skewer",
+					"top": "At its worst, the top here is Attack 3 that gives 1 XP and can reach one hex further. The AoE is more difficult to land consistently on this card than others but can still be done frequently enough when there are multiple enemies. You can even produce your own Air with another level 1 card so you can consistently use this powered-up, making it a very potent Attack indeed.",
+					"bottom": "The bottom is less impressive as you don't really want to lose a card to pay for two more movement most of the time, but on some rare occasions it can still be helpful, and can let you get up to an Attack 8 with Balanced Measure and boots.",
+					"overall": "Skewer starts the trend of great 'X' cards."
+				},
+				{
+					"id": "sparedagger",
+					"top": "Attack 3, Range 3, 1 XP is a very solid ranged Attack for a 10-card class at level 1. On top of that, just having a single ranged Attack makes a lot of our other cards better and helps a lot with flexibility when entering new rooms.",
+					"bottom": "A bottom attack is always useful, especially for a melee character.",
+					"overall": "This simple little card does so much work.<p>While 27 initiative isn't great, it's not terrible, and actually quite decent for the Brute.</p>"
+				},
+				{
+					"id": "sweepingblow",
+					"top": "Attack 2 is a very small Attack and unlikely to be the difference in killing many enemies. In order for this Attack to provide enough value to be worth playing, you really need to hit 2-3 enemies each time. The problem is that by doing such a small Attack which rarely kills while also positioning yourself adjacent to multiple enemies, this trade often ends up costing you significantly more life than its worth.",
+					"bottom": "Meanwhile, the bottom is also not good. First of all, pushing enemies with a bottom action is a lot worse than pushing them with a top Attack because you typically move next to enemies then perform an Attack for the turn, but if you Push the enemies away, you can only make ranged Attacks, of which you have very few. Additionally, Push 1 is rarely enough to put enemies into traps, which is the primary selling point of Push.",
+					"overall": "Sweeping Blow is another poor card and this one doesn't even really redeem itself with something like initiative.<p>Finally, the initiative at 64 is terrible. Early (typically approximately 25 or lower) initiative is very important in Gloomhaven in order to perform your actions before monsters act and late (typically higher than 75) initiative is also quite important in order to set up your turns such that monsters go before you and move toward you without reaching you to perform Attacks. Being right in the middle of the two while still on the late end is really the worst spot possible. 60-75 initiative is generally the worst initiative bracket in the game.</p>"
+				},
+				{
+					"id": "trample",
+					"top": "Attack 3, Pierce 2 is great if you are up against shielded enemies and pretty underwhelming if you're not.",
+					"bottom": "The bottom is a good loss at low levels where 2 damage to 2-4 enemies plus moving is worth a loss, but it falls off quickly unless you enhance it, which is expensive for a card you'll only play once per scenario and thus probably not worth it.",
+					"overall": "Trample is a very fine card but one whose value really depends on the monsters we expect to see in the scenario.<p>Ultimately, this card is pretty simple to evaluate given that you can see what monsters you'll be up against before you pick your hand for the scenario: if there are enemies with Shield, bring it, if there aren't, don't.</p>"
+				},
+				{
+					"id": "wallofdoom",
+					"top": "At least pairing Retaliate with Shield makes both of them better but they still have some of the same problems if to a lesser degree and now there's a tremendous risk if the enemies don't end up attacking you.",
+					"bottom": "The bottom is essentially an Attack on bottom but requires at least a two-target AoE to even be an Attack 2, and since your AoEs are melee range, hitting multiple enemies means they're near you and you're not moving away (and often requires you moving to position properly in the first place). In that case, you'd rather be moving away or using something defensive most of the time, not adding one to your Attack. Even Attack 2 on the bottom of Spare Dagger is much better in the aforementioned situation because you have a better chance of eliminating one enemy and only being attacked by one, whereas here, unless the one extra Attack is enough to finish someone off, you're in trouble.<p>Compounding things, here you have to use this first to get the benefit. For example, if you get an unlucky modifier on your attack with the top attack when using Spare Dagger on the bottom to kill an enemy, you can now, at worst, use Spare Dagger's bottom as a Move 2 (or 4 with boots) to get away and not get pounded. Because you have to use this bottom first, you're doubling down on the risk of getting a bad modifier, which is a very Brute problem if you've ever seen his modifier deck in action.</p>",
+					"overall": "Wall of Doom is a cool but unfortunately not good card."
+				},
+				{
+					"id": "wardingstrength",
+					"top": "The top of Warding Strength is quite good - Attack 3 isn't anything special but with Push 2 you have a reasonable chance to push a monster into a trap on the majority of scenarios. And unlike with bottom Move + Push actions, here you always get to make an Attack first, which is much better on average.",
+					"bottom": "And then the bottom, hmmm... Assuming you take at least 6 more attacks that deal damage in the scenario, this will be a pre-emptive Heal 6 that also gives you 3 experience. That's actually amazing. The problem with healing yourself (or healing in general) while fighting is that you do it instead of something else, which usually means you're not eliminating enemies as quickly as you should be or not avoiding damage, which can negate or diminish the effect of the Heal. By being able to set this up BEFORE you get into a big fight, you get all the upside of healing without the downside. Now because it's a bottom, it's not always easy to get a chance to set this up, but it's usually not that hard.",
+					"overall": "This card works perfectly because it has a good top: you use the top a few times then use the bottom before the last or second-to-last room."
+				},
+				{
+					"id": "fataladvance",
+					"top": "The top loss is not a reason to take the card as is the case with almost any non-persistent loss given that you'll only get the impact of the action once per scenario. Obviously, if the loss is truly that powerful, exceptions are certainly made, but this loss doesn't fit into that category. Still, the loss is perfect for the end of a scenario and scales very well with levels.",
+					"bottom": "Fortunately, while we wait to use the top loss at the end of a scenario, the bottom Move 4 is something we're extremely happy to have again because of Balanced Measure.",
+					"overall": "Fatal Advance is a solid addition.<p>While 40 initiative is definitely not good, sometimes we'll want to use Balanced Measure in the middle of combat and this initiative is the best we've got for that use.</p>"
+				},
+				{
+					"id": "juggernaut",
+					"top": "This class doesn't have any non-loss bottom Stun or Invisible actions so top movement is a lot less valuable here. Attack 2 is quite anaemic and none of our bottoms will make it worth it.",
+					"bottom": "The loss here certainly seems powerful but is extremely inconsistent as we can't control which sources of damage it will prevent.",
+					"overall": "Juggernaut is simply not good."
+				},
+				{
+					"id": "hookandchain",
+					"top": "The top adds another solid ranged Attack option to complement Spare Dagger and it's Pierce is great against shielded enemies although more as a side-grade given that initiative is as likely to be useful as Pull.",
+					"bottom": "The bottom provides another Move 4 that can also often be a Move 2 Attack 2 or better. The modality between just being a Move 4 or being a smaller Move that gives a bottom Attack is solid.",
+					"overall": "Hook and Chain is a fine card.<p>Ultimately, Hook and Chain has a lot of little things going for it that combine to make it good.</p>"
+				},
+				{
+					"id": "bruteforce",
+					"top": "The top AoE is certainly a lot better than Sweeping Blow as it does provide some mitigation but Sweeping Blow was bad and this, while better, is still quite poor for a level 3 card. ",
+					"bottom": "The real selling point on this card, however, is the bottom action. Move 2, Shield 1 Self is a good action on any tank or melee bruiser class. The biggest problem we have with this bottom is initiative: we just don't have a good initiative top action to pair this with for now. We can with Provoking Roar, although gaining Shield when you've already Disarmed an enemy isn't the greatest combo and typically the two effects are useful in different situations (one against a small number of strong enemies, the other against a large number of weaker enemies).",
+					"overall": "Brute Force is immediately worse at level 3.<p>So Brute Force is obviously worse, right? Well, if we're judging card names, then yes, absolutely. But in terms of effectiveness for the class as a whole, no, it's not actually worse. There are two main reasons for this: enhancements and Immovable Phalanx at level 6. Once we get access to Immovable Phalanx top at level 6, we'll have a perfect combo for this card where we get to both go early enough most of the time and stack multiple instances of Shield, which makes them both better. And, once we unlock enhancements, a Strengthen enhancement on this card is quite strong.</p>"
+				},
+				{
+					"id": "unstoppablecharge",
+					"top": "Attack 5, 1 XP is just easy to use and you'll never be unhappy to have it. While it's not quite as much as our Balanced Measure combo, we can do it without boots which makes it more consistent, and it doesn't require any specific other cards to work, allowing for more flexible initiative. Plus, this lets us Balanced Measure into Unstoppable Charge, which is a very good amount of damage across two turns.",
+					"bottom": "Meanwhile, the bottom is also an incredibly powerful loss. You won't want to use it much because you'll be losing access to one of your best tops, but when you do have a situation where it's worth using it, you'll be really glad to have it. Stunning multiple enemies is one of the most powerful effects in the game.",
+					"overall": "Unstoppable Charge is very solid."
+				},
+				{
+					"id": "devastatinghack",
+					"top": "Three more Attack and two more XP than Unstoppable Charge for a loss. That's really not a good deal, even with the pierce. The XP will usually end up being worse as we'll most likely use Unstoppable Charge more than three times in each scenario. And while the three Attack boost isn't insignificant, it's not that much better. Pretty much the only time it will be better is at the end of the scenario, but again this means you'll need to use the other half of the card up until that point.",
+					"bottom": "Move and Loot on the bottom of a card are a good combination, but we already have a loot card in Grab and Go so we don't need another and we would rather have some non-move options on the bottom.",
+					"overall": "Devastating Hack, on the other hand, is not good at all."
+				},
+				{
+					"id": "skirmishingmaneuver",
+					"top": "The top half is... alright. By level 5, two Attack 2's is much closer to five damage than four, so it's a reasonable amount of damage. We can split it between two targets or just get additional chances for positive or condition modifiers against a single target. Its biggest weaknesses are Shielded enemies, which are quite common, and enemies with Retaliate, which are less common but the two combine to include a significant portion of Gloomhaven monsters.",
+					"bottom": "But where this more than makes up for it is with the bottom. Attack 3, Range 3, 1 XP on a bottom is very nice. This gives us a meaningful boost to flexibility when looking to make two Attacks in a turn. We can pair it with Spare Dagger to deal a good amount of ranged damage. Or we can kill an adjacent enemy with a big top Attack and still be able to chip down or finish off another target at range with the bottom. You'll really never be unhappy to have this bottom around.",
+					"overall": "Skirmishing Manoeuvre is a great card."
+				},
+				{
+					"id": "whirlwind",
+					"top": "At two targets, the top AoE is a subpar for a loss. At three targets, it's excellent, and it's not that difficult to imagine you'll find a situation where you can hit three targets somewhere in the scenario. This does a lot more damage than previous three-target melee AoEs, but you're also higher level now so enemies have more health, meaning this is still a risky situation you're putting yourself in. Much better in a larger group as you'll have more allies to help you kill the targets you weakened before they crush you and you're more likely to have more enemies in the scenario to find enough targets.",
+					"bottom": "And the bottom is quite good as well, again a bottom we can spam while we wait for a situation to use the top. At worst a Move 4, if there are traps then a Push 3 will find them, even if it makes attacking often difficult on the same turn you move.",
+					"overall": "Whirlwind is also not a remotely bad card."
+				},
+				{
+					"id": "immovablephalanx",
+					"top": "Immovable Phalanx is just a super nice card to have. Attack 4 isn't super impressive at level 6 but it's still not terrible and obviously with a Shield 1 on top of it, it's quite good. Big attacks are good for finishing enemies so they don't hit us back, but there will be many times we need to hit an enemy we won't kill in one hit, meaning an Attack like this that gives us some mitigation often works well.",
+					"bottom": "Meanwhile, the bottom of Immovable Phalanx can be very good, especially at higher Prosperity when you have access to one key item, on boss scenarios. Outside of boss scenarios, most of the time, making a bunch of Attack 2's is not very profitable because of Shield and Retaliate being common, and you're giving up access to your best pre-9 non-loss action.",
+					"overall": "This is one of our best cards so far."
+				},
+				{
+					"id": "quietus",
+					"top": "Quietus gives us an extremely conditional top non-loss execute. Unfortunately, we have no Stun ourselves other than getting a lucky flip from our modifier deck or possibly a trap. That means we can't really use this to any guaranteed effect and it really only works with certain allies. Even then, stunning an enemy is usually done precisely so that you don't have to worry about that enemy at the present and this card is kind of awkward in that sense. I've tried this top and even in the absolute ideal party, while playing at difficulty levels that make executes much better than they normally are, it was still just fine (and I did still miss Immovable Phalanx).",
+					"bottom": "The bottom is much better with a Move 3 that adds one to all our Attacks this round. We have a number of AoE attacks, which means this can easily add two Attack, while also moving three. So if we did take Quietus, it would pretty much just be for the bottom action. The problem is that our AoEs all have poor initiatives and when playing an AoE, we really want to know where enemies will be for that turn. Pairing this with an AoE is just ensuring that we can't go fast that turn, making the upside on the bottom here still pretty low.",
+					"overall": "This card is too situational and hard to set up the procs."
+				},
+				{
+					"id": "defensivetactics",
+					"top": "The top is an amazing crowd control Attack against melee enemies, allowing you to deal semi-respectable damage while also typically preventing them from attacking for the round. The initiative and flexibility also makes this a very straightforward upgrade to Spare Dagger.",
+					"bottom": "The bottom, meanwhile, allows us to better function as a tank, coming close to being able to truly tank scenarios. Realistically, we don't have enough Shield for this to work consistently, but on scenarios with weaker-attacking enemies or large numbers of small enemies (these two things are typically the same), this persistent loss can absolutely be worth playing and will have a strong impact on the scenario.",
+					"overall": "Defensive Tactics has two good and very different halves."
+				},
+				{
+					"id": "cripplingoffensive",
+					"top": "Crippling Offensive is a reasonable top attack. The numbers aren't very impressive but Stun naturally scales very well and Wound pairs perfectly with Stun, so this is never going to be bad.",
+					"bottom": "Meanwhile, the bottom is a Move action with free crowd control tacked on that works well against melee enemies. This makes up a bit for the loss of Warding Strength, though Push 1 is much weaker than Push 2",
+					"overall": "This isn't a bad card at all, with two valuable actions depending on the situation."
+				},
+				{
+					"id": "selfishretribution",
+					"top": "First of all, now that we're level 8, XP doesn't matter as much anymore, but gold is still amazing. Getting such a strong Loot action for the end of a scenario will ensure that our stacks keep piling up. And I assure you, this is amazing for looting.",
+					"bottom": "But the real selling point of this card is simply the bottom Move action. Retaliate as the primary function of an action is quite bad for all the reasons previously outlined. But here, it's more that we get a Move 3 with 12 initiative, something this class loves, while also getting some free Retaliate thrown in. A lot of the time, the Retaliate won't do anything. Sometimes, it will add some free damage. Overall, it's just nice value.",
+					"overall": "Selfish Retribution is better than it seems and that's pretty much entirely thanks to the initiative."
+				},
+				{
+					"id": "frenziedonslaught",
+					"top": "for all the text on the top, it is still just an attack 4. By level 8, attack 4's (slightly better against non-Shielded enemies, but terrible against Shield) just aren't very good. Adding Move 2 before the rest of Skirmishing Manoeuvre allows us to use a bottom Attack as well but we really don't have those except for an Attack 2 on bottom, which is pretty unimpressive at this point, and an Attack 3 range 3 we could use anyway. The truth is that we took Skirmishing Manoeuvre for the bottom more than the top and that was at level 5, this action at level 8 is really just underwhelming. The biggest reason people will take this card is to play it with Immovable Phalanx loss, but then you're still getting rid of your best non-loss action, you're accepting poor initiative, and it's still not very good against a big portion of Gloomhaven monsters that have Shield or Retaliate.",
+					"bottom": "We can quickly dismiss the bottom action as we have almost no internal synergy with it and it's really only good with some other classes. Even then, targets with those effects on them are typically the least important targets, making this effect a bit of a 'win more', even when it can be used.",
+					"overall": "Frenzied Onslaught seems like it would be better than it actually is, but having used this card a fair amount, I can say it's pretty disappointing."
+				},
+				{
+					"id": "kingofthehill",
+					"top": "A loss AoE Attack 10 against shielded enemies isn't that bad. The XP is a joke at this stage as we have no need for that.",
+					"bottom": "The Heal  is not what is good about this bottom. Heal 5 is a smaller percentage of our maximum hp at level 9 than Eye for an Eye's Heal 2 was at level 2 and is similarly-sad against the average damage of level 5-7 monsters.  The Spammable Strengthen and Move 4 are easy to use every cycle whilst we wait to use the top loss, but we don't need any more movement.",
+					"overall": "King of the Hill isn't great on either half."
+				},
+				{
+					"id": "faceyourend",
+					"top": "The top represents a ranged Attack 9 pretty easily, although spreading small Attacks across multiple different enemies is typically worse than just hitting one for a lot, but the Pierce means that we are still doing damage to Shielded enemies and some of those have low HP. Furthermore, it's not even like we have a good modifier deck to take advantage of this many flips.<p>The best use of the top is to set up high Prosperity Balanced Measure combos as it means you don't need to Move for the turn, but outside of that, it's still okay as it does a lot of little things.</p>",
+					"bottom": "And the bottom is obviously a powerful loss in the last room coupled with the Movement.",
+					"overall": "Face Your End is a bit better, although also not great.<p>Overall a fine card and one you will use each rest cycle, but highly disappointing for level 9.</p>"
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "These are your core level 1 cards, in order of power/importance from the top left to the bottom right. Skewer is actually a bit more powerful than Leaping Cleave but typically requires Leaping Cleave to really function and thus Leaping Cleave is a bit more important.",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "",
+							"cards": [
+								{
+									"id": "balancedmeasure",
+									"comment": "Powerful top, especially when combined with boots"
+								},
+								{
+									"id": "leapingcleave",
+									"comment": "Both actions are good for us"
+								},
+								{
+									"id": "skewer",
+									"comment": "Attack that can be powered up"
+								},
+								{
+									"id": "shieldbash",
+									"comment": "Fast with two good halves"
+								},
+								{
+									"id": "sparedagger",
+									"comment": "Ranged attack"
+								},
+								{
+									"id": "grabandgo",
+									"comment": "Move 4"
+								}
+							]
+						},
+						{
+							"label": "The rest",
+							"overview": "These are your remaining level 1 cards which are either poor or situational.",
+							"cards": [
+								{
+									"id": "trample",
+									"comment": "Shielded enemies only"
+								},
+								{
+									"id": "wardingstrength",
+									"comment": "Good for scenarios with traps"
+								},
+								{
+									"id": "provokingroar",
+									"comment": "Early disarm"
+								},
+								{
+									"id": "eyeforaneye",
+									"comment": "Move and heal"
+								},
+								{
+									"id": "sweepingblow",
+									"comment": "Move and <i>Push</i>"
+								},
+								{
+									"id": "wallofdoom",
+									"comment": "Early move at best"
+								},
+								{
+									"id": "overwhelmingassault",
+									"comment": "Fairly weak card all round"
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "trample",
+							"top": {
+								"text":"Attack vs. <i>Shield</i> enemies",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "skewer",
+							"top": {
+								"text":"Powered attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "wardingstrength",
+							"top": {
+								"text":"Attack, <i>Push</i> for traps",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Use before last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "grabandgo",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eyeforaneye",
+							"top": {
+								"text":"Poor <i>Retaliate</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Fast Move + </i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							},
+							"replace": "provokingroar",
+							"comment": "Fatal Advance is a very easy choice as it provides both a better non-loss action and a better loss action compared to Juggernaut, replacing Provoking Roar. Provoking Roar was ultimately just our weakest card and the most logical to replace. That being said, if you're facing the 'Guard' monster type, I would typically recommend bringing Provoking Roar over Eye for an Eye as Guards have their two fastest initiatives precisely at 15. Accordingly, 10 is a significant difference compared to 18 against Guards."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "trample",
+							"top": {
+								"text":"Attack vs. <i>Shield</i> enemies",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "skewer",
+							"top": {
+								"text":"Powered attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "wardingstrength",
+							"top": {
+								"text":"Attack, <i>Push</i> for traps",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Use before last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "grabandgo",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eyeforaneye",
+							"top": {
+								"text":"Poor <i>Retaliate</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Fast Move + </i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "eyeforaneye",
+							"comment": "Guards have their two fastest initiatives precisely at 15"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							},
+							"replace": "trample",
+							"comment": "We replace Trample as that was mostly there for Shielded enemies and Hook and Chain can handle those now."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "skewer",
+							"top": {
+								"text":"Powered attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "wardingstrength",
+							"top": {
+								"text":"Attack, <i>Push</i> for traps",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Use before last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "grabandgo",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eyeforaneye",
+							"top": {
+								"text":"Poor <i>Retaliate</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Fast Move + </i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "eyeforaneye",
+							"comment": "Guards have their two fastest initiatives precisely at 15"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							},
+							"replace": "wardingstrength",
+							"comment": "Unstoppable Charge replaces Warding Strength. We won't have been using the bottom and we can always bring it back in for a scenario with lots of traps if necessary."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "skewer",
+							"top": {
+								"text":"Powered attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "grabandgo",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "eyeforaneye",
+							"top": {
+								"text":"Poor <i>Retaliate</i>",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Fast Move + </i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "eyeforaneye",
+							"comment": "Guards have their two fastest initiatives precisely at 15"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "skirmishingmaneuver",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "eyeforaneye",
+							"comment": "Overall, Whirlwind is a good card and I could definitely see playing it, but the bottom from Skirmishing Manoeuvre is just way too valuable to pass up. The extra damage it adds up over the course of a scenario will definitely outpace Whirlwind the majority of the time. We replace Eye for an Eye."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "skewer",
+							"top": {
+								"text":"Powered attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "grabandgo",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "skirmishingmaneuver",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "eyeforaneye",
+							"comment": "Guards have their two fastest initiatives precisely at 15"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "immovablephalanx",
+							"top": {
+								"text":"Attack 4 <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Unused loss",
+								"style": "w3-pale-red"
+							},
+							"replace": "grabandgo",
+							"comment": "We take Immovable Phalanx, which is just an irreplaceable card for this class replacing Grab and Go. Hopefully by now you have enhanced Leaping Cleave with +1 Move, so you should still have the requisite Move 4's."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "immovablephalanx",
+							"top": {
+								"text":"Attack 4 <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Unused loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "skewer",
+							"top": {
+								"text":"Powered attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "skirmishingmaneuver",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "hookandchain",
+							"comment": "Guards have their two fastest initiatives precisely at 15"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "cripplingoffensive",
+							"top": {
+								"text":"Attack <i>Wound, Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Good for <i>Retaliate</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "skewer",
+							"comment": "We take Crippling Offensive at level 7, replacing Skewer. The AoE was nice, but the stun is better. Remember to cash in any enhancements."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "immovablephalanx",
+							"top": {
+								"text":"Attack 4 <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Unused loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cripplingoffensive",
+							"top": {
+								"text":"Attack <i>Wound, Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Good for <i>Retaliate</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "skirmishingmaneuver",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "provokingroar",
+							"top": {
+								"text":"Weak <i>Disarm</i> attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast move 2",
+								"style": "w3-pale-green"
+							},
+							"replace": "hookandchain",
+							"comment": "Guards have their two fastest initiatives precisely at 15"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "selfishretribution",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early move 3",
+								"style": "w3-pale-green"
+							},
+							"replace": "hookandchain",
+							"comment": "Despite how good attacking is and how bad Retaliate typically is, Selfish Retribution is actually the better card at level 8. Selfish Retribution replaces Hook and Chain which can be brought back in for scenarios with multiple shielded enemies if required."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "immovablephalanx",
+							"top": {
+								"text":"Attack 4 <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Unused loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cripplingoffensive",
+							"top": {
+								"text":"Attack <i>Wound, Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Good for <i>Retaliate</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "shieldbash",
+							"top": {
+								"text":"Attack <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Early <i>Heal</i> or move",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selfishretribution",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "skirmishingmaneuver",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "hookandchain",
+							"top": {
+								"text":"Ranged <i>Pierce, Pull</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							},
+							"replace": "unstoppablecharge",
+							"comment": "Lots of <i>Shield</i> enemies"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "Here we are facing the choice between an AoE damage loss with spammable movement and a single target execute loss and AoE damage spammable",
+					"picks": [
+						{
+							"card": "faceyourend",
+							"top": {
+								"text":"Ranged multi-attack with CC",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move + kill",
+								"style": "w3-pale-blue"
+							},
+							"replace": "shieldbash",
+							"comment": "Face Your End replaces Shield Bash. The stun was still good, but we have a better one of those with Crippling Offensive. The alternative would be to replace Balanced Measure, but when combined with Boots of Sprinting that can be up to an attack 10, which is our biggest hit and is repeatable."
+						}
+					],
+					"hand": [
+						{
+							"card": "balancedmeasure",
+							"top": {
+								"text":"Attack 7 with boots",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Boosted move",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "immovablephalanx",
+							"top": {
+								"text":"Attack 4 <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Unused loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cripplingoffensive",
+							"top": {
+								"text":"Attack <i>Wound, Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Good for <i>Retaliate</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "faceyourend",
+							"top": {
+								"text":"Ranged multi-attack with CC",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move + kill",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "unstoppablecharge",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used <i>Stun</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "selfishretribution",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sparedagger",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bottom attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "leapingcleave",
+							"top": {
+								"text":"Easy AoE",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Spammable <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "skirmishingmaneuver",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fataladvance",
+							"top": {
+								"text":"Poor kill loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "leapingcleave",
+					"position": "bottom",
+					"enhancement": "Move",
+					"comment": "Moving 4 is a significant difference than 3 both for item interaction and for the added damage to Balanced Measure. With this enhancement done, we have a very common and effective two-turn combo between Leaping Cleave bottom + Balanced Measure top into Skewer top and some good initiative bottom."
+				},
+				{
+					"card": "fataladvance",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Fatal Advance scales perfectly to high levels and having a second large Move with Jump is generally welcome on pretty much any melee damage-dealer in Gloomhaven and especially relevant for us as it provides redundancy and flexibility with Balanced Measure."
+				},
+				{
+					"card": "shieldbash",
+					"position": "bottom",
+					"enhancement": "<i>Strengthen</i>",
+					"comment": "Being able to gain Advantage on all of our Attacks for two rounds is pretty huge, although worse than for basically any other class in Gloomhaven because our modifier deck is just so thick and so bad. Still, it's a testament to the power of this nature of enhancement that it's still worth it, even if it's not our best enhancement."
+				},
+				{
+					"card": "skewer",
+					"position": "top",
+					"enhancement": "Attack",
+					"comment": "Skewer stays with us until level 7 so we get some real value out of this"
+				},
+				{
+					"card": "skewer",
+					"position": "top",
+					"enhancement": "Add hex",
+					"comment": "This will hopefully nett us a couple of targets more often"
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "fortitude"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "focus"
+						},
+						{
+							"order": 4,
+							"name": "outburst"
+						},
+						{
+							"order": 5,
+							"name": "bludgeon"
+						},
+						{
+							"order": 6,
+							"name": "pacify"
+						},
+						{
+							"order": 7,
+							"name": "bulwark"
+						},
+						{
+							"order": 8,
+							"name": "power"
+						},
+						{
+							"order": 9,
+							"name": "sweep"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "General",
+						"comments": "",
+						"picks": [
+							{
+								"id": "ironhelmet",
+								"comment": "4"
+							},
+							{
+								"id": "hornedhelm",
+								"comment": ""
+							},
+							{
+								"id": "hidearmor",
+								"comment": "3 (with perk)"
+							},
+							{
+								"id": "chainmail",
+								"comment": ""
+							},
+							{
+								"id": "warhammer",
+								"comment": ""
+							},
+							{
+								"id": "battleaxe",
+								"comment": ""
+							},
+							{
+								"id": "heatershield",
+								"comment": ""
+							},
+							{
+								"id": "towershield",
+								"comment": ""
+							},
+							{
+								"id": "longspear",
+								"comment": ""
+							},
+							{
+								"id": "bootsofstriding",
+								"comment": "1"
+							},
+							{
+								"id": "bootsofdashing",
+								"comment": ""
+							},
+							{
+								"id": "minorhealingpotion",
+								"comment": "2"
+							},
+							{
+								"id": "minorstaminapotion",
+								"comment": ""
+							},
+							{
+								"id": "majorstaminapotion",
+								"comment": ""
+							},
+							{
+								"id": "doomedcompass",
+								"comment": ""
+							},
+							{
+								"id": "stunpowder",
+								"comment": ""
+							},
+							{
+								"id": "majormanapotion",
+								"comment": "Only if also have Helix Ring"
+							},
+							{
+								"id": "helixring",
+								"comment": "Only if also have Major Mana Potion"
+							},
+							{
+								"id": "majorhealingpotion",
+								"comment": ""
+							},
+							{
+								"id": "ringofhaste",
 								"comment": ""
 							}
 						]

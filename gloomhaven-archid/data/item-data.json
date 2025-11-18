@@ -3,907 +3,907 @@
 		{
 			"name": "boots of striding",
 			"image": "items/gh-001-boots-of-striding.png",
-			"label": "bootsofstriding",
+			"strid": "bootsofstriding",
 			"id": "748"
 		},
 		{
 			"name": "winged shoes",
 			"image": "items/gh-002-winged-shoes.png",
-			"label": "wingedshoes",
+			"strid": "wingedshoes",
 			"id": "750"
 		},
 		{
 			"name": "hide armor",
 			"image": "items/gh-003-hide-armor.png",
-			"label": "hidearmor",
+			"strid": "hidearmor",
 			"id": "752"
 		},
 		{
 			"name": "leather armor",
 			"image": "items/gh-004-leather-armor.png",
-			"label": "leatherarmor",
+			"strid": "leatherarmor",
 			"id": "754"
 		},
 		{
 			"name": "cloak of invisibility",
 			"image": "items/gh-005-cloak-of-invisibility.png",
-			"label": "cloakofinvisibility",
+			"strid": "cloakofinvisibility",
 			"id": "756"
 		},
 		{
 			"name": "eagle-eye goggles",
 			"image": "items/gh-006-eagle-eye-goggles.png",
-			"label": "eagleeyegoggles",
+			"strid": "eagleeyegoggles",
 			"id": "758"
 		},
 		{
 			"name": "iron helmet",
 			"image": "items/gh-007-iron-helmet.png",
-			"label": "ironhelmet",
+			"strid": "ironhelmet",
 			"id": "760"
 		},
 		{
 			"name": "heater shield",
 			"image": "items/gh-008-heater-shield.png",
-			"label": "heatershield",
+			"strid": "heatershield",
 			"id": "762"
 		},
 		{
 			"name": "piercing bow",
 			"image": "items/gh-009-piercing-bow.png",
-			"label": "piercingbow",
+			"strid": "piercingbow",
 			"id": "764"
 		},
 		{
 			"name": "war hammer",
 			"image": "items/gh-010-war-hammer.png",
-			"label": "warhammer",
+			"strid": "warhammer",
 			"id": "766"
 		},
 		{
 			"name": "poison dagger",
 			"image": "items/gh-011-poison-dagger.png",
-			"label": "poisondagger",
+			"strid": "poisondagger",
 			"id": "768"
 		},
 		{
 			"name": "minor healing potion",
 			"image": "items/gh-012-minor-healing-potion.png",
-			"label": "minorhealingpotion",
+			"strid": "minorhealingpotion",
 			"id": "770"
 		},
 		{
 			"name": "minor stamina potion",
 			"image": "items/gh-013-minor-stamina-potion.png",
-			"label": "minorstaminapotion",
+			"strid": "minorstaminapotion",
 			"id": "774"
 		},
 		{
 			"name": "minor power potion",
 			"image": "items/gh-014-minor-power-potion.png",
-			"label": "minorpowerpotion",
+			"strid": "minorpowerpotion",
 			"id": "778"
 		},
 		{
 			"name": "boots of speed",
 			"image": "items/gh-015-boots-of-speed.png",
-			"label": "bootsofspeed",
+			"strid": "bootsofspeed",
 			"id": "782"
 		},
 		{
 			"name": "cloak of pockets",
 			"image": "items/gh-016-cloak-of-pockets.png",
-			"label": "cloakofpockets",
+			"strid": "cloakofpockets",
 			"id": "784"
 		},
 		{
 			"name": "empowering talisman",
 			"image": "items/gh-017-empowering-talisman.png",
-			"label": "empoweringtalisman",
+			"strid": "empoweringtalisman",
 			"id": "786"
 		},
 		{
 			"name": "battle-axe",
 			"image": "items/gh-018-battle-axe.png",
-			"label": "battleaxe",
+			"strid": "battleaxe",
 			"id": "788"
 		},
 		{
 			"name": "weighted net",
 			"image": "items/gh-019-weighted-net.png",
-			"label": "weightednet",
+			"strid": "weightednet",
 			"id": "790"
 		},
 		{
 			"name": "minor mana potion",
 			"image": "items/gh-020-minor-mana-potion.png",
-			"label": "minormanapotion",
+			"strid": "minormanapotion",
 			"id": "792"
 		},
 		{
 			"name": "stun powder",
 			"image": "items/gh-021-stun-powder.png",
-			"label": "stunpowder",
+			"strid": "stunpowder",
 			"id": "796"
 		},
 		{
 			"name": "heavy greaves",
 			"image": "items/gh-022-heavy-greaves.png",
-			"label": "heavygreaves",
+			"strid": "heavygreaves",
 			"id": "798"
 		},
 		{
 			"name": "chainmail",
 			"image": "items/gh-023-chainmail.png",
-			"label": "chainmail",
+			"strid": "chainmail",
 			"id": "800"
 		},
 		{
 			"name": "amulet of life",
 			"image": "items/gh-024-amulet-of-life.png",
-			"label": "amuletoflife",
+			"strid": "amuletoflife",
 			"id": "802"
 		},
 		{
 			"name": "jagged sword",
 			"image": "items/gh-025-jagged-sword.png",
-			"label": "jaggedsword",
+			"strid": "jaggedsword",
 			"id": "804"
 		},
 		{
 			"name": "long spear",
 			"image": "items/gh-026-long-spear.png",
-			"label": "longspear",
+			"strid": "longspear",
 			"id": "806"
 		},
 		{
 			"name": "major healing potion",
 			"image": "items/gh-027-major-healing-potion.png",
-			"label": "majorhealingpotion",
+			"strid": "majorhealingpotion",
 			"id": "808"
 		},
 		{
 			"name": "moon earring",
 			"image": "items/gh-028-moon-earring.png",
-			"label": "moonearring",
+			"strid": "moonearring",
 			"id": "812"
 		},
 		{
 			"name": "comfortable shoes",
 			"image": "items/gh-029-comfortable-shoes.png",
-			"label": "comfortableshoes",
+			"strid": "comfortableshoes",
 			"id": "814"
 		},
 		{
 			"name": "studded leather",
 			"image": "items/gh-030-studded-leather.png",
-			"label": "studdedleather",
+			"strid": "studdedleather",
 			"id": "816"
 		},
 		{
 			"name": "hawk helm",
 			"image": "items/gh-031-hawk-helm.png",
-			"label": "hawkhelm",
+			"strid": "hawkhelm",
 			"id": "818"
 		},
 		{
 			"name": "tower shield",
 			"image": "items/gh-032-tower-shield.png",
-			"label": "towershield",
+			"strid": "towershield",
 			"id": "820"
 		},
 		{
 			"name": "volatile bomb",
 			"image": "items/gh-033-volatile-bomb.png",
-			"label": "volatilebomb",
+			"strid": "volatilebomb",
 			"id": "822"
 		},
 		{
 			"name": "major stamina potion",
 			"image": "items/gh-034-major-stamina-potion.png",
-			"label": "majorstaminapotion",
+			"strid": "majorstaminapotion",
 			"id": "824"
 		},
 		{
 			"name": "falcon figurine",
 			"image": "items/gh-035-falcon-figurine.png",
-			"label": "falconfigurine",
+			"strid": "falconfigurine",
 			"id": "828"
 		},
 		{
 			"name": "boots of dashing",
 			"image": "items/gh-036-boots-of-dashing.png",
-			"label": "bootsofdashing",
+			"strid": "bootsofdashing",
 			"id": "830"
 		},
 		{
 			"name": "robes of evocation",
 			"image": "items/gh-037-robes-of-evocation.png",
-			"label": "robesofevocation",
+			"strid": "robesofevocation",
 			"id": "832"
 		},
 		{
 			"name": "heavy basinet",
 			"image": "items/gh-038-heavy-basinet.png",
-			"label": "heavybasinet",
+			"strid": "heavybasinet",
 			"id": "834"
 		},
 		{
 			"name": "hooked chain",
 			"image": "items/gh-039-hooked-chain.png",
-			"label": "hookedchain",
+			"strid": "hookedchain",
 			"id": "836"
 		},
 		{
 			"name": "versatile dagger",
 			"image": "items/gh-040-versatile-dagger.png",
-			"label": "versatiledagger",
+			"strid": "versatiledagger",
 			"id": "838"
 		},
 		{
 			"name": "major power potion",
 			"image": "items/gh-041-major-power-potion.png",
-			"label": "majorpowerpotion",
+			"strid": "majorpowerpotion",
 			"id": "840"
 		},
 		{
 			"name": "ring of haste",
 			"image": "items/gh-042-ring-of-haste.png",
-			"label": "ringofhaste",
+			"strid": "ringofhaste",
 			"id": "844"
 		},
 		{
 			"name": "boots of quickness",
 			"image": "items/gh-043-boots-of-quickness.png",
-			"label": "bootsofquickness",
+			"strid": "bootsofquickness",
 			"id": "846"
 		},
 		{
 			"name": "splintmail",
 			"image": "items/gh-044-splintmail.png",
-			"label": "splintmail",
+			"strid": "splintmail",
 			"id": "848"
 		},
 		{
 			"name": "pendant of dark pacts",
 			"image": "items/gh-045-pendant-of-dark-pacts.png",
-			"label": "pendantofdarkpacts",
+			"strid": "pendantofdarkpacts",
 			"id": "850"
 		},
 		{
 			"name": "spiked shield",
 			"image": "items/gh-046-spiked-shield.png",
-			"label": "spikedshield",
+			"strid": "spikedshield",
 			"id": "852"
 		},
 		{
 			"name": "reaping scythe",
 			"image": "items/gh-047-reaping-scythe.png",
-			"label": "reapingscythe",
+			"strid": "reapingscythe",
 			"id": "854"
 		},
 		{
 			"name": "major mana potion",
 			"image": "items/gh-048-major-mana-potion.png",
-			"label": "majormanapotion",
+			"strid": "majormanapotion",
 			"id": "856"
 		},
 		{
 			"name": "sun earring",
 			"image": "items/gh-049-sun-earring.png",
-			"label": "sunearring",
+			"strid": "sunearring",
 			"id": "860"
 		},
 		{
 			"name": "steel sabatons",
 			"image": "items/gh-050-steel-sabatons.png",
-			"label": "steelsabatons",
+			"strid": "steelsabatons",
 			"id": "862"
 		},
 		{
 			"name": "shadow armor",
 			"image": "items/gh-051-shadow-armor.png",
-			"label": "shadowarmor",
+			"strid": "shadowarmor",
 			"id": "864"
 		},
 		{
 			"name": "protective charm",
 			"image": "items/gh-052-protective-charm.png",
-			"label": "protectivecharm",
+			"strid": "protectivecharm",
 			"id": "866"
 		},
 		{
 			"name": "black knife",
 			"image": "items/gh-053-black-knife.png",
-			"label": "blackknife",
+			"strid": "blackknife",
 			"id": "868"
 		},
 		{
 			"name": "staff of eminence",
 			"image": "items/gh-054-staff-of-eminence.png",
-			"label": "staffofeminence",
+			"strid": "staffofeminence",
 			"id": "870"
 		},
 		{
 			"name": "super healing potion",
 			"image": "items/gh-055-super-healing-potion.png",
-			"label": "superhealingpotion",
+			"strid": "superhealingpotion",
 			"id": "872"
 		},
 		{
 			"name": "ring of brutality",
 			"image": "items/gh-056-ring-of-brutality.png",
-			"label": "ringofbrutality",
+			"strid": "ringofbrutality",
 			"id": "876"
 		},
 		{
 			"name": "serene sandals",
 			"image": "items/gh-057-serene-sandals.png",
-			"label": "serenesandals",
+			"strid": "serenesandals",
 			"id": "878"
 		},
 		{
 			"name": "cloak of phasing",
 			"image": "items/gh-058-cloak-of-phasing.png",
-			"label": "cloakofphasing",
+			"strid": "cloakofphasing",
 			"id": "880"
 		},
 		{
 			"name": "telescopic lens",
 			"image": "items/gh-059-telescopic-lens.png",
-			"label": "telescopiclens",
+			"strid": "telescopiclens",
 			"id": "882"
 		},
 		{
 			"name": "unstable explosives",
 			"image": "items/gh-060-unstable-explosives.png",
-			"label": "unstableexplosives",
+			"strid": "unstableexplosives",
 			"id": "884"
 		},
 		{
 			"name": "wall shield",
 			"image": "items/gh-061-wall-shield.png",
-			"label": "wallshield",
+			"strid": "wallshield",
 			"id": "886"
 		},
 		{
 			"name": "doom powder",
 			"image": "items/gh-062-doom-powder.png",
-			"label": "doompowder",
+			"strid": "doompowder",
 			"id": "888"
 		},
 		{
 			"name": "lucky eye",
 			"image": "items/gh-063-lucky-eye.png",
-			"label": "luckyeye",
+			"strid": "luckyeye",
 			"id": "890"
 		},
 		{
 			"name": "boots of sprinting",
 			"image": "items/gh-064-boots-of-sprinting.png",
-			"label": "bootsofsprinting",
+			"strid": "bootsofsprinting",
 			"id": "892"
 		},
 		{
 			"name": "platemail",
 			"image": "items/gh-065-platemail.png",
-			"label": "platemail",
+			"strid": "platemail",
 			"id": "894"
 		},
 		{
 			"name": "mask of terror",
 			"image": "items/gh-066-mask-of-terror.png",
-			"label": "maskofterror",
+			"strid": "maskofterror",
 			"id": "896"
 		},
 		{
 			"name": "balanced blade",
 			"image": "items/gh-067-balanced-blade.png",
-			"label": "balancedblade",
+			"strid": "balancedblade",
 			"id": "898"
 		},
 		{
 			"name": "halberd",
 			"image": "items/gh-068-halberd.png",
-			"label": "halberd",
+			"strid": "halberd",
 			"id": "900"
 		},
 		{
 			"name": "star earring",
 			"image": "items/gh-069-star-earring.png",
-			"label": "starearring",
+			"strid": "starearring",
 			"id": "902"
 		},
 		{
 			"name": "second chance ring",
 			"image": "items/gh-070-second-chance-ring.png",
-			"label": "secondchancering",
+			"strid": "secondchancering",
 			"id": "904"
 		},
 		{
 			"name": "boots of levitation",
 			"image": "items/gh-071a-boots-of-levitation.png",
-			"label": "bootsoflevitation",
+			"strid": "bootsoflevitation",
 			"id": "491"
 		},
 		{
 			"name": "shoes of happiness",
 			"image": "items/gh-072a-shoes-of-happiness.png",
-			"label": "shoesofhappiness",
+			"strid": "shoesofhappiness",
 			"id": "492"
 		},
 		{
 			"name": "blinking cape",
 			"image": "items/gh-073a-blinking-cape.png",
-			"label": "blinkingcape",
+			"strid": "blinkingcape",
 			"id": "493"
 		},
 		{
 			"name": "swordedge armor",
 			"image": "items/gh-074a-swordedge-armor.png",
-			"label": "swordedgearmor",
+			"strid": "swordedgearmor",
 			"id": "494"
 		},
 		{
 			"name": "circlet of elements",
 			"image": "items/gh-075a-circlet-of-elements.png",
-			"label": "circletofelements",
+			"strid": "circletofelements",
 			"id": "495"
 		},
 		{
 			"name": "chain hood",
 			"image": "items/gh-076a-chain-hood.png",
-			"label": "chainhood",
+			"strid": "chainhood",
 			"id": "496"
 		},
 		{
 			"name": "frigid blade",
 			"image": "items/gh-077a-frigid-blade.png",
-			"label": "frigidblade",
+			"strid": "frigidblade",
 			"id": "497"
 		},
 		{
 			"name": "storm blade",
 			"image": "items/gh-078a-storm-blade.png",
-			"label": "stormblade",
+			"strid": "stormblade",
 			"id": "498"
 		},
 		{
 			"name": "inferno blade",
 			"image": "items/gh-079a-inferno-blade.png",
-			"label": "infernoblade",
+			"strid": "infernoblade",
 			"id": "499"
 		},
 		{
 			"name": "tremor blade",
 			"image": "items/gh-080a-tremor-blade.png",
-			"label": "tremorblade",
+			"strid": "tremorblade",
 			"id": "500"
 		},
 		{
 			"name": "brilliant blade",
 			"image": "items/gh-081a-brilliant-blade.png",
-			"label": "brilliantblade",
+			"strid": "brilliantblade",
 			"id": "501"
 		},
 		{
 			"name": "night blade",
 			"image": "items/gh-082a-night-blade.png",
-			"label": "nightblade",
+			"strid": "nightblade",
 			"id": "502"
 		},
 		{
 			"name": "wand of frost",
 			"image": "items/gh-083a-wand-of-frost.png",
-			"label": "wandoffrost",
+			"strid": "wandoffrost",
 			"id": "503"
 		},
 		{
 			"name": "wand of storms",
 			"image": "items/gh-084a-wand-of-storms.png",
-			"label": "wandofstorms",
+			"strid": "wandofstorms",
 			"id": "504"
 		},
 		{
 			"name": "wand of infernos",
 			"image": "items/gh-085a-wand-of-infernos.png",
-			"label": "wandofinfernos",
+			"strid": "wandofinfernos",
 			"id": "505"
 		},
 		{
 			"name": "wand of tremors",
 			"image": "items/gh-086a-wand-of-tremors.png",
-			"label": "wandoftremors",
+			"strid": "wandoftremors",
 			"id": "506"
 		},
 		{
 			"name": "wand of brilliance",
 			"image": "items/gh-087a-wand-of-brilliance.png",
-			"label": "wandofbrilliance",
+			"strid": "wandofbrilliance",
 			"id": "507"
 		},
 		{
 			"name": "wand of darkness",
 			"image": "items/gh-088a-wand-of-darkness.png",
-			"label": "wandofdarkness",
+			"strid": "wandofdarkness",
 			"id": "508"
 		},
 		{
 			"name": "minor cure potion",
 			"image": "items/gh-089a-minor-cure-potion.png",
-			"label": "minorcurepotion",
+			"strid": "minorcurepotion",
 			"id": "509"
 		},
 		{
 			"name": "major cure potion",
 			"image": "items/gh-090a-major-cure-potion.png",
-			"label": "majorcurepotion",
+			"strid": "majorcurepotion",
 			"id": "510"
 		},
 		{
 			"name": "steel ring",
 			"image": "items/gh-091a-steel-ring.png",
-			"label": "steelring",
+			"strid": "steelring",
 			"id": "511"
 		},
 		{
 			"name": "dampening ring",
 			"image": "items/gh-092a-dampening-ring.png",
-			"label": "dampeningring",
+			"strid": "dampeningring",
 			"id": "512"
 		},
 		{
 			"name": "scroll of power",
 			"image": "items/gh-093a-scroll-of-power.png",
-			"label": "scrollofpower",
+			"strid": "scrollofpower",
 			"id": "513"
 		},
 		{
 			"name": "scroll of healing",
 			"image": "items/gh-094a-scroll-of-healing.png",
-			"label": "scrollofhealing",
+			"strid": "scrollofhealing",
 			"id": "514"
 		},
 		{
 			"name": "scroll of stamina",
 			"image": "items/gh-095a-scroll-of-stamina.png",
-			"label": "scrollofstamina",
+			"strid": "scrollofstamina",
 			"id": "515"
 		},
 		{
 			"name": "rocket boots",
 			"image": "items/gh-096-rocket-boots.png",
-			"label": "rocketboots",
+			"strid": "rocketboots",
 			"id": "931"
 		},
 		{
 			"name": "endurance footwraps",
 			"image": "items/gh-097-endurance-footwraps.png",
-			"label": "endurancefootwraps",
+			"strid": "endurancefootwraps",
 			"id": "933"
 		},
 		{
 			"name": "drakescale boots",
 			"image": "items/gh-098-drakescale-boots.png",
-			"label": "drakescaleboots",
+			"strid": "drakescaleboots",
 			"id": "934"
 		},
 		{
 			"name": "magma waders",
 			"image": "items/gh-099-magma-waders.png",
-			"label": "magmawaders",
+			"strid": "magmawaders",
 			"id": "935"
 		},
 		{
 			"name": "robes of summoning",
 			"image": "items/gh-100-robes-of-summoning.png",
-			"label": "robesofsummoning",
+			"strid": "robesofsummoning",
 			"id": "936"
 		},
 		{
 			"name": "second skin",
 			"image": "items/gh-101-second-skin.png",
-			"label": "secondskin",
+			"strid": "secondskin",
 			"id": "937"
 		},
 		{
 			"name": "sacrificial robes",
 			"image": "items/gh-102-sacrificial-robes.png",
-			"label": "sacrificialrobes",
+			"strid": "sacrificialrobes",
 			"id": "938"
 		},
 		{
 			"name": "drakescale armor",
 			"image": "items/gh-103-drakescale-armor.png",
-			"label": "drakescalearmor",
+			"strid": "drakescalearmor",
 			"id": "939"
 		},
 		{
 			"name": "steam armor",
 			"image": "items/gh-104-steam-armor.png",
-			"label": "steamarmor",
+			"strid": "steamarmor",
 			"id": "940"
 		},
 		{
 			"name": "flea-bitten shawl",
 			"image": "items/gh-105-flea-bitten-shawl.png",
-			"label": "fleabittenshawl",
+			"strid": "fleabittenshawl",
 			"id": "941"
 		},
 		{
 			"name": "necklace of teeth",
 			"image": "items/gh-106-necklace-of-teeth.png",
-			"label": "necklaceofteeth",
+			"strid": "necklaceofteeth",
 			"id": "942"
 		},
 		{
 			"name": "horned helm",
 			"image": "items/gh-107-horned-helm.png",
-			"label": "hornedhelm",
+			"strid": "hornedhelm",
 			"id": "943"
 		},
 		{
 			"name": "drakescale helm",
 			"image": "items/gh-108-drakescale-helm.png",
-			"label": "drakescalehelm",
+			"strid": "drakescalehelm",
 			"id": "945"
 		},
 		{
 			"name": "thief's hood",
 			"image": "items/gh-109-thiefs-hood.png",
-			"label": "thiefshood",
+			"strid": "thiefshood",
 			"id": "946"
 		},
 		{
 			"name": "helm of the mountain",
 			"image": "items/gh-110-helm-of-the-mountain.png",
-			"label": "helmofthemountain",
+			"strid": "helmofthemountain",
 			"id": "947"
 		},
 		{
 			"name": "wave crest",
 			"image": "items/gh-111-wave-crest.png",
-			"label": "wavecrest",
+			"strid": "wavecrest",
 			"id": "948"
 		},
 		{
 			"name": "ancient drill",
 			"image": "items/gh-112-ancient-drill.png",
-			"label": "ancientdrill",
+			"strid": "ancientdrill",
 			"id": "949"
 		},
 		{
 			"name": "skullbane axe",
 			"image": "items/gh-113-skullbane-axe.png",
-			"label": "skullbaneaxe",
+			"strid": "skullbaneaxe",
 			"id": "951"
 		},
 		{
 			"name": "staff of xorn",
 			"image": "items/gh-114-staff-of-xorn.png",
-			"label": "staffofxorn",
+			"strid": "staffofxorn",
 			"id": "952"
 		},
 		{
 			"name": "mountain hammer",
 			"image": "items/gh-115-mountain-hammer.png",
-			"label": "mountainhammer",
+			"strid": "mountainhammer",
 			"id": "953"
 		},
 		{
 			"name": "fueled falchion",
 			"image": "items/gh-116-fueled-falchion.png",
-			"label": "fueledfalchion",
+			"strid": "fueledfalchion",
 			"id": "954"
 		},
 		{
 			"name": "bloody axe",
 			"image": "items/gh-117-bloody-axe.png",
-			"label": "bloodyaxe",
+			"strid": "bloodyaxe",
 			"id": "956"
 		},
 		{
 			"name": "staff of elements",
 			"image": "items/gh-118-staff-of-elements.png",
-			"label": "staffofelements",
+			"strid": "staffofelements",
 			"id": "958"
 		},
 		{
 			"name": "skull of hatred",
 			"image": "items/gh-119-skull-of-hatred.png",
-			"label": "skullofhatred",
+			"strid": "skullofhatred",
 			"id": "960"
 		},
 		{
 			"name": "staff of summoning",
 			"image": "items/gh-120-staff-of-summoning.png",
-			"label": "staffofsummoning",
+			"strid": "staffofsummoning",
 			"id": "961"
 		},
 		{
 			"name": "orb of dawn",
 			"image": "items/gh-121-orb-of-dawn.png",
-			"label": "orbofdawn",
+			"strid": "orbofdawn",
 			"id": "962"
 		},
 		{
 			"name": "orb of twilight",
 			"image": "items/gh-122-orb-of-twilight.png",
-			"label": "orboftwilight",
+			"strid": "orboftwilight",
 			"id": "963"
 		},
 		{
 			"name": "ring of skulls",
 			"image": "items/gh-123-ring-of-skulls.png",
-			"label": "ringofskulls",
+			"strid": "ringofskulls",
 			"id": "964"
 		},
 		{
 			"name": "doomed compass",
 			"image": "items/gh-124-doomed-compass.png",
-			"label": "doomedcompass",
+			"strid": "doomedcompass",
 			"id": "966"
 		},
 		{
 			"name": "curious gear",
 			"image": "items/gh-125-curious-gear.png",
-			"label": "curiousgear",
+			"strid": "curiousgear",
 			"id": "967"
 		},
 		{
 			"name": "remote spider",
 			"image": "items/gh-126-remote-spider.png",
-			"label": "remotespider",
+			"strid": "remotespider",
 			"id": "968"
 		},
 		{
 			"name": "giant remote spider",
 			"image": "items/gh-127-giant-remote-spider.png",
-			"label": "giantremotespider",
+			"strid": "giantremotespider",
 			"id": "969"
 		},
 		{
 			"name": "black censer",
 			"image": "items/gh-128-black-censer.png",
-			"label": "blackcenser",
+			"strid": "blackcenser",
 			"id": "970"
 		},
 		{
 			"name": "black card",
 			"image": "items/gh-129-black-card.png",
-			"label": "blackcard",
+			"strid": "blackcard",
 			"id": "971"
 		},
 		{
 			"name": "helix ring",
 			"image": "items/gh-130-helix-ring.png",
-			"label": "helixring",
+			"strid": "helixring",
 			"id": "972"
 		},
 		{
 			"name": "heart of the betrayer",
 			"image": "items/gh-131-heart-of-the-betrayer.png",
-			"label": "heartofthebetrayer",
+			"strid": "heartofthebetrayer",
 			"id": "973"
 		},
 		{
 			"name": "power core",
 			"image": "items/gh-132-power-core.png",
-			"label": "powercore",
+			"strid": "powercore",
 			"id": "974"
 		},
 		{
 			"name": "resonant crystal",
 			"image": "items/gh-133-resonant-crystal.png",
-			"label": "resonantcrystal",
+			"strid": "resonantcrystal",
 			"id": "975"
 		},
 		{
 			"name": "imposing blade",
 			"image": "items/gh-134-imposing-blade.png",
-			"label": "imposingblade",
+			"strid": "imposingblade",
 			"id": "s01"
 		},
 		{
 			"name": "focusing ray",
 			"image": "items/gh-135-focusing-ray.png",
-			"label": "focusingray",
+			"strid": "focusingray",
 			"id": "s02"
 		},
 		{
 			"name": "volatile elixir",
 			"image": "items/gh-136-volatile-elixir.png",
-			"label": "volatileelixir",
+			"strid": "volatileelixir",
 			"id": "s03"
 		},
 		{
 			"name": "silent stiletto",
 			"image": "items/gh-137-silent-stiletto.png",
-			"label": "silentstiletto",
+			"strid": "silentstiletto",
 			"id": "s04"
 		},
 		{
 			"name": "stone charm",
 			"image": "items/gh-138-stone-charm.png",
-			"label": "stonecharm",
+			"strid": "stonecharm",
 			"id": "s05"
 		},
 		{
 			"name": "psychic knife",
 			"image": "items/gh-139-psychic-knife.png",
-			"label": "psychicknife",
+			"strid": "psychicknife",
 			"id": "s06"
 		},
 		{
 			"name": "sun shield",
 			"image": "items/gh-140-sun-shield.png",
-			"label": "sunshield",
+			"strid": "sunshield",
 			"id": "s07"
 		},
 		{
 			"name": "utility belt",
 			"image": "items/gh-141-utility-belt.png",
-			"label": "utilitybelt",
+			"strid": "utilitybelt",
 			"id": "s08"
 		},
 		{
 			"name": "phasing idol",
 			"image": "items/gh-142-phasing-idol.png",
-			"label": "phasingidol",
+			"strid": "phasingidol",
 			"id": "s09"
 		},
 		{
 			"name": "smoke elixir",
 			"image": "items/gh-143-smoke-elixir.png",
-			"label": "smokeelixir",
+			"strid": "smokeelixir",
 			"id": "s10"
 		},
 		{
 			"name": "pendant of the plague",
 			"image": "items/gh-144-pendant-of-the-plague.png",
-			"label": "pendantoftheplague",
+			"strid": "pendantoftheplague",
 			"id": "s11"
 		},
 		{
 			"name": "mask of death",
 			"image": "items/gh-145-mask-of-death.png",
-			"label": "maskofdeath",
+			"strid": "maskofdeath",
 			"id": "s12"
 		},
 		{
 			"name": "master's lute",
 			"image": "items/gh-146-masters-lute.png",
-			"label": "masterslute",
+			"strid": "masterslute",
 			"id": "s13"
 		},
 		{
 			"name": "cloak of the hunter",
 			"image": "items/gh-147-cloak-of-the-hunter.png",
-			"label": "cloakofthehunter",
+			"strid": "cloakofthehunter",
 			"id": "s14"
 		},
 		{
 			"name": "doctor's coat",
 			"image": "items/gh-148-doctors-coat.png",
-			"label": "doctorscoat",
+			"strid": "doctorscoat",
 			"id": "s15"
 		},
 		{
 			"name": "elemental boots",
 			"image": "items/gh-149-elemental-boots.png",
-			"label": "elementalboots",
+			"strid": "elementalboots",
 			"id": "s16"
 		},
 		{
 			"name": "staff of command",
 			"image": "items/gh-150-staff-of-command.png",
-			"label": "staffofcommand",
+			"strid": "staffofcommand",
 			"id": "s17"
 		},
 		{
 			"name": "sword of the sands",
 			"image": "items/gh-151-sword-of-the-sands.png",
-			"label": "swordofthesands",
+			"strid": "swordofthesands",
 			"id": "s18"
 		}
 	]

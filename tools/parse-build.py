@@ -429,7 +429,7 @@ def html_items():
         data=jmespath.search("[id,comment]", jpick)
         hf.write(f'''
         <div class="w3-card-4" style="width:250px">
-          <img class="card-med" src="{itemimages[data[0]]}">
+          <img class="card-med" src="{get_item_image(data[0])}">
           <p class="w3-container">{data[1]}</p>
         </div>
         ''')
@@ -466,7 +466,7 @@ def html_potions():
         data=jmespath.search("[id,comment]", jpick)
         hf.write(f'''
         <div class="w3-card-4" style="width:250px">
-          <img class="card-med" src="{itemimages[data[0]]}">
+          <img class="card-med" src="{get_item_image(data[0])}">
           <p class="w3-container">{data[1]}</p>
         </div>
         ''')
@@ -510,10 +510,17 @@ def cache_card_images():
     cardimages.update({data[1]: img})
 
 def cache_item_images():
-  items = jmespath.search("items[*].[image, id]", jitems)
+  items = jmespath.search("items[*].[image, id, strid]", jitems)
   for data in items:
     img=f"images/{data[0]}"
-    itemimages.update({data[1]: img})
+    itemimages_id.update({data[1]: img})
+    itemimages_strid.update({data[2]: img})
+
+def get_item_image(id):
+  if id in itemimages_id:
+    return itemimages_id[id]
+  else:
+    return itemimages_strid[id]
 
 parser = argparse.ArgumentParser(
                     prog='parse-build',
@@ -557,7 +564,8 @@ if (args.b):
 else:
   buildids=jmespath.search("builds[*].id", jbuilds)
 
-itemimages = dict()
+itemimages_id = dict()
+itemimages_strid = dict()
 cache_item_images()
 
 for buildid in buildids:

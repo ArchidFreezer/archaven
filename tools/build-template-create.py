@@ -265,19 +265,6 @@ def write_template_file(fh):
 							},
 							"replace": "cardid",
 							"comment": ""
-						},
-						{
-							"card": "cardid",
-							"top": {
-								"text":"",
-								"style": ""
-							},
-							"bottom": {
-								"text": "",
-								"style": ""
-							},
-							"replace": "cardid",
-							"comment": ""
 						}
 					],
 					"hand": [
@@ -319,7 +306,7 @@ def write_template_file(fh):
 							"comment": "on this condition"
 						}
 					]
-				},
+				}
 			],
 			"enhancements": [
 				{
@@ -346,22 +333,39 @@ def write_template_file(fh):
 						{
 							"order": 2,
 							"name": ""
-						}
-					]
-				},
-				{
-					"comment": "",
-					"picks": [
-						{
-							"order": 1,
-							"name": "",
-							"effect": ""
 						},
 						{
-							"order": 2,
-							"name": "",
-							"effect": ""
-						}
+							"order": 3,
+							"name": ""
+						},
+						{
+							"order": 4,
+							"name": ""
+						},
+						{
+							"order": 5,
+							"name": ""
+						},
+						{
+							"order": 6,
+							"name": ""
+						},
+						{
+							"order": 7,
+							"name": ""
+						},
+						{
+							"order": 8,
+							"name": ""
+						},
+						{
+							"order": 9,
+							"name": ""
+						},
+						{
+							"order": 10,
+							"name": ""
+						},
 					]
 				}
 			],

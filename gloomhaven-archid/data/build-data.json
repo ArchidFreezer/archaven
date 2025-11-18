@@ -3247,6 +3247,1640 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "sb-damage",
+			"classid": "sb",
+			"build": "Damage",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://www.reddit.com/r/Gloomhaven/comments/c1kxc7/saw_class_guide/",
+			"overview": { 
+				"body": [
+					"Saw has two defining conditions when building him: do you have a tank in your party or not? Accordingly, we will have two builds. Why is that so important? The persistent losses Booster Shot and Research the Cure, which are some of the best persistent-losses in the game, really only work with a tank. The best part about these cards is that you can be the difference in the party between a class that can 'kind of' tank on its own to become a full-fledged tank. Some classes in the game have their own tank builds that don't quite have enough support within the class itself (classes like Mindthief and a few unlockable classes), but throwing an additional permanent Shield 1 on top will usually make the difference between wonky and truly effective. And obviously if you throw that Shield on top of someone who's naturally very tanky, you can end up with some of the most broken combos in the game. Furthermore, what's amazing about this is you don't need to become 'a support' in order to have this effect - you just have to play a single persistent loss, which is realistic enough to do as you otherwise have great non-loss actions and a 10-card hand size, so you can certainly afford the one early loss per scenario.",
+					"This build is for when you have no tank in your party or you want a pure damage build."
+				]
+			},
+			"cards": [
+				{
+					"id": "battlefieldmedicine",
+					"top": "Saw has some really powerful losses, even at level 1 with things like Booster Shot and sometimes Vaccine, so the bar is quite high and this largely falls short. Why? A bunch of reasons:<ol><li> Healing losses are typically the worst losses in Gloomhaven. Healing just isn't something you normally want to do as a primary action in combat because it's basically just putting a band-aid on huge gash - you help with the symptoms, but you're not addressing the problem that lead to the symptoms, and thus things will just get worse again next turn. Typically, if you're in a bad spot, you're better off using a loss for a big attack or crowd control in order to survive combat and then heal up afterwards. For example, it's almost always better to use an Attack 4, Stun loss than a Heal 6 loss.</li><li>Even if you would desperately want healing badly enough to play a loss, this is delayed healing, so it doesn't even immediately address the problem. You have to play this and then wait another turn to just get the effect, which is insane!</li><li>Med Packs are a useful mechanic that we'll play with a fair amount on this class but the biggest thing med packs do is giving extra longevity (free turns), whether played for healing or default actions. A large med pack and a small med pack give the same amount of longevity, only one of them actually costs longevity to give.</li></ol>",
+					"bottom": "The bottom non-loss is quite powerful (because immunity to negative conditions removes existing conditions) and is a bonus to movement. The problem is the initiative which means that the immunity comes after most enemy attacks will have happened so we would need to pair it with another lower initiative card to make the card really effective.",
+					"overall": "Battlefield Medicine starts us off at a pretty low point. This card is simply not good, although it can be powerful on some scenarios. The biggest problem is that it's a loss combined with a highly situational effect. "
+				},
+				{
+					"id": "bloodysaw",
+					"top": "Attack 3, Wound is a perfectly reasonable amount of melee damage for a class at level 1. For comparison, the Mindthief can do Attack 4 (which is typically worse than this) and the Scoundrel can do Attack 5 but with conditions attached and she only has 9 cards to our 10, thus we're in a good spot with this Attack already.",
+					"bottom": "Bottom Loot actions are generally quite bad (because you can't Move and Loot in the same turn, thus you're better off typically just moving and picking up coins by being on top of them at the end of your turn) but at least this one is attached to a top action that we want every rest cycle so it's pretty free to have it there and will mostly just help in scenarios that require Loot actions.",
+					"overall": "Bloody Saw, on the other hand, is a very good card.<p>The initiative is pretty good, although we have some really good initiatives, still this card's initiative will matter because of the combo with Hold Back the Pain (seen later).</p>"
+				},
+				{
+					"id": "boostershot",
+					"top": "First of all, the top Heal is more than reasonable for a level 1 Heal. Typically, we expect Heal 3, Range 3 and here we get 1 more healing at the cost of needing to be adjacent to the target. Fortunately, as we're a melee character who's likely to take a fair number of hits each scenario, many times the target will just be us. That being said, we're not actually going to have this Heal action for very long, as we're only keeping this card at low levels or if we intend on playing the bottom loss, and if we're playing the bottom loss, it's typically the earlier, the better.",
+					"bottom": "The bottom loss is excellent if we have any sort of tank or tanky character in our party. With a Sunkeeper or Red Guard this action becomes overpowered as they are naturally tanky on their own and this is a significant boost to already powerful classes. Thus, it's more if you have a tanky melee ally, use this bottom loss as early as you conveniently can in most scenarios on that ally and watch them (and your whole party) enjoy the significant increase in damage mitigation.",
+					"overall": "Booster Shot is another great card, although its true greatness will depend on your party."
+				},
+				{
+					"id": "curativemixture",
+					"top": "On top, we get 1 less healing than Booster Shot, but also the ability to remove negative conditions. The initial Poison removal means that the heal actually gets through to the target which makes this much more valuable. The top will still end up being useful outside of combat though, so neither half is bad.",
+					"bottom": "It's often going to be more convenient to simply use this bottom action, which provides you with a 19-initiative Move 3, to remove the condition and instead still get to play a meaningful top action.",
+					"overall": "Ultimately though, while being a nice card, our deck has a ton of nice cards, which means that beyond early levels, this isn't a card that's going to go into our deck by default. Instead, you should consider bringing it to each scenario on an individual basis depending on the negative conditions present.<p>It's decent against Poison-rich scenarios and it's excellent against Shaman (who can Disarm and Immobilize), excellent against level 4+ Wind Demons, Spitting Drakes (where you can get Stunned but also they do Muddle so it still does something), etc. So consider the scenario and the enemies and if it seems that there are enough conditions to merit this card, bring it. Otherwise, we've got better things to do.</p>"
+				},
+				{
+					"id": "firstaid",
+					"top": "Giving out a Medical Pack and gaining an xp is a nice action, but we obviously don't want to be doing this in combat - while in combat, you should focus on attacking and CCing. But when moving from room to room, while out of combat, being able to give allies free longevity (and sometimes healing) is great!",
+					"bottom": "Meanwhile, when we're in combat, this card is just a casual Move 4 with 8 initiative. Yeah, I'd say that's pretty good. Our initiatives aren't bad overall, but we're no Scoundrel or Mindthief, so we do appreciate a really good initiative when we can get it, and this is it, as you're never going to be unhappy to 'have to play' a Move 4.",
+					"overall": "First Aid is excellent. We've got our first med pack giving action, which is nice."
+				},
+				{
+					"id": "handofthesurgeon",
+					"top": "Hand of the Surgeon top compares poorly to Bloody Saw. Attack 4 will typically just be worse than Attack 3, Wound, unless your party already has a lot of Wound (we'll have a lot of Wound eventually but not while it matters with either of these cards).",
+					"bottom": "Meanwhile, the bottom here is more interesting as you can move to whichever party member needs the assistance before using your top heal. You can easily use this bottom with a top Heal to do a lot of healing, assuming damage has been pretty evenly spread.",
+					"overall": "The initiative is also a lot worse here, as the 60-70 range is typically the worst initiative in the game (neither able to reliably go before or after enemies). That being said, we just don't have that many Attack actions, so even one that's worse than another we already have isn't terrible for us (and Bloody Saw is also a really good Attack, so this being a bit worse still makes this fine, if not exciting)."
+				},
+				{
+					"id": "holdbackthepain",
+					"top": "But first of all, the top action is fine here. If you somehow have this card in your hand while moving from room to room, it will provide a welcome Heal action. And pairing a top Heal (which is good out of combat) with a bottom action that is insane in combat is a great pairing.",
+					"bottom": "So yeah, this bottom action... As I said in the introduction, this class often gets a bad rap as it's misunderstood as being a 'support class.' Does this bottom action look 'supporty' to you?! No, it looks insane! Any melee Attack you want can be a huge AoE! That scales incredibly well with levels and items. And it starts off as just letting you do an Attack 3 Wound on all adjacent enemies with 25 initiative.<p>It gets truly absurd at level 8. So how should you use this combo? You typically want to try to run in late so that the enemies go before you and you can get into a good spot safely (Hamstring [2] bottom Move is the natural combo), then go early in the next round with this combo. Obviously, you'll need some backup from your allies to help CC or kill some of the targets or you risk taking a lot of damage, but given the power level of what you're doing, they should be happy to help out.</p>",
+					"overall": "Hold Back the Pain is one of the most dangerous card designs in Gloomhaven and you want to be bringing it every level."
+				},
+				{
+					"id": "mobileresponse",
+					"top": "The top is a powerful but situational persistent loss but it's honestly just not that good. In scenarios with negative conditions we care about, we already have Curative Mixture, which does the job much more freely. There's just basically never going to be a scenario where this effect is worth the cost, especially as we already have other good losses with much better effects than this, thus making it really difficult to justify the longevity cost on this one.",
+					"bottom": "Meanwhile, the bottom is very appealing. It's powerful, with good movement and allows us to attack and Wound AoE without the use of HBtP.",
+					"overall": "This is a solid card with a good bottom action and great initiative."
+				},
+				{
+					"id": "preventioniskey",
+					"top": "Non-loss AoE crowd control is one of the most broken things in Gloomhaven (typically only behind non-loss executes - we get both on this class by the way!) We get it at level 1! With great initiative!<p>There are very few fights in Gloomhaven that aren't made significantly easier by preventing a significant chunk of the enemies from attacking for that round. And we've got enough excellent movement to easily get in position to make the most of this effect.</p>",
+					"bottom": "The bottom isn't very good, by comparison, especially as it would mean not playing the top, but it may occasionally see some use at the very beginning of a scenario, especially when paired with Precaution (a card we'll take at level 3), assuming the layout of the first room isn't conducive to easily using the top. But in general, preventing enemies from attacking entirely > mitigating some of their damage. Take this card, keep it close, spam the top every chance you get, and laugh maniacally at the 25% of people who rated this class as 'underpowered.'",
+					"overall": "This card has the ability to seriously impact rooms with it's AoE CC along with an initiative that allows us to get of off before most enemies can attack."
+				},
+				{
+					"id": "syringe",
+					"top": "The top - giving your tanky ally Shield 2 for the round, assuming that they're going to put themselves in a position to draw most or all of the enemy fire, is excellent at lower levels. That, combined with the bottom of Booster Shot, puts you at Shield 3, which will blank most low-level enemy attacks and has the initiative to get the assists up before either the tank or enemies go.",
+					"bottom": "Meanwhile, the bottom is extremely powerful, giving us hard CC on a bottom action that also adds Poison for free (this would be a fine bottom Attack at just Attack 1, Stun - compare to the Brute's Attack 2 on bottom or the Scoundrel's Attack 3 on bottom at level 1). You can easily move next to an enemy late in the previous round, then go early with this excellent initiative, Stun them, Poison then, and then benefit from the Poison with your top Attack as well (bonus points if your top Attack is Bloody Saw, where the Wound + the Stun here will do 2 extra damage)! Again, with actions like this we're combining good damage and CC, which makes us both a formidable damage-dealer who also prevents damage (the best kind of support).",
+					"overall": "Syringe is another excellent card, which only seems less impressive because we just got done with one of the best level 1 cards in the game. Neither half is bad, although the bottom is the truly impressive part."
+				},
+				{
+					"id": "teamwork",
+					"top": "his top action represents recovering a LOT of cards in a large party, especially with summons. The biggest problem with this action is that it kind of exists in Magical Christmas Land - you'll always imagine the best-case, but you rarely get it. In order for this to work, everyone needs to move in a specific way and they also all need to be at ideal points in their rest cycles where this gives back a meaningful amount of cards. Beyond that, this really needs to be done out of combat because of your lack of a combat-oriented top action combined with the movement restrictions for your allies, but recovering discarded cards out of combat is a lot less impressive (because you don't get to replay your best actions). Still, the effect can be impressive, so there's certainly room for the right party to try to build around this action, but on average I'd recommend just forgetting about it and focusing on the powerful and consistent actions you can perform regularly.",
+					"bottom": "While the bottom isn't bad, it's also not great as our nature of being a melee-attacker/CC'er relies on us needing movement more than our allies, thus while technically more powerful than a Move 4, it's typically going to be worse.",
+					"overall": "Teamwork is a powerful loss, which is refreshing after some misses."
+				},
+				{
+					"id": "triage",
+					"top": "As I already said, Heal losses are typically some of the worst in Gloomhaven and this lives up to that standard.<ol><li>It's a loss which has no immediate effect!</li><li>Because of the Range limitations on the Heal and the fact that we're almost-entirely melee, it's very possible that some turns this does nothing (if we don't need healing).</li><li>We typically play losses either for incredible value over the course of an entire scenario on a persistent loss (like Booster Shot) or for a large tempo boost when we desperately need it. This taking place over six turns satisfies neither of those conditions and it's very possible that the last turn or two turns have very meaningless healing as we're out of the tough spot.</li><li>Playing the top would mean giving up our excellent Move 5 on bottom, so even in 'last room with plenty of longevity left' situation, we'd still just rather have the bottom.</li><li>After all that, the best-case is just a total of 12 healing for a loss (or a bit more if you combine this with Hand of the Surgeon but come on - that's not what you want to do in combat)!</li></ol><p>Avoid the top.</p>",
+					"bottom": "But love the bottom! Move 5 at level 1 is really nice as while we have some good movement, we don't mind having a bit more, especially as many of our actions (Hold Back the Pain and Prevention is Key) are position-hungry.",
+					"overall": "Triage is, on the other hand, NOT a powerful loss."
+				},
+				{
+					"id": "vaccine",
+					"top": "This top action is so, so, so, so good. Why? Well, first of all, small Attacks that spread Poison to multiple targets are great as you're typically looking at a lot of effective damage from this action. And because Poison gets better the more health the target has (as it will represent more damage), this action scales amazingly with levels and difficulty. Being ranged lets us apply this to high-hp targets (which are typically slow but hit hard) without putting ourselves in danger.",
+					"bottom": "Meanwhile, the bottom loss is also quite powerful, although competes with Booster Shot (and is typically worse). The most common use for the bottom will be on scenarios with a lot of Poison that are also short and where you have a tanky ally (allowing you to put this and Booster Shot on the same ally). Again, that represents a large longevity cost, so the scenario does need to be short.",
+					"overall": "Vaccine is, I believe, the most underrated level 1 card in the game.<p>More than anything, more than all the talk about how effective this top action is, the biggest value is in flexibility. Aside from this top action, we are entirely melee. Having a single ranged Attack adds sooooooo much flexibility into how we can still be effective in a huge variety of combat situations. Just ask any Brute how good Spare Dagger is for them - it's not because the action is that powerful, it's just because a single ranged Attack on an otherwise melee class will get an enormous amount of use. And this action is much, much more powerful than the already-excellent Spare Dagger.</p>"
+				},
+				{
+					"id": "hamstring",
+					"top": "The top is a strictly-better Hand of the Surgeon (although the Immobilize won't typically do much, most frequently just being a sort of Muddle on ranged enemies).",
+					"bottom": "While that's already pretty good, the real amazing part of this card is the bottom, giving us a non-loss Move 6 at level 2. Again, we need lot of movement, so this is great. And while it seems like the Immobilize Self could be an issue, it's really not most of the time.<p>Because we have Hold Back the Pain, we'll most commonly play that bottom the turn after this, not caring about not being able to Move. We also have Syringe bottom we can play after this when we want to focus single targets rather than AoE, which is also excellent.</p>",
+					"overall": "Unfortunately for Precaution (for now at least), it comes up against one of our core cards in Hamstring.<p>In the end, the bottom provides a ton of movement each scenario, the top will sometimes get used, and overall this card will always be excellent for us</p>"
+				},
+				{
+					"id": "precaution",
+					"top": "The top action can be very good as it works at any range. Typically, we'd rather be attacking, but if we want to not move for some reason at the beginning of a scenario but still want to help our allies out defensively (like if we're setting up Booster Shot bottom on our tank the first turn or playing Prevention bottom) we can pair that with this top to get a lot of damage mitigation across our entire party. Unfortunately, being a top action that just gives one Shield does mean it scales quite poorly with levels.",
+					"bottom": "Meanwhile, the bottom is also good. Again, if we're somewhere we don't need to move and we already have a good top to play (we're finishing an enemy off in melee range and we have another melee ally next to us, or if we want to use Vaccine with good initiative to get Poison before our allies attack and we're standing next to them, like at the beginning of a scenario), we can get a free med pack to an ally, which is really nice value. Also, if our allies are long resting or catching up with us (as we have some great movement compared to many classes) when between combat, we can play this bottom with First Aid top to give out two med packs in a turn, which is sweet.",
+					"overall": "Precaution is just a really nice card.<p>Mmost importantly, with everything we do, this card provides good initiative, and sometimes can even just be a Move 2 with good initiative if we really need it. So while it's not exceptional in any way, it does a lot of little things and accrues quite solid value over the course of a scenario.</p>"
+				},
+				{
+					"id": "regenerativetissue",
+					"top": "Regenerative Tissue top is a lot of healing for a level 3 card and we will take some damage as a melee character but the inflexibility of only being able to Heal self just honestly makes this top significantly worse than Booster Shot's top Heal, which already wasn't super compelling.",
+					"bottom": "What about the bottom? Also pretty bad. Its best use is removing Poison and sometimes Wound, but it's worse than Booster Shot bottom by a significant margin (because both require a tanky ally who will draw fire) and if we really can afford to play a second persistent loss early and we're concerned with Poison and Wound, we've got Vaccine. The situation for this is basically 'short scenarios with a tanky ally and no negative conditions' and even then (its best case) it's only so-so for a loss.",
+					"overall": "Not a great card with an Ok top and a poor loss on the bottom."
+				},
+				{
+					"id": "vitalstrike",
+					"top": "While the top represents a ton of damage with Hold Back the Pain, you have to go with 38 initiative instead of 25, which is sooooo much worse. And once you get level 8 (or level 5 for the NOTANK build), you won't even use this combo anymore because it's just worse. Beyond that, we also have other great losses to play (Booster Shot/Research the Cure, Do No Harm). Overall, I find the inconsistency of trying to make this combo work not worth the power increase, by a significant margin.",
+					"bottom": "A spammable move 4 is a decent action.",
+					"overall": "Vital Strike is extremely overrated. First of all, it is a decent setup for a loss card, with a top loss and a bottom spammable Move 4. But we've already got Move 3 and 4 with excellent initiative and then a Move 6 with poor initiative, we don't need a Move 4 with poor initiative."
+				},
+				{
+					"id": "bloodtransfusion",
+					"top": "The top is a lot of healing but it's still only a net of 5 and that's really not much better than Booster Shot at level 1 (and certainly not even better as a healing card than the bottom of Do No Harm, the other level 4 card). Again, we are NOT a support class. Our most effective actions don't revolve around being a support (with the exception of CC, which is support in a way), it's more that we get to support as a bonus sometimes.",
+					"bottom": "Blood Transfusion bottom is honestly so much worse than Syringe, a level 1 card. Sure, it can have some upside, but it's difficult to use for that upside, suffers from low damage at level 4, and poor initiative.",
+					"overall": "Honestly, neither of these halves are good."
+				},
+				{
+					"id": "donoharm",
+					"top": "This top loss is honestly so powerful too. Being able to execute the strongest enemy in the last room of each scenario will significantly improve your party's chances of victory. Sure, the negative conditions are an annoyance afterwards, but you can mitigate them with items, long rest, or otherwise just take a turn off and enjoy the view as what you did the previous turn more than makes up for it.",
+					"bottom": "Meanwhile, this bottom action is also soooo good. It will represent so much free healing over the course of each scenario, all while playing a Move 4, which is more than fine, with an initiative that we really want (because we lack good late initiatives with Moves). The bottom is great, the top is great, they're perfectly paired together, the initiative is welcome. What more can you ask for, honestly?",
+					"overall": "On Do No Harm, both halves are good! Again, this is how you make a loss card: powerful, situational top loss with a spammable bottom action."
+				},
+				{
+					"id": "amputate",
+					"top": "We have a lack of top Attacks up until now and we've been stuck using the underwhelming Hand of the Surgeon until level 4 or 5 accordingly and this fills that void incredible, providing the best of Hamstring and Bloody Saw in one neat package.<p>With certain items to help us, we can combo this with Hold Back the Pain (and it will typically be better than Vital Strike would have been anyway). Still, most of the time it will be a good single-target Attack, and the late initiative combined with the Immobilize does allow us to run in late, hit a melee enemy with this, and then run away early the next turn, leaving the Wounded enemy to bleed out.</p>",
+					"bottom": "Finally, the bottom seems like a strange action but it's also quite good (just because it's attached to a spammable top). 7 is a lot of healing for a non-loss Heal action and you will often be able to use this just before a long rest on the target so that the Stun does nothing. You can also use it to keep annoying allies you need to escort from being too much of a pain.",
+					"overall": "Amputate is an excellent card.<p>First of all, the initiative is good, although we do prefer a late initiative on a Move rather than an Attack as it's more flexible with the intended turn, but this still helps.</p>"
+				},
+				{
+					"id": "researchthecure",
+					"top": "The top is another strict upgrade (mostly, it does miss the XP) to Hand of the Surgeon, although the added effect is only situationally-useful.",
+					"bottom": "Still, if we're taking this card, it's not for the top, but rather the bottom. This bottom is crazy good with a tank in the party, combining the excellent Booster Shot loss with the reasonable Vaccine loss in one single, amazing-value action. In most scenarios, putting this on your tank will result in a ton of mitigation, as well as flexibility of not having to worry about negative conditions. Poison is the bane of tanks everywhere and just negating that alone is already a bunch more health saved.",
+					"overall": "Research the Cure is also an excellent card!<p>In some specific scenarios, you can even combine this with Booster Shot. That does lead to losing a ton of longevity though, so it needs to be a short scenario, but it also takes two turns of setup, which means it also needs to be a scenario where you don't need to move a ton. The best example of this would be a single-room defence scenario or something like that.</p>"
+				},
+				{
+					"id": "euthanize",
+					"top": "Non-loss executes are the most broken thing in Gloomhaven and look, here we have one! Admittedly, this one is kind of difficult to use for the time-being (until level 9 when it just gets really dumb) so it's kept in check a bit. The most common way for us to use this top on our own is by pairing it with the bottom of Syringe. Otherwise, it can be paired with the top of Amputate, but that's obviously significantly worse as we had to make a big Attack on the enemy we're now executing.",
+					"bottom": "Regardless, you will find some ways to use the top before 9, but the main draw of this card is the bottom. Syringe was good at level 1, it's still fine at level 6, and this is a much better bottom (sadly with significantly worse initiative, which does hurt). Wound + Stun is already 2 damage, plus the 1 Attack, and then the Poison as well... mmm... This bottom represents a lot of damage combined with CC and all on a bottom action, leaving us free to use other top actions. Glorious! Two good halves, one that's better now, one that's insane at level 9, makes for an excellent card that we're certainly not about to pass up.",
+					"overall": "Euthanize, is a silly card."
+				},
+				{
+					"id": "prescription",
+					"top": "Prescription top can give out a fair amount of med packs and med packs really aren't bad but this isn't something we want to do in combat (we'd rather be attacking or CCing enemies).",
+					"bottom": "Unfortunately, the other half of this card also does nothing in combat, which means this will be a Move 2 a significant portion of the time as well. Meanwhile, the bottom is another loss for large med packs, which suffers from all the same issues as Battlefield Medicine at level 1. Honestly, our level 1 card First Aid is just a better card than this level 6 card, as while the top is strictly worse, the overall card is better. So yeah, not very tempting at level 6.",
+					"overall": "This is a weak card with neither half doing anything to help in combat with the only thing going for it being the initiative, which we like but we aren't a class that is starved of early cards."
+				},
+				{
+					"id": "masterphysician",
+					"top": "Master Physician is theoretically good against Poison but honestly this is just not the card we're looking for and we already have plenty of tools that are good enough against Poison that we don't care about this one, which is really overpriced.",
+					"bottom": "Meanwhile, the bottom is a sort of combo support action with our Heals and some items where we can do a crazy amount of healing in a single turn but that's just really not worth it as we're better off focusing on using our items and card combos to do crazy damage, executes, and crowd control.",
+					"overall": "Neither half of this card is appealingNeither half of this card is appealing."
+				},
+				{
+					"id": "surgeonssatchel",
+					"top": "We have a top Loot action, which is also nice to have for free in scenarios, and it can be a Heal on top of the Loot or even sometimes just a Heal if we don't need looting and we're moving from room to room. The Heal will never be excellent but it's just so free to have it here that it's fine.",
+					"bottom": "The real draw of the card is the amazing bottom. This picks up the mantel of First Aid by being a Move 4 with excellent initiative, only here we also get XP (which doesn't matter so much at level 7 although the sooner we get to 8 and 9, the better) and a free value med pack. Again, cards like Prescription are not how we give out med packs because they just cost us too much to have - cards like this, where we get to give out med packs for free, are how our allies are getting free longevity. Sure, many times, especially if you don't have melee allies, this won't hand out med packs. It's important to not overly obsess with getting the maximum effect from this bottom every time - it's a Move 4 and sometimes it also does something else. And that's more than fine.",
+					"overall": "Surgeon's Satchel is the complete opposite with a card that's just nice all around.<p>To begin with, it's a solid 10 initiative, which is always welcome.</p>"
+				},
+				{
+					"id": "bedsidemanner",
+					"top": "The top of bedside manner must honestly be a joke. We've combined Curative Mixture and Battlefield Medicine into a single top action but at level 8 and it's still not remotely good. What's hilarious is that this top action is legitimately worse than the top of Gentleman's Anger.",
+					"bottom": "Fortunately, the bottom of Bedside Manner is extremely powerful, as there's nothing like card recursion, especially if you're playing with Endurance Potions instead of Stamina Potions.",
+					"overall": "The card does have good initiative. But still, come on... Gentleman's Anger is extremely powerful and just insane for us. Even this excellent bottom action just can't compare. All that being said, if you're in a party with Eclipse and your primary focus is winning at any cost, you should take Bedside Manner just for the bottom. But that's just Eclipse things."
+				},
+				{
+					"id": "gentlemansanger",
+					"top": "If you thought Hold Back the Pain was powerful before, you're about to discover a whole new world of brokenness. Before we could only AoE Disarm enemies for one round per rest cycle, now we can do it for two, on top of also just casually attacking for 5.",
+					"bottom": "The bottom is also a fine bottom Attack, I guess? but that would also involve not using the top, which is really a must-use even without Hold Back the Pain each rest cycle.",
+					"overall": "The best part is that this gives us 29 initiative as well, which isn't as good as the 25 from Bloody Saw, but is still not much worse, while providing an enormously-better action."
+				},
+				{
+					"id": "grislytrauma",
+					"top": "First of all, the top can execute elites, although admittedly it's actually a very good design for an execute because it does still require interaction/damage. The top is definitely not the main draw of this card, but you will find some situations where you'll be happy to use it and guaranteed finishing moves can be very valuable.",
+					"bottom": "But the real reason this card is amazing is the bottom. First of all, the bottom adds a ton of damage on its own, easily affecting 2-3 enemies most of the time. But it's not just for this action on its own that it matters, the best part is combining this bottom with the top of Euthanize, which allows us to execute a normal or elite enemy outright, which is quite broken. So each rest cycle, we combine these two to kill any non-named enemy and also apply some bonus conditions to one or a couple extra enemies. Yeah, that'll do.",
+					"overall": "Fortunately, Grisly Trauma is not underwhelming."
+				},
+				{
+					"id": "prepforsurgery",
+					"top": "The top loss is kind of nonsense, letting you do healing with non-Heal actions, but we have some free healing anyway on things like Hold Back the Pain and Do No Harm, we don't really need that much healing, especially not at the cost of our level 9 card as a loss. So really, there's almost no world in which this top is appealing.",
+					"bottom": "The bottom, on the other hand, is great. It's a Move 4 with good initiative and a Stun attached. Move + free CC is always welcome and if we took this card, we'd play this bottom every rest cycle and be perfectly happy with it. That being said, it is still kind of underwhelming for a level 9 card, even if it's a fine card and action.",
+					"overall": "Prep for Surgery isn't a bad card."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "One weakness we have at this level is a lack of late initiatives. The two situational cards with late initiatives are top losses and we have good bottom actions that we don't want to lose.",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These are our core actions at level 1, ordered from best/most important to least important.",
+							"cards": [
+								{
+									"id": "holdbackthepain",
+									"comment": "Turns attacks into AoE"
+								},
+								{
+									"id": "preventioniskey",
+									"comment": "<i>Disarm</i> AoE"
+								},
+								{
+									"id": "vaccine",
+									"comment": "Ranged AoE attack"
+								},
+								{
+									"id": "syringe",
+									"comment": "First room action top, then powerful bottom attack"
+								},
+								{
+									"id": "firstaid",
+									"comment": "Movement"
+								},
+								{
+									"id": "bloodysaw",
+									"comment": "Strong attack"
+								},
+								{
+									"id": "handofthesurgeon",
+									"comment": "Second attack"
+								}
+							]
+						},
+						{
+							"label": "Situational",
+							"overview": "And here we have the rest: situational cards, cards with only one good half, or just generally bad cards. We only have a Move 4 as a big Move card at level 1, we could use Triage but Mobile Response is just a better bottom even if we may miss the extra 2 movement. Curative Mixture has a fine bottom and a fine top, even if neither half will be consistently exciting, it also has good initiative.",
+							"cards": [
+								{
+									"id": "triage",
+									"comment": "Big movement"
+								},
+								{
+									"id": "boostershot",
+									"comment": "Tank assist that is at the heart of the build"
+								},
+								{
+									"id": "curativemixture",
+									"comment": "Healing and Movement"
+								},
+								{
+									"id": "teamwork",
+									"comment": "Movement"
+								},
+								{
+									"id": "battlefieldmedicine",
+									"comment": "Aura plus Move"
+								},
+								{
+									"id": "mobileresponse",
+									"comment": "Move <i>Wound</i>"
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "handofthesurgeon",
+							"top": {
+								"text":"Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, AoE <i>Heal</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "boostershot",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent ally <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mobileresponse",
+							"top": {
+								"text":"<i>Cleanse</i> ally",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move + <i>Wound</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "firstaid",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "curativemixture",
+							"top": {
+								"text":"Ranged <i>Heal + Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Cleanse</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							},
+							"replace": "boostershot",
+							"comment": "We replace Booster Shot, which was mostly just a fine top Heal, with the excellent Hamstring. While Booster Shot top was better than Curative Mixture's on average, Mixture provides two decent halves and good initiative. And Triage's movement is still better for us than a top Heal 4, Range 1."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "handofthesurgeon",
+							"top": {
+								"text":"Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, AoE <i>Heal</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "mobileresponse",
+							"top": {
+								"text":"<i>Cleanse</i> ally",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move + <i>Wound</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "firstaid",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "curativemixture",
+							"top": {
+								"text":"Ranged <i>Heal + Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Cleanse</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "precaution",
+							"top": {
+								"text":"<i>Shield</i> allies",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Give med pack",
+								"style": "w3-pale-blue"
+							},
+							"replace": "curativemixture",
+							"comment": "Faced with two poor level 3 cards, we go back and take Precaution, the other level 2 card replacing Curative Mixture. Remember that Curative Mixture should still be a consideration based on the scenario you're going to face and the conditions you know will be present. It's cut because it's not consistently great but it's an excellent sideboard card (card that comes in under certain circumstances) for many scenarios."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "handofthesurgeon",
+							"top": {
+								"text":"Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, AoE <i>Heal</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "mobileresponse",
+							"top": {
+								"text":"<i>Cleanse</i> ally",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move + <i>Wound</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "firstaid",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precaution",
+							"top": {
+								"text":"<i>Shield</i> allies",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early med pack",
+								"style": "w3-pale-blue"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "curativemixture",
+							"top": {
+								"text":"Ranged <i>Heal + Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "precaution",
+							"comment": "Scenarios with lots of <i>Poison, Stun</i> or </i>Wound</i>"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "mobileresponse",
+							"comment": "Do No Harm replaces Mobile Response. We may miss those Wounds, but we will be getting some again soon."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "handofthesurgeon",
+							"top": {
+								"text":"Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, AoE <i>Heal</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "firstaid",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precaution",
+							"top": {
+								"text":"<i>Shield</i> allies",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early med pack",
+								"style": "w3-pale-blue"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "curativemixture",
+							"top": {
+								"text":"Ranged <i>Heal + Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "precaution",
+							"comment": "Scenarios with lots of <i>Poison, Stun</i> or </i>Wound</i>"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "amputate",
+							"top": {
+								"text":"Attack, <i>Wound, Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big <i>Heal</i>, <i>Stun</i> self",
+								"style": "w3-pale-red"
+							},
+							"replace": "handofthesurgeon",
+							"comment": "Amputate replaces Hand of the Surgeon quite easily. There does seem to be a bit of an issue of Wound fatigue (having too many Wounds, which don't stack) but the initiative on Bloody Saw is so important for Hold Back the Pain and it's still just a much better card than Hand of the Surgeon."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "amputate",
+							"top": {
+								"text":"Attack, <i>Wound, Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big <i>Heal</i>, <i>Stun</i> self",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "firstaid",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "precaution",
+							"top": {
+								"text":"<i>Shield</i> allies",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early med pack",
+								"style": "w3-pale-blue"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "curativemixture",
+							"top": {
+								"text":"Ranged <i>Heal + Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, <i>Cleanse</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "precaution",
+							"comment": "Scenarios with lots of <i>Poison, Stun</i> or </i>Wound</i>"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "euthanize",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack + CC",
+								"style": "w3-pale-green"
+							},
+							"replace": "precaution",
+							"comment": "Euthanize replaces Precaution. Like I said, Precaution was better at low levels and did scale poorly on top. And while the bottom was still good, we've got a number of good non-move bottom actions. It might seem like we really should cut Bloody Saw, but we just need the extra top Attack (even more-so in this build as we don't have Amputate) and the good initiative to go with Hold Back the Pain. Cutting a fine level 2 card over our level 1 cards should also help to demonstrate just how good some of our level 1 cards are."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "euthanize",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack + CC",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "amputate",
+							"top": {
+								"text":"Attack, <i>Wound, Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big <i>Heal</i>, <i>Stun</i> self",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "firstaid",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "surgeonssatchel",
+							"top": {
+								"text":"<i>Loot + Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, med pack",
+								"style": "w3-pale-green"
+							},
+							"replace": "firstaid",
+							"comment": "Surgeon's Satchel replaces First Aid in a pretty strict upgrade. First Aid stayed around for a long time just by virtue of being a Move 4 with excellent initiative and Surgeon's Satchel does that but better."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "euthanize",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack + CC",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "bloodysaw",
+							"top": {
+								"text":"Attack, <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "amputate",
+							"top": {
+								"text":"Attack, <i>Wound, Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big <i>Heal</i>, <i>Stun</i> self",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "surgeonssatchel",
+							"top": {
+								"text":"<i>Loot + Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, med pack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "gentlemansanger",
+							"top": {
+								"text":"Attack <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-blue"
+							},
+							"replace": "bloodysaw",
+							"comment": "Gentleman's Anger replaces Bloody Saw. Bloody Saw only stuck around for so long because we desperately needed more top Attacks and specifically because of it being a top Attack with good initiative to pair with Hold Back the Pain. Gentleman's Anger checks all of those boxes and finally lets us put our Bloody Saw to rest."
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "euthanize",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack + CC",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "gentlemansanger",
+							"top": {
+								"text":"Attack <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "amputate",
+							"top": {
+								"text":"Attack, <i>Wound, Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big <i>Heal</i>, <i>Stun</i> self",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "syringe",
+							"top": {
+								"text":"First round",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Attack <i>Stun + Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "surgeonssatchel",
+							"top": {
+								"text":"<i>Loot + Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, med pack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "grislytrauma",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move + CC",
+								"style": "w3-pale-green"
+							},
+							"replace": "syringe",
+							"comment": "Grisly Trauma replaces Syringe. Syringe was still a fine card for the bottom action but something has to go and we've now got Grisly Trauma's bottom, which does a lot of what Syringe was doing for us anyway. Sure, because we don't have Syringe anymore and we're only using Euthanize top, we do miss out on 2 Stuns per rest cycle all of the sudden, but we've still got two turns of AoE Disarm, so we're contributing more than enough CC.<p>Our tank will miss the round 1 shields from Syringe, but by this point they should be fairly self-sufficient on the shield front.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "preventioniskey",
+							"top": {
+								"text":"AoE <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i> aura",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "euthanize",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack + CC",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "gentlemansanger",
+							"top": {
+								"text":"Attack <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "amputate",
+							"top": {
+								"text":"Attack, <i>Wound, Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Big <i>Heal</i>, <i>Stun</i> self",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "vaccine",
+							"top": {
+								"text":"Ranged <i>Poison</i> AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Persistent <i>Cleanse</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hamstring",
+							"top": {
+								"text":"Attack <i>Immobilize</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Immobilize</i> self",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "grislytrauma",
+							"top": {
+								"text":"Kill with conditions",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move + CC",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "holdbackthepain",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "AoE attack combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "donoharm",
+							"top": {
+								"text":"Kill loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "surgeonssatchel",
+							"top": {
+								"text":"<i>Loot + Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, med pack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "hamstring",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Our best/most important enhancement as it lets us get into the ideal position for Hold Back the Pain/Prevention is Key as well as getting past trap walls on maps as we have no natural Jump. That being said, there are some items that make this enhancement unnecessary and those items are very good on this class in general (and no, not Winged Shoes, those are mediocre), so if you have such an item, you can ignore this enhancement."
+				},
+				{
+					"card": "preventioniskey",
+					"position": "top",
+					"enhancement": "<i>Curse</i>",
+					"comment": "We'll play this action each rest cycle, it will hit multiple enemies, it never kills, and it's a level 1 card so it's not very expensive to enhance. Wound might seem like a more natural pairing with Disarm (similar to how Stun + Wound is so good), but we end up with so much Wound from Bloody Saw/Amputate and Grisly Trauma that many times it won't do anything, whereas Curse always does something. And dumping a bunch of Curses into the enemy modifier deck each rest cycle tends to be pretty good, allowing this action to both prevent damage now AND later."
+				},
+				{
+					"card": "donoharm",
+					"position": "bottom",
+					"enhancement": "<i>Strengthen</i>",
+					"comment": "Similarly, we'll play the bottom of Do No Harm all scenario, so this action gets a ton of use and thus the enhancement accrues a ton of value. Strengthen being able to target self on a Move action is obviously excellent because we can get two turns of Advantaged attacks, although it is a much more expensive enhancement than the level 1 versions on other classes. Still, other than the already-recommended enhancements, we don't have anything spectacular, and this still really good, so it is our third (or second, again depending on items) choice."
+				},
+				{
+					"card": "donoharm",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Adding another Jump into our deck is another power spike given that this one does not have the negative conditions attached. As above if you have this covered in items you can save the gold."
+				},
+				{
+					"card": "holdbackthepain",
+					"position": "bottom",
+					"enhancement": "Move",
+					"comment": "Adding extra movement lets us get into place easier for our AoE attacks."
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "steady"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "artifice"
+						},
+						{
+							"order": 4,
+							"name": "dust"
+						},
+						{
+							"order": 5,
+							"name": "heighten"
+						},
+						{
+							"order": 6,
+							"name": "knack"
+						},
+						{
+							"order": 7,
+							"name": "blind"
+						},
+						{
+							"order": 8,
+							"name": "bloodletting"
+						},
+						{
+							"order": 9,
+							"name": "rejuvenate"
+						},
+						{
+							"order": 10,
+							"name": "hobble"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "General",
+						"comments": "",
+						"picks": [
+							{
+								"id": "760",
+								"comment": ""
+							},
+							{
+								"id": "850",
+								"comment": ""
+							},
+							{
+								"id": "786",
+								"comment": ""
+							},
+							{
+								"id": "806",
+								"comment": ""
+							},
+							{
+								"id": "788",
+								"comment": ""
+							},
+							{
+								"id": "868",
+								"comment": ""
+							},
+							{
+								"id": "762",
+								"comment": ""
+							},
+							{
+								"id": "774",
+								"comment": ""
+							},
+							{
+								"id": "509",
+								"comment": ""
+							},
+							{
+								"id": "876",
+								"comment": ""
+							},
+							{
+								"id": "824",
+								"comment": ""
+							},
+							{
+								"id": "844",
+								"comment": ""
+							}
+						]
+					},
+					{
+						"level": "Chest & Feet",
+						"comments": "Blinking Cape is the best chest slot in the game for Saw, but Saw really wants flying as well (Cloak of Phasing or Boots of Levitation).<p>If you don't have item Boots of Levitation but you do have item Cloak of Phasing, I would actually suggest taking Cloak of Phasing instead of Blinking Cape, even if you have Blinking Cape. If you have both Boots of Levitation and Blinking Cape, just take those two. If you have Cloak of Phasing but neither Boots of Levitation or Blinking Cape, then Boots of Striding are a better choice than Rocket Boots. But if you have neither 58 nor Boots of Levitation, then Rocket Boots is actually better than Boots of Striding. Finally, Cloak of Invisibility is the choice if you have neither Blinking Cape nor Cloak of Phasing.</p><p>So, to make this clearer:</p><table class=\"w3-table w3-striped w3-border\"><tr><th>Have</th><th>Have Not</th><th>Take</th></tr><tr><td>Blinking Cape<br>Boots of Levitation</td><td></td><td>Blinking Cape<br>Boots of Levitation</td></tr><tr><td>Cloak of Phasing<br>Boots of Levitation</td><td>Blinking Cape</td><td>Cloak of Phasing<br>Boots of Striding</td></tr><tr><td>Blinking Cape<br>Cloak of Phasing</td><td>Boots of Levitation</td><td>Cloak of Phasing<br>Boots of Striding</td></tr></table>",
+						"picks": [
+							{
+								"id": "493",
+								"comment": ""
+							},
+							{
+								"id": "880",
+								"comment": ""
+							},
+							{
+								"id": "756",
+								"comment": ""
+							},
+							{
+								"id": "491",
+								"comment": ""
+							},
+							{
+								"id": "748",
+								"comment": ""
+							},
+							{
+								"id": "931",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

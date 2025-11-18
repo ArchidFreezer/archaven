@@ -114,6 +114,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('sbDrop')">Sawbones <i class="fa fa-caret-down"></i></button>
     <div id="sbDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="sb-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="sb-damage.html" class="w3-bar-item w3-button">Damage</a>
       <a href="sb-tank-asist.html" class="w3-bar-item w3-button">Tank Assist</a>
     </div>
   </div>

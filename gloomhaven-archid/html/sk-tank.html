@@ -1,0 +1,2137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sunkeeper Tank</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Sunkeeper Tank</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>Sunkeeper is an amazing tank, a very solid single-target melee damage-dealer, and she also can bring numerous valuable support tools depending on your group's needs. She does, however, have two weaknesses: she completely lacks top action ranged Attacks, which makes her inflexible in terms of movement/targeting for dealing damage. She also has one of the slowest average rates of experience gain in the game, which is a serious issue for a tanking class as it's important for tanks to remain at or above the average level of their party.</p> <p>There are two main builds: Damage and Tanking/Mitigation. Focusing mostly on tanking and mitigating damage will be more effective in larger parties and less realistic in a two-player party or in parties with lots of support and little other damage (allies like a Tinkerer). This build focuses on the Tanking/Mitigation choices.</p>
+    <p>So why would you play a Tank Build?</p>
+    <ul>
+      <li>Strong tanking abilities</li>
+      <li>Works in nearly any party</li>
+    </ul>
+    
+    <p>The Tank build loves the following:</p>
+    <ul>
+      <li>Loves a Sawbones in the party for the persistent shields.</li>
+      <li>Loves the Plagueherald/Soothsinger combination spreading curses and giving enemies disadvantage.</li>
+    </ul>
+    
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top here is rarely worth an action unless some people are Poisoned or Wounded, and when that's the case, it's frequently worth an action.</p>
+              <hr>
+              <p>The bottom is a not-bad loss card. I don't recommend using it frequently, but if you're about to fight a boss or go into a tough room, 6 rounds of guaranteed Light will significantly increase your effectiveness for a period of time. You also have an 11 card hand size, meaning you can certainly afford a couple losses here and there when necessary. This bottom will get more mileage for you at lower levels (where it's also great for free XP) before you have access to more ways to create Light, and you can normally bench it once you can create Light consistently, just bringing it in when you see Poison or Wound as being an4 issue based on the enemies in a scenario.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Beacon of Light, also known as The Poison/Wound-Removing Card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss can be useful with just a couple other classes in Gloomhaven but most of the time, your average card quality is so high that it's not worth trading a loss card of yours for someone else's.</p>
+              <hr>
+              <p>The heal is most useful for the Light generation if we don't need to move.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A loss on one side require a spammable on the other and healing isn't something we want to be spamming.<p>While 27 initiative is actually not terrible for this class, it's not worth bringing just for that (especially considering that Move 2's are actually Move 1's for you).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>For tanking, until level 7, this is your best top action for when you want to tank a room for your party.</p>
+              <hr>
+              <p>On bottom, Move 3 isn't amazing, especially as it will be a Move 2 for you, but getting to Move 2 with 23 initiative is quite valuable on this otherwise slow class (and initiative is doubly-valuable to us as we want to be able to draw enemy Attacks and move into position before they go).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Cautious Advance is great!</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 3 Muddle is a bit underwhelming for an attack, but it's significantly improved by the situational ability to enhance the attack when you can use Dark. This enhancement will pretty much always be done at the expense of Dark created by enemies, rather than allies, as almost any ally who creates Dark will usually want to use it as well. But when it happens, even if it's not often, it feels great.</p>
+              <hr>
+              <p>The bottom is situational but is nice when moving from enemy to enemy as we can pick up loot from one we have just dispatched.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Daybreak is a pretty clever card design, allowing our Sunkeeper, who walks in the Light, to be more effective when darkfriends are present.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Dazzling Charge is the important half and it has a couple things going for it. To begin with, it's a fine Heal, on the same level as starting heals that other classes have, and it's always nice to have a useful out-of-combat top action to play when moving from room to room. The reason it's so helpful to you is the guaranteed source of Light. Now it's not the best source of Light for a damage-dealer because you don't want to have to take a turn off during combat to heal most of the time, but many times it will be worth it. Once you have more options for sources of Light, you can bench this card if healing isn't a priority for your build of the Sunkeeper (based on your party's needs).</p>
+              <hr>
+              <p>The bottom is also not a bad loss. Again, not on the same level as some of your others, but being attached to a good top makes the situational value of it a lot more appealing. There will certainly be times when a Move 5 and Stun, creating a Light to set you up for next turn (towards which end Stun also contributes), will be worth it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Dazzling Charge is a card that will certainly fit into your hand early on but may not be as important to you later as your deck changes and you gain more access to Light.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top (which is mostly just there for scenarios with harsh movement requirements that prevent the use of the bottom) is an unconditional Attack 4, which is good enough for a level 1 card. On top of that, if you can spend a Light, you get an Attack 5, 1 XP, and Advantage on the attack. At level 1 this will be slightly more conditional than the Scoundrel's level 1 Attack 5's, but also better because of Advantage. Over time, as light generation becomes easier, it will be significantly better than the respective attacks from the Scoundrel, making you a very solid melee damage-dealer.</p>
+              <hr>
+              <p>Gaining a permanent one Shield is pretty huge in Gloomhaven on a melee character. It's not too hard to make sure you're constantly in front of your party as, lacking ranged Attacks, you naturally want to move into melee range anyway. The amount of damage this action will mitigate in an average scenario is pretty shocking. The drawback here is very real - constantly limiting your movement is a huge penalty and you'll need to work hard to overcome it, but it's definitely worth it. It's also worth mentioning that you can dismiss (move this card from active to the lost pile) this card when you desperately need to move further at the end of a scenario. There may also even be a few scenarios with very harsh movement requirements where you won't want to play this persistent loss, although those scenarios will be few and far between.<p>Almost no matter the situation, you should pretty much always try your best to play this bottom action on turn 1 of each scenario.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Defensive Stance is THE defining card for the Sunkeeper.<p>We haven't talked about the biggest deal on the bottom action: the little enhancement dot next to the 'Shield 1.' This enhancement may very well be the most cost-effective enhancement in all of Gloomhaven and should be done as soon as possible. I'd typically buy just a couple items to start (Boots of Striding, Iron Helmet, and a small potion or two) and then immediately start saving to get this enhancement. Shield increases do not scale linearly - Shield 2 is more than twice as strong as Shield 1. Why? Because as you reach higher Shield values, it becomes easier and easier to simply accept incoming Attacks. Accordingly, this enhancement takes an already-powerful action and completely supercharges it.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a Stamina Potion for a friend. It can sometimes even come up that you use this powered-up with Light when moving between rooms, although not really consistently. Still, it's a significant, welcome bonus on an already-great top support action.</p>
+              <hr>
+              <p>And while the top is excellent out of mostly combat, the bottom can be amazing in combat . Attack 4 on bottom on a level 1 card is incredible. Obviously it comes with the caveat that you have to make an ally do it, but as long as you have at least one melee ally, it shouldn't be a problem. With two, it's extremely easy.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Now Empowering Command is a support card.<p>The initiative is also perfect for this card: early enough that you should mostly be able to go before many monsters, but not so early that an ally can't easily go before you (to get into position).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is not very good - a loss for Heal 5, 1 XP is almost never worth it. If you can double it with a Light, it certainly can become worth it, although there's a problem with healing that has elemental requirements. Normally, when you need healing, you need it NOW, not a turn from now. This is because most of the time you want to be killing enemies and not healing, you usually only need healing when something went wrong or when moving between rooms/cleaning up with nothing else to do. If you're moving between rooms/cleaning up, it's not very likely that a) you have the Light to spend, because you probably spent it killing off enemies and b) you want to use a loss card anyway. If something went wrong, it's impossible to say whether you'll have a Light ready or not. Finally, even if you have Light ready and want healing, it's not guaranteed that two different targets will both really need the healing that badly. Thus, while this top can be a powerful heal, it rarely will be.</p>
+              <hr>
+              <p>Fortunately, the bottom is a bit better. Attacks on bottom are always welcome, although this class does have plenty going on for it with bottoms that aren't just movement (and you really need to move with your bottom action most of the time), so it's less necessary than for some other classes. Still, the bottom Attack is fine, and the main thing making this card playable.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Glorious Bolt is just ok.<p>The initiative is also worth mentioning as this class is pretty slow, thus a 39 initiative, while not great, still sometimes matters at lower levels.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This has the same great top we've already seen on Defensive Stance, which is even better here as it's not attached to a loss on bottom that we might use early in the game, meaning we should always have access to this.</p>
+              <hr>
+              <p>The bottom is a Move 4, which is always good, and especially important for this class.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Hammer Blow is another one of the best Sunkeeper cards.<p>Take this card, use it often.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top half of Holy Strike is great, an Attack 2 Stun at level 1 is extremely strong and we like the Light generation.</p>
+              <hr>
+              <p>The bottom half is a situational ranged attack loss card. There will be occasions when it may be worth using this ranged attack, to finish off an important target in a tough fight.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Holy Strike is a tale of two halves.<p>While it's definitely not one of the better loss cards in your deck, the fact that the top half is so incredibly spammable means you lose nothing by keeping the option around. This is a great example of a good situational loss card. The card is only let down by its terrible initiative for a crowd control card - disables like Disarm or Stun are typically better if you can be sure to go before your target, whereas this will require another card to go early (something you mostly lack). Fortunately, Stun is much better than Disarm when used for the following round as you can disregard the enemy entirely, rather than still having to worry about certain monster deck flips, so it's still almost never bad.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Interestingly, Lay on Hands is at its weakest at level 1, but scales incredibly well with high health pool allies, to the point that you may very well reconsider bringing this card in certain parties at high levels.</p>
+              <hr>
+              <p>Move 2 Bless an ally is great. Often you'll be fighting in close quarters in a room before moving on to the next and you should have the opportunity to move next to an allied melee character and give them a free Bless before making an attack (or attack then move). Obviously this gets significantly worse if you don't have any melee allies as it's much harder for you, as a melee character without top ranged attacks, to Bless a ranged ally and still have an effective top action.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Lay on Hands is a super powerful top loss that gets better as we level.<p>The card is let down a bit by its initiative, meaning you'll often have to pair it with something else faster or you/your ally will be taking a free attack.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Protective Blessing top provides a lot of value but is difficult to use. Realistically, the only effective way to use this action is if you go last in the round the turn before opening a door, such that you can still use this out of combat but also get the benefit from both the Strengthen and the Bless. When moving from room to room, Dazzling Charge and Empowering Command (seen later) will both typically be better support actions, so you're not desperate for another one of those. And when you're in combat, you really don't want to waste your top action on such a marginal effect.</p>
+              <hr>
+              <p>Meanwhile, the bottom suffers from terrible initiative and being a bottom action. You have to move into the correct spot and also hope to go before the enemies on a class that doesn't routinely break 20 initiative, so that's quite a gamble.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Well, not every card can be good.<p>There are a few, very specific scenarios where this effect is absolutely worth taking, but otherwise this card is mostly best off being left behind.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a pretty mediocre loss, mostly just good against lower-health, higher-Shield enemies or Retaliate enemies that you can't easily attack. It will never really be a wasted loss because it only triggers when it would deal damage, but your average card quality is so high that it's also just rarely worth playing this loss (although can also be a good way to generate XP, something which is very welcome on this class, in the last room).</p>
+              <hr>
+              <p>Both for your melee Attacks and your tanking, you typically want to move almost every turn (especially as your movement is reduced). Non-Move bottom actions need to be very powerful to be appealing (read: Empowering Command) and this one just typically isn't good enough unless you're in a party with a lot of summons and you already have copious amounts of Light.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>There's really only one good thing about Purifying Aura. It's not the top, or the bottom. No, what's really appealing about this card is initiative. At the end of the day, this will most often just be a Move 1 with 21 initiative. That's really not good, but at least until level 3, is often necessary.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top isn't the half of this card you'll use most often, but it can be useful in a ton of situations, setting up turns and Attacks for your group that wouldn't otherwise be possible, on top of helping your slower allies to move across the battlefield.</p>
+              <hr>
+              <p>Meanwhile, the bottom is another important Move 4, this time attached to one of your best initiatives (and it has a great enhancement dot).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Tactical Order is another really nice Sunkeeper card.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These are our core cards at level 1, ordered from best/most important to least important.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+              <div class="w3-container">Our core card</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>These are the remaining level 1 cards, which range from just generally-poor to situational depending on scenario or party composition.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>We don't really have a set rotation, but a first round may go something like the following using Cautious Advance with Defensive Stance in the first round and then bringing it back.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+                <p class="w3-pale-green">Ranged <i>Heal, Light</i></p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-pale-green">Move <i>shield</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png">
+                <p class="w3-pale-green"><i>Poison/Wound</i> cleanse</p>
+                <p class="w3-pale-blue">End room xp</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+                <p class="w3-pale-red">Ranged <i>Heal</i> loss</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Early move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png">
+                <p class="w3-pale-blue">Attack + bonus</p>
+                <p class="w3-pale-green">Move <io>Light, Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 5 is above the curve for level 2</p>
+              <hr>
+              <p>Move 5 is just what we need when we have Defensive Stance up.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Practical Plans is a great card.<p>There's not much subtlety to why this card is good - the actions you most commonly do in the game, with good numbers, on the same card. You'll always want this card and the movement is just incredibly crucial when living under the Defensive Stance constraints.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-unwavering-mandate.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Situationally powerful action, that burns both our own and an allies sstamina, but great in the right situation.</p>
+              <hr>
+              <p>The decent range makes this a reasonable heal as a melee character, but we want to be moving most turns.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Unwavering Mandate is not a bad card (Tinkerer would kill to get this at level 3), but it's just not nearly as powerful nor necessary as Practical Plans.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-beacon-of-light.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Level 2 is an easy choice - Practical Plans by a mile. No matter what you're focusing on doing with Sunkeeper, Practical Plans will always be the most helpful card at this level. We are replacing two situational actions, we are happy to let go.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+                <p class="w3-pale-green">Ranged <i>Heal, Light</i></p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-pale-green">Move <i>shield</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+                <p class="w3-pale-red">Ranged <i>Heal</i> loss</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Early move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png">
+                <p class="w3-pale-blue">Attack + bonus</p>
+                <p class="w3-pale-green">Move <io>Light, Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-beacon-of-light.png">
+                <p class="w3-pale-green"><i>Poison/Wound</i> cleanse</p>
+                <p class="w3-pale-blue">End room xp</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">enemies with <i>Poison</i> or <i>Wound</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-burning-flash.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a situational AoE that's generally worth it if you can hit at least three enemies. There will be plenty of times when you can do just that, so you will normally get to use it in most scenarios.</p>
+              <hr>
+              <p>Meanwhile, the bottom is a fine heal that can convert any enemy element into Light for you to use later on, which should happen often enough. Realistically, there's absolutely nothing wrong with Burning Flash.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Burning Flash is just decent.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 4 isn't impressive at level 3, but it gets the job done. More importantly, this creates Light for you, which is very important. And unlike your Heal, this creates Light while doing what you want to be doing most of the time. Not to mention also having really good initiative for this class.</p>
+              <hr>
+              <p>The bottom loss isn't terrible either, there will definitely be times when moving all your allies across the battlefield will be worth a loss, the biggest problem is that you can't move with them. Still, having that option attached to something you're always happy to use means that when that situation arises, you'll be ready.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Mobilizing Axiom is one of your most important cards.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-purifying-aura.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We'll always take Mobilizing Axiom here just because we want Attacks, Light, and initiative more than anything else at this point in our battle against the encroaching darkness.<p>Mobilizing Axiom replaces Purifying Aura. Aura was just there for the 21 initiative and now, with another 23, we can pretty safely replace it and no longer be forced to use a Move 1 to go quickly.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-pale-green">Move <i>shield</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+                <p class="w3-pale-red">Ranged <i>Heal</i> loss</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+                <p class="w3-pale-blue">Ranged <i>Heal, Light</i></p>
+                <p class="w3-pale-green">Move 2 / Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png">
+                <p class="w3-pale-blue">Attack + bonus</p>
+                <p class="w3-pale-green">Move <io>Light, Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-beacon-of-light.png">
+                <p class="w3-pale-green"><i>Poison/Wound</i> cleanse</p>
+                <p class="w3-pale-blue">End room xp</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">enemies with <i>Poison</i> or <i>Wound</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-engulfing-radiance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top can occasionally be playable in a large party, especially with some tankier summons.</p>
+              <hr>
+              <p>The bottom is fine. The effect is reasonable mitigation, although you'd typically rather mitigate incoming damage by moving into position and Shielding yourself (see: Righteous Strength) rather than allow too many of your allies to take attacks (because you already have built-in mitigation with Defensive Stance). The biggest selling point of the bottom is the Light generation but you already have one of that per rest cycle with Mobilizing Axiom and you don't desperately need another (it's welcome, but not essential, although it does get better at level 5).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Engulfing Radiance is an alright card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is another one of those 'nothing to kill, can still do something productive' cards (and it gives experience, which you'll be super happy to get).</p>
+              <hr>
+              <p>The real reason for this card is the amazing bottom: Move 2, Shield 1 with 18 initiative is amazing!</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>So the Sunkeeper does get sub-20 initiative! Righteous Strength is great.<p>Whether you're going full-blown tank or not, you'll never be unhappy with this card. With Defensive Stance up, getting to Shield 3 is a pretty magical place where all the monsters simply want to give you a hug and you repay them with the Light's burning vengeance. You can enter rooms with this alongside Cautious Advance (for the impervious Shield 4 turn) and assure your party that you're not concerned with who or what is in the room. And even just in the middle of combat, getting to move a bit for a top Attack at 18 initiative and mitigate some additional damage is never bad.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-glorious-bolt.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Overall, Engulfing Radiance is certainly an acceptable card but it just can't compare to the all-around amazing Righteous Strength. Righteous Strength replaces Glorious Bolt. Glorious Bolt was just around for the bottom but it was a pretty awkward bottom and it obviously doesn't scale well so it's easy to replace here.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-pale-green">Move <i>shield</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+                <p class="w3-pale-blue">Ranged <i>Heal, Light</i></p>
+                <p class="w3-pale-green">Move 2 / Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png">
+                <p class="w3-pale-blue">Attack + bonus</p>
+                <p class="w3-pale-green">Move <io>Light, Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-path-of-glory.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Path of Glory has a great top which is a straight upgrade to your previous versions of this action (Defensive Stance and Hammer Blow). Especially as you typically want to play Defensive Stance bottom from the beginning of almost every scenario, adding another, better Hammer Blow top is great. Additionally, getting some Attack 5's for the baseline is a good direction to go when you unlock Weapon of Purity at level 7.</p>
+              <hr>
+              <p>The bottom is a pretty bad loss. There's essentially no opportunity cost to have a 'situational' loss on bottom here, but this loss doesn't really seem to be designed around a situation that can possibly arise. If you're in a tough spot and want to spend a loss to help out, this doesn't even have a guaranteed immediate effect. And if your allies have a bunch of summons and you want to dump the Bless deck into their AMDs, you can just play Righteous Strength twice with a Stamina Potion for a much, much lower cost.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>For a damage build this is a great card with the spammable attack on top, but with a very situational bottom.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Scales of Justice has a situational yet extremely powerful top loss. There are three real drawbacks to playing this loss: losing a card, losing access to the bottom action, and reducing all of your Attacks by 1. So where should you use this top? On essentially any scenario that involves numerous melee enemies. Retaliate is generally not the best strategy in Gloomhaven, but dumping Retaliate 2 on top of your already-existent Shield 2 is a spicy mixture that functions very well together. If enough melee enemies will Attack you over the course of the scenario, the costs here will easily be worth it. Just be careful that there aren't enemies in the scenario that will make you regret losing access to the Stun (very hard-hitting enemies or summoners).</p>
+              <hr>
+              <p>The bottom is extremely consistent. Light consumption here is purely bonus - sometimes you'll want it, other times you won't need to move far or your boots will be enough. No matter the situation, a bottom Move + Stun action is always incredible and you'll never miss an opportunity to use it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The bottom here is great for a mitigation card as having a move and stun is incredibly powerful.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+                <p class="w3-pale-blue">Situational big melee</p>
+                <p class="w3-pale-green">Move <i>Stun</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-daybreak.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The Move plus Stun is the better action for a mitigation build, replacing Daybreak which was a great filler card but is, by now, our most replaceable card.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-pale-green">Move <i>shield</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+                <p class="w3-pale-blue">Ranged <i>Heal, Light</i></p>
+                <p class="w3-pale-green">Move 2 / Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+                <p class="w3-pale-blue">Situational big melee</p>
+                <p class="w3-pale-green">Move <i>Stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-illuminate-the-target.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 5, 1 XP, and it can Strengthen allies. The only thing that makes it a bit awkward in terms of the Strengthen effect is the initiative timing - how does this work exactly? We'd have to go after an ally, but that would also be after the enemies, which means our ally would need to be adjacent or almost adjacent to where an enemy will be that we can attack after the enemies have gone. That's obviously far from ideal, so most of the time we will need to pair this with one of our faster cards to make use of the Strengthen safely/effectively.</p>
+              <hr>
+              <p>Meanwhile, the bottom is an Attack 6, which is pretty insane, although with a heavy positional requirement. Your group size and composition will determine the effectiveness of this bottom - larger groups with more melee allies will get more use out of this, but even if your group doesn't lend itself to this being very effective, it's still a great option to have in addition to the excellent top Attack.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Illuminate the Target is a really powerful and efficient card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is great for when you want the group to move between room (especially with summons).</p>
+              <hr>
+              <p>Bonuses to Attacks are the second-best kind of support (after Stuns/Disarms) because they help people do what they naturally want to do: Attack.<p>Having this as a bottom action on a fast initiative means that when you are toe to toe with an enemy and not moving you can support your allies at minimal loss to your own desired actions.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Supportive Chant is a very powerful support (obviously) card, it works very well with summons who are also considered allies.<p>The initiative is the other big selling point of this card: as a tank/front-liner, having 11 initiative functions similarly to a 'taunt' effect by allowing you to typically go before both the enemies as well as your allies and make sure you're targeted for the round.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-supportive-chant.png">
+                <p class="w3-pale-blue">Allies Move</p>
+                <p class="w3-pale-green">Allies attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-dazzling-charge.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Supportive Chant. Please bear in mind that it is possible to have a party such that playing a mitigation-focused Sunkeeper makes sense but your allies really can't take advantage of Supportive Chant. In those rare instances, obviously just swap Illuminate for Chant from now on in this guide.<p>Supportive Chant replaces Dazzling Charge. Dazzling Charge was still solid but all of our cards are good, Charge has scaled somewhat poorly and is our most replaceable card.<p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-pale-green">Move <i>shield</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+                <p class="w3-pale-blue">Situational big melee</p>
+                <p class="w3-pale-green">Move <i>Stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png">
+                <p class="w3-pale-blue">Allies Move</p>
+                <p class="w3-pale-green">Allies attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is an incredible tanking action, Light may matter because of Scales or your solo item.</p>
+              <hr>
+              <p>The bottom is a very powerful loss depending on your allies to be used towards the end of the scenario.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Bright Aegis is super sweet. Everything about this card is amazing.<p>The initiative is obviously amazing for this class.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-weapon-of-purity.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action discussion.</p>
+              <hr>
+              <p>The bottom action discussion.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The overall card discussion.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-bright-aegis.png">
+                <p class="w3-pale-green">Move, <i>Shield, Light</i></p>
+                <p class="w3-pale-blue">End room</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-cautious-advance.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Bright Aegis pretty easily replaces Cautious Advance, giving us a much better top tanking action and significantly-improved initiative.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png">
+                <p class="w3-pale-green">Move, <i>Shield, Light</i></p>
+                <p class="w3-pale-blue">End room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-pale-green">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-blue">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+                <p class="w3-pale-blue">Situational big melee</p>
+                <p class="w3-pale-green">Move <i>Stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png">
+                <p class="w3-pale-blue">Allies Move</p>
+                <p class="w3-pale-green">Allies attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-cleansing-force.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>First, the top: at level 8 an Attack 6 is reasonable, but with the addition of Light the classic Stun + Wound combo is so nice, making this actually a minimum Attack 8 Stun which is very powerful.</p>
+              <hr>
+              <p>Move + Light is more or less the ideal bottom action for us, and a Move 3 is as much as we could hope for. And 25 initiative continues to help address our frustrating initiative.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Cleansing Force is basically a godsend.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-inspiring-sanctity.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A positional and elemental requirement in order to do a loss execute is just mediocre, at best.</p>
+              <hr>
+              <p>The bottom action is fine here in a group of 4 although it still wouldn't be enough for me to want to bring this card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Some classes are good at executing enemies and some are not. The Sunkeeper is best off leaving that to the others who do it better.<p>Where I start considering this card is when you add a few summons into the mixture, at that point this bottom can be pretty absurd. It's still hard to pull off though because you can't move and use it in the same turn, meaning the summons need to already be in range of you and adjacent to their targets, which if you have much experience with summons or cats, is basically like trying to tell a cat what to do.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-cleansing-force.png">
+                <p class="w3-pale-green">Attack 6 + bonus</p>
+                <p class="w3-pale-blue">Move <i>Light</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-hammer-blow.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This is a fairly straightforward top upgrade, with an improved bottom as well.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png">
+                <p class="w3-pale-green">Move, <i>Shield, Light</i></p>
+                <p class="w3-pale-blue">End room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cleansing-force.png">
+                <p class="w3-pale-green">Attack 6 + bonus</p>
+                <p class="w3-pale-blue">Move <i>Light</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-pale-green">Out of combat</p>
+                <p class="w3-pale-green">In combat</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+                <p class="w3-pale-blue">Situational big melee</p>
+                <p class="w3-pale-green">Move <i>Stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png">
+                <p class="w3-pale-blue">Allies Move</p>
+                <p class="w3-pale-green">Allies attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cleansing-force.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-angelic-ascension.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>16+ damage and Advantage on five Attacks for a loss is, even for someone who doesn't routinely love loss cards, SOOOOO good. You put this on before you go into a room and that room is pretty much easy mode for your party now. That's a pretty great effect.</p>
+              <hr>
+              <p>And until you get to the point of wanting to go super saiyan, just a casual Move 6, Jump for a class that wants all the movement it can get and has lacked Jump until now.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>I mean, what is there to say about this card that it doesn't say for itself...</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/sk/gh-divine-intervention.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is most useful for helping allies with summons and they will love you eternally for this effect. Even outside of that, there can be plenty of situations where your allies can use this, especially as your Shield values have gotten rather absurd by now and you typically don't take too much damage.</p>
+              <hr>
+              <p>And for every time you don't want to play the top persistent loss, the bottom is fine both for the actual effect as well as just sometimes a Move 1 with 09 initiative.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Divine Intervention isn't a game-breaking level 9 card outside of a very specific party composition but it does a lot of little things.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-angelic-ascension.png">
+                <p class="w3-pale-blue">Final room killer loss</p>
+                <p class="w3-pale-green">Move 5 <i>Jump</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/sk/gh-empowering-command.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This is an easy choice, even for a mitigation build, we replace Empowering Command whicxh was still a great card, but our weakest at this point.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-sk-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png">
+                <p class="w3-pale-green">Attack <i>Stun, Light</i></p>
+                <p class="w3-pale-red">Ranged loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png">
+                <p class="w3-pale-green">Move, <i>Shield, Light</i></p>
+                <p class="w3-pale-blue">End room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png">
+                <p class="w3-pale-green">Attack 4 <i>Light</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-cleansing-force.png">
+                <p class="w3-pale-green">Attack 6 + bonus</p>
+                <p class="w3-pale-blue">Move <i>Light</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png">
+                <p class="w3-pale-blue">Attack 4 <i>Advantage</i></p>
+                <p class="w3-pale-yellow">Persistent <i>Shiled</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-angelic-ascension.png">
+                <p class="w3-pale-blue">Final room killer loss</p>
+                <p class="w3-pale-green">Move 5 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png">
+                <p class="w3-pale-red"><i>Bless</i> with xp</p>
+                <p class="w3-pale-green">Early Move <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png">
+                <p class="w3-pale-blue">Situational big melee</p>
+                <p class="w3-pale-green">Move <i>Stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png">
+                <p class="w3-pale-blue">Allies Move</p>
+                <p class="w3-pale-green">Allies attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-beacon-of-light.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-brilliant-prayer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-cautious-advance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-daybreak.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-dazzling-charge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-defensive-stance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-empowering-command.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-glorious-bolt.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-hammer-blow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-holy-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-lay-on-hands.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-protective-blessing.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/sk/gh-purifying-aura.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-tactical-order.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-practical-plans.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-mobilizing-axiom.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-righteous-strength.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-scales-of-justice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-supportive-chant.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-bright-aegis.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-cleansing-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/sk/gh-angelic-ascension.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/sk/gh-defensive-stance.png"></td><td>bottom</td><td><i>Shield</i></td><td>This is probably the most cost-effective enhancement in Gloomhaven</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/sk/gh-holy-strike.png"></td><td>top</td><td><i>Wound</i></td><td>Wound and stun combine so well</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/sk/gh-tactical-order.png"></td><td>bottom</td><td><i>Jump</i></td><td>Having jump makes a huge difference when trying to get positioning whilst tanking</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/sk/gh-righteous-strength.png"></td><td>bottom</td><td><i>Shield</i></td><td>The more shields the better for us</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey"></div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Extreme Fortitude</td><td>Ignore negative item effects and add 2x +1</td></tr>
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Intensify</td><td>Replace -2 with +0</td></tr>
+      <tr><td width="250px">Dust</td><td>Remove 4x +0</td></tr>
+      <tr><td width="250px">Heighten</td><td>Replace +0 with +2</td></tr>
+      <tr><td width="250px">Resilient</td><td>Ignore negative secnario effects</td></tr>
+      <tr><td width="250px">Recover</td><td>Add 2x rolling <i>Heal 1</i></td></tr>
+      <tr><td width="250px">Bludgeon</td><td>Add rolling <i>Stun</i></td></tr>
+      <tr><td width="250px">Brilliance</td><td>Add 2x rolling <i>Light</i></td></tr>
+      <tr><td width="250px">Hunker</td><td>Add 2x rolling <i>Shield 1</i></td></tr>
+      <tr><td width="250px">Technique</td><td>Add 2x rolling +1</td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-general" onclick="accClick('acc-items-general')" class="w3-btn w3-block w3-left-align"><h4>General</h4></button>
+    <div id="acc-items-general" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-007-iron-helmet.png">
+          <p class="w3-container">3</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-023-chainmail.png">
+          <p class="w3-container">4</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-074a-swordedge-armor.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-003-hide-armor.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-140-sun-shield.png">
+          <p class="w3-container">7</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-046-spiked-shield.png">
+          <p class="w3-container">8</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-032-tower-shield.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-008-heater-shield.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-025-jagged-sword.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container">1</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-036-boots-of-dashing.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container">2</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-042-ring-of-haste.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-130-helix-ring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-020-minor-mana-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-049-sun-earring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-028-moon-earring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-012-minor-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-021-stun-powder.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-027-major-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-089a-minor-cure-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-091a-steel-ring.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Tank based on Gripeaway build</div>
+</footer>
+
+</body>
+</html>
+  

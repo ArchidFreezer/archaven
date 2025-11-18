@@ -6581,6 +6581,1853 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "sk-tank",
+			"classid": "sk",
+			"build": "Tank",
+			"orig_author": "Gripeaway",
+			"orig_url": "",
+			"overview": { 
+				"body": [
+					"Sunkeeper is an amazing tank, a very solid single-target melee damage-dealer, and she also can bring numerous valuable support tools depending on your group's needs. She does, however, have two weaknesses: she completely lacks top action ranged Attacks, which makes her inflexible in terms of movement/targeting for dealing damage. She also has one of the slowest average rates of experience gain in the game, which is a serious issue for a tanking class as it's important for tanks to remain at or above the average level of their party.",
+					"There are two main builds: Damage and Tanking/Mitigation. Focusing mostly on tanking and mitigating damage will be more effective in larger parties and less realistic in a two-player party or in parties with lots of support and little other damage (allies like a Tinkerer). This build focuses on the Tanking/Mitigation choices."
+				],
+				"benefits": [
+					"Strong tanking abilities",
+					"Works in nearly any party"
+				],
+				"preferences": [
+					"Loves a Sawbones in the party for the persistent shields.",
+					"Loves the Plagueherald/Soothsinger combination spreading curses and giving enemies disadvantage."
+				]
+			},
+			"cards": [
+				{
+					"id": "beaconoflight",
+					"top": "The top here is rarely worth an action unless some people are Poisoned or Wounded, and when that's the case, it's frequently worth an action.",
+					"bottom": "The bottom is a not-bad loss card. I don't recommend using it frequently, but if you're about to fight a boss or go into a tough room, 6 rounds of guaranteed Light will significantly increase your effectiveness for a period of time. You also have an 11 card hand size, meaning you can certainly afford a couple losses here and there when necessary. This bottom will get more mileage for you at lower levels (where it's also great for free XP) before you have access to more ways to create Light, and you can normally bench it once you can create Light consistently, just bringing it in when you see Poison or Wound as being an4 issue based on the enemies in a scenario.",
+					"overall": "Beacon of Light, also known as The Poison/Wound-Removing Card."
+				},
+				{
+					"id": "brilliantprayer",
+					"top": "The top loss can be useful with just a couple other classes in Gloomhaven but most of the time, your average card quality is so high that it's not worth trading a loss card of yours for someone else's.",
+					"bottom": "The heal is most useful for the Light generation if we don't need to move.",
+					"overall": "A loss on one side require a spammable on the other and healing isn't something we want to be spamming.<p>While 27 initiative is actually not terrible for this class, it's not worth bringing just for that (especially considering that Move 2's are actually Move 1's for you).</p>"
+				},
+				{
+					"id": "cautiousadvance",
+					"top": "For tanking, until level 7, this is your best top action for when you want to tank a room for your party.",
+					"bottom": "On bottom, Move 3 isn't amazing, especially as it will be a Move 2 for you, but getting to Move 2 with 23 initiative is quite valuable on this otherwise slow class (and initiative is doubly-valuable to us as we want to be able to draw enemy Attacks and move into position before they go).",
+					"overall": "Cautious Advance is great!"
+				},
+				{
+					"id": "daybreak",
+					"top": "Attack 3 Muddle is a bit underwhelming for an attack, but it's significantly improved by the situational ability to enhance the attack when you can use Dark. This enhancement will pretty much always be done at the expense of Dark created by enemies, rather than allies, as almost any ally who creates Dark will usually want to use it as well. But when it happens, even if it's not often, it feels great.",
+					"bottom": "The bottom is situational but is nice when moving from enemy to enemy as we can pick up loot from one we have just dispatched.",
+					"overall": "Daybreak is a pretty clever card design, allowing our Sunkeeper, who walks in the Light, to be more effective when darkfriends are present."
+				},
+				{
+					"id": "dazzlingcharge",
+					"top": "The top of Dazzling Charge is the important half and it has a couple things going for it. To begin with, it's a fine Heal, on the same level as starting heals that other classes have, and it's always nice to have a useful out-of-combat top action to play when moving from room to room. The reason it's so helpful to you is the guaranteed source of Light. Now it's not the best source of Light for a damage-dealer because you don't want to have to take a turn off during combat to heal most of the time, but many times it will be worth it. Once you have more options for sources of Light, you can bench this card if healing isn't a priority for your build of the Sunkeeper (based on your party's needs).",
+					"bottom": "The bottom is also not a bad loss. Again, not on the same level as some of your others, but being attached to a good top makes the situational value of it a lot more appealing. There will certainly be times when a Move 5 and Stun, creating a Light to set you up for next turn (towards which end Stun also contributes), will be worth it.",
+					"overall": "Dazzling Charge is a card that will certainly fit into your hand early on but may not be as important to you later as your deck changes and you gain more access to Light."
+				},
+				{
+					"id": "defensivestance",
+					"top": "The top (which is mostly just there for scenarios with harsh movement requirements that prevent the use of the bottom) is an unconditional Attack 4, which is good enough for a level 1 card. On top of that, if you can spend a Light, you get an Attack 5, 1 XP, and Advantage on the attack. At level 1 this will be slightly more conditional than the Scoundrel's level 1 Attack 5's, but also better because of Advantage. Over time, as light generation becomes easier, it will be significantly better than the respective attacks from the Scoundrel, making you a very solid melee damage-dealer.",
+					"bottom": "Gaining a permanent one Shield is pretty huge in Gloomhaven on a melee character. It's not too hard to make sure you're constantly in front of your party as, lacking ranged Attacks, you naturally want to move into melee range anyway. The amount of damage this action will mitigate in an average scenario is pretty shocking. The drawback here is very real - constantly limiting your movement is a huge penalty and you'll need to work hard to overcome it, but it's definitely worth it. It's also worth mentioning that you can dismiss (move this card from active to the lost pile) this card when you desperately need to move further at the end of a scenario. There may also even be a few scenarios with very harsh movement requirements where you won't want to play this persistent loss, although those scenarios will be few and far between.<p>Almost no matter the situation, you should pretty much always try your best to play this bottom action on turn 1 of each scenario.</p>",
+					"overall": "Defensive Stance is THE defining card for the Sunkeeper.<p>We haven't talked about the biggest deal on the bottom action: the little enhancement dot next to the 'Shield 1.' This enhancement may very well be the most cost-effective enhancement in all of Gloomhaven and should be done as soon as possible. I'd typically buy just a couple items to start (Boots of Striding, Iron Helmet, and a small potion or two) and then immediately start saving to get this enhancement. Shield increases do not scale linearly - Shield 2 is more than twice as strong as Shield 1. Why? Because as you reach higher Shield values, it becomes easier and easier to simply accept incoming Attacks. Accordingly, this enhancement takes an already-powerful action and completely supercharges it.</p>"
+				},
+				{
+					"id": "empoweringcommand",
+					"top": "The top is a Stamina Potion for a friend. It can sometimes even come up that you use this powered-up with Light when moving between rooms, although not really consistently. Still, it's a significant, welcome bonus on an already-great top support action.",
+					"bottom": "And while the top is excellent out of mostly combat, the bottom can be amazing in combat . Attack 4 on bottom on a level 1 card is incredible. Obviously it comes with the caveat that you have to make an ally do it, but as long as you have at least one melee ally, it shouldn't be a problem. With two, it's extremely easy.",
+					"overall": "Now Empowering Command is a support card.<p>The initiative is also perfect for this card: early enough that you should mostly be able to go before many monsters, but not so early that an ally can't easily go before you (to get into position).</p>"
+				},
+				{
+					"id": "gloriousbolt",
+					"top": "The top is not very good - a loss for Heal 5, 1 XP is almost never worth it. If you can double it with a Light, it certainly can become worth it, although there's a problem with healing that has elemental requirements. Normally, when you need healing, you need it NOW, not a turn from now. This is because most of the time you want to be killing enemies and not healing, you usually only need healing when something went wrong or when moving between rooms/cleaning up with nothing else to do. If you're moving between rooms/cleaning up, it's not very likely that a) you have the Light to spend, because you probably spent it killing off enemies and b) you want to use a loss card anyway. If something went wrong, it's impossible to say whether you'll have a Light ready or not. Finally, even if you have Light ready and want healing, it's not guaranteed that two different targets will both really need the healing that badly. Thus, while this top can be a powerful heal, it rarely will be.",
+					"bottom": "Fortunately, the bottom is a bit better. Attacks on bottom are always welcome, although this class does have plenty going on for it with bottoms that aren't just movement (and you really need to move with your bottom action most of the time), so it's less necessary than for some other classes. Still, the bottom Attack is fine, and the main thing making this card playable.",
+					"overall": "Glorious Bolt is just ok.<p>The initiative is also worth mentioning as this class is pretty slow, thus a 39 initiative, while not great, still sometimes matters at lower levels.</p>"
+				},
+				{
+					"id": "hammerblow",
+					"top": "This has the same great top we've already seen on Defensive Stance, which is even better here as it's not attached to a loss on bottom that we might use early in the game, meaning we should always have access to this.",
+					"bottom": "The bottom is a Move 4, which is always good, and especially important for this class.",
+					"overall": "Hammer Blow is another one of the best Sunkeeper cards.<p>Take this card, use it often.</p>"
+				},
+				{
+					"id": "holystrike",
+					"top": "The top half of Holy Strike is great, an Attack 2 Stun at level 1 is extremely strong and we like the Light generation.",
+					"bottom": "The bottom half is a situational ranged attack loss card. There will be occasions when it may be worth using this ranged attack, to finish off an important target in a tough fight.",
+					"overall": "Holy Strike is a tale of two halves.<p>While it's definitely not one of the better loss cards in your deck, the fact that the top half is so incredibly spammable means you lose nothing by keeping the option around. This is a great example of a good situational loss card. The card is only let down by its terrible initiative for a crowd control card - disables like Disarm or Stun are typically better if you can be sure to go before your target, whereas this will require another card to go early (something you mostly lack). Fortunately, Stun is much better than Disarm when used for the following round as you can disregard the enemy entirely, rather than still having to worry about certain monster deck flips, so it's still almost never bad.</p>"
+				},
+				{
+					"id": "layonhands",
+					"top": "Interestingly, Lay on Hands is at its weakest at level 1, but scales incredibly well with high health pool allies, to the point that you may very well reconsider bringing this card in certain parties at high levels.",
+					"bottom": "Move 2 Bless an ally is great. Often you'll be fighting in close quarters in a room before moving on to the next and you should have the opportunity to move next to an allied melee character and give them a free Bless before making an attack (or attack then move). Obviously this gets significantly worse if you don't have any melee allies as it's much harder for you, as a melee character without top ranged attacks, to Bless a ranged ally and still have an effective top action.",
+					"overall": "Lay on Hands is a super powerful top loss that gets better as we level.<p>The card is let down a bit by its initiative, meaning you'll often have to pair it with something else faster or you/your ally will be taking a free attack.</p>"
+				},
+				{
+					"id": "protectiveblessing",
+					"top": "Protective Blessing top provides a lot of value but is difficult to use. Realistically, the only effective way to use this action is if you go last in the round the turn before opening a door, such that you can still use this out of combat but also get the benefit from both the Strengthen and the Bless. When moving from room to room, Dazzling Charge and Empowering Command (seen later) will both typically be better support actions, so you're not desperate for another one of those. And when you're in combat, you really don't want to waste your top action on such a marginal effect.",
+					"bottom": "Meanwhile, the bottom suffers from terrible initiative and being a bottom action. You have to move into the correct spot and also hope to go before the enemies on a class that doesn't routinely break 20 initiative, so that's quite a gamble.",
+					"overall": "Well, not every card can be good.<p>There are a few, very specific scenarios where this effect is absolutely worth taking, but otherwise this card is mostly best off being left behind.</p>"
+				},
+				{
+					"id": "purifyingaura",
+					"top": "The top is a pretty mediocre loss, mostly just good against lower-health, higher-Shield enemies or Retaliate enemies that you can't easily attack. It will never really be a wasted loss because it only triggers when it would deal damage, but your average card quality is so high that it's also just rarely worth playing this loss (although can also be a good way to generate XP, something which is very welcome on this class, in the last room).",
+					"bottom": "Both for your melee Attacks and your tanking, you typically want to move almost every turn (especially as your movement is reduced). Non-Move bottom actions need to be very powerful to be appealing (read: Empowering Command) and this one just typically isn't good enough unless you're in a party with a lot of summons and you already have copious amounts of Light.",
+					"overall": "There's really only one good thing about Purifying Aura. It's not the top, or the bottom. No, what's really appealing about this card is initiative. At the end of the day, this will most often just be a Move 1 with 21 initiative. That's really not good, but at least until level 3, is often necessary."
+				},
+				{
+					"id": "tacticalorder",
+					"top": "The top isn't the half of this card you'll use most often, but it can be useful in a ton of situations, setting up turns and Attacks for your group that wouldn't otherwise be possible, on top of helping your slower allies to move across the battlefield.",
+					"bottom": "Meanwhile, the bottom is another important Move 4, this time attached to one of your best initiatives (and it has a great enhancement dot).",
+					"overall": "Tactical Order is another really nice Sunkeeper card."
+				},
+				{
+					"id": "practicalplans",
+					"top": "Attack 5 is above the curve for level 2",
+					"bottom": "Move 5 is just what we need when we have Defensive Stance up.",
+					"overall": "Practical Plans is a great card.<p>There's not much subtlety to why this card is good - the actions you most commonly do in the game, with good numbers, on the same card. You'll always want this card and the movement is just incredibly crucial when living under the Defensive Stance constraints.</p>"
+				},
+				{
+					"id": "unwaveringmandate",
+					"top": "Situationally powerful action, that burns both our own and an allies sstamina, but great in the right situation.",
+					"bottom": "The decent range makes this a reasonable heal as a melee character, but we want to be moving most turns.",
+					"overall": "Unwavering Mandate is not a bad card (Tinkerer would kill to get this at level 3), but it's just not nearly as powerful nor necessary as Practical Plans."
+				},
+				{
+					"id": "burningflash",
+					"top": "The top is a situational AoE that's generally worth it if you can hit at least three enemies. There will be plenty of times when you can do just that, so you will normally get to use it in most scenarios.",
+					"bottom": "Meanwhile, the bottom is a fine heal that can convert any enemy element into Light for you to use later on, which should happen often enough. Realistically, there's absolutely nothing wrong with Burning Flash.",
+					"overall": "Burning Flash is just decent."
+				},
+				{
+					"id": "mobilizingaxiom",
+					"top": "Attack 4 isn't impressive at level 3, but it gets the job done. More importantly, this creates Light for you, which is very important. And unlike your Heal, this creates Light while doing what you want to be doing most of the time. Not to mention also having really good initiative for this class.",
+					"bottom": "The bottom loss isn't terrible either, there will definitely be times when moving all your allies across the battlefield will be worth a loss, the biggest problem is that you can't move with them. Still, having that option attached to something you're always happy to use means that when that situation arises, you'll be ready.",
+					"overall": "Mobilizing Axiom is one of your most important cards."
+				},
+				{
+					"id": "engulfingradiance",
+					"top": "The top can occasionally be playable in a large party, especially with some tankier summons.",
+					"bottom": "The bottom is fine. The effect is reasonable mitigation, although you'd typically rather mitigate incoming damage by moving into position and Shielding yourself (see: Righteous Strength) rather than allow too many of your allies to take attacks (because you already have built-in mitigation with Defensive Stance). The biggest selling point of the bottom is the Light generation but you already have one of that per rest cycle with Mobilizing Axiom and you don't desperately need another (it's welcome, but not essential, although it does get better at level 5).",
+					"overall": "Engulfing Radiance is an alright card."
+				},
+				{
+					"id": "righteousstrength",
+					"top": "The top is another one of those 'nothing to kill, can still do something productive' cards (and it gives experience, which you'll be super happy to get).",
+					"bottom": "The real reason for this card is the amazing bottom: Move 2, Shield 1 with 18 initiative is amazing!",
+					"overall": "So the Sunkeeper does get sub-20 initiative! Righteous Strength is great.<p>Whether you're going full-blown tank or not, you'll never be unhappy with this card. With Defensive Stance up, getting to Shield 3 is a pretty magical place where all the monsters simply want to give you a hug and you repay them with the Light's burning vengeance. You can enter rooms with this alongside Cautious Advance (for the impervious Shield 4 turn) and assure your party that you're not concerned with who or what is in the room. And even just in the middle of combat, getting to move a bit for a top Attack at 18 initiative and mitigate some additional damage is never bad.</p>"
+				},
+				{
+					"id": "pathofglory",
+					"top": "Path of Glory has a great top which is a straight upgrade to your previous versions of this action (Defensive Stance and Hammer Blow). Especially as you typically want to play Defensive Stance bottom from the beginning of almost every scenario, adding another, better Hammer Blow top is great. Additionally, getting some Attack 5's for the baseline is a good direction to go when you unlock Weapon of Purity at level 7.",
+					"bottom": "The bottom is a pretty bad loss. There's essentially no opportunity cost to have a 'situational' loss on bottom here, but this loss doesn't really seem to be designed around a situation that can possibly arise. If you're in a tough spot and want to spend a loss to help out, this doesn't even have a guaranteed immediate effect. And if your allies have a bunch of summons and you want to dump the Bless deck into their AMDs, you can just play Righteous Strength twice with a Stamina Potion for a much, much lower cost.",
+					"overall": "For a damage build this is a great card with the spammable attack on top, but with a very situational bottom."
+				},
+				{
+					"id": "scalesofjustice",
+					"top": "Scales of Justice has a situational yet extremely powerful top loss. There are three real drawbacks to playing this loss: losing a card, losing access to the bottom action, and reducing all of your Attacks by 1. So where should you use this top? On essentially any scenario that involves numerous melee enemies. Retaliate is generally not the best strategy in Gloomhaven, but dumping Retaliate 2 on top of your already-existent Shield 2 is a spicy mixture that functions very well together. If enough melee enemies will Attack you over the course of the scenario, the costs here will easily be worth it. Just be careful that there aren't enemies in the scenario that will make you regret losing access to the Stun (very hard-hitting enemies or summoners).",
+					"bottom": "The bottom is extremely consistent. Light consumption here is purely bonus - sometimes you'll want it, other times you won't need to move far or your boots will be enough. No matter the situation, a bottom Move + Stun action is always incredible and you'll never miss an opportunity to use it.",
+					"overall": "The bottom here is great for a mitigation card as having a move and stun is incredibly powerful."
+				},
+				{
+					"id": "illuminatethetarget",
+					"top": "Attack 5, 1 XP, and it can Strengthen allies. The only thing that makes it a bit awkward in terms of the Strengthen effect is the initiative timing - how does this work exactly? We'd have to go after an ally, but that would also be after the enemies, which means our ally would need to be adjacent or almost adjacent to where an enemy will be that we can attack after the enemies have gone. That's obviously far from ideal, so most of the time we will need to pair this with one of our faster cards to make use of the Strengthen safely/effectively.",
+					"bottom": "Meanwhile, the bottom is an Attack 6, which is pretty insane, although with a heavy positional requirement. Your group size and composition will determine the effectiveness of this bottom - larger groups with more melee allies will get more use out of this, but even if your group doesn't lend itself to this being very effective, it's still a great option to have in addition to the excellent top Attack.",
+					"overall": "Illuminate the Target is a really powerful and efficient card."
+				},
+				{
+					"id": "supportivechant",
+					"top": "The top is great for when you want the group to move between room (especially with summons).",
+					"bottom": "Bonuses to Attacks are the second-best kind of support (after Stuns/Disarms) because they help people do what they naturally want to do: Attack.<p>Having this as a bottom action on a fast initiative means that when you are toe to toe with an enemy and not moving you can support your allies at minimal loss to your own desired actions.</p>",
+					"overall": "Supportive Chant is a very powerful support (obviously) card, it works very well with summons who are also considered allies.<p>The initiative is the other big selling point of this card: as a tank/front-liner, having 11 initiative functions similarly to a 'taunt' effect by allowing you to typically go before both the enemies as well as your allies and make sure you're targeted for the round.</p>"
+				},
+				{
+					"id": "brightaegis",
+					"top": "The top is an incredible tanking action, Light may matter because of Scales or your solo item.",
+					"bottom": "The bottom is a very powerful loss depending on your allies to be used towards the end of the scenario.",
+					"overall": "Bright Aegis is super sweet. Everything about this card is amazing.<p>The initiative is obviously amazing for this class.</p>"
+				},
+				{
+					"id": "waeponofpurity",
+					"top": "The top has an incredible upside. The biggest issue is that you simply don't naturally generate enough Light to justify playing a loss for this effect rather than simply using your Light spenders that already exist on Hammer Blow and Path of Glory. Fortunately, we have another easy Light generator at level 8 coming and enhancements exist. I believe that you need three sources of Light per rest cycle to make this loss easily worth it, so that would be Mobilizing Axiom, level 8 card, and one enhancement of Light on a Move action (Tactical Order). That gives us something to build towards that's honestly not that difficult to achieve.",
+					"bottom": "In the meantime, the bottom is also solid. Move 2, Attack 3 is simple yet effective. Adding a mostly-free Attack 3 to a Move action on bottom is something that's very easy to use.",
+					"overall": "Weapon of Purity is a pretty cool card.<p>The only shame with this card is that of all our strong Attacks, the lowest initiative we have is 48, meaning if we do a double-Attack turn with this bottom, we'll be going pretty late. Still, a late but very powerful turn certainly has its place. And with our innate Shield 2, if we're already in the middle of combat, we risk a lot less going late than many other classes.</p>"
+				},
+				{
+					"id": "cleansingforce",
+					"top": "First, the top: at level 8 an Attack 6 is reasonable, but with the addition of Light the classic Stun + Wound combo is so nice, making this actually a minimum Attack 8 Stun which is very powerful.",
+					"bottom": "Move + Light is more or less the ideal bottom action for us, and a Move 3 is as much as we could hope for. And 25 initiative continues to help address our frustrating initiative.",
+					"overall": "Cleansing Force is basically a godsend."
+				},
+				{
+					"id": "inspiringsanctity",
+					"top": "A positional and elemental requirement in order to do a loss execute is just mediocre, at best.",
+					"bottom": "The bottom action is fine here in a group of 4 although it still wouldn't be enough for me to want to bring this card.",
+					"overall": "Some classes are good at executing enemies and some are not. The Sunkeeper is best off leaving that to the others who do it better.<p>Where I start considering this card is when you add a few summons into the mixture, at that point this bottom can be pretty absurd. It's still hard to pull off though because you can't move and use it in the same turn, meaning the summons need to already be in range of you and adjacent to their targets, which if you have much experience with summons or cats, is basically like trying to tell a cat what to do.</p>"
+				},
+				{
+					"id": "angelicascension",
+					"top": "16+ damage and Advantage on five Attacks for a loss is, even for someone who doesn't routinely love loss cards, SOOOOO good. You put this on before you go into a room and that room is pretty much easy mode for your party now. That's a pretty great effect.",
+					"bottom": "And until you get to the point of wanting to go super saiyan, just a casual Move 6, Jump for a class that wants all the movement it can get and has lacked Jump until now.",
+					"overall": "I mean, what is there to say about this card that it doesn't say for itself..."
+				},
+				{
+					"id": "divineintervention",
+					"top": "The top is most useful for helping allies with summons and they will love you eternally for this effect. Even outside of that, there can be plenty of situations where your allies can use this, especially as your Shield values have gotten rather absurd by now and you typically don't take too much damage.",
+					"bottom": "And for every time you don't want to play the top persistent loss, the bottom is fine both for the actual effect as well as just sometimes a Move 1 with 09 initiative.",
+					"overall": "Divine Intervention isn't a game-breaking level 9 card outside of a very specific party composition but it does a lot of little things."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "We don't really have a set rotation, but a first round may go something like the following using Cautious Advance with Defensive Stance in the first round and then bringing it back.",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These are our core cards at level 1, ordered from best/most important to least important.",
+							"cards": [
+								{
+									"id": "defensivestance",
+									"comment": "Our core card"
+								},
+								{
+									"id": "hammerblow",
+									"comment": ""
+								},
+								{
+									"id": "tacticalorder",
+									"comment": ""
+								},
+								{
+									"id": "empoweringcommand",
+									"comment": ""
+								},
+								{
+									"id": "cautiousadvance",
+									"comment": ""
+								},
+								{
+									"id": "holystrike",
+									"comment": ""
+								},
+								{
+									"id": "dazzlingcharge",
+									"comment": ""
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "These are the remaining level 1 cards, which range from just generally-poor to situational depending on scenario or party composition.",
+							"cards": [
+								{
+									"id": "beaconoflight",
+									"comment": ""
+								},
+								{
+									"id": "daybreak",
+									"comment": ""
+								},
+								{
+									"id": "gloriousbolt",
+									"comment": ""
+								},
+								{
+									"id": "purifyingaura",
+									"comment": ""
+								},
+								{
+									"id": "protectiveblessing",
+									"comment": ""
+								},
+								{
+									"id": "layonhands",
+									"comment": ""
+								},
+								{
+									"id": "brilliantprayer",
+									"comment": ""
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "dazzlingcharge",
+							"top": {
+								"text":"Ranged <i>Heal, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "cautiousadvance",
+							"top": {
+								"text":"Move <i>shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "beaconoflight",
+							"top": {
+								"text":"<i>Poison/Wound</i> cleanse",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room xp",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "gloriousbolt",
+							"top": {
+								"text":"Ranged <i>Heal</i> loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "purifyingaura",
+							"top": {
+								"text":"Rarely used loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early move",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "daybreak",
+							"top": {
+								"text": "Attack + bonus",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <io>Light, Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							},
+							"replace": "beaconoflight",
+							"comment": "Level 2 is an easy choice - Practical Plans by a mile. No matter what you're focusing on doing with Sunkeeper, Practical Plans will always be the most helpful card at this level. We are replacing two situational actions, we are happy to let go."
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "dazzlingcharge",
+							"top": {
+								"text":"Ranged <i>Heal, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "cautiousadvance",
+							"top": {
+								"text":"Move <i>shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "gloriousbolt",
+							"top": {
+								"text":"Ranged <i>Heal</i> loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "purifyingaura",
+							"top": {
+								"text":"Rarely used loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Early move",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "daybreak",
+							"top": {
+								"text": "Attack + bonus",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <io>Light, Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "beaconoflight",
+							"top": {
+								"text":"<i>Poison/Wound</i> cleanse",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room xp",
+								"style": "w3-pale-blue"
+							},
+							"replace": "gloriousbolt",
+							"comment": "enemies with <i>Poison</i> or <i>Wound</i>"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							},
+							"replace": "purifyingaura",
+							"comment": "We'll always take Mobilizing Axiom here just because we want Attacks, Light, and initiative more than anything else at this point in our battle against the encroaching darkness.<p>Mobilizing Axiom replaces Purifying Aura. Aura was just there for the 21 initiative and now, with another 23, we can pretty safely replace it and no longer be forced to use a Move 1 to go quickly.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cautiousadvance",
+							"top": {
+								"text":"Move <i>shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "gloriousbolt",
+							"top": {
+								"text":"Ranged <i>Heal</i> loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dazzlingcharge",
+							"top": {
+								"text":"Ranged <i>Heal, Light</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 / Situational",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "daybreak",
+							"top": {
+								"text": "Attack + bonus",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <io>Light, Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "beaconoflight",
+							"top": {
+								"text":"<i>Poison/Wound</i> cleanse",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room xp",
+								"style": "w3-pale-blue"
+							},
+							"replace": "gloriousbolt",
+							"comment": "enemies with <i>Poison</i> or <i>Wound</i>"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "gloriousbolt",
+							"comment": "Overall, Engulfing Radiance is certainly an acceptable card but it just can't compare to the all-around amazing Righteous Strength. Righteous Strength replaces Glorious Bolt. Glorious Bolt was just around for the bottom but it was a pretty awkward bottom and it obviously doesn't scale well so it's easy to replace here."
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cautiousadvance",
+							"top": {
+								"text":"Move <i>shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dazzlingcharge",
+							"top": {
+								"text":"Ranged <i>Heal, Light</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 / Situational",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "daybreak",
+							"top": {
+								"text": "Attack + bonus",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <io>Light, Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "scalesofjustice",
+							"top": {
+								"text":"Situational big melee",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "daybreak",
+							"comment": "The Move plus Stun is the better action for a mitigation build, replacing Daybreak which was a great filler card but is, by now, our most replaceable card."
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cautiousadvance",
+							"top": {
+								"text":"Move <i>shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "dazzlingcharge",
+							"top": {
+								"text":"Ranged <i>Heal, Light</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2 / Situational",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scalesofjustice",
+							"top": {
+								"text":"Situational big melee",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "supportivechant",
+							"top": {
+								"text":"Allies Move",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Allies attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "dazzlingcharge",
+							"comment": "We take Supportive Chant. Please bear in mind that it is possible to have a party such that playing a mitigation-focused Sunkeeper makes sense but your allies really can't take advantage of Supportive Chant. In those rare instances, obviously just swap Illuminate for Chant from now on in this guide.<p>Supportive Chant replaces Dazzling Charge. Dazzling Charge was still solid but all of our cards are good, Charge has scaled somewhat poorly and is our most replaceable card.<p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cautiousadvance",
+							"top": {
+								"text":"Move <i>shield</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scalesofjustice",
+							"top": {
+								"text":"Situational big melee",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "supportivechant",
+							"top": {
+								"text":"Allies Move",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Allies attack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "brightaegis",
+							"top": {
+								"text":"Move, <i>Shield, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room",
+								"style": "w3-pale-blue"
+							},
+							"replace": "cautiousadvance",
+							"comment": "Bright Aegis pretty easily replaces Cautious Advance, giving us a much better top tanking action and significantly-improved initiative."
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "brightaegis",
+							"top": {
+								"text":"Move, <i>Shield, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "hammerblow",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scalesofjustice",
+							"top": {
+								"text":"Situational big melee",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "supportivechant",
+							"top": {
+								"text":"Allies Move",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Allies attack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "cleansingforce",
+							"top": {
+								"text":"Attack 6 + bonus",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Light</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "hammerblow",
+							"comment": "This is a fairly straightforward top upgrade, with an improved bottom as well."
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "brightaegis",
+							"top": {
+								"text":"Move, <i>Shield, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cleansingforce",
+							"top": {
+								"text":"Attack 6 + bonus",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Light</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "empoweringcommand",
+							"top": {
+								"text":"Out of combat",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "In combat",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scalesofjustice",
+							"top": {
+								"text":"Situational big melee",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "supportivechant",
+							"top": {
+								"text":"Allies Move",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Allies attack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "angelicascension",
+							"top": {
+								"text":"Final room killer loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "empoweringcommand",
+							"comment": "This is an easy choice, even for a mitigation build, we replace Empowering Command whicxh was still a great card, but our weakest at this point."
+						}
+					],
+					"hand": [
+						{
+							"card": "skback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "holystrike",
+							"top": {
+								"text":"Attack <i>Stun, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "brightaegis",
+							"top": {
+								"text":"Move, <i>Shield, Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "End room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "mobilizingaxiom",
+							"top": {
+								"text":"Attack 4 <i>Light</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cleansingforce",
+							"top": {
+								"text":"Attack 6 + bonus",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Light</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "practicalplans",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "defensivestance",
+							"top": {
+								"text":"Attack 4 <i>Advantage</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Persistent <i>Shiled</i>",
+								"style": "w3-pale-yellow"
+							}
+						},
+						{
+							"card": "angelicascension",
+							"top": {
+								"text":"Final room killer loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "righteousstrength",
+							"top": {
+								"text":"<i>Bless</i> with xp",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "tacticalorder",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scalesofjustice",
+							"top": {
+								"text":"Situational big melee",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "supportivechant",
+							"top": {
+								"text":"Allies Move",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Allies attack",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "defensivestance",
+					"position": "bottom",
+					"enhancement": "<i>Shield</i>",
+					"comment": "This is probably the most cost-effective enhancement in Gloomhaven"
+				},
+				{
+					"card": "holystrike",
+					"position": "top",
+					"enhancement": "<i>Wound</i>",
+					"comment": "Wound and stun combine so well"
+				},
+				{
+					"card": "tacticalorder",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Having jump makes a huge difference when trying to get positioning whilst tanking"
+				},
+				{
+					"card": "righteousstrength",
+					"position": "bottom",
+					"enhancement": "<i>Shield</i>",
+					"comment": "The more shields the better for us"
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "extremefortitude"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "intensify"
+						},
+						{
+							"order": 4,
+							"name": "dust"
+						},
+						{
+							"order": 5,
+							"name": "heighten"
+						},
+						{
+							"order": 6,
+							"name": "resilient"
+						},
+						{
+							"order": 7,
+							"name": "recover"
+						},
+						{
+							"order": 8,
+							"name": "bludgeon"
+						},
+						{
+							"order": 9,
+							"name": "brilliance"
+						},
+						{
+							"order": 10,
+							"name": "hunker"
+						},
+						{
+							"order": 11,
+							"name": "technique"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "General",
+						"comments": "",
+						"picks": [
+							{
+								"id": "ironhelmet",
+								"comment": "3"
+							},
+							{
+								"id": "chainmail",
+								"comment": "4"
+							},
+							{
+								"id": "swordedgearmor",
+								"comment": ""
+							},
+							{
+								"id": "hidearmor",
+								"comment": ""
+							},
+							{
+								"id": "sunshield",
+								"comment": "7"
+							},
+							{
+								"id": "spikedshield",
+								"comment": "8"
+							},
+							{
+								"id": "towershield",
+								"comment": ""
+							},
+							{
+								"id": "heatershield",
+								"comment": ""
+							},
+							{
+								"id": "jaggedsword",
+								"comment": ""
+							},
+							{
+								"id": "bootsofstriding",
+								"comment": "1"
+							},
+							{
+								"id": "bootsofdashing",
+								"comment": ""
+							},
+							{
+								"id": "minorstaminapotion",
+								"comment": "2"
+							},
+							{
+								"id": "majorstaminapotion",
+								"comment": ""
+							},
+							{
+								"id": "ringofhaste",
+								"comment": ""
+							},
+							{
+								"id": "helixring",
+								"comment": ""
+							},
+							{
+								"id": "minormanapotion",
+								"comment": ""
+							},
+							{
+								"id": "sunearring",
+								"comment": ""
+							},
+							{
+								"id": "moonearring",
+								"comment": ""
+							},
+							{
+								"id": "minorhealingpotion",
+								"comment": ""
+							},
+							{
+								"id": "stunpowder",
+								"comment": ""
+							},
+							{
+								"id": "majorhealingpotion",
+								"comment": ""
+							},
+							{
+								"id": "minorcurepotion",
+								"comment": ""
+							},
+							{
+								"id": "steelring",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }

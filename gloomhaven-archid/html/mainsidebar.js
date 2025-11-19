@@ -85,6 +85,7 @@ function sidebarMainDropClick(id) {
     <div id="mtDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="mt-main.html" class="w3-bar-item w3-button">Overview</a>
       <a href="mt-campaign.html" class="w3-bar-item w3-button">Campaign</a>
+      <a href="mt-guildmaster.html" class="w3-bar-item w3-button">Guildmaster</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

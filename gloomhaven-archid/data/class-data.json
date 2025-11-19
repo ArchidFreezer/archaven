@@ -15,24 +15,24 @@
           "effect": "Remove 2x -1 cards"
         },
         {
-          "id": "focus",
-          "name": "Focus",
-          "effect": "2x Swap -1 for +1"
-        },
-        {
           "id": "dust",
           "name": "Dust",
           "effect": "Remove 4x +0"
         },
         {
-          "id": "cinder",
-          "name": "Cinder",
-          "effect": "2x Add +2 <i>Fire</i>"
+          "id": "focus",
+          "name": "Focus",
+          "effect": "2x Swap -1 for +1"
         },
         {
           "id": "overkill",
           "name": "Overkill",
           "effect": "2x Replace +0 with rolling +2"
+        },
+        {
+          "id": "bloodletting",
+          "name": "Bloodletting",
+          "effect": "2x add 2x rolling <i>Wound</i>"
         },
         {
           "id": "bludgeon",
@@ -50,9 +50,9 @@
           "effect": "Add 2x <i>Heal 1</i>"
         },
         {
-          "id": "bloodletting",
-          "name": "Bloodletting",
-          "effect": "2x add 2x rolling <i>Wound</i>"
+          "id": "cinder",
+          "name": "Cinder",
+          "effect": "2x Add +2 <i>Fire</i>"
         },
         {
           "id": "endurance",
@@ -72,11 +72,6 @@
 			"handsize": "10",
 			"perks": [
 				{
-					"id": "fortitude",
-					"name": "Fortitude",
-					"effect": "Ignore negative item effects"
-				},
-				{
 					"id": "consistency",
 					"name": "Consistency",
 					"effect": "Remove 2x -1"
@@ -87,9 +82,24 @@
 					"effect": "Replace -1 with +1"
 				},
 				{
+					"id": "power",
+					"name": "Power",
+					"effect": "2x Add 2x +1"
+				},
+				{
 					"id": "outburst",
 					"name": "Outburst",
 					"effect": "Add +3"
+				},
+				{
+					"id": "thrust",
+					"name": "Thrust",
+					"effect": "Add 3x <i>Push 1</i>"
+				},
+				{
+					"id": "stab",
+					"name": "Thrust",
+					"effect": "Add 2x <i>Pierce 3</i>"
 				},
 				{
 					"id": "bludgeon",
@@ -102,19 +112,19 @@
 					"effect": "Add rolling <i>Disarm</i> and <i>Muddle</i>"
 				},
 				{
+					"id": "sweep",
+					"name": "Sweep",
+					"effect": "2x Add target"
+				},
+				{
 					"id": "bulwark",
 					"name": "Bulwark",
 					"effect": "Add +1 <i>Shield</i>"
 				},
 				{
-					"id": "power",
-					"name": "Power",
-					"effect": "2x Add 2x +1"
-				},
-				{
-					"id": "sweep",
-					"name": "Sweep",
-					"effect": "2x Add target"
+					"id": "fortitude",
+					"name": "Fortitude",
+					"effect": "Ignore negative item effects"
 				}
 			]
 		},
@@ -139,43 +149,43 @@
 			"handsize": "10",
 			"perks": [
 				{
-					"id": "001",
-					"name": "xxx",
+					"id": "consistency",
+					"name": "Consistency",
 					"effect": "Remove 2x -1"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "focus",
+					"name": "Focus",
 					"effect": "Replace -1 with +1"
 				},
 				{
-					"id": "003",
-					"name": "xxx",
+					"id": "heighten",
+					"name": "Heighten",
 					"effect": "Replace +0 with +2"
 				},
 				{
-					"id": "004",
-					"name": "xxx",
+					"id": "lacerate",
+					"name": "Lacerate",
 					"effect": "Add +1 <i>Wound</i>"
 				},
 				{
-					"id": "005",
-					"name": "xxx",
+					"id": "hobble",
+					"name": "Hobble",
 					"effect": "Add +1 <i>Immobilise</i>"
 				},
 				{
-					"id": "006",
-					"name": "xxx",
+					"id": "recover",
+					"name": "Recover",
 					"effect": "Add 2x rolling <i>Heal 1</i>"
 				},
 				{
-					"id": "007",
-					"name": "xxx",
+					"id": "verdant",
+					"name": "Verdant",
 					"effect": "Add 2x rolling <i>Earth</i>"
 				},
 				{
-					"id": "008",
-					"name": "xxx",
+					"id": "resilient",
+					"name": "Resilient",
 					"effect": "Ignore negative scenario effects"
 				}
 			]
@@ -232,13 +242,13 @@
 					"effect": "Add 2x rolling <i>Wind</i>"
 				},
 				{
-					"id": "001",
-					"name": "xxx",
+					"id": "endurance",
+					"name": "Endurance",
 					"effect": "Ignore negative item effects"
 				},
 				{
-					"id": "666",
-					"name": "xxx",
+					"id": "resilient",
+					"name": "Resilient",
 					"effect": "Ignore negative scenario effects"
 				}
 			]
@@ -253,49 +263,54 @@
 			"handsize": "9",
 			"perks": [
 				{
-					"id": "001",
-					"name": "xxx",
+					"id": "dust",
+					"name": "Dust",
 					"effect": "Remove 4x +0"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "consistency",
+					"name": "Consistency",
 					"effect": "Remove 2x -1"
 				},
 				{
-					"id": "003",
-					"name": "xxx",
+					"id": "refine",
+					"name": "Refine",
 					"effect": "Remove -2 and +1"
 				},
 				{
-					"id": "004",
-					"name": "xxx",
-					"effect": "Replace +0 with +2 <i>Muddle</i>"
+					"id": "heighten",
+					"name": "Heighten",
+					"effect": "Replace +0 with +2"
 				},
 				{
-					"id": "005",
-					"name": "xxx",
+					"id": "rankle",
+					"name": "Rankle",
 					"effect": "Replace -1 with +0 <i>Poison</i>"
 				},
 				{
-					"id": "006",
-					"name": "xxx",
-					"effect": "Add +2"
+					"id": "daze",
+					"name": "Daze",
+					"effect": "Add +2 <i>Muddle</i>"
 				},
 				{
-					"id": "007",
-					"name": "xxx",
+					"id": "tremor",
+					"name": "Tremor",
 					"effect": "Replace +1 with +2 <i>Earth</i>"
 				},
 				{
-					"id": "008",
-					"name": "xxx",
+					"id": "ignite",
+					"name": "Ignite",
 					"effect": "Replace +1 with +2 <i>Fire</i>"
 				},
 				{
-					"id": "009",
-					"name": "xxx",
-					"effect": "Add +0 all adjacenet enemies 1 damage"
+					"id": "shatter",
+					"name": "Shatter",
+					"effect": "Add +0 all adjacent enemies 1 damage"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative scenario effects"
 				}
 			]
 		},
@@ -340,8 +355,8 @@
 					"effect": "Add +1 <i>Wound</i>"
 				},
 				{
-					"id": "111",
-					"name": "xxx",
+					"id": "hobble",
+					"name": "Hobble",
 					"effect": "Add +1 <i>Immobilise</i>"
 				},
 				{
@@ -350,8 +365,8 @@
 					"effect": "Add +0 <i>Stun</i>"
 				},
 				{
-					"id": "222",
-					"name": "xxx",
+					"id": "sweep",
+					"name": "Sweep",
 					"effect": "Add rolling extra target"
 				},
 				{
@@ -532,23 +547,23 @@
 					"effect": "Add +2 <i>Ice</i>"
 				},
 				{
-					"id": "001",
-					"name": "xxx",
+					"id": "technique",
+					"name": "Technique",
 					"effect": "Add 2x rolling +1"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "attract",
+					"name": "Attract",
 					"effect": "Add 3x rolling <i>Pull 1</i>"
 				},
 				{
-					"id": "003",
-					"name": "xxx",
+					"id": "confuse",
+					"name": "Confuse",
 					"effect": "Add 3x rolling <i>Muddle</i>"
 				},
 				{
-					"id": "004",
-					"name": "xxx",
+					"id": "hamstring",
+					"name": "Hamstring",
 					"effect": "Add 2x rolling <i>Immobilise</i>"
 				},
 				{
@@ -579,13 +594,13 @@
 			"handsize": "9",
 			"perks": [
 				{
-					"id": "001",
-					"name": "xxx",
-					"effect": "Remove 2x -2"
+					"id": "consistency",
+					"name": "Consistency",
+					"effect": "Remove 2x -1"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "dust",
+					"name": "Dust",
 					"effect": "Remove 4x +0"
 				},
 				{
@@ -604,13 +619,13 @@
 					"effect": "Add +1 <i>Invisible</i>"
 				},
 				{
-					"id": "003",
-					"name": "xxx",
+					"id": "confuse",
+					"name": "Confuse",
 					"effect": "Add 3x rolling <i>Muddle</i>"
 				},
 				{
-					"id": "004",
-					"name": "xxx",
+					"id": "recover",
+					"name": "Recover",
 					"effect": "Add 2x rolling <i>Heal 1</i>"
 				},
 				{
@@ -655,13 +670,13 @@
 					"effect": "Replace +0 with +2"
 				},
 				{
-					"id": "001",
+					"id": "technique",
 					"name": "xxx",
 					"effect": "Add 2x +1"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "scent",
+					"name": "Scent",
 					"effect": "Add +1 <i>Wind</i>"
 				},
 				{
@@ -761,14 +776,14 @@
 			"handsize": "10",
 			"perks": [
 				{
+					"id": "dust",
+					"name": "Dust",
+					"effect": "Remove 4x +0"
+				},
+				{
 					"id": "consistency",
 					"name": "Consistency",
 					"effect": "Remove 2x -1"
-				},
-				{
-					"id": "001",
-					"name": "xxx",
-					"effect": "Replace -1 with +1"
 				},
 				{
 					"id": "refine",
@@ -776,24 +791,9 @@
 					"effect": "Remove -2 and +1"
 				},
 				{
-					"id": "dust",
-					"name": "Dust",
-					"effect": "Remove 4x +0"
-				},
-				{
 					"id": "flare",
 					"name": "Flare",
 					"effect": "Replace +1 with +2 <i>Fire</i>"
-				},
-				{
-					"id": "gouge",
-					"name": "Gouge",
-					"effect": "Replace +0 with +1 <i>Wound</i>"
-				},
-				{
-					"id": "refrain",
-					"name": "Refrain",
-					"effect": "Replace +0 with +1 <i>Immobilise</i>"
 				},
 				{
 					"id": "illuminate",
@@ -811,6 +811,16 @@
 					"effect": "Add +1 <i>Shield</i>"
 				},
 				{
+					"id": "refrain",
+					"name": "Refrain",
+					"effect": "Replace +0 with +1 <i>Immobilise</i>"
+				},
+				{
+					"id": "gouge",
+					"name": "Gouge",
+					"effect": "Replace +0 with +1 <i>Wound</i>"
+				},
+				{
 					"id": "extremefortitude",
 					"name": "Extreme Fortitude",
 					"effect": "Ignore negative item effects and add 2x +1"
@@ -826,11 +836,6 @@
 			],
 			"handsize": "10",
 			"perks": [
-				{
-					"id": "steady",
-					"name": "Steady",
-					"effect": "Remove -2, ignore negative item effects"
-				},
 				{
 					"id": "consistency",
 					"name": "Consistency",
@@ -875,6 +880,11 @@
 					"id": "artifice",
 					"name": "Artifice",
 					"effect": "Add +0 refresh item"
+				},
+				{
+					"id": "steady",
+					"name": "Steady",
+					"effect": "Remove -2, ignore negative item effects"
 				}
 			]
 		},
@@ -919,18 +929,18 @@
 					"effect": "Add 2x rolling +1"
 				},
 				{
-					"id": "001",
-					"name": "xxx",
+					"id": "stab",
+					"name": "Stab",
 					"effect": "Add 2x rolling <i>Pierce 3</i>"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "envenom",
+					"name": "Envenom",
 					"effect": "Add 2x rolling <i>Poison</i>"
 				},
 				{
-					"id": "003",
-					"name": "xxx",
+					"id": "perplex",
+					"name": "Perplex",
 					"effect": "Add 2x rolling <i>Muddle</i>"
 				},
 				{
@@ -1200,13 +1210,13 @@
 					"effect": "Add +2 <i>Ice</i>"
 				},
 				{
-					"id": "001",
-					"name": "xxx",
+					"id": "tempest",
+					"name": "Tempest",
 					"effect": "Add rolling <i>Earth</i> and rolling <i>Wind</i>"
 				},
 				{
-					"id": "002",
-					"name": "xxx",
+					"id": "zenith",
+					"name": "Zenith",
 					"effect": "Add rolling <i>Light</i> and rolling <i>Dark</i>"
 				}
 			]
@@ -1321,14 +1331,14 @@
 					"effect": "Add +1 <i>Poison</i>"
 				},
 				{
-					"id": "resilient",
-					"name": "Resilient",
-					"effect": "Ignore negative scenario effects"
-				},
-				{
 					"id": "scorn",
 					"name": "Scorn",
 					"effect": "Add +1 <i>Curse</i>"
+				},
+				{
+					"id": "resilient",
+					"name": "Resilient",
+					"effect": "Ignore negative scenario effects"
 				}
 			]
 		}

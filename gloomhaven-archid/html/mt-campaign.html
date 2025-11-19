@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mindthief Campaign</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Mindthief Campaign</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>The mindthief is a powerful melee character who lays down large amounts of CC and can lock down enemies with stun, using <i>Ice</i>.</p> <p>This build is for Campaign mode where we do not need to keep a summon around to get our perks.</p>
+    <p>So why would you play a Campaign Build?</p>
+    <ul>
+      <li>Powerful damage dealer from melee at the start and then adding ranged options</li>
+      <li>Significant CC</li>
+    </ul>
+    
+    <p>The Campaign build loves the following:</p>
+    <ul>
+      <li>Part member who can tank rooms or draw aggro</li>
+      <li>Some form of healing and support</li>
+    </ul>
+    
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a decent loss action. It won't get used very often because your non-loss actions are so strong, it's typically not worth playing losses, but it certainly comes up in the last room a reasonable amount of the time (often paired with Perverse Edge bottom to really turn a fight).</p>
+              <hr>
+              <p>But the bottom is where the meat of this card resides. Move 2, Heal 2 self is really important for this class as YOU WILL TAKE DAMAGE, that's just a fact of life for a rat. So having some free healing that you add in here and there will make sure you're healthy enough to survive what you need to survive when the hits do come.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Now Empathetic Assault is a card!<p>The excellent initiative of this card compounds an already quite good bottom move action and makes it exceptional.</p><p>Finally, while we will discuss enhancements overall at the end of the guide, the biggest draw of this card is its enhancement dot next to the Heal action on bottom. The assumption that you will absolutely make a certain enhancement there is the reason this card is so good.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>First of all, it's 'just' an Attack 4 that gives 1 XP from level 1 onward. And as the Mindthief has some great level-ups, especially later on, XP definitely matters. But the card doesn't stop there. Push 3 is actually huge. It's not immediately obvious, but Push 3 is actually soooo much better than other classes' Push 2's. Push 2 can often put enemies into traps, but Push 3 almost always can. It's extremely easy to trigger traps with this card in any scenario that has non-flying enemies and traps. And as traps scale incredibly well with levels, this card also scales wonderfully.</p>
+              <hr>
+              <p>Meanwhile, the bottom isn't especially impressive as a Move 4, Attack 4 as again, you don't really want to play losses and we have better ones, but it can get you two XP at the end of a scenario.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Fearsome Blade is sneakily incredible.<p>Even up through level 9, I will bring this card to any scenario that has damage and/or Stun traps (obviously traps without either of these two effects don't scale so well).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Feedback Loop essentially doesn't have a top for normal play (although it is technically possible with the right allies to setup a rather hilarious tanking build on this class, but I wouldn't recommend that to any first-time players).</p>
+              <hr>
+              <p>And the bottom has a lot of text to basically just tell you it's a Move 4 with Jump.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Speaking of cards with late initiative.<p>So on a class stacked with good cards, how good is a Move 4 with Jump? Well, with a different initiative, it wouldn't be particularly impressive. But Feedback Loop is a hidden all-star just because of the 79 initiative. The Mindthief actually gets a ton of great early initiative but truly lacks late initiative. Late initiative is extremely important on this class for two reasons: you're a squishy often-melee class, so you want to be able to run into the enemies after they've acted, not before. In addition to that, you have non-loss Invis at levels 1 and 9, which you typically want to follow with a late initiative. Thus, Feedback Loop, a card that doesn't seem nearly as splashy as others like Perverse Edge or Frigid Apparition, actually keeps them company until we find a replacement at level 3.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Even without Ice, this is your highest damage non-loss attack, which already makes it pretty good (a non-conditional attack 5 non-loss at level 1, where do I sign up?) But then adding Stun on top of it really makes this card incredible.</p>
+              <hr>
+              <p>The bottom loss is decent but not great. You won't ever be pulled to use it, both because it's not very powerful and you don't want to lose this top action, but sometimes it will end up mattering and you'll use it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is the best level 1 top action.<p>The only small weakness of this card is the not-excellent initiative.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Well, melee summons are pretty bad (because they typically run into harm's way and take unnecessary damage that you'd otherwise avoid with movement), Move 2 on this one makes it unlikely to contribute much once we start to move. Still, at level 1, the stats are pretty decent and sometimes it will be worth bringing it out in the middle of the fray. Unusually, this summons is not a persistent loss so has much more value than normal and so can be used as a meat shield in combat as well as the standard use of late in the round to get a go the next round early.</p>
+              <hr>
+              <p>A late move 4 is always good on a level 1 card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This card being a Move 4 with another late initiative is still actually quite good at level 1.<p>Because we want the bottom so much, it doesn't really matter that the top loss is highly situational, because we can just spam the bottom most of the time and if we ever want the top, it will be there at essentially no opportunity cost. The biggest strike against this card is that we already have Feedback Loop, which adds Jump at the cost of having 3 worse initiative, which is a very good trade.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is a great little action. Attack 3, Loot plus generates <i>Dark</i>.</p>
+              <hr>
+              <p>The bottom also great Invisibility is sort of a naturally broken mechanic in Gloomhaven (both for personal damage avoidance and more often for completely ruining monster AI by creating moving obstacles that don't have obstacle placement rules) and this instance of it is very free to us. Adding <i>Ice</i> for our stuns is a real bonus.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Into the Night is a great card that will stay with us as it does lots of little things, all of which are useful.<p>Finally, it's important to mention a significant tactic with Invisible: when you go Invisible, you really want to go early in the round (to avoid enemy actions for that round) and then late in the next round (because the Invisible lasts until the end of your next turn, if you go late the following round, you also avoid enemy actions that round). Fortunately, Into the Night already goes pretty early, so you've got that covered, but that does mean you'll really want to make sure you have another card with late initiative to go the following round (otherwise you can just long rest, but you - or more accurately your allies - don't always want that to be your turn in the middle of combat).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The Mind's Weakness is so strong and so fundamental to the core play of this class that switching to other Augments is painful, at best, and the reward here is extremely underwhelming.</p>
+              <hr>
+              <p>On the bottom, we have an okay action but not great. Think of how hard it is to get an enemy into a trap with Push 1 - this is a bit better, but not by a lot, and having it not attached to a move or anything else makes it pretty poor. A situational effect like this might be alright if it was on a card with another good half, like Scurry, but with the top already being bad, there's really no room for this poor initiative Attack 4 or Move 2.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Parasitic Influence is the first bad level 1 Mindthief card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Perverse Edge is the upgraded version of Submissive Affliction. Unfortunately, what was good about Submissive Affliction was not being a loss, this attack is pretty bad for a few reasons. First of all, it's not very reliable damage. Secondly, typically enemies with a bunch of conditions are the least important ones to finish off quickly with loss card. Lastly, using the top loss deprives you of your best level 1 bottom action.</p>
+              <hr>
+              <p>And boy, is this some bottom action.<p>A stun with 8 initiative and you get an Ice to follow up with another Stun next turn on Frigid Apparition. Stunning enemies is the second best thing an action can do in Gloomhaven, aside from just killing them, and you're absolutely going to want to do your best to use this to that effect every rest cycle.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>In my opinion, this non-loss bottom action makes this into the best starter level 1 card outside of The Mind's Weakness and Reviving Ether. Getting to Stun an enemy with a bottom action while still having your top action to Attack is incredible.<p>We can even increase the range on the bottom or add a Wound to the top attack for a very powerful combo.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-possession.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>So an attack 6 loss would be a decent level 1 loss action, but having an additional positional requirement on top of it makes this top action pretty awful.</p>
+              <hr>
+              <p>Meanwhile, the bottom is fine, but again highly situational.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Having a highly situational bottom on an awful situational top loss is just not what you're looking for, especially on a class with such high average card quality and non-loss actions.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Scurry top is a perfect example of an action which is balanced around the existence of The Mind's Weakness. For any other class, this top action would be pretty bad. For this class, it's excellent, especially at level 1. There's not a lot more to say about this, move 3 attack 3 is just very obviously good.</p>
+              <hr>
+              <p>Meanwhile, Loot 2 is a fine bottom loss for the end of a scenario, if you managed to keep Scurry until then, which will sometimes happen.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This top will also make it easier to deal with the range limitation on your best bottom action - Perverse Edge (at least until it's enhanced). It also works wonders with Into the Night bottom, letting you move in and make an Attack 3 without any risk afterwards. You can often use this tactic when entering new rooms, especially if you have Boots of Striding to guarantee you can reach a target, but even without you still can just end on the door and go Invisible to blank the round for all melee enemies (if you're the one opening doors with this combo, you should typically tell your allies to go late in the round so the melee enemies go before they do).</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>It mostly just reads 'Attack 4, 1 XP' on top, which is still 1 XP better than the default top attack actions you'll end up doing a fair amount of the time at level 1. I'd think of this top text more as an occasional bonus that comes up because of your allies rather than something you want to play around.</p>
+              <hr>
+              <p>The bottom is also decent but not exciting for a level 1 bottom. It's basically an attack 2 most of the time, and gets a bit better when there are lots of melee enemies and enemies with Retaliate (or enemies with innate conditions on their Attacks). Still, we'll end up using it a fair amount of the time. And combining pretty good bottom with a pretty good top is quite fine for a level 1 card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Submissive Affliction is an above average level 1 card.<p>With regard to the top, even though you have a fair amount of Stun, Stun doesn't really work with this effect because you normally want to Stun an enemy before they go on their turn, so it'll be gone by the next round when you'd attack with this. And your only real source of Muddle at level 1 is the bottom of Feedback Loop which will occasionally come up but realistically you'll want to actually Move 4 with it most of the time. It gets a bit better as we level but not really enough to justify keeping it around for the standard build. Additionally, as you already hit pretty hard, it's not like you really want to do significant extra work just for a bit of extra damage.</p><p>Sadly, the biggest problem with this card is the initiative and being a worse non-move bottom than our Invisibility and Stun, which combined with our need to move often, makes the better half of this card harder to line up consistently.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>And here it is, the problem card itself. Well, not a lot to say about this card - while there may be semi-viable builds using the level 5 or the level 9 Augments, most of the time, you're going to have to use this card (after all, most of the Mindthief's melee attack cards are balanced around this effect). So yeah, play it and keep it up.</p>
+              <hr>
+              <p>It also has a bottom action but I didn't actually know that until I took the picture of the card for this guide.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Speaking of keeping this up, there is something important to keep track of. Remember that as a persistent non-loss card, you may recover this along with your discarded cards anytime you rest.<p>So as a general rule, in order to help your longevity, you should recover this card anytime you rest where you would otherwise end up with an odd number of cards (so let's say you have 8 cards in your discard pile and this out - if you rest and leave this out, you'll end up with 7 cards in your hand, whereas if you recover this as well, you'll get 8 instead, which gives you a whole extra turn).</p><p>This can be quite important to pay attention to as you will nett a fair number of turns over the course of a scenario. Obviously, if you're in a tough fight where immediate strength is more important than longevity, you can disregard this.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Again, Augments that aren't TMW just don't tempt us, at least not until maybe level 5.</p>
+              <hr>
+              <p>As a glass cannon, CC that requires enemies to get next to us first (and thus presumably hit us), just isn't where we want to be.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Withering Claw is another miss.<p>This card can create a decent 2-card combo with Scurry as a top move but that's pretty narrow and we'd really just rather use Perverse Edge in those situations.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>This is our core deck at level 1</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>And these are our remaining level 1 cards to choose from. The choices here are unfortunately a bit too easy to make. We're more than happy to add in another Move 4 as we only have one thus far and basically every Gloomhaven class would like to have at least two Move 4's or better as a core build for your average scenario. Submissive Affliction is neither great nor terrible and the other remaining 3 cards are all quite bad, so it skates in smoothly.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-possession.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>Final level 1 deck in semblance of first round order</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png">
+                <p class="w3-pale-green">Attack 4 + XP</p>
+                <p class="w3-pale-blue">Enemy with good attack effects</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-pale-blue">Rarely used summon</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png">
+                <p class="w3-pale-red">Not used</p>
+                <p class="w3-pale-green">Late Move 4 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 2 + <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>More non-loss crowd control on top, even if it's more situational than Stun, it's still quite good given the Range on this Attack. This would also be our first ranged Attack on top, with some quite decent range too, gives us a nice bit of flexibility.</p>
+              <hr>
+              <p>The bottom of this card is another decent but situational loss. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Hostile Takeover, on the other hand, is quite decent. First of all, more great initiative.<p>The top Ice generation doesn't seem that important as we're never not going to play Perverse Edge, but this gives us a backup in case we lose PE on a short rest (and we can generate this on a turn that we Move with a bottom action, which is more flexible).</p><p>Turning one enemy against his allies on the bottom can be quite useful, depending on the enemy, but won't always be worth a loss so you have to pick your spot carefully.</p><p>More often than not, the bottom of this card is just a Move 2 with 9 initiative, but that's really not bad either.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-wretched-creature.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This one is significantly better than the level 1 summon by virtue of actually being able to move on its own, it's still very underwhelming and inconsistent.</p>
+              <hr>
+              <p>The bottom of Wretched Creature is actually quite fine because as we established at level 1, we do really want a late initiative Move action, although Move 3 is significantly worse than Move 4.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Wretched Creature, gives us another melee summon and melee summons haven't magically gotten better in the last few paragraphs.<p>The <i>Curse</i> on the bottom is honestly good, but we don't have realistic in-combat Dark generation (please don't combat Loot, no matter what your Scoundrel buddy told you) and even when we eventually get it later, we'll have something much better to do with it.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-pale-green">Ranged attack with CC</p>
+                <p class="w3-pale-blue">Situationally powerful</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-submissive-affliction.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Hostile Takeover replaces Submissive Affliction. We're trading an XP-generating top for another and just an overall better card. Submissive Affliction honestly wasn't bad (and is intrinsically stronger than Gnawing Horde), but something had to go and we do still want another Move 4.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-pale-green">Ranged attack with CC</p>
+                <p class="w3-pale-blue">Situationally powerful</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-pale-blue">Rarely used summon</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png">
+                <p class="w3-pale-red">Not used</p>
+                <p class="w3-pale-green">Late Move 4 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 2 + <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-brain-leech.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss is really underwhelming for a level 3 loss on this class, again considering our average non-loss power level.</p>
+              <hr>
+              <p>Attack 3, Strengthen on bottom with 16 initiative, it's pretty good.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Brain Leech is the choice most players make, and why not?<p>The downside of the bottom is that it's very difficult for this class to use a bottom melee attack. Again, the normal way you'd do something like this is by letting an enemy get next to you before your turn, but that's really not a good idea most of the time on this class because of squishiness. So for us, the only realistic ways to consistently use the bottom action here is with Scurry top or by moving next to an enemy late and then attacking it twice early the next round. The problem with the latter is we already have Into the Night and Perverse Edge for these same situations and both of them are more often than not better (because they're more consistent in that we know we won't get hit when we're Invis or by a Stunned enemy). And with Scurry, we already have a number of bottoms that want Scurry top, so Scurry is pretty overworked. On top of that, if we use this bottom after the top of Scurry, we don't benefit from the Strengthen for our main Attack that round.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>While <i>Wound</i> is nice it doesn’t stack and if you have other sources of this it becomes rather underwhelming.</p>
+              <hr>
+              <p>The good thing on this card is the bottom action - more movement and Jump, plus some free Push.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Another big <i>Jump</i> is always welcome plus the free Push on bottom is really nice for getting trap or hazardous terrain value, but at the same time is worse than a Push on a top Attack because we can't make a melee Attack on an enemy that we Push away with our bottom Move action. So this bottom actually gets better the more ranged Attacks we have, which is something we'll grow more and more into at higher levels. I think, for this bottom move alone, this card is much better than a lot of people appreciate, especially at higher levels.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Silent Scream as another late Jump is a nice addition to our arsenal and the Push can be useful for dealing with pesky archers who have laid down traps, coming in at the expense of Gnawing Horde as the bottom is a strict upgrade..</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-pale-green">Ranged attack with CC</p>
+                <p class="w3-pale-blue">Situationally powerful</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png">
+                <p class="w3-pale-red">Not used</p>
+                <p class="w3-pale-green">Late Move 4 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 2 + <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-pale-red">Rarely used summon</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Large scenario with no good traps where we want the extra movement.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-pale-red">Rarely used summon</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Large scenario with good traps, low difficulty and we want the <i>Push</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>I'd look at the top basically just as a ranged loss execute and not worry too much about the bonus Attacks.</p>
+              <hr>
+              <p>Move 5, 5 Initiative.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Cranium Overload, fortunately, is a much better card.<p>So there's a lot of text on the top of this card but I've managed to decipher it and it just says, and I quote: 'Read the bottom of this card.'</p><p>The top is not actually terrible, again you'll use it sometimes, although probably less often than you think as you don't want it often before the last third of a scenario and it will often get lost on rests before then. Still, having it as the other half of an initiative 5 move 5 means you're not paying for it, and when it's good, especially against difficult-to-kill enemies, it is quite good.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-pilfer.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Sadly, while this action is super cool/hilarious, it's not actually good. Obviously, when there are enemies around, you're expected to be doing something other than Looting.</p>
+              <hr>
+              <p>The loss on the bottom here is quite powerful.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A top Loot action, so assuming it has a spammable bottom action, the extra text could still occasionally matter when there's something like one enemy left in the room. So, about that spammable bottom action - oh wait, that's not at all what we have here. We have the elusive and excellent 'situational card paired with a loss.' Yeah, that's pretty much never what we're looking for.<p>With a bottom loss, two generic actions will be what we'll have to use this card as most of the time while we wait to use the top or bottom, and that's just so bad. Attack 2's on top were fine at level 1, but not at level 4, especially with the worst initiative in Gloomhaven.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-feedback-loop.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Cranium Overload replaces Feedback Loop. We have a better <i>Jump</i> on Silent Scream and we don’t need 2 big ones. Overload has a bigger move, but we might miss the late initiative.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-pale-green">Ranged attack with CC</p>
+                <p class="w3-pale-blue">Situationally powerful</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 2 + <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-pale-red">Rarely used summon</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Large scenario with no good traps where we want the extra movement.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-gnawing-horde.png">
+                <p class="w3-pale-red">Rarely used summon</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Large scenario with good traps, low difficulty and we want the <i>Push</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-frozen-mind.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Frozen Mind is the first Augment that's not TMW that is actually somewhat tempting. The choice between +2 attack and consume Ice for Stun is actually quite close.</p>
+              <hr>
+              <p>The problem is, as with many cards, it's very situational. Sometimes it will be quite good and the effect is definitely powerful enough.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>There are just a couple problems with the augment:<ol><li>we already have one of the two Augments for free, here we'd have to take the other over another card.</li><li>And this is the more important one - Ice. Well, right now we have two Ice producers and one Ice consumer, so we'd actually just be getting a single use out of this card. The real problem is that Mass Hysteria, which bumps our Ice production up to 3 and would make this card truly playable, is at the same level.</li></ol><p>The bottom is not bad at all. The problem is, as with many cards, it's very situational. Sometimes it will be quite good and the effect is definitely powerful enough. What we need, though, is the other half of the card to be something we'll use up until we find the spot to play this bottom. There's just no way that's the case here.</p><p>Ultimately, if you've played this class before and done some enhancement, or if you're just really rich, you can set up a world in which you have Ice on a couple bottom Moves and you use this top Augment. Without such enhancements, you're going to be better off sticking with TMW.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Mass Hysteria is great. Disarming is pretty much a hard CC for most enemies, and as you level your modifier deck should be getting pretty good so it's realistic to expect a significant amount of total damage from this attack, except when against Shielded enemies.</p>
+              <hr>
+              <p>Adding a second Augment is just pretty mediocre. First of all, 50% of your best attacks from cards in the next 3 levels will be ranged, not melee, so Augments do get a bit worse at higher levels. Secondly, and more importantly, having 3 active cards is an enormous tax on longevity.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Mass Hysteria is quite a decent card.<p>The top Ice production is still always welcome, especially as we will get one more Ice consumer in the next two levels. Oh, and 12 initiative, so there's that. The biggest problem with this action is that it scales very poorly as monsters level and distributed damage is a lot worse than focused damage as you're less likely to kill enemies and limit incoming attackers.</p><p>With the extra augments if you want to not really get punished, you need to bring them back each rest, which means you have to keep setting them up and taking them down, which means you're losing immediate power at the first half of each rest. Honestly, there are occasions where it's worth it, but for the most part, this is a strategy that does more harm than good. The exception would be on very short scenarios like one-room boss rushes, where you can just quickly get up to 2 Augments and not come back down because tempo is much more important than longevity.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+                <p class="w3-pale-green">Ranged attack + CC</p>
+                <p class="w3-pale-blue">Very short scenario use</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Mass Hysteria, primarily for the nice top action with good initiative, replacing Fearsome Blade which in turn replaces Scurry in the flex slot.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+                <p class="w3-pale-green">Ranged attack + CC</p>
+                <p class="w3-pale-blue">Very short scenario use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-pale-green">Ranged attack with CC</p>
+                <p class="w3-pale-blue">Situationally powerful</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 2 + <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Good traps where we want the <i>Push</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Corrupting Embrace sees your powerful top and raises you another powerful top. Here, we have no elemental requirements (the Ice was free, the Dark less so) and we get effectively attack 7, with Poison and Muddle thrown in for good measure.</p>
+              <hr>
+              <p>Move 4, <i>Jump</i>, with added <i>Dark</i> creation.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The downside is that this top attack is obviously much, much worse against Shielded enemies (or those with Retaliate).<p>AND THERE'S A BOTTOM?! Move 4, Jump which has extra text that actually matters a surprising amount of the time, and it creates Dark for the top of Dark Frenzy (and more significantly for our level 8 card which is yet to come). The late initiative is also extremely welcome.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This top is effectively an Attack 6, 1 XP for us right now, and with a source of Dark (soon to come), an Attack 8, 2 XP.</p>
+              <hr>
+              <p>Movement, efficient ranged attack, and Ice creation (plus an XP, I guess, because why not).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>So this card is just your casual Attack 8 non-loss, no big deal. Oh, what's that? It also has 10 initiative.<p>This card is just nuts - everything about it is so good. Top, bottom, initiative. Take it, use whichever half you want, feel good.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-dark-frenzy.png">
+                <p class="w3-pale-blue">Attack 6 + XP</p>
+                <p class="w3-pale-green">Move + Ranged attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-empathetic-assault.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">So, at this level you can take whichever card you want. I think it's slightly better to take Dark Frenzy first because Corrupting Embrace is as its best once we're level 8 and Dark Frenzy bottom is probably the best action of the 4 (which is saying something) but it honestly doesn't make a huge difference either way. We drop Empathetic Assault as something has to go here and we are replacing one good bottom with another, but with a much better top.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+                <p class="w3-pale-green">Ranged attack + CC</p>
+                <p class="w3-pale-blue">Very short scenario use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-pale-green">Ranged attack with CC</p>
+                <p class="w3-pale-blue">Situationally powerful</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png">
+                <p class="w3-pale-blue">Attack 6 + XP</p>
+                <p class="w3-pale-green">Move + Ranged attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Good traps where we want the <i>Push</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-psychic-projection.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Stun self, who would want that!</p>
+              <hr>
+              <p>A loss to add 2 to your ranged attack is pretty poor given having an augment up making us an effective 9 card hand.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Nothing to see on this card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-vicious-blood.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Another weak augment, we are far to squishy to be able to takes hits to trigger this.</p>
+              <hr>
+              <p>Move and bottom attack is usable, but not great at level 7.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Nothing great here either.<p>The bottom Attack 4 is ok, but only 2 Move which limits its utility. The late initiative has its uses.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-corrupting-embrace.png">
+                <p class="w3-pale-green">Attack 9 + <i>Poison/Muddle</i></p>
+                <p class="w3-pale-blue">Move 4 <i>Jump, Dark</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-hostile-takeover.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Corrupting Embrace from Level 6 is far better than either of these cards, replacing Hostile Takeover as thta is a weak attack at this point.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+                <p class="w3-pale-green">Ranged attack + CC</p>
+                <p class="w3-pale-blue">Very short scenario use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png">
+                <p class="w3-pale-green">Attack 9 + <i>Poison/Muddle</i></p>
+                <p class="w3-pale-blue">Move 4 <i>Jump, Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png">
+                <p class="w3-pale-blue">Attack 6 + XP</p>
+                <p class="w3-pale-green">Move + Ranged attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Good traps where we want the <i>Push</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-domination.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Situational Attack 6 that needs a melee ally that you have moved up to on the previous round to make this work.</p>
+              <hr>
+              <p>Situational loss that can be powerful</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Domination is pretty bad.<p>So you say we can have a situational attack 4 with the benefit of our Augments? Didn't we just get significantly better attacks at level 6 with less significant requirements? Yeah, I think we did. Not sure why anyone would be excited to use this attack.</p><p>Meanwhile, the bottom is still as good of a loss as it was at level 2, the extra range and control does make it a bit better, but ultimately having a decent loss alongside a situational and relatively poor top just doesn't make the loss easy to bring.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-shared-nightmare.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Weak ranged attack,but giving <i>Ice</i> + <i>Curse</i></p>
+              <hr>
+              <p>Move 5 with an optional <i>Shield</i> that we should never be in a position to need.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Shared Nightmare, on the other hand, is pretty great.<p>First of all, it's got 7 initiative.</p>The top gives us another source of Ice, which is gratuitous at this point without a specific item but it's free, so why not? If we have Dark, which we have a non-loss source of Dark now and another in a level, this top gets pretty crazy. Sadly, this does lock us into using Corrupting Embrace primarily for the bottom, which is a shame with such a good top, but we'll remedy that soon enough.</p><p>And then the bottom gives us another Move 5 (you can pretty much ignore the Shield there, although with so much Ice, it will occasionally matter a little bit), which is always welcome and really helps to free up a spot in our hand (it will both replace our ranged attacks and eventually also be able to stand-in as a second big Move when we need it).</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-shared-nightmare.png">
+                <p class="w3-pale-blue">Ranged attack + <i>Ice</i></p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-cranium-overload.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Shared Nightmare replaces Cranium Overload as we are replacing one early big move with another and a significantly better top.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+                <p class="w3-pale-green">Ranged attack + CC</p>
+                <p class="w3-pale-blue">Very short scenario use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png">
+                <p class="w3-pale-green">Attack 9 + <i>Poison/Muddle</i></p>
+                <p class="w3-pale-blue">Move 4 <i>Jump, Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-pale-blue">Attack 3 <i>Loot</i></p>
+                <p class="w3-pale-green">Move 2, <i>Invisible</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-shared-nightmare.png">
+                <p class="w3-pale-blue">Ranged attack + <i>Ice</i></p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png">
+                <p class="w3-pale-blue">Attack 6 + XP</p>
+                <p class="w3-pale-green">Move + Ranged attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-fearsome-blade.png">
+                <p class="w3-pale-green">Attack 4 <i>Push 3</i> + XP</p>
+                <p class="w3-pale-blue">End room for XP</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Good traps where we want the <i>Push</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-shared-nightmare.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-many-as-one.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>An upgraded melee summons, but still melee after all.</p>
+              <hr>
+              <p>Situational based on party that requires multiple ranged allies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Many as One is a pretty cool card. You can build around him and have a pretty awesome party, but realistically you shouldn't.<p>Again, melee summons have too much inherent risk and this one is even riskier than normal. Additionally, you're giving up your level 9 card, theoretically your strongest card, if you play and lose this.</p><p>Meanwhile, the bottom is actually extremely powerful in a party designed around it (with a mass of summons, many of which ranged), but in normal play isn't close to being worth a level 9 loss.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/mt/gh-phantasmal-killer.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Another augment that needs plenty of Dark to trigger and can be a real game-breaker.</p>
+              <hr>
+              <p>Another source of <i>Invisibility</i> and <i>Dark</i> with a bonus <i>Loot</i> in there</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Phantasmal Killer on the other hand is pretty reasonable.<p>To be clear, I'm talking about the bottom here. The bottom does a lot of little things: gives you <i>Dark</i> for Shared Nightmare, gives you repeatable <i>Invisibility</i>, and grabs some <i>Loot</i> (all while moving). Nothing extraordinary except for the Invisibility, but it all adds up.</p><p>The top, on the other hand, is just bad for business. The potential to do non-loss executes with minimal cost is a very dangerous ability to have in Gloomhaven. You only have two other sources of non-loss Dark, one of which requires playing a top Loot action in combat. The issue is that this ability to execute is actually so strong in most scenarios that it's worth playing top Loot actions in combat just to execute the next turn. And when you consider that you can also enhance Dark on Moves, it really starts to get out of control. In general, I mostly avoid using executes like this because it makes the game less fun for you and the rest of your group (because damage ceases to matter on most enemies). But if you've never done something like this before, give it a try if you'd like. Bring Into the Night back in, setup this Augment, and execute twice per rest cycle. Then, once you're done with all of that, switch back to playing this card for the bottom, which will always feel nice.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-phantasmal-killer.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 + <i>Invisibility</i> + <i>Dark</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/mt/gh-into-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Phantasmal Killer replaces Into the Night and we shuffle our deck a bit as we don't generate Ice on our new card.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png">
+                <p class="w3-pale-green">Ranged attack + CC</p>
+                <p class="w3-pale-blue">Very short scenario use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png">
+                <p class="w3-pale-green">Attack 5 <i>Stun</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png">
+                <p class="w3-pale-green">Top move with attack 3</p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png">
+                <p class="w3-pale-green">Attack 9 + <i>Poison/Muddle</i></p>
+                <p class="w3-pale-blue">Move 4 <i>Jump, Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-phantasmal-killer.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 + <i>Invisibility</i> + <i>Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Move 4 + <i>Jump</i> + <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-green">Ranged <i>stun</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-shared-nightmare.png">
+                <p class="w3-pale-blue">Ranged attack + <i>Ice</i></p>
+                <p class="w3-pale-green">Early Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png">
+                <p class="w3-pale-blue">Attack 6 + XP</p>
+                <p class="w3-pale-green">Move + Ranged attack</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-fearsome-blade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-feedback-loop.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-gnawing-horde.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-into-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-parasitic-influence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-perverse-edge.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-possession.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-scurry.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-submissive-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-the-minds-weakness.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-withering-claw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-silent-scream.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/mt/gh-cranium-overload.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-mass-hysteria.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-dark-frenzy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-corrupting-embrace.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-shared-nightmare.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/mt/gh-phantasmal-killer.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/mt/gh-empathetic-assault.png"></td><td>bottom</td><td><i>Strengthen</i></td><td>This is very expensive so may be worth passing on.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/mt/gh-perverse-edge.png"></td><td>bottom</td><td>+1 Range</td><td>Easier to find targets for the <i>Stun</i></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/mt/gh-hostile-takeover.png"></td><td>top</td><td><i>Poison</i></td><td>Hostile Takeover has long range and does little damage, meaning it will often be an opener on an enemy, increasing the likelihood that Poison will add significant damage. Additionally, the fact that it has Immobilize means it's almost always being used on melee enemies, and melee enemies tend to have high hp pools, making it even more likely that Poison will increase damage on a number of future hits.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/mt/gh-frigid-apparition.png"></td><td>top</td><td>1 Attack</td><td>This is a cheap enhancement and you will be using this card almost every rest cycle right up into level 9.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/mt/gh-perverse-edge.png"></td><td>bottom</td><td><i>Wound</i></td><td><i>Stun</i> and <i>Wound</i> is such a nice combination.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/mt/gh-scurry.png"></td><td>top</td><td>+1 Attack</td><td>Another cheap enhancement on a card that makes it through to level 9</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey">As usual get rid of the negative modifiers before taking the positive ones</div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Intensify</td><td>Replace -2 with +0</td></tr>
+      <tr><td width="250px">Meditate</td><td>Replace 2x +1 with 2x +2</td></tr>
+    </table><br>
+
+    <div class="w3-light-grey">The +2 <i>Ice</i> modifiers are less good than they seem because you actually typically have more <i>Ice</i> than you can use, unless you have access to the Frigid Blade (in which case I would remove four +0's after taking both +2 <i>Ice</i> modifiers).</div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Dust</td><td>Remove 4x +0</td></tr>
+      <tr><td width="250px">Freeze</td><td>Add +2 <i>Ice</i></td></tr>
+      <tr><td width="250px">Resilient</td><td>Ignore negative scenario effects</td></tr>
+      <tr><td width="250px">Bludgeon</td><td>Add rolling <i>Stun</i></td></tr>
+      <tr><td width="250px">Pacify</td><td>Add rolling <i>Disarm</i> and rolling <i>Muddle</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-007-iron-helmet.png">
+          <p class="w3-container">8</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-017-empowering-talisman.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-005-cloak-of-invisibility.png">
+          <p class="w3-container">2</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-077a-frigid-blade.png">
+          <p class="w3-container">3</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-040-versatile-dagger.png">
+          <p class="w3-container">4</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-018-battle-axe.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-011-poison-dagger.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container">6</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-015-boots-of-speed.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-036-boots-of-dashing.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container">1</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container">5</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-020-minor-mana-potion.png">
+          <p class="w3-container">7</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-042-ring-of-haste.png">
+          <p class="w3-container">9</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-124-doomed-compass.png">
+          <p class="w3-container">10</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-012-minor-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-089a-minor-cure-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Campaign based on Gripeaway build (<a href="https://imgur.com/a/tQXSKDA">https://imgur.com/a/tQXSKDA</a>)</div>
+</footer>
+
+</body>
+</html>
+  

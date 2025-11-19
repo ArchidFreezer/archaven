@@ -84,6 +84,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('mtDrop')">Mindthief <i class="fa fa-caret-down"></i></button>
     <div id="mtDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="mt-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="mt-campaign.html" class="w3-bar-item w3-button">Campaign</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

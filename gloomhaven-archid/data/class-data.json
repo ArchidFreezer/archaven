@@ -552,8 +552,8 @@
 					"effect": "Add 2x rolling <i>Immobilise</i>"
 				},
 				{
-					"id": "005",
-					"name": "xxx",
+					"id": "bludgeon",
+					"name": "Bludgeon",
 					"effect": "Add rolling <i>Stun</i>"
 				},
 				{

@@ -13641,6 +13641,1928 @@
           }
         ]
       }
-    }
+    },
+		{
+			"id": "ds-expose",
+			"classid": "ds",
+			"build": "Expose",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://www.reddit.com/r/Gloomhaven/comments/c5qbil/angry_face_class_guide/",
+			"overview": { 
+				"body": [
+					"The Expose build is he most common Doomstalker build - relying on our level 2 persistent loss and the fact that we rarely want to attack non-Doomed targets anyway, to increase the consistency and damage of our Attacks with constant Advantage.",
+					""
+				],
+				"benefits": [
+					"Consistent ranged damage with somepowerful attacks",
+					"Ability to chip down enemies at very long range with pure damage"
+				],
+				"preferences": [
+					"Front line that can handle you not being overly productive the first round"
+				]
+			},
+			"cards": [
+				{
+					"id": "amomentspeace",
+					"top": "Top Loot actions are many times better than bottom Loot actions as we can Move into an ideal position and still Loot in the same turn.",
+					"bottom": "We have a medium HP pool and an enormous hand, so while we typically attack from far away, we can also afford to take a few hits when needed, and thus the healing can be quite useful.<p>Finally, the biggest selling point of this card is the exceptional enhancement dot next to the Heal 2, self. If you end up going for the Expose build, Bless on that dot is one of the more exciting enhancements you can do on an otherwise pretty boring-to-enhance class. And Strengthen on that dot is one of the biggest selling points of not needing to go for the Expose build. So either way, we're going to like this card to begin with, and it's going to become stellar with enhancement (which, conveniently, it being a top Loot action will lead to happening sooner rather than later).</p>",
+					"overall": "A Moment's Peace starts us off well. 88 initiative is excellent as we lack good, late initiatives."
+				},
+				{
+					"id": "cripplingnoose",
+					"top": "Trap actions are typically really bad in Gloomhaven because you need to spend a turn setting it up and then have another action with gets the monster into the trap. So you have multiple requirements and a delayed effect. And meanwhile, the actions are typically not balanced around all of that. For example, here, an Attack 4, Stun loss at level 1 is pretty mediocre to begin with. This is 4 direct damage instead of 4 Attack, which is typically better, although because it's a trap, it can't affect most of the enemies where direct damage is best (because they fly). So this top action asks you to jump through a bunch of hoops just to get an effect that wouldn't even be that compelling if it was offered immediately and with no hoops. That makes these actions (trap actions) generally quite awful. The best use for traps is typically to mess with monster AI, so non-loss traps do have some application, but loss traps are just a waste of an action (again, something that will be a recurring trend for this class).",
+					"bottom": "The bottom is an interesting Doom, and has some value just by virtue of being a Doom, but we have a TON of Dooms at level 1 and while this is a unique effect, it's just not that powerful most of the time, and we'd rather 2 more damage per turn over this pretty much every day of the week.",
+					"overall": "Our first example of the copious amount of junk that will try to clog up the Doomstalker's hand, especially at level 1."
+				},
+				{
+					"id": "detonation",
+					"top": "Another loss trap. For the sake of brevity, I won't go over it all again each time. Suffice to say, this top action is really bad.",
+					"bottom": "3 pure damage is a lot on a non-loss and we hit pretty hard, making it easy enough for us to trigger this effect. And this effect can be very good against a number of different enemies types. Ranged flying enemies with low HP and high Shield tend to stand next to each other, meaning if we kill one, we can almost kill all of them. And then this will also be good against high-number swarming enemies like Sneks and Vermling.",
+					"overall": "Detonation is still an interesting card though because of the Doom on bottom. We have two Doom actions which are our 'good ones' that we'll want to use every rest cycle and have up as much as possible (Race to the Grave and Rain of Arrows) but beyond that, we normally want to have access to 3-4 total Dooms in order to guarantee we can always Attack enemies with Dooms up. Thus, the very nature of being a Doom to begin with does make an action interesting. It didn't for the above Crippling Noose because we knew we had some others like this coming."
+				},
+				{
+					"id": "farpain",
+					"top": "This is our first payoff for having a doomed enemy. We should always have a doomed enemy up and so this becomes an Attack 3, Range 5. The strength is not great, the Range 5 is nice, but notice the two enhancement dots on the top so we can improve this card to keep it relevant as we level up.",
+					"bottom": "And yeah, the bottom Doom here isn't good - it doesn't directly affect the Attack and has an extremely situational effect afterwards, which is very hard to have do anything meaningful.",
+					"overall": "The fact that this is a non-loss attack is good enough for us at level 1, but it's only very average overall."
+				},
+				{
+					"id": "fellingswoop",
+					"top": "Melee summons are typically quite bad in Gloomhaven unless they have some powerful unique features. Why? They tend to just suicide a lot, running into AoEs, avoidable enemy Attacks, Shield/Retaliate, etc. There's really nothing unique or powerful about this summon, so it's a hard pass.",
+					"bottom": "But again, this card is interesting for the Doom. This Doom doesn't directly affect combat, but it does provide a significant amount of free movement (please note that as of Forgotten Circles, this movement is considered a Teleport and is not affected by Immobilize, contrary to the base game FAQ). I talked in the intro about how we naturally play in combat - making a big Move and then some turns not moving. We have to Move to get into range to Attack, but we have to Doom in order to make our Attacks good, which gives this natural cadence of alternating Move turns and non-Move turns. Felling Swoop bottom gives us some valuable action efficiency by squishing those two turns into one, with a Doom that will put us in range of our next enemy once we kill the first enemy, allowing us to go straight from Doom turn to Doom turn without a Move turn in between, giving us a tempo boost. Thus, this is a very solid Doom, even if it doesn't look like much at first glance. Also note that Dooms don't have Range or line-of-sight restrictions, which means you can cheese some split-up scenarios with this type of action, Dooming an enemy near your allies and letting them kill it for you.",
+					"overall": "And here we have our other type of bad loss action: extremely underwhelming melee summons, but at least coupled with a useful Doom."
+				},
+				{
+					"id": "footsnare",
+					"top": "Well, at least here we have a non-loss trap, which is significantly better because as I said, we will mostly use traps to mess with monster AI.",
+					"bottom": "Meanwhile, the bottom is also alright but not very good. We typically want our Moves to be big or to have a big payoff (like A Moment's Peace) and this just isn't quite that. Still, sometimes if a melee enemy manages to get on top of us, we can go early with a top Attack and use this bottom to effectively CC that enemy, which isn't the worst ever.",
+					"overall": "Ultimately, while this card is quite underwhelming, we have so many worse cards that it's actually kind of appealing."
+				},
+				{
+					"id": "freshkill",
+					"top": "This is a solid non-loss Attack, which will most regularly be an Attack 5, Range 4 without needing any help. Throw a Doom on top, and you're already at Attack 6, which is stellar. That being said, this Attack will more often be made without a Doom than with one, as this is typically going to be our opener when entering a new room, and we will play this after moving, meaning no Doom right away. Still, it fills that roll just fine and obviously we can't complain about 'just' getting Attack 4. It does get worse if you have allies who spread small amounts of damage, but most of the time you can coordinate with them. ",
+					"bottom": "The bottom is less exciting as a Move 3, Jump isn't anything special and we do generally prefer bigger Moves, but it is our only level 1 Jump and sometimes it will just be necessary for traversing the map, so we're happy to have it there when we need to, alongside a top Attack we'll use basically every rest cycle.",
+					"overall": "Fresh Kill is definitely a welcome card, especially at low levels."
+				},
+				{
+					"id": "multiprongedassault",
+					"top": "The top loss is honestly pretty reasonable: 8 damage for a loss at level 1 is more than fine, and we have 12 cards so we can afford some losses. At the same time, we have multiple non-loss Attacks for 4 at level 1, so you have to be sure that the extra 4 Attack will make a significant difference, or again it's just better to rest early and get your non-losses back.",
+					"bottom": "Meanwhile, the bottom Doom is also okay, although its power level is much more party-dependent. If you have a 4p party with attacking allies or you have allies with summons, then you'll typically find this Doom to be quite good. If you're in a 2p party or a 3p party with an ally that basically never attacks, then it will be much worse than Detonation and Felling Swoop. It should typically be pretty obvious just how good this Doom is based on your party and you should use it or not use it accordingly.",
+					"overall": "Multi-Pronged Assault is a perfectly serviceable card.<p>Finally, this card gives us our first good early initiative, which is also welcome, even if we'll have a couple others.</p>"
+				},
+				{
+					"id": "racetothegrave",
+					"top": "The top loss isn't great. We have multiple Attack 4, Range 4's at level 1, playing a loss to get +2 Attack, +1 Range is miserable, even with 12 cards. This loss basically reads 'gain 2 XP if you kept this card until the last room' and nothing more. ",
+					"bottom": "But the real draw of this card is the amazing bottom. Two direct damage per turn is pretty insane! This allows us to very, very easily kill some of the most annoying enemies in the game like Flame Demons and Vermling Shaman (and because the Doom has no range or line-of-sight limitations, you can always get it on the highest-priority target). Beyond enemies it's good against, it's also still just 2 extra damage per turn on something that counts as a Doom, so unless we're making multiple Attacks per turn, it's just as good as Rain of Arrows, our other best Doom, with the upside of also sometimes destroying high-shield enemies.",
+					"overall": "Mmm... Race to the Grave, one of our two primary Dooms.<p>Another excellent point in this card's favour is the fact that the Doom triggers without attacking, which makes it a perfect Doom to play on the turn you setup Expose and similar cards where you don't get to Attack for the turn (or on the turn your ally opens a door, this way even if you can't get in to Attack, you're already doing damage and you have your Doom ready on a target for your Attack next turn). That way, even if it's not great damage for the turn, you're still doing something.</p>Finally, this card has excellent initiative, which pairs well with an effect that you want to apply before an enemy acts for the turn. Overall, just a great card, even if the top is poor. Sometimes one excellent half is all it takes.</p>"
+				},
+				{
+					"id": "rainofarrows",
+					"top": "So the top represents 8 Attack for a loss, which is the same value offered on Multi-Pronged Assault, only this is a lot worse. Why? Well, typically you're going to play a loss when you need a tempo boost immediately or a persistent loss that benefits you all scenario. This is somewhere in between - it doesn't really have an immediate tempo effect, but it also doesn't provide enough value over the course of a scenario to compare with good persistent losses like Expose. In the end, you're getting the same Attack as an instant loss, while this also has a condition attached. Overall, that just makes this too expensive for too poor of an effect",
+					"bottom": "Furthermore, the biggest reason to not want to play the top loss is we never, ever want to lose this bottom. This Doom is our other core Doom, as obviously adding +2 Attack to all of our Attacks is something we'd want as a damage-dealing class. Take this card for the Doom and play it as often as possible.",
+					"overall": "This is one of our best Dooms and something we will want to keep through the levels."
+				},
+				{
+					"id": "saplife",
+					"top": "Retaliate is a pretty poor effect in Gloomhaven in general as it's unreliable (the enemies you're counting on damaging might not Attack that turn) and putting it on a loss just doubles down on the unreliability issue. That being said, this is a lot of direct damage at level 1, so maybe it's decent against some enemy types? Kind of... The problem is that we already have a couple cards that are much, much easier to use against those enemies (Race to the Grave and Detonation), which work with what we normally want to do anyway, don't require us putting ourselves in an awkward position where a lot can go wrong, and aren't losses.",
+					"bottom": "Meanwhile, this Doom is extremely underwhelming - we just don't take that much damage and we already have really free healing on A Moment's Peace. We also have easily enough good Dooms by now, so we're not desperate for another with an effect we don't want. If this could Heal allies instead of just us, it could be really interesting in the right party, but as-is it's just way too limited.",
+					"overall": "Yeah, Sap Life is absolutely not something we're looking for.<p>The only thing going for this card is the nice initiative.</p>"
+				},
+				{
+					"id": "solidbow",
+					"top": "You'll never be excited to play the top Attack, but it's got really good range (which pairs well with Dooms), so sometimes you'll need it to hit an important target. More than anything, it's just another non-loss ranged Attack, and we don't have enough for those at level 1, so it's good for that alone.",
+					"bottom": "Our class would like a bit more movement than four for when we have to Move, but four will get the job done a lot of the time and we really can't complain.",
+					"overall": "Solid is the perfect word to describe this card.<p>Finally, 31 initiative isn't good, but it's also not bad. In the end, while nothing on this card is exceptional, it will never be a bad card and it fills its role of being a non-garbage non-loss card that we can play every rest cycle."
+				},
+				{
+					"id": "swifttrickery",
+					"top": "Like Far Pain, but losing 1 Range and an enhancement dot for an additional Attack,. The loss of the dot is fairly meaningless as we would be adding an attack anyway so this saves us some money. At the end of the day it's an Attack 4, Range 4 with 11 initiative. Yeah, sounds good to me.",
+					"bottom": "And on the bottom we have a Move 5, which is what we're looking for in terms of movement. Sadly, we basically can't ever play the bottom because we need the top so very badly, so we'll have to continue looking elsewhere for good movement options. Regardless, Swift Trickery is an excellent card.",
+					"overall": "Here is our second level 1 payoff Attack for having a Doomed enemy."
+				},
+				{
+					"id": "thehuntbegins",
+					"top": "This summon, like our previous summon, is a melee summon, which is not typically something we want. If we can get 2 wounds out of it there is some value and the move 3 means it doesn’t get left behind between rooms.",
+					"bottom": "The Doom is a bit different in that it can be very, very powerful in the right party, but 90% of parties won't want this Doom at all. Accordingly, this card won't get used by us, but if you have a party where you know this should be good, you absolutely should take it and use it regularly.",
+					"overall": "It's funny because this card is meant to support our summons, but they're so bad (before level 9 at least) that it's just useless for us, but it can be an excellent tool to support certain allies."
+				},
+				{
+					"id": "vitalcharge",
+					"top": "Another melee summon, nothing much to see here. This one does have 7 health and a shield so can be used as a tank when in dire straits if it had a decent bottom.",
+					"bottom": "And on bottom, another Doom that heals us, which is again absolutely not something we need.",
+					"overall": "Nothing on this card is appealing."
+				},
+				{
+					"id": "expose",
+					"top": "The real meat of this card is the ability to have constant Advantage on almost all of your Attacks (because you naturally want to be attacking Doomed targets anyway). Obviously that's a very powerful effect, and having to play a loss at the beginning of a scenario is basically a non-cost on a 12-card class. ",
+					"bottom": "Meanwhile, the bottom Doom is actually really good against shielded enemies. Obviously, Race is better against high-shield, low-hp enemies, but this covers most of the rest (things like Stone Golems, elite Guards, etc.) So while you're obviously taking this card for the top, you can still easily get away with playing the bottom for one rest cycle if you're in a tough fight against appropriate enemies to start a scenario.",
+					"overall": "Expose is a class-defining persistent loss. First of all, you can ignore the Invisible line, it's something that will come up in maybe 5% of scenarios.<p>The 13 initiative is also nice, although only really matters when we play the bottom, because we don't really care about our initiative for the top if we're moving and if we're not moving, we'll be playing Race, which has better initiative anyway.</p>"
+				},
+				{
+					"id": "relentlessoffensive",
+					"top": "This gives us Attack 4 without even requiring a Doom at Range 5 (making it perfect for the turn we enter rooms with a Move and don't have a Doom setup) and it's another non-loss Attack in general, which is really welcome as we're desperately lacking them.",
+					"bottom": "The bottom scales a lot better than the top and provides some nice value for when small Attacks against multiple enemies aren't what you want (the bottom is good when you need high single-target and the top is good when you're happy with smaller, spread damage, which makes these two halves an excellent pairing).",
+					"overall": "Relentless Offensive is also a really good card, although better at low levels than high levels.<p>The biggest thing against this card is that it's at the same level as Expose and it has bad initiative. Finally, if you take this card, you'll have a really bad time doing your solo scenario without Expose, which is honestly a really dumb design decision which was done solely to try to give purpose to the throwaway Invisible line on Expose. The good news is that your solo item is pretty bad, so you're mostly just missing out on some gold.</p>"
+				},
+				{
+					"id": "darkenedskies",
+					"top": "This is a big splashy loss that can really impact some rooms, but is sutuationally useful as against some of the most anonoying shielded enemies is does very little.",
+					"bottom": "The Doom allows us to stearmroll some of the easiest enemies in the game.",
+					"overall": "Darkened Skies is an extremely popular card, like most splashy losses in Gloomhaven.<p>In general, players in Gloomhaven tend to significantly overrate losses, especially ones that have big, splashy effects. I do still think people overrate this loss, although in this case, I don't mean that to say this loss is bad. This loss is good, quite good in fact. It combines very well with certain items and it can have a significant impact on making some rooms much, much easier. So with all of that said, why aren't we taking this card? A few reasons:<ol><li>losses scale poorly in Gloomhaven, both with levels and with difficulty. When you're against level 3 enemies, this loss looks exceptional. When you're against level 5 enemies, this loss looks fine. When you're against level 7 enemies, this loss looks mediocre.</iL<li>This loss doesn't fix any of our problems. This is actually the biggest reason we're not taking Darkened Skies. At level 3, we have 3-4 good non-loss Attacks (3 if we took Offensive at level 2). For a 12-card class, that's so bad. Solid Bow is fine as well, but that's still not close to enough non-loss Attacks relative to our hand size (and Solid Bow often needs to be a Move). We NEED, desperately, non-loss Attacks, especially good ones. We also need a good movement action, as our only currently good one is on the other half of an Attack we have to use. So while Darkened Skies provides this cool, powerful effect that would certainly be welcome, it doesn't give us anything we really need.</li><li>It's just not good on some scenarios. Some scenarios will have exclusively high-hp enemies, or high-shield medium/low hp enemies, and it's pretty useless in those scenarios, especially when combined with higher levels/difficulty.</li></ol>"
+				},
+				{
+					"id": "presstheattack",
+					"top": "Another non-loss attack 5, range 4 at great initiative",
+					"bottom": "Fairly useless bottom, we didn;t want retaliate on our erlier card and it hasn't improved any now.",
+					"overall": "Press the Attack is excellent.<p>Honestly, this card is the exact card our hand needs and nothing can come between us and it.</p>"
+				},
+				{
+					"id": "singularfocus",
+					"top": "A top Loot 2 loss is really nice for the end of scenarios, allowing you to move into position and grab a ton of Loot with 2 XP on top of it, so that's really nice.",
+					"bottom": "And on bottom, we have a Doom we can use all scenario, providing a nice effect. The problem with this Doom is that it's pretty bad when we have Expose. But what about when we don't have Expose? Well, first of all, we don't care THAT much about effects that benefit our allies Attacks on the same target we're attacking - we hit so hard, that enemies don't live that long. Secondly, it's still significantly less damage per round than our two good level 1 Dooms (unless we have a lot of people all attacking the same target, like a boss fight, where this is actually quite good) and less utility than the other Dooms, so it's kind of in an awkward in-between.",
+					"overall": "The biggest issue with this card is that it again doesn't help to solve any of our problems - we've already got good Dooms and we still have issues that need to be solved, so this is just not the card we're looking for."
+				},
+				{
+					"id": "flightofflame",
+					"top": "The top action you'll only use that a couple times in your lifetime, although it can occasionally be helpful.",
+					"bottom": "The move is precisely what we have been looking for to solve our movement problems. 'But what movement problems, we've got a Move 4 and a Move 5 already.' But again, we don't ever want to have to use the Move 5, and we can use the Move 4, but for now, we also appreciate being able to have Solid Bow as an Attack, as we still lack non-loss Attacks.",
+					"overall": "Flight of Flame, on the other hand, is the card we're looking for.<p>By taking Flight of Flame, we're not only making our movement better, we're temporarily giving ourselves another non-loss Attack for a lot of the time.</p><p>And beyond that, a single Move 4 just isn't enough in a 12-card hand. Like I said, we don't want to have to Move very often, but when we do Move, it's important that it's effective, allowing us to get setup in an ideal spot to not need to Move again soon. Being Move 5 and Jump allows us to travel long distances and get pretty much wherever we want.</p>"
+				},
+				{
+					"id": "wildcommand",
+					"top": "This card top action is complete nonsense, oriented around a build for us that's just full of bad cards.",
+					"bottom": "Most ranged classes in the game have at least one bottom Attack but we don't have any thus far. Our Dooms kind of function like bottom Attacks, and we have less room for a bottom Attack because we need to play Dooms, but it's still really great to have one, especially one that adds a bit of movement for free. I mean, does non-loss Move 3, Attack 4 on bottom sound good? Yeah, I think it does.",
+					"overall": "This card is really excellent for the bottom alone.<p>Obviously you should wait to use this card, when possible, until you have Rain of Arrows up, but you're going to get Rain of Arrows up every rest cycle, so there should be no issue.</p>"
+				},
+				{
+					"id": "inescapablefate",
+					"top": "The top is the most impressive, allowing two Dooms at the same time (on the same target). Enemies die quickly enough to us that we're really not in the market for trying to setup multiple Dooms on our target before they die, outside of boss scenarios. But the real reason for this top loss to exist is to allow the Jumping Doom build, but the archid mod breaks that build as the corresponding action on the required level 8 card has been changed.",
+					"bottom": "The problem with the bottom is that our Attacks mostly work best when we Attack Doomed targets, meaning if we play this, we're going to be making some very ineffective Attacks for the three turns we have to wait. Accordingly, this will almost never be an effective Doom for us, outside of a couple very specific enemies. The best example of an enemy where this shines is Stone Golems, which are pretty slow, non-threatening if they're far away, and extremely tanky. Earth Demons can also be another example. This doesn't work on enemies like Savvas because they can summon so you can't just leave them alone. Regardless, it's worth using on a few enemies, but for the most part, should never really be used.",
+					"overall": "Inescapable Fate has two powerful and unique halves, but neither add much to our hand."
+				},
+				{
+					"id": "natureshunger",
+					"top": "The Hypno-Toad is hilarious, and honestly not an awful summon, as chain-Stunning enemies is pretty good. Still, it's difficult to have ideal situations where you can put this next to an isolated enemy who's also important enough to merit the loss.",
+					"bottom": "The bottom Doom is better than our earlier attempts at healing because it does affect our allies, but it's still a pretty low-impact Doom, and Dooms aren't what we're looking for anyway.",
+					"overall": "This card has two halves that are Ok, but do not have any significant impact on our build."
+				},
+				{
+					"id": "camouflage",
+					"top": "The top attack isn't very powerful, but the <i>Invisibility</i> makes the card so useful if played prior to a long rest or other situations where we want to ensure we are safe the next round.",
+					"bottom": "The <i>Invisibility</i> on a move is an amazing action for any character.",
+					"overall": "Camouflage, on the other hand, is an excellent card.<p>Both halves are good as unconditional <i>Invisibility</i> is excellent, allowing you to perform a number of effective tricks like blocking doors or scouting ahead for your allies safely.</p><p>The top Attack isn't super powerful itself and a bottom Move 3 is much easier to palate, so the bottom will get a lot more use than the top, but you'll still be happy with either half you use. Sure, we're not a melee character, so Invisible is less useful on us than on others, but just because one of the most powerful effects in the game is a bit less effective here, doesn't mean it's ineffective.</p>"
+				},
+				{
+					"id": "impendingend",
+					"top": "Before, we've had to meet conditions in order to get Attack 4, Range 4. Here, we get Attack 4, Range 4 as a default, and we can get bonus damage (and some nice guaranteed kills) on top of that. You really shouldn't obsess over the extra text on this action though, it should come up maybe something like 30% of the time. The rest of the time, this is still just a fine non-loss Attack, which is still exactly what we're looking for.",
+					"bottom": "The bottom is also more than fine, although it will pretty rarely get used again just because of how badly we want this top.",
+					"overall": "Impending End is again, exactly what we need.<p>We finally have 4-6 non-loss Attacks prior to this, depending on whether we have Camo and/or Relentless Offensive, but Camo is a better bottom than top, Solid Bow is a better bottom than top, and even Relentless Offensive is maybe a better bottom than top at this point. Thus, we really have only THREE good top non-loss Attacks per rest cycle, which still just isn't enough. Adding a fourth, which is really nice as well, gets us finally into a good spot on that front.</p>"
+				},
+				{
+					"id": "crashingwave",
+					"top": "The top is pretty poor for a level 7 loss, to be honest, as 3 Attack is far too low to put ourselves into melee range for the level of enemies we're going to be facing by now. It's best used with something like the Warhammer as a loss AoE Stun, and on that front it's alright, but it does take up both of our hand slots to do it. ",
+					"bottom": "The bigger draw of this card is the bottom action, which is a really good Doom. Again, enemies typically die pretty quickly, although our damage-per-round hasn't increased a ton since our early levels, and enemy health is getting higher, so our time-to-kill is a bit longer. Thus, by now, this sort of effect can generate a good amount of value, both through our Attacks and our allies', and it would replace Detonation/Felling Swoop as our third Doom, which are both situational by now, with something that's pretty much always good. That would be a reasonable upgrade, without a doubt, but just isn't as necessary/important as adding another good non-loss Attack.",
+					"overall": "Crashing Wave is also a perfectly fine card."
+				},
+				{
+					"id": "feralinstincts",
+					"top": "The top does several things that we like, top move, non-loss long ranged attack with Stun and a tasty little Loot to finish it off. This is an action we will want to use in every scenario. The loot comes a bit late at level 8, but think of it as a bonus on the move attack.",
+					"bottom": "The heal on the bottom is unlikely to see much use, but having another Move 5 is never a bad thing on occasion, but we won't want to be using it as it means forgoing the top action.",
+					"overall": "Feral Instincts is a nice card that has two decent actions, though we will want to be using the top where possible."
+				},
+				{
+					"id": "risingmomentum",
+					"top": "Non-loss top attacks and combined with a good range and a big Push 3 means we are never going to complain about using this action and when the Push comes off it is really nice.",
+					"bottom": "The bottom move and ranged attack are also very serviceable, though less useful.",
+					"overall": "In general a pretty decent card that has some utility."
+				},
+				{
+					"id": "leadtoslaughter",
+					"top": "First, the top is another good non-loss Attack, with some exceptional range and a situational utility ability that can be excellent with traps. It's not super easy to use this top to trigger traps, but the fallback of being an Attack 4 at Range 6 isn't too bad either",
+					"bottom": "But the top isn't the real reason we take this card, it's for the bottom and the Jumping Doom build which is actually nerfed in the archid mod as the required level 8 card no longer has the action to allow multple dooms on an enemy. There is still utility in this action, but it is not the game-breaker that is the jumping doom build.",
+					"overall": "Lead to the Slaughter is a very solid card with two good halves."
+				},
+				{
+					"id": "predatorandprey",
+					"top": "We're playing 0-1 persistent losses and only 1 persistent non-loss, so we can easily afford the additional longevity cost of another persistent loss that we want to play at the beginning of the scenario.<p>And finally, after heaps of bad summons, we get to a good one. What makes this summon good? One word: range. Summons that attack from range typically don't suicide and tend to provide consistent damage for the duration of combat. Because this summon has 3 movement, it can easily make it from room to room without falling behind. Because it has 7 hp, it can even survive a random, unexpected ranged attack most of the time. And with 3 Attack and Poison, this is easily adding at least 4 damage per round (more likely 5-6 with your modifier deck and Poison benefiting allies as well), which is just awesome.</p>",
+					"bottom": "The bottom Doom is also quite powerful but less interesting. Ranged Attacks are a form of damage mitigation and incentivizing under-using range is quite risky. Still, the effect is very powerful, and it's certainly possible to build around this with the right party, especially with a strong front-liner to protect the short-range ranged attackers",
+					"overall": "Predator and Prey is also a very good card.<p>But while this Doom can be good in the right party, the top summon is pretty much always going to be excellent, so there's generally no need to even worry about the bottom as we're just going to play the summon early and often and love it.</p>"
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These are our core level 1 cards. Our best non-loss Attacks, our best Dooms and A Moment's Peace, just an excellent value card. As you can see, this is only part of the hand we need to build. Fortunately, not everything else is bad, although some of it definitely is.",
+							"cards": [
+								{
+									"id": "swifttrickery",
+									"comment": "Non-loss Doom attack"
+								},
+								{
+									"id": "rainofarrows",
+									"comment": "Core Doom"
+								},
+								{
+									"id": "racetothegrave",
+									"comment": "Core Doom"
+								},
+								{
+									"id": "freshkill",
+									"comment": "Non-loss attack"
+								},
+								{
+									"id": "farpain",
+									"comment": "Non-loss Doom attack"
+								},
+								{
+									"id": "solidbow",
+									"comment": "Non-loss attack/Move"
+								},
+								{
+									"id": "amomentspeace",
+									"comment": "Move/Heal"
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "And here are the rest.  Detonation and Felling Swoop are the standard 3rd and 4th Dooms even if the cards have nothing else on them (a common trend with Dooms), although as I said, there can be other substitutes for them depending on your party. Foot Snare isn't good, but compared to some really bad stuff, it's playable. And Multi-Pronged Assault is our best level 1 loss with an acceptable 5th Doom, which might be better or worse depending on our party, but worst-case is a Move 2 with good initiative and a good top loss. So those four are certainly making it in, unfortunately after that we end up scraping the bottom of the barrel.",
+							"cards": [
+								{
+									"id": "detonation",
+									"comment": "3rd Doom"
+								},
+								{
+									"id": "fellingswoop",
+									"comment": "4th Doom"
+								},
+								{
+									"id": "footsnare",
+									"comment": "Movement"
+								},
+								{
+									"id": "multiprongedassault",
+									"comment": "Loss attack/Doom"
+								},
+								{
+									"id": "saplife",
+									"comment": "Low initiative"
+								},
+								{
+									"id": "thehuntbegins",
+									"comment": ""
+								},
+								{
+									"id": "vitalcharge",
+									"comment": ""
+								},
+								{
+									"id": "cripplingnoose",
+									"comment": ""
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "solidbow",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "multiprongedassault",
+							"top": {
+								"text":"Accptable loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "4th Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "footsnare",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "saplife",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "amomentspeace",
+							"top": {
+								"text":"<i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "This is the defining choice for the Expose build",
+					"picks": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "fellingswoop",
+							"comment": "Expose replaces Felling Swoop. From now on, Detonation/Felling Swoop can both fill the same slot, so rotate between the two depending on the scenario and the enemies you'll face in it (which should inform you whether Detonation is good or if you need the movement from Felling Swoop)."
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "solidbow",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "multiprongedassault",
+							"top": {
+								"text":"Accptable loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "4th Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "footsnare",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "saplife",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Early Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "amomentspeace",
+							"top": {
+								"text":"<i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							},
+							"replace": "saplife",
+							"comment": "Press the Attack is good on EVERY scenario. And Darkened Skies bottom basically doesn't do anything except letting us steamroll some of the easiest enemies in the game. So when it's not good, it's really not good, and we're still left with all of the same problems.<p>We replace Sap Life, which was not good, with Press the Attack. Even losing the good initiative doesn't hurt as we got a better one.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "solidbow",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "multiprongedassault",
+							"top": {
+								"text":"Accptable loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "4th Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "footsnare",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "amomentspeace",
+							"top": {
+								"text":"<i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "footsnare",
+							"comment": "Flight of Flame replaces Foot Snare, which just wasn't a good card and only made it in by virtue of being slightly better than our worst cards."
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "solidbow",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "multiprongedassault",
+							"top": {
+								"text":"Accptable loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "4th Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "amomentspeace",
+							"top": {
+								"text":"<i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "wildcommand",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "multiprongedassault",
+							"comment": "Wild Command replaces Multi-Pronged Assault. Assault was fine at level 1 as a loss but by now is pretty underwhelming. Thus, we've cut our last mediocre card. Do remember that you can always consider Multi-Pronged Assault over Detonation/Felling Swoop based on your party composition."
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "solidbow",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "wildcommand",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "amomentspeace",
+							"top": {
+								"text":"<i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "camouflage",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Invisible</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "amomentspeace",
+							"comment": "The bottom is a solid upgrade here as going Invisible at this level is likely to mitigate far more than 2 health and we shouldn’t be using the top loot. We will be losing the <i>Bless</i> if we have enhanced this card, but the improvement is too good to miss and we have no other candidates to lose."
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "solidbow",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "wildcommand",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "camouflage",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Invisible</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "impendingend",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"replace": "solidbow",
+							"comment": "Impending End replaces Solid Bow. Solid Bow was a necessary card because we needed both effects early on but now we can easily afford to replace it as we have a number of better non-loss Attacks and some good movement (a Move 5 Jump in Flight of Flame and two Move 3 + bonuses in Wild Command and Camo). An alternative would be to drop Far Pain but the opportunity for Advantage on the attack if the target is doomed makes it slightly stronger than Solid Bow."
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "impendingend",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "farpain",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "wildcommand",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "camouflage",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Invisible</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "feralinstincts",
+							"top": {
+								"text":"Move, ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "farpain",
+							"comment": "Feral Instincts replaces Far Pain as a huge upgrade with the Stun. Remember to cash in any enhancements when you drop it."
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "freshkill",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "impendingend",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "feralinstincts",
+							"top": {
+								"text":"Move, ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Heal</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "wildcommand",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "camouflage",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Invisible</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "predatorandprey",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"replace": "freshkill",
+							"comment": "We take Predator and Prey. Lead to the Slaughter is a good card, but Predator and Prey just has much higher upside for us that we can easily afford. An alternative would be to go back and take the level 8 card we passed up on.<p>Predator and Prey replaces Fresh Kill. Fresh Kill gets a lot harder to use when you have this summon constantly attacking (because the summon goes before you, should be with you all scenario, and you want to Attack its target to benefit from the Poison) and it was already our least consistent non-loss Attack.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "expose",
+							"top": {
+								"text":"Always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Room 1 vs. <i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "predatorandprey",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "impendingend",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "feralinstincts",
+							"top": {
+								"text":"Move, ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Heal</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "swifttrickery",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "presstheattack",
+							"top": {
+								"text":"Non-loss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "racetothegrave",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "1st Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "rainofarrows",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "2nd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "detonation",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "3rd Doom",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "wildcommand",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move, Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flightofflame",
+							"top": {
+								"text":"Never use",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 5 <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "camouflage",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3 <i>Invisible</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "fellingswoop",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "5th Doom",
+								"style": "w3-pale-green"
+							},
+							"replace": "detonation",
+							"comment": "Need big movement, no clustered enemies.<p>Detonation Doom is good for clustered shielded enemies, Felling Swoop gives us big movement if required.</p>"
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "amomentspeace",
+					"position": "bottom",
+					"enhancement": "<i>Bless</i>",
+					"comment": "For the Expose build there is no need for <i>Strengthen</i> so we put <i>Bless</i> on here instead"
+				},
+				{
+					"card": "swifttrickery",
+					"position": "top",
+					"enhancement": "+1 Attack",
+					"comment": "In general, we hit for a lot of damage so conditions just aren't appealing to add to our Attacks, thus we'll just be getting +1 Attacks each time."
+				},
+				{
+					"card": "presstheattack",
+					"position": "top",
+					"enhancement": "+1 Attack",
+					"comment": "Getting enhanced for the exact same reason as Swift Trickery, only it's afterwards because it costs more by virtue of being a level 3 card."
+				},
+				{
+					"card": "wildcommand",
+					"position": "bottom",
+					"enhancement": "+1 Attack",
+					"comment": "And again for the same reasons, we will be using this every cycle."
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "consistency"
+						},
+						{
+							"order": 2,
+							"name": "ambition"
+						},
+						{
+							"order": 3,
+							"name": "resilience"
+						},
+						{
+							"order": 4,
+							"name": "blind"
+						},
+						{
+							"order": 5,
+							"name": "lacerate"
+						},
+						{
+							"order": 6,
+							"name": "daze"
+						},
+						{
+							"order": 7,
+							"name": "taint"
+						},
+						{
+							"order": 8,
+							"name": "technique"
+						},
+						{
+							"order": 9,
+							"name": "sweep"
+						},
+						{
+							"order": 10,
+							"name": "hobble"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "",
+						"picks": [
+							{
+								"id": "hawkhelm",
+								"comment": "4"
+							},
+							{
+								"id": "pendantofdarkpacts",
+								"comment": ""
+							},
+							{
+								"id": "empoweringtalisman",
+								"comment": ""
+							},
+							{
+								"id": "cloakofpockets",
+								"comment": "6"
+							},
+							{
+								"id": "cloakofinvisibility",
+								"comment": ""
+							},
+							{
+								"id": "weightednet",
+								"comment": "5"
+							},
+							{
+								"id": "piercingbow",
+								"comment": ""
+							},
+							{
+								"id": "bootsofstriding",
+								"comment": "3"
+							},
+							{
+								"id": "bootsofdashing",
+								"comment": ""
+							},
+							{
+								"id": "bootsofspeed",
+								"comment": ""
+							},
+							{
+								"id": "minorstaminapotion",
+								"comment": "1"
+							},
+							{
+								"id": "majorstaminapotion",
+								"comment": "2"
+							},
+							{
+								"id": "ringofbrutality",
+								"comment": ""
+							},
+							{
+								"id": "minorcurepotion",
+								"comment": ""
+							},
+							{
+								"id": "stunpowder",
+								"comment": "7"
+							},
+							{
+								"id": "ringofhaste",
+								"comment": ""
+							},
+							{
+								"id": "doomedcompass",
+								"comment": ""
+							},
+							{
+								"id": "minorhealingpotion",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
+		}
   ]
 }

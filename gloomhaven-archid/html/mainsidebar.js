@@ -66,6 +66,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('dsDrop')">Doomstalker <i class="fa fa-caret-down"></i></button>
     <div id="dsDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="ds-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="ds-expose.html" class="w3-bar-item w3-button">Expose</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

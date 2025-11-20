@@ -16871,6 +16871,1686 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "sc-melee",
+			"classid": "sc",
+			"build": "Melee",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://imgur.com/a/foqpEjY",
+			"overview": { 
+				"body": [
+					"This build is the standard burst melee build for the scoundrel."
+				]
+			},
+			"cards": [
+				{
+					"id": "backstab",
+					"top": "The top action is consistently overrated.",
+					"bottom": "The real strength of this card is that it's a move 6, which is our largest move, with an amazing 6 initiative. And let me tell you, you haven't lived until you've played a non-loss move 6 at level 1. It feels great.",
+					"overall": "You bring this card to scenarios for the bottom action, which is very good, and then if you lose it before the end to a short rest roll, it's really not a big deal.<p>If you do manage to keep it until the end (which shouldn't be a priority but can just sometimes happen), then sometimes you'll get to play the top loss in the last couple of turns, when playing a loss has a minimal impact on longevity. Otherwise, remember that this loss is just 2 attack higher than our standard attacks, which does not merit an early or mid-scenario loss on power level alone. It can get up to +4 attack with Smoke Bomb, which is a combo we'll try to use on boss fights, but we can never afford two losses outside of those scenarios.</p>"
+				},
+				{
+					"id": "flankingstrike",
+					"top": "Hitting 5 with adjacency is a lovely action.",
+					"bottom": "Move 5 on the bottom in case we need it is great.<p>We won't use the bottom much at early levels, preferring to look elsewhere for movement so as to keep this top action, but having the option is still nice.</p>",
+					"overall": "This is our best level 1 card. Great movement and very low initiative.<p>Obviously if you can't consistently get the adjacency bonus, this card's top action gets a lot worse, but again you really don't want to play Scoundrel without being able to get adjacency bonuses most of the time, so I don't think that's a serious consideration we need to make.</p>"
+				},
+				{
+					"id": "quickhands",
+					"top": "The move is nice on the top, but the attack in general is underwhelming.",
+					"bottom": "The bottom is also not very good as bottom Loot actions typically remain.",
+					"overall": "The best thing to do with this card is use the top action alongside the bottom of Thief's Knack to do a combined 5 attack with 2 move in one turn. Obviously that's a lot worse than when we just use one of our attack 5's and get to use a bottom action on top of that but the advantage of this Quick Hands combo is that we don't require allied adjacency on our target, which even in a party with a melee ally, can't always be the case (although in most of those cases, that's when we use our ranged attacks, both because they're more flexible and because it's riskier to approach enemies when we're alone)."
+				},
+				{
+					"id": "singleout",
+					"top": "Single Out is the same top action as Flanking Strike but worse because of initiative (at least intrinsically) and the bottom action. So there's not a lot to say about the top action, obviously, as it was great on Flanking Strike and it's great here.",
+					"bottom": "The bottom action, on the other hand, you'll again pretty rarely play. The same rule applies regarding average scenarios, but here even on boss scenarios, it's much more questionable because it's harder to use (you need to be sure, usually in advance, that the boss will start and remain isolated for this bottom action to really be worth the loss).",
+					"overall": "While intrinsically the late initiative might seem bad, having at least one really late initiative is actually very helpful for the Scoundrel, allowing for the classic 'run in late, attack, go early the next around with an attack and move out or finish the enemy.' So even what's 'bad' on this card is often good, making it another very good card."
+				},
+				{
+					"id": "sinisteropportunity",
+					"top": "The strength of this top action largely depends on your party size and to some extent your party composition. First of all, let's establish that you cannot consistently create Dark without enhancement (the Dark enhancement strategy for the Scoundrel is an interesting idea though, to be sure), you only have Smoke Bomb. And we're only using the Smoke Bomb loss on short/boss scenarios, so on those scenarios can this be a better replacement for Backstab when doing a Smoke Bomb combo? If you're in a party of 4, probably. Obviously if you're in a party of 4 and have at least 2 melee allies, then the answer is definitely. Party of 4 with 1 melee ally is close and really ends up being a judgment call based on how much your ranged allies are willing to work with you (can you get at least one of them to move into melee range). If you can get 2 allies in melee range, then this card is obviously better for the combo than Backstab, if you can't, then stick with Backstab.<p>So it's worthwhile to bring for Smoke Bomb combo scenarios in parties of 4 with 1-2 melee allies. Is it worthwhile for anything other than that? Well, in a 2 player party, never. Obviously the top action can never be good in such a party. Otherwise, if you have an ally who can consistently create Dark, I would absolutely bring this card in a party of 3 or larger. If you don't, I wouldn't, because even in a party of 4, you'd need at least 2 allies next to a target for this even to be an attack 5. And while an attack 5 is good, having 2 allies next to a target and that target not already being dead (obviously excluding bosses, which we addressed above) is quite rare and will usually be far from optimal.</p>",
+					"bottom": "Now, after all this discussion of the top action, how is the bottom? It's fine. A move 3 is obviously on the short end for this class but still on the general scale of actions, a move 3 with a small upside is a nice action. How important is this small upside? Again, it depends on your party composition - if you have someone like a Brute as a melee ally, who typically can't go as early as you, you may need this action in order to setup adjacency some amount of the time. If you have a melee ally like a Mindthief, you'll need this very, very rarely. Finally, if your party completely lacks Push, this action can sometimes work to trigger traps, at least until you get level 7, which gives you much more flexibility in that department.",
+					"overall": "Sinister Opportunity isn't a bad card but it's also not exceptional as it gives us a very late initiative option."
+				},
+				{
+					"id": "smokebomb",
+					"top": "The top action is not good on an average scenario as you simply cannot afford loss cards that do something like 5-7 attack (potentially even requiring another loss) with a 9 card hand size. On short/boss scenarios, the top is very good and you should usually always bring it for that alone.",
+					"bottom": "Meanwhile, the bottom depends on party composition: if your melee ally is a Mindthief, this action will be pretty unnecessary as the Mindthief can approach enemies at similar initiatives to you without a problem.<p>If your melee ally is a Brute, this action will actually be quite good as you can reposition enemies next to the Brute before the Brute goes, which is an issue for him as he can rarely go as early as you in the round. If you have no melee allies this action is also quite good but I wouldn't recommend that situation in general.</p>",
+					"overall": "This is a very situational card and depends on both the scenario and party composition.<p>It comes into it's own at level 5 with a round 1 execute combo.</p>"
+				},
+				{
+					"id": "specialmixture",
+					"top": "And while we will never, ever use the top action in combat (which is fine because the bottom is great in combat), having some healing when moving from room to room is quite welcome, as you will certainly take some hits almost every scenario.",
+					"bottom": "If you're in combat, the bottom functions a bit like a non-move bottom action, giving at least +1 damage for free, while still allowing you to move, if necessary.",
+					"overall": "Special Mixture is a very nice card and is consistently quite underrated.<p>Obviously, if you have something like a Tinkerer in your party, whose primary job is healing, the top of this card becomes a lot less necessary and thus we're less inclined to bring it for just one half.</p>"
+				},
+				{
+					"id": "swiftbow",
+					"top": "The top attack is fine and gives flexibility in your ranged attack.",
+					"bottom": "The bottom action with 3 move will often let you pick up a couple of coins and if enhanced or with boots even more.",
+					"overall": "Once/if you have the Power of Enhancement, I would immediately put +1 move on the bottom of Swift Bow, which is an inexpensive enhancement and will greatly increase the effectiveness of this card. With the extra move, it's very common to be able to pick up 2 or 3 coins, meaning your enhancement investment will quickly pay for itself."
+				},
+				{
+					"id": "thiefsknack",
+					"top": "Being able to use traps as a ranged attack is a very powerful mechanic, especially against shielded enemies and archers who drop traps as an action.",
+					"bottom": "The real star of this card is the bottom attack 3, 1 XP, which again compares very favourably to other classes at level 1 (the Brute has attack 2, no XP at level 1). The downside for you is that you don't typically want to spend a turn next to an enemy in order to be able to use this action the following turn.",
+					"overall": "Thief's Knack has two good, if somewhat situation sides.<p>The downside for you is that you don't typically want to spend a turn next to an enemy in order to be able to use this action the following turn. That leaves two common situations in which this attack is good:<ol><li>with the top action of Quick Hands (and later the level 3 card) which allows you to move in and still get the bottom.</li><li>it's quite common for melee classes to try to go as late as possible in order to allow enemies to act without reaching them (assuming the enemies don't have enough movement or range to do so - this strategy falls apart significantly as you get to the higher levels when enemies have way too much movement or range to avoid) and then walk in late with an attack, followed by a very early action the following round.</li></lo><p>Typically when the Scoundrel does this routine it's part of an in-and-out dance where you run back outside of the reach of monsters the following turn, but sometimes you'll just need a little extra damage to finish an enemy off, so you can play a top and bottom attack early the next round, using the bottom of Thief's Knack, and get in for something like 8 damage to eliminate an enemy (and thus you may not need to run away as an attacker should be gone). Obviously the risk with this strategy is that you're extremely exposed should you flip a miss.</p>"
+				},
+				{
+					"id": "throwingknives",
+					"top": "First of all, how good is this top action? Very, very good for a level 1 card (for comparison, the Spellweaver gets literally the exact same top action, on a playable card, at level 4 with 20 initiative). For turns where you don't want to or aren't sure that you can get next to enemies with a melee ally, you can toss some knives and barely miss out on any damage (4 vs 5, but obviously scales better with your modifier deck). The only downside is that your job will typically be eliminating enemies before they go and instead spreading a smaller amount of damage around on multiple targets won't always feel great as you may be leaving all the enemy attackers around.",
+					"bottom": "Meanwhile, you'll pretty much never play the bottom action of this card as it's a loss and while a Loot 2 loss is also quite powerful at level 1 (the Spellweaver gets that same action at level 3), you'll eventually have enhanced Swift Bow (or your boots) for looting most of the time and losses are too painful.",
+					"overall": "Throwing Knives seems out of place as a multi-target ranged attack on a melee assassin but the Scoundrel has a knife-throwing subtheme and honestly, we're quite happy to see it because it provides some welcome flexibility.<p>If somehow this ends up being one of your last 2-3 cards at the end of a scenario (which isn't typically ideal but can happen), then you may occasionally get to fire off the bottom.</p>"
+				},
+				{
+					"id": "trickstersreversal",
+					"top": "The top action has the potential to be very powerful against high-shield enemies that are otherwise difficult to kill. Still, it is a loss, which means we'll basically only bring this card when facing Flame Demons or Vermling Shaman in shorter scenarios (and we should typically save it for an elite).",
+					"bottom": "The bottom action is fine and you will use it sometimes when you bring this card for the top but is not enough to justify bringing the card on a regular basis by itself. The problem is that you can only use this action when you're already in range for an attack, which means primarily with ranged attacks or if you ended your turn in melee range of an enemy (but in the case of the latter, you'll generally prefer to use Thief's Knack to help finish an enemy).",
+					"overall": "Trickster's Reversal is a pretty bad card that fits firmly into the sideboard card category."
+				},
+				{
+					"id": "venomshiv",
+					"top": "The top action is good for when you need to lead the way in attacking an enemy and for whatever reason can't rely on an ally to get there before you. By giving an attack 3 poison, you'll often end up doing around an attack 5 with this attack anyway as Poison should add around 2 additional attack in this situations.",
+					"bottom": "When you don't need the top attack (which will be more often than not, ideally), you've just got a casual move 5 on the bottom.",
+					"overall": "Venom Shiv is a fine-but-not-exciting card.<p>The biggest downside of this card is the initiative, which is not good. While having 1-2 very late initiatives can be very good, 60 is late without being late enough to actually be good.</p>"
+				},
+				{
+					"id": "flintlock",
+					"top": "A top Loot action is typically nice, although situational, and this is paired with a spammable bottom action.",
+					"bottom": "A spammable ranged bottom action with Pierce is good for this class as she is fairly limited against shielded enemies and has low HP so retaliate enemies are also very troublesome.",
+					"overall": "This is a solid card with a good late initiative and a spammable bottom that adds to our build."
+				},
+				{
+					"id": "openwound",
+					"top": "So the top Attack is in the same vein as Flanking Strike and Single Out and is, in fact, a minimum of an Attack 5 just like they are, with the possibility of being an Attack 6 a significant portion of the time. The only small downside is that Wound doesn't stack so if your party already has multiple other sources of Wound, you need to be more careful where you attack or this may just end up as an Attack 4. The other great thing about this top Attack is that not getting the Wound isn't the end of the world, making this one of our best attacks to use when we can't get allied-adjacency that turn.<p>At level 1, an Attack 3 in melee is pretty bad. At level 2, an Attack 4 in melee isn't good, but it's acceptable, so you have a lot of flexibility with when and how you play this top action.</p>",
+					"bottom": "The flexibility is only improved by the fact that this can be a Move 5 when you absolutely need it to be (although it's more likely that you'll want to avoid that most of the time until much higher level as this is currently your best non-loss Attack).",
+					"overall": "What's not to like about this card? Great top action, good bottom action, good initiative."
+				},
+				{
+					"id": "duelistsadvance",
+					"top": "The top action that's a strict upgrade over Quick Hands, although Quick Hands was never good.<p>It just gives us more movement for when we need to rush through a scenario, allowing us to move up to 9 spaces without items or losses in a single turn. It also helps a lot with looting in combination with Swift Bow, allowing you to position yourself for an ideal path before you use the bottom of Swift Bow to Loot. Finally, its top action also combos with Thief's Knack just like Quick Hands did, although obviously now with one more Attack. Still, while this combo was fine, you'll never really be that excited to do that rather than a more powerful top Attack.</p>",
+					"bottom": "Fortunately, where Duelist's Advance scales better into higher levels is the bottom action, which is what you'll want to use most in combat. Having a couple non-Move bottom actions that are effective in combat is always welcome and this one can, often, add at least 2 Attack. The upside is quite high, however, as you'll sometimes be able to combine this with Throwing Knives or Flurry of Blades (at level 4) to add 2-6 Attack, which feels great.",
+					"overall": "This is an OK card, but not something to look forward to receiving."
+				},
+				{
+					"id": "hiddendaggers",
+					"top": "This top action is quite underpowered, even with Advantage, for a loss in general and not remotely welcome for our class given it’s a loss card.",
+					"bottom": "The bottom action of Invisibility is powerful but for a level 3 is also pretty unimpressive (the Mindthief gets the same action at level 1 with better initiative). Also, Invisibility on a non-Move bottom action is often difficult to use effectively because you cannot move to set yourself up ideally. Obviously you could do that with Quick Hands or Duelist's Advance, but the former is a poor card to have as we level and the latter is the other choice from level 3 (and there's no world in which we're skipping the level 4 or 5 cards to go back for one of these). Also, you're still just doing an Attack 3 at best for a turn there, which is mediocre.",
+					"overall": "This is quite a bad card.<p>The base attack is less damage than Fire Orbs for the Spellweaver at level 1 and this is level 3. We're also a class that can less afford loss actions and we've already seen that our cards typically compare favourably in terms of power level to the Spellweaver simply because we have less longevity.</p>"
+				},
+				{
+					"id": "flurryofblades",
+					"top": "The top gives you a significant upgrade over Throwing Knives, which was already a really good action at level 1 (although is a bit worse at level 4, but is carried along by the bottom of Duelist's Advance).",
+					"bottom": "The bottom gives a Move action that also adds a bit of non-Move bonus while in combat (Move 4 is also a very convenient number for a certain helm that this class wants) that is excellent for making your giant hits on bosses consistent.",
+					"overall": "Flurry of Blades is really an incredible card.<p>Like Open Wound, it's another one of those cards that just has EVERYTHING going for it with the upgraded top and the bonus to the move on the bottom.</p>The 3 initiative is obviously just blindingly fast (in base Gloomhaven, there are only two monsters with one card each that can go faster than this). You'll just love this card because you're always happy to use one of the halves. The only frustration comes from the fact that when you use one half, you can't use the other.</p>"
+				},
+				{
+					"id": "gruesomeadvantage",
+					"top": "The top here offers a more powerful version of the Backstab loss, but we don't want loss cards at all.",
+					"bottom": "The bottom adds one movement to Backstab.<p>Because the top loss is merely a sideboard consideration, the main comparison is the bottom vs the bottom, and I'd honestly rather have a move 6 with 6 initiative than a move 7 with 62 initiative.</p>",
+					"overall": "Well, this card is supposed to be a strict upgrade over Backstab but in reality it's not so clear-cut. One of Backstab's best-selling points is its initiative and Gruesome Advantage has terrible initiative.<p>The small added bonus of the top's upgrade may not even make this card better than Backstab and we're definitely not in on taking a side-grade at level 4 (especially against as good of a card as Flurry of Blades).</p>"
+				},
+				{
+					"id": "visageoftheinevitable",
+					"top": "You will use this top on the first turn of most scenarios and give your party a huge head start in the first room fight. Beyond that, it will be a bit harder to setup properly, but the payoff is absolutely worth it.",
+					"bottom": "Fortunately, for all the time you struggle or simply can't use the top effectively, this card also provides a very worthwhile bottom action. Admittedly, it's not really even better than Special Mixture because you're not an AoE class in melee range and you don't have crowd control, so you don't really want to put yourself next to 2-3 enemies most of the time and two movement is a lot worse than three.",
+					"overall": "Visage is one of the most balanced non-loss executes in the game but being the 'most balanced of a broken mechanic' doesn't make it a very fair card regardless."
+				},
+				{
+					"id": "culltheweak",
+					"top": "This is a straight upgrade to your best level 1 Attacks in Single Out and Flanking Strike. Those Attacks were great at level 1, and this one is good at level 5.",
+					"bottom": "The bottom is mostly just nonsense. You really don't want to be focusing crowd-controlled targets first (or playing losses to get bonus damage on them). Even if this bottom didn't have the conditional requirement on it, it would just be a playable loss, not even too strong, and obviously the conditional requirement is a huge downside.",
+					"overall": "Cull the Weak is just a direct upgrade over what are already your very good melee attacks."
+				},
+				{
+					"id": "cripplingpoison",
+					"top": "In order to get benefit from this it needs to be played early in the scenario, but it is not a loss so we can gain it back when resting so it has less of an impact on our longevity.",
+					"bottom": "The bottom is alright but not really even much better than Thief's Knack, which we already cut.",
+					"overall": "Crippling Poison is for the 'Poison build', in which you try to apply Poison to enemies as much as possible in order to get bigger attacks on them. I think the build is actually pretty interesting."
+				},
+				{
+					"id": "burningoil",
+					"top": "A spammable ranged attack that adds an effect and also generates an element is never a bad thing.",
+					"bottom": "The bottom is a non-loss Loot 2, which is pretty incredible to be honest, as while bottom Loot actions aren't the best, Loot 2 is enormous and getting it on a non-loss feels amazing (although probably not for your teammates).",
+					"overall": "Burning Oil is just a nice card. Having a mixture of ranged and melee attacks allows you to make sure you're always dealing effective damage while also avoiding enemy damage.<p>The super-late initiative on this card is also really incredible actually, as those turns when you let the enemies go before you and then move in can be even more flexible (given that you don't always know if the enemies will move or how much) when you can make a powerful ranged attack.</p>"
+				},
+				{
+					"id": "sticktotheshadows",
+					"top": "Obviously with Dark this top action is incredible as a non-loss attack 8! Without Dark, it's pretty bad and Smoke Bomb alone is far from enough. There may also be an interesting strategy with this class once you reach Prosperity 6 or 7 where you enhance at least 1 source of Dark on one of your moves in order to make this a self-contained combo but I've never tried that out.",
+					"bottom": "Meanwhile, the bottom of this action is interesting but not super useful. You don't actually have any benefit to being Invisible other than what it does innately but at the same time, that's also not very useful for you. Your attacks are either ranged or require an ally adjacent to your target and in either case, Invisibility just isn't going to do much most of the time (other than redirect damage to an ally, but that's a lot worse than getting Advantage or adding Poison).",
+					"overall": "Stick to the Shadows is a card that has enormous potential upside with the right set of circumstances but isn't very good intrinsically."
+				},
+				{
+					"id": "springthetrap",
+					"top": "The top is a very, very powerful non-loss action in scenarios with a reasonable amount of traps.",
+					"bottom": "The bottom is a very, very powerful action (especially when combined with Smoke Bomb) on boss fights. Obviously the bottom here + Smoke Bomb requires a fair amount of setup but the payoff is really there. And just to emphasize, I've repeatedly insisted that people overvalue big numbers because of the coolness factor, but having access to both of those cards together can basically allow you to singlehandedly win boss fights for your party.",
+					"overall": "Spring the Trap is both hilariously-awesome and the ultimate sideboard card.<p>So the real question is: should we take a card that we know is strictly a sideboard card? In this case, I think the upside is high enough that the answer is yes. In either situation when we bring this card in, it's going to have a very strong impact on our ability to win the scenario. And enough scenarios will either be boss fights or have a reasonable number (4+) of traps that you should still use this more often than not.</p>"
+				},
+				{
+					"id": "painsend",
+					"top": "This is great between rooms or in Oh Shit! moments.",
+					"bottom": "The bottom is actually quite strong, but is also an absolute pain to make work. Accordingly, while it might seem good, it's mostly just a trap as a Move 3 with 38 initiative that will clog up your hand all too often.",
+					"overall": "For a level 8 card this is fairly underwhelming. Neither action is something that we are going to make any great use of in most scenarios."
+				},
+				{
+					"id": "stilettostorm",
+					"top": "This isn't a great top except against shielded enemies, who are probably some of the most awkward ones to deal with.",
+					"bottom": "Speaking of the bottom action here, it's a basic Move 4.",
+					"overall": "Stiletto Storm is also quite underwhelming, being the last attack for the dagger-throwing build (and obviously synergizing with the level 9 persistent loss, but more on that shortly)."
+				},
+				{
+					"id": "watchitburn",
+					"top": "Watch it Burn is powerful enough to easily merit playing a persistent loss on a 9-card class, as the added tempo is easily going to outweigh the cost of playing as an 8-card class in boss fights.",
+					"bottom": "On long scenarios where we really just can't afford it, the Move 5 with a very powerful effect at an amazing late initiative (something we always appreciate, even more now that we have repeatable Invisibility as we often want to come out of Invisibility late in the round so enemies will have acted before us) will also be great.",
+					"overall": "Obviously the build is to take this card along with all your multiple-target knife attacks and just spread Wound and Poison everywhere. If this card was an option at level 8, that might be a real build, but sadly it is not because taking this card at level 9 would mean not taking Long Con, which is an absurd card."
+				},
+				{
+					"id": "longcon",
+					"top": "Long Con top is the type of effect that completely warps scenarios: significant damage non-loss multi-target disables (and make no mistake, Disarm is pretty much a hard disable).",
+					"bottom": "There's also a TON of text on the bottom but you really don't even need to read it.",
+					"overall": "We add Jump to the bottom of Flurry specifically for this combo: Jump into the centre of most of the enemies, Disarm them all and remove a significant portion of their hp, Stamina Potion them both back, repeat next turn, and now the room is over. Monsters trying to fight against this card is like an old hermit throwing rocks at the Death Star to try to save his world - it's just not happening and it ends with destruction. You even have initiative 2 in order to make sure you always get this off before enemies go. Honestly, this action is completely broken and is one of the two most absurd cards in all the starting classes (alongside Inferno). If scenarios aren't easy for you after you pick this up, you're doing something wrong.,p>Finally, if you ever wondered how good the Scoundrel is at looting, how about you do that math on a beautiful Curse enhancement there quickly and then come back to gape in awe (I would absolutely recommend that Curse enhancement if you can ever afford it, it is also completely broken).</p>"
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These are your core cards at level 1, ordered by power/importance.",
+							"cards": [
+								{
+									"id": "flankingstrike",
+									"comment": ""
+								},
+								{
+									"id": "specialmixture",
+									"comment": ""
+								},
+								{
+									"id": "throwingknives",
+									"comment": ""
+								},
+								{
+									"id": "singleout",
+									"comment": ""
+								},
+								{
+									"id": "backstab",
+									"comment": ""
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "Here are the remaining cards. We should lose Quick Hands first and then Thief's Knack",
+							"cards": [
+								{
+									"id": "venomshiv",
+									"comment": ""
+								},
+								{
+									"id": "thiefsknack",
+									"comment": ""
+								},
+								{
+									"id": "quickhands",
+									"comment": ""
+								},
+								{
+									"id": "swiftbow",
+									"comment": ""
+								},
+								{
+									"id": "smokebomb",
+									"comment": ""
+								},
+								{
+									"id": "trickstersreversal",
+									"comment": ""
+								},
+								{
+									"id": "sinisteropportunity",
+									"comment": ""
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "quickhands",
+							"top": {
+								"text":"Thief's Knack combo",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "throwingknives",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "thiefsknack",
+							"top": {
+								"text":"Ranged trap attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Rarely used loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "venomshiv",
+							"top": {
+								"text":"Attack <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							},
+							"replace": "venomshiv",
+							"comment": "Open Wound replaces Venom Shiv, giving us a comparable top Attack for enemies where we don't have adjacency bonuses, but being strictly better in almost every other situation."
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "quickhands",
+							"top": {
+								"text":"Thief's Knack combo",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot</i>",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "throwingknives",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "thiefsknack",
+							"top": {
+								"text":"Ranged trap attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Rarely used loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "duelistsadvance",
+							"top": {
+								"text":"Thief's Knack combo",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Use when procs",
+								"style": "w3-pale-green"
+							},
+							"replace": "quickhands",
+							"comment": "Duelist's Advance easily replaces Quick Hands, providing a strictly better with much better initiative and honestly a better bottom action as well."
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "duelistsadvance",
+							"top": {
+								"text":"Thief's Knack combo",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Use when procs",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "throwingknives",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "thiefsknack",
+							"top": {
+								"text":"Ranged trap attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Rarely used loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "throwingknives",
+							"comment": "Flurry of Blades goes in and Throwing Knives comes out as a straight top upgrade."
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "duelistsadvance",
+							"top": {
+								"text":"Thief's Knack combo",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Use when procs",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "thiefsknack",
+							"top": {
+								"text":"Ranged trap attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Rarely used loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "Lots of changes at this level as we pivot our hand to use our execute.",
+					"picks": [
+						{
+							"card": "visageoftheinevitable",
+							"top": {
+								"text":"Room opener combo",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "backstab",
+							"comment": "We are replacing a big attack loss with a non-loss situational execute."
+						},
+						{
+							"card": "smokebomb",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 / kill combo",
+								"style": "w3-pale-green"
+							},
+							"replace": "duelistsadvance",
+							"comment": "We bring in Smoke Bomb for its combo with Visage as that is such a powerful first action that can take out a strong enemy at the start of a scenario. It is harder to pull off in the middle of a fight that might be expected."
+						},
+						{
+							"card": "throwingknives",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							},
+							"replace": "thiefsknack",
+							"comment": "We also bring Throwing Knives back, dropping Thief's Knack as we lost that combo with Duelist's Advance."
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "throwingknives",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "smokebomb",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 / kill combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "visageoftheinevitable",
+							"top": {
+								"text":"Room opener combo",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "burningoil",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last Room",
+								"style": "w3-pale-blue"
+							},
+							"replace": "throwingknives",
+							"comment": "Burning Oil replaces Throwing Knives, giving us a big upgrade in the ranged damage category.<p>Throwing Knives was only in there as a stop-gap as it's damage output was far too low for this level.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "burningoil",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last Room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "smokebomb",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 / kill combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "visageoftheinevitable",
+							"top": {
+								"text":"Room opener combo",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "springthetrap",
+							"top": {
+								"text":"Ranged trap trigger",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Power up attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "scback",
+							"comment": "Spring the Trap is a sideboard card, thus it doesn't immediately go into our deck for every scenario, replacing Swift Bow when it does.<p>For boss fights Special Mixture will be replaced with Backstab as the third part of the combo.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "burningoil",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last Room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "singleout",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "smokebomb",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 / kill combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "visageoftheinevitable",
+							"top": {
+								"text":"Room opener combo",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "springthetrap",
+							"top": {
+								"text":"Ranged trap trigger",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Power up attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "swiftbow",
+							"comment": "Either good traps or boss fights"
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Big boss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-blue"
+							},
+							"replace": "specialmixture",
+							"comment": "Boss fights to combo with Spring the Trap bottom"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "sticktotheshadows",
+							"top": {
+								"text":"Attack requiring <i>Dark</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Invisible</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "singleout",
+							"comment": "Given the choice of two poor cards at level 8, we go back and take whichever level 7 card we didn't take last time.<p>Stick to the Shadows comes in even if we don't have the Dark yet as a Move 2 with Invis is still good enough.</p><p>We have one flex slot that can have either Spring the Trap for trap scenarios or Swift Bow otherwise.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "burningoil",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last Room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "smokebomb",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 / kill combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "specialmixture",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poson</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "visageoftheinevitable",
+							"top": {
+								"text":"Room opener combo",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sticktotheshadows",
+							"top": {
+								"text":"Attack requiring <i>Dark</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Invisible</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "springthetrap",
+							"top": {
+								"text":"Ranged trap trigger",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Power up attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "swiftbow",
+							"comment": "Either good traps or boss fights"
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Big boss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-blue"
+							},
+							"replace": "specialmixture",
+							"comment": "Boss fights to combo with Spring the Trap bottom"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "longcon",
+							"top": {
+								"text":"Attack <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							},
+							"replace": "specialmixture",
+							"comment": ""
+						}
+					],
+					"hand": [
+						{
+							"card": "flankingstrike",
+							"top": {
+								"text":"Adj. Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "burningoil",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last Room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flurryofblades",
+							"top": {
+								"text":"Ranged multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move <i>Advantage</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "longcon",
+							"top": {
+								"text":"Attack <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "openwound",
+							"top": {
+								"text":"Attack <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "smokebomb",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2 / kill combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "swiftbow",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move with <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "visageoftheinevitable",
+							"top": {
+								"text":"Room opener combo",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sticktotheshadows",
+							"top": {
+								"text":"Attack requiring <i>Dark</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Invisible</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "springthetrap",
+							"top": {
+								"text":"Ranged trap trigger",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Power up attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "swiftbow",
+							"comment": "Either good traps or boss fights"
+						},
+						{
+							"card": "backstab",
+							"top": {
+								"text":"Big boss attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 6",
+								"style": "w3-pale-blue"
+							},
+							"replace": "specialmixture",
+							"comment": "Boss fights to combo with Spring the Trap bottom"
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "swiftbow",
+					"position": "bottom",
+					"enhancement": "+1 Move",
+					"comment": "For enhancements, the first we'll do is +1 Move to Swift Bow, but only if we can get Boots of Striding. With Boots of Striding and this enhancement, we can go pretty crazy in terms of picking up gold. But we also don't NEED Boots of Striding and plenty of other classes do, so if you have two party members who have a better claim to Stridings, just skip this enhancement and cut Swift Bow much sooner."
+				},
+				{
+					"card": "flankingstrike",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "Jump boots are overpriced and really just underwhelming, especially considering how inexpensive it is to simply enhance Jump on a Move 5. And as is the general rule, on a mostly-melee damage-dealer, we really love having two instances of big Move Jump actions, and this will be the first. And Flanking Strike top scales rather poorly, so having this bottom enhancement will pick up the slack as a perfect bottom action at any level with this initiative."
+				},
+				{
+					"card": "specialmixture",
+					"position": "bottom",
+					"enhancement": "+1 Move",
+					"comment": "Only if we have the Endurance Footwraps"
+				},
+				{
+					"card": "flurryofblades",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "This scales up so well and sets us up perfectly for when we reach level 9 and get to pair this bottom with Long Con top perfectly."
+				},
+				{
+					"card": "openwound",
+					"position": "top",
+					"enhancement": "+1 Attack",
+					"comment": "This is an already big attack that we want to be making every cycle"
+				},
+				{
+					"card": "openwound",
+					"position": "bottom",
+					"enhancement": "<i>Dark</i>",
+					"comment": "Sets up Stick to the Shadows for a big attack."
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "intensify"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "focus"
+						},
+						{
+							"order": 4,
+							"name": "heighten"
+						},
+						{
+							"order": 5,
+							"name": "dust"
+						},
+						{
+							"order": 6,
+							"name": "resilient"
+						},
+						{
+							"order": 7,
+							"name": "obscure"
+						},
+						{
+							"order": 8,
+							"name": "technique"
+						},
+						{
+							"order": 9,
+							"name": "envenom"
+						},
+						{
+							"order": 10,
+							"name": "perplex"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "Standard",
+						"comments": "",
+						"picks": [
+							{
+								"id": "hornedhelm",
+								"comment": "5"
+							},
+							{
+								"id": "ironhelmet",
+								"comment": ""
+							},
+							{
+								"id": "cloakofinvisibility",
+								"comment": "2"
+							},
+							{
+								"id": "weightednet",
+								"comment": "6"
+							},
+							{
+								"id": "mountainhammer",
+								"comment": ""
+							},
+							{
+								"id": "longspear",
+								"comment": ""
+							},
+							{
+								"id": "bootsofstriding",
+								"comment": "3"
+							},
+							{
+								"id": "endurancefootwraps",
+								"comment": ""
+							},
+							{
+								"id": "bootsofdashing",
+								"comment": ""
+							},
+							{
+								"id": "minorstaminapotion",
+								"comment": "1"
+							},
+							{
+								"id": "majorstaminapotion",
+								"comment": "4"
+							},
+							{
+								"id": "falconfigurine",
+								"comment": "7"
+							},
+							{
+								"id": "doomedcompass",
+								"comment": "8"
+							},
+							{
+								"id": "stunpowder",
+								"comment": "9"
+							},
+							{
+								"id": "ringofskulls",
+								"comment": ""
+							},
+							{
+								"id": "minorhealingpotion",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
 		}
   ]
 }

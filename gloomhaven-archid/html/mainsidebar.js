@@ -152,6 +152,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('swDrop')">Spellweaver <i class="fa fa-caret-down"></i></button>
     <div id="swDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="sw-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="sw-cold.html" class="w3-bar-item w3-button">Cold Fire</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

@@ -15563,6 +15563,1314 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "sw-cold",
+			"classid": "sw",
+			"build": "Cold Fire",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://imgur.com/a/AwBiV7S",
+			"overview": { 
+				"body": [
+					"This build starts off playing multiple loss cards to project power, but as it progresses we play fewer and have more repeatable actions. This has te benefit of delaying the time that we need to play the top of Reviving Ether.",
+					"The ocre of this build is the Cold Fire card we gain at level 3 which is a fairly strong attack, but with the added bonus of <i>Stun</i>, which is an overpowered status effect. At level 3 we can't fully use it as we don't have the element generation to power it up efficiently, but we will pickcards as we level up to change that."
+				],
+				"benefits": [
+					"Once we have Cold Fire powered up it is an extremely powerfull effect that is effective against all types of creatures, and especially good against summoners with it's <i>Stun</i> effect.",
+					"One thing to note is that there are some anti-synergies with some characters such as the Mindthief that also wants <i>Ice</i> and the Red Guard if they are using the Shield Spikes buyild which wants enemies to attack. The Red Guard can be worked around by targetting outlying enemies and by the end of the room when everything is surrounding the tank then only consuming <i>Fire</i>."
+				],
+				"preferences": [
+					"As with all squishies we would like some form of tank or front liner to grab aggro.",
+					"We also like party members that produce elements they do not need that we can consume "
+				]
+			},
+			"cards": [
+				{
+					"id": "aidfromtheether",
+					"top": "The top provides an otherwise damage-focused class the ability to do a bit of healing. That's really perfect - in general, in Gloomhaven, focusing too much on healing will lead to weakening your character, but it's always good to have a bit of healing in most scenarios (the exception to this would be one-room scenarios where you're constantly fighting). Healing is typically not worth doing while in combat as enemy damage will outpace healing and thus you'd be better off killing or disabling enemies. But in between rooms/fights, people will usually be missing some hp and being able to restore some of that before the next fight will lead to losing less cards to negate damage over the course of the scenario, increasing longevity and allowing players to play more losses and thus be more effective. Healing in those situations is perfect with a top action because you'll often spend 1-2 turns moving towards the next door/setting up before you go in, in which case you can move toward the door or grab coins and top up your party.",
+					"bottom": "Meanwhile, the bottom provides a very nice summon for a level 1 card. Melee summons in Gloomhaven tend to be mostly quite bad because their AI lends itself to them committing suicide quite frequently, but ranged summons don't suffer from nearly as many problems, and while the 2 range on this summon can be a bit limiting, 3 attack per round plus <i>Pierce</i> is a lot of damage, easily allowing this to be your loss that provides the most damage-per-card in many scenarios at early levels.<p>You'll especially find this useful on many boss fights, scenarios where the Spellweaver is typically weaker, assuming you can keep it alive. Whether you can keep it alive or not, in general, will determine how good this summon will be in your party. A strong, tanky front-line is best, but otherwise something like the Cragheart's obstacles or even just the Mindthief's CC can also go a long way.</p>",
+					"overall": "This is a useful card with its utility healing and baby summons.<p>Enhancing the summon attack range and movement can give a lot of added value to a scenario</p>"
+				},
+				{
+					"id": "cracklingair",
+					"top": "The top will be a loss for 4 attack, which is obviously terrible, unless you have Wind.<p>You cannot produce Wind yourself to buff this card in a way that actually works (the 'combo' with Ride the Wind is far, far too costly for the effect and is also really awkward to execute) but you can get it from your party-members. If you have a Brute in your party, who can create Air with the bottom of Leaping Cleave for you, you should bring this card at level 1, as in that case you'll be able to set it up before the last room and get 8 attack from a loss, which is much better. If you don't have an ally that produces Wind, you should never consider using this card.</p>",
+					"bottom": "The bottom is just a move 3 with 25 initiative, which is okay but nothing special. The Retaliate line may as well not even be there as you're an extremely squishy ranged character and you should never be taking advantage of personal melee Retaliate.",
+					"overall": "Neither half of Crackling Air is particularly good but in will have some use in some parties at level 1."
+				},
+				{
+					"id": "fireorbs",
+					"top": "The top of this card feels very good to play in a level 1 party, providing 9+ attack pretty much every time, and giving you a nice chunk of experience.<p>Because of your loss-recovery class mechanic (which we'll see later on Reviving Ether), you can more freely spend losses than many other classes, which means you'll almost always find yourself wanting to use this top in the first room to help your party with a difficult fight, and that's perfectly fine.</p>",
+					"bottom": "For anytime that you don't use it right away, it has an acceptable move 3 on the bottom, which will still allow you to get something out of it while you wait for the opportunity to fire off some orbs.",
+					"overall": "Fire Orbs is your signature attack at level 1.<p>The addition of <i>Wound</i> on the attacks adds some lengevity as losses which only generate damage scale poorly with levels, at higher levels it is best used againg high shield, low health enemies but that is absolutely fine.</p>"
+				},
+				{
+					"id": "flamestrike",
+					"top": "The top is your default highest damage non-loss attack although it comes with only 2 range, which is quite a bit more difficult to work around. The additional upside is that you can use the Fire you create with Fire Orbs to add Wound, netting 4-5 damage off of this attack, which is great. Otherwise, just being able to get a 3 whenever you really need it, rather than needing to worry about having random elements, helps quite a lot.",
+					"bottom": "Meanwhile, the bottom action is your only bottom attack, which is also quite welcome. Other than the bottom of Mana Bolt, most of your non-loss bottom actions will just be moves, and it's nice to have something to do when you don't need to move.<p>The range 2 on the bottom is more limiting than the top (as you can't first move to get into range that round), which means you'll either need to go early in the round (earlier than 36 initiative, which is one problem with this card) by combining it with Mana Bolt or Frost Armor, in order to kill something before it goes, or you'll need to have someone else in your party protecting you.</p>",
+					"overall": "Flame Strike is another card with both a good top and bottom action."
+				},
+				{
+					"id": "freezingnova",
+					"top": "The top action is inherently powerful, it's just not worth it for us. There is traditionally a strategy for classes like ours to use actions like this, which involves using our other card to run in very late, performing this action, and then running out very early the next round. The problem is that we only have a single very early card, Mana Bolt, and it already has an enormous amount of work to do, so we'd be hurting ourselves a lot to have to use it as a move 2 exclusively with this card's combo.",
+					"bottom": "Finally, the bottom action on this card just provides laughable value for a level 1 loss card - Heal 4 isn't remotely tempting us into playing this loss. Thus, with a bad top (for us, it would be great for someone like a Brute) and an even worse bottom, this card goes straight into the junk heap.",
+					"overall": "After some really nice cards, multiple with good tops and bottoms, we get to our first card that has no good actions on either half. The Spellweaver has a small health pool and a tiny hand size, making her easily one of the squishiest characters in the game. Accordingly, making melee attacks is just not a good plan if we want to consistently complete scenarios."
+				},
+				{
+					"id": "frostarmor",
+					"top": "The top attack here will usually be an attack 2 at level 1 but gets to be an attack 3 that generates 1 xp more and more often as we progress in the campaign (and depending on our party composition). That's not very good but is the best we can do until later so we just have to accept it.",
+					"bottom": "The bottom loss is also not very good, we'll rarely use it (most often just with Reviving Ether to get another card back to hand - more on this later) but there will occasionally be situations where it can be useful: if you know you'll have to take damage and end up losing cards anyway because of your small hp pool, might as well lose 1 card to negate two sources of damage. Still, it's more like you should look at the bottom as an emergency button rather than something you expressly try to play around.",
+					"overall": "Frost Armor is far from exciting but is ultimately just 'fine'.<p>The biggest reason this card remains relevant for a while is simply the initiative: 20 is the second-best initiative we'll get until level 9, and we often need to go fast. Accordingly, the third mode for this card, which will be used often enough, is simply a move 2 with 20 initiative. Between having two slightly below-average modes and one highly situational mode, this card does enough to earn its place for a bit. Furthermore, Mana Bolt has such a good bottom (whether heal or move 2) that having this around for the top makes it easier to use Mana Bolt's bottom.</p>"
+				},
+				{
+					"id": "hardenedspikes",
+					"top": "Melee Retaliate is generally such a bad solo top action and losing a card to get it is well and truly a losing strategy 95% of the time.",
+					"bottom": "Meanwhile, the bottom as just a move 3 with 26 initiative is fine but we have enough move actions and the shield is almost completely irrelevant as you don't want to be taking hits in the first place and you can't even create the Ice yourself at this level.<p>By the time you can create Ice, the Shield won't mitigate enough damage to make taking hits worth it.</p?",
+					"overall": "Hardened Spikes can be adequately described as 'hot garbage'."
+				},
+				{
+					"id": "impalingeruption",
+					"top": "The top can theoretically be an attack 12, as opposed to Fire Orb's 9, but that's not consistently realistic as it both requires us to get into melee range of an enemy and have 4 enemies all adjacent to each other. Still, we'll regularly be able to get attack 9 from this, like Fire Orbs, just not always on the three targets we want to hit the most, rather just the targets that we can hit. The greater difficulty of effective targeting is what makes this top action weaker than Fire Orbs (as well as creating an element we care much less about).",
+					"bottom": "Move 4 is nice.",
+					"overall": "Impaling Eruption plays second fiddle to Fire Orbs but it's still a good card.<p>Overall a card we're happy to bring at early levels.</p>"
+				},
+				{
+					"id": "manabolt",
+					"top": "At early levels the ranged attack on the top finds a use, though as we level this will become less appealing.",
+					"bottom": "The early healing of ourselves or an ally will find a use at the start and being able to move 2 very early with the low initiative will always find a use. Enhancing the heal with Strengthen makes this card continue to find a home in our deck as we level up.",
+					"overall": "Mana Bolt is an unassuming but truly great card.<p>The most important features to note immediately are the enhancement dot next to the Heal 3 and the giant '7' in the middle of the card.</p><p>For the initiative alone, you will absolutely never let this card go, and from now on, anytime a Spellweaver says 'I'll go as fast as I can' you'll immediately picture that '07'.</p>"
+				},
+				{
+					"id": "revivingether",
+					"top": "The top of Reviving Ether is actually one of the single most powerful actions for any class at any level in the entire game. Gloomhaven is balanced around your hand size diminishing as you progress through a scenario and this card can single-handedly dominate that mechanic. That being said, the counterpoint for you is that your maximum hand size is 8, so this action is more of a necessity baked into the design of this class. This design allows for you to use your loss actions twice per scenario instead of once, freeing you up to play them more liberally, which is both fun and powerful. Sadly, that aspect of this class ends up abandoned (assuming you choose to play optimally) as you level, as you'll replace your splashy loss actions with just straight-up better non-loss actions.<p>You'll also need to be very careful with your positioning when you get down to 2-3 cards in your hand to make sure you can actually get the top action here off and not be forced to lose a card and thus probably lose the scenario. The Dark generation on the top is mostly irrelevant but can occasionally be used by the top of Frost Armor or Mana Bolt.</p>",
+					"bottom": "The bottom of this card is great because it's a move 4 with Jump, which is a very nice action and one you'll be happy to play the entire scenario while you wait to need the top.",
+					"overall": "This is the class defining card for Spellweaver an your deck throughout the game.<p>There is one other trick worth mentioning with this card which is the ability to get back a lost card that you play the turn you play the top action. The most common candidates will be Frost Armor and Aid from the Ether (and later Cold Fire). By first playing a loss and then immediately recovering it the turn you play Reviving Ether's top, you'll end up with 7 cards in your hand instead of 6. That won't add an additional turn in terms of longevity but it will give you more options. Should you choose to keep Reviving Ether's summon active and do the trick with something like the bottom of Frost Armor, it will indeed add an additional turn, as you'll have 6 cards instead of 5, thus it is something worth paying attention to.</p>"
+				},
+				{
+					"id": "ridethewind",
+					"top": "Top Loot 1 actions are a great way to pick up a fair amount of coins when you're out of combat but obviously most of the game will be spent in combat. If you can get Wind from something like Mana Bolt this becomes a Move 3 which is useful.",
+					"bottom": "Sometimes you want to move really far really quickly but you don't often need that and you can only do it once with it being a loss.",
+					"overall": "Ride the Wind has two good actions which are only let down by both being situational and together on the same card.<p>Bringing this card will see you often staring at a move 2 with 83 initiative, which is not great. That being said, there are some scenarios in the game in which the giant move on the bottom can be huge and while we'll cut this card early, you should always consider bringing it back if the objective of the scenario warrants.</p>"
+				},
+				{
+					"id": "flashingburst",
+					"top": "The top gives us our first non-conditional attack 3 at range 3 and the Light generation is useful for a number of reasons. At level 7 we'll get Living Torch, which has a powerful top action that specifically wants Light. In the meantime, the Light generated here will be able to be used by the top of Mana Bolt or Frost Armor each rest cycle to guarantee another one of those becomes an attack 3, thus the top of Flashing Burst is more like an attack 4, which is great at level 2.",
+					"bottom": "The bottom is a move 4, which we have a couple of already so we're not really desperate for that, but it frees us up to cut some others later.",
+					"overall": "A perfectly decent card with uses in every scenario.<p>Finally, 26 initiative is still quite good for us and allows us to go early-ish in three rounds now.</p>"
+				},
+				{
+					"id": "icyblast",
+					"top": "This loss can be used in a lot of first rooms instead of Fire Orbs, thus you can still get away from the double-loss problems. And the top loss is decent at level 2 but the biggest issue is that it scales very, very poorly (2 attack is not something you want later on without other meaningful conditions and Muddle just isn't one).",
+					"bottom": "The bottom loss on Icy Blast should pretty much never even enter into consideration.",
+					"overall": "Icy Blast is the worst kind of card in Gloomhaven - a double-loss. Double-losses give you the option of either playing one of the losses immediately or being forced to play default actions. Each forced default action costs you something during the scenario and thus the eventual value from the loss effect is accordingly diminished.<p>That dynamic can be a bit upset if the default action comes with something valuable like good initiative but sadly Icy Blast has maybe the worst initiative value in the game.</p>"
+				},
+				{
+					"id": "coldfire",
+					"top": "The top of Cold Fire is one of the singularly most powerful non-loss actions that any class can perform at any level (especially any relatively-balanced class).<p>A repeatable AoE Stun is just absurdly powerful and adding a good amount of damage on top of that takes it to another level. Of course, in order for Cold Fire to actually be effective, we need non-loss sources of both <i>Fire</i> and <i>Ice</i>. For the time-being, we have neither.</p>",
+					"bottom": "The bottom of Cold Fire is fitting enough as we'll typically (once we actually start playing it) want to keep Cold Fire the entire scenario, and having a large Loot action will let us pick up a significant amount of gold in the last room.",
+					"overall": ""
+				},
+				{
+					"id": "elementalaid",
+					"top": "The top of Aid with Earth being a Heal 5 is honestly quite powerful for a level 3 card. Healing scales quite poorly but fortunately we won't want this card forever anyway and it can be quite good in the meantime. So when is Elemental Aid good? Well, first of all, you need a Cragheart. Even in a 2p party with a Cragheart, I still wouldn't take it because healing just isn't very good in 2p (and the Cragheart already has enough). So I'd say in any party involving a Cragheart and being at least 3p, Elemental Aid can be the choice at this level.",
+					"bottom": "The bottom of Elemental Aid seems like it could be quite powerful but unfortunately your initiative issues mean that it's very, very difficult to get it to actually work (as Shield is only useful if you go before the enemies). You can only really use it paired with the top of Mana Bolt but as you level, you want less and less to actually use the top of Mana Bolt, thus the bottom action will routinely disappoint, despite looking quite awesome.",
+					"overall": "Elemental Aid, as the other level 3 option, is actually a very fine card in the right party as well, although nowhere near Cold Fire.<p>'What?!' you say, 'how can you want to take Aid over a card you just described as one of the best in the game?!' Well, you see, we're never using Cold Fire before level 5 anyway (short of a fortunate early enhancement or a Mindthief in your party) so if we don't take it at level 3, we can still take it at level 4. And fortunately for us, the Spellweaver's level 4 options are pretty mediocre, thus the choice of Aid is more over the level 4 cards than over Cold Fire.</p>"
+				},
+				{
+					"id": "forkedbeam",
+					"top": "The top attack will be okay at level 4 but gets bad quite quickly.",
+					"bottom": "A solid move 4. That’s always a welcome addition.",
+					"overall": "The initiative here is the best thing about this card.<p>You'll usually just use the bottom move to get the 20 initiative, which is about as good as it gets for the Spellweaver outside of Mana Bolt (Mana Bolt is pretty good for us, huh?).</p>"
+				},
+				{
+					"id": "spiritofdoom",
+					"top": "We can't create Dark for ourselves for the top action and even if we have some source, a loss normal-enemy execute at level 4 that requires setup is soooo far behind the curve on executes that it's also embarrassing that we're supposed to consider this at level 4.",
+					"bottom": "The bottom of Spirit of Doom is a bit more redeeming - we can actually create Light ourselves and healing someone to full is actually worth a loss with some allies.",
+					"overall": "If that bottom action had another half that was actually regularly-playable then we'd have a card, but the cost of having a move 2 with 81 initiative all scenario until we need the heal is too great to make this one half worth it. And it doesn't help our initiative problems like Forked Beam does going forward."
+				},
+				{
+					"id": "chromaticexplosion",
+					"top": "Creating all those elements is cool and all but will mostly (outside of some very specific party compositions) do nothing more than simply Fire and Ice and sometimes even hurt us because of monsters using them.<p>Meanwhile, the damage from the loss attack itself is miserable for a level 5 loss. Sure, we can get both elements for Cold Fire with this one action (rather than needing two) but we can only do it once as it's a loss.</p>",
+					"bottom": "The bottom is much more appealing, allowing us to create any element, which will typically be Ice for Cold Fire while still moving, and more importantly, isn't a loss.<p>Note the little dot next to the Move that would allow us to create 2 elements instead!</p>",
+					"overall": "The bottom of this card is a winner for us.<p>Chromatic also has one of our best initiatives.</p>"
+				},
+				{
+					"id": "engulfedinflames",
+					"top": "Engulfed in Flames top doesn't give the flexibility of providing either <i>Fire</i> or <i>Ice</i> that Chromatic's bottom does, but it is attached to a much better action in an attack 4. Attack 4 at level 5 is so-so but it's still contributing something and considering how powerful our turn after will be, it's worth it.",
+					"bottom": "The bottom of Engulfed is a lot of text that you'll only ever need to read once in your life (something about Retaliate if I remember correctly?)",
+					"overall": "The top ability is pretty solid but the initiative is very mediocre."
+				},
+				{
+					"id": "frozennight",
+					"top": "The top loss is powerful but requires melee-ish range and that's something we really can't afford as a Spellweaver. Even while the payoff is kind of there, it's just not better than spending more time working on playing Cold Fire repeatedly, which also requires less risk.",
+					"bottom": "The bottom move with Invis is actually kind of tempting but most of the time when we're creating Any Element, we want it to be helping to play Cold Fire, and a bottom action that isn't a low initiative move, a move that creates an element, or Mana Bolt just isn't very compelling.",
+					"overall": "Frozen Night isn't a terrible card but it's just up against better options (and the restrictions of an 8-card hand size)."
+				},
+				{
+					"id": "livingtorch",
+					"top": "We already have Light generation with Flashing Burst so we can easily play this top action powered-up, which does make a very powerful action, only slightly disappointing because it can't compare with an AoE Stun.",
+					"bottom": "Similarly, the bottom gives us another summon option, this time with one more movement and one more range than Aid from the Ether, which makes it enormously more consistent.<p>Generating Fire means we are helping to play more Cold Fire's</p>",
+					"overall": "Living Torch, as the other level 6 choice, is a very nice card. In fact, both halves are quite good."
+				},
+				{
+					"id": "stonefists",
+					"top": "The top loss is difficult to pull off and again, not necessarily even better than just playing Cold Fire, despite being a loss.",
+					"bottom": "The bottom action, can be fine given the right party but isn't really worth taking the card given the initiative.",
+					"overall": "Stone Fists I've actually given more testing than it deserves. I will say that it's not terrible in a 2p party with a Cragheart as you often have a lot of extra Earth and you will sometimes get hit, so it's basically just a little free mitigation on top of an acceptable amount of movement.<p>Still, despite it not being terrible, it's still not very good and not better than the alternatives with your small hand size.</p>"
+				},
+				{
+					"id": "twinrestoration",
+					"top": "If this were on another class which didn't have Reviving Ether, it would be a different story, or if it was actually recoverable.",
+					"bottom": "The bottom action, meanwhile, is alright in terms of a bottom healing action at this level but again, doesn't help contribute to Cold Fire (or eventually even Living Torch)",
+					"overall": "Twin Restoration just isn't a good card compared to the alternatives we have.<p>It even has a poor initiative.</p>"
+				},
+				{
+					"id": "coldfront",
+					"top": "The bottom is powerful and can again save you in some spots, much like Frost Armor did at early levels (once you get it back with Reviving Ether - you really want to use this top in the first room, not lug around a double-loss for a while).",
+					"bottom": "The bottom is powerful and can again save you in some spots, much like Frost Armor did at early levels (once you get it back with Reviving Ether - you really want to use this top in the first room, not lug around a double-loss for a while).",
+					"overall": "Cold Front is another card I recommended in the past but further experience has lead me to revise that decision. Cold Front is a double-loss but with two powerful losses. Previously, I would just take it and try to use the top action in the first room, where it can deal some nice damage.<p>The biggest problem is just your hand size: there's just no room for this card. In the end, if you take this card on scenarios, your initiative will suffer significantly, and that's honestly just not worth it, as you're already doing some very powerful actions between Cold Fire, Living Torch, and eventually Inferno.</p>"
+				},
+				{
+					"id": "zephyrwings",
+					"top": "The top is a huge non-loss Loot, the nice thing about large Loots is being able to get money from all over the place in a timely manner.",
+					"bottom": "Meanwhile the bottom is like Ride the Wind in that it's specifically very good on certain types of scenarios - where you need to get to a certain point to Loot something or similar scenarios. Outside of that, it's not better than our other cards.",
+					"overall": "Zephyr Wings is kind of a trolley card - an amusing upgrade to the level 1 Ride the Wind."
+				},
+				{
+					"id": "blackhole",
+					"top": "Not great. This action cannot even be enhanced and normal enemies are not the problem at this stage.",
+					"bottom": "While the bottom action would be quite good for us, obviously combined with Cold Fire, it can't compare with one of the absolute best cards in the game.",
+					"overall": "This is a disappointment for the end of the road.<p>The top action is not something I'll miss - mostly-non-conditional executes just aren't a very fun mechanic and while the top loss is powerful, it's not terribly engaging (the balance between this card at level 9 and a certain level 7 card of another class is questionable, at best).</p><p>The biggest shame with Black Hole never getting played is that you don't get to use the bottom, which is actually really cool and unique.</p>"
+				},
+				{
+					"id": "inferno",
+					"top": "There really aren't words for this top action - it's completely absurd. You can comfortably clear 4p scenarios in a 2p party with a level 9 Spellweaver thanks to this action. Honestly, if the top of Inferno were a loss, then I think the level 9 choice might be close.",
+					"bottom": "Meanwhile, the bottom of Inferno is not that bad, but you should never use it because then you wouldn't be using the top (that's not completely true, there may be some occasions with some enemies like Flame Demons where you could use the bottom).",
+					"overall": "Inferno! You're actually contractually obligated to shout 'inferno!' every time you play this card as a Spellweaver, just so you know. 'Flame on' may also be accepted.<p>Inferno also has good initiative for us, giving us a powerful effect but not requiring us to compromise our initiative, which is already shaky.</p><p>One last thing with Inferno: no matter what weapon you had before, sell it and buy a Warhammer. Warhammer is generally a pretty bad item but Inferno actually counts as a melee attack. Yeah, that's right, you can use the Warhammer to literally Stun every enemy in the room. It's pretty good.</p>"
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "For an average level 1 party, this will be our starting hand.",
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamestrike",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "aidfromtheether",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged summon",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "frostarmor",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Damage control / Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "impalingeruption",
+							"top": {
+								"text":"Ranged AoE loss",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "ridethewind",
+							"top": {
+								"text":"Move 1 <i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Big <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							},
+							"replace": "impalingeruption",
+							"comment": "Flashing Burst replaces Impaling Eruption, we may miss the Move if we use the top of Flashing Burst, but at this stage we probably still want the Looting from Ride the Wind to build up our cash piles for a couple of levels. If we don't need the <i>Loot</i> if we are in Guildmaster mode then swap that instead."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamestrike",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "frostarmor",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Damage control / Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "aidfromtheether",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged summon",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ridethewind",
+							"top": {
+								"text":"Move 1 <i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Big <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							},
+							"replace": "swback",
+							"comment": "Even though we have taken Cold Fire we don't want to use it yet.<p>There is, of course, an exception: if you've already managed to afford the Any Element enhancement on the bottom of Reviving Ether (more on enhancements at the end of the guide) or if you have a Mindthief in your party, you can start bringing Cold Fire immediately replacing Ride the Wind.<p>If you are in Guildmaster and don't need the gold then you can bring it in now."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamestrike",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "frostarmor",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Damage control / Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "aidfromtheether",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged summon",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ridethewind",
+							"top": {
+								"text":"Move 1 <i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Big <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "forkedbeam",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							},
+							"replace": "frostarmor",
+							"comment": "Frost Armor was just hanging around because we needed that 20 initiative and now we've got it with a better top and bottom on Forked Beam."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamestrike",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "forkedbeam",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "aidfromtheether",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged summon",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ridethewind",
+							"top": {
+								"text":"Move 1 <i>Loot</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Big <i>Jump</i> loss",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "We finally bring in Cold Fire, we won't have the full effect yet, but we can power it up consistently enough to be worth bringing it.",
+					"picks": [
+						{
+							"card": "engulfedinflames",
+							"top": {
+								"text":"Ranged Attack <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							},
+							"replace": "flamestrike",
+							"comment": "Engulfed is the choice for a couple reasons. First of all, like I said, it prepares Cold Fire while providing a better action than a move 2. Secondly, by level 5 it's quite likely that we have been able to or we're just about to enhance the bottom of Reviving Ether with Any Element and we can combine Engulfed with that bottom action to get both elements.<p>If you don't have the Reviving Ether enhancement yet you won't be able to do full Cold Fires but you can try to get the <i>Ice</i> with modifier flips (more on that later) and otherwise the AoE non-loss attack 3 is still perfectly fine for now.</p><p>Flame Strike is still a fine card but something had to be cut and we'll just be using <i>Fire</i> for the top of Cold Fire now. The bottom attack will be missed but with Cold Fire as a payoff we'll have even more incentive to constantly reposition in order to get maximum effectiveness while keeping ourselves safe.</p>"
+						},
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							},
+							"replace": "ridethewind",
+							"comment": "Now we can consistenly generate <i>Fire</i> we should bring in Cold Fire."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "engulfedinflames",
+							"top": {
+								"text":"Ranged Attack <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "forkedbeam",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "aidfromtheether",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged summon",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "chromaticexplosion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Ice</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "forkedbeam",
+							"comment": "Living Torch has two halves that we'll always be happy to play. Seems like an easy pick, right?<p>Not quite. At level 6, we'll go back and take Chromatic Explosion. In my previous version of this guide I did actually recommend taking Living Torch at 6, but after becoming a significantly more experienced player, especially with higher difficulties, I've come to the conclusion that I explained above: I just want to be playing Cold Fire as often and as effectively as I can. Accordingly, while Living Torch is very nice, I'd rather get the bottom of Chromatic for Ice generation now as opposed to next level.</p>That being said, if you do already have the Any Element enhancement, you can take Living Torch now and Chromatic at level 7.</p><p>Forked Beam was here mostly for the initiative and we have a much better bottom action here.</p><p>We could drop Flashing Burst instead,but that can be enhanced to attack 4, range 4, which is much better."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "engulfedinflames",
+							"top": {
+								"text":"Ranged Attack <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "chromaticexplosion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Ice</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "aidfromtheether",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged summon",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "livingtorch",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Summon <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "aidfromtheether",
+							"comment": "This is a straight swap of the bottom actions for a much better summon that will product <i>Fire</i> for us every round."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "engulfedinflames",
+							"top": {
+								"text":"Ranged Attack <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "chromaticexplosion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Ice</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "livingtorch",
+							"top": {
+								"text":"First round only",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Summon <i>Fire</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "zephyrwings",
+							"top": {
+								"text":"<i>Loot 2</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 8 <i>Jump</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "swback",
+							"comment": "You shouldn't play Zephyr Wings regularly, but on something like 15% of scenarios, it can make the scenario much, much easier for your party, and you can just look at it like a sideboard option. If you can tell it will be good on the scenario, sub it in (presumably for Living Torch, as scenarios you want to move a lot will want the move 4's and won't really want the summon). Otherwise, just leave it on the side."
+						}
+					],
+					"hand": [
+						{
+							"card": "fireorbs",
+							"top": {
+								"text":"Signature ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "engulfedinflames",
+							"top": {
+								"text":"Ranged Attack <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "chromaticexplosion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Ice</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "livingtorch",
+							"top": {
+								"text":"First round only",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Summon <i>Fire</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "zephyrwings",
+							"top": {
+								"text":"<i>Loot 2</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 8 <i>Jump</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "livingtorch",
+							"comment": "We need big movement in the scenario"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "inferno",
+							"top": {
+								"text":"Attack room",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							},
+							"replace": "fireorbs",
+							"comment": "Fire Orbs time has finally come as we have a much better AoE now. We still want the movement on the bottom of Flashing Burst so we can't drop that."
+						}
+					],
+					"hand": [
+						{
+							"card": "flashingburst",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "inferno",
+							"top": {
+								"text":"Attack room",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "coldfire",
+							"top": {
+								"text":"Ranged Attack, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Loot 2</i> loss",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "engulfedinflames",
+							"top": {
+								"text":"Ranged Attack <i>Fire</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "livingtorch",
+							"top": {
+								"text":"First round only",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Summon <i>Fire</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "chromaticexplosion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 2, <i>Ice</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "manabolt",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move or <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "revivingether",
+							"top": {
+								"text":"Use around rnd 10",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					],
+					"sideboard": [
+						{
+							"card": "zephyrwings",
+							"top": {
+								"text":"<i>Loot 2</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 8 <i>Jump</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "livingtorch",
+							"comment": "We need big movement in the scenario"
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "aidfromtheether",
+					"position": "bottom",
+					"enhancement": "+1 Range",
+					"comment": "Makes it much easier to find a target"
+				},
+				{
+					"card": "revivingether",
+					"position": "bottom",
+					"enhancement": "<i>Ice</i>",
+					"comment": "We want this for our Cold Fire, we would prefer any element but that is expensive"
+				},
+				{
+					"card": "coldfire",
+					"position": "top",
+					"enhancement": "+1 Hex",
+					"comment": "Cold Fire is by far your most important action until you get Inferno (and you probably shouldn't play too many scenarios with Inferno if you like a challenge) and adding a hex makes this attack sooooo much better. It's not so much about the dream of hitting 4 enemies, 4 hexes more-so just guarantees that you can always hit 3, which is amazing. It's also not a very expensive enhancement considering how powerful it is."
+				},
+				{
+					"card": "manabolt",
+					"position": "bottom",
+					"enhancement": "<i>Strengthen</i>",
+					"comment": "Strengthen on the bottom of Mana Bolt will allow you to Strengthen yourself for two rounds, both the round you use it (where you presumably do so before attacking) and the following round. It goes towards mitigating your poor attack modifier deck and makes a real difference of the course of a scenario."
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "focus"
+						},
+						{
+							"order": 2,
+							"name": "freeze"
+						},
+						{
+							"order": 3,
+							"name": "cinder"
+						},
+						{
+							"order": 4,
+							"name": "dust"
+						},
+						{
+							"order": 5,
+							"name": "lacerate"
+						},
+						{
+							"order": 6,
+							"name": "scorn"
+						},
+						{
+							"order": 7,
+							"name": "blind"
+						},
+						{
+							"order": 8,
+							"name": "power"
+						},
+						{
+							"order": 9,
+							"name": "hobble"
+						},
+						{
+							"order": 10,
+							"name": "tempest"
+						},
+						{
+							"order": 11,
+							"name": "zenith"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "",
+						"picks": [
+							{
+								"id": "eagleeyegoggles",
+								"comment": ""
+							},
+							{
+								"id": "minorpowerpotion",
+								"comment": ""
+							},
+							{
+								"id": "piercingbow",
+								"comment": ""
+							},
+							{
+								"id": "cloakofinvisibility",
+								"comment": ""
+							},
+							{
+								"id": "minorstaminapotion",
+								"comment": ""
+							},
+							{
+								"id": "bootsofstriding",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
 		}
   ]
 }

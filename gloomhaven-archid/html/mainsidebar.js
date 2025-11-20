@@ -127,6 +127,7 @@ function sidebarMainDropClick(id) {
     <div id="scDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="sc-main.html" class="w3-bar-item w3-button">Overview</a>
       <a href="sc-melee.html" class="w3-bar-item w3-button">Melee</a>
+      <a href="sc-ranged.html" class="w3-bar-item w3-button">Ranged</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

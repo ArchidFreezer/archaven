@@ -1,0 +1,2321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beast Tyrant Bear</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Beast Tyrant Bear</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>This build is for the bear build where the Beast Tyrant does not engage in combat directly, instead commanding the bear to perform attacks instead.</p> <p>There are a couple of implications for this, the first is that you tend not to pick up as much loot as you are not moving with the battle and standing on coins as you go, the second is that there are some scenarios where the complete party need to travel to exit hexes in which case you need to keep Disorienting Roar in your hand that lets you swap places with the bear.</p>
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>To set this top action up properly you need to have lost 2 cards in the last round (your other x cards) or rely on allies. However, your allies likely have better uses for the elements to do more than 4 damage or heal you for more than 4.</p>
+              <hr>
+              <p>The bottom of this card is super interesting if you are going mass summons. Technically your bear and all your summons have the same initiative, so you can have your bear go before them and tank damage while your summon army follows it and adds their own dmg/poison/etc. If your weak summons take damage, you can siphon that off onto the bear and then use Patch Fur. The weakness of this strategy is both this and patch fur are bottom halves/ so you could be playing with fire as you wait a turn to heal up. Note that this says “allied summons,” so you could use this card to siphon bear HP onto your Spellweaver's Spirit Ally, for example. Also note the Tyrant is included in this pool of health, if you are feeling safe - or if you want to heal yourself using the bear's HP.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>With a very poor initiative and two very situation halves this is not a card we are interested in.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Disarm is great when your bear is going to take a lot of damage otherwise. Luckily you can get another disarm later.</p>
+              <hr>
+              <p>The bottom of this card is fantastic, especially later on when you got more and more bottom attack cards. Pop this down on the first turn, then later play something like relentless ally to give your bear an attack 5 with his auto summon attack. Then play a bottom attack 2 to give your bear another attack 5. That's 10 damage on a turn. Later when the bear gets a multi-attack bottom we start wreaking havoc. The movement part might be useful if your move commands are in your discard, but usually we want the +3 attack.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The bottom of this card is what makes your bear amazing, so it's too bad that it's matched with a useful top.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is a self heal and does not do anything for the bear so not something we can use as we shouldn't be taking damage outside the first room and there are items to help with that.</p>
+              <hr>
+              <p>Note the two spots on the bottom for enhancements. Cheap to make this an attack 4. +4 with CR, that's an attack 7 on top of your bear's auto attack for 5.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is an absolute core card that we take for the bottom to have a second attack.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is pretty good when you first enter a room (that is, someone else enters the room because the bear can't open doors) and need to put out fires if your door opener is going to get surrounded by elites. The issue is you want to do damage when your bear is next to something, but if your bear is surrounded, this is a fine option before moving him away and regrouping.</p>
+              <hr>
+              <p>The bottom of this card literally breaks multiple scenarios. Does the scenario require you to grab a treasure in the back of a huge room with 4 groups of enemies? Swap your invisible scoundrel with the baddie in the back and beat the scenario in 3 turns (have actually done this). Is the boss behind tons of traps and enemies? Swap them for the skeleton you've surrounded in the other room. It also allows your bear to act as a proxy in escape scenarios, as you can move your bear to the escape zone and swap yourself there.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Damn this card is fun.<p>I'm honestly surprised this card didn't get “nerfed” in the 2nd edition to at least require line of sight. Doesn't matter that it's lost because you use this to end a scenario a majority of the time.</p><p>This a pure utility card, and as such should only be taken when you feel you will need to use the bottom. Otherwise, take attack cards.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>3 damage at 3 range is up to par with other ranged attacks at level 1. Note you cannot increase the damage and it is an attack by the tyrant.</p>
+              <hr>
+              <p>The bottom of this card is amazing. Damage 7 with CR plus XP and Earth, what's not to like.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a great card for us that gives a big bear attack or even a first room tyrant attack if that is what we need.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of this card is just OK. 2 damage is nothing to get excited about, and it's costly to make this an attack 3. And you shouldn't, because you get a multi-attack 3 later.<p>Top bear attacks are not what we want as we can't use CR on them and this means that we only get a single attack, which in this case is fairly weak and leaves our bear vulnerable next to multiple enemies.</p>
+              <hr>
+              <p>It's too bad the top is just ok, because the bottom is useful in trap scenarios. Generally you don't want to be pushing people away from your bear, but if you get 2 attacks in and then you can push your target into a trap, this is a good card. Give it some thought if you see 4+ trap tokens being pulled during setup. Adding Immobilize to the bottom of this neutralises a melee enemy if you pair the card with an early initiative.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The top is not what we are looking for and the bottom is very situational.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Doing 1 damage, even to 3 targets, doesn't help anyone. It can be augmented, but there are better actions tro spend your enhancements on.</p>
+              <hr>
+              <p>The bottom will help your bear move around, at least. Especially if ranged guys are behind tanky enemies (your bear will focus like a monster and keep hitting the tanks without your direction, remember). Also useful if no enemies are around, because the bear will do nothing w/o a focus – so run him towards the next door instead.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>If you are starting at level 1 with this character and running a bear style, you will take this card because the “x” cards are generally summon/hybrid cards. The hybrid build gets less out of this, though the bottom still has value to give the bear focus on what he attacks.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Maul is great for when you need to move and can't spare a turn to use a bottom attack with CR. Or on the turn where you set up CR.</p>
+              <hr>
+              <p>The bottom has a nice move with a shield tacked on, but without spoiling anything there is an item that will basically replace the need to use this move action.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a solid card that boith builds can use and comes with a tasty 14 initiative that beats those Guard enemies.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of this card can be useful with other classes that tend to have a lot of summons, but generally you don't want to use a card just for that.</p>
+              <hr>
+              <p>The bottom is a prime candidate for strengthen or bless, and a good way to keep your bear healthy without needing a healer.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Your bear will be taking damage thanks to its monster AI so this is a card we will want to be taking along.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A halfway decent summon. It can keep up with your bear with move 3 and attacks for more than one!</p>
+              <hr>
+              <p>When faced with a huge map that may require your Tyrant to move away, a move 5 is great every 3 turns or so – or late scenario looting.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This card is useful for the bottom, most of the time, but we will often rely on a late swap or just keep our Tyrant in the first room.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Too bad the falcon is crap. 2 health + 4 movement with fly = your falcon is going to fly up to the first Demon it sees and be turned into an explosion of feathers. If this is a spitting drake with 2 range? Fantastic. It has 5 health so early on it may manage to take 2 hits but its still a melee summon so naw. It adds air, which is useful for another X card.</p>
+              <hr>
+              <p>The bottom of this card is a <i>Loot 2</i> Command (the bear doesn't loot on the end of its turn, like all other summons). Loot 2 is a big area and can hoover up a lot of gold. This is useful for scenarios requiring you to loot a treasure tile, and if you are cash starved as it is your only loot card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>We will most likely be taking this card as one we sacrifice for CR and then getting some use out of the bottom <i>Loot</i>, which isn't that bad a deal after all.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>I suppose the top of this card is useful if you absolutely need to move 3 times in a round. But usually your bear's default move 3 plus a card we'll look at later that gives the bear a move 6 action is enough.</p>
+              <hr>
+              <p>The bottom is Disorienting Roar jr. I can see this useful for the same reasons as mentioned above in DR – you can also do it multiple times, but only to enemies. Can be used to swap ranged enemies such as archers, shamans or ancient artillery from the back of the room to somewhere we can wail on them.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a situationally good card that has decent initiative and we can always use for a CR sacrifice until we want to use one fo the actions.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The snake won't get through shields and will die in 2/3 hits – not worth losing a card to poison one enemy, which it will attempt to over and over unless it changes targets due to the situation in battle.</p>
+              <hr>
+              <p>s for the bottom, you should be keeping the Tyrant out of combat. Thus, a Tyrant attack - especially a bottom one - isn’t great unless your Tyrant is in the room with some enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>I found some use for this card in early levels, but it didn't last long in my collection.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Foundation Card</h3>
+          <p>The core strategy of this build is the use of the persistent loss bottom of the Concentrated Rage card. This allows us to give up the top or bottom action of a card to improve the bears turn.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+              <div class="w3-container">We typically do not want to be giving up the bottom of our cards for the move, preferring sacrificing our top action for an additional +3 attack for the bear.<p>There are two implications for this for our strategy<il><li>We want bottom command attacks where possible so we can combine these with the sacrificed top for multi-attack rounds.</li><li>Some cards we only want for the initiative so we don't care what the actual card actions are as we will be forgoing them anyway.</li></ol></p><p>The way this works is that we get to forgo the top and/or bottom of our selected card for the round to get the corresponding bonus for the bear. This bonus is then applied to both the bears auto-action, plus any command action from the card which we did not forgo. If we forgo the top action of our card the bear will have a +5 attack and then an additional +3 to any command attack on the bottom of our selected card. This is why we are looking to have command attacks on the bottom rather than the top.</p></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These cards will be going with us into every scenario.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard</h3>
+          <p>To make up the 10 you should take 2 from these. I wouldn't take Disorienting Roar unless you see a big map (which Relentless Ally is also good for), or the scenario requires you to get a treasure tile/escape.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>This card just don't work for us at all</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-red">Room 1 only</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+                <p class="w3-pale-yellow">CR setup only</p>
+                <p class="w3-pale-green">Bear Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-earthen-spikes.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The choice for the active summoner. The range isn't bad and it adds <i>Immobilize</i>.</p>
+              <hr>
+              <p>The bottom seems like a 'super turn' for the summoner type, but it requires enemies to attack your summons at melee range.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>An initiative 11 will help draw focus, but usually your summons are huddled in the same area and focusing on a limited number of enemies.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A great top attack that grants <i>Strengthen</i>, allowing you to give your bear a few more card draws on its auto turn. You can even make the attack stronger with enhancements, plus there is the xp.</p>
+              <hr>
+              <p>The bottom of this card is low-key amazing. 1 HP, but no range – just all allies. Got a bad road event and everyone is poisoned/wounded? Fixed on first turn. Enemy drop an area poison? No prob.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>You’re taking this card for the top, but you may be surprised how often you see a use for the bottom.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-venomous-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">A fairly easy choice for a non-summon build, replacing a card that is only there to make up the numbers.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+                <p class="w3-pale-yellow">CR setup only</p>
+                <p class="w3-pale-green">Bear Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-unstoppable-beast.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Beast Tyrants usually aren’t generating elements however. If you use an item that generates earth, or a really nice Cragheart, a target 3 attack 4 is really spiffy. That said, it's only in a fixed pattern so it's not as flexible as Vicious Ally.</p>
+              <hr>
+              <p>The bottom of this card lets you swap it out for Relentless Ally, which is nice.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A simple upgrade to Forceful Swipe.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Alligator minis are hard to find. This summon is actually pretty decent and obviously locks down one enemy forever. The movement 2 hinders it a lot, though.</p>
+              <hr>
+              <p>The bottom of this card is great for us CR users. It gives us a 15 damage round, with 10 possibly being on one target. Toss top, 5 damage summon auto attack, 5 damage on two targets.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Only thing this card lacks is a good initiative, but since we are usually using the bottom with a tossed top card, we can use the top card for our speed.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">While you miss out on having mobility and an attack on one card, a bottom attack for multiple targets is pretty amazing. Since it isn't a fixed area, just targets, it's very flexible and should be used in conjunction with CR to be two attack 5s.<p>We are missing out on the <i>Loot</i> but our other cards are fairly core now for damage.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+                <p class="w3-pale-yellow">CR setup only</p>
+                <p class="w3-pale-green">Bear Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-ancient-ward.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A straight-up upgrade to Concentrated Rage’s top. More damage, more targets, keeping the disarm, and a fast speed. Just good for that archetype.</p>
+              <hr>
+              <p>The bottom is useful for the Active Tyrant archetype, but that role would like multiple targets in exchange for 4 health healed here, as summons rarely survive after taking 4 damage. I guess your allies or bear might like this. The early move on top is a bonus.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The super card that proves an active Tyrant is plausible.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Finally, a way to deal with shields, and by the time you are level 4 you will be seeing many shields. This will one-hit certain difficult enemies with big shields and low health. It’s a tick slower than your other attacks, though. It's easy to sub out when no shields are in the monster selection.</p>
+              <hr>
+              <p>The bottom is somewhat useful if you need to move your Tyrant out of danger more than a default 2. You also get the bonus of adding to your bear's attack if the top you use is a command. However, without spoiling, an item later in the game will make this bottom pretty much forgotten.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Both halves of this card have use for the bear archetype, only let down by its very poor initiative.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-relentless-ally.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This was a really hard selection, but the safer pick is Punch Through due to the fact your Tyrant is rarely in the same room as your allies. If you've played the Tyrant for a few levels you may decide on Ancient Ward instead, and I don't blame you.<p>With the movement of Punch Through we can move Relentless Ally to the optional spot.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>Now that we have got rid of Relentless Ally we need another card to swap out for sideboard cards. There are a couple of options here, but it depends on the rest of the party rather than a set card as most have some utility. Howling Bolts, Focussed Aggression and Disappearing Wounds are all candidates depending on the scenario and you need to judge which cards you typically use the most with your style.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+                <p class="w3-pale-yellow">CR setup only</p>
+                <p class="w3-pale-green">Bear Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p> Doing 6 damage on a loss at level 5 isn't really good.</p>
+              <hr>
+              <p>The bottom is actually pretty nice, since it has no range. With CR this gives you another move and 5 damage attack in case you want to move from your bear's auto attack target and put some hurt in, or you can move summons to attack and add status effects to specific enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Controlled bear mobility is always useful to get it to focus on the target we want.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-stone-sigil.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>With the right party, this can be useful. You need a class able to move an ally without using movement, since this had none. Swapping minis is too powerful just to reset this guy, in my opinion. If you manage to get it in the middle of a bunch of enemies, this is a good card for summoners.</p>
+              <hr>
+              <p>The bottom we have seen before, with a faster speed and an XP attached to it. What gives?</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>For the summoner build this card has some value on the top, the bottom howveer isn't great though it does have a couple of enhancement dots.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-rampage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear Move/Attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-howling-bolts.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We're taking Rampage, for its bear mobility on the bottom.<p>We can finally get rid of Howling Bolts, which other than getting an XP was pretty garbage for us. It doesn't even make our situational pool.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear Move/Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>You have to be pretty desperate to use this top. I suppose if your bear is off alone getting absolutely hammered by multiple enemies it has its purpose. Keep in mind this works with multiple attacks on a turn, as it does not say 'next 5 attack actions'. So every time you draw an attack modifier card you gain 2 health. At least that's how I read it.</p>
+              <hr>
+              <p>The bottom is your Patch Fur replacement. With CR this is an attack 6 heal 3, and both are augmentable (Maybe make that heal also bless).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The bottom of this card is great for either build, with yet another poor initiative.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-primal-blessing.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>For the active Tyrant who sticks near their animals, here is a little spell to keep them alive for another turn. With your summons having less than 5 HP, you don't need much more than this.</p>
+              <hr>
+              <p>The bottom is pretty interesting for the active Tyrant as well if they get into trouble - or for positioning their bear, as the swap comes after movement</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This card has two very nice actions for the active tyrant and is coupled with a good initiative, well good for the tyrant.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-blood-hunger.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear Attack/Heal</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-patch-fur.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Straight swap here</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-yellow">Bear attack/CR attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear Move/Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-pale-yellow">Bear attack/CR attack</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear Attack/Heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The summon is an odd one, doing negligible damage and constantly pushing enemies away. There are certainly reasons to have such a summon in objective-based scenarios.</p>
+              <hr>
+              <p>A flat attack 4 is okay, especially since it's a bottom attack and thus augmented by CR to be an attack 7.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is fairly weak for a level 7 card, though it does have a very nice late initiative, though these tend to be less useful for us.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-tyrannical-force.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Stun is pretty great, although you had to wait 7 levels to get one. At least it's ranged. It's kind of odd how many things the Tyrant has to generate earth, but only two uses in its entire deck.</p>
+              <hr>
+              <p>The bottom here lets you wholesale re-arrange summoned allies - yours or someone else's in the party. However, summons usually don't have great base movement, so removing 1 movement really limits this usefulness.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>For the active tyrant the top is the main draw of this card as <i>Stun</i> is such an overpowered status and being able to do it at range can help protect your bear.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-storm-sigil.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disappearing-wounds.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The bottom of Storm Sigil is a direct upgrade to Disappearing Wounds, it's not great but the best pick we have.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>The 7th level isn't really a great level for Tyrants who work through the bear.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-pale-yellow">Bear attack/CR attack</p>
+                <p class="w3-pale-blue">Bear Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear Move/Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-yellow">Bear attack/CR attack</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear Attack/Heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-lash-out.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A decent AoE attack with no template, it's a shame it can't be powered with CR, but we can't have everything.</p>
+              <hr>
+              <p>This is another great action with a controlled move plus the ability to get rid of multiple traps.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A straight-up upgrade to Forceful Swipe, for both halves. A card that's great at dealing damage to a lot of targets and getting rid of traps. Not much else to say, after a few levels of using Forceful Swipe you should know how to use this. It also has a great initiative so what's not to like about this card, for the bear archetype we grab it quickly.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-natural-remedy.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>In the summoning build, you have a few ways of making wind, which makes this a fine way of healing your bear (a smart summoner could use a card to give the bear 6 damage off your other summons, then heal him up).</p>
+              <hr>
+              <p>The bottom is useful to give one of your summons a better chance of hitting hard, too. Unfortunately you need to be adjacent, which could put you into danger.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This isn't a great card for level 8, healing is an underpowered action and 5 is below the curve at this stage. The bottom adding <i>Strengthen</i> has some utility, but isn't great.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-lash-out.png">
+                <p class="w3-pale-green">Bear AoE attack</p>
+                <p class="w3-pale-blue">Beare Move/<i>Push</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-forceful-swipe.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Lash out is the obviousl choice and is a direct upgarde for Forceful Swipe.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-lash-out.png">
+                <p class="w3-pale-green">Bear AoE attack</p>
+                <p class="w3-pale-blue">Beare Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear Move/Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-yellow">Bear attack/CR attack</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear Attack/Heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-lash-out.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-jaws-of-death.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Finally, a kill card.<p>The health requirement is pretty low for a 9th level card, but should be useful for pesky shielded enemies.</p></p>
+              <hr>
+              <p>The bottom is amazing as well, representing 10 damage with CR plus possibly a trap springing.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The fact that neither half is a loss makes this a keeper. Note the damage at the bottom has augment spots, if you've got gobs of money.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/bt/gh-tribal-sigil.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>For the end-all, be-all summoner card, this leaves something to be desired. The spirit banner seems to have a nice effect, but it's a melee effect (putting the banner in danger) and you can't move the banner once you summon it.</p>
+              <hr>
+              <p>The bottom gives you back some summons, which opens up your ability to get friends out early rather than waiting for the last room(s). That said, this card feels like something you should have gotten back at level 7.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>For a capstone card this is very disappointing. Double burn where the top is very situationally useful and the bottom only useful at the end of the scenarion so this card ends up being a very late Move 2 for most of the time.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-jaws-of-death.png">
+                <p class="w3-pale-blue">Bear <i>Kill</i></p>
+                <p class="w3-pale-green">Bear attack/move</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Our <i>Kill</i> card, plus a nice bottom multi-attack that when stacked with CR is good damage.<p>This card has become situational on having shielded enemies and is relegated to the sideboard.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-yellow">Always up</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-jaws-of-death.png">
+                <p class="w3-pale-blue">Bear <i>Kill</i></p>
+                <p class="w3-pale-green">Bear attack/move</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png">
+                <p class="w3-pale-yellow">Bear attack/CR attack</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-lash-out.png">
+                <p class="w3-pale-green">Bear AoE attack</p>
+                <p class="w3-pale-blue">Beare Move/<i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear Move/Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Bear attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Bear Attack/Heal</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-punch-through.png">
+                <p class="w3-pale-green">Bear attack</p>
+                <p class="w3-pale-blue">Situational Move</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-maul.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Shielded enemies. We want the <i>Pierce</i> that this card brings.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-disorienting-roar.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap tyrant with Bear</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario has Treasure/Escape goal so we want to be able to swap for the bear to complete the scenario rather than loot.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-spirit-swap.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-green">Swap powerful enemy</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">If there are nasty enemies at range this allows us to pull them to the front line.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-soaring-ally.png">
+                <p class="w3-pale-yellow">Forgo for CR attack</p>
+                <p class="w3-pale-blue">Bear <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/bt/gh-bt-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario requires looting.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-borrowed-essence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-concentrated-rage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-disorienting-roar.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-focused-aggression.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-howling-bolts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-maul.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-patch-fur.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-relentless-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-soaring-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-spirit-swap.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-venomous-ally.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-energizing-strike.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-vicious-ally.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/bt/gh-punch-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-rampage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-blood-hunger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-storm-sigil.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-lash-out.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/bt/gh-jaws-of-death.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/bt/gh-maul.png"></td><td>top</td><td>+1 Attack</td><td>Staple damage increase</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/bt/gh-disappearing-wounds.png"></td><td>bottom</td><td>+1 Attack</td><td>Staple damage increase</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/bt/gh-focused-aggression.png"></td><td>bottom</td><td>+1 Attack</td><td>Staple damage increase</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/bt/gh-forceful-swipe.png"></td><td>bottom</td><td><i>Immobilize</i></td><td>Add to the Push to neutralize a melee or retaliate enemy</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey"></div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Focus</td><td>Replace -1 with +1</td></tr>
+      <tr><td width="250px">Heighten</td><td>Replace +0 with +2</td></tr>
+      <tr><td width="250px">Recover</td><td>Add 2x rolling <i>Heal 1</i></td></tr>
+      <tr><td width="250px">Resilient</td><td>Ignore negative scenario effects</td></tr>
+      <tr><td width="250px">Lacerate</td><td>Add +1 <i>Wound</i></td></tr>
+      <tr><td width="250px">Hobble</td><td>Add +1 <i>Immobilise</i></td></tr>
+      <tr><td width="250px">Verdant</td><td>Add 2x rolling <i>Earth</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p>Items aren't as important for the Beast Tyrant as other classes as you can't use them on commands, though there are some basic ones that add value, if they are not already in use.</p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-005-cloak-of-invisibility.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-150-staff-of-command.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Bear based on Squnits753 build (<a href="https://www.reddit.com/r/Gloomhaven/comments/7t9yu1/twomini_class_guide_updated_to_level_9_spoilers/">https://www.reddit.com/r/Gloomhaven/comments/7t9yu1/twomini_class_guide_updated_to_level_9_spoilers/</a>)</div>
+</footer>
+
+</body>
+</html>
+  

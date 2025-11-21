@@ -48,6 +48,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('btDrop')">Beast Tyrant <i class="fa fa-caret-down"></i></button>
     <div id="btDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="bt-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="bt-bear.html" class="w3-bar-item w3-button">Bear</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

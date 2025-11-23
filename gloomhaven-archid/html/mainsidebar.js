@@ -29,6 +29,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('beDrop')">Berserker <i class="fa fa-caret-down"></i></button>
     <div id="beDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="be-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="be-standard.html" class="w3-bar-item w3-button">Standard</a>
     </div>
   </div>
   <div class="w3-dropdown-click">
@@ -56,6 +57,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('chDrop')">Cragheart <i class="fa fa-caret-down"></i></button>
     <div id="chDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="ch-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="ch-ranged.html" class="w3-bar-item w3-button">Ranged Striker</a>
     </div>
   </div>
   <div class="w3-dropdown-click">
@@ -81,6 +83,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('haDrop')">Hatchet <i class="fa fa-caret-down"></i></button>
     <div id="haDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="ha-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="ha-standard.html" class="w3-bar-item w3-button">Standard</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

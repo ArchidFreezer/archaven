@@ -1,0 +1,2186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hatchet Standard</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Hatchet Standard</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>This is a fairly standard build for the Hatchet providing consistent ranged damage with very little downside. The weaknesses he has, common to all Jaws of the Lion classes, is a lack of decent movement and average initiative.</p> <p>He is however very straightforward to play whilst being very effective.</p>
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Here we get one less Attack than the standard 3, but 2 Healing tacked on, and this is a good deal. Many times with The Favourite, you won't need the full 6, and if you have melee allies, you can toss them a free Heal while you finish off an enemy.</p>
+              <hr>
+              <p>We want the Move 3's we have access to, and this one comes with the best upside yet. A free small Heal that can help top people off but mostly serves as free Wound/Poison removal.<p>The Earth doesn't matter to us but can be used by an ally, so it is certainly helpful some amount of the time.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Care Package is great, although I still have difficulty visualizing exactly what's being thrown and to whom exactly.<p>The top feels great to use when it works out, and for all the times that the top doesn't line up, the bottom is obviously great.</p><p>An excellent spammable bottom paired with a valuable-if-situational top combines for a card that we're super happy to have.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>An Attack 3, Range 3 isn't inherently flashy, but remember that this becomes an Attack 6. Center Mass top will be your most common initial Favourite delivery method when doing single-target damage, which you'll then follow with Attacks that benefit from having The Favourite in the target.</p>
+              <hr>
+              <p>This class really does want Move 3's (as you don't have any non-conditional Move 4's), and this bottom provides one with a reasonable and sometimes useful upside at good enough initiative. At low levels, you'll use the top of this card a lot more than the bottom, but as you level, both halves will become essential.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Center Mass is just an excellent card for this class, with very usable top and bottom actions that we can use at any level. The top scales better than expected because 24 initiative is actually quite good for this class.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Close Cuts top is a great top for the Brute, but as an otherwise entirely-ranged class, it's not very good. You rarely want to get into melee range of two enemies and you can't even add The Favourite to either of the Attacks.</p>
+              <hr>
+              <p>Similarly, the bottom is only good if you start your turn next to an enemy, but you're not a tanky class, so you don't want to let enemies come up and hit you, and you lack late enough initiatives to Move next to an enemy the previous round then do this the following round (and you lack very early initiatives to combine with this, and it's just a lot of work for a small payoff).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>So overall, not a good card. That being said, I do think it's worth bringing to scenarios with large numbers of small enemies, like Vermling Scouts. Those enemies die quickly enough that the top is less risky, they don't hit very hard to punish you, and there are enough of them that you'll typically satisfy the targeting condition. But aside from specific scenarios that really want AoE because of enemy types, you're better off leaving this one on the sidelines.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Disorienting Barrage is a pretty good card for this class. The top represents 6 damage across three different enemies which is good value at level 1.</p>
+              <hr>
+              <p>The bottom is a fine loss that will occasionally get used against high-Shield, low-hp enemies, but not a reason to bring the card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This card is the Hatchet's answer to the pesky high shield, low health enemies.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is only our second AoE attack and even though Attack 2 is fairly low one of the targets can be an Attack 5.</p>
+              <hr>
+              <p>Ah, here it is, the boss killer.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Double Throw has a powerful bottom loss with a spammable top which is the way they should be.<p>We happily play the top until the end of the scenario and then fire off the loss on any big targets in the last room.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Extra Lift is a level 1 card that really wants Wind. We get an Attack 3, Range 5. That seems like it might be better, but in truth, long range isn't necessarily very useful for us because we want to make most of our Attacks with The Favourite or targeting enemies that already have it in them and we typically want to keep The Favourite closer to use to make it easier to get back. That's not to say that long range can't sometimes be useful.</p>
+              <hr>
+              <p>Meanwhile, the bottom is another loss that we're not really in the market for, but it theoretically could be useful for 'escape' or similar scenarios where you need to cover long distances quickly.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>So basically, you certainly want either this or Stopping Power and you don't want both. I'm going to be honest with you all, I'm truly not sure which one is better. Personally, I prefer Stopping Power just because an Attack 3, Range 2 is typically going be reasonably better than an Attack 2, Range 3 for when you lose the Wind generator first in the scenario. But some people whose opinions I really respect prefer Extra Lift, so they may be right. I've actually started tracking this while using Stopping Power and across 6 scenarios thus far, there have been two instances where Extra Lift would have been better, but that's also not to say Stopping Power has been better all the rest of the time (I haven't tracked the reverse instances where it was better, sadly).</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss is not going to be used on a class that's not naturally tanky, but you might use it once in your Hatchet's lifetime.</p>
+              <hr>
+              <p>Combining this bottom action with Barrage's top gives you an Attack 2, Range 3, Target 3, Wound, which is extremely powerful at low levels, especially at 12 initiative. And, of course, you can throw The Favourite at one of the targets to get the extra damage needed to finish them off. In scenarios where you're immediately in a tough spot in the first room, you'll often want to go with this combo turn 1 over The Favourite, and look to play The Favourite the following turn when you have a bit more breathing room.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Fancy Hat is great, although really as the second part of a one-two punch with Disorienting Barrage, not on its own. The real draw of this card is the bottom and the initiative.<p>This card also functions fine as a Move 2 with 12 initiative just because this class has overall pretty mediocre initiative.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>When you kill an enemy with The Favourite, you can pick it up by Looting the hex where they died, but while The Favourite is in an enemy, retrieving it is much more difficult and significantly less profitable.<p>Fortunately, you have payoffs like this one, which lets you make a level 1 Attack 4, Range 4, which is pretty incredible.</p></p>
+              <hr>
+              <p>The bottom + initiative just make the other half a worse version of Center Mass, although as you often need extra movement, it can function as a quasi-Move 4 in a pinch.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Follow Through is an essential card to this class, allowing you to remain effective while The Favourite is stuck in an enemy.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This top loss is pretty solid, honestly. As an effective 10-card class, we can afford a loss on a normal scenario, but considering that you average around an Attack 5 per turn with non-losses, losing turns costs a lot more damage than it gains.</p>
+              <hr>
+              <p>Meanwhile, the bottom is quite good. Move 3 + element is a standard excellent Gloomhaven action when you want the element, and you can certainly use Wind, even if it's not really incredible. Still, it remains a Move 3 (which again, we want) with a not-insignificant upside, so that's good.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>We have a top loss with a spammable bottom so we can work with this card.<p>This loss serves one very clear purpose: to be used on boss fights combined with The Favourite and Double Throw</p><p>The 60 initiative is actually your slowest initiative for the time-being (for normal scenarios), so while it's not great for going slow, it's the best you can do and many times you'll give it a try and hope for the best.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>You can pretty much just ignore the existence of the top half of this card. I've maaaaybe used it once? You know what's better than going into melee range to make an Attack 2 to get The Favourite back? Making Attack 4's and Attack 5's until the target dies.</p>
+              <hr>
+              <p>The bottom, however, is incredible. First, this action is the biggest reason why this class is a Looting machine. First of all, this lets you both pick up The Favourite but also grab some bonus coins. But the biggest draw here is that you can grab The Favourite and use it in the same turn.<p>If you Attack before moving, typically you can just use a larger Move to get to the hex where you killed the target and Loot The Favourite at the end of your turn. But if you already have The Favourite lying on the ground, performing this bottom action first still lets you Move a bit to get into range, and then fire off an Attack using The Favourite in the same turn.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This loss pretty much sucks and you'll basically never want to play it, although if you have the card in a scenario, there's a chance you might in dire circumstances. At the end of a scenario it can be used for the 2 XP.</p>
+              <hr>
+              <p>The selling point of this card is another Move 3, which this class wants. The bonus is rarely going to trigger or matter, but it's occasionally there, mostly just for experience.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The reason we want this card is for the Move and good Initiative.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is an Attack 3, Range 2 without any requirement, which is alright. And with Wind, which is easy for us to make, it becomes an Attack 3 with a reasonable upside. That being said, we don't often want to Push targets away when we hit them with The Favourite as it makes it harder to retrieve, but with we can just Push 1 to avoid Retaliate, or use this without The Favourite into traps as an alternative method of killing which allows us to not need to recover The Favourite afterwards.</p>
+              <hr>
+              <p>The bottom essentially doesn't exist because again, 10-card class, although it could potentially be used if you were really desperate for melee CC or Jump.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A reasonable card but nothing to get too excited about.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Realistically, you should play this effect in pretty much every scenario, it really does add a ton of damage-on-demand. Obviously, there are some catches to how you use and target with this ability. Getting The Favourite stuck in a high-hp enemy isn't typically a big problem as you have follow-up Attacks that benefit (and give you Attack 4 and Attack 5) although you do need to make sure it's an enemy that you want to prioritize killing because you don't want to have the Favourite stuck in one enemy and then spend your turns attacking somewhere else.<p>While getting The Favourite stuck in an enemy isn't really dangerous, having it drop to the ground somewhere you can't easily or safely access is. Accordingly, you need to make sure that when you use it, you target enemies in spots you can get to shortly after. Typically, Hatchet focuses down enemies in a front-to-back fashion, or around the edges of the fight. Killing an enemy in the back with The Favourite is a recipe to be ineffective for a number of turns afterwards, especially as the bottom of The Favourite is your only Jump. And again, that's not to say you can't target enemies in difficult-to-reach spots if they're absolute priorities, but in those cases, you should consider holding off on throwing The Favourite unless it's absolutely necessary.</p></p>
+              <hr>
+              <p>Meanwhile, the bottom is also quite decent with the initiative of this card and is your only non-loss Jump, but it doesn't really matter as you just have to play the top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The top of this card is your core mechanic, you should absolutely play this persistent loss, you are effectively playing a 10 card class, and other losses need to be evaluated accordingly.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These are our cores cards at level 1, as usual in order of important/power. Admittedly, Retrieval is actually more important than Center Mass as we level, but Center Mass is probably more important at level 1.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard</h3>
+          <p>And these are our secondary/optional cards. Fancy Hat is part of our AoE combo. At low levels, you'll want to bring this to basically every scenario, but eventually it will fall off unless you're against swarming enemies like Vermling, Hounds, Snakes, etc. Power Pitch makes up our second duo with one of the Wind spenders. Lastly, Second Wind is just fine as an 18 initiative Move 3 given that we have nothing better.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Bosses</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png">
+                <p class="w3-pale-blue">Boss combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-close-cuts.png">
+                <p class="w3-pale-green">AoE Attack</p>
+                <p class="w3-pale-blue">Attack, Move</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Lots of small adds where we can take advantage of the AoE</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Repeat Shot is excellent as an additional Attack 3, Range 3 baseline while being an Attack 5 if the target already has The Favourite in them. This is amazing because it gives us another option to deliver The Favourite with an Attack 6 at Range 3 but also gives us our best payoff for when The Favourite was already used on a medium/high-health enemy. Honestly, getting to go Attack 6, Range 3 into Attack 5, Range 3 all non-loss at level 2 is pretty absurd and will kill just about anything at that level.</p>
+              <hr>
+              <p>The bottom loss is sort of fine but honestly pretty underwhelming again considering our non-loss actions and our effective hand size.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Excellent spammable top with decent initiative for us.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Ricochet top gives us a second AoE option. The Barrage combo requires us to not move for the round to get three Attack 2's, here we can get two Attack 2's, obviously still giving us the flexibility to use The Favourite where we see fit.</p>
+              <hr>
+              <p>The bottom loss is theoretically powerful but just limited by our post-Favourite hand size. Still, it could theoretically be used in scenarios with enemies like Flame Demons who have very high Shield and low health.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Another very good top, with a very situational loss on the bottom.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Both of these cards are good and the choice isn't easy but ultimately I think Repeat Shot is better. Ricochet will be better in scenarios where AoE is good but ultimately those scenarios are typically easier and Repeat Shot is always good but makes us a lot better against difficult enemies, which is something every party wants. It doesn't matter too much in the end as we're going to take the other card at level 3.<p>Repeat Shot replaces Second Wind, which was just there as filler. Still, for high-movement scenarios, you can consider bringing back Second Wind to replace Stopping Power (and then the Wind on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement).</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Bosses</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png">
+                <p class="w3-pale-blue">Boss combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-stopping-power.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-fearsome-efficiency.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This loss is an interesting idea but again, the bar for an acceptable loss on a 10-card class is so high that it's very difficult for us to want to use something like this. The losses we're planning on using are for boss fights, which are much shorter scenarios and thus easier to play losses.</p>
+              <hr>
+              <p>And the bottom is an Attack 2 at level 3, so... Really though, the biggest selling point of this bottom is being able to apply The Favourite in the same turn that you then play a top Attack like Repeat Shot to go Attack 4 into Attack 5 in the same turn.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Fearsome Efficiency is underwhelming to say the least.  Here, for a boss, this loss isn't any better than our level 1 Power Pitch.  With the bottom you really have to accept how often we need our bottom actions to be Moves in order to pick up The Favourite, get in position to grab it the following turn, or get in range to hit the target we want. Ultimately, you're pretty much always going to be better off just using top Attacks to apply it and then get the payoff for it across two turns while moving or doing a better non-Move bottom (specifically one that has better initiative). At least if this had good initiative, it might be convincing.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-sharpened-blades.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Sharpened Blades top loss represents a lot of damage for a loss, although it stacks poorly with itself when focusing down the same target, which can make it unwieldy.</p>
+              <hr>
+              <p>The bottom is a Move 4/6, which is actually great for this class.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Another underwhelming card. Realistically, the top is an alright loss on short or short-ish scenarios.<p>If it had better initiative to accompany the bottom, it would actually be quite compelling, but the issue is that we already have access to Move + good initiative in Second Wind that we're not even using, so here we'd be getting a better version of movement but with much worse initiative. If there were no other good choices, this card would never be bad, but it's not super competitive against Ricochet.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-stopping-power.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Without any good choices at level 3, we go back and take Ricochet from level 2, which is still a welcome addition. I haven't played Hatchet that much yet in a base GH campaign (as opposed to in Jaws) but I do feel the lack of movement on some specific scenarios (although I also replaced Boots of Striding at Prosperity 1 with Weathered Boots - it's possible that if you still have access to Stridings, it wouldn't be an issue at all), so it's possible that you might want Sharpened Blades for a base GH campaign, where movement is more important than in Jaws.<p>Ricochet replaces Stopping Power. Obviously if there are good traps and your party doesn't have any other good sources of forced movement, you could bring it back, but most characters in Jaws are better at forced movement than you anyway, so it shouldn't typically be an issue. Power Pitch without Stopping Power is still fine as another Move 3 that can sometimes help with the bottom of Follow Through.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Bosses</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png">
+                <p class="w3-pale-blue">Boss combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-overwatch.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a baseline of Attack 3, Range 4, which isn't good for a level 4 card, but it can easily be an Attack 4, Range 5 without much work given the tools we already have available. At the end of the day, as I've already addressed, very long range is less useful for us than most other ranged classes because we don't want to throw The Favourite really far away. Still, we can treat this like Follow Through without needing us to use The Favourite in any way and it's honestly fine. </p>
+              <hr>
+              <p>The bottom is also a decent loss but still pretty mediocre. You want to play this before you enter a new room, but that sort of pre-cast loss on a class with so little longevity is very risky. It can be fine on shorter scenarios though.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is highly situational. Mostly, it's just a Loot 1 on a class that really shouldn't be doing any more Looting. The Wound effect is purely there for theme as you really don't want to move up to melee range of an enemy you've hit with The Favourite just to do 2 direct damage and Wound.</p>
+              <hr>
+              <p>In Jaws especially, healing is quite important with the prevalence of Wound and getting an additional mostly-free source is very welcome. Coupled with the movement this bottom will feel really good (and a Heal 3 with an element is a lot better than an Attack 1, especially because the Heal just requires an ally in Range after your top Attack, not an additional enemy, making targeting easier). The element is a small-but-welcome bonus and the Strengthen is mostly irrelevant.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Ripped from the Flesh is also just fine.<p>The situation where the top is good is when an enemy has The Favourite in them and 2 or less health remaining, which allows you to get a 100% execute while moving up and recover The Favourite. I've had this happen a couple times, but it's reasonably uncommon. The real draw of this card is the bottom action.</p><p>I'm actually sort of overselling the card without mentioning the real reason this card is decent: the initiative. Currently, our three fastest initiatives are 12, 24, and 30. Adding a 20 in is a big improvement and the value of early initiative cannot possibly be overemphasized, especially on a class that looks to prevent enemy Attacks by killing them before they go. Thus, the reason we'll be willing to take this otherwise-mediocre card is just because it has a spammable bottom with attractive initiative (literally the best initiative we've been offered at levels 2-4)</p>.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-power-pitch.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The choice at level 4 comes down entirely to initiative. Neither card is much better than the other when discounting initiative, and Overwatch may even be slightly better, but our initiatives are not good and initiative is extremely important in Gloomhaven. Thus, at level 4, we take Ripped from the Flesh, although if you swapped the initiatives on these two cards, we would obviously take Overwatch instead.<p>Ripped from the Flesh replaces Power Pitch. You should still bring in Power Pitch and Double Throw for boss scenarios, cutting Fancy Hat and Barrage, and for scenarios where you need a lot of movement again cut Hat and Barrage for Second Wind and Power Pitch.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Bosses</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Level 5 gives us a really boring upgrade to The Favourite, but it is quite good. We were naturally using The Favourite all of the time and now we'll happily use the new version that adds 1-2 more damage with Wound and a situationally-useful Push 1.</p>
+              <hr>
+              <p>The bottom is also nice just as a Move 4 with 15 initiative that creates Wind. The Attack portion should rarely come up on this class because you almost never want to start your turn adjacent to a monster.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a just a basic upgrade that we are happy to take.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+                <p class="w3-pale-yellow">Always Up</p>
+                <p class="w3-pale-blue">Vaery Rarely used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-care-package.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The New Favourite replaces The Favorite which in turn replaces Care Package as an improved bottom action. We have Ripped from the Flesh for some healing if required.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Bosses</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-bombardment.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a powerful loss, one that certainly fits on a 10-card class, although taking cards for losses on level-up is not really what we're looking to do.</p>
+              <hr>
+              <p>The bottom is a reasonably powerful effect but just doesn't work particularly well with our natural cadence of moving, attacking, and moving onto The (New) Favourite's hex. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Bombardment is not particularly good although it's not terrible either.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 4, Range 3, Push 2 with a small added bonus for Wind and 11 initiative?!</p>
+              <hr>
+              <p>Which is also an 11-initiative Move 3 that can recover The Favourite?!</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Quick Turnaround makes this indeed one of the fastest level-up decisions we've ever had.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-quick-turnaround.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-double-throw.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Quick Turnaround replaces Double Throw which we will bring back for Boss scenarios. If we need to use the bottom for our Favourite retrieval then we would switch to using Center Mass top instead.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Brutalize top is a good way of getting our favourite back now that we are not as likely to be one-shotting enemies so it will be stuck in the enemy.</p>
+              <hr>
+              <p>The bottom is an OK loss, not something we are going to be playing unless we really need to, but we don’t need to with this card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Brutalize is a card that we can get behind, spammable top, loss on the bottom and decent initiative.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-excessive-force.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Excessive Force top is a pretty embarrassing loss for a 9-card class at level 7.</p>
+              <hr>
+              <p> The bottom is... okay? If you regularly have access to Wind, it's actually pretty good, but having consistent access to Wind requires jumping through other hoops and all that just to get an occasional free Attack 2, Range 2 doesn't really get there.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This isn't a great card at level 7, with its poor initiative.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-brutalize.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-repeat-shot.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Brutalise as we are likely to be meeting enemies now where a single attack is not going to kill them so the The Favourite is likely to be stuck in them and this solves that.<p>Brutalize is a fairly straight upgrade for Repeat Shot with a better top and bottom.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 2/4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-camaraderie.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top Heal represents a good amount of non-loss healing at level 8 by Gloomhaven standards. And creating Wind can sometimes be useful, although it's not extremely important here as this is mostly used out of combat.</p>
+              <hr>
+              <p>It's not difficult to consistently get a Move 3, +2 Attack with this card, and when you do, that's very solid free value for a Move action.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Camaraderie does a lot of little things.<p>But while the top is good out of combat (which is also something we previously lacked - a good out-of-combat action), the bottom is solid in combat.</p><p>Finally, the biggest selling point of this card is quietly the 75 initiative. Having a late initiative to let monsters go before us sometimes is so incredibly important and the latest initiative we had access to up until now was a 60 (and we were using a 56). 75 is an excellent late initiative in general in Gloomhaven, but it is much, much better for us.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-shrapnel.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 2's by level 8 just aren't that impressive, although this is just better than Ricochet (if you're not playing with enhancements by now).</p>
+              <hr>
+              <p>The bottom loss here is also powerful in scenarios crawling with lots of enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Shrapnel is good, although realistically it seems better than it is.<p>The biggest thing is that The New Favourite already applies Wound, which makes the biggest selling point of this card already partially redundant. Still, there's definitely a build where you just play The Favourite and use The New Favourite bottom for Wind to play this top. I'm sure it's good too.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-camaraderie.png">
+                <p class="w3-pale-green">Out of combat <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3 with bonus</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-follow-through.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Camaraderie replaces Center Mass. Move 3 with a bonus for a Move 3 with a bonus. And now that we have a number of early initiatives, 75 is actually a better initiative for us. Center Mass top in turn replaces Follow Through top, we should have enhanced this top to give us 4 attack by now so this gives us the same attack without the condition.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-pale-green">Ranged Multi-Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-camaraderie.png">
+                <p class="w3-pale-green">Out of combat <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3 with bonus</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-camaraderie.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-executioners-axe.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A non-execute execute.</p>
+              <hr>
+              <p>This is OK, but nothing great for a Level 9 card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Executioner's Axe provides the Jaws equivalent of the Brute's level 9 execute only it's pretty miserable for a level 9 loss.<p>The bottom and the initiative are both the better parts of this card and are... okay. But while they're not bad, the card is demonstrating a noticeable lack of the word 'Stun' on its non-loss abilities, which is a quality we greatly admire in a Gloomhaven ability card.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ha/jl-heart-seeker.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 4, Range 4, Stun with the possibility of adding Wound? Yup!</p>
+              <hr>
+              <p>And a terrible bottom loss? Perfect, now we feel even better about just spamming the top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Sure, in reality the Wind consumption to add Wound shouldn't rarely matter here because of The New Favourite, but still.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-heart-seeker.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-disorienting-barrage.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Easy choice, it has the word Stun on the top.<p>Heart Seeker replaces Disorienting Barrage top attack as at level 9 the +1 damage isn't powerful enough.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 3 <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-heart-seeker.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Very rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ha-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-camaraderie.png">
+                <p class="w3-pale-green">Out of combat <i>Heal</i></p>
+                <p class="w3-pale-green">Move 3 with bonus</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Early Move 2, <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged combo</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Favourite Retrieval</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-second-wind.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ha/jl-fancy-hat.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">High movement scenarios<p>We want the movement; the <i>Wind</i> on the bottom of Power Pitch will get used on the bottom of Follow Through, which also makes sense for a scenario where you want movement.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-care-package.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-center-mass.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-close-cuts.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-disorienting-barrage.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-double-throw.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-extra-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-fancy-hat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-follow-through.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-power-pitch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-retrieval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-second-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-stopping-power.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-favorite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ha/jl-repeat-shot.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ricochet.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-ripped-from-the-flesh.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-the-new-favorite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-quick-turnaround.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-brutalize.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-camaraderie.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ha/jl-heart-seeker.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/ha/jl-center-mass.png"></td><td>top</td><td>+1 Attack</td><td>A spammable we keep throughout our levels</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ha/jl-ricochet.png"></td><td>top (x2)</td><td>+1 Attack</td><td>We keep this card throughout</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ha/jl-the-favorite.png"></td><td>bottom</td><td>+1 Move</td><td>At level 5 we will switch to using the bottom of this card so the extra move on a jump is great for us.</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey"></div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Gouge</td><td>Replace +0 with +1 <i>Wound</i></td></tr>
+      <tr><td width="250px">Mislead</td><td>Replace +0 with +2 <i>Muddle</i></td></tr>
+      <tr><td width="250px">Fester</td><td>Replace +0 with +1 <i>Poison</i></td></tr>
+      <tr><td width="250px">Hack</td><td>Reaplce +1 with +3</td></tr>
+      <tr><td width="250px">Stupefy</td><td>Replace +0 with +0 <i>Stun</i></td></tr>
+      <tr><td width="250px">Numb</td><td>Replace +1 with +1 <i>Stun</i></td></tr>
+      <tr><td width="250px">Gale</td><td>Add +2 <i>Wind</i></td></tr>
+      <tr><td width="250px">Refrain</td><td>Replace +0 with +1 <i>Immobilise</i></td></tr>
+      <tr><td width="250px">Elbow</td><td>Replace +0 with +1 <i>Push 2</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-109-thiefs-hood.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-009-piercing-bow.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-036-boots-of-dashing.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-056-ring-of-brutality.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-021-stun-powder.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-124-doomed-compass.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-012-minor-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Standard based on Gripeaway build (<a href="https://imgur.com/a/vSWXrgp">https://imgur.com/a/vSWXrgp</a>)</div>
+</footer>
+
+</body>
+</html>
+  

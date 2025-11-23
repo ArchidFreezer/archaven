@@ -1,0 +1,1993 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cragheart Ranged Striker</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Cragheart Ranged Striker</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>There are many things that the Cragheart can build around and he can be a confusing character to work with. This build will look to use him as a ranged damage dealer as much as possible, coming into melee only when you're out of ranged attacks or using melee attacks and moving away when enemies have closed on you. Your secondary role is support as you do have some nice amount of healing.</p>
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss is powerful and you'll be happy to use it in the last room if you ever manage to keep this card that long (hint: you shouldn't try to).</p>
+              <hr>
+              <p>Creating obstacles is very powerful but doing it without moving and while going late is just miserable.<p>Why going late, you ask? Well, you see, you just don't have any early initiative top ranged attacks so you can't pair this with an early card to place the obstacles when you can still predict what they'll do. And finally, the Earth generation continues to not be a priority as we'll have two cards from level 1 and three cards from level 4 that create Earth all the time.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Avalanche is here to setup Rock Slide and make you appreciate an amazing card even more as you previously thought the Cragheart's obstacle mechanics would be as clunky as this card was.<p>There are some scenarios early in the campaign where the bottom effect here is powerful enough that you will be happy to work around its shortcomings but you'll get Rock Slide sooner or later and then be happy to never look back.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A good action for rooms with large enemy counts, but that is less common in 2p.<p>It does give you an easy-to-setup power spike in the last room of a scenario.</p></p>
+              <hr>
+              <p>Perfectly acceptable movement.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Backup Ammunition is a core card for this class at any level in a 4p party but the lower enemy count in 2p leads this card to being a little more underwhelming as we level. The biggest reason that lower enemy counts hurt this card is because our most common combo with this card is Massive Boulder and with less enemies it becomes more difficult to really benefit from the splash on two targets.<p>Using this in the last room also generates some much needed xp for us.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a simple attack 3 range 3 most of the time and that's honestly good enough.<p>Especially with Backup Ammo and the fact that you don't get many more simple non-loss ranged attacks, you'll be happy to keep this around for that alone.</p><p>Because you often have more Earth than you spend, the Earth consumption line on this card will often just amount to 1 xp generation, which is also nice.</p><p>Finally, in a not-insignificant number of scenarios, the Push will let you spring traps.</p></p>
+              <hr>
+              <p>The bottom is also a powerful loss when you can consume Earth, which ranges from a nice bonus in the last room of a scenario to being instrumental in killing Flame Demons.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Crater is a very nice roleplayer card - a card that's never really very exciting but has a pretty simple job and does that job well.<p>It should be mentioned that ranged attacks with Push are pretty rare and are VERY flexible in terms of getting enemies where you need them to be, so when there are high-value traps, this top action will really shine.</p><p>Crater, like many Cragheart cards, is really only let down by its initiative (doubly true here as you do need to go before monsters most of the time when you want to use Push effectively).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>As with Opposing Strike, an attack 3 isn't great but it's okay, especially at level 1. Immobilize is honestly worse than 1 xp on a melee attack for this class though - you lack the early initiative to move away before monsters go outside of Unstable Upheaval and that card will already be working overtime. Earth generation is core to this class but you almost always have more Earth than you can spend so you honestly don't really ever need to prioritize generation.</p>
+              <hr>
+              <p><i>Loot 1</i> bottom actions are quite bad as it's difficult to put yourself in a position where Loot 1 is useful and then use it the following turn - in most of those cases, moving twice will simply yield as many coins. The Earth is nice as you are a real tart for that element.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Crushing Grasp is another mediocre card that we'll use at early levels but will be happy to be rid of soon enough.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Dirt Tornado is absolutely one of the Cragheart's best level 1 actions in a 4p party. 4p scenarios will often have enough enemies that you can consistently get 4-5 targets with this attack which makes the damage very, very reasonable - and the Muddle for mitigation is just a bonus thrown on the top. You also have the possibility of powering this up with either Heaving Swing or Earth, meaning there are multiple routes to getting at least 2 attack on this, at which point the action is definitely good enough. Earth is the more reliable route, however, as while the Heaving Swing combo is excellent (especially on top of Earth), it also has serious initiative issues and initiative is very serious problem on an AoE attack like this for two reasons.<ol><li>Because you're doing a small amount of damage to many different targets, you typically need your allies to go after you and finish some of the targets you've weakened, otherwise your team is taking a ton of attacks.</li><li>If the enemies go before you and move, your great AoE targeting may be ruined.</li></p>
+              <hr>
+              <p>The bottom is also a perfectly fine move 3 (for this class, at least) for the majority of the time when you don't have ideal targeting.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Dirt Tornado is an excellent card for a Cragheart in a 4p party.<p>The biggest reason this card is still decent at lower levels is just because it has a reasonable bottom action at the same time.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Earthen Clod's top action is far from exciting but is pretty reasonable. The long range allows you to get guaranteed attacks off when entering a room although the low damage means you'll never be excited to do that. Still, guaranteed attack for 2 is better than a reasonable risk of not being able to make any attack at all and your low movement can make that a very real risk.<p><i>Immobilize</i> is also a pretty lacklustre condition but you have enough Earth that you can get it when it will be useful, although once you get Rock Slide at level 4, you'll often find you'd rather just use that any time that Immobilize would do something and just get a significantly more useful action.</p></p>
+              <hr>
+              <p>While Heal 2 isn't impressive, the decent range means you'll almost always find a relevant target and it will often be used just to remove Poison or Wound, which is quite valuable.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>A card that will find some use.<p>The nature of how the Cragheart plays, especially as he gain levels, means we can easily have a lot of turns where we are able to make effective top actions without needing to move. Accordingly, the few non-move bottom actions we have can accrue a significant amount of value over the course of a scenario and this one has, sadly, some of your more reasonable initiative.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action of Forceful Storm is a powerful loss action that can absolutely justify playing the card for a loss. A reasonable amount of damage and crowd control coupled together almost always makes for a good loss and is especially reasonable for a class with 11 cards.</p>
+              <hr>
+              <p>While the bottom is certainly an enticing mechanic to setup some powerful melee combos, you just lack the tools. You don't have much movement to setup the right position and you absolutely don't have the initiative to make sure the combo goes off properly. Later on you'll gain the movement but you'll never have good enough initiative with the attacks you want to perform.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The reason we won't bring Forceful Storm is because we have enough good losses that we don't need another with no other action on it and 53 initiative.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>You'll have the option to take a few melee attacks as you level, but you won't get another non-loss 5 damage melee attack until level 7! You also just won't get a ton of effective non-loss attacks period, meaning that even though you'd prefer ranged attacks to melee, this attack will still end up having to do a lot of work for you. And while the attack doesn't completely come online until you hit level 4 and get Rock Slide, the bar for a decent non-loss attack is also lower at level 1-3, so you'll still regularly be happy with it.</p>
+              <hr>
+              <p>The bottom is a very powerful non-move action but just suffers from initiative. You'll most often want to combine this with Dirt Tornado but then you'll be going at 57 initiative which is a problem because you typically want to be the first one to hit enemies when you do a numerous-target AOE so your allies can finish them off before they hit back and if the enemies go first, it can be much more difficult to reliably get as many targets as you would like. The sheer amount of damage you can do with it in 4p means you'll have more incentive to try to get it right (although be careful because you'll also have much greater punishment, in the form of numerous enemies attacking, when it goes wrong).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Heaving Swing is an absolutely core card for the Cragheart in 4p.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Massive Boulder is an incredibly powerful top action compared to other level 1 actions, it really does it all: respectable attack value, especially compared to other level 1 ranged attacks, creates Earth, and does some valuable splash damage.</p>
+              <hr>
+              <p>The bottom is our biggest non-loss move at level 1 but we're still almost never going to play it outside of extremely desperate situations because we never want to lose access to this top action.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Speaking of those cards that create Earth all the time, here's one of them.<p>The only problem with this card is the initiative but you can't have it all and you are still a Cragheart.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>4p parties definitely appreciate having some healing around and by bringing this card along with you (on top of Rumbling Advance and Earthen Clod), you can pretty much remove the need to have another class with significant healing.</p>
+              <hr>
+              <p>The bottom loss on this card is just a lot of text and symbols to tell you never to use it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Because of the number of allies and enemies on the board at all times in a 4p party, you'll pretty much always be able to find two damaged targets for this, and it's great at removing multiple instances of Wound or Poison, which is one of the best things healing can actually do in Gloomhaven.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action of this card isn't going to hit 3 targets, except in some fantasy scenario, but an attack 3 at range 2 is usable and you might get a couple of enemies if you move into position, except you don’t get to move quickly!</p>
+              <hr>
+              <p>The bottom loss here is pretty poor. You don't spend that much time in melee, despite your large health pool, and you don't really have much in the way of defensive options, so taking hits really is something you'd rather avoid. More importantly, you also have a few very powerful loss actions, even from level 1, so you'd much rather spend your valuable losses on some other actions.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The top action is still OK. An attack 3 that gives 1 xp isn't anything to write home about and certainly doesn't compare favourably to other melee damage-dealers at level 1, but you're also not a melee damage-dealer - you help the party in ways those simpletons can't even grasp - and gaining experience at level 1 is really important for you. Your experience gain is pretty poor at levels 1-2 and you really want to get to level 4 as quickly as possible to unlock your true potential.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A highly situation top that will be rarely used, but is another way of infusing <i>Earth</i>.</p>
+              <hr>
+              <p>Another situation action on a bottom loss.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Sometimes, it would seem, theme gets in the way of mechanics. There's not really much more I can say about this card: it's pretty much just there if you want to RP a mole. A highly situational top action with a situational bottom loss for a class that has numerous better loss actions.<p>This card could have at least had good initiative and then it might have competed for Unstable Upheaval's 'Move 2 with 13 initiative' slot but as-is you should pretty much never bring this card unless there's a very, very specific reason relating to cheesing the scenario you're otherwise struggling with.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top half will rarely be used in combat but it's always very nice to have some healing (and Heal 4 is some very good healing for a level 1 card) around for when you're done with one room and moving to the next, allowing you to recover missing health before the next engagement and avoid having to lose cards. In those cases, the Earth generation can also work nicely on the top as you can set it up to have it as you enter the room, which can be invaluable. As we usually use healing outside of combat, the range limitation is rarely an issue.</p>
+              <hr>
+              <p>Then for when you need to use the card in combat, you've got a move 2 with 29 initiative that creates Earth and gives you some free direct damage, which is certainly invaluable against some very annoying types of enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Rumbling Advance is a really great card with two very nice halves and one of your best initiatives to boot.<p>I've said that we don't care so much about Earth creation because we have more of it than we use but that's largely because of this card and Massive Boulder which always make Earth for us - accordingly, it's not that we don't appreciate the Earth here, it's just that because we have the Earth here, we don't need it other places.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A powerful top loss but one you rarely want to use before the end of a scenario unless your party can create Earth for you on the first turn before you go.</p>
+              <hr>
+              <p>Luckily we have an early Move 2 with <i>Earth</i> generation, which we will happily use for quite a while.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This card is a good staple with a powerful loss on one half and a spammable action on the other. We will be happy to take this with us throughout any scenario. The movement isn't great, but it generates Earth to power up our other cards.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These are the Cragheart's core cards, as usual ordered from best/most important to worst/least important.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard</h3>
+          <p>And here we have the rest of our cards. Obviously we'll have to include a significant number of these but they're all very replaceable and we're not especially excited to include any of them.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png">
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png">
+                <p class="w3-pale-green">AoE Attack</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Move 2, damage</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-pale-blue">Powerul loss</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-blue">Create Rocks</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of this card is more mediocre: it will only be consistently useful with large obstacles, as small obstacles rarely have enough enemies adjacent to them.</p>
+              <hr>
+              <p>At level 1, we have no non-loss move 4's that we'll actually use, so getting our first move 4 is a big step to helping our low movement. This card is also a candidate for a jump enhancement.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Explosive Punch starts to address some of our classes problems.<p>While 28 initiative isn't exciting for most other classes in the game, it will actually be our second best initiative! So we basically want this card as a move 4 with 28 initiative, which seems a bit sad, but is actually really helpful.</p><p>You will almost never want to use the top but that's absolutely not a problem as you have other good losses and just using the bottom regularly already helps your deck immensely.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-sentient-growth.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>In 4p, both the number of enemies and allies increases dramatically, meaning you can very consistently find 3 targets with this top action. Do remember that it is an attack action, however, and therefore does require at least one enemy within the target area in order to also heal allies. Accordingly, in order for the top action to be consistent enough, you do really want to be in a party with at least one melee ally, preferably one who can survive a hit or two. Without any melee allies, you'll be relying on hitting only enemies most of the time, in which case this will only consistently hit 2, making it a lot less impressive.</p>
+              <hr>
+              <p>The bottom action is a nice little bit of utility that can add a couple points of free healing in between rooms or, most significantly, can efficiently remove Wound/Poison.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Sentient Growth is a very nice card in most 4p parties.<p>The biggest problem with this card is that it has horrible initiative and thus doesn't at all help to solve the biggest problems we have.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-opposing-strike.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">In the end, we're going to go with the card that addresses our deficiencies the most and that is Explosive Punch. Sentient Growth could be a preferred option for a party with a couple of melee characters to get the added bonus of the top action.<p>Explosive Punch replaces Opposing Strike. We are losing a top melee but are gaining a Move 4 with XP.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png">
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-blue">Create Rocks</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Move 2, damage</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-pale-blue">Powerul loss</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-blunt-force.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss is a great addition to our class. While we do already have a bunch of valuable losses, they're all AOE, which leaves us lacking any way to dump longevity in a boss or boss-like fight to deal a large amount of single-target damage quickly. Blunt Force is absolutely priceless on those types of scenarios, which normally are not the Cragheart's strong suit. Sure, one loss won't suddenly transform you into a Scoundrel, but it does help a lot.</p>
+              <hr>
+              <p>The bottom does have one of the worst keywords in the game - Retaliate. This is awful in Gloomhaven for multiple reasons.<p>So if it's bad, why is this card (and thus obviously this action) actually good? Well, quite simply, because it's a move 2 with 21 initiative that gives 1 XP. XP is really valuable for this class.</p><p>21 initiative is, by far, the second-best initiative we can have right now, so that makes this really important. This card will basically be Unstable Upheaval #2, which gives 1 XP each time but goes slightly later. And that's more than good enough! You can, and should, pretty much completely ignore the Retaliate line on this card (at least until you get 100g for enhancements) and you'll be better off for it.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Blunt Force is a card that I didn't really appreciate much at first but the more you use it, the more you'll come to understand how invaluable it truly is.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>In 4p, the power ceiling for this card is very high as it can frequently function as non-loss 2-3 target Attack 3. We have more than enough Earth to power this up any time we play it so the problem is just whether the room/enemy spacing allows us to effectively toss obstacles or not.</p>
+              <hr>
+              <p>An alright loss for a class with a ton of better losses and while it can be very useful on a few very specific scenarios, it's not remotely consistent, furthering the variance issues with this card.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Clear the Way is a card that really fluctuates constantly in effectiveness depending on the rooms in a scenario and the types of enemies.<p>The final problem with Clear the Way is that we don't have good obstacle generation until level 4, meaning this card will be even more scenario-dependent until then. All that being said, we have so many consistently-good cards like Massive Boulder, Rumbling Advance, and Heaving Swing that have two good actions on both halves of those cards that we can often afford to have a higher-upside card hanging out and only getting used half as often. And, in a level, this card will get a LOT better. Finally, the biggest argument for this card is also that we just won't get any more non-loss ranged attacks until level 9, meaning we kind of need this (as ranged attacks are so much better than melee in a 4p party).</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-natures-lift.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Clear the Way in a pretty painful choice. Blunt Force is definitely the better card right now but Clear the Way will end up being the better card as we level, replacing Nature's Lift. If your party was really heavily relying on your healing (lacking other people who can bring a little healing), you can cut Crater on scenarios without valuable traps. Avalanche is, unfortunately, by far our worst card and still in our hand, but it's just necessary at this point on many scenarios to make Clear the Way even function.<p></p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png">
+                <p class="w3-pale-blue">Rarely used loss</p>
+                <p class="w3-pale-blue">Create Rocks</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Move 2, damage</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-pale-blue">Powerul loss</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-kinetic-assault.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 4 at level 4 is pretty mediocre and the 1 movement thrown on doesn't add much. Still, sometimes we'll be more than happy to deal 1 less damage with an attack to make sure that attack can go before an enemy without having to use one of our valuable bottom action low initiative cards.</p>
+              <hr>
+              <p>Ranged Retaliate on the bottom loss fixes some of the problems with Retaliate but is also a loss, which makes the variance even more punishing. Furthermore, we don't have the defensive tools to make us actually want to take enough attacks that we'd be happy with this bottom action, so it's really best to just forget about it outside of very specific scenarios like Flame Demons, although we also already have a lot of other tools for dealing with them.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Kinetic Assault is a fine card for the same reason we've taken every card thus far: initiative. It might seem like I'm overemphasizing this point, but trust me, I'm not.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>It is, undoubtedly, the most powerful non-loss action any of the starting classes have at level 4. Even in a 2p party, the damage this action does each time you play it is absurd - and it's direct damage on top of that, which deals with some of the most annoying enemies in the game.<p>On top of doing incredible damage (just to clarify in case anyone misunderstands: each target can only be affected once), it also transforms the map to help prevent enormous amounts of melee damage on most scenarios.</p><p>While it is at its worst against flying enemies, flying enemies also tend to have low health pools, which makes the rocks just kill them quickly enough.</p><p>Finally, Rock Slide also powers up some of your other cards like Heaving Swing. Oh yeah, and this card also produces even more Earth than we will ever need and gives XP. What?!</p></p>
+              <hr>
+              <p>Not something you will ever use in preference to the top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Rock Slide is one of the most impressive actions in the entire game.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-avalanche.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Rock Slide faster than the Cragheart has ever moved before in his life.<p>Rock Slide replaces Avalanche. Avalanche had really stuck around much longer than it deserved purely out of necessity with Clear the Way but that's over now that we have Rock Slide.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Move 2, damage</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-pale-blue">Powerul loss</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+                <p class="w3-pale-blue">Ranged Attack</p>
+                <p class="w3-pale-green">Move 2/Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The ability to execute Elite enemies unconditionally at range is a powerful loss.</p>
+              <hr>
+              <p>Moving and then Immobilizing is intended to help the melee build, I suppose, but means the condition will rarely do more than Muddle ranged enemies, at best.<p>Other classes can use this sort of effect to go late and Immobilize then go early the following round, leaving the Immobilized enemies stuck behind, but we typically lack the early initiative on another card to pull that off.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Petrify combines a powerful loss with a spammable bottom. The bottom isn't great, but is usable and we really need some more low initiatives.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-stone-pummel.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Without comboing this card, you're mostly left with a low-damage AOE attack that usually only hits two targets at level 5 and that's absolutely not what you want.</p>
+              <hr>
+              <p>The bottom loss is powerful but unwieldy and almost never worth the setup (compare how much easier it is to use Backup Ammo, which gives you similar results, and is a level 1 card).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Stone Pummel is a pretty mediocre card designed around the 'melee build' for the Cragheart. The problem with that build is that you lack the initiative to make it work consistently. For example, the combo you really want to do with this top action is Forceful Storm, but then you still have 32 initiative on a turn where you don't move, which is really not where you want to be at.<p>Most effective melee attackers in the game can do so with early initiative, this build for the Cragheart asks you to try to do the same thing only with much worse initiative and the reward is potentially slightly higher damage on some turns.</p><p>Overall, I find the inconsistency not to be worth the risk, especially when the Cragheart can still do some incredibly powerful stuff while focusing on more utility/ranged damage.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-petrify.png">
+                <p class="w3-pale-blue">Execute loss</p>
+                <p class="w3-pale-green">Early Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-earthen-clod.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Petrify is a very easy choice here replacing Earthen Clod which is absolutely only getting used for its bottom action at this point.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Move 2, damage</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-pale-blue">Powerul loss</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png">
+                <p class="w3-pale-blue">Execute loss</p>
+                <p class="w3-pale-green">Early Move 3</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is an extremely powerful loss action (certainly our most powerful yet) which can singlehandedly win rooms for your party. The Immobilize is mostly irrelevant and I regularly forget it's even there, to be honest.</p>
+              <hr>
+              <p>Meanwhile, when you haven't found the occasion to use the top, you've got a nice bottom action - move 3 with 26 initiative. Because you've typically got more Earth than you can spend, you can frequently make this into a move 6 if you really want. You don't need that very often, but it's easy to setup when moving from room to room with Rock Slide or Rumbling Advance, so it can be relevant.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a really good card for both actions.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-dig-pit.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action is just all over the place. Isaac himself has admitted that traps really could use more support and I'd generally argue that they also just need to be more powerful intrinsically as almost every trap action in the game is quite literally a trap (maybe Isaac has a twisted sense of humour?).<p>The best use for traps is typically to mess with monster AI but the Cragheart already has a much better tool for that and doesn't need a mediocre second option.</p></p>
+              <hr>
+              <p>The bottom action of Dig Pit is a bit better as unconditional Invisibility is pretty powerful. That being said, the Cragheart is more of an opportunistic melee class than a constant one and thus Invisibility doesn't benefit him much.<p>Because he has such a large hp pool, typically spends his time at range, and has so much to prevent enemies from ever dealing damage, he doesn't really even need the Invisibility for when he does move up (as opposed to other squishier classes).</p><p>The best use for it really is again to mess with monster AI and while it does a better job of that than the top action, it's let down in that role by its initiative. In order to use it reliably for that purpose, you must combine it with Kinetic Assault, our only early top attack action, which makes it narrow and still rarely powerful enough of an effect to merit the hoops, especially when comparing it to such a great card in Cataclysm.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Dig Pit, on the other hand, is a pretty mediocre card.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-cataclysm.png">
+                <p class="w3-pale-blue">Powerful AoE loss</p>
+                <p class="w3-pale-green">Move 3/6</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-rumbling-advance.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Cataclysm is a pretty easy choice as it's a very nice card and we're happy to have everything it does. The only problem is that it also starts a long spree of taking top loss actions alongside bottom moves, which is a bit of an issue (unfortunately an unavoidable one).<p>Cataclysm replaces Rumbling Advance, we are losing a heal  but getting a better move on the bottom.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png">
+                <p class="w3-pale-blue">Powerful AoE loss</p>
+                <p class="w3-pale-green">Move 3/6</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png">
+                <p class="w3-pale-blue">Execute loss</p>
+                <p class="w3-pale-green">Early Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-blue">Attack 3</p>
+                <p class="w3-pale-green">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-pale-blue">Powerul loss</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-brutal-momentum.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Brutal Momentum's (top) action is typically worse than Heaving Swing's (assuming the Push value to be equal) because while it does have the advantage of using walls and not actually destroying obstacles, it also requires significantly more setup than just having a single obstacle in one of multiple different possible hexes next to an enemy.</p>
+              <hr>
+              <p>Meanwhile, the bottom seems to be a powered-up bottom of Heaving Swing, but in fact your most common (and best) combo being with Dirt Tornado means that this bottom is actually no different.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Brutal Momentum is a card which I dislike on the design level. Having made the top action so similar yet actually different from Heaving Swing actually lends itself to creating a ton of confusion with newer players who assume they function the same.<p>Overall, while not a bad card, I see this mostly as a swing and a miss (average in terms of balance but poor in terms of design).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is honestly pretty underwhelming. While there are a lot of enemies in 4p, it can typically be quite hard to actually position the obstacle in the middle of them, meaning you'll rarely get as many targets as you'd want, and in small rooms it's an absolute nightmare.<p>Honestly, Cataclysm is just a much better and easier-to-use loss. The main 'point' of Meteor's top seems to be to setup Rocky End, our level 8 card, but Rock Slide and/or Rock Slide + Stamina Potion does the same job but much more easily and honestly more effectively most of the time. And if we already want to use Rocky End and Cataclysm for losses, fitting in a third whose effect isn't really on the same level becomes questionable</p></p>
+              <hr>
+              <p>A big non-loss move with jump, what's not to like!</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Meteor is a good card for the Cragheart because it has low initiative and gives us a very good spammable bottom action for this class.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-meteor.png">
+                <p class="w3-pale-red">Rarely usable</p>
+                <p class="w3-pale-green">Move 4 <i>Jump</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-backup-ammunition.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">While both halves of Brutal Momentum are fine and it's certainly an alright card, neither half is nearly as consistently useful as a move 4 Jump with 23 initiative. Thus, we take Meteor with very little intention of regularly playing the top action.<p>Meteor replaces Backup Ammo. Everything about Backup Ammo was still good but Meteor had to come in somewhere and we are getting some other loss cards we almost always want to play, giving Backup Ammo less opportunities. If you want to cheese scenarios you can always bring Backup Ammo back when you get level 9 to pair with Blind Destruction, but honestly Blind Destruction is already such a broken card that I find you shouldn't have too much issue anyway once you have access to that card (especially if you're playing with Stamina Potions).</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png">
+                <p class="w3-pale-blue">Powerful AoE loss</p>
+                <p class="w3-pale-green">Move 3/6</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png">
+                <p class="w3-pale-blue">Execute loss</p>
+                <p class="w3-pale-green">Early Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-blue">Attack 3</p>
+                <p class="w3-pale-green">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png">
+                <p class="w3-pale-red">Rarely usable</p>
+                <p class="w3-pale-green">Move 4 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-lumbering-bash.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Gaining 4 levels on Kinetic Assault to only add +1 move and +1 attack while having a much, much worse initiative just isn't impressive for a level 8 card.</p>
+              <hr>
+              <p>And with how poorly healing scales with levels in Gloomhaven, the loss heal on the bottom is more of a joke.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Lumbering Bash, on the other hand, is just pretty 'meh'. Again, this card is meant to be setup with the melee build, but that build is kind of all over the place.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-rocky-end.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Blunt Force's top was valuable for us at level 3 because it provided a loss we could use when single-target damage was important, something which was typically not our specialty. Rocky End's loss does exactly the same, only feeding off of what is our specialty and reaching some crazy numbers. Even with rarely using Meteor, it's not hard to setup two Rock Slides with a Stamina Potion, and then you're already looking at Attack 12. Most rooms in most scenarios have one or a couple obstacles so you're pretty easily to 16+ most of the time. Some rooms will make it difficult, without a doubt, but it's so powerful most of the time when you need it that it absolutely merits its place.</p>
+              <hr>
+              <p>And while the bottom can sometimes be difficult to use, it's also typically pretty easy and pretty powerful with Rock Slide.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Blunt Force deleted Facebook, went to the gym, and came back as Rocky End.<p>So while Rocky End isn't quite as consistent as something like Cataclysm, it's consistent enough with a very high power level.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-rocky-end.png">
+                <p class="w3-pale-blue">Big situational loss</p>
+                <p class="w3-pale-green">Move 6/2</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-explosive-punch.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Rocky End is an easy choice, completing a one-two punch with Cataclysm, giving us both a powerful AOE and single-target loss for when we need either.<p>Rocky End replaces Explosive Punch as it is almost a straight upgrade.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-pale-green">Situationally powerful</p>
+                <p class="w3-pale-blue">Situational loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png">
+                <p class="w3-pale-blue">Powerful AoE loss</p>
+                <p class="w3-pale-green">Move 3/6</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png">
+                <p class="w3-pale-blue">Execute loss</p>
+                <p class="w3-pale-green">Early Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-blue">Attack 3</p>
+                <p class="w3-pale-green">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png">
+                <p class="w3-pale-red">Rarely usable</p>
+                <p class="w3-pale-green">Move 4 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rocky-end.png">
+                <p class="w3-pale-blue">Big situational loss</p>
+                <p class="w3-pale-green">Move 6/2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rocky-end.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-blind-destruction.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is a scenario killer action, end of!</p>
+              <hr>
+              <p>I guess the card does also have a bottom action, but despite it being perfectly fine, I've almost never used it (it can be decent for dealing with Flame Demons which don't always cooperate with the top action). </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Blind Destruction is what I call a 'game-breaker', the Gloomhaven version of world-destroyers. Some classes just get level 9 cards (or level 6 cards if you're Eclipse) that trivialize most scenarios in the game. Other starting class examples of this would be the Scoundrel's Long Con and the Spellweaver's Inferno. It's up to you to decide whether you like this sort of mechanic or not - being rewarded for getting to level 9 by getting to do something that feels well and truly broken. Regardless, that is what Blind Destruction does.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ch/gh-pulverize.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This OK, but it doesn't allow the use of walls so no good against flying enemies.</p>
+              <hr>
+              <p>This is all over the place and we are not a melee build.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Pulverize, on the other hand, has no idea what it's doing there alongside Blind Destruction. Average initiative and two reasonably-powerful halves that could still have snuck in at levels 7 or 8 without any eyes being raised. It's a bit of a shame for a card to exist to just never be used but it is what it is - unless you're intentionally avoiding 'broken' cards, you should absolutely never play this card in your life. </p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-blind-destruction.png">
+                <p class="w3-pale-green">Big Ranged AoE</p>
+                <p class="w3-pale-blue">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ch/gh-clear-the-way.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Blind Destruction, one of the most powerful cards in the entire game, is an enormously simple choice, replacing Clear the Way.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-blind-destruction.png">
+                <p class="w3-pale-green">Big Ranged AoE</p>
+                <p class="w3-pale-blue">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png">
+                <p class="w3-pale-green">Ranged AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png">
+                <p class="w3-pale-green">Signature spammable</p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-crater.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Last room loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-ch-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png">
+                <p class="w3-pale-blue">Powerful AoE loss</p>
+                <p class="w3-pale-green">Move 3/6</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png">
+                <p class="w3-pale-blue">Execute loss</p>
+                <p class="w3-pale-green">Early Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png">
+                <p class="w3-pale-blue">Attack 3</p>
+                <p class="w3-pale-green">Ranged Booster</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png">
+                <p class="w3-pale-red">Rarely usable</p>
+                <p class="w3-pale-green">Move 4 <i>Jump</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-rocky-end.png">
+                <p class="w3-pale-blue">Big situational loss</p>
+                <p class="w3-pale-green">Move 6/2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png">
+                <p class="w3-pale-blue">Powerful loss if powered</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-avalanche.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-backup-ammunition.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-crater.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-crushing-grasp.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-earthen-clod.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-forceful-storm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-heaving-swing.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-massive-boulder.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-natures-lift.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-opposing-strike.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-tunnel.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-rumbling-advance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-unstable-upheaval.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-explosive-punch.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ch/gh-clear-the-way.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rock-slide.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-petrify.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-cataclysm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-meteor.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-rocky-end.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ch/gh-blind-destruction.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/ch/gh-heaving-swing.png"></td><td>top</td><td>+1 <i>Push</i></td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ch/gh-dirt-tornado.png"></td><td>top</td><td><i>Poison/Wound</i></td><td>Whichever your party has less of</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ch/gh-explosive-punch.png"></td><td>bottom</td><td><i>Jump</i></td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ch/gh-massive-boulder.png"></td><td>top</td><td>+1 Attack</td><td></td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey"></div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Focus</td><td>Replace -1 with +1</td></tr>
+      <tr><td width="250px">Dust</td><td>Remove 4x +0</td></tr>
+      <tr><td width="250px">Resilient</td><td>Ignore negative scenario effects</td></tr>
+      <tr><td width="250px">Daze</td><td>Add +2 <i>Muddle</i></td></tr>
+      <tr><td width="250px">Hobble</td><td>Add +1 <i>Immobilise</i></td></tr>
+      <tr><td width="250px">Verdant</td><td>Add 2x rolling <i>Earth</i></td></tr>
+      <tr><td width="250px">Barge</td><td>Add 2x rolling <i>Push 2</i></td></tr>
+      <tr><td width="250px">Cobalt</td><td>Add 2x rolling <i>Wind</i></td></tr>
+      <tr><td width="250px">Savage</td><td>Add -2 and 2x +2</td></tr>
+      <tr><td width="250px">Endurance</td><td>Ignore negative item effects</td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container">You should have high priority on these given your movement limitations</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container">Given the limited number of spammable attacks this should be a priority</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-006-eagle-eye-goggles.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-007-iron-helmet.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-009-piercing-bow.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-012-minor-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Ranged Striker based on Gripeaway build (<a href="https://www.reddit.com/r/Gloomhaven/comments/9udkzk/cragheart_class_guide_4p_party/">https://www.reddit.com/r/Gloomhaven/comments/9udkzk/cragheart_class_guide_4p_party/</a>)</div>
+</footer>
+
+</body>
+</html>
+  

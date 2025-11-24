@@ -1,0 +1,2246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plagueherald Curse</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Plagueherald Curse</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>This build is centred around spreading as many curses into the enemy deck as we can to prevent them from dealing damage.</p> <p>Thi build works with any party, whether we have a tanky ally or a bunch of squishies.</p>
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Poor Spellweaver and her Forked Beam at level 4. The top action is excellent, well above curve.</p>
+              <hr>
+              <p>Great, flexible bottom Move 5</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a very good card for level 1.<p>You either get good damage at great range and some free XP, or you get a standard good level 1 Move action. The only downside is that this card does have quite bad initiative, which is a bit of a recurring trend for the Plagueherald. We still eventually outgrow this top action as the health of enemies scales up but at low levels we'll be happy every time we use it.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss isn't bad, but it's not very good either, being heavily outclassed even by (admittedly good) level 1 Tinkerer losses. We can do better damage with a non-loss at level 1 on Vile Pestilence, similar damage with Epidemic, and we have an enormously better loss attack in Wretched Swarm.</p>
+              <hr>
+              <p>While the bottom is a Move 2 with good initiative for this class, the Shield 1 is a pretty pointless addition as with our small health pool, we're better-served avoiding attacks than mitigating them. Accordingly, we'd rather just have an 11 initiative default Move 2 rather than this one with significantly worse initiative and a small bonus.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>From a hit to a big, swirly miss. The tank build for this class is pretty tough to pull off although I suppose could be fun to at least try. If you want to do something offbeat, why not? But if you're reading this guide, you're probably looking to play a more consistently-effective role, and that's not gonna be it.<p>Accordingly, we're just really not in the market for this one.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>ttack 3, Range 3 is kind of the standard for a level 1 non-loss ranged attack and we just get a free Curse thrown in, which is excellent value. You'll want to try to use this top action every rest cycle at low levels. The only awkward part is that we're better-served if we damage but don't kill enemies, allowing our teammates to finish them off after us, but at the same time we can't consistently go early, so many times we won't get the Curse. In those cases, don't fret and just realize that killing enemies to prevent them from attacking is basically the same as getting the Curse immediately.</p>
+              <hr>
+              <p>Meanwhile, the bottom of this card is also not bad, although difficult to use because of our squishiness. You won't use it much but you may occasionally move next to a stunned enemy or an enemy your teammate will kill while making a Curse attack somewhere else for maximum value. The Curse isn't as free on the bottom as it's still a Move 2 but it's nice value regardless.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Creeping Curse is the first of our level 1 non-loss Curse attacks and it's excellent.<p>Finally, this card does have bad initiative as well, but with the power level of the attack, we can't complain.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Being able to get Attack 6 from a non-loss at level 1 is pretty insane, especially on an 11-card class. This card does scale worse than Biting Gnats, which might seem counter-intuitive as it deals more damage, but as enemy health bars scale upwards, it becomes less realistic that we'll be killing the enemies and they'll be doing a lot of damage relative to our tiny health pool if we're in such short range with multiple still-alive foes. Accordingly, enjoy this action as much as you can at low level while it chops off 1/2 or 1/3 of an enemy's hp bar and then leave it behind when you get higher level.</p>
+              <hr>
+              <p>And how about this bottom loss? Well, the effect is certainly very powerful, allowing us to 'freely' spread a lot of Poison. That being said, because of our tiny health pool, we're typically going to fight from BEHIND our allies, not in front of them, which means we'll often apply Poison to our allies as often as our enemies. And when our party doesn't have a front line, we're certainly not trying to go adjacent to the enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Epidemic top is another very powerful non-loss at level 1.<p>Again, this card is pretty much just viable in the tank build, which is something I wouldn't recommend for anyone's first Plagueherald. If you want to go back and try it sometime, have fun! I don't believe that it actually has enough support in the class by itself, so I'd recommend bringing an ally who can make your Tankherald dreams more realistic.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Woof! Foul Wind is just not how you want a card setup with two situational halves. Losses can be very powerful in Gloomhaven but you typically want your loss to be paired with another half you're happy to regularly play (the easiest example of this would be just a Move 4 if the loss is on top or a consistent Attack i.e. Biting Gnats if the loss is on bottom). Otherwise, when that's not the case, you'll find yourself frequently needing to play the card as a default Attack 2 or Move 2 (on most classes that's mostly Move 2), which means you're losing effectiveness every time you play that card (unless you desperately need the initiative and the initiative here is not good).</p>
+              <hr>
+              <p>Loot 1 is a good (if still situational, because you don't need to Loot every rest cycle unless you're a Scoundrel) top action but a very poor bottom action as you can't typically Move and Loot in the same turn. The only way this bottom action is better than just moving to pick up a coin with end-of-turn looting is if you have multiple dead or dying enemies adjacent to you, which is certainly not a situation the Plagueherald will typically find itself in.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>So with a poor and highly situational bottom, we'll find it much harder to justify bringing the card for the top loss.<p>Is the top loss good? Well, it's also quite powerful. We have multiple giant AoEs, so it's very possible this effect can add a lot of damage. Sadly, at level 1, we can't consistently great Air. And while we will get a non-loss source of Air at level 3, it's very costly to not get to regularly use the other half of that card, meaning we'd really not be able to take advantage of this card until level 6. By then, the effect has become less impressive numerically relative to enemy health and the card still suffers from all of its half-pairing problems.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 3, Range 3 is kind of the standard for a level 1 non-loss ranged attack and we just get a free Curse thrown in, which is excellent value.</p>
+              <hr>
+              <p>For this class to really shine, you NEED enhancements. With just one enhancement you'll already feel a lot better and once you get up to two big enhancements, you'll get to start cackling maniacally again. Thus, it follows, that getting money is much more important for us than it used to be. So in Gathering Doom we get the same excellent top action we have on Creeping Curse, only paired with a powerful end-of-scenario Loot action. Loot 1 on bottom is bad but any version of Loot 2, regardless of where it's placed, can be tremendously effective.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Gathering Doom is great!<p>So you'll spam this top all scenario, and on some scenarios you won't have lost this card (you don't need to overly focus on this though) and you'll get to play the bottom loss at the end to grab a few extra coins.</p><p>Finally, the initiative here is also a bit better than Creeping Curse, although instead of being bad it's just decent (and we don't need late initiative that badly as we have Wretched Swarm).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 1 does allow us to cycle through our attack modifiers. Immobilize is a form of crowd control (written as CC from here on) but it's one of the worst as it's just not reliable. Most enemies this could prevent from attacking with a standard Move +0, Attack +0 have other cards they can flip that can still make them a nuisance for the turn. Most enemies that this can CC are also pretty low priority threats that can be evaded simply enough.</p>
+              <hr>
+              <p>Finally, the bottom is another persistent loss to support the tank build. The problem is that Shield 1 with the occasional Shield 2 just isn't enough with our small HP pool and otherwise losing power from our attacks is very costly. The enhancement dot does make this viable for a Tank build, but we ain't one.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>We keep bouncing back and forth between excellent cards and poor ones it seems. Grasping Vermin is definitely far from the hotness.<p>Because of this class's poor initiative, many times we simply can't be sure that we'll get the top off before the enemy goes. Still, there are some scenarios where you'll see the enemy types and decide to bring this (you're looking for melee enemies with later initiative and/or no ranged attacks that still have decent movement - Living Bones would be a good example) so it's not a completely dead card.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>There will be many turns, especially against high-threat enemies like Cultists, Oozes, or Imps that will always perform their threatening action after us, where we're happy to trade our turn for theirs. The flexibility to eliminate a dangerous enemy from the round when our team really needs it is great. On top of that, we get rewarded with some free XP each time we do it. Sadly, our poor initiative does limit our targets somewhat (things like Night Demons can't really be handled reliably) but this card does actually have decent initiative for us.</p>
+              <hr>
+              <p>Lastly, the bottom is a good, powerful loss that we can use in scenarios that demand bursts of movement and pairing it with a reliably-useful top is perfect.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>And back to good! While the Tinkerer would take 12 of these if he could, we'll content our self with just one. </p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Scattered Terror top loss is good at extremely low levels against a few, very specific enemies: non-elite level 1/2 Living Spirits and Forest Imps. If you have a Minor Power Potion (or an ally who can boost your attack like a Tinkerer), you can include level 1 non-elite Flame Demons and Vermling Shaman. So if you see these enemies at those levels, you can consider bringing the top for the loss.</p>
+              <hr>
+              <p>The bottom is actually a Move 2 with 11 initiative and a bonus, especially if we have some curses distributed, which is actually fine for us at level 1, over some other worse cards.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Fairly average card which would typically be used as a Move 2 with an upside.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top loss just isn't good. You do have some large AoEs which can benefit but here the cost is so high. In order to make this work consistently you'd need the following in your party: a front line tank, another ally who's unlikely to get attacked much but has a reasonable health pool, and consistent Poison-cleansing that doesn't eat up actual actions (an example is something like the bottom of Winged Congregation, where it's pretty free - you need more of those in your party as well). If you meet all of those conditions, you've made something pretty spicy and you can give it a try. It still costs you a loss though, so the cost is very high. For most parties, you shouldn't read this top action more than once, and if your allies ever wonder what it does, tell them it refers you to the bottom of this card.</p>
+              <hr>
+              <p>The bottom of this card is another good reason to never use the top. Attack 3 at Range 3 as a bottom action at level 1 is very far ahead of the curve (compare to the Spellweaver's Attack 2, Range 2 or the Brute's Attack 2 in melee - even the Scoundrel just gets an Attack 3 in melee and she has 9 cards compared to our 11). </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Furthermore, this card is actually one of our best initiatives (which is sad in general but great for this card). Finally, as we're a ranged character, there will be plenty of turns where we can afford to not move and this bottom giving us initiative and attack value together is amazing. Keep this card forever and always and keep on spamming that overtuned bottom, you won't regret it.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Occasionally you will have to Poison allies. Sometimes you'll be annoyed that it's difficult for you to perform this before your allies attack because of your poor initiative. It all doesn't matter - you're playing a non-loss that typically does around 6-8 damage minimum and can easily reach 12-15 without even entering into Magical Christmas Land. What's better - this action scales very well as Poison's value increases as enemy HP increases.</p>
+              <hr>
+              <p>And for every time you don't want to play the top, the bottom provides a perfectly-acceptable Move 3. The very late initiative and the Loot make this perfect for hoovering up gold when finishing a room.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Regardless of whether you're going for the 'Curse build' or 'Poison build' (which both should have a fair amount of crossover), this card is insane. The amount of damage this action represents each time you play it, for a non-loss, is staggering.<p>The only time you should consider cutting this card is if you're on a scenario with exclusively high-value enemies (Flame Demons, Stone Golems, etc.) AND if you already have Nightmarish Affliction or Accelerated End to Poison them (because Poison is still great against these enemies).</p><p>To clarify in case anyone wonders regarding this ability and similar abilities: I've played, at most, two scenarios with this class in a 4p party. I've had approximately a 50/50 split of playing it in 2p/3p with around 30 scenarios each. I used to believe that abilities like this would be significantly worse in 2p and while they are definitely worse, this ability, at least, is still very, very good.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This card will allow you to first apply Poison with something like Nightmarish Affliction or Vile Pestilence and then follow it up by simply executing one of those pesky hard-to-kill enemies with a significant amount of direct damage.</p>
+              <hr>
+              <p>The bottom is harder to use at level 1 although does get better at level 4 with Nightmarish Affliction. At level 1, when you apply Poison, it will be with Vile Pestilence, and as that's AoE already, you typically won't have many enemies near the poisoned enemies that aren't Poisoned. Once you get non-AoE Poison, you can more easily chain one into the other and spread a bunch. Still, even after level 4, the bottom of this card alone isn't enough that I'd bring it if I didn't want the top (it's more there as a bonus when you bring the card for the top but aren't immediately facing the types of enemies where you need the top).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Virulent Strain is an excellent sideboard card. What's a sideboard card you ask? It's a very powerful card that comes in for very specific situations. In this case, those situations are when you're facing high Shield/low HP enemies like Flame Demons, Living Spirits, and Vermling Shaman.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Gaining permanent flying is such a powerful and seemingly-unique effect. There will certainly be scenarios where movement is more important than fighting or where there are a ton of traps or annoying terrain to traverse. In those situations, feel free to take off and enjoy the feeling of this top.</p>
+              <hr>
+              <p>Meanwhile, the workhorse of this card is the bottom action combined with the initiative. 16 is our best initiative other than a much, much worse card in Scattered Terror and here we get to perform a Move 2 that also gives a nice bonus (most often used to remove Poison and/or Wound from our allies) with that initiative.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>What a cool card!<p>Even if the bottom doesn't seem exciting, especially compared to some of our really powerful level 1 actions, this card is completely irreplaceable on this class.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This card is so incredibly overtuned, it's crazy. Almost certainly in the top 5, maybe top 3 (if you discount The Mind's Weakness and Reviving Ether) level 1 cards in the game. 'Does this room seem difficult? Oh, I guess I'll just singlehandedly win it for us with one card.'</p>
+              <hr>
+              <p>On top of that, up until the point when we need this top loss, we again have the perfect pairing with a Move 4 on bottom to help us get around the scenario.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Not even intentionally saving the best for last but here we are.<p>We even have 11 cards! We can EASILY afford to play this top, and of course we should pretty much every scenario. Put simply, stunning almost every enemy in any room is obscenely powerful and should be very, very difficult to do.</p><p>84 is one of our best late initiatives at level 1, which is also really nice. Enjoy!</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These are our core cards at level 1, ordered from best/most important to worst/least important. Spread the Plague isn't necessarily as powerful as Vile Pestilence or the Curse attacks but it is more important because of our lack of other bottom attacks and because of the welcome initiative.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard</h3>
+          <p>And these are the bad/situational cards that we're unlikely to want to regularly bring.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>In the end, we take Virulent Strain and Scattered Terror. Strain is more of a sideboard card but the other cards are so bad/situational that it's still just a more reasonable choice. In the future, once we cut it, we'll just bring it back against enemies where it's good. Terror is even more narrow of an effect but is an 11 initiative Move 2, which is certainly fine for us at level 1. Grasping Vermin could replace either of these cards on scenarios where you know it will have a potent effect.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png">
+                <p class="w3-pale-blue">High <i>Shield</i> enemies</p>
+                <p class="w3-pale-green">Move 2 / <i>Poison</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+                <p class="w3-pale-blue"><i>Shielded</i> enemy loss</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-rot-maggots.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A ranged Attack 4, Poison is a very powerful effect for a low level card but the restriction is very costly and even the Poison on the attack is quite awkward. We want to use this on an enemy that doesn't have any of our allies adjacent but is also range 3 from us. Much of the time, this top will simply be worse than an Attack 4, Range 3 without either instance of Poison. The best case for this is if you run in late to a room and attack an enemy that's away from your party, but then you can be in trouble the next round because you can't easily go early to finish that enemy off or run away.</p>
+              <hr>
+              <p>So while the top is powerful but restrictive, the bottom is also just a good effect.<p>Heals are often better as bottom actions than top actions because you can freely use them in combat when you don't need to move. This heal will definitely provide a very real amount of value to your party while fighting and honestly is actually the bigger draw of this card.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Rot Maggots is a pretty good card, especially at low levels.<p> If you have a party with a strong front line and you don't have much healing in your party, I think you could definitely take this card and primarily just spam the bottom.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>At level 2, the top is an Attack 3, Range 3 that gives 1 XP and will be at least an Attack 4 1/3 of the time (realistically more than that because you can choose to use the bottom instead of the top when not facing Shielded enemies). When facing enemies with at least Shield 2 (typically most of the most difficult enemies in the game), this is a staggering Attack 5 non-loss at level 2, which is excellent.</p>
+              <hr>
+              <p>On the other side, another Move 4 is always welcome, especially as it will let us replace some of our other Move 4's eventually (for example, Biting Gnats is good when enemies don't have Shield and Under the Skin is good when they do, which means we can bring whichever is appropriate for the scenario and always have an important Move 4 on bottom).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Under the Skin is a good card at level 2 and then a nice sideboard card later on.<p>Finally, having such a powerful non-loss Pierce attack, on top of Virulent Strain, will allow us to very firmly fill the niche of 'Shielded-enemy destroyer' for our party, which is something almost every party loves to have filled.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-blue"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-virulent-strain.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Both cards are good. Rot Maggots is really much better at low levels when enemies have less HP and are easier to kill before retaliation (a risk of short range attacks) and while the healing does a significant portion of characters' HP pools. Under the Skin is good at 2 but also scales quite well as a sideboard card (for scenarios where we need movement and/or Pierce) at high levels, giving it the slight edge. We take Under the Skin, replacing Virulent Strain as our least useful card.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-blue"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+                <p class="w3-pale-blue"><i>Shielded</i> enemy loss</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top attack is soooo good. Attack 4 scales so much better than Attack 3. And because this is actually the best non-loss single-target attack we'll get, it also makes an excellent candidate for enhancement and then we can exploit it with a very good item, etc.</p>
+              <hr>
+              <p>The bottom can support Foul Wind but then you lose the top and that card has its own issues. I suppose it's reasonable to give that a try on scenarios with lots of small enemies (Sneks, Scouts, etc.) as the payoff is quite powerful in that case but otherwise I'd just stick with spamming the top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Fetid Flurry is an excellent card for so many reasons.<p>Finally, the initiative on this card is one of our best, meaning we not only get to do something really powerful, we also get to do it 'fast.' You will use this top action every rest cycle and you'll love it each time.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-succumb-to-the-gift.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>First we have to Poison the enemy and only then can we execute, at a loss, an enemy, this does impact elites but is very situational. That's reasonably-far behind the curve in terms of executes, but it is still a powerful effect against some enemy types (like Stone Golems or Flame Demons) so it could possibly see play if the other half is regularly-usable.</p>
+              <hr>
+              <p>Sadly, the other half is support for the troll build for Poisoning your allies, which is just a shame as a waste of an action slot. To be clear, alternative builds are fun and I think the Tankherald build is interesting and cool yet unfortunately under-supported within just the class itself. I would rather see more support for alternative builds like that one rather than adding in stuff like this as well. Poisoning your allies is pretty much never going to be profitable in a realistic fashion and the payoff here is much too low.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Succumb to the Gift is a bit of an insult.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Fetid Flurry, an excellent card, is an easy choice over a bad card in Succumb to the Gift. Fetid Flurry replaces Scattered Terror, we will miss the early initiative, but something needs to be lost.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-red">Never use</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-blue"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+                <p class="w3-pale-blue"><i>Shielded</i> enemy loss</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with big <i>Shields</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top provides an enormous amount of value, dumping two Curses each use and Poisoning two targets, which can represent a ton of additional damage. It also creates Dark, which isn't super meaningful right now, but will be at level 6 (and to a lesser extent level 5).</p>
+              <hr>
+              <p>Then, the bottom is also a really powerful-if-situational CC effect. CC effects as bottom actions are such free value that while we won't have a ton of opportunities to use this, when we do (often in first rooms), it will feel amazing to have been able to prevent 1-2 enemies from attacking and then still get to make attacks our self.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Nightmarish Affliction is an EXCELLENT card. Caps really are necessary here to emphasize just how good this card is.<p>The biggest weakness of the bottom is that it's attached to this top which we really want to use every rest cycle, but alas, one card can only do so much. It's also our most powerful candidate for enhancement, even if not necessarily our most efficient.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-storm-of-wings.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is a fairly decent action for level 4, but our only sources or Air are tied up on actions that have better other halves.</p>
+              <hr>
+              <p>Move 5 is really nice.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Storm of Wings is a good card, but up against a great one.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-epidemic.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Thus, while deciding between a good card and an extraordinary card, Nightmarish Affliction is the easy choice, replacing Epidemic. Epidemic becomes harder to use as enemies increase in level for the reasons we mentioned earlier and it doesn't have a useful other half, meaning we're getting less and less value out of the card, making it an easy choice to replace.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-blue"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-scattered-terror.png">
+                <p class="w3-pale-blue"><i>Shielded</i> enemy loss</p>
+                <p class="w3-pale-green">Early Move 2</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with big <i>Shields</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a bit different than Virulent Strain as it provides a lot more damage but the damage is less precise, which actually makes direct damage much worse. Still, the effect is very reasonable, considering we can easily create Dark with Nightmarish Affliction, so it will get some use. A standard sequence would be Vile Pestilence into Nightmarish Affliction into Accelerated End, where End will normally represent around 10-12 damage. The biggest issue with this sequence is you don't normally want a small amount of damage spread around a large number of enemies multiple turns into a fight, but it can still certainly come up.</p>
+              <hr>
+              <p>The real draw of this card is the bottom. Even if we're not going for the 'Poison build,' Poison is still a fine condition to apply when it's free, and here it's very free. Much akin to Spread the Plague being great because it's a bottom Attack, this functions is a similar method, giving us damage value when we don't need to move while in combat. The range on this effect is so exceptional that it's very, very easy for us to not need to move, just adding a ton of free damage. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Accelerated End is another great card.<p>Unfortunately, we do have bad initiative here and Poison is at its best when we apply it before our allies go, but you can't have it all. You'll most commonly want to pair this with Fetid Flurry top, which is your fastest top Attack, and hope that works for our allies. Even if it doesn't for the current turn, it will still have a reasonable effect.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-willing-sacrifice.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Willing Sacrifice top is the key card for the Poison build and it is a very powerful and appealing effect.</p>
+              <hr>
+              <p>The bottom of this card is a bit strange and again is there to support the unfortunate troll build.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Ultimately, from my experience, this build is much easier to pull off with the right party (you definitely need a strong front line and ideally would like a support as well), thus I wouldn't recommend it as a default build. Still, you should absolutely consider going back through and trying it at some point as it is pretty fun.<p>If you take Willing Sacrifice, you're taking it for the top, and accordingly you're really not ever going to use this bottom. Even if you run into a scenario where you might not want the top (a boss who is immune to Poison, for example), again the cost to setting up the effect with this troll build is just too high for the effect itself.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Multi-target <i>Poison</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Accelerated End replaces Under the Skin. Under the Skin has now become a sideboard card and should be brought in on scenarios where there's a fair amount of Shielded enemies, typically replacing Biting Gnats, which isn't good when Shield is present. You will want both Biting Gnats and Under the Skin on scenarios with heavy movement requirements though, in which case you can instead cut Creeping Curse.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Multi-target <i>Poison</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-green"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with big <i>Shields</i>, normal movement requirements</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-green"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with big <i>Shields</i>, high movement requirements</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-black-tides.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The Air on top can help our level 1 card Foul Wind, although we really don't care to have that effect that much anymore, and we don't really have much more need for Air, meaning it is a pretty underwhelming top attack.</p>
+              <hr>
+              <p>The bottom is a Move 4 with a free Dark, which is nice for Accelerate End and the other level 6 card, but we'll use the bottom of End much more than the top, even with the extra Dark, and we wouldn't have the other level 6 card if we took this.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Black Tides is a perfectly fine card.<p>Thus, while both effects are pretty reasonably-costed on Black Tides, we just don't care enough about either element to take it.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is just a lot of damage from a non-loss AoE attack, even at level 6. Especially if you lead with Vile Pestilence and then follow up with this, you're representing a ton of damage over two turns. Secondly, we have pretty free Dark from Nightmarish Affliction, so we can easily add Muddle when we want to here.</p>
+              <hr>
+              <p>Finally, the bottom of Cloud is fine just as a Move 3 with some small upside some amount of the time (mostly when enemies do multi-target attacks and we end up getting hit) and there's no cost to having the small upside anyway so why not.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Stinging Cloud, on the other hand, is quite good.<p>Because we're adding a lot of Curses, Muddle's value increases significantly as it greatly increases the rate at which monsters will deal no damage thanks to our Curses, as well as increasing the rate at which we'll trigger our level 7 card.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-pale-green">AoE combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-creeping-curse.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Stinging Cloud replaces Creeping Curse. Obviously it's a bit of a shame to cut a Curse card when adding our Curse payoff, but it is our weakest card now and the most reasonable to replace. Hopefully by now you've managed to enhance Fetid Flurry with Curse at least. The alternative would be Paralyzing Bite we probably want to keep that Initiative.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-pale-green">AoE combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Multi-target <i>Poison</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-green"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with big <i>Shields</i></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-airborne-toxin.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top really sucks. It's really annoying/hard to use and consistently underwhelming. Trust me, this is no longer the top you want.</p>
+              <hr>
+              <p>I'm also not sure if you want to bring this card for the bottom if you do the Poison build. Poisoning all enemies is interesting but Accelerated End bottom + Nightmarish Affliction top will already Poison most of the room without costing a loss.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Oh Airborne Toxin, you poor summer child. You were meant to have a better life than this.<p>Obviously, on some giant one-room scenarios the bottom could be extraordinary, so maybe just for that. I don't know...</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The only thing better than making enemies no longer deal meaningful damage is also causing them to die while they fail to deal damage. This top persistent loss will easily represent 30+ direct damage on most scenarios, which is just absolutely insane. Obviously we have to build around it for it to do that, but it rewards us for doing things we already want to do anyway.</p>
+              <hr>
+              <p>The biggest problem with this card is that it can sometimes be hard to justify playing the top in the first room if you're immediately in a tough fight. Fortunately, for those instances, the bottom provides you with a risky but very powerful upside that can help you get a head start on your Curse stacking while you wait for a lull in the fighting to play the top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Anyway, for us, Baneful Hex is THE core card for our build. Cursing enemies is already kind of broken because at a certain amount of Curses, you make enemy attacks so much less meaningful (especially when combined with Muddle).<p>As a general rule, you should try to play this top as early as you can, even if you're not sure you can get away with it, because once you start fighting, you're going to be drawing Curses pretty soon and you're going to find it similarly hard to take a turn off.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-baneful-hex.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Move 3 <i>Curse</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">At level 7, after shedding a tear for Airborne Toxin, we take Baneful Hex, replacing  Paralyzing Bite as our weakest card and something needs to go.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Move 3 <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-pale-green">AoE combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Multi-target <i>Poison</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-under-the-skin.png">
+                <p class="w3-pale-green"><i>Shield</i> killer</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Enemies with big <i>Shields</i></div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Low enemy count scenarios that have singular strong enemies (Stone Golems, Savvas Icestorm, Wind Demons, Frost Demons)</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-grim-bargain.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>I've normally been pretty down on the troll build for the Plagueherald, but I actually think the top of Grim Bargain is pretty tempting. Cursing allies kind of sucks but being able to get two additional instances of attacks is insane! Imagine your enhanced Fetid Flurry after this - that's 12 Attack and 6 Curses, then you Stam Pot it back, and now you're already at 10 Curses in three turns while doing a good amount of damage.</p>
+              <hr>
+              <p>The bottom is less appealing. We don't have high attack values so this is really only usable with AoEs. By our self, even with items, it's not that easy to break this, and even if we do, the cost is very high and the effect is still worse than just playing Wretched Swarm. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The biggest issue with Grim Bargain is that it's up against an excellent card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-spreading-scourge.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Spreading Scourge represents a ton of attacks, which is a ton of modifier flips to get additional conditions. We can use this with items like Minor Power Potion or after Poison to do a ton of damage. It already has Muddle, meaning it triggers our Curses without needing us to create Dark first.</p>
+              <hr>
+              <p>And finally, for whenever the top isn't good, the bottom is pretty great.<p>Just like Rot Maggots at 2, bottom heals are very good value, and assuming your party is 3+, this one will represent a lot of healing over the course of the scenario. Sure, the actual heal value isn't that high, but this will spend more time removing Wound (foreshadowing to level 9) and Poison than anything else, which is still great.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>For all the ways we could break the bottom of Grim Bargain, we can do the same with the top of Spreading Scourge, only it's a non-loss with another good half.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-spreading-scourge.png">
+                <p class="w3-pale-green">Huge AoE</p>
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-accelerated-end.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Grim Bargain is a powerful top loss but doesn't stack up well against Spreading Scourge, which is everything our build wants on a good card with two nice halves. Spreading Scourge replaces Accelerated End as we are not a Poison build.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Move 3 <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-pale-green">AoE combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-pale-green">Ranged Attack, <i>Curse</i></p>
+                <p class="w3-pale-blue">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spreading-scourge.png">
+                <p class="w3-pale-green">Huge AoE</p>
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Low enemy count scenarios that have singular strong enemies (Stone Golems, Savvas Icestorm, Wind Demons, Frost Demons)</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spreading-scourge.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-convert-the-flock.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This gives us a decent head start on Curses and allows us to keep them topped up in a spammable attack. What the xp is doing on there for a level 9 card I have no idea.</p>
+              <hr>
+              <p>Meanwhile, the bottom is again for the troll build and while it's pretty powerful, it's still disproportionate in terms of the cost (immediate and setup) for the payoff. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Convert the Flock top isn't a great level 9 card compared to some other classes, but 12 damage plus curses is still a good  spammable and the initiative is good for us.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ph/gh-mass-extinction.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is very powerful and also very annoying for our allies. Fortunately, our allies will learn to be more okay with it when enemies are missing 50%+ of their attacks and constantly taking 3 damage. We can also immediately pair this top with Spreading Scourge bottom to cleanse all of the Poison before it does damage, so that part is easily dealt with. And is the payoff worth it? Absolutely, to a degree. This top does what Convert the Flock top wants to do - it gives us a very nice head start on our Curses, which is a weakness of this class (being a bit slow-starting).</p>
+              <hr>
+              <p>And the bottom is situationally great.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Mass Extinction is a much more interesting card.<p>On most scenarios, a single use of this top will dump 6-8 Curses into the enemy deck. It's easy for you to maintain a steady level of Curses around this number once you get there, but it's more annoying to steadily climb up to there, which makes this action quite valuable. The great thing then about this top is that it rapidly obsoletes itself, as once you get to a high Curse density in the enemy deck, you don't need to play it anymore (and avoid the high cost). Thus, it's an excellent action that you'll play once or twice per scenario (in the first room or in the first and second rooms), be thankful it was there, and then avoid using it any further (either by losing it at a rest or using the bottom).</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-mass-extinction.png">
+                <p class="w3-pale-green">Load <i>Curses</i></p>
+                <p class="w3-pale-green">Big CC</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-gathering-doom.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Mass Extinction here for the pure <i>Curse</i> build<p>If we need the damage Convert the Flock is the better card, especially if we are rich enough to enhance it with another curse</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png">
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-blue">Move 3 <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-pale-green">AoE combo</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-blue">Ranged CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i></p>
+                <p class="w3-pale-red">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-mass-extinction.png">
+                <p class="w3-pale-green">Load <i>Curses</i></p>
+                <p class="w3-pale-green">Big CC</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spreading-scourge.png">
+                <p class="w3-pale-green">Huge AoE</p>
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png">
+                <p class="w3-pale-blue">AoE <i>Stun</i> loss</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png">
+                <p class="w3-pale-blue">Strong <i>Poison</i> AoE</p>
+                <p class="w3-pale-green">Move 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png">
+                <p class="w3-pale-green">Ranged Attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png">
+                <p class="w3-pale-yellow">Flying!!!</p>
+                <p class="w3-pale-green">Early Move 2 <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ph/gh-ph-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-paralyzing-bite.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i></p>
+                <p class="w3-pale-blue">Long <i>Jump</i> loss</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ph/gh-stinging-cloud.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Low enemy count scenarios that have singular strong enemies (Stone Golems, Savvas Icestorm, Wind Demons, Frost Demons)</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-biting-gnats.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-blistering-vortex.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-creeping-curse.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-epidemic.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-foul-wind.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-gathering-doom.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-grasping-vermin.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-paralyzing-bite.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-scattered-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-vile-pestilence.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-virulent-strain.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-winged-congregation.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-wretched-swarm.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-under-the-skin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ph/gh-accelerated-end.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-stinging-cloud.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-baneful-hex.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-spreading-scourge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ph/gh-mass-extinction.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/ph/gh-gathering-doom.png"></td><td>top</td><td><i>Curse</i></td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ph/gh-fetid-flurry.png"></td><td>top</td><td><i>Curse</i></td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></td><td>top</td><td><i>Curse</i></td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ph/gh-nightmarish-affliction.png"></td><td>top</td><td>+1 Target</td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ph/gh-spread-the-plague.png"></td><td>bottom</td><td><i>Curse</i></td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ph/gh-winged-congregation.png"></td><td>bottom</td><td>+1 Move</td><td></td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey">The final 2 perks, Scent and Technique are not good for usat all.</div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Intensify</td><td>Replace -2 with +0</td></tr>
+      <tr><td width="250px">Focus</td><td>Replace -1 with +1</td></tr>
+      <tr><td width="250px">Heighten</td><td>Replace +0 with +2</td></tr>
+      <tr><td width="250px">Immunity</td><td>Ignore negative scenario effects and add +1</td></tr>
+      <tr><td width="250px">Incantation</td><td>Add 2x rolling <i>Curse</i></td></tr>
+      <tr><td width="250px">Bludgeon</td><td>Add rolling <i>Stun</i></td></tr>
+      <tr><td width="250px">Corrupt</td><td>Add 3x rolling <i>Poison</i></td></tr>
+      <tr><td width="250px">Hamstring</td><td>Add 2x rolling <i>Immobilise</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey"></div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-031-hawk-helm.png">
+          <p class="w3-container">4</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-006-eagle-eye-goggles.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-101-second-skin.png">
+          <p class="w3-container">7</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-037-robes-of-evocation.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-016-cloak-of-pockets.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-005-cloak-of-invisibility.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-033-volatile-bomb.png">
+          <p class="w3-container">2 - For enhanced Fetid Flurry</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-088a-wand-of-darkness.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-009-piercing-bow.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container">6</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-015-boots-of-speed.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container">1</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container">3</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-014-minor-power-potion.png">
+          <p class="w3-container">5</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-041-major-power-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-021-stun-powder.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-020-minor-mana-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-012-minor-healing-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Curse based on Gripeaway build (<a href="https://www.reddit.com/r/Gloomhaven/comments/bro2vs/cthulhu_second_edition_guide/">https://www.reddit.com/r/Gloomhaven/comments/bro2vs/cthulhu_second_edition_guide/</a>)</div>
+</footer>
+
+</body>
+</html>
+  

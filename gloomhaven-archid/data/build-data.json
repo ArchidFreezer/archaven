@@ -31132,6 +31132,1788 @@
           }
         ]
       }
-    }
+    },
+		{
+			"id": "qm-tank",
+			"classid": "qm",
+			"build": "Tank",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://www.reddit.com/r/Gloomhaven/comments/7z92nz/three_spears_class_8_guide_updated_to_level_9/",
+			"overview": { 
+				"body": [
+					"The Quartermaster has cards that can lend themselves to many roles, tending to ba jack-of-all-trades. This build will make selections that focus on tanking and damage.",
+					"The build is not a pure tank build in the style of the redguard or sunkeeper, preferring to switch in and out of the role with another bruiser type party member or have a dedicated support for healing."
+				]
+			},
+			"cards": [
+				{
+					"id": "cleavingaxe",
+					"top": "The top is one of your two level 1 AoEs and has its positives and negatives. The positive is that it has an upside of 6 damage, which is a ton for level 1. Otherwise, even just hitting 2 enemies for 2 each and gaining 1 XP is quite good for a level 1 card. On the other hand, however, there are some problems with this type of large area low damage melee AoE. First of all, in order to maximize the value of this attack, you need to get next to 2-3 enemies. Even the tank build doen't want to actively search out enemies to hit you. And because the damage of this AoE is so low, you're unlikely to actually kill them unless they're already quite weak, meaning they will need to be dealt with or they will all hit you for more damage than this attack is worth. The good news is that you have a number of early initiative cards, so you can very realistically go before your allies and then rely on them to finish off most of the enemies you hit with this, so you don't get messed up when the monsters go. This still also requires your allies to go early in the round and this sort of move can get very heavily punished by a couple of bad attack modifier draws by your and/or your allies. Thus, there's a lot that has to be done in order to make this work. Secondly, because of the low damage on this attack, it scales very poorly as monster level increases, also because the monsters will hit for more damage if you don't kill them, making it even more punishing and less likely to be worth it. Fortunately, at higher levels, modifier decks tend to be more reliable so you should have an accurate enough assessment of whether you can make it work or not.",
+					"bottom": "Regardless of the weakness of the top attack, it does have a high potential upside, and as usual that's well-complimented by a good move 4 on the bottom.",
+					"overall": "Cleaving Axe is a good card with a pretty good AoE and a nice move."
+				},
+				{
+					"id": "cripplingbow",
+					"top": "Attack 3 range 3 with 1 XP is just perfectly fine and something you'll usually be happy to use, especially on the early levels. Again, if you've played the Brute before this you know how often you used his ranged attack. Ranged attacks are just really good in this game because range can effectively function like healing against a lot of enemies by keeping you out of range of their attacks.",
+					"bottom": "The bottom is another attack on bottom which we'll use as crowd control to prevent an enemy from getting in range to attack. Immobilize is unfortunately not great against a number of the more threatening enemies in the game, but it certainly has its uses. And by being a situational bottom attached to a top we're always happy to use, we pay nothing for the pleasure.",
+					"overall": "Crippling Bow is another above average card. The ability to force flying enemies to move around objects and be subject to traps adds real value to this card in some scenarios.<p>Sadly, especially for a card with crowd control, it does suffer from middling initiative.</p>"
+				},
+				{
+					"id": "crushinghammer",
+					"top": "Admittedly, attack 3 stun is pretty mediocre for a loss effect, but having the option around can sometimes be helpful, especially when it costs you nothing as you'd always want this bottom anyway. In reality, the top more likely reads 'gain 2 experience at the end of the scenario.'",
+					"bottom": "And the bottom really is great for a level 1 card. Move 2 isn't a ton, and it does hurt a bit that you can't actually enhance the move to increase it by 1 (actually a common trend for the Quartermaster and probably his biggest downside - he has very few cards that can be meaningfully enhanced, probably because his cards are already so good), but adding a free shield 1 self on makes a world of difference. In reality, you can more look at this like the move 2 is tacked on to a shield 1. For example, the Brute has a level 1 card that is JUST shield 1 self with 15 initiative. Here you have move 2 shield 1 self at 17 initiative, and obviously that's just night and day better. The added 2 move allows you to move from one enemy to another when you're already in a room fighting a group of enemies, while also mitigating damage you'd take by being in the thick of things. And of course having such great initiative on the card makes it so you'll almost always get the shield up before enemies can go.",
+					"overall": "Crashing Hammer is a perfect implementation of a loss card - one powerful situational effect combined with one spammable effect.<p>It's actually interesting to me that this is an 'X' card for the Quartermaster while the shield 1 self card is a '1' for the Brute. That could indicate that tanking isn't necessarily something core for the Quartermaster, compared to the Brute, but the QM actually has a better tanking perk than the Brute does. Anyway, just an interesting thought, but I do consider this card to be incredibly core for this class.</p>"
+				},
+				{
+					"id": "hastenedstep",
+					"top": "The top is essentially attack 4, move 1. Of course, at level 1 it will be almost strictly worse than attack 4 just because of the existence of shield and your modifier deck won't be that good yet. Eventually, as your modifier deck improves, this will get to be significantly better than attack 4. And of course throwing the move 1 in between the two attacks, rather than at the end, gives a lot more flexibility most of the time.",
+					"bottom": "The bottom is a move 5. What more is there to say about that? Move 5 is exceptional as a bottom on level 1 cards. 'Ugh, I'm only going to be able to move 5 this turn with my level 1 non-loss card' said no one ever.",
+					"overall": "Hastened Step could be a level 3 card for many classes and you'd still be happy to take it (it could be a level 7 card for the Music Note class and you'd love it). This card does it all - two great halves and good initiative.<p>You'll pretty much always want to keep this card no matter what you're doing with this class and you'll be happy whichever half you're using - the only bad part is that you can't use both halves each time.</p>"
+				},
+				{
+					"id": "impalingspear",
+					"top": "Now Impaling Spear is an AoE I can get behind. At its worst it's basically an attack 3 range 2 with no adjacency disadvantage that gives 1 XP, which is already quite fine. With our very good amount of move cards, it's not too difficult to line two enemies up for this and get its maximum value of 6 attack. Furthermore, it's much safer than our other AoE as it only needs 2 enemies, not 3, for maximum value, and one of them doesn't even need to be adjacent to us. It also scales better at higher levels for these reasons and because of its higher damage.",
+					"bottom": "Meanwhile, it's complemented by nearly the perfect bottom (come on, this couldn't also be a move 5?), another move 4, for when we need movement, don't have 2 enemies to hit or have a better attack for just a single enemy",
+					"overall": "This is a great card than can scale as well.The only downside of this card is the average initiative, which is quite below average for us."
+				},
+				{
+					"id": "ironbulwark",
+					"top": "First, the top: attack 3 that gives 1 XP is already decent for level 1, and Muddle is just a small added bonus that does help us to mitigate damage occasionally. Nothing flashy about this half, just a solid workhorse of an above average but not incredible card.",
+					"bottom": "Meanwhile, the bottom which compares so favourably to the aforementioned Shield Bash. Not only do we get shield 1, but our allies do as well. Works well with summons and is part of the reason why it's fine to have 2 tanks with this class, because cards like this benefit both tanks significantly.",
+					"overall": "Iron Bulwark, another level 1 card that puts the Brute's Shield Bash to shame with its bottom.<p>Early initiative again makes it likely that we can get this buff up before enemies attack.</p>"
+				},
+				{
+					"id": "oversizedpack",
+					"top": "A non-loss loot 2, on top! Wow, that's really great. You can move and still do a loot 2, which until you've experienced a well-positioned loot 2 first-hand (let me assure you, it's glorious), you have no idea just how large loot 2 is. Sadly, we can't regularly use loot cards as they're only good a few times per scenario, at most. The ability to move after the loot does give some additional utility as a top move can be valuable.",
+					"bottom": "eanwhile, the bottom is another Quartermaster effect that is unimpressive at level 1 but gets better at higher levels. As we only have 1 consumable item at level 1, this effect is not even remotely worth a loss. By level 7, when you can have 4 consumable items, it starts to get quite tempting, especially with very high Prosperity consumables that have really powerful effects (with high Prosperity I might even consider this effect worth it at level 5). Still, regardless of how good this effect might eventually become at a certain level, the card will always be mediocre at best just because you have no half you can regularly use.",
+					"overall": "Oversized Pack is one of those cards with two powerful but unfortunately situational halves stapled together that means the whole is less than the sum of its parts.<p>Having to use a move 2 with 81 initiative for a significant chunk of the scenario just to occasionally get these powerful effects will usually not be worth it.</p>"
+				},
+				{
+					"id": "proficiency",
+					"top": "This top isn't really a situational loss, it's more of a 'play around me' loss that you'll either want to use early in each scenario or not bother bringing it. In order for this effect really to go off for you and thus justify itself, you really want a level 5 card. Until then, I don't think this is worth it. And even then, that level 5 card is also a loss that if you use that combo, only really being worth it on smaller/shorter scenarios (can be great for boss fights). After that, this card also gets better at much higher levels as you get some very large but low damage AoEs, and every +1 attack can make a huge difference on those. Still, at level 1 this is usually best left on the side-lines.",
+					"bottom": "The bottom is fine as a move 3, although with poor initiative on a pretty fast class it's still below average. And, unlike other situational loss cards, the fact that you want to use this loss early makes spammable move on the bottom less relevant.",
+					"overall": "Proficiency is a card that's kind of unimpressive at level 1 but gets better at higher levels."
+				},
+				{
+					"id": "reservedenergy",
+					"top": "The top is a relatively powerful support effect, only let down by the question of 'when exactly do I want to use this?' What I mean is, the most common time we use support cards are when enemies are either all or mostly dead and we're moving from one room to another. But in those situations, you can usually just long rest anyway if you really need to refresh spent items. Otherwise, we use support cards on allies who are in 'deep shit,' but generally healing will be more generically useful for those allies, as well as just attacking to kill enemies that threaten our ally. Thus, while a reasonable effect, especially for a non-loss, you may not find as many situations where this half is actually that useful.",
+					"bottom": "Still, it's basically free to have it around because it's tied to a move 4.",
+					"overall": "Reserved Energy is exactly how you do situational support cards.<p>The only downside with this move 4 is the bad initiative, but it's still a level 1 move 4, so it'll do.</p>"
+				},
+				{
+					"id": "restock",
+					"top": "The top of Restock is one of those item support cards the Quartermaster has access to. The value of this effect will mostly depend on the size of your group - terrible at 2, mediocre at 3, good at 4. It will also be a bit affected by Prosperity, as again consumable items get much better. Is it worth a loss for a class with 11 cards? Sometimes, although probably not that often depending on scenario length.",
+					"bottom": "Fortunately, it doesn't cost much to keep that effect around as we're quite happy to take this card for the bottom only. In general, it's quite a good idea to keep at least one reasonably-sized attack on bottom for those times when you want to make sure to finish off an adjacent enemy. As long as you have enough other good move cards, which the QM does, you can easily get away with it. And while a simple attack 3 is nothing to write home about, as our best level 1 bottom attack it is quite welcome.",
+					"overall": "Restock is a decent card, mostly held up by a good bottom for a level 1 card."
+				},
+				{
+					"id": "scrollofrecall",
+					"top": "Scroll of Recall top is one of those support effects (admittedly, self-support) that is good between fighting. Moving to the next room? Why don't I get one of my potions back. It's really not bad.",
+					"bottom": "The downside for this card though, other than maybe the worst initiative in the game, is that the bottom isn't great at early levels until we can improve our attack modifiers. However, pulling 3 attack modifier cards in a few levels time can be very powerful and something we are happy to do. In the meantime grounding 3 flying enemies can make some scenarios much easier.",
+					"overall": "This is another card that is fairly weak to start with, but improves along with our perks when it bocomes quite strong."
+				},
+				{
+					"id": "sharpeningkit",
+					"top": "The range on the top can occasionally be limiting, but you've got a lot of movement so it shouldn't be much of a problem. And a heal 4 at level 1 with no requirements is great, with 1 XP to boot.",
+					"bottom": "The bottom is another type of support - the best kind. You have a number of ranged attacks so it's very easy to use this bottom without moving, especially at higher levels where you have some giant AoEs making the payoff for this amazing. Otherwise, it will add 1 to your ranged attack, and thanks to good initiative, will be easy to play before your allies to likewise buff them. Remember that effects like this function like 'auras' in other games, which means that your allies have to be in range when they attack to get the buff, regardless of where you were in relation to them when you played this card. That actually works perfectly for you as you're a tank, so you'll be closer to the enemies than your allies most of the time. Thus, your allies can move up near you after you've gone and get the buff.",
+					"overall": "Sharpening Kit is another great support card and you'll always be happy to have it."
+				},
+				{
+					"id": "bladedboomerang",
+					"top": "Attack 2, Range 3 <i>Wound</i> with 1 XP is almost strictly better than the attack 3 version we have at level 1 (<i>Wound</i> is strictly better than attack 1 about 90% of the time, especially on ranged attacks).",
+					"bottom": "So a good attack on top and on bottom a move 4 with upside. The little attack 1 doesn't seem like much, but as your modifier deck improves, you'll be quite happy with it.",
+					"overall": "Bladed Boomerang is a great card by virtue of doing a lot of little things that are almost always worthwhile. A little bit of a shame that this card has average initiative, but you can't have it all."
+				},
+				{
+					"id": "reforge",
+					"top": "The top of Reforge is obviously much better with consumed weapons than spent ones as they tend to have much more powerful effects which are meant to be held in check by being one-time use only.<p>There are certainly some powerful weapon effects that can absolutely make this worthwhile. Whether it's worth it or not for you will depend on how you/your group wants/needs you to play this class and what weapons you and your allies have access to.</p><p>Still, remember that most of the time, while your party is directly engaged in combat, simply attacking is going to be more effective (and more consistent).</p>",
+					"bottom": "The bottom is just fine, a repeatable Minor Stamina Potion. Again, not being directly combat-oriented means you'll usually have better bottoms to use during combat, relegating this mostly to downtime, in which case it will compete with moving in order to get in position for the next room and/or picking up money. For that reason these sort of effects are typically better as a top, which can be used in the aforementioned scenarios in conjunction with movement, but it's still going to be worth it sometimes.",
+					"overall": "This is a card that has two decent actions, the problem is that both are situational and neither are of use in combat."
+				},
+				{
+					"id": "continualsuppy",
+					"top": "Continual Supply is something Colorado has and now you can too. Unfortunately, once you start passing it around, it won't be for long, as your previously-mentioned card hand limit isn't extremely conducive to loss cards, especially not loss cards that demand additional discards to have an effect. Still, the effect can be EXTREMELY powerful, so if this is everything you've dreamed of doing, go for it.",
+					"bottom": "I'm not sure what this bottom is doing on this card - it's basically saying 'yeah, we know you don't have a lot of cards so if you're playing losses you'll appreciate being able to get some cards back.' Unfortunately, it's attached to one of the aforementioned loss cards, and you're not taking this card as a move 2 with 86 initiative just to help with another combo of loss cards eventually.",
+					"overall": "If you play the top, which you presumably will almost every scenario at the beginning if you took this card, you'll never see the bottom. So if you're considering this card, it's surely just for the top."
+				},
+				{
+					"id": "scrolloflightning",
+					"top": "The top will pretty much remain your consistently best attack for most of your Quartermaster's time adventuring with your party. Attack 5 range 3 at level 3 is just great. It also apparently creates an element, which you don't use but your allies might.",
+					"bottom": "The bottom is a move 3 that can sometimes push an enemy into a trap as a bonus, which is nice. And the good news is you'll never even consider using the bottom unless it actually can push someone into a trap because the top is so good. Also, element there too, but you don't use those.",
+					"overall": "Scroll of Lightning is just amazing."
+				},
+				{
+					"id": "giantclub",
+					"top": "As it turns out, attack 5 on top is still just about as good as it was last level. Sadly, being melee is a bit worse than range 3, but the 1 XP is there to help ease the pain. Sadly, I still usually prefer Scroll of Lightning, but having more attack 5's is never a bad thing.",
+					"bottom": "Meanwhile, we get another attack on bottom, which at attack 3 on a level 4 card isn't great, is still there for free with this top. And adding Muddle does obviously make it slightly better in those cases where we don't kill off an enemy (or can be used to hit a second enemy after we finish the first with our top attack).",
+					"overall": "Giant Club is a card which is very subtle about what exactly it does, and it may be difficult to accurately decipher it. Fortunately for you, I'm here to guide you through this."
+				},
+				{
+					"id": "reinforcedsteel",
+					"top": "This is the sort of a loss card that a class with 11 cards can get on board with. All you have to do is answer its question of 'what do you want?' 1-3 extra shield per round? All of your single-target attacks to be aoe? All of your attacks to be advantaged? Healing? Movement? The list goes on... Oh wait, so what you want is all of those things, just whichever is appropriate at the moment? Yeah, that's what this card does. Take it, build your items around it, use it early and you'll see.",
+					"bottom": "And just in case the top of this card alone wasn't enough, there's a tanking/support bottom that puts most other similar effects at level 5 or earlier on other classes to shame with a blazingly-fast initiative to boot.",
+					"overall": "Reinforced Steel is, in my opinion, by far one of the most powerful pre-9 cards in the game."
+				},
+				{
+					"id": "scrollofjudgment",
+					"top": "At level 5 you'll have 18 max hp, so taking 2 damage to deal a small amount of damage to a bunch of enemies can be a trade well worth making. Being 2 direct damage is great too because the problem with small damage attacks is shield, and a bunch of enemies that have low hp pools tend to have high shield values. The biggest problem is that it is just 2 damage, meaning you'll probably kill almost nothing, just soften up a bunch of things. Still, with many rooms in which this can easily deal out 20 damage or more, you'll find the numbers well worth it (especially at larger party numbers).",
+					"bottom": "And to compliment this very powerful but situational card you've got an amazing spammable bottom. Move 3 is fine and adding a non-loss stun is almost too good to be true. Much like Crushing Hammer did at level 1, this allows you to manoeuvre around rooms where you're already engaged with enemies, stun an enemy to negate a significant amount of damage and then still get to use a top attack. So yeah, Scroll of Judgment is a good card. Unfortunately for it, it comes at the same level as Reinforced Steel.",
+					"overall": "Scroll of Judgment is a very good card."
+				},
+				{
+					"id": "catastrophicbomb",
+					"top": "The top action is pretty bad by itself but quite powerful in scenarios with a large number of enemies combined with Sharpening Kit. Obviously it also lets you flip more of your really nice 'Refresh Item' modifiers, which is a bonus, although less reliable than some people seem to think. Anyway, you should pretty much only use this with Sharpening Kit, try to get a Power Potion at the least, etc. And if the scenario includes a significant number of enemies with at least Shield 1, maybe leave this card on the side-lines.",
+					"bottom": "Meanwhile, the bottom isn't useful for most of the scenario but typically is extremely powerful at the end (so powerful that it was nerfed in the second edition). You'll only use it once per scenario, if you use it at all, but when you do, you'll be happy to have it.",
+					"overall": "Catastrophic Bomb is... a card. Both actions on this card are kind of hilarious."
+				},
+				{
+					"id": "quiverofarrows",
+					"top": "For some builds and and parties this is a very powerful action, but not universally. It requires an ally with powerful ranged attacks such as the Doomstalker or the Plagueherald and you need to be adjacent to them which isn;t always going to be the case.",
+					"bottom": "The move 6 on the bottom with decent initiative isn't bad either, although it doesn't change too much because if you did take this card, you probably want to play it as early as possible and won't get much use out of the bottom action.",
+					"overall": "Quiver of Arrows is an amazing loss in some party compositions or with some allies. You should hopefully understand when that is and isn't based off of who you're playing with."
+				},
+				{
+					"id": "refreshment",
+					"top": "Even if we hadn't taken Reinforced Steel (which, come on... the only way we do that is for Quiver of Arrows instead, but then we're still not playing this additional Persistent Loss), we wouldn't want this action.",
+					"bottom": "And the bottom makes this a double-loss with another effect we really don't want. That sort of effect was pretty decent for the Tinkerer because he has 12 cards and most of his actions suck. We have just 9 cards and amazing actions, if anything, someone should do this for us, not the other way around.",
+					"overall": "Refreshment is obviously terrible with Reinforced Steel as we'll pretty much never long rest anymore."
+				},
+				{
+					"id": "scrollofblizzards",
+					"top": "The top action doesn't really serve any purpose unless we have an ally who needs Ice. But by level 7, any ally that wants Ice should be able to make it for themselves. The attack is just bad, we don't need two Catastrophic Bomb-type attacks and we only have one Sharpening Kit.",
+					"bottom": "Meanwhile, as much as I like free crowd-control on bottom move actions, letting the enemies get next to you first in order for it to work just isn't that way to do that. Sure, this will sometimes work, but not often enough to be worth an otherwise pretty miserable action and nothing we want to see on top.",
+					"overall": "Scroll of Blizzards is also pretty bad."
+				},
+				{
+					"id": "fortifiedposition",
+					"top": "Fortified Position doesn't really have a top action. Healing is pretty bad in general in Gloomhaven, especially by level 8. Loss heal actions are especially bad. Loss heal actions on a class with 9 cards and some incredibly powerful other actions and loss actions are just not even worth considering. Sure, this can heal a lot, but damage is rarely spread that evenly, it imposes some strict movement restrictions, it doesn't even heal you, who are more likely to have taken damage than most allies, the list goes on.",
+					"bottom": "Fortunately, while the top action is a waste, the bottom is incredible. We've kept Crushing Hammer around this long just for the bottom action and this is so much better - it's just a very strict upgrade",
+					"overall": "This is a great card for any melee build as adding free <i>Shield</i> to a move is always going to work."
+				},
+				{
+					"id": "portableballista",
+					"top": "This card takes some movement to really hit multiple enemies per turn, but movement we do have. And the amount of damage this top action consistently does for a non-loss is just great. I mean, if Impaling Spear had been attack 4, we would probably still be using it, and obviously this puts that action to shame. You will almost always hit 2 enemies with this and routinely hit 3, making this attack 8-12 on average with the only requirement being movement. Yeah, that's good enough.",
+					"bottom": "The bottom, while not something you'll use much, does come in handy occasionally. It might seem like this is what's needed to make Catastrophic Bomb fine even on scenarios with lots of Shielded enemies, but that means we don't get Sharpening Kit, and unfortunately that just doesn't work. Still, you'll find other actions you'll happily pair this bottom with against a number of enemies that need it.",
+					"overall": "Meanwhile, on the other side, we've got Portable Ballista."
+				},
+				{
+					"id": "bagofholding",
+					"top": "Loot 3 non-loss on top is how you pick up money. If your friends didn't like you playing a Scoundrel, wait until they experience this.",
+					"bottom": "And the bottom action is an EXTREMELY powerful loss action, one of the best in the game by far.",
+					"overall": "Bag of Holding is pretty awesome.<p>There are only three (yeah, just three) problems with this card:<ol><li>it's against SCROLL OF ANNIHILATION. How do you beat that name? But more importantly, you really can't beat that bottom effect.</li><li>The top and bottom are both situational. You typically won't want to use the bottom before the last half or third of the scenario, which means you'll only be able to use it as a move 2 or a Loot 3. Sure, Loot 3 is good, but you still can't (or shouldn't!) use it in combat, and with only a 9 card hand size, you will end up needing to play this at some point in combat.</li><li>I can't predict your Prosperity. If you're Prosperity 9, this bottom action is a lot better than if you're Prosperity 3.</li></ol></p>"
+				},
+				{
+					"id": "scrollofannihilation",
+					"top": "So the top action is a nice top loss action to have at the end of the scenario to get rid of the most challenging enemy in the last room, if there is a very strong one. But 90% of the use of this card will be this bottom, and what a bottom it is. Move 3 is decent to begin with in terms of movement, even if it's not exciting, it does help our movement problem a bit. But then spammable non-loss AOE crowd-control. I mean, come on... What else can you ask for?",
+					"bottom": "This bottom action is honestly broken. Just play with it a bit and you'll see. One of the cards that has the single most noticeable impact on scenario difficulty in the game. When half the enemies don't attack, you can do it multiple times per scenario (and even multiple times per room with Stamina Potions, which you will do), and you can still attack. Yeah, that's called 'winning.'",
+					"overall": "Scroll of Annihilation is interestingly-named because most of the time, you won't be doing any annihilating with the card, but rather just crowd-controlling (although I guess you will be annihilating the scenario...)."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "These are our core cards, ordered from best/most important to worst/least important. If you're absolutely sure your party really doesn't need to do much tanking, then Crushing Hammer would move down to the last slot.",
+							"cards": [
+								{
+									"id": "hastenedstep",
+									"comment": ""
+								},
+								{
+									"id": "impalingspear",
+									"comment": ""
+								},
+								{
+									"id": "cripplingbow",
+									"comment": ""
+								},
+								{
+									"id": "crushinghammer",
+									"comment": ""
+								},
+								{
+									"id": "sharpeningkit",
+									"comment": ""
+								},
+								{
+									"id": "cleavingaxe",
+									"comment": ""
+								},
+								{
+									"id": "ironbulwark",
+									"comment": ""
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "These are our remaining 5 cards to choose from.",
+							"cards": [
+								{
+									"id": "reservedenergy",
+									"comment": "We take Reserved Energy, primarily for the move 4 bottom."
+								},
+								{
+									"id": "proficiency",
+									"comment": "Proficiency, is just not very good at level 1 as we can't consistently attack using items (we can't repeatedly refresh our own items at level 1 unless we also use Scroll of Recall, but that's a very slow and absolutely not worthwhile combo) without having to long rest much more often than is practical."
+								},
+								{
+									"id": "oversizedpack",
+									"comment": "Oversized Pack, as mentioned before, just suffers from not having one half we want to regularly use."
+								},
+								{
+									"id": "restock",
+									"comment": "We take Restock, primarily for the attack 3 bottom."
+								},
+								{
+									"id": "scrollofrecall",
+									"comment": "We take this over Proficiency as the bottom has slightly more utility for now."
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "cripplingbow",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "ironbulwark",
+							"top": {
+								"text":"Attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "oversizedpack",
+							"top": {
+								"text":"<i>Loot</i>, Move",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cleavingaxe",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "restock",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "reservedenergy",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrollofrecall",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ground Aoe flying",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "reservedenergy",
+							"comment": "Bladed Boomerang goes in and Reserved Energy comes out. Reserved Energy was primarily there for the move 4 and now we've got a better move 4 with a generally better top action. The mediocre Initiative isn't great, but we can live with that."
+						}
+					],
+					"hand": [
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "ironbulwark",
+							"top": {
+								"text":"Attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "oversizedpack",
+							"top": {
+								"text":"<i>Loot</i>, Move",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Never used",
+								"style": "w3-pale-red"
+							}
+						},
+						{
+							"card": "cleavingaxe",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "restock",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "cripplingbow",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrollofrecall",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ground Aoe flying",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "oversizedpack",
+							"comment": "As we're continuing our focus on damage cards first and foremost, we'll take Scroll of Lightning, replacing Oversized pack as it has two situational sides and is our weakest card. Hopefully we have gathered some gold at this point."
+						}
+					],
+					"hand": [
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "ironbulwark",
+							"top": {
+								"text":"Attack 3",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "<i>Shield</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "cleavingaxe",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "restock",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "cripplingbow",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrollofrecall",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ground Aoe flying",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							},
+							"replace": "ironbulwark",
+							"comment": "We take Giant Club over Side Pouch, as sad as we are to pass up the bottom from Side Pouch. Giant Club replaces Iron Bulwark. Obviously attack 5 is much better than attack 3 Muddle, and if we really need an attack 3 Muddle we've got it on the bottom of this card instead of the top."
+						}
+					],
+					"hand": [
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "cleavingaxe",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "restock",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "cripplingbow",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrollofrecall",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ground Aoe flying",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "reinforcedsteel",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "<i>Shield 2</i>",
+								"style": "w3-pale-blue"
+							},
+							"replace": "cleavingaxe",
+							"comment": "Scroll of Judgment, while an excellent card, just can't compete with the sort of game-warping effect Reinforced Steel can bring.<p>Cleaving Axe was well past its time for the AoE at only 2 attack and was mostly just still around for the bottom move 4, thus it's easily replaced by Reinforced Steel. And here is hand at level 5 with the core of our build setup: we put up Reinforced Steel early, pick off enemies from range when we can, then wade into the thick of things to absorb some damage for our team while cutting (or clubbing) through what's left.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "reinforcedsteel",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "<i>Shield 2</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "cripplingbow",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Ranged attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Situational",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "restock",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrollofrecall",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ground Aoe flying",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "catastrophicbomb",
+							"top": {
+								"text":"Big AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last room",
+								"style": "w3-pale-blue"
+							},
+							"replace": "cripplingbow",
+							"comment": "We take Catastrophic Bomb for the huge AoE plus it draws so many cards from our attack deck, replacing Crippling Bow."
+						},
+						{
+							"card": "proficiency",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							},
+							"replace": "cripplingbow",
+							"comment": "At 11 hand size we can afford another persistent loss so we also bring in Proficiency for the top as we can use items every round now with Reinforced Steel, replacing Scroll of Recall"
+						}
+					],
+					"hand": [
+						{
+							"card": "reinforcedsteel",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "<i>Shield 2</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "proficiency",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "catastrophicbomb",
+							"top": {
+								"text":"Big AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "restock",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bomb combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "scrollofjudgment",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "restock",
+							"comment": "Left with two really bad choices, we go back to level 5 and grab Scroll of Judgment. Now at level 7 we're rarely going to use the top action which has scaled pretty poorly, but the bottom move + stun is just as good as ever, and it's for that we're taking it.<p>Alternatively we could grab Side Pouch [4] if we want some extra gold instead or we are playing with the Redguard who wants enemies to attack him rather than be stunned.</p><p>Scroll of Judgment replaces Restock as the bottom attack was getting fairly weak now and the Move/Stun combo has far more utility.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "reinforcedsteel",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "<i>Shield 2</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "proficiency",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "impalingspear",
+							"top": {
+								"text":"AoE attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "catastrophicbomb",
+							"top": {
+								"text":"Big AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "scrollofjudgment",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bomb combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "fortifiedposition",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Shield</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "impalingspear",
+							"comment": "We take Fortified Position for the bottom, replacing Impalinmg Spear which is just too weak at this level."
+						}
+					],
+					"hand": [
+						{
+							"card": "reinforcedsteel",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "<i>Shield 2</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "proficiency",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "catastrophicbomb",
+							"top": {
+								"text":"Big AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "scrollofjudgment",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fortifiedposition",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "sharpeningkit",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Bomb combo",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "scrollofannihilation",
+							"top": {
+								"text":"Last room",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "sharpeningkit",
+							"comment": "The card we're adding, SCROLL OF ANNIHILATION, will also pretty much always be a bottom action until the end of the scenario so we don't want to replace our top attacks.<p>We replace Sharpening Kit as the top hasn't scaled and whilst the bottom is nice something has to go and we want to keep our attacks.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "reinforcedsteel",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "<i>Shield 2</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "proficiency",
+							"top": {
+								"text":"Nearly always up",
+								"style": "w3-pale-yellow"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "bladedboomerang",
+							"top": {
+								"text":"Ranged <i>Wound</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move, attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "catastrophicbomb",
+							"top": {
+								"text":"Big AoE",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Last room",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "giantclub",
+							"top": {
+								"text":"Attack 5",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Attack 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrolloflightning",
+							"top": {
+								"text":"Ranged attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Push</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "qmback",
+							"top": {
+								"text":"-",
+								"style": ""
+							},
+							"bottom": {
+								"text": "-",
+								"style": ""
+							}
+						},
+						{
+							"card": "scrollofjudgment",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Stun</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "fortifiedposition",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "scrollofannihilation",
+							"top": {
+								"text":"Last room",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crushinghammer",
+							"top": {
+								"text":"Situational loss",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Shield</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hastenedstep",
+							"top": {
+								"text":"Multi-attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Move 5",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "hastenedstep",
+					"position": "bottom",
+					"enhancement": "<i>Jump</i>",
+					"comment": "We keep this card throughout and don’t get a natural <i>Jump</i>"
+				},
+				{
+					"card": "crushinghammer",
+					"position": "bottom",
+					"enhancement": "<i>Shield</i>",
+					"comment": "We keep this card throughout and an extra <i>Shield</i> adds such value"
+				},
+				{
+					"card": "hastenedstep",
+					"position": "top",
+					"enhancement": "+1 Move",
+					"comment": "Cheap and useful throughout"
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "extremefortitude"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "artifice"
+						},
+						{
+							"order": 4,
+							"name": "heighten"
+						},
+						{
+							"order": 5,
+							"name": "dust"
+						},
+						{
+							"order": 6,
+							"name": "technique"
+						},
+						{
+							"order": 7,
+							"name": "bludgeon"
+						},
+						{
+							"order": 8,
+							"name": "confuse"
+						},
+						{
+							"order": 9,
+							"name": "sweep"
+						},
+						{
+							"order": 10,
+							"name": "stab"
+						}
+					]
+				}
+			],
+      "items": {
+        "comments": "",
+        "levels": [
+          {
+            "level": "General",
+            "comments": "",
+            "picks": [
+              {
+                "id": "ironhelmet",
+                "comment": "3"
+              },
+              {
+                "id": "chainmail",
+                "comment": "4"
+              },
+              {
+                "id": "swordedgearmor",
+                "comment": ""
+              },
+              {
+                "id": "hidearmor",
+                "comment": ""
+              },
+              {
+                "id": "spikedshield",
+                "comment": ""
+              },
+              {
+                "id": "towershield",
+                "comment": ""
+              },
+              {
+                "id": "heatershield",
+                "comment": ""
+              },
+              {
+                "id": "jaggedsword",
+                "comment": ""
+              },
+              {
+                "id": "bootsofstriding",
+                "comment": "1"
+              },
+              {
+                "id": "bootsofdashing",
+                "comment": ""
+              },
+              {
+                "id": "minorstaminapotion",
+                "comment": "2"
+              },
+              {
+                "id": "majorstaminapotion",
+                "comment": ""
+              },
+              {
+                "id": "ringofhaste",
+                "comment": ""
+              },
+              {
+                "id": "helixring",
+                "comment": ""
+              },
+              {
+                "id": "minormanapotion",
+                "comment": ""
+              },
+              {
+                "id": "sunearring",
+                "comment": ""
+              },
+              {
+                "id": "moonearring",
+                "comment": ""
+              },
+              {
+                "id": "minorhealingpotion",
+                "comment": ""
+              },
+              {
+                "id": "stunpowder",
+                "comment": ""
+              },
+              {
+                "id": "majorhealingpotion",
+                "comment": ""
+              },
+              {
+                "id": "minorcurepotion",
+                "comment": ""
+              },
+              {
+                "id": "steelring",
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      }
+		}
   ]
 }

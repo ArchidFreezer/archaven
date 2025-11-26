@@ -111,6 +111,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('qmDrop')">Quartermaster <i class="fa fa-caret-down"></i></button>
     <div id="qmDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="qm-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="qm-tank.html" class="w3-bar-item w3-button">Tank</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

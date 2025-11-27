@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quartermaster Tank</title>
+  <title>Quartermaster Ranged Striker</title>
   <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +15,7 @@
 
 <header class="w3-top w3-display-container w3-green" style="height:60px">
   <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
-  <h1 class="w3-display-middle">Quartermaster Tank</h1>    
+  <h1 class="w3-display-middle">Quartermaster Ranged Striker</h1>    
   <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
 </header>
 
@@ -25,7 +25,7 @@
   <!-- Overview -->
   <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
   <div id="acc-overview" class="w3-container w3-hide">
-   <p>The Quartermaster has cards that can lend themselves to many roles, tending to ba jack-of-all-trades. This build will make selections that focus on tanking and damage.</p> <p>The build is not a pure tank build in the style of the redguard or sunkeeper, preferring to switch in and out of the role with another bruiser type party member or have a dedicated support for healing.</p>
+   <p>The Quartermaster has cards that can lend themselves to many roles, tending to ba jack-of-all-trades. This build will make selections that focus on ranged damage.</p>
   </div> <!-- overview -->
   
   <!-- Build Decks -->
@@ -643,11 +643,11 @@
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">As we're continuing our focus on damage cards first and foremost, we'll take Scroll of Lightning, replacing Oversized pack as it has two situational sides and is our weakest card. Hopefully we have gathered some gold at this point.</div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">As we're continuing our focus on damage cards first and foremost, we'll take Scroll of Lightning replacing Cleaving Axe, a melee attack for ranged. The initiative is slightly better as mid-range are typically the worst, but 77 is as the bottom end of useful late so not that spectacular.</div>
             </div>
   
           </div>
@@ -664,25 +664,25 @@
     
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
-                <p class="w3-pale-green">Move 5</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
-                <p class="w3-pale-green">AoE attack</p>
-                <p class="w3-pale-blue">Move 4</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
                 <p class="w3-pale-green">Ranged <i>Wound</i></p>
                 <p class="w3-pale-green">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
               </div>
             </div>
   
@@ -704,15 +704,15 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
-                <p class="w3-pale-green">Ranged attack</p>
-                <p class="w3-pale-blue">Move 3, <i>Push</i></p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-pale-green"><i>Loot</i>, Move</p>
+                <p class="w3-pale-red">Never used</p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
                 <p class="w3-pale-green">AoE attack</p>
                 <p class="w3-pale-green">Move 4</p>
               </div>
@@ -728,9 +728,9 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
-                <p class="w3-pale-green">Ranged attack</p>
-                <p class="w3-pale-green">Ranged attack</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-red">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
               </div>
             </div>
   
@@ -768,7 +768,7 @@
       <div id="acc-3-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>
           </div>
         </div>
       </div>  <!-- level 3 deck -->
@@ -821,7 +821,7 @@
                 <header class="w3-light-grey"><p>Take</p></header>
                 <img class="card-small" src="images/character-ability-cards/qm/gh-giant-club.png">
                 <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Attack 3</p>
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
@@ -829,7 +829,7 @@
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Giant Club over Side Pouch, as sad as we are to pass up the bottom from Side Pouch. Giant Club replaces Iron Bulwark. Obviously attack 5 is much better than attack 3 Muddle, and if we really need an attack 3 Muddle we've got it on the bottom of this card instead of the top.</div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Giant Club over Side Pouch, as sad as we are to pass up the bottom from Side Pouch replacing Iron Bulwark. Obviously attack 5 is much better than attack 3 Muddle, and if we really need an attack 3 Muddle we've got it on the bottom of this card instead of the top.</div>
             </div>
   
           </div>
@@ -846,41 +846,9 @@
     
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
-                <p class="w3-pale-green">Move 5</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
-                <p class="w3-pale-green">AoE attack</p>
-                <p class="w3-pale-blue">Move 4</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
                 <p class="w3-pale-green">Ranged <i>Wound</i></p>
                 <p class="w3-pale-green">Move, attack</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
-                <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
-                <p class="w3-pale-green">Ranged <i>Heal</i></p>
-                <p class="w3-pale-blue">Situational</p>
               </div>
             </div>
   
@@ -894,7 +862,39 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-blue">Attack 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-pale-green"><i>Loot</i>, Move</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
                 <p class="w3-pale-green">AoE attack</p>
                 <p class="w3-pale-green">Move 4</p>
               </div>
@@ -910,9 +910,9 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
-                <p class="w3-pale-green">Ranged attack</p>
-                <p class="w3-pale-green">Ranged attack</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-red">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
               </div>
             </div>
   
@@ -950,7 +950,7 @@
       <div id="acc-4-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>
           </div>
         </div>
       </div>  <!-- level 4 deck -->
@@ -1002,16 +1002,16 @@
               <div class="w3-container w3-cell card-med">
                 <header class="w3-light-grey"><p>Take</p></header>
                 <img class="card-small" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue"><i>Shield 2</i></p>
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red"><i>Shield 2</i></p>
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Scroll of Judgment, while an excellent card, just can't compete with the sort of game-warping effect Reinforced Steel can bring.<p>Cleaving Axe was well past its time for the AoE at only 2 attack and was mostly just still around for the bottom move 4, thus it's easily replaced by Reinforced Steel. And here is hand at level 5 with the core of our build setup: we put up Reinforced Steel early, pick off enemies from range when we can, then wade into the thick of things to absorb some damage for our team while cutting (or clubbing) through what's left.</p></div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Scroll of Judgment, while an excellent card, just can't compete with the sort of game-warping effect Reinforced Steel can bring.<p>Impaling Spear was well past its time for the AoE at only 3 attack and was mostly just still around for the bottom move 4, thus it's easily replaced by Reinforced Steel. And here is hand at level 5 with the core of our build setup: we put up Reinforced Steel early, pick off enemies from range when we can, then wade into the thick of things to absorb some damage for our team while cutting (or clubbing) through what's left.</p></div>
             </div>
   
           </div>
@@ -1029,16 +1029,16 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue"><i>Shield 2</i></p>
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red"><i>Shield 2</i></p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
-                <p class="w3-pale-green">AoE attack</p>
-                <p class="w3-pale-blue">Move 4</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Move 3, <i>Push</i></p>
               </div>
             </div>
   
@@ -1054,23 +1054,23 @@
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
                 <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue">Attack 3</p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
-                <p class="w3-pale-green">Ranged <i>Heal</i></p>
-                <p class="w3-pale-blue">Situational</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-green">Move, attack</p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
-                <p class="w3-pale-green">Ranged attack</p>
-                <p class="w3-pale-blue">Move 3, <i>Push</i></p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-pale-green"><i>Loot</i>, Move</p>
+                <p class="w3-pale-red">Never used</p>
               </div>
             </div>
   
@@ -1092,9 +1092,9 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
-                <p class="w3-pale-green">Ranged <i>Wound</i></p>
-                <p class="w3-pale-green">Move, attack</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Power attack/Move 2</p>
               </div>
             </div>
   
@@ -1117,7 +1117,7 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-red">Multi-attack</p>
                 <p class="w3-pale-green">Move 5</p>
               </div>
             </div>
@@ -1132,7 +1132,7 @@
       <div id="acc-5-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>
           </div>
         </div>
       </div>  <!-- level 5 deck -->
@@ -1185,15 +1185,15 @@
                 <header class="w3-light-grey"><p>Take</p></header>
                 <img class="card-small" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
                 <p class="w3-pale-green">Big AoE</p>
-                <p class="w3-pale-blue">Last room</p>
+                <p class="w3-pale-red">Never used</p>
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Catastrophic Bomb for the huge AoE plus it draws so many cards from our attack deck, replacing Crippling Bow.</div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Catastrophic Bomb for the huge AoE plus it draws so many cards from our attack deck, replacing Restock as we should be staying at range now so the bottom melee attack has little value.</div>
             </div>
   
             <div class="w3-card-4">
@@ -1205,11 +1205,11 @@
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-oversized-pack.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">At 11 hand size we can afford another persistent loss so we also bring in Proficiency for the top as we can use items every round now with Reinforced Steel, replacing Scroll of Recall</div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">At 11 hand size we can afford another persistent loss so we also bring in Proficiency for the top as we can use items every round now with Reinforced Steel, replacing Oversized Pack which was a luxury card at best.</div>
             </div>
   
           </div>
@@ -1227,24 +1227,16 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue"><i>Shield 2</i></p>
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red"><i>Shield 2</i></p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue">Move 3</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
-                <p class="w3-pale-green">AoE attack</p>
-                <p class="w3-pale-blue">Move 4</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
               </div>
             </div>
   
@@ -1252,39 +1244,7 @@
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
                 <p class="w3-pale-green">Big AoE</p>
-                <p class="w3-pale-blue">Last room</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
-                <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
-                <p class="w3-pale-green">Ranged attack</p>
-                <p class="w3-pale-blue">Move 3, <i>Push</i></p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
-                <p class="">-</p>
-                <p class="">-</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
-                <p class="w3-pale-blue">Rarely used</p>
-                <p class="w3-pale-green">Move, Attack 3</p>
+                <p class="w3-pale-red">Never used</p>
               </div>
             </div>
   
@@ -1298,9 +1258,25 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
-                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
-                <p class="w3-pale-green">Bomb combo</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
+                <p class="w3-pale-green">Attack 5</p>
+                <p class="w3-pale-blue">Attack 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">Nearly always up</p>
+                <p class="w3-pale-blue">Move 3</p>
               </div>
             </div>
   
@@ -1314,9 +1290,33 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Power attack/Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-blue">Between rooms</p>
+                <p class="w3-pale-green">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-red">Multi-attack</p>
                 <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
               </div>
             </div>
   
@@ -1330,7 +1330,7 @@
       <div id="acc-6-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>
           </div>
         </div>
       </div>  <!-- level 6 deck -->
@@ -1381,17 +1381,17 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell card-med">
                 <header class="w3-light-grey"><p>Take</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png">
-                <p class="w3-pale-blue">Rarely used</p>
-                <p class="w3-pale-green">Move 3, <i>Stun</i></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-giant-club.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Left with two really bad choices, we go back to level 5 and grab Scroll of Judgment. Now at level 7 we're rarely going to use the top action which has scaled pretty poorly, but the bottom move + stun is just as good as ever, and it's for that we're taking it.<p>Alternatively we could grab Side Pouch [4] if we want some extra gold instead or we are playing with the Redguard who wants enemies to attack him rather than be stunned.</p><p>Scroll of Judgment replaces Restock as the bottom attack was getting fairly weak now and the Move/Stun combo has far more utility.</p></div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Left with two really bad choices, we go back to level 4 and grab Side Pouch for the loot, we would have taken Scroll of Judgment for the bottom move + stun but we shouldn;t be getting into melee range and this is a much better initiative.<p>Side Pouch replaces Giant Club. We are not supposed to be in melee range and we are also replacing one of the worst initiatives with a good one.</div>
             </div>
   
           </div>
@@ -1409,24 +1409,16 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue"><i>Shield 2</i></p>
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red"><i>Shield 2</i></p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue">Move 3</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
-                <p class="w3-pale-green">AoE attack</p>
-                <p class="w3-pale-blue">Move 4</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
               </div>
             </div>
   
@@ -1434,15 +1426,15 @@
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
                 <p class="w3-pale-green">Big AoE</p>
-                <p class="w3-pale-blue">Last room</p>
+                <p class="w3-pale-red">Never used</p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
-                <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-green">Move, attack</p>
               </div>
             </div>
   
@@ -1464,25 +1456,9 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png">
-                <p class="w3-pale-blue">Rarely used</p>
-                <p class="w3-pale-green">Move 3, <i>Stun</i></p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
-                <p class="w3-pale-green">Ranged <i>Wound</i></p>
-                <p class="w3-pale-green">Move, attack</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
-                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
-                <p class="w3-pale-green">Bomb combo</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">Nearly always up</p>
+                <p class="w3-pale-blue">Move 3</p>
               </div>
             </div>
   
@@ -1496,9 +1472,33 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Power attack/Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-blue">Between rooms</p>
+                <p class="w3-pale-green">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-red">Multi-attack</p>
                 <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
               </div>
             </div>
   
@@ -1512,7 +1512,7 @@
       <div id="acc-7-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png"></div>
           </div>
         </div>
       </div>  <!-- level 7 deck -->
@@ -1563,17 +1563,17 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell card-med">
                 <header class="w3-light-grey"><p>Take</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-fortified-position.png">
-                <p class="w3-pale-red">Never used</p>
-                <p class="w3-pale-green">Move 3, <i>Shield</i></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-portable-ballista.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Anti-shield</p>
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Fortified Position for the bottom, replacing Impalinmg Spear which is just too weak at this level.</div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Portable Ballista for the fine top, that is still useful even if we find ourselves in Melee range. We replace Scroll of Recall, replacing a bottom utility AoE attack with a more powerful top AoE. In some scenarios where we want the grounding effect of Recall we can bring it back in for something like Crushing Hammer which is mostly in there for the fine initiative.</div>
             </div>
   
           </div>
@@ -1591,16 +1591,32 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue"><i>Shield 2</i></p>
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red"><i>Shield 2</i></p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue">Move 3</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-portable-ballista.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Anti-shield</p>
               </div>
             </div>
   
@@ -1614,22 +1630,6 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
-                <p class="w3-pale-green">Big AoE</p>
-                <p class="w3-pale-blue">Last room</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
-                <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
                 <p class="w3-pale-green">Ranged attack</p>
                 <p class="w3-pale-blue">Move 3, <i>Push</i></p>
@@ -1638,33 +1638,9 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
-                <p class="">-</p>
-                <p class="">-</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png">
-                <p class="w3-pale-blue">Rarely used</p>
-                <p class="w3-pale-green">Move 3, <i>Stun</i></p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png">
-                <p class="w3-pale-red">Never used</p>
-                <p class="w3-pale-green">Move 3, <i>Shield</i></p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
-                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
-                <p class="w3-pale-green">Bomb combo</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">Nearly always up</p>
+                <p class="w3-pale-blue">Move 3</p>
               </div>
             </div>
   
@@ -1678,9 +1654,33 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Power attack/Move 2</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-red">Multi-attack</p>
                 <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
               </div>
             </div>
   
@@ -1694,7 +1694,7 @@
       <div id="acc-8-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-portable-ballista.png"></div>
           </div>
         </div>
       </div>  <!-- level 8 deck -->
@@ -1747,15 +1747,15 @@
                 <header class="w3-light-grey"><p>Take</p></header>
                 <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-annihilation.png">
                 <p class="w3-pale-blue">Last room</p>
-                <p class="w3-pale-green">Move, <i>Disarm</i></p>
+                <p class="w3-pale-green">Move 3 <i>Disarm</i></p>
               </div>
               <div class="w3-container w3-cell">
                 <header class="w3-light-grey"><p>Replace</p></header>
-                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
                 <p class="w3-light-grey">-</p>
                 <p class="w3-light-grey">-</p>
               </div>
-              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The card we're adding, SCROLL OF ANNIHILATION, will also pretty much always be a bottom action until the end of the scenario so we don't want to replace our top attacks.<p>We replace Sharpening Kit as the top hasn't scaled and whilst the bottom is nice something has to go and we want to keep our attacks.</p></div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The card we're adding, Scroll of Annihilation, will also pretty much always be a bottom action until the end of the scenario so we don't want to replace our top attacks.<p>We replace Crushing Hammer, we will miss the Initiative but both the top and bottom are upgrades.</p></div>
             </div>
   
           </div>
@@ -1773,16 +1773,32 @@
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue"><i>Shield 2</i></p>
+                <p class="w3-pale-yellow">Always up</p>
+                <p class="w3-pale-red"><i>Shield 2</i></p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
-                <p class="w3-pale-yellow">Nearly always up</p>
-                <p class="w3-pale-blue">Move 3</p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-portable-ballista.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Anti-shield</p>
               </div>
             </div>
   
@@ -1796,22 +1812,6 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
-                <p class="w3-pale-green">Big AoE</p>
-                <p class="w3-pale-blue">Last room</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
-                <p class="w3-pale-green">Attack 5</p>
-                <p class="w3-pale-green">Attack 3</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
                 <p class="w3-pale-green">Ranged attack</p>
                 <p class="w3-pale-blue">Move 3, <i>Push</i></p>
@@ -1820,25 +1820,9 @@
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
-                <p class="">-</p>
-                <p class="">-</p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png">
-                <p class="w3-pale-blue">Rarely used</p>
-                <p class="w3-pale-green">Move 3, <i>Stun</i></p>
-              </div>
-            </div>
-  
-            <div class="w3-card-4">
-              <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png">
-                <p class="w3-pale-red">Never used</p>
-                <p class="w3-pale-green">Move 3, <i>Shield</i></p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">Nearly always up</p>
+                <p class="w3-pale-blue">Move 3</p>
               </div>
             </div>
   
@@ -1846,23 +1830,39 @@
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-annihilation.png">
                 <p class="w3-pale-blue">Last room</p>
-                <p class="w3-pale-green">Move, <i>Disarm</i></p>
+                <p class="w3-pale-green">Move 3 <i>Disarm</i></p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
-                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
-                <p class="w3-pale-blue">Situational loss</p>
-                <p class="w3-pale-green">Move, <i>Shield</i></p>
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Power attack/Move 2</p>
               </div>
             </div>
   
             <div class="w3-card-4">
               <div class="w3-container w3-cell">
                 <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
-                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-red">Multi-attack</p>
                 <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
               </div>
             </div>
   
@@ -1876,7 +1876,7 @@
       <div id="acc-9-deck" class="w3-container w3-hide">
         <div class="w3-container">
           <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
-             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-annihilation.png"></div>
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-portable-ballista.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-annihilation.png"></div>
           </div>
         </div>
       </div>  <!-- level 9 deck -->
@@ -1890,8 +1890,8 @@
   <div id="acc-enhancements" class="w3-container w3-hide">
     <table class="w3-table w3-striped w3-border">
       <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-hastened-step.png"></td><td>bottom</td><td><i>Jump</i></td><td>We keep this card throughout and don’t get a natural <i>Jump</i></td></tr>
-      <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></td><td>bottom</td><td><i>Shield</i></td><td>We keep this card throughout and an extra <i>Shield</i> adds such value</td></tr>
       <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-hastened-step.png"></td><td>top</td><td>+1 Move</td><td>Cheap and useful throughout</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></td><td>top</td><td>+1 Attack</td><td>It's cheap and we keep this card throughout</td></tr>
     </table>
   </div> <!-- enhancements -->
   
@@ -1926,18 +1926,13 @@
       <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
       
         <div class="w3-card-4" style="width:250px">
-          <img class="card-med" src="images/items/gh-007-iron-helmet.png">
+          <img class="card-med" src="images/items/gh-006-eagle-eye-goggles.png">
           <p class="w3-container">3</p>
         </div>
         
         <div class="w3-card-4" style="width:250px">
           <img class="card-med" src="images/items/gh-023-chainmail.png">
           <p class="w3-container">4</p>
-        </div>
-        
-        <div class="w3-card-4" style="width:250px">
-          <img class="card-med" src="images/items/gh-074a-swordedge-armor.png">
-          <p class="w3-container"></p>
         </div>
         
         <div class="w3-card-4" style="width:250px">
@@ -1961,7 +1956,7 @@
         </div>
         
         <div class="w3-card-4" style="width:250px">
-          <img class="card-med" src="images/items/gh-025-jagged-sword.png">
+          <img class="card-med" src="images/items/gh-033-volatile-bomb.png">
           <p class="w3-container"></p>
         </div>
         
@@ -2042,7 +2037,7 @@
 </div> <!-- body -->
 
 <footer class="w3-container w3-teal">
-  <div style="font-size:0.8rem">Tank based on Gripeaway build (<a href="https://www.reddit.com/r/Gloomhaven/comments/7z92nz/three_spears_class_8_guide_updated_to_level_9/">https://www.reddit.com/r/Gloomhaven/comments/7z92nz/three_spears_class_8_guide_updated_to_level_9/</a>)</div>
+  <div style="font-size:0.8rem">Ranged Striker based on Gripeaway build (<a href="https://www.reddit.com/r/Gloomhaven/comments/7z92nz/three_spears_class_8_guide_updated_to_level_9/">https://www.reddit.com/r/Gloomhaven/comments/7z92nz/three_spears_class_8_guide_updated_to_level_9/</a>)</div>
 </footer>
 
 </body>

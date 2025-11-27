@@ -112,6 +112,7 @@ function sidebarMainDropClick(id) {
     <div id="qmDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="qm-main.html" class="w3-bar-item w3-button">Overview</a>
       <a href="qm-ranged.html" class="w3-bar-item w3-button">Ranged Striker</a>
+      <a href="qm-recovery.html" class="w3-bar-item w3-button">Recovery</a>
       <a href="qm-tank.html" class="w3-bar-item w3-button">Tank</a>
     </div>
   </div>

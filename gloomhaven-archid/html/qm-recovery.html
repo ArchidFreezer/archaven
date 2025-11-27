@@ -1,0 +1,2374 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quartermaster Recovery</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Quartermaster Recovery</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+  <!-- Overview -->
+  <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>
+  <div id="acc-overview" class="w3-container w3-hide">
+   <p>This build is based on the concept of continuous item and card recovery so that the Quartermaster never needs to rest. The original build guide referenced in the footer only had the card buildout for level 9, so this build has used elements from Gripeaways for the intervening levels and also from some analysis of the perks in the comments section of the build guide page. Taking this into account along with the facvt that the archid mod also m,akes changes ot the class and cards this build is very much a custom one.</p> <p>In order for the recovery to work we need to take 2 specific cards, one for items and one for cards along with Stamina potions and some perks. That is quite a set of requirements and the build is not fully hooked up until higher levels, but it is still very viable from the start. The build uses ranegd attacks for its damage so the card choices come from the ranged striker build where they do not conflict with our goal.</p> <p>This build is fairly dependant on items, but the required ones are available early on and any others are a bonus. That being said having a choice of items available is a definate advantage.</p>
+  </div> <!-- overview -->
+  
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is one of your two level 1 AoEs and has its positives and negatives. The positive is that it has an upside of 6 damage, which is a ton for level 1. Otherwise, even just hitting 2 enemies for 2 each and gaining 1 XP is quite good for a level 1 card. On the other hand, however, there are some problems with this type of large area low damage melee AoE. First of all, in order to maximize the value of this attack, you need to get next to 2-3 enemies. Even the tank build doen't want to actively search out enemies to hit you. And because the damage of this AoE is so low, you're unlikely to actually kill them unless they're already quite weak, meaning they will need to be dealt with or they will all hit you for more damage than this attack is worth. The good news is that you have a number of early initiative cards, so you can very realistically go before your allies and then rely on them to finish off most of the enemies you hit with this, so you don't get messed up when the monsters go. This still also requires your allies to go early in the round and this sort of move can get very heavily punished by a couple of bad attack modifier draws by your and/or your allies. Thus, there's a lot that has to be done in order to make this work. Secondly, because of the low damage on this attack, it scales very poorly as monster level increases, also because the monsters will hit for more damage if you don't kill them, making it even more punishing and less likely to be worth it. Fortunately, at higher levels, modifier decks tend to be more reliable so you should have an accurate enough assessment of whether you can make it work or not.</p>
+              <hr>
+              <p>Regardless of the weakness of the top attack, it does have a high potential upside, and as usual that's well-complimented by a good move 4 on the bottom.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Cleaving Axe is a good card with a pretty good AoE and a nice move.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 3 range 3 with 1 XP is just perfectly fine and something you'll usually be happy to use, especially on the early levels. Again, if you've played the Brute before this you know how often you used his ranged attack. Ranged attacks are just really good in this game because range can effectively function like healing against a lot of enemies by keeping you out of range of their attacks.</p>
+              <hr>
+              <p>The bottom is another attack on bottom which we'll use as crowd control to prevent an enemy from getting in range to attack. Immobilize is unfortunately not great against a number of the more threatening enemies in the game, but it certainly has its uses. And by being a situational bottom attached to a top we're always happy to use, we pay nothing for the pleasure.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Crippling Bow is another above average card. The ability to force flying enemies to move around objects and be subject to traps adds real value to this card in some scenarios.<p>Sadly, especially for a card with crowd control, it does suffer from middling initiative.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Admittedly, attack 3 stun is pretty mediocre for a loss effect, but having the option around can sometimes be helpful, especially when it costs you nothing as you'd always want this bottom anyway. In reality, the top more likely reads 'gain 2 experience at the end of the scenario.'</p>
+              <hr>
+              <p>And the bottom really is great for a level 1 card. Move 2 isn't a ton, and it does hurt a bit that you can't actually enhance the move to increase it by 1 (actually a common trend for the Quartermaster and probably his biggest downside - he has very few cards that can be meaningfully enhanced, probably because his cards are already so good), but adding a free shield 1 self on makes a world of difference. In reality, you can more look at this like the move 2 is tacked on to a shield 1. For example, the Brute has a level 1 card that is JUST shield 1 self with 15 initiative. Here you have move 2 shield 1 self at 17 initiative, and obviously that's just night and day better. The added 2 move allows you to move from one enemy to another when you're already in a room fighting a group of enemies, while also mitigating damage you'd take by being in the thick of things. And of course having such great initiative on the card makes it so you'll almost always get the shield up before enemies can go.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Crashing Hammer is a perfect implementation of a loss card - one powerful situational effect combined with one spammable effect.<p>It's actually interesting to me that this is an 'X' card for the Quartermaster while the shield 1 self card is a '1' for the Brute. That could indicate that tanking isn't necessarily something core for the Quartermaster, compared to the Brute, but the QM actually has a better tanking perk than the Brute does. Anyway, just an interesting thought, but I do consider this card to be incredibly core for this class.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is essentially attack 4, move 1. Of course, at level 1 it will be almost strictly worse than attack 4 just because of the existence of shield and your modifier deck won't be that good yet. Eventually, as your modifier deck improves, this will get to be significantly better than attack 4. And of course throwing the move 1 in between the two attacks, rather than at the end, gives a lot more flexibility most of the time.</p>
+              <hr>
+              <p>The bottom is a move 5. What more is there to say about that? Move 5 is exceptional as a bottom on level 1 cards. 'Ugh, I'm only going to be able to move 5 this turn with my level 1 non-loss card' said no one ever.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Hastened Step could be a level 3 card for many classes and you'd still be happy to take it (it could be a level 7 card for the Music Note class and you'd love it). This card does it all - two great halves and good initiative.<p>You'll pretty much always want to keep this card no matter what you're doing with this class and you'll be happy whichever half you're using - the only bad part is that you can't use both halves each time.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Now Impaling Spear is an AoE I can get behind. At its worst it's basically an attack 3 range 2 with no adjacency disadvantage that gives 1 XP, which is already quite fine. With our very good amount of move cards, it's not too difficult to line two enemies up for this and get its maximum value of 6 attack. Furthermore, it's much safer than our other AoE as it only needs 2 enemies, not 3, for maximum value, and one of them doesn't even need to be adjacent to us. It also scales better at higher levels for these reasons and because of its higher damage.</p>
+              <hr>
+              <p>Meanwhile, it's complemented by nearly the perfect bottom (come on, this couldn't also be a move 5?), another move 4, for when we need movement, don't have 2 enemies to hit or have a better attack for just a single enemy</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a great card than can scale as well.The only downside of this card is the average initiative, which is quite below average for us.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>First, the top: attack 3 that gives 1 XP is already decent for level 1, and Muddle is just a small added bonus that does help us to mitigate damage occasionally. Nothing flashy about this half, just a solid workhorse of an above average but not incredible card.</p>
+              <hr>
+              <p>Meanwhile, the bottom which compares so favourably to the aforementioned Shield Bash. Not only do we get shield 1, but our allies do as well. Works well with summons and is part of the reason why it's fine to have 2 tanks with this class, because cards like this benefit both tanks significantly.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Iron Bulwark, another level 1 card that puts the Brute's Shield Bash to shame with its bottom.<p>Early initiative again makes it likely that we can get this buff up before enemies attack.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A non-loss loot 2, on top! Wow, that's really great. You can move and still do a loot 2, which until you've experienced a well-positioned loot 2 first-hand (let me assure you, it's glorious), you have no idea just how large loot 2 is. Sadly, we can't regularly use loot cards as they're only good a few times per scenario, at most. The ability to move after the loot does give some additional utility as a top move can be valuable.</p>
+              <hr>
+              <p>eanwhile, the bottom is another Quartermaster effect that is unimpressive at level 1 but gets better at higher levels. As we only have 1 consumable item at level 1, this effect is not even remotely worth a loss. By level 7, when you can have 4 consumable items, it starts to get quite tempting, especially with very high Prosperity consumables that have really powerful effects (with high Prosperity I might even consider this effect worth it at level 5). Still, regardless of how good this effect might eventually become at a certain level, the card will always be mediocre at best just because you have no half you can regularly use.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Oversized Pack is one of those cards with two powerful but unfortunately situational halves stapled together that means the whole is less than the sum of its parts.<p>Having to use a move 2 with 81 initiative for a significant chunk of the scenario just to occasionally get these powerful effects will usually not be worth it.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This top isn't really a situational loss, it's more of a 'play around me' loss that you'll either want to use early in each scenario or not bother bringing it. In order for this effect really to go off for you and thus justify itself, you really want a level 5 card. Until then, I don't think this is worth it. And even then, that level 5 card is also a loss that if you use that combo, only really being worth it on smaller/shorter scenarios (can be great for boss fights). After that, this card also gets better at much higher levels as you get some very large but low damage AoEs, and every +1 attack can make a huge difference on those. Still, at level 1 this is usually best left on the side-lines.</p>
+              <hr>
+              <p>The bottom is fine as a move 3, although with poor initiative on a pretty fast class it's still below average. And, unlike other situational loss cards, the fact that you want to use this loss early makes spammable move on the bottom less relevant.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Proficiency is a card that's kind of unimpressive at level 1 but gets better at higher levels.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a relatively powerful support effect, only let down by the question of 'when exactly do I want to use this?' What I mean is, the most common time we use support cards are when enemies are either all or mostly dead and we're moving from one room to another. But in those situations, you can usually just long rest anyway if you really need to refresh spent items. Otherwise, we use support cards on allies who are in 'deep shit,' but generally healing will be more generically useful for those allies, as well as just attacking to kill enemies that threaten our ally. Thus, while a reasonable effect, especially for a non-loss, you may not find as many situations where this half is actually that useful.</p>
+              <hr>
+              <p>Still, it's basically free to have it around because it's tied to a move 4.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Reserved Energy is exactly how you do situational support cards.<p>The only downside with this move 4 is the bad initiative, but it's still a level 1 move 4, so it'll do.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Restock is one of those item support cards the Quartermaster has access to. The value of this effect will mostly depend on the size of your group - terrible at 2, mediocre at 3, good at 4. It will also be a bit affected by Prosperity, as again consumable items get much better. Is it worth a loss for a class with 11 cards? Sometimes, although probably not that often depending on scenario length.</p>
+              <hr>
+              <p>Fortunately, it doesn't cost much to keep that effect around as we're quite happy to take this card for the bottom only. In general, it's quite a good idea to keep at least one reasonably-sized attack on bottom for those times when you want to make sure to finish off an adjacent enemy. As long as you have enough other good move cards, which the QM does, you can easily get away with it. And while a simple attack 3 is nothing to write home about, as our best level 1 bottom attack it is quite welcome.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Restock is a decent card, mostly held up by a good bottom for a level 1 card.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Scroll of Recall top is one of those support effects (admittedly, self-support) that is good between fighting. Moving to the next room? Why don't I get one of my potions back. It's really not bad.</p>
+              <hr>
+              <p>The downside for this card though, other than maybe the worst initiative in the game, is that the bottom isn't great at early levels until we can improve our attack modifiers. However, pulling 3 attack modifier cards in a few levels time can be very powerful and something we are happy to do. In the meantime grounding 3 flying enemies can make some scenarios much easier.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is another card that is fairly weak to start with, but improves along with our perks when it bocomes quite strong.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The range on the top can occasionally be limiting, but you've got a lot of movement so it shouldn't be much of a problem. And a heal 4 at level 1 with no requirements is great, with 1 XP to boot.</p>
+              <hr>
+              <p>The bottom is another type of support - the best kind. You have a number of ranged attacks so it's very easy to use this bottom without moving, especially at higher levels where you have some giant AoEs making the payoff for this amazing. Otherwise, it will add 1 to your ranged attack, and thanks to good initiative, will be easy to play before your allies to likewise buff them. Remember that effects like this function like 'auras' in other games, which means that your allies have to be in range when they attack to get the buff, regardless of where you were in relation to them when you played this card. That actually works perfectly for you as you're a tank, so you'll be closer to the enemies than your allies most of the time. Thus, your allies can move up near you after you've gone and get the buff.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Sharpening Kit is another great support card and you'll always be happy to have it.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These are our core cards, ordered from best/most important to worst/least important. If you're absolutely sure your party really doesn't need to do much tanking, then Crushing Hammer would move down to the last slot.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>These are our remaining 5 cards to choose from.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+              <div class="w3-container">We take Reserved Energy, primarily for the move 4 bottom.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+              <div class="w3-container">Proficiency, is just not very good at level 1 as we can't consistently attack using items (we can't repeatedly refresh our own items at level 1 unless we also use Scroll of Recall, but that's a very slow and absolutely not worthwhile combo) without having to long rest much more often than is practical.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+              <div class="w3-container">Oversized Pack, as mentioned before, just suffers from not having one half we want to regularly use.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
+              <div class="w3-container">We take Restock, primarily for the attack 3 bottom.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+              <div class="w3-container">We take this over Proficiency as the bottom has slightly more utility for now.</div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>At this level we have a ranged starter attack plus some off-tanking as we will need to get into melee range.<p>At lower levels the heal on Sharpening Kit is still useful, but will tail off as we level up and we start to use the bottom action more.</p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue"><i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+                <p class="w3-pale-blue">Situational</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-pale-green"><i>Loot</i>, Move</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move, Attack 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-blue">Refresh stam pot</p>
+                <p class="w3-pale-green">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-1-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-1-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"/>
+                <div class="w3-container" style="width: 250px">Room starter to fire off our ranged attack then move and a shield for the melee phase</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png"/>
+                <div class="w3-container" style="width: 250px">Use a melee attack and then finish off with Restock bottom</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-iron-bulwark.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <div class="w3-container" style="width: 250px">Pull an enemy into our melee attack</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>This isn't necesarily a dedicated turn order, but it gives an idea how cards can be combined. At level 1 we only have 1 top ranged attack so we have to use melee as well.</p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Attack 2, Range 3 <i>Wound</i> with 1 XP is almost strictly better than the attack 3 version we have at level 1 (<i>Wound</i> is strictly better than attack 1 about 90% of the time, especially on ranged attacks).</p>
+              <hr>
+              <p>So a good attack on top and on bottom a move 4 with upside. The little attack 1 doesn't seem like much, but as your modifier deck improves, you'll be quite happy with it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Bladed Boomerang is a great card by virtue of doing a lot of little things that are almost always worthwhile. A little bit of a shame that this card has average initiative, but you can't have it all.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top of Reforge is obviously much better with consumed weapons than spent ones as they tend to have much more powerful effects which are meant to be held in check by being one-time use only.<p>There are certainly some powerful weapon effects that can absolutely make this worthwhile. Whether it's worth it or not for you will depend on how you/your group wants/needs you to play this class and what weapons you and your allies have access to.</p><p>Still, remember that most of the time, while your party is directly engaged in combat, simply attacking is going to be more effective (and more consistent).</p></p>
+              <hr>
+              <p>The bottom is just fine, a repeatable Minor Stamina Potion. Again, not being directly combat-oriented means you'll usually have better bottoms to use during combat, relegating this mostly to downtime, in which case it will compete with moving in order to get in position for the next room and/or picking up money. For that reason these sort of effects are typically better as a top, which can be used in the aforementioned scenarios in conjunction with movement, but it's still going to be worth it sometimes.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The bottom of the this card is one of the core actions of this build acting as a minor stamina potion.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-green">Move, attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-cleaving-axe.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">As much as Reforge plays into our long term strategy we are not ready yet and having the ranged attack is better at this stage so we will opt for Bladed Boomerang. It does not have the greatest damage at 2 but with Wound and combined with Sharpening Kit it works well. It also has a nice Move 4 on the bottom, but we are unlikely to want this.<p>This is the weaker of our melee attacks so we replace it.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png">
+                <p class="w3-pale-green">Attack 3</p>
+                <p class="w3-pale-blue"><i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-pale-green"><i>Loot</i>, Move</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move, Attack 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-blue">Refresh stam pot</p>
+                <p class="w3-pale-green">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-2-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-2-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"/>
+                <div class="w3-container" style="width: 250px">Room starter to fire off our ranged attack then move and a shield for the melee phase.</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png"/>
+                <div class="w3-container" style="width: 250px">Use a melee attack and then finish off with Restock bottom</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">We can boost our ranged attack with SK if we don’t need to move</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-iron-bulwark.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <div class="w3-container" style="width: 250px">Pull an enemy into our melee attack</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p></p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-continual-supply.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action discussion.</p>
+              <hr>
+              <p>The bottom action discussion.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The overall card discussion.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top will pretty much remain your consistently best attack for most of your Quartermaster's time adventuring with your party. Attack 5 range 3 at level 3 is just great. It also apparently creates an element, which you don't use but your allies might.</p>
+              <hr>
+              <p>The bottom is a move 3 that can sometimes push an enemy into a trap as a bonus, which is nice. And the good news is you'll never even consider using the bottom unless it actually can push someone into a trap because the top is so good. Also, element there too, but you don't use those.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Scroll of Lightning is just amazing.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-iron-bulwark.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Scroll of Lightning going to be our bread and butter ranged attack, with good solid 5 damage that combined with our final buffs will be a 7 AoE attack, even before a Power Potion. We drop the weakest of our melee cards.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-pale-green"><i>Loot</i>, Move</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move, Attack 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-blue">Refresh stam pot</p>
+                <p class="w3-pale-green">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+      </div> <!-- level 3 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-3-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-3-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"/>
+                <div class="w3-container" style="width: 250px">Room starter to fire off our ranged attack then move and a shield for the melee phase.</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png"/>
+                <div class="w3-container" style="width: 250px">Use a melee attack and then finish off with Restock bottom</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">We can boost our ranged attack with SK if we don’t need to move</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reserved-energy.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-hastened-step.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <div class="w3-container" style="width: 250px">Pull an enemy into our melee attack</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p></p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-giant-club.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>As it turns out, attack 5 on top is still just about as good as it was last level. Sadly, being melee is a bit worse than range 3, but the 1 XP is there to help ease the pain. Sadly, I still usually prefer Scroll of Lightning, but having more attack 5's is never a bad thing.</p>
+              <hr>
+              <p>Meanwhile, we get another attack on bottom, which at attack 3 on a level 4 card isn't great, is still there for free with this top. And adding Muddle does obviously make it slightly better in those cases where we don't kill off an enemy (or can be used to hit a second enemy after we finish the first with our top attack).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Giant Club is a card which is very subtle about what exactly it does, and it may be difficult to accurately decipher it. Fortunately for you, I'm here to guide you through this.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Side Pouch gives a sudden large boost to one ally. The effect is definitely very powerful and can absolutely be worth a loss card. Again, as before, this gets better at higher levels when your allies have more consumable items and at higher Prosperity when you have more powerful items to refresh. The effect is very situational regardless and will usually be held for close to the end of the scenario but that's fine because of such a great spammable bottom.</p>
+              <hr>
+              <p>Move 3 loot 1 is just awesome to use. Where'd all that money go? Yeah, that's right, you got it. Adding a loot action on top of a very reasonable move makes it so easy to grab that cash without any added effort, which is normally meant to be the trade-off you have to make to pick up money. Even for the damage-dealing build, Side Pouch is super tempting just for this bottom action (because who doesn't want more money?).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>One thing to watch out for if you're saying 'well, I'm going to go the support build, not the damage build he's suggesting because that's what my party wants/needs' is not to just take all the support cards without thinking about it because they're support cards. There are three reasons for this: first, many of them are loss cards and you'll end up with too many loss cards you want to play without being able to play them all. Second, there's some negative synergy - for example, if you have Continual Supply going, you may get less value out of sharing your Side Pouch with someone. Lastly, if you clog up your hand with a bunch of support cards, you won't be able to consistently actually DO something, and your party may be pretty unhappy with the number of times you can't just help them kill something instead of passing them the Pouch. If you do want to take more support cards than I suggest, make sure it's only as a compliment to damage cards, not instead of.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-oversized-pack.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Side Pouch bottom is a nice card, but we need to start building towards our final goal of having card recovery at the heart of our build. We should have a few item refresh cards in our modifier deck by now so we go back to level 2 and take Reforge; with this card things our strategy is starting to shape up a bit. We lose Oversized Pack as that is opnly there for pure utility.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-blue">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+                <p class="w3-pale-green">AoE attack</p>
+                <p class="w3-pale-blue">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-restock.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move, Attack 3</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-blue">Refresh stam pot</p>
+                <p class="w3-pale-green">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+      </div> <!-- level 4 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-4-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-4-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"/>
+                <div class="w3-container" style="width: 250px">Room starter to fire off our ranged attack then move and a shield for the melee phase.</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png"/>
+                <div class="w3-container" style="width: 250px">Use a melee attack and then finish off with Restock bottom</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">We can boost our ranged attack with SK if we don’t need to move</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reserved-energy.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-hastened-step.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png"/>
+                <div class="w3-container" style="width: 250px">Recover a couple of our ranged attack cards</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>We are now starting to build towards our goal of no rests by recovering cards every cycle.<p>Reforge should be used whenever we don't need to move and we have some ranged attack cards in our discard, then recovered with a stam pot immediately as we may be lucky and be able to get the stam pot back with one of our item refresh perks.</p></p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is the sort of a loss card that a class with 11 cards can get on board with. All you have to do is answer its question of 'what do you want?' 1-3 extra shield per round? All of your single-target attacks to be aoe? All of your attacks to be advantaged? Healing? Movement? The list goes on... Oh wait, so what you want is all of those things, just whichever is appropriate at the moment? Yeah, that's what this card does. Take it, build your items around it, use it early and you'll see.</p>
+              <hr>
+              <p>And just in case the top of this card alone wasn't enough, there's a tanking/support bottom that puts most other similar effects at level 5 or earlier on other classes to shame with a blazingly-fast initiative to boot.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Reinforced Steel is, in my opinion, by far one of the most powerful pre-9 cards in the game.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-judgment.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>At level 5 you'll have 18 max hp, so taking 2 damage to deal a small amount of damage to a bunch of enemies can be a trade well worth making. Being 2 direct damage is great too because the problem with small damage attacks is shield, and a bunch of enemies that have low hp pools tend to have high shield values. The biggest problem is that it is just 2 damage, meaning you'll probably kill almost nothing, just soften up a bunch of things. Still, with many rooms in which this can easily deal out 20 damage or more, you'll find the numbers well worth it (especially at larger party numbers).</p>
+              <hr>
+              <p>And to compliment this very powerful but situational card you've got an amazing spammable bottom. Move 3 is fine and adding a non-loss stun is almost too good to be true. Much like Crushing Hammer did at level 1, this allows you to manoeuvre around rooms where you're already engaged with enemies, stun an enemy to negate a significant amount of damage and then still get to use a top attack. So yeah, Scroll of Judgment is a good card. Unfortunately for it, it comes at the same level as Reinforced Steel.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Scroll of Judgment is a very good card.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+                <p class="w3-pale-yellow">Refresh Item (goggles)</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-impaling-spear.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take the card that lets us have <i>Advantage</i> on every attack, dropping our melee attack.</div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">+1 Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-restock.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Given we will be using an item every attack due to Reinforced Steel we can take Proficiency to get the attack boot, replacing Restock as we shouldn;t be in melee range.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>This is the level when our build really starts to some together, adding a couple of persistent losses that can really boost our damage output.<p>There are lots of changes here that all centre around playing Scroll of Recall top and Reforge bottom. We switch Crippling Bow to the bottom so we can get some form of damage out during our SoR action, but it's not vital and can be used as a top if we can afford not to attack that round.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+                <p class="w3-pale-yellow">Refresh Item (goggles)</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-green">Refresh stam pot</p>
+                <p class="w3-pale-red">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-pale-green">Multi-attack</p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">+1 Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-blue">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+      </div> <!-- level 5 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-5-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-5-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png"/>
+                <div class="w3-container" style="width: 250px">Recover a couple of our ranged attack cards</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <div class="w3-container" style="width: 250px">Recover a stam pot, which we use to immediately get back this card and Reforge</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>We shuffle our attacks round now as we are expecting to be able to shift to a no-rest pattern, it will improve next level, but we have enough at this point to attack every round and still hit our recovery. If we manage to draw one of our item recovery perks and gain back a stam pot then the cycle changes, but we need to ensure that we always have either a stam pot <b>or</b> Scroll of Recall in our hand at all times.</p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action is pretty bad by itself but quite powerful in scenarios with a large number of enemies combined with Sharpening Kit. Obviously it also lets you flip more of your really nice 'Refresh Item' modifiers, which is a bonus, although less reliable than some people seem to think. Anyway, you should pretty much only use this with Sharpening Kit, try to get a Power Potion at the least, etc. And if the scenario includes a significant number of enemies with at least Shield 1, maybe leave this card on the side-lines.</p>
+              <hr>
+              <p>Meanwhile, the bottom isn't useful for most of the scenario but typically is extremely powerful at the end (so powerful that it was nerfed in the second edition). You'll only use it once per scenario, if you use it at all, but when you do, you'll be happy to have it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Catastrophic Bomb is... a card. Both actions on this card are kind of hilarious.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-quiver-of-arrows.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>For some builds and and parties this is a very powerful action, but not universally. It requires an ally with powerful ranged attacks such as the Doomstalker or the Plagueherald and you need to be adjacent to them which isn;t always going to be the case.</p>
+              <hr>
+              <p>The move 6 on the bottom with decent initiative isn't bad either, although it doesn't change too much because if you did take this card, you probably want to play it as early as possible and won't get much use out of the bottom action.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Quiver of Arrows is an amazing loss in some party compositions or with some allies. You should hopefully understand when that is and isn't based off of who you're playing with.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-blue">Last room</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-hastened-step.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Catastrophic Bomb because it's the card we're sure is (mostly) good for us regardless of our party composition, replacing Hastened Step as our final melee attack.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>This is essentially our final attacking hand, later levels give us some better bottom actions but we have all the gears for our recovery strategy in place with Catastrophic Bomb paired with the Eagle-Eye Goggles allowing us to draw lots of cards from our attack modifier deck from which we should draw at least one item recovery card.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+                <p class="w3-pale-yellow">Refresh Item (goggles)</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-blue">Last room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-green">Refresh stam pot</p>
+                <p class="w3-pale-red">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">+1 Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-blue">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+      </div> <!-- level 6 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-6-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-6-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">Boost our biggest AoE attack, drawing lots of AMD cards with our goggles</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png"/>
+                <div class="w3-container" style="width: 250px">Recover a couple of our ranged attack cards</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <div class="w3-container" style="width: 250px">Recover a stam pot, which we use to immediately get back this card and Reforge</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>We are now into our groove with this build having some good ranged attacks that we are happy to keep repeating, dropping into the SoR round if we don't draw one of our item recovery perks to get a stam pot back in the first few rounds.</p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-refreshment.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Even if we hadn't taken Reinforced Steel (which, come on... the only way we do that is for Quiver of Arrows instead, but then we're still not playing this additional Persistent Loss), we wouldn't want this action.</p>
+              <hr>
+              <p>And the bottom makes this a double-loss with another effect we really don't want. That sort of effect was pretty decent for the Tinkerer because he has 12 cards and most of his actions suck. We have just 9 cards and amazing actions, if anything, someone should do this for us, not the other way around.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Refreshment is obviously terrible with Reinforced Steel as we'll pretty much never long rest anymore.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-blizzards.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action doesn't really serve any purpose unless we have an ally who needs Ice. But by level 7, any ally that wants Ice should be able to make it for themselves. The attack is just bad, we don't need two Catastrophic Bomb-type attacks and we only have one Sharpening Kit.</p>
+              <hr>
+              <p>Meanwhile, as much as I like free crowd-control on bottom move actions, letting the enemies get next to you first in order for it to work just isn't that way to do that. Sure, this will sometimes work, but not often enough to be worth an otherwise pretty miserable action and nothing we want to see on top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Scroll of Blizzards is also pretty bad.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reserved-energy.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Left with two really bad choices, we go back to level 4 and grab Side Pouch for the loot, we would have taken Scroll of Judgment for the bottom move + stun but we shouldn;t be getting into melee range and this is a much better initiative.<p>Side Pouch replaces Reserved Energy, which was our wildcard and though we lose 1 movement we gain the <i>Loot</i> and a much better initiative.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>Now are just adding a bit more utility to our hand</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+                <p class="w3-pale-yellow">Refresh Item (goggles)</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-blue">Last room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-green">Refresh stam pot</p>
+                <p class="w3-pale-red">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">+1 Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-blue">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-pale-blue">Situational loss</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+      </div> <!-- level 7 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-7-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-7-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-side-pouch.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">Boost our biggest AoE attack, drawing lots of AMD cards with our goggles</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png"/>
+                <div class="w3-container" style="width: 250px">Recover a couple of our ranged attack cards</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <div class="w3-container" style="width: 250px">Recover a stam pot, which we use to immediately get back this card and Reforge</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>We are now into our groove with this build having some good ranged attacks that we are happy to keep repeating, dropping into the SoR round if we don't draw one of our item recovery perks to get a stam pot back in the first few rounds. If we do get the free stam pot via our AMD we could use Crippling Bow top and Crushing Hammer bottom instead of SoR, remembering that we want either a stam pot or SoR at all times.</p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Fortified Position doesn't really have a top action. Healing is pretty bad in general in Gloomhaven, especially by level 8. Loss heal actions are especially bad. Loss heal actions on a class with 9 cards and some incredibly powerful other actions and loss actions are just not even worth considering. Sure, this can heal a lot, but damage is rarely spread that evenly, it imposes some strict movement restrictions, it doesn't even heal you, who are more likely to have taken damage than most allies, the list goes on.</p>
+              <hr>
+              <p>Fortunately, while the top action is a waste, the bottom is incredible. We've kept Crushing Hammer around this long just for the bottom action and this is so much better - it's just a very strict upgrade</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a great card for any melee build as adding free <i>Shield</i> to a move is always going to work.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-portable-ballista.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This card takes some movement to really hit multiple enemies per turn, but movement we do have. And the amount of damage this top action consistently does for a non-loss is just great. I mean, if Impaling Spear had been attack 4, we would probably still be using it, and obviously this puts that action to shame. You will almost always hit 2 enemies with this and routinely hit 3, making this attack 8-12 on average with the only requirement being movement. Yeah, that's good enough.</p>
+              <hr>
+              <p>The bottom, while not something you'll use much, does come in handy occasionally. It might seem like this is what's needed to make Catastrophic Bomb fine even on scenarios with lots of Shielded enemies, but that means we don't get Sharpening Kit, and unfortunately that just doesn't work. Still, you'll find other actions you'll happily pair this bottom with against a number of enemies that need it.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Meanwhile, on the other side, we've got Portable Ballista.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-fortified-position.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move, <i>Shield</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crushing-hammer.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This is a dierct upgrade on the bottom and initiative, with the initiative dropping under the 15 that guard enemies have as their lowest.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+                <p class="w3-pale-yellow">Refresh Item (goggles)</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-blue">Last room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-green">Refresh stam pot</p>
+                <p class="w3-pale-red">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">+1 Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-blue">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Shield 2</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+      </div> <!-- level 8 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-8-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-8-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-side-pouch.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">Boost our biggest AoE attack, drawing lots of AMD cards with our goggles</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png"/>
+                <div class="w3-container" style="width: 250px">Recover a couple of our ranged attack cards</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <div class="w3-container" style="width: 250px">Recover a stam pot, which we use to immediately get back this card and Reforge</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>We are now into our groove with this build having some good ranged attacks that we are happy to keep repeating, dropping into the SoR round if we don't draw one of our item recovery perks to get a stam pot back in the first few rounds. If we do get the free stam pot via our AMD we could use Crippling Bow top and Fortified Position bottom instead of SoR, remembering that we want either a stam pot or SoR at all times.</p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-bag-of-holding.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Loot 3 non-loss on top is how you pick up money. If your friends didn't like you playing a Scoundrel, wait until they experience this.</p>
+              <hr>
+              <p>And the bottom action is an EXTREMELY powerful loss action, one of the best in the game by far.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Bag of Holding is pretty awesome.<p>There are only three (yeah, just three) problems with this card:<ol><li>it's against SCROLL OF ANNIHILATION. How do you beat that name? But more importantly, you really can't beat that bottom effect.</li><li>The top and bottom are both situational. You typically won't want to use the bottom before the last half or third of the scenario, which means you'll only be able to use it as a move 2 or a Loot 3. Sure, Loot 3 is good, but you still can't (or shouldn't!) use it in combat, and with only a 9 card hand size, you will end up needing to play this at some point in combat.</li><li>I can't predict your Prosperity. If you're Prosperity 9, this bottom action is a lot better than if you're Prosperity 3.</li></ol></p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-annihilation.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>So the top action is a nice top loss action to have at the end of the scenario to get rid of the most challenging enemy in the last room, if there is a very strong one. But 90% of the use of this card will be this bottom, and what a bottom it is. Move 3 is decent to begin with in terms of movement, even if it's not exciting, it does help our movement problem a bit. But then spammable non-loss AOE crowd-control. I mean, come on... What else can you ask for?</p>
+              <hr>
+              <p>This bottom action is honestly broken. Just play with it a bit and you'll see. One of the cards that has the single most noticeable impact on scenario difficulty in the game. When half the enemies don't attack, you can do it multiple times per scenario (and even multiple times per room with Stamina Potions, which you will do), and you can still attack. Yeah, that's called 'winning.'</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Scroll of Annihilation is interestingly-named because most of the time, you won't be doing any annihilating with the card, but rather just crowd-controlling (although I guess you will be annihilating the scenario...).</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bag-of-holding.png">
+                <p class="w3-pale-blue"><i>Loot 3</i>, Move 2</p>
+                <p class="w3-pale-blue">Recover small item aura</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">For scenarios where we need to <i>Loot</i> this card comes into it's own, but outside those our existing cards fit together too well to be worth swapping.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png">
+                <p class="w3-pale-yellow">Refresh Item (goggles)</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png">
+                <p class="w3-pale-green">Ranged attack</p>
+                <p class="w3-pale-red">Move 3, <i>Push</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png">
+                <p class="w3-pale-green">Big AoE</p>
+                <p class="w3-pale-blue">Last room</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png">
+                <p class="w3-pale-green">Ranged <i>Wound</i></p>
+                <p class="w3-pale-blue">Move, attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png">
+                <p class="w3-pale-green">Refresh stam pot</p>
+                <p class="w3-pale-red">Ground Aoe flying</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-qm-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png">
+                <p class="w3-pale-yellow">+1 Attack</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png">
+                <p class="w3-pale-blue">Ranged <i>Heal</i></p>
+                <p class="w3-pale-green">Attack boost</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png">
+                <p class="w3-pale-red">Rarely used</p>
+                <p class="w3-pale-green">Minor stam pot</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-pale-blue">Ranged attack</p>
+                <p class="w3-pale-green">Ranged attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, <i>Shield 2</i></p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bag-of-holding.png">
+                <p class="w3-pale-green"><i>Loot 3</i>, Move 2</p>
+                <p class="w3-pale-blue">Recover small item aura</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">We need the <i>Loot</i>.<p>Fortified Position would replace Cripppling Bow and Bag of Holding becomes the wildcard</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 9 hand -->
+      
+      <button id="level-openers" onclick="accClick('acc-9-openers')" class="w3-btn w3-block w3-left-align">Openers</button>
+      <div id="acc-9-openers" class="w3-container w3-hide">
+        <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <header class="w3-light-grey"><p>Basic Strategy</p></header>
+  
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-side-pouch.png"/>
+                <div class="w3-container" style="width: 250px">Move into position and get off our ranged attack</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-sharpening-kit.png"/>
+                <div class="w3-container" style="width: 250px">Boost our biggest AoE attack, drawing lots of AMD cards with our goggles</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-reforge.png"/>
+                <div class="w3-container" style="width: 250px">Recover a couple of our ranged attack cards</div>
+              </div>
+    
+              <div class="w3-container w3-cell w3-center">
+                <img class="card-small" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"/>
+                <p></p>
+                <img class="card-small" src="images/character-ability-cards/qm/gh-crippling-bow.png"/>
+                <div class="w3-container" style="width: 250px">Recover a stam pot, which we use to immediately get back this card and Reforge</div>
+              </div>
+    
+              <footer class="w3-light-grey"><p>We are now into our groove with this build having some good ranged attacks that we are happy to keep repeating, dropping into the SoR round if we don't draw one of our item recovery perks to get a stam pot back in the first few rounds. If we do get the free stam pot via our AMD we could use Crippling Bow top and Fortified Position bottom instead of SoR, remembering that we want either a stam pot or SoR at all times.</p></footer>
+            </div>
+          </div>
+  
+        </div>
+      </div> <!-- openers -->
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-cleaving-axe.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-crippling-bow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-crushing-hammer.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-hastened-step.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-impaling-spear.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-iron-bulwark.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-oversized-pack.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-proficiency.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-reserved-energy.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-restock.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-recall.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-sharpening-kit.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-scroll-of-lightning.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reforge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-reinforced-steel.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-catastrophic-bomb.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-side-pouch.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/qm/gh-fortified-position.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/qm/gh-bag-of-holding.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-reserved-energy.png"></td><td>bottom</td><td><i>Jump</i></td><td>We never get a natural <i>Jump</i> and we keep this card for a while</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-bladed-boomerang.png"></td><td>top</td><td>+1 Attack</td><td>We use this attack through to the end</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/qm/gh-side-pouch.png"></td><td>bottom</td><td><i>Jump</i></td><td>We swap Reserved Energy for this so transfer the enchantment</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey">We are looking to maximise the number of item refresh cards we pick and we expect to have <i>Advantage</i> on every attack so we don't actually want to be drawing cards that are better than +0 as those would take precedence, rolling modifiers are Ok with the new rules.<p>Notice we don't take the heavy armour perk as it adds +1 cards which we don't want.</p></div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Artifice</td><td>Add +0 refresh item</td></tr>
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Dust</td><td>Remove 4x +0</td></tr>
+      <tr><td width="250px">Bludgeon</td><td>Add rolling <i>Stun</i></td></tr>
+      <tr><td width="250px">Sweep</td><td>Add rolling add target</td></tr>
+      <tr><td width="250px">Technique</td><td>Add 2x rolling +1</td></tr>
+      <tr><td width="250px">Confuse</td><td>Add 3x rolling <i>Muddle</i></td></tr>
+      <tr><td width="250px">Stab</td><td>Add 2x rolling <i>Pierce 3</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey">The Quartermaster likes lots of items as he can refresh them with his AMD, but there are some key ones that we will always want</div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-006-eagle-eye-goggles.png">
+          <p class="w3-container">1</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-016-cloak-of-pockets.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container">2</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container">3</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-033-volatile-bomb.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-014-minor-power-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Recovery based on Badloss build (<a href="https://www.reddit.com/r/Gloomhaven/comments/8qu9jf/a_different_take_on_the_three_spears_three_spears/">https://www.reddit.com/r/Gloomhaven/comments/8qu9jf/a_different_take_on_the_three_spears_three_spears/</a>)</div>
+</footer>
+
+</body>
+</html>
+  

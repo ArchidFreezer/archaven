@@ -8,7 +8,8 @@ def html_create(jclass):
   id=jmespath.search('id', jclass)
   name=jmespath.search('label', jclass)
   label=name.lower().replace(" ", "-")
-  dlines=jmespath.search('description', jclass)
+  olines=jmespath.search('overview', jclass)
+  jdescription=jmespath.search('description', jclass)
   
   jclasscards=jmespath.search(f"cards[?classid=='{id}']", jcards)
   
@@ -43,11 +44,23 @@ def html_create(jclass):
 
   <div class="w3-container">''')
   
-  if not dlines is None and len(dlines) > 0:
-    for line in dlines:
+  if not olines is None and len(olines) > 0:
+    for line in olines:
       hf.write(f'''
     <p>{line}</p>''')
   
+  if not jdescription is None and len(jdescription) > 0:
+    for heading in jdescription:
+      hlevel=jmespath.search('headinglevel', heading)
+      htext=jmespath.search('headingtext', heading)
+      hf.write(f'''
+    <h{hlevel} class="w3-light-grey">{htext}</h{hlevel}>''')
+      hcontarr=jmespath.search('content', heading)
+      if not hcontarr is None and len(hcontarr) > 0:
+        for hcont in hcontarr:
+          hf.write(f'''
+      <div class="w3-container">{hcont}</div>''')
+
   hf.write(f'''
     <h3 class="w3-light-grey">Cards</h3>
     <div class="w3-flex" style="gap:4px;flex-wrap:wrap">

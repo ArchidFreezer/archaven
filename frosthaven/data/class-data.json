@@ -3,7 +3,7 @@
 		{
 			"id": "bb",
 			"label": "Blinkblade",
-			"description": [
+			"overview": [
 				"The Blinkblade is a mid-health tactical damage dealer who must choose ‘Fast’ or ‘Slow’ for all of its turns, with attendant bonuses and penalties. ‘Fast’ turns cost a Time Token, and ‘Slow’ turns gain a Time Token, up to 2. Some Blinkblade abilities cost or gain Time Tokens beyond this ‘Fast’ and ‘Slow’ usage. Time Tokens above 2 can NEVER be gained by taking a ‘Slow’ turn, only by other effects. Aside from this, Blinkblades have some minor support options and one of the best movement ability sets we’ve ever seen to ensure they can fight surgically, duck in and out of combat, and accomplish movement-based objectives with ease.",
 				"Central to the Blinkblade experience is that you need to fit ‘Slow’ turns in among your powerful ‘Fast’ turns. Use only the initiative and associated ‘Fast’ or ‘Slow’ bonuses on the cards for ‘Fast’ or ‘Slow’ (unless prompted otherwise). (‘Fast’ is left/green, ‘Slow’ is right/yellow).  Unless your ability cards or Attack Modifier Deck (your attack cards with +2, -2, etc) grant you a Time Token, you must perform a ‘Slow’ turn to generate a time counter for every ‘Fast’ turn you want to play. Because your ‘Slow’ turns tend to have worse bonuses, maximizing Blinkblade’s output is about figuring out how to get the most out of your ‘Slow’ turns while also putting yourself in position to “turn it up to 11” and go all-out when you can take your 'Fast' turns.",
 				"The Blinkblade’s primary role in a party is to focus down and eliminate the right enemies at the right times, using their superior movement and initiative weaving to engage the most effective enemies each round. It’s also important to be sure your superior movement keeps you out of harm’s way, carefully selecting exactly how many hits you take during 'Fast' turns so that you aren’t in too much danger when you’re stuck taking 'Slow' turns or your self-sustain and Regenerate options can keep your health in fighting shape."
@@ -70,7 +70,7 @@
 		{
 			"id": "bn",
 			"label": "Banner Spear",
-			"description": [
+			"overview": [
 				"The Banner Spear can fill a variety of different roles depending on the party: she can be a tank, a ranged support/damage-dealer, or a melee fighter specialized in dealing damage in an area. Her unique mechanic is that she has some Area of Effect (AoE) abilities with blue hexes in the targetter - these blue hexes require an ally in order for her to perform the ability."
 			],
 			"handsize": "10",
@@ -130,7 +130,7 @@
 		{
 			"id": "bo",
 			"label": "Boneshaper",
-			"description": [
+			"overview": [
 				"The Boneshaper is a low-health summoner/support class. She has access to a variety of different summons but notably non-loss summons. Playing around non-loss summons allows her to protect herself from the biggest issue with summoner classes - when something goes wrong, you become useless afterwards. As with any summoner class, she still requires a reasonable familiarity with monster AI.",
 				"The Boneshaper can fit well into any party because her variety of summon-based builds allow her to function as a sort of tank, damage-dealer, or support. She has natural synergy with any effects that affect all allies (like a Bannerspear's Banner of Strength). But beyond that, playing an effective Boneshaper in your party will just involve needing to understand your party's strengths, weaknesses, and natural play patterns."
 			],
@@ -191,7 +191,7 @@
 		{
 			"id": "cr",
 			"label": "Crashing Tide",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "12"
@@ -199,7 +199,7 @@
 		{
 			"id": "df",
 			"label": "Drifter",
-			"description": [
+			"overview": [
 				"The Drifter has a 12 card hand and a high (10hp at level 1) health pool, which allows the player to spend some of their resources without worrying about shortening their stamina or effective 'lifespan' too much.  The Drifter is based around the concept of versatility, sporting a single main mechanic and utilizing no elements whatsoever.",
 				"The Drifter's only mechanic is the 'use slots', or persistent abilities. The best part is that all of the core cards to change playstyles are found at Level 1/X, which means that you are flexible even between scenarios. Given the hand size you can expect to be able to two at a minimum of often 3 of these cards."
 			],
@@ -275,7 +275,7 @@
 		{
 			"id": "dt",
 			"label": "Deepwraith",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "10"
@@ -283,7 +283,7 @@
 		{
 			"id": "dw",
 			"label": "Deathwalker",
-			"description": [
+			"overview": [
 				"No group is quite so ill-suited for the icy northern climates as the Valrath, who make their homes far to the south around the Red Desert. There was once a great war in that region between the Valraths and the humans, both equally interested in conquering the Stormbrew Plains for themselves. The two nations have since made peace, and the Valrath government in particular has made concerted efforts to forsake its aggressive past. In more recent times, they have focused on economic strength over the physical.",
 				"There is a saying among the Valrath: 'In order to survive the ice, one must have an icy soul.' This is apt for a Deathwalker, a nomad bent on atoning for the Valrath nation's past sins by ensuring the souls of the dead find rest. Wherever great tragedy falls, a Deathwalker is usually not far behind, and Frosthaven has seen plenty of tragedy."
 			],
@@ -349,7 +349,7 @@
 		{
 			"id": "ff",
 			"label": "Frozen Fist",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "8"
@@ -357,7 +357,7 @@
 		{
 			"id": "ge",
 			"label": "Geminate",
-			"description": [
+			"overview": [
 				"The Geminate is a class that has two distinct hands: melee and ranged, only one of which may be in play at any one time. This means that if you need to lose a card to avoid damage you can only lose a card from the hand that is in play at the time. There is however a single discard pile so resting brings back cards from both hands.",
 				"Given the nature of the cards and the variance in their actions there is no single deck that will be used at each level. The deck needs to be tailored for each scenario, this is common for several classes but particularly pronounced for the Geminate. There are some basic principles that should be followed<ul><li>You always need to have 7 cards in each hand at the start of a scenario</li><li>You should have at least a couple of form switching actions in each hand</li><li>On levelling up try and balance the cards you take so you don't become too lopsided</li><li>You have a very large hand size so burning cards is expected and most xp is attached to burns so don't horde these cards</li></ul>",
 				"In general the two halves of your nature have the following characteristics over and above the shared damage/movement actions<ul><li>Melee - Uses <em>Ice</em> & <em>Light</em><br>Has tanking actions</li><li>Ranged - Uses <em>Fire</em> & <em>Light</em><br>Has support actions</li></ul>"
@@ -429,7 +429,7 @@
 		{
 			"id": "hv",
 			"label": "Hive",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "11"
@@ -437,7 +437,7 @@
 		{
 			"id": "if",
 			"label": "Infuser",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "11"
@@ -445,7 +445,7 @@
 		{
 			"id": "me",
 			"label": "Metal Mosaic",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "9"
@@ -453,7 +453,7 @@
 		{
 			"id": "pc",
 			"label": "Pain Conduit",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "10"
@@ -461,7 +461,7 @@
 		{
 			"id": "py",
 			"label": "Pyroclast",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "10"
@@ -469,7 +469,7 @@
 		{
 			"id": "sd",
 			"label": "Snowdancer",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "11"
@@ -477,7 +477,7 @@
 		{
 			"id": "sh",
 			"label": "Shattersong",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "10"
@@ -485,7 +485,7 @@
 		{
 			"id": "ta",
 			"label": "Trapper",
-			"description": [
+			"overview": [
 				""
 			],
 			"handsize": "9"

@@ -25,6 +25,16 @@ def write_build_file(fh):
 					""
 				]
 			},
+			"description": [
+			  {
+					"headinglevel": x,
+					"headingtext": "",
+					"content": [
+					  "",
+						""
+					]
+				}
+			],
 			"cards": [
 				{
 					"id": "cardid",

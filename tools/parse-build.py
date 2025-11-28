@@ -38,8 +38,9 @@ def html_overview():
   ''')
 
   paras=jmespath.search("overview.body[]", jbuild)
-  for para in paras:
-    hf.write(f''' <p>{para}</p>''')
+  if not paras is None and len(paras) > 0:
+    for para in paras:
+      hf.write(f''' <p>{para}</p>''')
   
   paras=jmespath.search("overview.benefits[]", jbuild)
   if not paras is None and len(paras) > 0:
@@ -72,6 +73,30 @@ def html_overview():
   hf.write('''
   </div> <!-- overview -->
   ''')
+
+def html_description():
+  jdescription=jmespath.search('description', jbuild)
+  if not jdescription is None and len(jdescription) > 0:
+    hf.write('''
+    <!-- Description -->
+    <button id="description" onclick="accClick('acc-description')" class="w3-btn w3-block w3-left-align"><h2>Description</h2></button>
+    <div id="acc-description" class="w3-container w3-hide">
+    ''')
+
+    for jheading in jdescription:
+      hlevel=jmespath.search('headinglevel', jheading)
+      htext=jmespath.search('headingtext', jheading)
+      hf.write(f'''
+    <h{hlevel} class="w3-light-grey">{htext}</h{hlevel}>''')
+      hcontarr=jmespath.search('content', jheading)
+      if not hcontarr is None and len(hcontarr) > 0:
+        for hcont in hcontarr:
+          hf.write(f'''
+      <div class="w3-container">{hcont}</div>''')
+
+    hf.write('''
+    </div> <!-- description -->
+    ''')
 
 def html_build_decks():
   hf.write('''
@@ -591,6 +616,7 @@ for buildid in buildids:
   
   html_header(buildname)
   html_overview()
+  html_description()
   html_build_decks()
   html_enhancements()
   html_perks()

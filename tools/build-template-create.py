@@ -152,6 +152,16 @@ def write_template_file(fh):
 					""
 				]
 			},
+			"description": [
+			  {
+					"headinglevel": x,
+					"headingtext": "",
+					"content": [
+					  "",
+						""
+					]
+				}
+			],
 			"openers": [
 				{
 					"label": "",

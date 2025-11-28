@@ -43,8 +43,9 @@ def html_create(jclass):
 
   <div class="w3-container">''')
   
-  for line in dlines:
-    hf.write(f'''
+  if not dlines is None and len(dlines) > 0:
+    for line in dlines:
+      hf.write(f'''
     <p>{line}</p>''')
   
   hf.write(f'''

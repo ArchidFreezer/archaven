@@ -31,6 +31,10 @@ def html_header(build):
   ''')
 
 def html_overview():
+  overview=jmespath.search("overview", jbuild)
+  if overview is None:
+    return
+  
   hf.write('''
   <!-- Overview -->
   <button id="overview" onclick="accClick('acc-overview')" class="w3-btn w3-block w3-left-align"><h2>Overview</h2></button>

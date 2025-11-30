@@ -39922,6 +39922,1747 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "ti-damage",
+			"classid": "ti",
+			"build": "Damage",
+			"orig_author": "Gripeaway",
+			"orig_url": "https://imgur.com/a/KMqqE",
+			"description": [
+			  {
+					"headinglevel": 2,
+					"headingtext": "Overview",
+					"content": [
+					  "The Tinkerer is the support class of the starting 6. The Cragheart can also be somewhat of a support but the Tinkerer is the one true support option you start with. She has great healing and a medium-sized health pool. What she lacks, mostly, is damage. She has a number of attacks, some of which are quite decent, although many times they're good because of status effects rather than the damage they deal (further solidifying her role as a support). Her few really good damage attacks are all losses and unlike the Spellweaver, she can't reuse them. Unlike any other of the starting classes, however, she has a hand size of 12, which is enormous and both gives her a ton of longevity as well as the flexibility to use more loss cards than most other classes. She typically plays from ranged, as she has little benefit from getting into melee range, but a reasonable health pool and a huge hand size means she can risk getting up close and taking a few hits if absolutely necessary.",
+						"<p>There are really two paths to take with the Tinkerer when you level her up: focusing on healing or focusing on damage-dealing. This guide will be for the damage build that is better for 3p group as the group may still need some support and the Tinkerer will bring just the right amount by focusing on the damage build. With the healing build, you may find yourself lacking damage when your group needs it more than healing.</p>"
+					]
+				}
+			],
+			"cards": [
+				{
+					"id": "energizingtonic",
+					"top": "Adjacent heal; we are not going to be going into melee range so nothing to see here even though the strengthen is a nice bonus in round one.",
+					"bottom": "Big move loss. We don't really need big moves to get in the faces of enemies as a support.",
+					"overall": "Energizing Tonic... The initiative is the only good thing about this card. The top is a reasonable heal with strengthen, but we aren't a class that has good melee attacks to use this on ourselves. The bottom loss is unnecessary. Don't play this card."
+				},
+				{
+					"id": "enhancementfield",
+					"top": "The top is your standard level 1, attack 3, range 3, which will make it something you want to use often in order to help finish enemies off.",
+					"bottom": "The bottom is also pretty useful. At the very worst it can add 1 attack to your ranged attacks when you don't need to move, and if you have other ranged allies or occasionally melee allies, it can add to their attacks as well. While it doesn't always do a lot, it will consistently add 1-2 attack, and sometimes more, making it a valuable bottom action.",
+					"overall": "Enhancement Field is one of your hard-working staple attack cards.<p>The only shame is the bad initiative, which does mean it needs to be paired with a faster card (conveniently Toxic Bolt is perfect here) in order to get the buff up before your allies go.</p>"
+				},
+				{
+					"id": "flamethrower",
+					"top": "Flamethrower has the highest damage potential of your level 1 loss attacks. Wound is usually at least 1 damage meaning this is effectively at least attack 4 on each target, making it higher damage than Ink Bomb. It's worse, however, because it requires you to get into melee range to use it. That's worse not just because it can open you up to damage, but also because it limits your options for a bottom action, normally requiring a move.",
+					"bottom": "At the same time, the bottom of this card is much worse than the other 2 loss AoE attacks as it's much less frequently useful. There are times it can be used, but it's situational.",
+					"overall": "The first level 1 AoE loss attack we'll look at for the Tinkerer, Flamethrower.<p>This card has both a situational top and bottom. Obviously the high upside of Flamethrower still makes this not terrible, but it's far below the other two much better overall AoE cards we have.</p>"
+				},
+				{
+					"id": "harmlesscontraption",
+					"top": "If your group lacks a solid tank, there will be plenty of times when you'll want to bring out this summon to absorb some damage for a fight or two.",
+					"bottom": "I wouldn't overly fixate on the top though because the bottom is the best part of this card.<p>If bottom attacks are good for damage-dealers, bottom heals are just about as good for a healer. There are plenty of times when you won't need to move or will really need to heal and having a bottom heal action is great. 3 range makes it easy to not have to worry about not being able to move. You'll also be able to use this to remove poison and land a bigger top heal.</p>",
+					"overall": "Harmless Contraption is both a good and funny card. I love the summon flavour-wise, although mechanically it's pretty mediocre, the shield does provide a bit of longevity for it.<p>The only real downside of this card is the bad initiative, which is risky on a heal, but you'll just need to pair it with something faster, of which you have plenty.</p>"
+				},
+				{
+					"id": "hookgun",
+					"top": "A top Move and Loot is situational, but something we can always use. That small enhancement dot next to the Move is very interesting as well as a top move 2 is very nice when moving between rooms given that we are usually towards the back of rooms.",
+					"bottom": "Bottom attacks are always useful and this can be used to ground a flying enemy and then potentially pull them into a trap. The damage is fairly low.",
+					"overall": "Hook Gun has a situational top on a spammable bottom which is a combination we can get behind. Both sides are fairly average, but combined we can make use of them."
+				},
+				{
+					"id": "inkbomb",
+					"top": "The top loss will normally be able to target 2 enemies, making it an attack 8, 1 behind Fire Orbs. Still, being 1 attack behind the best level 1 Spellweaver loss isn't such a terrible place to be.<p>There will occasionally be situations where you can hit 3 enemies with this, at which point it's insane attack for a level 1 card. Creating a dark doesn't really matter much but is just a small added bonus (and occasionally negative).</p>",
+					"bottom": "The bottom is the move 4 we LOVE to see on a good top loss. Now we'll have access to a great move card up until the point we find the right moment to use our loss attack.",
+					"overall": "Ink Bomb, a good big loss attacks the Tinkerer has access to.<p>Everything about this card is amazing except the initiative, which is the only thing holding it back.</p>"
+				},
+				{
+					"id": "netshooter",
+					"top": "It loses 1 attack on each target to immobilize. Obviously, power-wise, that's an upgrade, although it does add a situational effect rather than a generically-useful effect like attack. This loss attack therefore lends itself more towards supporting and less towards damage-dealing, as you'll prioritize using it when the immobilize matters in order to stop incoming damage. It's still an excellent loss attack.",
+					"bottom": "The bottom move is also powerful, if also again not as generically-useful as just a move 4. Still, there will be plenty of situations when the immobilize the move will stop an enemy from dealing damage for a round, which makes this great.",
+					"overall": "Ink Bomb, a good big loss attacks the Tinkerer has access to.<p>Everything about this card is amazing except the initiative, which is the only thing holding it back.</p>"
+				},
+				{
+					"id": "potentpotables",
+					"top": "The top is no better than a loss attack for the damage build.<p>The top loss has positives and negatives. The negatives are that you can't control when this triggers so you need to be careful with your healing plans afterwards to not accidentally waste charges on overhealing (you really need to get at least 8 healing out of this to make it worthwhile).</p><p>The positive is that you can combine this with AoE heals and since it's 'next four Heal actions', it will affect the entire action for only one charge. At level 1 this would be your move 2 heal 1 to all adjacent allies, turning it into a heal 3 on multiple targets. Not the easiest to pull off with a move 2, but it is doable and even just healing 2 people for 3 with that is great value. Boots that add movement can also help with this combo if you're going for the healing build.</p>",
+					"bottom": "The bottom is a move 3, which is, as always, neither great nor terrible. Still, it's something we can spam while we wait for the right moment to set up the top loss.",
+					"overall": "A pretty average card for a damage build, not giving us much we need. 46 initiative is also very average."
+				},
+				{
+					"id": "proximitymine",
+					"top": "The top is fairly terrible. The funny thing is that this might be good against enemies with high shield as a source of direct damage but most enemies with high shield actually fly, making this truly useless unless you use one of your grounding cards.",
+					"bottom": "Fortunately, the bottom is a move 4, and we'll need some of those, so we may end up using this regardless.",
+					"overall": "Proximity Mine - oh yay, another trap.<p>The top has a synergy with Hook Gun bottom as we can ground a flying enemy and pull them into a trap. The problem is that both these card have bad initiatives so we will likely be going after the enemy has attacked which is not good.</p>"
+				},
+				{
+					"id": "reinvigoratingelixir",
+					"top": "The top action is fine, heal 3 range 3 is what a standard good heal should look like at level 1.",
+					"bottom": "The bottom loss, on the other hand, is more interesting.<p>It's reasonably-powerful, although not great. The biggest problem is that the card has a greater effect the sooner you use it, but the sooner you use it will also have a more painful effect on your longevity. Still, there can be a happy medium and some classes with small hand sizes (like the Scoundrel) can really benefit.</p><p>Conveniently, the Scoundrel has 9 cards, which means that whether you use this her first time or her second time through his deck, it will give her the same number of extra turns. So we can use this on round 4 or 8, which gives us more flexibility while still retaining the maximum effect from the loss.</p>",
+					"overall": "Reinvigorating Elixir, the first of the Tinkerer's many healing cards we'll see. This is just an overall average card that you'll be neither happy or unhappy to have.<p>And that brings us back to this card, which thus becomes a good loss card by having a (mostly) spammable half as we can expect someone to be taking some damage between rests.</p><p>The card also has decent initiative.</p>"
+				},
+				{
+					"id": "restorativemist",
+					"top": "Heal 3 range 3 is a standard heal on top and welcome.",
+					"bottom": "Move 2, heal 1 affect all adjacent allies is also a good bottom. Combines well, as mentioned, with your loss healing buff. Also removes poison effectively, allowing you to do this bottom and a heal on top that will actually get through.<p>Otherwise, it's just a small amount of free healing on top of a move action for rooms where you don't need to move much.</p>",
+					"overall": "Restorative Mist is to healing what Enhancement Field is to attacking.<p>And on top of all of this, it has great initiative. One of your best cards, by far.</p>"
+				},
+				{
+					"id": "revivingshock",
+					"top": "The top is a bit ahead of the curve for an average attack card at level 1, normally we'd expect 3 attack but this one will give us 4 attack if we can find 2 targets within range 3. Not terribly difficult to do, although it's much worse against shield, even small shield on enemies like guards or skeletons. Still, the upside is usually going to be worth it at early levels.",
+					"bottom": "The bottom is much worse. A non-loss heal is heal 3 range 3 at level 1 and this is effectively 1 number higher (although 2 healing higher) for a loss. It is a bottom heal though, and sometimes a big heal now is what you need and the 4 range should let you get it to where it is needed most. Still, while it's always good to have the option, it's quite rare that you'll find yourself needing or wanting to use this loss.",
+					"overall": "Reviving Shock is another pretty good card.<p>The initiative is fine if not excellent.</p>"
+				},
+				{
+					"id": "stunshot",
+					"top": "The top is another support attack, not really dealing any damage but being able to stun an important target. Having 20 initiative means you'll usually be able to stun the enemy.",
+					"bottom": "The bottom is a move 4, which is always good.",
+					"overall": "A good top and a good bottom with good initiative makes a great card.<p>Also, as an early enhancement suggestion, consider adding wound to this card. Wound has great synergy with stun, effectively adding a minimum of 2 damage and also making this card a good answer to high shield, low hp enemies.</p>"
+				},
+				{
+					"id": "toxicbolt",
+					"top": "Attack 2 range 3 poison is great for a level 1 card. It will be worse than attack 3 about 1/3 of the times and better 2/3 of the time, meaning this is ahead of the curve for a level 1 card. And it creates an earth, which isn't important for you but can help a fellow Cragheart or Spellweaver.",
+					"bottom": "The bottom attack is rarely worth using as a loss but there may be occasions when it will let you finish off a tough enemy, summoner, or boss and you'll use it. The fact that the top is so good means you'll always have the option around and pay nothing for it.",
+					"overall": "Now Toxic Bolt is a card! Great top, good initiative and a nice situational bottom."
+				},
+				{
+					"id": "volatileconcoction",
+					"top": "op actions that create traps aren't really very good at all. You have to do a fair amount of work to just do 2 damage and poison, which is a lot worse than just attacking for the same effect. Obviously there are some tricks you can do with traps to abuse enemy AI but situations where it's worth it are pretty rare and thus it's not really worth considering playing this half of this card.",
+					"bottom": "Meanwhile, the bottom is not much better. At its base we trade an action and a card for a card for someone else and we have a short range restriction in order to even get to make this bad trade. 'Filler' (for situations where you're not actively fighting) actions like this on bottom are also rarely useful because we can usually just make filler moves to pick up loot. So we need someone who makes ice but doesn't use it, which isn't normally a thing, and even then we get an action that's barely worth it.",
+					"overall": "Well, Volatile Concoction is a terrible card. Let's just forget this card exists, we won't be missing anything."
+				},
+				{
+					"id": "staminabooster",
+					"top": "Heal 4 range 3 is 33% above the curve for level 1 as a level 2 card, so that's great. Even if we're focusing on damage, part of the strength of this class is its healing and this is a good one.",
+					"bottom": "The bottom is the same as a powered up Volatile Concoction without the need for an element.",
+					"overall": "Stamina Booster is a good card."
+				},
+				{
+					"id": "disorientingflash",
+					"top": "For the top, obviously stunning 3 enemies is good, but is it worth a loss? Probably not. Compare this to our level 1 stun card: stunning 3 enemies and doing no damage for a loss versus stunning 1 enemy and doing 1 damage (1 damage is significant as well because we can still flip modifiers, meaning it will end up being even better) for a non-loss. Yeah, this isn't an improvement on that card. Obviously there may be occasions where it's worth it to stun 3 enemies, but rarely.",
+					"bottom": "The bottom is also pretty underwhelming - most of the time it will be worse than our immobilize move 2 for the same sorts of situations. And we don't really want to make it better because that would require letting multiple enemies get close to us and then still make attacks next round as well, which seems terrible.",
+					"overall": "Disorienting Flash is much worse."
+				},
+				{
+					"id": "tinkererstools",
+					"top": "The top is just to disarm traps but 90% of the time it's better to use traps to your advantage rather than disarm them. I would say that maybe on 1/5 scenarios there will be one point on the map where the route you must go is blocked by traps and you need to deal with 1 in order to continue. Still, you'd rather push an enemy into one and realistically, you'll be better-off just triggering it with your feet on that rare occasion rather than having this card normally.",
+					"bottom": "The bottom is slightly more interesting even if it's not a good effect just because it can mess with enemy AI but it's still really weak.",
+					"overall": "Tinkerer's Tools is just not a good card. Neither half is good."
+				},
+				{
+					"id": "crankbow",
+					"top": "This loss effect is going to be worse than Ink Bomb, Net Shooter, and Flamethrower about 80-90% of the time, so we won't necessarily have the freedom to use this. Still, it is good on boss fights and there may be a few other occasions.",
+					"bottom": "The better part of this card is the bottom. Even though move 4 isn't exciting they are on the bottom of our burners and we tend to lose them, so having more is useful.",
+					"overall": "Crank Bow is a pretty cool top but still not very good."
+				},
+				{
+					"id": "dangerouscontraption",
+					"top": "The top summon is okay at level 4 - it's not a ranged summon, which is ideal, but it's got good stats for a melee summon at this level. It will absorb something like 6-8 damage and probably make 1-3 attacks for 2. That's definitely an effective loss at lower levels.",
+					"bottom": "On the bottom, another move 4 until we want to summon this contraption, which is great.",
+					"overall": "Dangerous Contraption is quite fine."
+				},
+				{
+					"id": "microbots",
+					"top": "We already have enough heals we don't need another loss.",
+					"bottom": "The Loot can be thought of as a bonus on the Move, note the extra dot on the move.",
+					"overall": "We don't have a Loot card we are using and having one attached to a Move at least makes it spammable."
+				},
+				{
+					"id": "noxiousvials",
+					"top": "The top is a reasonable effect that can be powerful enough (especially with certain items) to make it worth not attacking or healing. That being said, it is still situational.",
+					"bottom": "The bottom is a powerful loss AoE attack that can definitely be worth using, but is also situational.",
+					"overall": "Noxious Vials is a good card.<p>So this card has two powerful but situational effects, which is not ideal but the effects can be powerful enough that it may be worth bringing.</p>"
+				},
+				{
+					"id": "disintegrationbeam",
+					"top": "The top is a crazy effect (not necessarily because it's that powerful but it just does a crazy sort of thing). It is, though, a very powerful and very situational effect. Just over 1/4 of regular enemies in the game will be able to be killed undamaged with this. Some scenarios there won't be any and some scenarios there will be a lot. On scenarios where this card is good, it can single-handedly win you the scenario. It is an amazing answer to all those little annoying enemies with high shield and low hp. And it can still work on other scenarios some of the time when your allies damage enemies.",
+					"bottom": "Disarm on a non-loss move is sooooo good. Disarm is functionally stun against a large portion of the enemies in the game, and getting a free disable on a bottom where you still get to move is amazing. With this plus your stun attack you can remove 2 enemies from attacking for a round. I cannot possibly overemphasize just how good this effect is. You will also really appreciate having boots that give movement with this card.",
+					"overall": "Disintegration Beam is a really good card.<p>The great thing about this card, though, is that while the top is situational, the bottom is pretty much always amazing.</p>"
+				},
+				{
+					"id": "autoturret",
+					"top": "Everybody loves dropping down turrets, and here you get to drop one directly onto the payload, which we all know is the best place for it. 10 attack, split over 5 turns, targeted however you want is great. The only downside is, of course, that you really want to be sure you have a target for at least 4 of the next 5 turns, or this gets pretty bad. Fortunately, with range 5, and in the types of fights/scenarios where the Tinkerer is typically good, you shouldn't have a problem.",
+					"bottom": "Meanwhile, until you find that spot, this gives you a very solid heal 3 range 4 on bottom. The Tinkerer is a wealth of good bottom actions, but it never hurts to add another.",
+					"overall": "Level 6 gives us my absolute favourite Tinkerer card - Auto Turret. This card has the benefit of being both powerful and cool.<p>The reasonable initiative tops this card off.</p>"
+				},
+				{
+					"id": "gascannister",
+					"top": "Creating traps is generally terrible, and the payoff isn't even remotely there on this trap.",
+					"bottom": "A loss action to recover up to 4 discarded cards for allies... yuck",
+					"overall": "Gas Canister, on the other hand, is really bad."
+				},
+				{
+					"id": "curativeaerosol",
+					"top": "The top half is pretty good, giving you a lot of value for a non-loss with move 4 and heal 4 on top. The multiple small heals are also great at getting rid of Poison or Wound (Wound is very uncommon though, but Poison is quite common) on multiple allies/yourself. Heal 4 total on top by level 7, however, still just isn't that great, so for this card to be worthwhile you really want to use the move 4 in order to be using a significant bottom action.",
+					"bottom": "Speaking of bottom actions, the bottom half of Curative Aerosol is just legitimately terrible for a loss action. You'd be best pretending this doesn't even exist, and adding an EXTREMELY situational bottom loss to a relatively situational top action just doesn't make for a great card at level 7.",
+					"overall": "Curative Aerosol is a tale of two halves.<p>The initiative is good however.</p>"
+				},
+				{
+					"id": "murderouscontraption",
+					"top": "Melee summons aren't very good in general, but the 2 shield and 9 hp means that is should survive a round or two at least.",
+					"bottom": "Fortunately, the bottom of this card is great. Attacks on bottom are always a nice option and this provides a very reasonable amount of damage for a level 7 non-loss attack.",
+					"overall": "Murderous Contraption continues the same dynamic set up by Curative Aerosol although flipped.<p>Sadly, the initiative on this card is terrible because of the summon, but that's just something we'll have to deal with.</p>"
+				},
+				{
+					"id": "harshstimulants",
+					"top": "The top attack is an upgrade on Crank Bow but we would only want to be using it on boss fights.",
+					"bottom": "The bottom is where this card gets interesting. If you have ranged allies who can take advantage of this buff with AoE attacks (like a Spellweaver), I would still take this card despite everything else just because of the enormous upside this card can have. If you don't, this card is pretty awful.",
+					"overall": "Harsh Stimulants is situationally very powerful but still not an overall great card."
+				},
+				{
+					"id": "jetpropulsion",
+					"top": "The top is for the 'summon build', which is of course not a real thing because all your summons are melee which is a pretty terrible thing to go all-in on. And this is far from enough to make the summons you are already using significantly better.",
+					"bottom": "Meanwhile, the bottom is a nice spammable effect. We don't have a Jump and this is a nice large one.",
+					"overall": "Jet Propulsion has a useless top but a good bottom that is let down by its poor initiative."
+				},
+				{
+					"id": "lethalinjection",
+					"top": "Top executes that can kill elites without any situational requirements are good, and the downside of it being a loss is obviously mitigated by our 12 card hand size. This is a very good loss which can absolutely swing a tough encounter easily in our party's favour.",
+					"bottom": "Meanwhile, on the bottom, is another solid move 4 with a very nice upside. We won't always take advantage of the upside, but it's very free on this card and when we do, it will certainly be welcome.",
+					"overall": "Lethal Injection is a very good card."
+				},
+				{
+					"id": "chimericformula",
+					"top": "Great for an ally that would can break the game by using lost cards repeatedly.",
+					"bottom": "This is different in the digital game where the player can only pick from their sideboard cards, not an allies cards.",
+					"overall": "Chimeric Formula, on the other hand, is a very difficult card to evaluate in a vacuum. Both the top and bottom are incredibly powerful effects that are 100% dependent on what classes you're playing with in order to determine what broken things you can potentially set up with them. It is 100% impossible for me to even scratch the surface on what this card can do in an enormous number of different possible party compositions."
+				}
+			],
+			"levels": [
+				{
+					"level": 1,
+					"handcomment": "",
+					"choices": [
+						{
+							"label": "Core",
+							"overview": "Here are our 'core' cards, our best starting cards that easily make our hand.",
+							"cards": [
+								{
+									"id": "inkbomb",
+									"comment": ""
+								},
+								{
+									"id": "netshooter",
+									"comment": ""
+								},
+								{
+									"id": "enhancementfield",
+									"comment": ""
+								},
+								{
+									"id": "restorativemist",
+									"comment": ""
+								},
+								{
+									"id": "stunshot",
+									"comment": ""
+								},
+								{
+									"id": "toxicbolt",
+									"comment": ""
+								},
+								{
+									"id": "reinvigoratingelixir",
+									"comment": ""
+								},
+								{
+									"id": "hookgun",
+									"comment": ""
+								},
+								{
+									"id": "revivingshock",
+									"comment": ""
+								},
+								{
+									"id": "harmlesscontraption",
+									"comment": ""
+								}
+							]
+						},
+						{
+							"label": "The Rest",
+							"overview": "These are our remaining card choices options which are significantly worse than the ones we already have. Flamethrower is fine but we already have 2 good loss attacks we want to use every scenario and thus adding another is doable but makes all 3 of them a bit worse. Potent Potables helps a lot with healing but is another loss. Proximity Mine has a bad top but a good bottom. Volatile Concoction and Energizing Tonic are just not good cards at all.",
+							"cards": [
+								{
+									"id": "flamethrower",
+									"comment": ""
+								},
+								{
+									"id": "potentpotables",
+									"comment": ""
+								},
+								{
+									"id": "energizingtonic",
+									"comment": ""
+								},
+								{
+									"id": "proximitymine",
+									"comment": ""
+								},
+								{
+									"id": "volatileconcoction",
+									"comment": ""
+								}
+							]
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingshock",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Oh shit! onlt",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "reinvigoratingelixir",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Play early (rnd 4/8)",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "restorativemist",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Remove <i>Poison</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harmlesscontraption",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "potentpotables",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamethrower",
+							"top": {
+								"text":"Situational Attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						}
+					]
+				},
+				{
+					"level": 2,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							},
+							"replace": "reinvigoratingelixir",
+							"comment": "Stamina Booster is the easy choice here, replacing Reinvigorating Elixir as a straight upgrade. We get one extra heal and a non-loss card recovery mechanic."
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingshock",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Oh shit! onlt",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "restorativemist",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Remove <i>Poison</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harmlesscontraption",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "potentpotables",
+							"top": {
+								"text":"Rarely used",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamethrower",
+							"top": {
+								"text":"Situational Attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						}
+					]
+				},
+				{
+					"level": 3,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							},
+							"replace": "potentpotables",
+							"comment": "Left without a great choice, we take Crank Bow, replacing Crank Bow. Quite simply, we're trying to limit the number of loss cards we have in order to make all of the ones we keep better. 3 losses is really the magic number (this shouldn't be surprising given that the lowest starting hand size is 9 and we have 12 cards) of losses we can use without really feeling it. So we'll like to stick right at 3-4 losses we really want to use and not more. If we keep too many cards because they have losses we want to use, we'll have all these options but not be able to use them all, making them all worse.<p>I should mention that there is commonly an exception to this: boss fights. Most boss fight scenarios are sprints rather than marathons and you can consider bringing more losses if you're doing a small-map boss fight scenario.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingshock",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Oh shit! onlt",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "restorativemist",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Remove <i>Poison</i>",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harmlesscontraption",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "flamethrower",
+							"top": {
+								"text":"Situational Attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						}
+					]
+				},
+				{
+					"level": 4,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "restorativemist",
+							"comment": "We are going for Micro Bots for the spammable loot. However if you have no tank in the party then you probably don't want to pass on Dangerous Contraption, replacing Restorative Mist. When going for the damage-focused support build, we really don't want more than 2 top heals anyway. We kept Mist around a while because it was just a better card than some of the others we were replacing, but now it's by far the worst of our 3 heals, so we can replace it with a better card."
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingshock",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Oh shit! onlt",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "flamethrower",
+							"top": {
+								"text":"Situational Attack",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 2",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harmlesscontraption",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "disintegrationbeam",
+							"top": {
+								"text":"Powerful execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "flamethrower",
+							"comment": "We take Disintegration Beam, one really good card over another card that is just a bit worse. For the damage build we can easily replace Flamethrower, our worst loss attack, with a new, more powerful loss attack which also has a much better bottom action."
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingshock",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Oh shit! onlt",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "disintegrationbeam",
+							"top": {
+								"text":"Powerful execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "harmlesscontraption",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 6,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "autoturret",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "harmlesscontraption",
+							"comment": "Easy choice replacing Harmless Contraption which was mostly there for the bottom heal action. But now we've got a strict +1/+1 upgrade on the bottom heal action to replace it with, so this is a very easy choice."
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "revivingshock",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Oh shit! onlt",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "disintegrationbeam",
+							"top": {
+								"text":"Powerful execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "autoturret",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 7,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "murderouscontraption",
+							"top": {
+								"text":"Situational",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"replace": "revivingshock",
+							"comment": "We take Murderous Contraption with the intention of almost never actually summoning the Contraption and instead just throwing it at people with the bottom action.<p>Murderous Contraption replaces Reviving Shock. Reviving Shock was just there for the top attack, which is certainly still fine, but something has to go and multiple target 2 attacks by level 7 are just unimpressive. Enhancement Field is still a bit better because it has a real top and bottom and an attack 3 is 50% more likely to finish off a single enemy (a bit less with modifiers but still) which is typically more important than damaging two enemies a bit. Hook Gun would also be a candidate, but that top move is still nice and the bottom is still effective against flying enemies.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "disintegrationbeam",
+							"top": {
+								"text":"Powerful execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "murderouscontraption",
+							"top": {
+								"text":"Situational",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "autoturret",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "netshooter",
+							"top": {
+								"text":"Ranged <i>Immoboilize</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Fast Move 2",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 8,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "jetpropulsion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "netshooter",
+							"comment": "We will take Jet Propulsion for the big jump but not overly excited about it at level 8.<p>Jet Propulsion replaces Net Shower which was only really in there for the early move but we have a few of those now and the big jump is better.</p>"
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "disintegrationbeam",
+							"top": {
+								"text":"Powerful execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "murderouscontraption",
+							"top": {
+								"text":"Situational",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "autoturret",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "jetpropulsion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "crankbow",
+							"top": {
+								"text":"Boss fights",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"handcomment": "",
+					"picks": [
+						{
+							"card": "lethalinjection",
+							"top": {
+								"text":"Elite execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Poison</i>",
+								"style": "w3-pale-green"
+							},
+							"replace": "crankbow",
+							"comment": "We take Lethal Injection just because I don't know what you're working with and the digital version is less game breaking on the bottom. We replace Crank Bow as this is a fairly straight upgrade, removing any enhancements. Microbots is an alternative if you want to keep the ranged attack over the ranged heal."
+						}
+					],
+					"hand": [
+						{
+							"card": "enhancementfield",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Rarely used",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "inkbomb",
+							"top": {
+								"text":"Good loss attack",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "toxicbolt",
+							"top": {
+								"text":"Ranged Attack",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Finisher only",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "stunshot",
+							"top": {
+								"text":"Ranged <i>Stun</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Fast Move 4",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "staminabooster",
+							"top": {
+								"text":"Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							},
+							"bottom": {
+								"text": "Free stam pot",
+								"style": "w3-pale-blue"
+							}
+						},
+						{
+							"card": "disintegrationbeam",
+							"top": {
+								"text":"Powerful execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move, <i>Disarm</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "murderouscontraption",
+							"top": {
+								"text":"Situational",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "autoturret",
+							"top": {
+								"text":"Ranged summon",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged <i>Heal</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "jetpropulsion",
+							"top": {
+								"text":"Never used",
+								"style": "w3-pale-red"
+							},
+							"bottom": {
+								"text": "Move 6, <i>Jump</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "hookgun",
+							"top": {
+								"text":"Between rooms",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Ranged Attack",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "lethalinjection",
+							"top": {
+								"text":"Elite execute",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 4, <i>Poison</i>",
+								"style": "w3-pale-green"
+							}
+						},
+						{
+							"card": "microbots",
+							"top": {
+								"text":"Oh shit <i>Heal</i>",
+								"style": "w3-pale-blue"
+							},
+							"bottom": {
+								"text": "Move 3, <i>Loot</i>",
+								"style": "w3-pale-green"
+							}
+						}
+					]
+				}
+			],
+			"enhancements": [
+				{
+					"card": "stunshot",
+					"position": "top",
+					"enhancement": "<i>Wound</i>",
+					"comment": ""
+				},
+				{
+					"card": "revivingshock",
+					"position": "top",
+					"enhancement": "+1 Attack",
+					"comment": ""
+				},
+				{
+					"card": "revivingshock",
+					"position": "top",
+					"enhancement": "+1 Target",
+					"comment": ""
+				}
+			],
+			"perks": [
+				{
+					"comment": "",
+					"picks": [
+						{
+							"order": 1,
+							"name": "intensify"
+						},
+						{
+							"order": 2,
+							"name": "consistency"
+						},
+						{
+							"order": 3,
+							"name": "power"
+						},
+						{
+							"order": 4,
+							"name": "outburst"
+						},
+						{
+							"order": 5,
+							"name": "extend"
+						},
+						{
+							"order": 6,
+							"name": "resilient"
+						},
+						{
+							"order": 7,
+							"name": "lacerate"
+						},
+						{
+							"order": 8,
+							"name": "repair"
+						},
+						{
+							"order": 9,
+							"name": "hobble"
+						},
+						{
+							"order": 10,
+							"name": "confuse"
+						},
+						{
+							"order": 11,
+							"name": "embers"
+						}
+					]
+				}
+			],
+			"items": {
+				"comments": "Of the starting items, there aren't many that are great for the Tinkerer. I would start with the Goggles if you can. Then movement boots and a stamina potion are the only other things you should absolutely get. If nobody else wants the cloak of Invisibility then it may be worth picking up, but you also want gold for enhancements. Beyond that, it just depends what items you unlock as that should hold you over for a little while.",
+				"levels": [
+					{
+						"level": "Starting",
+						"comments": "",
+						"picks": [
+							{
+								"id": "eagleeyegoggles",
+								"comment": ""
+							},
+							{
+								"id": "cloakofinvisibility",
+								"comment": ""
+							},
+							{
+								"id": "bootsofstriding",
+								"comment": ""
+							},
+							{
+								"id": "minorstaminapotion",
+								"comment": ""
+							}
+						]
+					}
+				]
+			}
 		}
   ]
 }

@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nightshroud Shadow</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Nightshroud Shadow</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+    <!-- Description -->
+    <button id="description" onclick="accClick('acc-description')" class="w3-btn w3-block w3-left-align"><h2>Description</h2></button>
+    <div id="acc-description" class="w3-container w3-hide">
+    
+    <h2 class="w3-light-grey">Overview</h2>
+      <div class="w3-container">Welcome to my guide to the Nightshroud, my personal favourite character and arguably the most powerful in the game (other leading contenders being specific builds of the Sun and Music Note). Properly designed, playing this character is the Gloomhaven equivalent of God-mode, as you can basically ignore all monster attacks, damage, statuses, hit points, shields, and...pretty much everything else that creates challenges for your mortal companions.</div>
+      <div class="w3-container"><p>On a related note, and as a preface to the strategy discussion, it's worth briefly discussing some metagame considerations for this character. In addition to being enormously powerful, the Nightshroud is mostly a loner, which tends to reduce the amount of teamwork and coordination required with your companions. Support characters, in particular, may end up feeling a bit left out of the action when you need no healing, use no buffs, are indifferent to monster statuses, and (for the most part) hit points. In addition, your invulnerability stems from your ability to near-constantly remain invisible, which will ensure that whichever monsters you haven't yet killed will concentrate fire on your companions. Properly played, this won't necessarily make you a 'bad' teammate, as you will be shielding them (as an obstacle) and dropping bodies with great effectiveness; however, there's some risk your teammates will end up feeling less than thrilled in the end. I've played this class for ~10 scenarios now, and consider myself fortunate that my friends were very good sports about the whole thing.</p></div>
+    <h3 class="w3-light-grey">Strengths</h3>
+      <div class="w3-container">With that out of the way, let's review the few core strengths of this character. He has the abilities to:</div>
+      <div class="w3-container"><ol><li>Be invisible, almost always</li><li>Consume Dark to automatically kill, or do massive damage, without losing cards</li><li>Manipulate initiative to an extraordinary extent (which is one of the keys to point 1)</li><li>Jam doors, shielding teammates from all monsters without ranged attacks and/or flying</li><li>Regularly gain 20+ XP per scenario (before scenario bonus XP)</li></ol></div>
+    <h3 class="w3-light-grey">Challenges</h3>
+      <div class="w3-container">On the flip side, the Nightshroud also faces a few challenges:</div>
+      <div class="w3-container"><ol><li><b>Inflexibility</b>: accomplishing all of the aforementioned lofty goals comes at a cost: one must plan carefully in advance more than any other class, such that every single card played, in the correct order, is a cog in a complex machine. (Ironically, this will result in some of our actions being quite underwhelming in the short-term, as they are intended primarily as setup for a later nova action.) Death incarnate needs to keep to a strict schedule.</li><li><b>Card count / Loss actions</b>: With a hand of only 9 cards, each one is precious and playing cards as losses will risk early exhaustion. Also, losing cards prematurely is tantamount to needlessly removing cogs from the previously-mentioned complex machine, which can cause serious problems.</li><li><b>Movement</b>: This one will get a lot better as we level up, buy enhancements, and acquire equipment, but out of the gate at level 1 this character is possibly the slowest in the game.</li><li><b>Resting</b>: Related to the first point, the Nightshroud can almost never afford to short rest, as removing a cog from the machine at random is extremely risky. During a long-rest will, incidentally, be one of the few times you are at risk of being hit, unless you get help from an item or ally to turn invisible again.</li><li><b>Traps</b>: For the first several levels, this class has no access to jump movements or push/pull attacks, and can't afford to waste money or body/enhancement slots on a jump item or enhancement. That said, we have a surprisingly large health pool (medium progression) and almost never get hit, so I quickly became our party's resident expert at disarming traps for the group (using my face). For the Nightshroud, hit points (friend and foe) are just a state of mind.</li></ol></div>
+    <h2 class="w3-light-grey">Strategy</h2>
+      <div class="w3-container">Before we review specific cards, it's important to establish the framework for what we are trying to accomplish with each of our actions:</div>
+      <div class="w3-container"><img src="images/character-build/ns/ns-cycle.png"></div>
+      <div class="w3-container"><p>This is a summary of what we are aspiring to accomplish, for each action of the game. Note that this is idealized, and much of it will only become possible at higher levels and/or through the use of items and/or help from teammates (the turn 3 bottom, in particular, will never work perfectly without items and/or help).</p></div>
+      <div class="w3-container"><p>As a first rules reminder, invisibility expires at the END of your turn after turning invisible, so you can still use it on the second turn after you turn invisible.</p></div>
+      <div class="w3-container"><p>Corollary to that, manipulation of initiative is critical to maximize your invisibility, and is therefore key to maximizing your effectiveness. Often, people think of 'good' and 'bad' initiative as synonymous with 'early' and 'late', which is far from the case (for all classes). In almost all situations, you have a preference for whether you want to go before or after the monsters, and choosing your initiative is your way of forcing the monsters to play in your desired order. Therefore, 'good' initiative means a mix of extremes to enable the player to choose to act first or last, with 'bad' initiative cards residing in the middle (playing initiative 50 is effectively ceding control of the order to a coin toss). Fortunately, the Nightshroud happens to be among the best in the game in that area, with some cards that are very early and others that are very late; monsters causing you problems by acting out of order will be a rare occurrence indeed. In particular, this will enable you to consistently turn invisible before the monsters act in a round, and not reappear until after they have already wasted their following turn.</p></div>
+      <div class="w3-container"><p>As a second rules reminder, you cannot consume an element that you generated in the same turn, but you CAN consume an element while simultaneously generating it for the following turn. The Nightshroud will very often consume and generate Dark on the same turn.</p></div>
+    <h3 class="w3-light-grey">Resting</h3>
+      <div class="w3-container">One must indeed LONG rest, to avoid prematurely losing the wrong card (later in a scenario, it matters a bit less, though still preferable to long rest if you can).</div>
+      <div class="w3-container"><p>Second, following the blueprint above will leave you exposed (IE, visible, like any mortal character) during your rest, but there are a few factors that make this less of a big deal:</div>
+      <div class="w3-container"><ul><li>Hopefully, most of the monsters in the room are dead by now</li><li>You'll heal 2 hp at the end of your long rest, and generally already be at full health</li><li>Your companion(s) will be acting on earlier initiative than you, and therefore will be preferentially targeted by the monsters if you are equidistant</li><li>If all else fails, you should have 1-4 items that can also turn you invisible, which you can always spend at the end of turn 4 if the outlook is bleak (though it is ideal to conserve those items to plug holes in your combos once you get down to 4-6 cards</li></ul></p></div>
+      <div class="w3-container"><p>Third, let's discuss the correct order in which we want to lose cards, to ensure that things continue to run as smoothly as possible.</div>
+      <div class="w3-container"><br>The first card to lose is obviously whichever 9th card you brought into the adventure (generally this will be an inferior bottom Dark generator which you'll swap in for just the first cycle, but more detail on that below). After that, I would usually lose <b>Doomed Breeze</b>, then <b>Cloak of Shade</b>, meaning that the turn 4 attack gets downgraded to attack 6 instead of attack 8, unless you use an item or get help from an ally to turn invisible.</p></div>
+    <h3 class="w3-light-grey">Tactical Points</h3>
+    <h4 class="w3-light-grey">Door Jambing</h4>
+      <div class="w3-container">Being invisible all the time has the potential to make your teammates lives more challenging, as monsters will focus fire on them instead. Fortunately, there is one major way that you can thank them for putting up with your shenanigans: HOld the DOoR. You should nearly always be the one opening doors, ideally on the first or third turns in your cycle (IE, on a turn when you have just gone INTO invisibility, vs one where you just came out of it), since the monsters in the new room will always get a turn after you open the door. Your tactics from there will be dictated by the types of monsters in the room, but in all cases depend upon you and your teammate(s) aggressively manipulating initiative:</div>
+      <div class="w3-container"><ol><li><b>Ranged monsters</b>: These can still harm your teammates, but only if they get close enough. For these, your teammates should do their best to mirror your usual initiative trick, except that instead of invisibility they are using their cadence for movement (IE, start off out of range, act late to move into range, attack, then act early to attack again and then move back out of range). If your teammates do it properly, the monsters will move right up next to you in order to get as close as they can to within range of your teammates, at which point you will murder them (the monsters, that is).</li><li><b>Flying monsters</b>: These end up behaving similarly to ranged enemies, but mostly bypass your door-jamming. However, in order to do that, they have to fly directly over you, so batter up! When they land near you, kill them.</li><li><bv>Melee monsters</b>: This is where your shielding will really shine, as your party can just ignore them altogether until you've finished killing the monsters in the other 2 categories. If you want to really err on the safe side, you can manipulate initiative to move in the same way as your teammates, and go 'hunting' every second turn before returning to your post on the door (IE, start on the door, act late and move off, kill a monster, act early, attack another monster and then move back to the door).</li></ol></div>
+    <h4 class="w3-light-grey">Looting</h4>
+      <div class="w3-container">We have no loot 2 cards, no reusable loot 1 cards (until later when you level up), and slow movement. However, we do have unparalleled ability to expedite monsters' transition from nuisance to loot, and we prefer to move on every turn. Therefore, a common sequence (particularly at higher levels when we have better movement to setup in advance of our attacks) is to attack first, then take the newly-vacated monster's spot.</div>
+      <div class="w3-container"><p>Throughout an adventure, I was usually able to pull that off ~ 5 times, then would grab some additional loot here and there (since you will generally be in the thick of the fight for your melee attacks) due to moving every turn. All told, I was usually bringing in a double digit number of loot tokens in a decent adventure. Also, in your role as steward of doors, you'll often end up with a large pileup of loot right next to yourself, as progressively more monsters advance themselves on a suicidal conveyor belt trying to shoot/fly at your allies.</p></div>
+    </div> <!-- description -->
+    
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Losses are not anything we can afford so have to pass here.</p>
+              <hr>
+              <p>We aren't interested in bottom attacks.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>For many classes, having a secondary attack on the bottom (especially that generates XP) would be a solid choice, but our bottom actions have too much important logistical/support work to do to be able to afford to take a detour for an attack.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This card also has a top action, which I have literally never used. Ironically, this top action does fill exactly the gap we just mentioned (since it generates Dark), but we can do better than a simple attack 2.</p>
+              <hr>
+              <p>Unfortunately, generating Dark is not optional here, so we're going to need to get some help from the top action (which is why I'm flipping the order for this turn). The silver lining is that we don't yet have a second 'kill' effect anyway, so forcing the top action to generate Dark doesn't require us to forfeit anything all that great.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 3 bottom</b><br>Another very good card, this gives us the ability to turn invisible fairly easily (we only need Dark, which we can easily set up), which is ahead of the curve for level 1. Plus, it comes with a move 3 (the best we'll ever get until fairly high level) and an early initiative of 13. However, this slot in the blueprint is impossibly demanding, with 4 to-dos (much of levelling up with this class will be about upgrading this one grid-slot), so even with my glowing review of this action we are still only achieving 3 (movement, early initiative and invisibility) out of the 4 goals (generating Dark being the missing one).</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Another loss we can't afford</p>
+              <hr>
+              <p>We want to be producing <i>Dark</i>, not consuming it on our bottoms.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Ironically, the right set of cards and items can more or less replicate the effects of the bottom action (and without the restriction on unopened doors), by combining the top action of Empowering Void (which doubles all our movements) with large movement cards and movement-enhancing items. I'll cover this in greater detail in the items section at the end, to avoid any spoilers for now.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Does nothing for any of our required tasks.</p>
+              <hr>
+              <p>This bottom generates <i>Dark</i> so has some use for us.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 1 bottom</b><br>The top action here actually has some potential to be helpful later in the scenario when you need some extra movement, but for the most part just doesn't do any of the things we care about for top actions. Regardless, this card will be the first to get removed at level 2, such that it will never see the light of day for most players.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action here is respectable, but just doesn't do anything we care about.</p>
+              <hr>
+              <p>This gets an honourable mention as a gear in the machine, since at least the bottom action generates Dark. It loses out to Dancing Shadows due to having a fairly poor initiative (and in the wrong direction; late instead of early). It does have a movement though, which we can combine with boots to set up our round 1 top.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>At level 1, this is the best choice for your 9th card, so you'll play it in the first hand cycle (then lose it during your rest) in place of Dancing Shadows, and use the initiative of Wings of the Night instead.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This could be used instead of Enervating Wound in the Turn 3: Top slot, but the Wound just edges it</p>
+              <hr>
+              <p>This just doesn;t work for us.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>There are better gears out there.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action of this card is pretty cool as well, though will be used much less often than the bottom. It is great for getting between rooms (doubling a move 2-3 to 4-6) and mining XP at the end of a scenario. Later on, it will enable some pretty crazy bursts of movement using some of the higher level cards, plus some items. Eventually, if you're willing to spend and consume an item, it's possible to move 32 in a single turn with this card (or move 30 without losing a card). I'll discuss this more in the items section at the bottom, to avoid any item spoilers for now.</p>
+              <hr>
+              <p>the bottom half of the combo, and a very interesting card. The bottom action completes both of the objectives we have for this grid-slot (moving and augmenting the attack), and will continue to be useful later in the scenario when we begin to whittle down our hand (doubling an attack and moving is pretty much always a winner, especially if it generates an XP).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 2 bottom</b><br>Fits nicely into our cycle right through the levels.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Turns out that's the best we can do until we get to level 6 (part of why we want to pump XP for this character). However, this action does fulfil the one critical function that Cloak of Shade was unable to perform: generation of Dark. If the top box was just filled with one giant Dark icon, we'd basically be forced to play it anyway and tell the game creators thank you. Instead, however, we gain a free XP and get to taunt an enemy while invisible with an attack.</p>
+              <hr>
+              <p>The bottom action of this card is actually pretty decent, moving about as much as we ever can.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 3 top</b><br>Ugh. If you compare with the blueprint, you're probably wondering how in the hell I'm interpreting a pathetic 'Attack 2' as 'Kill'; the schematic calls for the foreboding scythe of Death, and instead you have a limp banana.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top half of a great combo, which we will continue using all the way through level 8 or 9.<p>This is where we reap the benefits of placing unreasonable demands on the poor logistics department of turn 3, as we can power up the attack 3 both by being invisible and by consuming Dark (using the other card that we are playing this turn for a bottom action). All told, this will enable us to regularly perform attack 8 at level 1 without losing any cards (the rules errata clarifies that the doubling of the attack from the bottom action only applies to the original 3 attack, not the +2 from invisibility, making it 2*3+2=8, not 2*(3+2)=10).</p></p>
+              <hr>
+              <p>This bottom action is also pretty useful at the end of a scenario.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 4 top</b><br>For bonus points, this card comes with a very late initiative, such that all the monsters should have wasted their turns by the time you become visible (and you can preferentially target those, if any, which still have yet to act).</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action of this card is surprisingly decent, but simply doesn't fit as a gear in the machine. However, later in a scenario this top action can be very useful both a) to mine XP, since you can consume Dark to augment your move without attacking that one remaining monster you've left alive as a gimp while you run around looting, and b) to move on top as a setup for a movement-less loot action on the bottom (our primary loot card when we gain a few levels will eventually be exactly that).</p>
+              <hr>
+              <p>Movement plus <i>Dark</i>, just what we need for some slots. Adding +1 movement to this action is also a cheap way to begin alleviating our movement issues, and is the first enhancement that I would recommend buying (a second +1 enhancement is fine as well, though at level 2 there will be more pressing uses for our gold).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 2 bottom</b><br>This card isn't flashy, but it performs both of the jobs we need for this slot: moving and generating Dark. In theory we could flip the order of this and Dancing Shadows, but we prefer the initiative of Dancing Shadows and would rather be moving on the turn we execute, to ensure that we aren't left stranded without a target.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Wow. This top action is likely one of the 2 best level 1 cards in the game (the other belonging to the Sun class), and one of the keys to this class' god-mode status. If you have Dark available to consume, then a normal enemy of your choice is immediately transmuted into loot. No risk of flipping a critical fail card, and no regard for hit points or shielding. Funnily enough, this card will get even better as we progress, as the average monster level (and therefore hit points/shield) will increase, enabling the kill effect to replicate the effects of attacks dealing 10-15+ damage.</p>
+              <hr>
+              <p>This card also has a bottom action, which really only matters at the end of a scenario as a way to eek out 1 last XP. We cannot afford losses here, and the Dark generation is much less useful without the top action available in our hand.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 2 top</b><br>For bonus points, the late initiative on this card achieves other required funcions, meaning we can execute and then come out of invisibility after all monsters have acted.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This card doesn't look great at first, with a puny attack 2 on top and a loss action on the bottom. However, this first round top has one job (invisibility), which is accomplished by the card; the existence of any attack at all is just gravy.</p>
+              <hr>
+              <p>The bottom action of this card could theoretically help alleviate our movement issues, but we can't afford losses.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p><b>Turn 1 top</b><br>Once or twice I somehow ended up with this card towards the end of a scenario (the turn 3 cards were usually my first set to lose, so whenever I had 5-6 cards still left this would be one of them), which can be great for mining some extra XP if the outcome of the scenario is no longer in doubt.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>These are our core cards for the cycle</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>These are what remains from which we have to find our 9th card</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png">
+              <div class="w3-container">This is our 9th card pick as the best of the bunch</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png">
+              <div class="w3-container"></div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png">
+              <div class="w3-container"></div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>As you can see, this strategy relies on combos of flashy, excellent actions surrounded by logistical workhorse cogs that make everything run properly. In general, our goal is to push as much of that key logistical work as possible down to the bottom actions, which will free up our top actions to trigger god-level effects. Therefore, as we level up, only 1 of our key new cards (plus 1 minor one) will be a top action, but boy is that one a doozy. All the others will be bottom actions that perform progressively more/better logistical work. Another nice feature is that this set of combos will generate 5 XP per cycle, without losing any cards</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">1st cycle only</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>I'm not sure I've ever used the top, especially once I added enhancements to the bottom.</p>
+              <hr>
+              <p>Prepare for the Kill is the first of many bottom-action upgrades that aren't flashy, but fit so nicely as gears that we are quite excited to add them to our hand. This card replaces Dancing Shadows as our initial Dark generator while (surprisingly) offering even earlier initiative and also enabling us to move.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>It achieves all 3 of the to-do's we'd listed for that initial grid-slot, and as such will stay in that position all the way through level 9. It does forfeit the 'Enemies take Disadvantage' effect from Dancing Shadows, but as a reminder that was useless to us anyway due to our invisibility. Moving on the first turn will make us significantly more flexible, especially since we only get to move 1 (or 2 once enhanced) on turn 2; there's no longer any real risk that you can't reach the monsters in time to execute at the end of turn 2, and you can generally also get into an initial (invisible) position to clog monster traffic near your allies, thereby shielding them from a little bit of damage. Also, once you clear the first room, you can use this movement to open a door while turning invisible.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Ranged <i>Wound</i> & <i>Stun</i> which are great effects and can be applied at range. The problem is that it doesn;t fit as one of our gears.</p>
+              <hr>
+              <p>Unusable loss</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>In theory, one could construct a build where this card replaces Doomed Breeze in the rotation, and provides a much better ranged attack, but such a construct would only work if you have an item or ally that can repeatedly generate dark for you (relying on a one-time potion here is not a great solution; you'll usually want those to plug holes in your combos later on in the scenario once you've cycled your hand a couple times and lost a couple of cards).</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-dancing-shadows.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Easy choice for slot 1 bottom. Even though Dark cloud initiative as at the wrong end the movement gives it preference over Dancing Shadows and we will have to rely on Wings of the Night initiative on our first cards.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>Level 2 is the minimum level that most people will play with this class, which is a good thing, because the class gets considerably better here.<p>Here's how the setup looks now after level 2. Still generating 5 XP per cycle. Dark Cloud is still our 9th card and play it in place of either Prepare for the Kill or (more likely) Smoke Step for the first hand cycle, then lose it during our first rest.</p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">1st cycle only</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-armor-of-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Armor of the Night has a top action that is actually not bad, but a) our standard for Dark-consuming top actions is extremely high (pretty much anything that can't kill an undamaged monster will never make the cut), and b) healing is for mortals who get hit; the whole concept of hit points is largely foreign to the Nightshroud.</p>
+              <hr>
+              <p>The bottom action is basically Dancing Shadows with worse initiative, as Shield 1 is roughly equivalent to Disadvantage and neither matters for an invisible character.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Neither half of this card fit our requrements.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-terror-blade.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Terror Blade's top action has basically the same problems, though it is slightly more tempting by offering us our only access to Push, and not consuming Dark. In theory, you could perform the same manoeuvre I'd outlined with Soulfire earlier (play this card once with a potion, then lose the card), and it would work out similarly with both dealing 3 damage (Soulfire does 1 Attack, 1 Wound, 1 extra from Stun/wound), but this gives us a Push vs Soulfire giving us an XP.</p>
+              <hr>
+              <p>Move 4 is normally a great card for any build ... but this is a specialist one and the move alone is not enough.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The bottom action offers a tempting access to a move 4, but accomplishes none of the other jobs we need out of our bottom actions (Dark, invisibility, etc), so it's a pass.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-soulfire.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">This level is a complete bust for us, we take Soulfire as we have to select something, but we won;t ever be playing it.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">1st cycle only</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Grim Sustenance will generally be played for the top action, and be a strict upgrade to Wings of the Night for a slightly better attack. Later in a scenario when you only have a few cards left and are playing unusual combos, you will occasionally even trigger the attack power-up.</p>
+              <hr>
+              <p>However, the bottom action is valuable to us as well, as it provides our only chance to loot in a radius (need to do something to fund those enhancements on Prepare for the Kill), while also generating Dark. This means that every so often (IE, when we don't need to move, such as when we are clogging a door and the monsters are running up to us) we will find ourselves able to cheat a little bit on the ordering and swap in this bottom for one of our typical Dark generators (usually Smoke Step).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a card that we can use both halves of; we like it.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-nightfall.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Nightfall's top action is out, due to being a loss action, especially since we generally do fine generating Dark on our own. In theory you could play this and then replace Doomed Breeze with something decent (ex: Soulfire), but the joke will be on you when you then have to get down to 7 cards the following cycle and ruin your combos early.</p>
+              <hr>
+              <p>The bottom action here could be intriguing if we had reliable access to surplus Light from an ally, but otherwise doesn't do anything (other than move) that we need, and the extra attack isn't enough to offset the loss of generating Dark. However, There are a couple classes that might be willing to regularly gift you some Light, in which case this card could replace Smoke Step (since we don't use Smoke Step's initiative anyway)</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This bottom is actually reasonable for us, but does require our party to make it work so is situational.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-dark-cloud.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">In nearly all party combinations, therefore, we take Grim Sustenance, and it is the only new top action we'll ever take aside from level 6. We replace Dark Could and shuffle our hand a bit.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action is like a much better version of Doomed Breeze, except that (critically) it does not generate Dark, which generally will make it unplayable. If, however, you have an item or ally that can regularly generate Dark for you (again, not through a single-use item), then this is a great upgrade for now until level 6.</p>
+              <hr>
+              <p>However, the bottom action on Black Arrow is the one we care about, as it serves as a mild upgrade from Cloak of Shade, effectively converting the move 3 on Cloak of Shade into a ranged attack 3 (both consume Dark and generate Invisibility). The lack of movement here isn't ideal, but won't be a huge issue for now, since both of the attacks we're making with this combination are ranged. Plus, more importantly, it can turn us invisible without consuming Dark, which will enable us to eventually consume Dark with the top action at higher levels.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Black Arrow offers interesting flexibility on top and bottom.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-claws-of-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Claws of the Night offers a decent top action, which many classes would be pretty happy with. However, for us, 6 total Attack + Poison (if you set up the AoE and consume an element) simply doesn't provide enough bang to become one of our mainstay top actions. The one way it could potentially fit is as a replacement for Doomed Breeze, but only if you have a ready supply of another element from an ally or item. Regardless, if you do go that route, you'll end up chucking the card anyway in 1 more level once we finally get to level 6.</p>
+              <hr>
+              <p>The bottom action here is a fairly powerful loss effect, but not nearly enough so to be worth serious consideration. This is especially true since partial damage rarely matters for us; we usually transition enemies directly from 'full health' to 'loot' all at once, with any prior damage being mostly wasted.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is another workable card for us.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-black-arrow.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-wings-of-the-night.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Black Arrow, but for now this is a very marginal upgrade over Cloak of Shade.<p>We drop Wings of the Night and have Cloak of Shade as your extra card so you have the option of movement in the first round if necessary.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is the one and only major upgrade to our top actions that we'll take throughout the build, as it will enable the party to permanently avoid fighting the toughest monster in each room. By the time you are level 6, with monsters of level 3-4+, the elites will often have hp of 15-20+, which is a remarkable non-loss effective damage output that comes with no risk of flipping a critical fail or curse card.<p>The one tricky aspect is that it uses the consumption of an element other than Dark, which requires you to get help from an ally or item to power it until you can afford the 250 gold required to enhance Prepare for the Kill with a wild element. Technically you could just pick a random non-Dark element on Prepare for the Kill for 200 gold, but the extra flexibility is really worth it to either support a teammate with an element they want (before you reach level 6), or stay out of their way (if they are generating and consuming Light, for example, you can end up double generating before anyone consumes it, such that one of you is stuck with none).</p></p>
+              <hr>
+              <p>This card also has a bottom action, and I almost cried the one time I had to use it (since one of my elements had been stolen by a monster, ruining my plans to use the top action).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>I've been saying for a while that we really want to pump XP to get to level 6, and Swallowed by Fear is the reason; wow.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The card has a top action, but I've never played it and neither should you.</p>
+              <hr>
+              <p>The non-loss bottom action of move 6 with a jump is so much better than any of our previous moves that it can really alter our whole style of play. Instantly, we go from being the party laggard to highly mobile, and can finally retire our face as the party's designated tool for 'disarming' traps. For bonus points, the initiative is the best we'll ever get.<p>The key downside here is that the base version of the card doesn't turn us invisible or generate Dark, so it struggles to find a home in our hand at first. However, for the bargain price of 225 gold, all of this can be yours, so you better start saving! Even with the enhancement, we'll still pass on this card for now, because the alternative is just incredible.</p></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Unseen Dread is a very good card for us</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-enervating-wound.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey "></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark, Other</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-eyes-of-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Eyes of the Night has a top effect that would be awesome for most characters: permanent advantage would remove the risk of ever missing, except with curse(s). However, we flip cards rarely enough that this won't be worth it for us. The targeting invisible enemies part rarely matters, since monster invisibility is very rare and concentrated in monsters that we generally want to murder quickly anyway, to stop them from stealing our Dark (no spoilers).</p>
+              <hr>
+              <p>The bottom action here is similar to Nightfall at level 4 insofar as it can't function as a gear without a reliable source of surplus Light from an ally, which is unlikely (though not impossible). Even with infinite extra Light, it is still inferior to an enhanced Unseen Dread due to having less movement and no jump.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This is a very good cvard, but unfortunately doesn't find a place in our habd</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-quiet-frenzy.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action effectively combines Silent Force + Empowering Void into one succinct action that frees up your bottom action to do other things. For this reason, I'll probably take a bit of flak from others who would prefer to take this card and replace both turn 4 cards. I thought about that too, but have a few responses:<ol><li>In turn 4, there isn't really anything else we NEED to do with that bottom action. Sure, the flexibility is great, but in this case solves a non-existent problem. Best case, you'll get an extra curse, small attack, or some other minor effect out of it (which, by the way, will only matter at all if there are still any monsters left alive in the room, which will not happen that often after a full cycle)</li><li>Taking this card requires permanently forfeiting Unseen Dread (we don't want to pass on levels 8 or 9), which provides a ton of value, particularly once enhanced</li><li>Giving up Empowering Void also removes our access to that quirky top-action that doubles our movement, which has just become much more useful now that we have Unseen Dread. This won't come up that often, but in some scenarios being able to jump 12 (or potentially much more, with items that are also doubled) will be extremely useful.</li></ol></p>
+              <hr>
+              <p>The bottom action of this card is a decent effect (though easily replicated by a level 1 Mindthief), but doesn't do anything we care about.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Quiet Frenzy is a very good card</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-unseen-dread.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-smoke-step.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We'll go back to level 6 and take Unseen Dread for the huge burst of movement, particularly once it is enhanced to generate Dark (pre-enhancement, it only works as a gear if you can get an assist from your teammates, as discussed previously).<p>We will only drop this once we have the Dark generator enhancement on Unseen Dread.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p>The other key question here is what to do about the turn 3 bottom, which from here on out will consistently be the biggest pain to solve. When I played this class, I had help from an ally with a class ability to both turn me invisible and generate Dark (it was SO helpful), but without that huge luxury you are probably better off instead using Black Arrow to turn yourself invisible, and then relying on an item or ally to generate Dark for you. This will, however, leave you without movement for that turn, so you'll need to be careful to pre-position yourself at the end of the prior turn in a place where you can kill another monster.<p>For a while now I've made reference to potentially getting help from an ally or item for generating Dark, but level 6 is where the pressure to find such a solution really reaches an inflection point. If at all possible, you actually want to avoid using one of your hand-slots on a Dark generating item (though it's worth it to do so if you have no other option), so now is the time to beg, plead and/or bribe your friends to invest in some Dark generation on your behalf.</p><p>As you try to get your friends to generate Dark for you, there is one notable factor that should help make it easier: due to your manipulation of initiative (which you will likely be doing more effectively even if they are doing it as well), they will likely take 2 turns between your turn 3 (early) and turn 4 (late), meaning that they have 2 chances to generate Dark for you. Also, if played properly, you'll only need help in the Dark department once per cycle.</p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark, Other</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-gloom-darts.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Gloom Darts has a decent top action that can consume Dark to become great for most characters. At this point in our build, however, any Dark-consuming attack that doesn't trigger an outright kill doesn't make the cut, so the top is a pass.</p>
+              <hr>
+              <p>The bottom here is worth a look, as move 3 with Dark generation has the potential to be a highly productive gear, like a better version of Smoke Step. For bonus points, it has 2 enhancement slots, but those are too expensive to be practical and we can simply add a Dark to Unseen Dread for a similar cost (225) and better outcome (more movement, plus Jump) than the first +1 move here (205).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The final problem with this card is the initiative, which is mediocre for a top action (78 isn't terrible, but usually we'd like to be at least in the mid-80s) and clearly inappropriate for a bottom action when we want to go early. In theory, we could still weave this bottom action in on an even turn, when we want to use our top action's initiative anyway, but it slightly constrains our flexibility later in a scenario when we start removing gears and need to mix and match a bit more.<p>Therefore, this card is a pass for us.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-lurking-ruin.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action is a solid attack which, critically, does not consume Dark and therefore could function like Silent Force on steroids. If we were to make that exchange, and put this into the T4 top grid-slot, we would get to make an attack 10 that also poisons, muddles and wounds; not too shabby (though the monster survival rate from attack 10 is low enough that the 3 statuses are less useful than in most situations). The main problem here is the initiative mismatch, as the 18 clearly needs to be a bottom action. Plus, Silent Force is the only top action that this card could replace, and it has a (great) initiative of 91 that we actually use. In most situations, however, this trade-off is moot, since we really want the bottom action anyway.</p>
+              <hr>
+              <p>The bottom action here provides the best solution we'll ever get for our challenges in the T3 bottom grid-slot. It covers all the same to-do's as our original Cloak of Shade (early initiative, movement and invisibility), but, critically, without consuming Dark so that we can consume Dark on top to execute.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Lurking Ruin, on the other hand, has both a top and bottom action that we like.<p>It does, however, still leave us with the same one-turn deficit of Dark that we had with Black Arrow, which we'll need to fill in whatever way we did previously (item or, ideally, whichever friend you've bribed with an extra drink).</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-lurking-ruin.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-black-arrow.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">It covers all the same to-do's as our original Cloak of Shade (early initiative, movement and invisibility), but, critically, without consuming Dark so that we can consume Dark on top to execute.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark, Other</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-lurking-ruin.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-lurking-ruin.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-angel-of-death.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action is so powerful that we might even consider playing it for a loss later on in a scenario (especially paired with Unseen Dread, for example, we can land in the middle of a group and then execute them all).</p>
+              <hr>
+              <p>The bottom action, however, is the main reason we would want this card, and we'll happily play this effect until we get to the last room and (potentially) burn it for the top action. This is essentially as if we mashed together the effects of Unseen Dread's bottom and Spirit of the Night's top, with the only real downside being that it's like we also mashed together their initiatives (remember, the worst initiative for us is 50; we want to operate at both extremes).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Angel of Death is a great card, even relative to other level 9 cards.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ns/gh-voice-of-the-night.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Another loss we have no desire to take.</p>
+              <hr>
+              <p>The bottom howevere is perfecvt for us as it fits into the most awkward slot we have.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Voice of the Night is the card we have been waiting for. It finally solves out turn 3 problem, giving us all we need on the bottom along with a bonus attack just for fun.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-voice-of-the-night.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ns/gh-cloak-of-shade.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take Voice of the Night in an instant. We replace Lurking Ruin as a direct upgrade and solve our Dark generating issue, which in turn replaces Cloak of Shade as our card for our first room T1.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png">
+                <p class="w3-pale-green">Turn <i>Invisible</i></p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png">
+                <p class="w3-pale-green">Kill<br>Late initiative</p>
+                <p class="w3-pale-blue">Last room XP</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png">
+                <p class="w3-pale-green">Kill</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png">
+                <p class="w3-pale-green">Big Attack<br>Late initiative</p>
+                <p class="w3-pale-red">Last room <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-ns-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Genberate <i>Dark</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png">
+                <p class="w3-pale-blue">Last room XP</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark, Other</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-voice-of-the-night.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png">
+                <p class="w3-pale-blue">Last room <i>Loot</i> combo</p>
+                <p class="w3-pale-green">Move<br>Augment attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ns/gh-lurking-ruin.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move<br>Generate <i>Dark</i><br>Turn <i>Invisible</i><br>Early initiative</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-knives.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-cloak-of-shade.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-concealed-dominance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dancing-shadows.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-dark-cloud.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-doomed-breeze.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-empowering-void.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-enervating-wound.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-silent-force.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-smoke-step.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-spirit-of-the-night.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-wings-of-the-night.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-soulfire.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-grim-sustenance.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ns/gh-black-arrow.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-swallowed-by-fear.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-unseen-dread.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-lurking-ruin.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ns/gh-voice-of-the-night.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/ns/gh-smoke-step.png"></td><td>bottom</td><td>+1 Move</td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></td><td>bottom</td><td>+1 Move</td><td></td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ns/gh-prepare-for-the-kill.png"></td><td>bottom</td><td>Specific element</td><td>Once you reach level 6, if you're rich enough, you should double-enhance the bottom of Prepare for the Kill with a second element. If you're not rich enough, sell the +1 Move first and then do the element enhancement. The specific element doesn't matter - you could make it an element your allies may be able to use, although it's probably better to make an element they can't use because it's better for you than them and they shouldn't expect anything from you after all.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ns/gh-unseen-dread.png"></td><td>bottom</td><td><i>Darm</i></td><td>And at level 7, you should definitely take Unseen Dread (the other level 6 card) and then enhance the bottom with Dark, given how incredibly cheap it is now for such an absurd effect. You can also sell the Smoke Step enhancement to help pay for this as it will essentially replace Smoke Step.</td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey">No guide would be complete without a discussion of perks. The good news is that our perk deck doesn't matter very much, since most of our best offense comes from kill effects that don't flip cards. The bad news is that those Silent Force attacks will be stuck with probably the worst set of perks in the game.<p>We start with the only surprisingly good perk, after that, we have an OK batch that are sometimes useful:</div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Greater Immunity</td><td>Ignore negative scenario effects and add 2x +1</td></tr>
+      <tr><td width="250px">Enshroud</td><td>Add +1 <i>Invisible</i></td></tr>
+      <tr><td width="250px">Sweep</td><td>Add rolling add target</td></tr>
+      <tr><td width="250px">Incantation</td><td>Add 2x rolling <i>Curse</i></td></tr>
+    </table><br>
+
+    <div class="w3-light-grey">Before I cover the last (awful) batch of perks, we need to take a step back to think about how our attacks differ from most. Unlike a typical DPS or AOE class that wants to make the most out of a larger number of 3-4 attacks, we only make one real attack per cycle, with Silent Force (technically yes we also get a puny attack 1-2 with Wings of the Night or Grim Sustenance, and sometimes with Doomed Breeze, but those are so pathetic that designing our deck around them is the tail wagging the dog). [Refer also to the Prosperity 3 item spoiler section for another point that further reinforces this situation]. The effective value of the 'Null' and '2x' cards in most decks is thus 3-4, by either negating or doubling the attack 3-4. For us, however, this is not the case. The 'Null' is worth a whopping -8 (or the remaining hp of the monster, if lower), and the 2x is usually more like +0-2 if the monster would be dead anyway (or narrowly survive with 1-2 hp). In rare cases, like a boss fight, the 2x will give us full credit for an awesome +8, but those situations are rare (again, for the big 16 hp monster, we are just executing anyway, so there is a selection bias in our attacks). This is a long way of highlighting a simple fact: for this class, pulling the 'Null' card is a total disaster, so we need to be careful about taking perks that thin out our deck, thereby increasing the risk of pulling the 'Null'. In fact, in certain scenarios with a large number of ~6 hp enemies (or those with 6 hp enemies surrounding 1-2 big bads that you'll outright execute), which will die even by pulling the -1 or -2 cards, we would prefer to add an infinite number of -1's to the deck, such that we always pull -1 (killing the monster anyway) and never get the Null.</div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Twilight</td><td>Add -1 <i>Dark</i></td></tr>
+      <tr><td width="250px">Umbra</td><td>Replace -1 <i>Dark</i> with +1 <i>Dark</i></td></tr>
+      <tr><td width="250px">Confuse</td><td>Add 3x rolling <i>Muddle</i></td></tr>
+      <tr><td width="250px">Recover</td><td>Add 2x rolling <i>Heal 1</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey">The Nightshroud has a few key items that can be very beneficial. To minimize spoilers, I will try to gradually reveal my suggestions by prosperity level.</div>
+  
+    <button id="items-prosperity1" onclick="accClick('acc-items-prosperity1')" class="w3-btn w3-block w3-left-align"><h4>Prosperity 1</h4></button>
+    <div id="acc-items-prosperity1" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container">Always useful for basically any character, the Nightshroud benefits from them more than most, since it enables back-to-back executions. I would generally recommend conserving the potion until later in the scenario when one only has 5-6 cards left (or fewer, if you ever get to that point), since then a stamina potion can get you back the right cards at the right time to set up a combo.</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-005-cloak-of-invisibility.png">
+          <p class="w3-container">We generate a huge amount of invisibility on our own, but it's quite helpful to be able to turn ourselves invisible before a long-rest, or plug a hole that occurs later in a scenario once our combos start to fall apart due to having lost a couple cards.</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container">Especially early in our development, we are a melee character that is quite slow, so getting a +2 boost once per hand cycle will be very helpful.</p>
+        </div>
+        
+      </div>
+    </div>
+    <button id="items-prosperity2" onclick="accClick('acc-items-prosperity2')" class="w3-btn w3-block w3-left-align"><h4>Prosperity 2</h4></button>
+    <div id="acc-items-prosperity2" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-018-battle-axe.png">
+          <p class="w3-container">Once per scenario, we can do an extra attack 8 if we use this with Silent Force, which is pretty great. It would be a mainstay if not for another item we'll unlock later.</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-020-minor-mana-potion.png">
+          <p class="w3-container">Once per scenario, we can generate some emergency Dark (or another element, for Swallowed by Fear). This is only a failsafe for us, due to being single use, but good to have later in a scenario when our combos start to break down.<br>Note that the rules permit usage of items during a long-rest turn, so one way to use it later in a scenario is to lose some of our T1 cards and start executing immediately after our long rest. Another good trick is to use it as a 'shield' for our <i>Dark</i> if a monster is about to consume a wild element, since we can pop this potion to generate some other random element and have the monster eat that instead of our <i>Dark</i>.</p>
+        </div>
+        
+      </div>
+    </div>
+    <button id="items-prosperity3" onclick="accClick('acc-items-prosperity3')" class="w3-btn w3-block w3-left-align"><h4>Prosperity 3</h4></button>
+    <div id="acc-items-prosperity3" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-026-long-spear.png">
+          <p class="w3-container">This was the MVP of my items, as it provided a reusable way to generate a free extra attack 8, when I triggered it with Silent Force. The shape of the AoE requires a little bit of setup, but you can often body-block the monsters into the shape you want by acting as an invisible obstacle (and often this will just happen on its own if there is a pileup in front of a door you're jamming). I played in a party of 3 which was a slightly more target-rich environment, so maybe this wouldn't work as well for a party of 2, but I was reliably able to set up this combo ~2-3 times per adventure. During the perk discussion above, I'd referenced an item that would further cause us to want to build our perk deck around Silent Force's attack 8, and this is it, by nearly doubling the frequency with which that attack 8 occurs.</p>
+        </div>
+        
+      </div>
+    </div>
+    <button id="items-prosperity4+" onclick="accClick('acc-items-prosperity4+')" class="w3-btn w3-block w3-left-align"><h4>Prosperity 4+</h4></button>
+    <div id="acc-items-prosperity4+" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container">Same logic as the minor one, but better. Make sure you play this when you have an odd number of cards, so that it effectively provides 2 more turns of life, instead of only 1.</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-036-boots-of-dashing.png">
+          <p class="w3-container">Obvious upgrade vs Striding</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-045-pendant-of-dark-pacts.png">
+          <p class="w3-container">Excellent way to recover double stamina potions, or to recover the outstanding solo adventure item</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-088a-wand-of-darkness.png">
+          <p class="w3-container">Reusable generation of <i>Dark</i>, which is excellent. In an ideal world, we get a friend to hold onto this for us, to free up our hands for the long spear. If our companions are either intransigent or destitute, however, then we can fall back to holding this ourselves, along with a Battle-axe (or wand of another element if needed).</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-042-ring-of-haste.png">
+          <p class="w3-container">Getting another bottom action in a turn can help plug gaps in our combos, by removing the forced choices between generating Dark or turning invisible, for example. You can think of this item almost like another invisibility cloak (if played with Black Arrow or Lurking Ruin) that can be used instead as a mana potion in a pinch (if played with any of our Dark generators). Although almost never the best use of this item, it is also the one that enables the craziest bursts of speed. In the most extreme case, if we play Unseen Dread for the bottom (move 6) and Empowering Void for that quirky top (double all movement), then also trigger our Boots of Sprinting (move 4) and use a Ring of Haste to drop in Angel of Death (move 5), that is 2 * (6+4+5) = 30! Alternately, the same process swapping in the loss action of Silent Force for Angel of Death and we can instead move 32 and then loot 1 immediately afterwards. Not that useful in most scenarios, but probably breaks others that revolve primarily around looting or standing on a specific hex. Finally, this card can also obviate our issue of needing to play an inferior 9th card, by allowing us to play (and therefore discard) all 9 of our cards before the first long rest.</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-143-smoke-elixir.png">
+          <p class="w3-container">Generates Dark and turns us invisible, setting up both of the things we care about. Goes a long way towards setting up our combos, and can also be consumed on a long rest if needed (though this is not optimal, since turning invisible at the end of a round halves the effective duration of invisibility).</p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Shadow based on Wakystuf build (<a href="https://www.reddit.com/r/Gloomhaven/comments/erhkqq/eclipse_class_guide_contains_spoilers_for_this/">https://www.reddit.com/r/Gloomhaven/comments/erhkqq/eclipse_class_guide_contains_spoilers_for_this/</a>)</div>
+</footer>
+
+</body>
+</html>
+  

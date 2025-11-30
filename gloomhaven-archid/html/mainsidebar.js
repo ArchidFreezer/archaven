@@ -98,6 +98,7 @@ function sidebarMainDropClick(id) {
     <button class="w3-button" onclick="sidebarMainDropClick('nsDrop')">Nightshroud <i class="fa fa-caret-down"></i></button>
     <div id="nsDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
       <a href="ns-main.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="ns-shadow.html" class="w3-bar-item w3-button">Shadow</a>
     </div>
   </div>
   <div class="w3-dropdown-click">

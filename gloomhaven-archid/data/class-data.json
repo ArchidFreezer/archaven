@@ -641,7 +641,7 @@
 				{
 					"id": "greaterimmunity",
 					"name": "Greater Immunity",
-					"effect": "Ignoire negative scenario effects and add 2x +1"
+					"effect": "Ignore negative scenario effects and add 2x +1"
 				}
 			]
 		},

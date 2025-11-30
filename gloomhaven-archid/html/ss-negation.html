@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soothsinger Negation</title>
+  <!-- This uses the css from the W3.CSS open source project https://www.w3schools.com/w3css/default.asp -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../archaven.css">
+</head>
+<body>
+
+<script src="mainsidebar.js"></script>
+<script src="buildsidebar.js"></script>
+<script src="../../archaven.js"></script>
+
+<header class="w3-top w3-display-container w3-green" style="height:60px">
+  <button class="w3-button w3-xlarge w3-display-left" onclick="mainsidebar_open()">☰</button>
+  <h1 class="w3-display-middle">Soothsinger Negation</h1>    
+  <button class="w3-button w3-xlarge w3-display-right" onclick="buildsidebar_open()">☰</button>
+</header>
+
+<!-- Body -->
+<div class="w3-container" style="margin-top:60px;z-index:-1;">
+  
+    <!-- Description -->
+    <button id="description" onclick="accClick('acc-description')" class="w3-btn w3-block w3-left-align"><h2>Description</h2></button>
+    <div id="acc-description" class="w3-container w3-hide">
+    
+    <h2 class="w3-light-grey">Overview</h2>
+      <div class="w3-container">The Soothsinger is, in my opinion, the most versatile class in the game. No matter your party composition, no matter the scenario or situation, no matter the stage of character development or difficulty of the game/campaign, she is always going to have many options available to her to make a big impact. This makes her a blast to play. Playing her, you'll never feel like you're weak, or not useful in a specific party or scenario. Also, all your party members will love having you around because of what you bring to the party.</div>
+      <div class="w3-container"><p>Before I start, let me set the stage:<ol><li>This guide is for playing Soothsinger as what is broadly called a 'support' character. I'm going to assume you have at least one other primary damage dealer in you party and that you aren't expected to contribute directly to attacking. That's the only thing you'll need -- a tank is neither needed nor assumed.</li><li>I play the Soothsinger in 3-4 character parties. In a 2 character party, you may need to have slightly more offensive focus if your partner is a medium damage dealer only.</li><li>This guide is written with the 'late-game' in mind (high character level, high scenario difficulty level). The Soothsinger is a very powerful and versatile classes at all stages of the game, and you can get away with doing almost anything you want. As a result, it is only as the game gets much harder that you need a more focussed strategy, and this is what this guide is for.</li></ol></p></div>
+      <div class="w3-container"><p>When I refer to 'late-game' in this guide, this refers loosely to situations where monsters begin to become very strong, and start to make modest numbers like Attack 3 or Shield 1-2 look relatively insignificant. This generally comes as you approach character level 9, but can come earlier if you start to bump the scenario difficulty higher than the recommended level.</p></div>
+      <div class="w3-container"><p>I've played a lot of the Soothsinger to great effect at scenario difficulty 6-7, so those are my credentials.</p></div>
+      <div class="w3-container"><p>An important tip top note with Songs: always pay attention when you rest to whether you should bring the Song back or not. If bringing the Song back will result in an even hand size, you'll be netting a turn of longevity, which is very welcome on this low-longevity class. Additionally, as you lack top actions, many times you don't even mind spending your top action for the turn (re)playing a Song, doubly-so if you have your solo item. Obviously if you're in the middle of some really intense combat, you're usually better off not bringing the Song back so that you can immediately play a top CC action, so you do need to read the situation.</p></div>
+    <h2 class="w3-light-grey">Main Elements of Negation Gameplay</h2>
+    <h3 class="w3-light-grey">Supporting and Negating</h3>
+      <div class="w3-container">From here on out, I'm going to split up the broad idea of 'support' into two. The Soothsinger excels at two things:<ol><li>'Support' abilities: supporting allies directly in terms of defence, offence and utility, usually by providing passive song bonuses or active bonuses.</li><li>'Negation' abilities: negating monster effectiveness, mainly through: (i) crowd control abilities (stun/disarm); and (ii) curses.</li></ol></div>
+      <div class="w3-container"><p>Both supporting and negating are useful, and what's great is that the Soothsinger has so many types of each in her arsenal. For the most part, you can focus on whichever you find more interesting and you'll get by.</p></div>
+    <h3 class="w3-light-grey">Changing with Monster Levels</h3>
+      <div class="w3-container">As you start to approach late-game, the equation starts to change. Almost all of the Soothsinger's supporting abilities are numerically based, meaning they have set numerical values.</div>
+      <div class="w3-container"><p>Examples:<ul><li>In defence: her shield song (Defensive Ditty [1]) gives Shield 1 to all allies, and this isn't going ever to improve.</li><li>In offence: she can make an ally perform an Attack 4 (Call to Action [1]), and this particular card isn't getting any stronger. Or her +1 attack song (Power Ballad [1]) will give, of course, +1 attack, and no more.</li></ul></p></div>
+      <div class="w3-container"><p>This makes her supporting abilities weaker as enemies get stronger. That Shield 1 is great when enemies are hitting you with Attack 2 or 3, by mitigating 33-50% of damage on average. When the enemies are hitting you with Attack 5 or 6, that Shield 1 is starting to look less useful, mitigating only 16.6-20% of damage on average. It's still better than nothing, of course, but there's the opportunity cost of not playing a better card instead</p></div>
+      <div class="w3-container"><p>In contrast, negating abilities scale completely with the strength of monsters. A stun or disarm, stops a monster from attacking at all. It mitigates 100% of any given attack, no matter how big. The same is true for curses. As a result, the Soothsinger's negating abilities are what makes her really shine in the late-game. At the same time, it is just as effective at early to mid-game, so you lose nothing by investing in the late-game and focusing on negation.</p></div>
+    <h2 class="w3-light-grey">Build Philosophy</h2>
+      <div class="w3-container"><ol><li>As explained above, we prioritise negating ability cards over supporting ability cards.</li><li>Pick one or two songs which suit your party/scenario, and stick to them. In 90% of situations, I use the same song for a whole scenario (picking it up when resting if needed to get an even-numbered card hand, in order to maximise the number of turns, of course). There is no need to bring extra song cards, 'just in case' the song is useful. As a result, you're able to bring some cards with powerful active (non-song) top-side actions. This means that switching songs often is a big opportunity cost, since you give up a powerful active top-side action, so this provides more reason to stick with one song. Think of the song as a nice constant passive bonus, but no more -- the active negating abilities are your most important actions.</li><li>Many of the Soothsinger's most powerful active actions are bottom-side actions. This means you don't get to move often. But when you do move, make it count, so that you're in the best position to do a powerful bottom-side action the next turn or two. This means we need to have a couple big move cards in our deck. I will refer to these two cards as your two 'primary' move cards. This may be supplemented by slightly smaller 'secondary' move cards.</li><li>The Soothsinger has a small hand size of 9, and has so many immensely powerful non-loss cards (some are more powerful than the loss actions of many other classes). As a result, we want to maximise the longevity of her ability to play these cards repeatedly. For the Soothsinger, no action is worth losing a card over, unless it's for a critical moment in very situation-specific situations, so we aren't going to pick a card just for its loss action.</li></ol></div>
+      <div class="w3-container"><p>In summary, we are going to pick our cards when we level up with the above things in mind. This means that: (i) we will choose negating cards over non-scaling supporting cards; (ii) skip songs which will get replaced later on, or which are outclassed by a non-song card that level, and prefer songs that aren't very situationally dependent; (iii) give high priority to big move cards; (iv) generally ignore the lose actions on cards.</p></div>
+    </div> <!-- description -->
+    
+  <!-- Build Decks -->
+  <div class="w3-container">
+    <h2 id="deck">Build Deck</h2>
+  
+    <button id="level-1" onclick="accClick('acc-1')" class="w3-btn w3-block w3-left-align">Level 1</button>
+    <div id="acc-1" class="w3-container w3-hide">
+    
+      <button id="level-1-new" onclick="accClick('acc-1-new')" class="w3-btn w3-block w3-left-align">New Level 1 Cards</button>
+      <div id="acc-1-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Applying one Strengthen with a top action is a lot different than applying three Strengthens.<p>Notice that there is no range constraint on this action.</p></p>
+              <hr>
+              <p>Meanwhile, the bottom action provides a ton of damage for a level 1 bottom action, which is only held back by pretty much requiring a melee ally.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Call to Action immediately proves the point about how this class's effectiveness depends greatly on the number of party members.<p>In our build, Call to Action is a fine card. It has a few things going for its top. First of all, we're very bottom-heavy, as already described, thus a top action that does *something*, regardless of where we are relative to our allies, is nice (as we spend many turns not wanting to move). It also has one of our two late initiatives, which is welcome, although both the top action and the initiative aren't as good as Singing Arrow, but it's still a perfectly acceptable second fiddle.</p><p>We're happy to have the card for a bit just for the top, and the bottom is pure bonus.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Ah, here it is, our best level 1 Song. Defensive Ditty represents blocking an enormous amount of damage per scenario. It's like healing, only better, because it's preventative and extremely action-efficient.</p>
+              <hr>
+              <p>Fortunately, the bottom action on this card is great against hard-hitting enemies, allowing you to leave your other Song up against them and negate their damage a different way (and the Curse-centric nature of this class will also play extremely favourably in the long run against tough individual enemies).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This Song will be your most common first-turn play, and you'll use it for the majority of most scenarios. That being said, there are some situations where it's less impressive. Bosses are the most obvious, but also scenarios with more enemies like Night Demons or Stone Golems, who come in small numbers and hit very hard. In those cases, this will block less damage as there will be less enemy attacks, and you'll want more damage (a la Power Ballad) to break through their thick hides.<p>Defensive Ditty also has great initiative, allowing you to play your bottom action safely the first turn of the scenario when you get this Song up or guaranteeing (most of the time) that the bottom goes before the enemy you want to block.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top action can be great for helping low-movement summons or characters, although as we're also not the fastest moving character with this build, it runs the risk of not being very helpful as it's often us who will get left behind. Still, on some scenarios this effect can be quite useful.</p>
+              <hr>
+              <p>Meanwhile, the bottom is another Move 4, but again, we'd only bring this if we really wanted two Move 4's, as Nimble Knife is just better.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Marching Beat has a number of applications although it's one of the least intrinsically-powerful cards.<p>At early levels, there's nothing wrong with a Move 4 that can sometimes do other things, freeing us up to use the top of Nimble Knife more often.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>A decent top action with a lot of flexibility. We're squishy and have a tiny hand size so getting into melee can be risky but there are still many opportunities in most scenarios where we can get away with it and we have a broken modifier deck so we're happy for any opportunity we get to attack. Additionally, the Bless action on top is a main line ability, meaning we can use this just to Bless an ally without needing to attack.</p>
+              <hr>
+              <p>Move 4 is the biggest move we'll get with this build, meaning this card will certainly come in on some scenarios where we know that we personally need a bit more movement.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Nimble Knife is another nice card for a number of reasons.<p>While a top action that just Blesses one ally is underwhelming while in combat, getting a free Bless while moving from room to room is always welcome.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Power Ballad is a Song option and it's a pretty good one. Do note that this is only ONE attack per turn, meaning it's not great with AOE, but it is great with summons.</p>
+              <hr>
+              <p>The bottom action here is also quite welcome as it's a Move with a sizeable bonus attached. Unfortunately, as we won't have Boots of Striding, it can be hard to get too much value off of this without our allies playing around it, but honestly you can be more than happy even if you just hit one ally on average with this bottom action, at least at early levels.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Sometimes you just need damage more than survivability. While our survivability Songs are certainly more effective overall, in some situations you'll happily trade generic effectiveness for relative effectiveness. A good example would be on boss fights, where blocking 1 damage per turn from an Attack 8 is pretty meaningless, but 3 extra damage towards the boss per turn is quite helpful.<p>Finally, at level 1 at least, 19 initiative isn't bad for us in terms of going fast (although we'll quickly outpace that).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>While the top action is no Throw Voice, it's still quite good, especially considering how much value we can get out of bottom actions by being able to play a ranged top action with lenient targeting restrictions (it's almost always better to get a non-move bottom and hit 2 enemies with this than worry about getting 3 and be forced to move).</p>
+              <hr>
+              <p>The bottom of Singing Arrow is really powerful for a level 1 bottom attack but as the same old song goes - we just have other cards we ONLY want to play for bottoms so we'll really need to use this for a top most of the time. Still, the Wound can be quite helpful against some enemies (Wind Demons, Living Spirits, Vermling Shaman, low-level Flame Demons, etc.) so never say never if your party lacks other sources of Wound.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Singing Arrow is very good for us as it provides another very nice top action paired with some really helpful initiative. While we have a couple good late initiatives at beginning, we'll quickly lose the other and be left with just this or a 78, which is much less reliable.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top is a niche action that will be very helpful on some specific scenarios but isn't that great generally-speaking compared to your other Songs.</p>
+              <hr>
+              <p>The bottom is okay, but ultimately also compares poorly to your other great bottom actions. Muddle combines well with Curse but you won't give out that many Curses pre-4 and once you're 4, you won't really need the Muddle as Dirge is a one-card combo.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Song of Speed is a niche card that will be very helpful on some specific scenarios but isn't that great generally-speaking compared to your other Songs. Still, when it's good, it's great (obviously on scenarios where you need to move a lot to win and combat is less central).<p>If you ever want to play Gloomhaven on 'hard mode', try Scenario 38 and leave this song up the entire time. (credit: /u/Themris for the idea, please direct all rage towards his inbox).</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Absolutely nothing can replace the top of Throw Voice because it's, by far, your best top action and you desperately need top actions. On top of that, the top effect is just insane - non-loss AOE disable at level 1! Sure, it's a bit worse against healers and a lot worse against summoners, but it's a small price to pay for the safety of knowing a clump of enemies won't be attacking you this turn.</p>
+              <hr>
+              <p>This card also apparently has a bottom action but if you just read it as 'you managed to keep Throw Voice until the end of the scenario! Congratulations, you gain 1 xp!' then you won't be far off.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Throw Voice is your best level 1 card. Sure, your Songs have an enormous impact on each scenario but you could replace Ditty with Ballad or Song of Speed and you'd still be adding a lot, even if it's not quite as good.<p>Short rest advice: DO NOT LOSE THIS CARD TO A SHORT REST BEFORE LEVEL 6. As far as you're concerned, you're a Spellweaver and this is Reviving Ether (again, pre-6). Even Disorienting Dirge, the best level 4 card in the game, is safer to lose than this. If you hit this on a short rest, reroll every time (pre-6). If you hit something else, consider the number of cards in your hand and the value of that card vs the risk of losing this one. I'd generally reroll Dirge if I had something like a 1/5-1/7 to hit this but otherwise I wouldn't even reroll Dirge.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Because we don't want to have to move a lot as we want to play a lot of non-move bottom actions, it's more difficult to consistently hit all our allies with this top action. The top will be at its best when moving from room-to-room, where we'll easily be able to have our allies group up for some nice Blesses.</p>
+              <hr>
+              <p>Meanwhile, the bottom is a Move 3 with a free Curse thrown in, which is just nice. Unfortunately, our other bottom actions are so good and we need tops so much that we'll rarely use the bottom, but that's okay.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Tuning the Outcome is a good card with two good halves.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>5 Curses and requires playing a number of other actions afterwards? When we have a non-loss that already gives 2-3 immediately (and eventually Dirge)?</p>
+              <hr>
+              <p>Fortunately, the bottom is a bit better. It's kind of a half-way compromise between moving and playing a powerful non-move. Still, this action has a number of problems: it has tough positional requirements with only a Move 2, requiring you to end next to where your tank is or will be, which also opens you up to multi-target/AOE attacks from enemies.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Unending Chant is our first legitimately underwhelming card. A top loss on a class with 9 cards that also sometimes leaves persistent cards up and loses longevity accordingly would need to be really powerful.<p>The biggest problem, however, is just one of initiative. Shield is only good if you go before enemies and this card, inexplicably, has horrible initiative. On top of that, you simply don't have non-Song top actions with good initiative; you won't play Songs many times in a scenario so you can't count on them for initiative and your bottom actions with good initiative aren't going to help you play this card any more effectively. The best use would be the first turn of a scenario, combined with Defensive Ditty for initiative, but that's still pretty narrow for this card unless you can guarantee a long rest afterwards and on top of that, first rooms will typically put you in a spot where you don't need to move, in which case you have a ton of better bottom actions.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Having to get into melee in order to do an Immobilize Attack 3 as a squishy ranged character is just not worth it in terms of the risk/reward. Even with our great modifier deck, this just isn't the action you're looking for (outside of 2p, where it can be better, but again this guide is not for 2p) and you'll have much better actions by the time you get a good enough modifier deck.</p>
+              <hr>
+              <p>Meanwhile, the bottom has pretty much all of the same problems as Unending Chant only magnified because it's a loss on a class that really wants to avoid losses because of hand size.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Warding Dagger continues the trend of underwhelming cards.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Wound is obviously awkward to add to all attacks as it doesn't stack with itself meaning each additional attack on the same target will have no bonus applied.</p>
+              <hr>
+              <p>And the bottom is kind of funny, making a typical bottom a bit better by adding an Attack. You'll never be happy to bring this bottom outside of scenarios where you're required to bring a Loot action, but on those scenarios you'll definitely be happy to have the added attack (especially as your modifier deck improves).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Wistful Wounding is our worst Song yet although the bar was quite high with two that were very good generically and one that was excellent situationally.<p>The idea is just to switch this on for 1-2 turns and attack a bunch of different targets but first of all, that's highly situational for a card that also has a pretty situational bottom and that actively encourages bad targeting (it's typically much better to focus-fire enemies to eliminate incoming damage as quickly as possible). The biggest advantage this has over Power Ballad as an offensive song is that it does work with AOE attacks so it's possible this might work in some parties that are something like Soothsinger + rarely-attacking tank + low-damage, multiple non-loss large AOE attacks ranged class such as the Quartermaster with their level 6 card.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <p></p>
+      </div> <!-- new level 1 cards -->
+  
+      <button id="level-1-choices" onclick="accClick('acc-1-choices')" class="w3-btn w3-block w3-left-align">Level 1 Choices</button>
+      <div id="acc-1-choices" class="w3-container w3-hide">
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Core</h3>
+          <p>Thses are the cards that are useful to us.</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+              <div class="w3-container">Primary song</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png">
+              <div class="w3-container">Secondary song</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+              <div class="w3-container">Movement</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png">
+              <div class="w3-container">Movement</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png">
+              <div class="w3-container">Movement + Negation</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+              <div class="w3-container">Negation</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+              <div class="w3-container">Negation</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png">
+              <div class="w3-container">Support</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+              <div class="w3-container">Utility/Flex</div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-light-grey">The Rest</h3>
+          <p>These are the card we will be leaving behind</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png">
+              <div class="w3-container">This is a sideboard card that we could bring for some scenarios that require big movement.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png">
+              <div class="w3-container">We are not interested in losses and the initiative makes the bottom fairly useless with out fast cards being songs and that would mean this is only useful on round 1.</div>
+            </div>
+        
+            <div class="w3-card-4" style="width:250px">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png">
+              <div class="w3-container">Melee card that is no use to us at all.</div>
+            </div>
+        
+          </div>
+        </div>
+      </div> <!-- choices -->
+    
+      <button id="level-1-hand" onclick="accClick('acc-1-hand')" class="w3-btn w3-block w3-left-align">Level 1 Hand</button>
+      <div id="acc-1-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png">
+                <p class="w3-pale-green">Secondary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png">
+                <p class="w3-pale-green">Powerful support</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, Ranged <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 1 cards -->
+    
+      </div> <!-- level 1 hand -->
+      
+  
+      <button id="level-1-deck" onclick="accClick('acc-1-deck')" class="w3-btn w3-block w3-left-align">Level 1 Deck</button>
+      <div id="acc-1-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 1 deck -->
+  
+    </div> <!-- level 1 -->
+    
+    <button id="level-2" onclick="accClick('acc-2')" class="w3-btn w3-block w3-left-align">Level 2</button>
+    <div id="acc-2" class="w3-container w3-hide">
+    
+      <button id="level-2-new" onclick="accClick('acc-2-new')" class="w3-btn w3-block w3-left-align">New Level 2 Cards</button>
+      <div id="acc-2-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top gives us AOE CC (crowd control) although Immobilize is much, much worse than Disarm or Stun. It only works on melee enemies and most of them can always do things like Heal, Shield, or perform ranged attacks, so it's never sure to be effective. Additionally, melee enemies that mainly just move and attack are also usually the least-threatening enemies in the room, making CC'ing them not much of a priority.</p>
+              <hr>
+              <p>Big move 5 on bottom, with an enhancement dot as a bonus.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>This has a top action on a class that wants more of those.<p>For someone not playing our build with Comfy Shoes, I'd say this card is probably a necessary pick.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The Song can be used when moving from room to room for some free healing or if you desperately need to remove some Poison/Wound from your allies.</p>
+              <hr>
+              <p>Bottom heals are exceptional value and this one is very powerful in terms of effect/range for the level, at least at level 2 it does scale quite poorly though.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Soothing Lullaby is a very nice card at early levels although it does scale somewhat poorly. First of all, it gives us an 11 initiative, which is welcome. The initiative remains good as we level and the top Song can still be quite useful for removing conditions even at high levels.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-power-ballad.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">The cleansing of the song is incredibly useful in multiple scenarios where enemies apply <i>Poison</i> or <i>Wound</i> and the bottom ranged <i>Heal</i> can be used in others.<p>We don't need a third song so we replace Power Ballad.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 2 cards -->
+  
+      <button id="level-2-hand" onclick="accClick('acc-2-hand')" class="w3-btn w3-block w3-left-align">Level 2 Hand</button>
+      <div id="acc-2-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png">
+                <p class="w3-pale-green">Powerful support</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, Ranged <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 2 cards -->
+    
+      </div> <!-- level 2 hand -->
+      
+  
+      <button id="level-2-deck" onclick="accClick('acc-2-deck')" class="w3-btn w3-block w3-left-align">Level 2 Deck</button>
+      <div id="acc-2-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 2 deck -->
+  
+    </div> <!-- level 2 -->
+    
+    <button id="level-3" onclick="accClick('acc-3')" class="w3-btn w3-block w3-left-align">Level 3</button>
+    <div id="acc-3" class="w3-container w3-hide">
+    
+      <button id="level-3-new" onclick="accClick('acc-3-new')" class="w3-btn w3-block w3-left-align">New Level 3 Cards</button>
+      <div id="acc-3-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-crippling-chorus.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>This is basically a 'Time Walk' (an ability that just skips the entire opponent's turn), in this case pretty much allowing you to Stun the entire room of enemies. Still, losses are very costly for us with our built-in (and quite necessary) longevity issues.</p>
+              <hr>
+              <p>Fortunately, the bottom action is also good as a move with Disarm tacked on, allowing us to CC a smaller number of enemies without having to spend the loss earlier in the scenario. </p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Crippling Chorus is the type of loss we can get behind.<p>Unfortunately, this card does have really bad initiative, meaning it needs help to be effective. The biggest argument against this card is that, at least at levels 3-6, Echoing Aria's bottom with Ditty as a Song will basically do 80-90% of what the top loss on Chorus would do anyway, only without costing a loss. Then having Aria also helps our initiative enormously as well.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-echoing-aria.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>I wouldn't recommend playing the top Song often - I'm on my third Soothsinger and I've probably played it less than 10 total times for the actual effect, almost certainly all of them involving Flame Demons. It is specifically very good against Flame Demons and still decent against some other, similar enemies but by having to put Ditty away and not getting the bottom of Aria at the same time, you will be taking some significant damage to deal damage to them. Still, many times you'll be happy to have ANY method of taking down Flame Demons, even if it's messy.</p>
+              <hr>
+              <p>ut on to the main part of this card - Shield 2 on all allies within range 3 at 8 initiative! This action is bonkers! Range 3 is pretty huge for allies so you'll usually hit just about everyone that matters with no effort required.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Echoing Aria is an incredible card although pretty much entirely for the bottom.<p>This bottom combined with Ditty as a Song for a total of Shield 3 will negate almost all incoming damage that round at level 3 and still 3/4 or 3/5 at higher levels (which can easily be added to by some defensive abilities/items on the tank).</p><p>Finally, if we have Comfy Shoes, this also functions as a Move 3 with 8 initiative, allowing us to get our top CC actions before monsters go.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-nimble-knife.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We don't want retaliate on a song so we can work on our movement instead and the ability to lock down pesky high shield/low health enemies replacing Nimble Knife, the weaker of our two primary move cards.<p>Change Tempo also has a nice enhancement dot on the bottom calling out for <i>Jummp</i>.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 3 cards -->
+  
+      <button id="level-3-hand" onclick="accClick('acc-3-hand')" class="w3-btn w3-block w3-left-align">Level 3 Hand</button>
+      <div id="acc-3-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png">
+                <p class="w3-pale-green">Powerful support</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Move 3, Ranged <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 3 cards -->
+    
+      </div> <!-- level 3 hand -->
+      
+  
+      <button id="level-3-deck" onclick="accClick('acc-3-deck')" class="w3-btn w3-block w3-left-align">Level 3 Deck</button>
+      <div id="acc-3-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 3 deck -->
+  
+    </div> <!-- level 3 -->
+    
+    <button id="level-4" onclick="accClick('acc-4')" class="w3-btn w3-block w3-left-align">Level 4</button>
+    <div id="acc-4" class="w3-container w3-hide">
+    
+      <button id="level-4-new" onclick="accClick('acc-4-new')" class="w3-btn w3-block w3-left-align">New Level 4 Cards</button>
+      <div id="acc-4-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Once you have <i>Curses</i> in the monster deck let this rip and watch them miss.</p>
+              <hr>
+              <p>Until that point play the his bottom to start getting the <i>Curses</i> in their deck.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>I've already mentioned it in this guide and I'll say it again clearly here: Disorienting Dirge is the best level 4 card in the game. That clearly means it's better than whatever the other level 4 card is from the same class. So why is Dirge so good? Well, as alluded-to before, it's a one-card combo.<p>You ignore the top Song for a while in each scenario and just play the insane bottom. Each bottom action should yield around 3-5 Curses, on average (sometimes more), and 2-3 Blesses, depending on your party size. Then, after about 2 rest cycles (or less, with Stamina Potions) of playing this bottom action, combined with the top of Singing Arrow, you easily reach 8+ Curses in the monster deck, and switch out your Song for this one. Now you're negating ~60% of enemy attacks, which just makes most fighting trivial. You burn through those Curses pretty quickly, and you're back to the bottom, then back to the top, then back to the bottom, then back to the top. Now you're on a boat. You get the idea.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-inspiring-anthem.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Moving allies is not where we are at, we have enough struggles moving ourself never mind another character.</p>
+              <hr>
+              <p>This action is usable as there is no range limnitation and there is an enhancement dot so this can be a powerful action if we have a melee character to be the target.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Inspiring Anthem is, quite ironically, extremely uninspiring compared to Dirge. Honestly, it doesn't even compare that favourably to Call to Action. Call to Action had much better initiative and a pretty much non-situational top. Here you've got two situational halves in exchange for 1 better Attack on bottom with removed range restrictions. Meh. Fortunately, we don't feel bad passing this card up while being forced' to take Dirge</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take one of the best cards in the game, throwing our <i>Curses</i> on the bottom and negating enemies with them on the top.<p>We can't afford to lose our top actions as we have so few of them and we are replacing one curse spreader with a more powerful one, though we may miss the Move, but next level we will be getting move movement back.</p></div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 4 cards -->
+  
+      <button id="level-4-hand" onclick="accClick('acc-4-hand')" class="w3-btn w3-block w3-left-align">Level 4 Hand</button>
+      <div id="acc-4-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png">
+                <p class="w3-pale-green">Powerful support</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 4 cards -->
+    
+      </div> <!-- level 4 hand -->
+      
+  
+      <button id="level-4-deck" onclick="accClick('acc-4-deck')" class="w3-btn w3-block w3-left-align">Level 4 Deck</button>
+      <div id="acc-4-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 4 deck -->
+  
+    </div> <!-- level 4 -->
+    
+    <button id="level-5" onclick="accClick('acc-5')" class="w3-btn w3-block w3-left-align">Level 5</button>
+    <div id="acc-5" class="w3-container w3-hide">
+    
+      <button id="level-5-new" onclick="accClick('acc-5-new')" class="w3-btn w3-block w3-left-align">New Level 5 Cards</button>
+      <div id="acc-5-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The real meat of Melody and Harmony is the top action, which is just excellent for us. We don't get a lot of opportunities to attack safely from range with the Soothsinger but our modifier deck is so excellent that we need to take any we can. An Attack 3 for us becomes much more akin to an Attack 5 + bonus, and getting that while still moving is awesome. While we can play any of our cards for Move 3's, when we are sure we're going to have to move (most commonly on entering new rooms), getting a large bonus is sweet.</p>
+              <hr>
+              <p>Melody and Harmony has a really tempting bottom but you need to be careful using it - the longevity cost of having this + two Songs is just insane (especially because you can't easily bring back and refresh the two Songs to avoid losing turns on rests because then you'll never get to play Disarming Voice and Provoke Terror in a timely fashion).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>The bottom does still have some application on really short boss fight scenarios or other, similar scenarios which you expect will last 10 rounds or less. In that case, you'll usually (for bosses at least) have Dirge + Power Ballad (or Captivating Performance at level 9) up, as Ditty isn't very good as a Song on most boss fights.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-mobilizing-measure.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Mobilizing Measure's Song is a bit underwhelming. It has some applications, specifically with allies that have a lot of bottom Attack actions, but for general use it's definitely not more compelling than our trio of excellent Songs (Ditty, Dirge, and Ballad).</p>
+              <hr>
+              <p>The real reason to take Measure is simply for the bottom action, which is a pretty crazy Move 6 with 6 initiative. We already have an 8, a 9, and an 11, so the initiative isn't that important for us, and if we use Comfy Shoes we're less obligated to take big move actions like this one.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Still, it can be an excellent sideboard card, even for the Comfy Shoes build, to tackle certain scenarios. We won't take it immediately, up against Melody, but we will consider it down the road.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+                <p class="w3-pale-green">Move, Ranged Attack</p>
+                <p class="w3-pale-blue">Boss/Alamo scenarios</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-call-to-action.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take the top move which has great utility for us with our powerful bottom actions, replacing the weakest of our top actions, though losing the bottom synergy with the Mindthief, if we have it, is a shame.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 5 cards -->
+  
+      <button id="level-5-hand" onclick="accClick('acc-5-hand')" class="w3-btn w3-block w3-left-align">Level 5 Hand</button>
+      <div id="acc-5-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+                <p class="w3-pale-green">Move, Ranged Attack</p>
+                <p class="w3-pale-blue">Boss/Alamo scenarios</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 5 cards -->
+    
+      </div> <!-- level 5 hand -->
+      
+  
+      <button id="level-5-deck" onclick="accClick('acc-5-deck')" class="w3-btn w3-block w3-left-align">Level 5 Deck</button>
+      <div id="acc-5-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 5 deck -->
+  
+    </div> <!-- level 5 -->
+    
+    <button id="level-6" onclick="accClick('acc-6')" class="w3-btn w3-block w3-left-align">Level 6</button>
+    <div id="acc-6" class="w3-container w3-hide">
+    
+      <button id="level-6-new" onclick="accClick('acc-6-new')" class="w3-btn w3-block w3-left-align">New Level 6 Cards</button>
+      <div id="acc-6-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Ranged AoE Stun. What more is there to say!</p>
+              <hr>
+              <p>You'll almost never use the bottom action because you don't have enough good tops and this top is waaaaay too good but sometimes with traps or boss fights it will come up.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Oh... Provoke Terror, you silly, silly card, you. Disarming Voice was insane at level 1, Provoke Terror is still insane at level 6.<p>There are only two downsides to Provoke Terror: how easy scenarios just became and that it costs a lot more to enhance than Voice. Your top/bottom action ratio is also mostly solved now as you'll commonly use both Voice and Terror top over the course of two turns then Stamina Potion then both back and get to play them for two more turns with more of your great bottom actions. It feels like I should say more about this card but I think just looking at it should say enough for most players.</p></p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-pull-the-strings.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top effect is very powerful but also a bit awkward as a Song - typically you want this effect at least a couple times per scenario but it's not something you want every turn (I mean, it doesn't hurt, but it's less frequently useful than Attack or Shield). Thus, the top is more appropriate if you plan on cycling Songs more often rather than firing-and-forgetting.</p>
+              <hr>
+              <p>The bottom of Pull the Strings is also very cool and very powerful and makes up for the top being more situational by being much more broadly-applicable. Not great in scenarios with a bunch of small, weak enemies, but in scenarios with some hard-hitters this can be some devastating damage from a bottom action. The worst part (other than being at level 6 against Provoke Terror) is that it doesn't use your beautiful modifier deck (it also adds another good bottom action, which does become a bit of an issue for us, especially with what we'll want to take at level 7).</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Pull the Strings is a really cool card.<p>The issue with the top is you're level 6 now and you have some insane top actions to play, so playing Songs has a real cost. Still, it can certainly be an effective strategy, although you'll definitely want to do your solo scenario if that's your plan (and again, it shouldn't be a plan you adopt at level 6 because of Provoke Terror).</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-provoke-terror.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+                <p class="w3-pale-blue">Ranged Attack</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take the negation card for the <i>Stun</i> and move Soothing Lullaby to the bottom, replacing Wistful Wounding whic is our waekest bottom action.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 6 cards -->
+  
+      <button id="level-6-hand" onclick="accClick('acc-6-hand')" class="w3-btn w3-block w3-left-align">Level 6 Hand</button>
+      <div id="acc-6-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+                <p class="w3-pale-blue">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+                <p class="w3-pale-green">Move, Ranged Attack</p>
+                <p class="w3-pale-blue">Boss/Alamo scenarios</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 6 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario needs looting and the party does not need the healing</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 6 hand -->
+      
+  
+      <button id="level-6-deck" onclick="accClick('acc-6-deck')" class="w3-btn w3-block w3-left-align">Level 6 Deck</button>
+      <div id="acc-6-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 6 deck -->
+  
+    </div> <!-- level 6 -->
+    
+    <button id="level-7" onclick="accClick('acc-7')" class="w3-btn w3-block w3-left-align">Level 7</button>
+    <div id="acc-7" class="w3-container w3-hide">
+    
+      <button id="level-7-new" onclick="accClick('acc-7-new')" class="w3-btn w3-block w3-left-align">New Level 7 Cards</button>
+      <div id="acc-7-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-booming-proclamation.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Booming Proclamation lets us flip a lot of modifiers, which is the biggest positive, while also providing another top action, something we still won't complain about. On the other hand, it's bad against a lot of enemy types where it's dangerous for us to get in too close or who have Shield.</p>
+              <hr>
+              <p>Meanwhile, the bottom is an okay loss with a lot of summons but still has the same issues other losses had for us and it's not very often that the lost longevity and thus lost turns of playing Provoke Terror and Dirge will be made up for by the effect, outside of boss scenarios where it can be quite decent.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>On its own, I've found Proc to be relatively unimpressive after a reasonable amount of testing. But if you have party members who can buff all attacks for the round (for example, the Tinkerer with Enhancement Field), this action can quickly get out of control.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Allows us to spam curses at a rate of three a round at the start of a scenario to get a head start before switching to Dirge.</p>
+              <hr>
+              <p>The bottom of Nightmare Serenade is also great. Consistently adding two Curses while also letting us deal a very respectable amount of damage by flipping two modifiers, this is an appealing bottom Attack action, even when we have others like Dirge and Aria.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Nightmare Serenade is a Song we're only going to be using at the start of a scenario to top up the curse levels.<p>With our boots, it can otherwise be a reasonable-initiative Move 3 for when we don't have good targeting with the attack.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-nightmare-serenade.png">
+                <p class="w3-pale-blue"><i>Curse</i> song</p>
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-singing-arrow.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take the big negation on both top and bottom, replacing our top curse.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 7 cards -->
+  
+      <button id="level-7-hand" onclick="accClick('acc-7-hand')" class="w3-btn w3-block w3-left-align">Level 7 Hand</button>
+      <div id="acc-7-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+                <p class="w3-pale-blue">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+                <p class="w3-pale-green">Move, Ranged Attack</p>
+                <p class="w3-pale-blue">Boss/Alamo scenarios</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-green">Ranged <i>Heal</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png">
+                <p class="w3-pale-blue"><i>Curse</i> song</p>
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 7 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario needs looting and the party does not need the healing</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 7 hand -->
+      
+  
+      <button id="level-7-deck" onclick="accClick('acc-7-deck')" class="w3-btn w3-block w3-left-align">Level 7 Deck</button>
+      <div id="acc-7-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 7 deck -->
+  
+    </div> <!-- level 7 -->
+    
+    <button id="level-8" onclick="accClick('acc-8')" class="w3-btn w3-block w3-left-align">Level 8</button>
+    <div id="acc-8" class="w3-container w3-hide">
+    
+      <button id="level-8-new" onclick="accClick('acc-8-new')" class="w3-btn w3-block w3-left-align">New Level 8 Cards</button>
+      <div id="acc-8-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-commanding-presence.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The top does give us another top action which can be reasonably-powerful in the right party.</p>
+              <hr>
+              <p>Commanding Presence has a laughably-bad bottom loss for a level 8 card on this class.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>If you have an ally who will typically move into the middle of a large group of enemies safely then this will give you another top action that will do a fair amount of work. Even with that sort of ally though, you shouldn't bring this on scenarios with mostly beefy enemies.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-tranquil-trill.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>The Song on Trill, however, can be very useful for healing when we're out of combat (during combat, Dirge or Ditty will typically be more effective).</p>
+              <hr>
+              <p>Tranquil Trill's bottom is exceptionally difficult for us to use effectively, even with our solo scenario item, and thus isn't very appealing.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Thus, if our party lacks healing, Trill is a very reasonable choice.</p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-tranquil-trill.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-soothing-lullaby.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">Given that the tank is often more than 3 away and the number of enemies with retaliate at this level we are going to take Tranquil Trill. But there is certainly a case for Commanding Presence, replacing Soothing Lullaby.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 8 cards -->
+  
+      <button id="level-8-hand" onclick="accClick('acc-8-hand')" class="w3-btn w3-block w3-left-align">Level 8 Hand</button>
+      <div id="acc-8-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-tranquil-trill.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+                <p class="w3-pale-blue">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-pale-green">Ranged <i>Disarm</i> AoE</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+                <p class="w3-pale-green">Move, Ranged Attack</p>
+                <p class="w3-pale-blue">Boss/Alamo scenarios</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png">
+                <p class="w3-pale-blue"><i>Curse</i> song</p>
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 8 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario needs looting, we would drop one of our songs, probably Defensive Ditty unless we want it for a Redguard.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 8 hand -->
+      
+  
+      <button id="level-8-deck" onclick="accClick('acc-8-deck')" class="w3-btn w3-block w3-left-align">Level 8 Deck</button>
+      <div id="acc-8-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-tranquil-trill.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 8 deck -->
+  
+    </div> <!-- level 8 -->
+    
+    <button id="level-9" onclick="accClick('acc-9')" class="w3-btn w3-block w3-left-align">Level 9</button>
+    <div id="acc-9" class="w3-container w3-hide">
+    
+      <button id="level-9-new" onclick="accClick('acc-9-new')" class="w3-btn w3-block w3-left-align">New Level 9 Cards</button>
+      <div id="acc-9-new" class="w3-container w3-hide">
+        <h3 class="w3-light-grey">New Cards</h3>
+        <div class="w3-flex" style="gap:4px;flex-direction:column">
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-captivating-performance.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>First of all, the top Song is very good, a significant upgrade to Power Ballad, although not all parties will notice the difference. If your party has a lot of AOE attacks, however, you'll find yourself wanting to activate this often enough.</p>
+              <hr>
+              <p>The biggest dissuasion from using the top comes in the form of the bottom action (although you still can and should use the top sometimes with certain allies). This bottom action is just insane - easily Stunning 2-3 targets each time with a non-loss action.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Captivating Performance doesn't make our life any easier, but the sheer power level of this card at least makes the choice easy.<p>Combining this bottom and Provoke Terror will all you to Stun the vast majority of most rooms in most scenarios, which is just absurd for one character to be able to do without spending any losses.</p.</p>
+            </div>
+          </div>
+  
+          <div class="w3-card-4">
+            <div class="w3-container w3-cell">
+              <img class="card-med" src="images/character-ability-cards/ss/gh-shadow-puppets.png">
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              <p>Having such a large top move works well to allow us to position ourselves for our non-move bottom actions. And having a nice added bonus of being able to make some number of enemies attack other enemies is really sweet.</p>
+              <hr>
+              <p>The bottom is pretty powerful but is by far less compelling than the top, even though it's a ton of bottom damage, just because it has some very strict constraints in order to actually yield worthwhile damage, and it competes with our better half of actions, which the top complements instead.</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-light-grey">
+              <p>Shadow Puppets is just a nice card to have. With our limited bottom movement, a large top move is pretty great.<p>Finally, the worst part of this card is the initiative, which is quite bad. That being said, we're pretty fine on initiative, so it's not the end of the world.</p></p>
+            </div>
+          </div>
+  
+        </div> <!-- new cards -->
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Picks</h3>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-captivating-performance.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-throw-voice.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey ">We take the AoE <i>Stun</i> without an attack template, replacing the <i>Disarm</i> with one.</div>
+            </div>
+  
+          </div>
+        </div> <!-- new picks -->
+        <p></p>
+      </div> <!-- new level 9 cards -->
+  
+      <button id="level-9-hand" onclick="accClick('acc-9-hand')" class="w3-btn w3-block w3-left-align">Level 9 Hand</button>
+      <div id="acc-9-hand" class="w3-container w3-hide">
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Standard Hand</h3>
+          <p></p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+    
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png">
+                <p class="w3-pale-green">Primary song</p>
+                <p class="w3-pale-red">Never used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-tranquil-trill.png">
+                <p class="w3-pale-green">Healing song</p>
+                <p class="w3-pale-blue">Rarely used</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png">
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+                <p class="w3-pale-blue">Ranged Attack</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png">
+                <p class="w3-pale-green">Move, Ranged Attack</p>
+                <p class="w3-pale-blue">Boss/Alamo scenarios</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="">-</p>
+                <p class="">-</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-captivating-performance.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Ranged <i>Stun</i> AoE</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png">
+                <p class="w3-pale-blue">Rarely used</p>
+                <p class="w3-pale-green">Move 4</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png">
+                <p class="w3-pale-blue">AoE <i>Immobilize</i></p>
+                <p class="w3-pale-green">Move 5</p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png">
+                <p class="w3-pale-blue">Spread <i>Disadvantage</i></p>
+                <p class="w3-pale-green">Spread <i>Curse</i></p>
+              </div>
+            </div>
+  
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell">
+                <img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png">
+                <p class="w3-pale-blue"><i>Curse</i> song</p>
+                <p class="w3-pale-green">Ranged <i>Curse</i> AoE</p>
+              </div>
+            </div>
+  
+          </div>
+        </div> <!-- standard level 9 cards -->
+    
+        <div class="w3-container">
+          <h3 class="w3-light-grey">Sideboard Cards</h3>
+          <p>These are cards that may be swapped in based on quest requirements</p>
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+            <div class="w3-card-4">
+              <div class="w3-container w3-cell card-med">
+                <header class="w3-light-grey"><p>Take</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-wistful-wounding.png">
+                <p class="w3-pale-red">Never used</p>
+                <p class="w3-pale-green">Ranged Attack, <i>Loot</i></p>
+              </div>
+              <div class="w3-container w3-cell">
+                <header class="w3-light-grey"><p>Replace</p></header>
+                <img class="card-small" src="images/character-ability-cards/ss/gh-ss-back.png">
+                <p class="w3-light-grey">-</p>
+                <p class="w3-light-grey">-</p>
+              </div>
+              <div class="w3-container w3-cell w3-cell-middle w3-light-grey card-med">Scenario needs looting, we would drop one of our songs, probably Defensive Ditty unless we want it for a Redguard.</div>
+            </div>
+  
+          </div>
+        </div> <!-- sideboard cards -->
+      </div> <!-- level 9 hand -->
+      
+  
+      <button id="level-9-deck" onclick="accClick('acc-9-deck')" class="w3-btn w3-block w3-left-align">Level 9 Deck</button>
+      <div id="acc-9-deck" class="w3-container w3-hide">
+        <div class="w3-container">
+          <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+             <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-call-to-action.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-defensive-ditty.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-marching-beat.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-nimble-knife.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-power-ballad.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-singing-arrow.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-song-of-speed.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-throw-voice.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-tuning-the-outcome.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-unending-chant.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-warding-dagger.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></div>           <div class="w3-container w3-cell w3-khaki"><img class="card-med" src="images/character-ability-cards/ss/gh-soothing-lullaby.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-change-tempo.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-melody-and-harmony.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-provoke-terror.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-nightmare-serenade.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-tranquil-trill.png"></div>           <div class="w3-container w3-cell w3-pale-grey"><img class="card-med" src="images/character-ability-cards/ss/gh-captivating-performance.png"></div>
+          </div>
+        </div>
+      </div>  <!-- level 9 deck -->
+  
+    </div> <!-- level 9 -->
+    
+  </div> <!-- build deck -->
+  
+  <!-- Enhancements -->
+  <button id="enhancements" onclick="accClick('acc-enhancements')" class="w3-btn w3-block w3-left-align"><h2>Enhancements</h2></button>
+  <div id="acc-enhancements" class="w3-container w3-hide">
+    <table class="w3-table w3-striped w3-border">
+      <tr><td><img class="card-small" src="images/character-ability-cards/ss/gh-wistful-wounding.png"></td><td>bottom</td><td><i>Wound</i></td><td>Adding <i>Wound</i> to this card gives it some longevity, the range is probably sufficient without an enhancement but if you have the cash.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ss/gh-change-tempo.png"></td><td>bottom</td><td><i>Jump</i></td><td>As another early to mid-game enhancement. The Soothsinger has no jump cards (except for Shadow Puppets [9] which isn’t that useful and comes too late). So this one is worth considering.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ss/gh-disorienting-dirge.png"></td><td>bottom</td><td><i>Curse</i></td><td>This enhancement is expensive but it's also really, really powerful. What's funny about this enhancement is that typically you enhance actions and then use them more than before, but enhancing this action will actually lead to using the action less than before. Still, that's obviously not a bad thing as it just means more enemy attacks that deal no damage.</td></tr>
+      <tr><td><img class="card-small" src="images/character-ability-cards/ss/gh-provoke-terror.png"></td><td>top</td><td>Add Hex</td><td></td></tr>
+    </table>
+  </div> <!-- enhancements -->
+  
+  <!-- Perks -->
+  <button id="perks" onclick="accClick('acc-perks')" class="w3-btn w3-block w3-left-align"><h2>Perks</h2></button>
+  <div id="acc-perks" class="w3-container w3-hide">
+
+    <div class="w3-light-grey">To be honest, your perks don’t matter a lot because you don’t attack all that much. If you are doing an attack, it means either: (1) there’s not much else for you to do that turn; or (2) your party really needs that extra damage that turn. In both situations, you just want to maximise your damage values. The Soothsinger actually has a very numerically strong deck (it’s what makes Nightmare Serenade [7] so much better than Singing Arrow [1]).</div>
+    <table class="w3-table w3-border">
+      <tr><td width="250px">Consistency</td><td>Remove 2x -1</td></tr>
+      <tr><td width="250px">Tumult</td><td>Replace -1 with +0 <i>Stun</i></td></tr>
+      <tr><td width="250px">Harmony</td><td>Remove -2</td></tr>
+      <tr><td width="250px">Dissonance</td><td>Replace +0 with +2 <i>Curse</i></td></tr>
+      <tr><td width="250px">Clamour</td><td>Replace +0 with +3 <i>Muddle</i></td></tr>
+      <tr><td width="250px">Incantation</td><td>Add 2 rolling <i>Curse</i></td></tr>
+      <tr><td width="250px">Retune</td><td>Add 3x rolling +1</td></tr>
+      <tr><td width="250px">Lethargy</td><td>Replace +0 with +1 <i>Disarm</i></td></tr>
+      <tr><td width="250px">Power Chord</td><td>Reaplce 2x +1 with a +4</td></tr>
+      <tr><td width="250px">Discord</td><td>Replace +0 with +2 <i>Poison</i></td></tr>
+      <tr><td width="250px">Refrain</td><td>Replace +0 with +1 <i>Immobilise</i></td></tr>
+    </table><br>
+
+  </div> <!-- perks -->
+
+  <!-- Items -->
+  <button id="items" onclick="accClick('acc-items')" class="w3-btn w3-block w3-left-align"><h2>Items</h2></button>
+  <div id="acc-items" class="w3-container w3-hide">
+    <div class="w3-container w3-light-grey">The Soothsinger rarely attacks, and rarely gets attacked. This means you don’t need offensive items, and you don’t need damage mitigation items. All you need are utility cards that will let you play more negation cards at better times.</div>
+  
+    <button id="items-starting" onclick="accClick('acc-items-starting')" class="w3-btn w3-block w3-left-align"><h4>Starting</h4></button>
+    <div id="acc-items-starting" class="w3-container w3-hide">
+      <div class="w3-container w3-light-grey"><p></p></div>
+      <div class="w3-flex" style="gap:8px;flex-wrap:wrap">
+      
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-017-empowering-talisman.png">
+          <p class="w3-container">Bring back a stam pot</p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-016-cloak-of-pockets.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-146-masters-lute.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-001-boots-of-striding.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-013-minor-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-034-major-stamina-potion.png">
+          <p class="w3-container"></p>
+        </div>
+        
+        <div class="w3-card-4" style="width:250px">
+          <img class="card-med" src="images/items/gh-042-ring-of-haste.png">
+          <p class="w3-container"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- items -->
+    
+</div> <!-- body -->
+
+<footer class="w3-container w3-teal">
+  <div style="font-size:0.8rem">Negation based on Trang VP build (<a href="https://boardgamegeek.com/thread/1809751/music-note-class-depth-strategybuild-guide-class-s">https://boardgamegeek.com/thread/1809751/music-note-class-depth-strategybuild-guide-class-s</a>)</div>
+</footer>
+
+</body>
+</html>
+  

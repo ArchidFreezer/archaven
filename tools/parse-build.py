@@ -329,7 +329,7 @@ def html_new_card(id, data):
 
 def html_choices(level):
   choices=jmespath.search(f"levels[?level == `{level}`].choices[].[label,overview]", jbuild)
-  if len(choices) > 0:
+  if not choices is None and len(choices) > 0:
     hf.write(f'''
       <button id="level-{level}-choices" onclick="accClick('acc-{level}-choices')" class="w3-btn w3-block w3-left-align">Level {level} Choices</button>
       <div id="acc-{level}-choices" class="w3-container w3-hide">
